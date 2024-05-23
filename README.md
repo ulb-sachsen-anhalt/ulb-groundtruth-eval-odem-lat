@@ -1,6 +1,6 @@
 <div>
    <h1 id="title">ulb-groundtruth-eval-odem-lat</h1>
-   <p id="paragraph">OCR Groundtruth ULB VD18 Latin - OCR-D Phase III </p>
+   <p id="paragraph">OCR Grountruth ULB VD18 Latin - OCR-D Phase III </p>
    <h2>Metadata</h2>
    <dl class="grid">
       <dt id="Language">Language:</dt>
@@ -59,7 +59,7 @@
                   <th>MusicRegion</th>
                   <th>AdRegion</th>
                   <th>NoiseRegion</th>
-                  <th>UnkownRegion</th>
+                  <th>UnknownRegion</th>
                   <th>CustomRegion</th>
                   <th>TextLine</th>
                   <th>Page</th>
@@ -90,8 +90,9 @@
       </div>
    </div>
    <div id="extent">
-      <h2>Acknowledgements</h2>
-      <p>Funded by Deutsche Forschungsgemeinschaft (DFG) 2021-2024 under grant no. BE 6226/16-1.</p>
-      <img src="assets/dfg_logo_schriftzug_blau_foerderung_en.gif">
+      <h2>Extent</h2>
+      <p>
+                                In this section they can insert additional information, instructions or notes.
+                            </p>
    </div>
 </div>
