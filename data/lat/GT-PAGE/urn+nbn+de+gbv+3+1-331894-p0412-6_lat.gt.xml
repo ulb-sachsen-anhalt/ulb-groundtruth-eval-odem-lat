@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-138">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:12Z</Created>
     <LastChange>2024-01-19T13:08:12Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-331894-p0412-6_lat.jpg" imageWidth="1755" imageHeight="2527" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/0775684d-82e9-4cb0-8e03-02f34c97949a/00000412.jpg" imageWidth="1755" imageHeight="2527" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="140,228 117,2419 1635,2402 1658,227"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1660638379132_3352"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.81135774" readingDirection="left-to-right" id="TextRegion_1660638379132_3352" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1660638379132_3352" custom="readingOrder {index:1;}" orientation="-0.81135774" readingDirection="left-to-right">
       <Coords points="542,472 1566,472 1566,2043 1549,2089 541,2089 541,2031"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1498,472 1483,482 1387,481 1384,472 1362,472 1357,480 1352,482 1196,484 1058,483 1053,473 1037,473 1032,480 965,483 950,483 943,473 930,474 924,483 857,483 848,482 841,473 793,473 790,480 684,479 639,481 607,477 602,481 543,484 542,528 615,526 629,535 641,526 693,522 755,525 771,529 928,531 1001,527 1135,531 1331,526 1476,528 1479,534 1490,535 1505,525 1565,526 1566,474"/>
@@ -143,7 +158,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660638443792_3396" custom="readingOrder {index:2;}">
-          <Coords points="887,585 1103,594 1295,602 1295,639 887,639"/>
+          <Coords points="1295,639 1295,602 1104,594 1042,596 1037,592 1029,591 1018,595 931,596 927,590 919,587 887,585 887,639 904,639 954,636 1086,639 1263,639"/>
           <TextEquiv>
             <Unicode>BAVMGARTENIVS,</Unicode>
           </TextEquiv>
@@ -169,7 +184,7 @@
         <Baseline points="542,683 776,689 1438,683 1566,689"/>
         <Word id="region0011_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="571,650 657,651 657,678 571,677"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>RVS</Unicode>
           </TextEquiv>
         </Word>
@@ -321,13 +336,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660638539764_3419" custom="readingOrder {index:3;}">
-          <Coords points="964,812 1005,812 1010,818 1114,820 1206,816 1207,815 1226,815 1226,856 964,853"/>
+          <Coords points="1005,812 967,812 964,814 964,853 1226,856 1226,815 1207,815 1206,816 1114,820 1010,818"/>
           <TextEquiv>
             <Unicode>GERMANIÆ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660638544918_3423" custom="readingOrder {index:4;}">
-          <Coords points="1226,815 1295,816 1343,817 1561,828 1561,864 1355,861 1226,856"/>
+          <Coords points="1295,816 1226,815 1226,856 1355,861 1444,862 1469,861 1533,864 1561,864 1561,828 1354,818 1297,818 1295,816"/>
           <TextEquiv>
             <Unicode>CISRHENANÆ,</Unicode>
           </TextEquiv>
@@ -1294,7 +1309,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0001" custom="readingOrder {index:28;}">
-        <Coords points="1501,2031 1488,2038 1460,2042 1433,2040 1414,2031 1384,2032 1372,2033 1365,2040 1358,2042 1311,2045 1122,2041 1035,2045 1028,2035 940,2032 935,2037 934,2045 853,2043 750,2048 683,2046 679,2039 671,2034 644,2035 635,2045 579,2043 571,2031 553,2031 549,2034 548,2041 542,2042 541,2085 542,2089 708,2094 727,2096 733,2102 747,2104 756,2097 866,2092 1059,2093 1121,2102 1181,2094 1206,2102 1263,2103 1269,2099 1271,2092 1281,2092 1298,2094 1303,2103 1308,2104 1328,2102 1340,2091 1367,2087 1492,2086 1521,2091 1527,2096 1539,2096 1548,2092 1549,2033"/>
+        <Coords points="1488,2038 1460,2042 1433,2040 1414,2031 1384,2032 1372,2033 1365,2040 1358,2042 1311,2045 1122,2041 1035,2045 1028,2035 940,2032 935,2037 934,2045 853,2043 750,2048 683,2046 679,2039 671,2034 644,2035 635,2045 579,2043 571,2031 553,2031 549,2034 548,2041 542,2042 541,2085 542,2089 1353,2089 1367,2087 1492,2086 1509,2089 1548,2089 1549,2033 1501,2031"/>
         <Baseline points="541,2079 750,2087 1238,2088 1458,2076 1548,2081"/>
         <Word id="region0012_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="546,2081 752,2084 752,2047 750,2048 683,2046 679,2039 671,2034 644,2035 635,2045 579,2043 571,2031 553,2031 549,2034 548,2041 546,2041"/>
@@ -1337,34 +1352,34 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>atque medii ævi rationes accommodatam, &amp;&#13;
-Lib. VI. c. 2. notit. Germ. antiquæ p. 245. ſeq.&#13;
-explicatam, &amp; BAVMGARTENIVS, ſeu SEMLE-&#13;
-RVS ad Tom. XVII. hiſt. univerſ. Alterum,&#13;
-quod commemorare hic debeo, continetur ac-&#13;
-ceſſionibus GALLIÆ BELGICÆ, &amp; a propriis&#13;
-Belgis ita appellatæ GERMANIÆ CISRHENANÆ,&#13;
-de cujus tabulis jam dixi §58. &amp; Tertium deni-&#13;
-que, Seculo V. abolitis fere priſcis nominibus,&#13;
-GERMANIAM in Saxoniam, Franciam Orien-&#13;
-talem, Alemanniam, ſ. Sveviam, Thuringiam-&#13;
-que, &amp; Germaniam propriam diviſam eſſe,&#13;
-Francisque, Friſiis, Saxonibus, Thuringis &amp; Sue-&#13;
-vis incolas novos, Alemannos, Boioarios, &amp; Ve-&#13;
-nedos, ſive Slavos, acceſſiſſe; Hæc cum ſpe-&#13;
-ciali tabula, poſt SPENERVM, egregie common-&#13;
-ſtraverit KÖHLERVS in comment. novo, ad&#13;
-idem etiam tempus BVNAVIVM cum MASCOVIO&#13;
-diſſeruiſſe video, quum uterque decrementum &amp;&#13;
-ruinam imperii Romani poſt initam a Theodo-&#13;
-ſio inter filios diviſionem, junctisque invi-&#13;
-cem Francorum, Alemannorum atque Gotho-&#13;
-rum &amp; aliorum armis, ſtabilita nova in Italia&#13;
-regna, &amp; mutatam ipſius Germaniæ faciem ea-&#13;
-dem, qua vetuſtiorem, cura ac eruditione de-&#13;
-ſcripſerit. In quo quidem BVNAVIVS, quum&#13;
-quartum hiſtoriæ ſuæ anno I745. Volumen ede-&#13;
-ret, ad LVDOVICI INFANTIS, Germaniæ Regis,&#13;
+        <Unicode>atque medii ævi rationes accommodatam, &amp;
+Lib. VI. c. 2. notit. Germ. antiquæ p. 245. ſeq.
+explicatam, &amp; BAVMGARTENIVS, ſeu SEMLE-
+RVS ad Tom. XVII. hiſt. univerſ. Alterum,
+quod commemorare hic debeo, continetur ac-
+ceſſionibus GALLIÆ BELGICÆ, &amp; a propriis
+Belgis ita appellatæ GERMANIÆ CISRHENANÆ,
+de cujus tabulis jam dixi §58. &amp; Tertium deni-
+que, Seculo V. abolitis fere priſcis nominibus,
+GERMANIAM in Saxoniam, Franciam Orien-
+talem, Alemanniam, ſ. Sveviam, Thuringiam-
+que, &amp; Germaniam propriam diviſam eſſe,
+Francisque, Friſiis, Saxonibus, Thuringis &amp; Sue-
+vis incolas novos, Alemannos, Boioarios, &amp; Ve-
+nedos, ſive Slavos, acceſſiſſe; Hæc cum ſpe-
+ciali tabula, poſt SPENERVM, egregie common-
+ſtraverit KÖHLERVS in comment. novo, ad
+idem etiam tempus BVNAVIVM cum MASCOVIO
+diſſeruiſſe video, quum uterque decrementum &amp;
+ruinam imperii Romani poſt initam a Theodo-
+ſio inter filios diviſionem, junctisque invi-
+cem Francorum, Alemannorum atque Gotho-
+rum &amp; aliorum armis, ſtabilita nova in Italia
+regna, &amp; mutatam ipſius Germaniæ faciem ea-
+dem, qua vetuſtiorem, cura ac eruditione de-
+ſcripſerit. In quo quidem BVNAVIVS, quum
+quartum hiſtoriæ ſuæ anno I745. Volumen ede-
+ret, ad LVDOVICI INFANTIS, Germaniæ Regis,
 deceſſum, annum ſcilicet 911. progreſſus eſt,</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-258">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:00Z</Created>
     <LastChange>2024-01-19T13:10:00Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-757987-p0120-1_lat.png" imageWidth="2898" imageHeight="3392" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/b17b0268-329f-456a-a04e-1e4001955a96/00000120.jpg" imageWidth="2898" imageHeight="3392" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="202,259 186,3183 2740,3192 2752,250"/>
     </Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1658913747405_5562"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.16585237" readingDirection="left-to-right" id="TextRegion_1658913736473_5549" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1658913736473_5549" custom="readingOrder {index:0;}" orientation="-0.16585237" readingDirection="left-to-right">
       <Coords points="868,709 914,707 1082,707 1698,709 1705,1675 1705,1739 1690,2717 824,2717 816,1739 816,1675"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="869,741 873,741 877,749 886,751 1009,754 1058,757 1063,760 1237,759 1270,754 1328,756 1376,763 1424,761 1436,764 1475,764 1491,768 1565,768 1573,764 1574,756 1582,749 1582,722 1577,717 1487,718 1410,713 1379,716 1377,710 1203,710 1090,713 1076,715 1070,719 1065,714 1055,713 1050,707 1021,707 1009,712 978,711 970,707 914,707 914,709 868,709"/>
@@ -984,7 +1000,7 @@
         <Baseline points="853,2260 1364,2259 1468,2267 1689,2269"/>
         <Word id="region0009_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="893,2230 1093,2230 1092,2269 892,2269"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Hagenoae,</Unicode>
           </TextEquiv>
         </Word>
@@ -1332,47 +1348,47 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Venetiis, 1518. 8. VIII. 451. 943.&#13;
-Venetiis, Maffeo Paſſini etc. 1535. 4. VIII.&#13;
-545. 1809.&#13;
-Venetiis, Bened. de Bindoni. 1535. 4. VIII.&#13;
-549. 1844.&#13;
-Opereta de I'amore di Jeſu Chr.&#13;
-Florentiae, Anton. Miſchomini, 1482. 4.&#13;
-IX. 234. 153. b.&#13;
-Florentiae, Haer. Phil. Juntae, 1529. 4.&#13;
-VII. 46. 253.&#13;
-Florentiae, Haer. Phil. Juntae, 1529. 4. VII.&#13;
-46. 256.&#13;
-Dialogus ſeu ſolatium itineris mei.&#13;
-Venetiis, Joh. Patav. &amp;c. 1535. 12. VIII.&#13;
-550. 1847.&#13;
-Contra l'aſtrologia divinatrice.&#13;
-Venetiis, Lazar. de Soardis, 1513. 8. VIII.&#13;
-416. 644.&#13;
-Venetiis, Bernard. Stagnin. 1536. 12. VIII.&#13;
-551. 1847. -&#13;
-Trattatelli diverſi.&#13;
-Venetiis, 1511. 4. VIII. 406. 567.&#13;
-Contra la Epiſtola di Fra Hieronymo de Fer-&#13;
-rara.&#13;
-S. l. et a. 4. IX. 335. 1117.&#13;
-Joh. Michael de SAVONAROLA, Patav.&#13;
-Medic.&#13;
-Libellus de arte conficiendi aquam fort.&#13;
-Hagenoae, Valent. Kobian, 1532. 8. VII.&#13;
-110. 350.&#13;
-De febrib. de egeſtionib. de pulſib. etc.&#13;
-Venetiis, Bern. Vercellenſ. 1503. fol. VIII.&#13;
-364. 204.&#13;
-Venetiis, Luc. Anton. Giunta, 1517. fol. VIII.&#13;
-442. 868.&#13;
-De omnibus mundi balneis.&#13;
-Venetiis, Chriſt. de Penſis &amp;c. ſ. a. fol. IX.&#13;
+        <Unicode>Venetiis, 1518. 8. VIII. 451. 943.
+Venetiis, Maffeo Paſſini etc. 1535. 4. VIII.
+545. 1809.
+Venetiis, Bened. de Bindoni. 1535. 4. VIII.
+549. 1844.
+Opereta de I'amore di Jeſu Chr.
+Florentiae, Anton. Miſchomini, 1482. 4.
+IX. 234. 153. b.
+Florentiae, Haer. Phil. Juntae, 1529. 4.
+VII. 46. 253.
+Florentiae, Haer. Phil. Juntae, 1529. 4. VII.
+46. 256.
+Dialogus ſeu ſolatium itineris mei.
+Venetiis, Joh. Patav. &amp;c. 1535. 12. VIII.
+550. 1847.
+Contra l'aſtrologia divinatrice.
+Venetiis, Lazar. de Soardis, 1513. 8. VIII.
+416. 644.
+Venetiis, Bernard. Stagnin. 1536. 12. VIII.
+551. 1847. -
+Trattatelli diverſi.
+Venetiis, 1511. 4. VIII. 406. 567.
+Contra la Epiſtola di Fra Hieronymo de Fer-
+rara.
+S. l. et a. 4. IX. 335. 1117.
+Joh. Michael de SAVONAROLA, Patav.
+Medic.
+Libellus de arte conficiendi aquam fort.
+Hagenoae, Valent. Kobian, 1532. 8. VII.
+110. 350.
+De febrib. de egeſtionib. de pulſib. etc.
+Venetiis, Bern. Vercellenſ. 1503. fol. VIII.
+364. 204.
+Venetiis, Luc. Anton. Giunta, 1517. fol. VIII.
+442. 868.
+De omnibus mundi balneis.
+Venetiis, Chriſt. de Penſis &amp;c. ſ. a. fol. IX.
 301. 2797.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16585237" readingDirection="left-to-right" id="TextRegion_1658913747405_5562" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1658913747405_5562" custom="readingOrder {index:1;}" orientation="-0.16585237" readingDirection="left-to-right">
       <Coords points="1782,719 2595,719 2625,1160 2625,2113 2588,2694 1728,2694 1727,2113 1727,1160"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1782,719 1783,767 2054,766 2167,772 2169,778 2176,781 2289,776 2297,784 2309,785 2335,784 2359,777 2418,777 2420,785 2427,790 2447,789 2455,778 2516,784 2575,784 2583,778 2582,757 2578,754 2563,753 2562,746 2557,741 2474,740 2464,731 2453,731 2446,740 2370,739 2369,731 2364,726 2308,727 2302,737 2289,737 2285,727 2270,726 2263,730 2261,737 2246,737 2245,729 2240,724 2190,724 2179,726 2169,733 2129,733 2127,725 2122,721 2107,721 2100,729 2094,729 2070,725 1993,727 1988,719 1958,719 1956,727 1949,728 1914,725 1846,726 1844,719"/>
@@ -2597,40 +2613,40 @@ Venetiis, Chriſt. de Penſis &amp;c. ſ. a. fol. IX.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Trattato di tutte le coſe, che ſi mangiano.&#13;
-Venetiis, Sim. de Luere, 1508. 4. VIII.&#13;
-390. 430.&#13;
-Venetiis, Bern. Benalius, 1515. 4. VIII. 427.&#13;
-744.&#13;
-Tractato della Gotta.&#13;
-Papiae, Jac. de Burgofranco, 1505. 4. IX.&#13;
-553. 2. d.&#13;
-Georgius SAVROMANNUS.&#13;
-Oratio ad Carol. Hiſp. Reg.&#13;
-Auguſtae Vindel. Grimm et Wirſung, 1519.&#13;
-4. VI. 155. 160.&#13;
-Bononiae, Hieron. de Benedict. 1519. 4. VI.&#13;
-331. 99.&#13;
-Oratio ad Germ. Princip. de Religione concor-&#13;
-diaque communi.&#13;
-Romae, 1524. 4. VIII. 269. 221.&#13;
-Cracoviae, Hier. Vietor, 1527. 4. VI. 470.&#13;
-181.&#13;
-Hiſpaniae conſolatio.&#13;
-S. I. 1520. 4. IX. I25. 175.&#13;
-S. I. et a. 4. IX. 193. 329.&#13;
-Pamphilus SAZIUS.&#13;
-Carmina.&#13;
-S. I. et a. 4. IX. 335. 1117. b.&#13;
-SAXO Grammaticus.&#13;
-Hiſtor. Danorum Libri XVI.&#13;
-Pariſiis ap. Aſcenſ. 1514. fol. VII. 12. 698.&#13;
-Baſileae, Joh. Bebel. 1534. fol. VI. 302.&#13;
-982.&#13;
-SAXONIA.&#13;
-De laude antiquae Saxon. nunc Weſtphal. dictae.&#13;
-Coloniae, Offic. Quentel. 1514. 4. IX. 426.&#13;
-238. b.&#13;
+        <Unicode>Trattato di tutte le coſe, che ſi mangiano.
+Venetiis, Sim. de Luere, 1508. 4. VIII.
+390. 430.
+Venetiis, Bern. Benalius, 1515. 4. VIII. 427.
+744.
+Tractato della Gotta.
+Papiae, Jac. de Burgofranco, 1505. 4. IX.
+553. 2. d.
+Georgius SAVROMANNUS.
+Oratio ad Carol. Hiſp. Reg.
+Auguſtae Vindel. Grimm et Wirſung, 1519.
+4. VI. 155. 160.
+Bononiae, Hieron. de Benedict. 1519. 4. VI.
+331. 99.
+Oratio ad Germ. Princip. de Religione concor-
+diaque communi.
+Romae, 1524. 4. VIII. 269. 221.
+Cracoviae, Hier. Vietor, 1527. 4. VI. 470.
+181.
+Hiſpaniae conſolatio.
+S. I. 1520. 4. IX. I25. 175.
+S. I. et a. 4. IX. 193. 329.
+Pamphilus SAZIUS.
+Carmina.
+S. I. et a. 4. IX. 335. 1117. b.
+SAXO Grammaticus.
+Hiſtor. Danorum Libri XVI.
+Pariſiis ap. Aſcenſ. 1514. fol. VII. 12. 698.
+Baſileae, Joh. Bebel. 1534. fol. VI. 302.
+982.
+SAXONIA.
+De laude antiquae Saxon. nunc Weſtphal. dictae.
+Coloniae, Offic. Quentel. 1514. 4. IX. 426.
+238. b.
 S. I. et a. 4. IX. 182. 221.</Unicode>
       </TextEquiv>
     </TextRegion>

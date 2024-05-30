@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-87">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:44Z</Created>
     <LastChange>2024-01-19T13:07:44Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-219089-p0122-5_lat.png" imageWidth="2617" imageHeight="2862" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/30928eae-66d7-47cf-a821-87397c103351/00000122.jpg" imageWidth="2617" imageHeight="2862" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="468,222 445,2742 2513,2723 2530,195"/>
     </Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="region0015"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.158304" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:0;}">
+    <TextRegion id="region0014" custom="readingOrder {index:0;}" orientation="-0.158304" readingDirection="left-to-right">
       <Coords points="1015,657 2315,657 2315,1627 1015,1627"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="2004,657 1998,664 1844,670 1620,669 1616,658 1452,658 1448,661 1447,668 1442,669 1432,667 1426,659 1403,659 1379,666 1361,666 1357,657 1340,657 1334,665 1311,665 1307,658 1284,658 1278,665 1272,666 1206,670 1202,662 1190,661 1184,663 1177,672 1134,673 1114,668 1099,668 1066,671 1051,681 1016,682 1016,723 1088,723 1161,715 1323,709 1363,710 1396,715 1404,719 1414,720 1426,713 1451,711 1563,712 1576,713 1584,717 1602,715 1611,719 1621,712 1654,711 1663,721 1677,721 1685,712 1699,710 1875,713 1896,710 1914,712 2066,706 2089,709 2203,710 2225,717 2253,719 2284,710 2315,707 2315,672 2276,668 2269,658 2255,658 2248,668 2195,667 2189,658 2161,658 2157,664 2118,662 2116,657 2093,657 2091,662 2033,663 2029,657"/>
@@ -1037,7 +1053,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0015_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1318,1429 1509,1430 1509,1379 1468,1379 1436,1385 1425,1381 1318,1381"/>
+          <Coords points="1413,1429 1416,1429 1424,1424 1429,1429 1443,1427 1449,1429 1477,1429 1509,1428 1509,1379 1468,1379 1436,1385 1425,1381 1318,1381 1318,1429"/>
           <TextEquiv>
             <Unicode>סרזחיﬦ</Unicode>
           </TextEquiv>
@@ -1103,13 +1119,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0016_word0001" custom="readingOrder {index:1;}">
-          <Coords points="1140,1443 1132,1478 1295,1475 1294,1446 1215,1440"/>
+          <Coords points="1132,1478 1295,1475 1294,1446 1240,1441 1217,1443 1213,1442 1211,1440 1182,1441 1180,1444 1139,1444"/>
           <TextEquiv conf="0.8901425">
             <Unicode>verſiones</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0016_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1300,1441 1336,1441 1336,1438 1332,1474 1307,1475"/>
+          <Coords points="1300,1441 1336,1438 1332,1474 1307,1475"/>
           <TextEquiv conf="0.8901425">
             <Unicode>ac</Unicode>
           </TextEquiv>
@@ -1152,7 +1168,7 @@
         </Word>
         <Word id="region0014_line0016_word0009" custom="readingOrder {index:9;}">
           <Coords points="2159,1414 2192,1414 2192,1445 2159,1445"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
@@ -1188,7 +1204,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0017_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1429,1530 1428,1488 1357,1487 1352,1482 1343,1481 1333,1486 1330,1482 1306,1482 1302,1483 1298,1490 1287,1492 1282,1483 1271,1482 1259,1484 1253,1492 1244,1492 1237,1484 1225,1484 1220,1487 1219,1529"/>
+          <Coords points="1428,1488 1357,1487 1352,1482 1343,1481 1333,1486 1330,1482 1306,1482 1302,1483 1298,1490 1287,1492 1282,1483 1271,1482 1259,1484 1253,1492 1244,1492 1237,1484 1225,1484 1220,1487 1219,1529 1417,1529 1428,1525"/>
           <TextEquiv>
             <Unicode>deſcribitur:</Unicode>
           </TextEquiv>
@@ -1243,7 +1259,7 @@
         <Coords points="2292,1501 2282,1510 2284,1519 2259,1518 2240,1522 2234,1522 2226,1515 2218,1516 2212,1521 2188,1521 2180,1514 2171,1514 2164,1520 2058,1520 2037,1513 2035,1517 1993,1519 1984,1522 1971,1519 1881,1519 1775,1524 1760,1519 1736,1520 1731,1516 1719,1516 1713,1521 1663,1521 1656,1516 1645,1516 1637,1522 1575,1524 1567,1529 1549,1525 1442,1532 1436,1527 1429,1526 1409,1532 1343,1536 1198,1537 1183,1547 1161,1547 1157,1538 1141,1533 1117,1539 1112,1549 1104,1538 1087,1536 1080,1538 1071,1552 1058,1552 1052,1540 1037,1543 1028,1551 1016,1551 1015,1587 1039,1586 1055,1590 1060,1586 1068,1586 1075,1592 1082,1592 1097,1590 1109,1584 1146,1585 1155,1579 1171,1584 1184,1579 1231,1576 1281,1576 1287,1581 1298,1581 1306,1579 1309,1575 1332,1574 1337,1571 1397,1571 1415,1568 1451,1569 1569,1561 1855,1561 1917,1558 2315,1560 2315,1518 2303,1518 2304,1511"/>
         <Baseline points="1015,1578 1642,1550 2315,1550"/>
         <Word id="region0014_line0018_word0000" custom="readingOrder {index:0;}">
-          <Coords points="1141,1533 1087,1536 1052,1540 1037,1543 1034,1545 1054,1545 1075,1545 1109,1545 1160,1545 1157,1538"/>
+          <Coords points="1117,1539 1115,1542 1114,1541 1109,1541 1107,1543 1104,1538 1087,1536 1080,1538 1077,1543 1076,1541 1055,1541 1053,1542 1052,1540 1037,1543 1035,1545 1051,1545 1055,1549 1076,1549 1080,1545 1105,1545 1109,1549 1114,1549 1118,1545 1160,1545 1157,1538 1141,1533"/>
           <TextEquiv>
             <Unicode>ἐμβάδη.</Unicode>
           </TextEquiv>
@@ -1368,29 +1384,29 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ad ſe trahere ſtudet Jer. XXXI, 3. quare eam exornat ſacerdotali regio-&#13;
-que ornatu, veſtibus ſalutis &amp; pallio juſtitiæ, veluti Sponſam ornantem&#13;
-ſe inſtrumentis ſuis. Jeſ. LXI, 10. Induenda eſt Hieroſolyma myſtica ul-&#13;
-timis diebus byſſo &amp; ſerico juſtitiæ ac ſanctitatis, tanquam præparata ad&#13;
-nuptias futuras agni Apoc. XIX, 7. 8. quare dicitur Sponſa parata viro ſuo&#13;
-Apoc. XXI, 2. De caſtitate quoque ceu primaria virtute gloriatur Ec-&#13;
-cleſia vera. Eph. V, 26. 27. caſtiſſimam defendens contra quosvis adulato-&#13;
-res &amp; amaſios, veritatis impugnatores, veritatem Apoc. II, 13. Deo ſuo&#13;
-ac Sponſo cœleſti fidem ſervans. Quare falſa Eccleſia ſub figura ſcorti&#13;
-atque adulteræ proponitur in ſacris, utpote oppoſita veræ Eccleſiæ Apoc.&#13;
-XVIII, 3. Jer. LI, 7. Apoc. II. 20. XVII, 1. 3.&#13;
-VIII. f. Cidaris denique inter ornatum Divinum referenda, Diis&#13;
-enim atque Deabus tribuitur apud antiquos, ad varias Deorum perfectio-&#13;
-nes atque virtutes deſignandas. Huc refer Ezech. XXIII, 15. ubi idolis&#13;
-Babylon. etiam סרזחיﬦ tribuuntur i. e. τιάϱαι vel ϰυϱβασίαι, ut do-&#13;
-verſiones ac varii Interpretes. Ita Bacchus apud LUCIAN. in Bacch. cent&#13;
-p. 614. deſcribitur: τὺν ϰόμην ἀναδεδεμένος ἐν ποϱφυϱίδι ϰαϳ Χϱυσῖ m.&#13;
-ἐμβάδη. Purpurea tiara comam involutus ac aureos cothurnos indutus.&#13;
+        <Unicode>ad ſe trahere ſtudet Jer. XXXI, 3. quare eam exornat ſacerdotali regio-
+que ornatu, veſtibus ſalutis &amp; pallio juſtitiæ, veluti Sponſam ornantem
+ſe inſtrumentis ſuis. Jeſ. LXI, 10. Induenda eſt Hieroſolyma myſtica ul-
+timis diebus byſſo &amp; ſerico juſtitiæ ac ſanctitatis, tanquam præparata ad
+nuptias futuras agni Apoc. XIX, 7. 8. quare dicitur Sponſa parata viro ſuo
+Apoc. XXI, 2. De caſtitate quoque ceu primaria virtute gloriatur Ec-
+cleſia vera. Eph. V, 26. 27. caſtiſſimam defendens contra quosvis adulato-
+res &amp; amaſios, veritatis impugnatores, veritatem Apoc. II, 13. Deo ſuo
+ac Sponſo cœleſti fidem ſervans. Quare falſa Eccleſia ſub figura ſcorti
+atque adulteræ proponitur in ſacris, utpote oppoſita veræ Eccleſiæ Apoc.
+XVIII, 3. Jer. LI, 7. Apoc. II. 20. XVII, 1. 3.
+VIII. f. Cidaris denique inter ornatum Divinum referenda, Diis
+enim atque Deabus tribuitur apud antiquos, ad varias Deorum perfectio-
+nes atque virtutes deſignandas. Huc refer Ezech. XXIII, 15. ubi idolis
+Babylon. etiam סרזחיﬦ tribuuntur i. e. τιάϱαι vel ϰυϱβασίαι, ut do-
+verſiones ac varii Interpretes. Ita Bacchus apud LUCIAN. in Bacch. cent
+p. 614. deſcribitur: τὺν ϰόμην ἀναδεδεμένος ἐν ποϱφυϱίδι ϰαϳ Χϱυσῖ m.
+ἐμβάδη. Purpurea tiara comam involutus ac aureos cothurnos indutus.
 Similiter Diana ob caſtitatem tiaram geſtare dicitur, unde EURIPID. in</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.158304" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:1;}">
-      <Coords points="2329,2379 2329,1633 1025,1633 1025,2407 2079,2386 2084,2379 2313,2379 2309,2379"/>
+    <TextRegion id="region0015" custom="readingOrder {index:1;}" orientation="-0.158304" readingDirection="left-to-right">
+      <Coords points="2329,2379 2329,1633 1025,1633 1025,2407 2079,2386 2084,2379"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="1025,1633 1026,1684 1209,1684 1218,1688 1326,1688 1331,1683 1331,1677 1339,1675 1342,1671 1342,1638 1339,1634 1245,1634 1208,1638 1147,1638 1145,1634 1124,1634 1121,1639 1114,1640 1095,1639 1080,1634"/>
         <Baseline points="1026,1674 1331,1678"/>
@@ -1637,7 +1653,7 @@ Similiter Diana ob caſtitatem tiaram geſtare dicitur, unde EURIPID. in</Unicod
           </TextEquiv>
         </Word>
         <Word id="word_1654596988385_4416" custom="readingOrder {index:1;}">
-          <Coords points="1210,2054 1328,2038 1432,2038 1461,2042 1461,2073 1317,2072 1210,2084"/>
+          <Coords points="1210,2054 1210,2084 1317,2072 1461,2073 1461,2042 1432,2038 1328,2038 1314,2045 1302,2044 1299,2041"/>
           <TextEquiv>
             <Unicode>JUSTITIA</Unicode>
           </TextEquiv>
@@ -1728,7 +1744,7 @@ Similiter Diana ob caſtitatem tiaram geſtare dicitur, unde EURIPID. in</Unicod
           </TextEquiv>
         </Word>
         <Word id="word_1654597025001_4430" custom="readingOrder {index:6;}">
-          <Coords points="1491,2089 1507,2088 1630,2086 1637,2086 1668,2090 1668,2124 1556,2124 1491,2123"/>
+          <Coords points="1630,2086 1621,2089 1507,2088 1491,2089 1491,2123 1556,2124 1668,2124 1668,2090 1662,2090 1656,2095 1643,2095 1639,2093 1637,2086"/>
           <TextEquiv>
             <Unicode>BEGER.</Unicode>
           </TextEquiv>
@@ -2136,7 +2152,7 @@ Similiter Diana ob caſtitatem tiaram geſtare dicitur, unde EURIPID. in</Unicod
         </Word>
         <Word id="region0015_line0015_word0008" custom="readingOrder {index:8;}">
           <Coords points="2276,2338 2303,2338 2303,2369 2276,2369"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
         </Word>
@@ -2145,20 +2161,20 @@ Similiter Diana ob caſtitatem tiaram geſtare dicitur, unde EURIPID. in</Unicod
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Hecub. v. 493.&#13;
-Αϱζέμιδός τε Θεᾶς&#13;
-Χϱυσέαν ἅμπυϰα&#13;
-Τόξα τε τʹ ἐυλογήσω.&#13;
-Dianæque Deæ&#13;
-Auream mitram&#13;
-Arcusque celebrabo.&#13;
-Quare virtutes pro Diis habitæ apud antiquos, mitris &amp; pileis ornatæ pin-&#13;
-guntur. JUSTITIA tiarato capite ſiſtitur in nummo apud OISEL.&#13;
-Tab. LXII. n. 6. nec non BEGER. Num. Imper. Rom. Tab. XVII. n. 16.&#13;
-CLEMENTIA quoque eodem ornatu apparet in nummo apud OISEL.&#13;
-Tab. LXIII. n.3. PAX ſimiliter in nummo Auguſti, apud eund. Tab.&#13;
-LXXI. n. 10. PIETAS cum peplo ac mitra exhibetur in nummis Druſi&#13;
-&amp; Jul. Cæſaris &amp;c. apud eundem Tab. LXXVI. n.4. 6. 7. 8. Maxime au-&#13;
+        <Unicode>Hecub. v. 493.
+Αϱζέμιδός τε Θεᾶς
+Χϱυσέαν ἅμπυϰα
+Τόξα τε τʹ ἐυλογήσω.
+Dianæque Deæ
+Auream mitram
+Arcusque celebrabo.
+Quare virtutes pro Diis habitæ apud antiquos, mitris &amp; pileis ornatæ pin-
+guntur. JUSTITIA tiarato capite ſiſtitur in nummo apud OISEL.
+Tab. LXII. n. 6. nec non BEGER. Num. Imper. Rom. Tab. XVII. n. 16.
+CLEMENTIA quoque eodem ornatu apparet in nummo apud OISEL.
+Tab. LXIII. n.3. PAX ſimiliter in nummo Auguſti, apud eund. Tab.
+LXXI. n. 10. PIETAS cum peplo ac mitra exhibetur in nummis Druſi
+&amp; Jul. Cæſaris &amp;c. apud eundem Tab. LXXVI. n.4. 6. 7. 8. Maxime au-
 tem LIBERTAS cujus figura frequentiſſma apud antiquos pileus &amp;</Unicode>
       </TextEquiv>
     </TextRegion>

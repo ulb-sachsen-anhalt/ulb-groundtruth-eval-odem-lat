@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-260">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:02Z</Created>
     <LastChange>2024-01-19T13:10:02Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-761903-p0209-1_lat.png" imageWidth="1735" imageHeight="2760" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/7bd496c5-53a9-4b3b-99c7-dc5f6dbabf63/00000209.jpg" imageWidth="1735" imageHeight="2760" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="61,251 77,2659 1521,2677 1516,263"/>
     </Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.26603368" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.26603368" type="heading" readingDirection="left-to-right">
       <Coords points="162,504 1078,504 1078,705 162,705"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="216,505 212,515 187,507 162,508 162,563 184,563 188,572 201,574 215,572 220,561 458,559 610,553 677,553 711,554 717,557 794,557 799,552 799,527 796,523 764,520 760,511 746,508 622,508 503,512 501,504 452,505 447,511 441,511 436,505 420,505 415,514 360,515 330,512 309,514 306,504"/>
@@ -113,12 +129,12 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Spiſſa te nitidum coma,&#13;
-Puro te ſimilem, Telephe, Veſpero,&#13;
+        <Unicode>Spiſſa te nitidum coma,
+Puro te ſimilem, Telephe, Veſpero,
 Tempeſtiva petit Rhode:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.26603368" type="heading" readingDirection="left-to-right" id="TextRegion_1658729375657_255" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658729375657_255" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.26603368" type="heading" readingDirection="left-to-right">
       <Coords points="219,708 690,708 1137,712 1137,754 690,769 219,769"/>
       <TextLine id="line_1658729388360_268" custom="readingOrder {index:0;}">
         <Coords points="219,711 340,709 557,708 1137,712 1137,754 540,769 219,768"/>
@@ -166,7 +182,7 @@ Tempeſtiva petit Rhode:</Unicode>
         <Unicode>Me lentus Glycerae torret amor meae.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.26603368" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="0.26603368" readingDirection="left-to-right">
       <Coords points="162,824 681,824 681,1391 162,1391"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="196,825 192,828 190,836 162,836 163,871 438,864 532,865 555,868 566,866 574,874 584,874 597,868 613,866 652,863 681,865 680,827 612,829 604,824 586,824 582,830 484,828 292,832 287,824 269,825 265,832 261,833 253,825"/>
@@ -650,22 +666,22 @@ Tempeſtiva petit Rhode:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>nulli de coma uncta cogitant.&#13;
- —26. Suavis formoſi iuvenis&#13;
-cum Veſpero, ſtella Veneris&#13;
-comparatio. Laudant Virg.&#13;
-Aen. VIII. 589 ſqq. adde Senec.&#13;
-Hippol. 750 ſqq. Quint. Cal.&#13;
-V. 131. Suaviſſime autem eam&#13;
-adhibuit Plato ep. XXI. (A. Br.&#13;
-I. 173.) Αστὴϱ πϱὶυ μὲν ἔλαμ-&#13;
-πες ἐνὶ ϛωοῖσιν ἐῷος, νῦν δȣ ϑα-&#13;
-νὼν λάμπεις ἕσπεϱος ἐν φϑιμέ-&#13;
-νοις.— puro, recens e mari&#13;
+        <Unicode>nulli de coma uncta cogitant.
+ —26. Suavis formoſi iuvenis
+cum Veſpero, ſtella Veneris
+comparatio. Laudant Virg.
+Aen. VIII. 589 ſqq. adde Senec.
+Hippol. 750 ſqq. Quint. Cal.
+V. 131. Suaviſſime autem eam
+adhibuit Plato ep. XXI. (A. Br.
+I. 173.) Αστὴϱ πϱὶυ μὲν ἔλαμ-
+πες ἐνὶ ϛωοῖσιν ἐῷος, νῦν δȣ ϑα-
+νὼν λάμπεις ἕσπεϱος ἐν φϑιμέ-
+νοις.— puro, recens e mari
 exorto, vel ſimpliciter, ſplen-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.26603368" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;}" orientation="0.26603368" readingDirection="left-to-right">
       <Coords points="701,813 1219,813 1219,1341 701,1341"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1031,813 1019,825 871,823 858,824 842,830 765,829 757,819 711,820 706,828 701,830 701,864 802,864 817,859 841,858 868,863 885,861 902,867 910,861 935,859 979,860 983,866 995,867 1002,860 1009,859 1011,865 1025,866 1034,863 1037,858 1086,857 1093,861 1135,858 1137,863 1145,865 1156,862 1158,858 1173,856 1218,859 1218,827 1196,825 1193,813 1176,813 1170,824 1143,824 1137,814 1126,813 1118,819 1116,825 1067,824 1061,815"/>
@@ -820,7 +836,7 @@ exorto, vel ſimpliciter, ſplen-</Unicode>
         <Baseline points="702,1024 1219,1020"/>
         <Word id="region0005_line0005_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="709,1003 751,1003 752,1020 710,1020"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>me</Unicode>
           </TextEquiv>
         </Word>
@@ -1106,17 +1122,17 @@ exorto, vel ſimpliciter, ſplen-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>dido.—  27. tempeſtiva, ὡϱαία,&#13;
-πέπειϱος, in flore aetatis conſti-&#13;
-tuta.  28. Ego minus felix&#13;
-ſum in amore. Pro quo eſt:&#13;
-me lentus amor torret, ego&#13;
-lento amoris igne maceror,&#13;
-pereo (cf. ad I. 13. 8.) Gly-&#13;
-ceram aſperam, immitem exper-&#13;
-tus. De Glycera v. I. 19. 5 ſqq.&#13;
-Ridicula inſcitia βϱαδινὰν Άφϱο-&#13;
-δίταν cum lento amore h. l.&#13;
+        <Unicode>dido.—  27. tempeſtiva, ὡϱαία,
+πέπειϱος, in flore aetatis conſti-
+tuta.  28. Ego minus felix
+ſum in amore. Pro quo eſt:
+me lentus amor torret, ego
+lento amoris igne maceror,
+pereo (cf. ad I. 13. 8.) Gly-
+ceram aſperam, immitem exper-
+tus. De Glycera v. I. 19. 5 ſqq.
+Ridicula inſcitia βϱαδινὰν Άφϱο-
+δίταν cum lento amore h. l.
 componunt.</Unicode>
       </TextEquiv>
     </TextRegion>

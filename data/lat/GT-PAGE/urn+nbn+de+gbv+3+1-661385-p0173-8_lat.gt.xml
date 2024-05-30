@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-200">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:07Z</Created>
     <LastChange>2024-01-19T13:09:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-661385-p0173-8_lat.jpg" imageWidth="1629" imageHeight="2514" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/7b54bb65-6072-4f0a-9985-9c097f2e2c5e/00000173.jpg" imageWidth="1629" imageHeight="2514" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="90,135 80,2357 1319,2379 1296,170"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1673342835072_882"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.068877" type="header" readingDirection="left-to-right" id="TextRegion_1673342810872_870" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1673342810872_870" custom="readingOrder {index:0;} structure {type:header;}" orientation="1.068877" type="header" readingDirection="left-to-right">
       <Coords points="337,359 995,359 995,407 337,407"/>
       <TextLine id="line_1673342810913_873" custom="readingOrder {index:0;}">
         <Coords points="337,366 356,365 653,359 995,359 995,397 884,401 715,398 518,407 337,407"/>
@@ -50,7 +65,7 @@
         <Unicode>IO. CHRISTIANI CLAPROTH.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.068877" type="page-number" readingDirection="left-to-right" id="TextRegion_1673342810872_869" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673342810872_869" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="1.068877" type="page-number" readingDirection="left-to-right">
       <Coords points="995,359 1128,359 1128,407 995,407"/>
       <TextLine id="line_1673342810913_872" custom="readingOrder {index:0;}">
         <Coords points="995,359 1127,359 1128,406 1065,406 1063,396 995,397"/>
@@ -69,7 +84,7 @@
         <Unicode>135</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.068877" readingDirection="left-to-right" id="TextRegion_1673342830028_878" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673342830028_878" custom="readingOrder {index:2;}" orientation="1.068877" readingDirection="left-to-right">
       <Coords points="171,456 1169,456 1169,2163 171,2163"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="488,457 363,463 171,464 172,507 312,505 359,508 402,503 580,495 624,499 633,503 644,503 648,500 738,496 959,494 1062,499 1169,494 1168,463 1133,462 1115,456"/>
@@ -984,13 +999,13 @@
         </Word>
         <Word id="region0001_line0021_word0002" custom="readingOrder {index:2;}">
           <Coords points="555,1519 553,1519 538,1520 535,1527 515,1530 500,1529 501,1571 547,1570 554,1564 555,1564"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0003" custom="readingOrder {index:3;}">
           <Coords points="580,1565 867,1559 866,1528 828,1529 805,1520 798,1521 794,1528 789,1529 753,1528 750,1521 744,1518 731,1520 727,1528 649,1529 640,1519 628,1520 622,1529 599,1529 596,1522 590,1519 579,1519"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>iurisprudentiam</Unicode>
           </TextEquiv>
         </Word>
@@ -1149,7 +1164,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673343241106_1023" custom="readingOrder {index:4;}">
-          <Coords points="807,1744 1057,1745 1058,1772 1009,1773 838,1775 808,1762"/>
+          <Coords points="808,1762 838,1775 1009,1773 1058,1772 1057,1745 956,1747 807,1744"/>
           <TextEquiv>
             <Unicode>FABRICIO</Unicode>
           </TextEquiv>
@@ -1425,7 +1440,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0031_word0003" custom="readingOrder {index:3;}">
-          <Coords points="953,2072 1161,2068 1161,2065 1156,2099 953,2099"/>
+          <Coords points="953,2072 953,2072 1161,2068 1161,2065"/>
           <TextEquiv>
             <Unicode>SENCKEN-</Unicode>
           </TextEquiv>
@@ -1435,7 +1450,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0032" custom="readingOrder {index:31;}">
-        <Coords points="171,2120 172,2159 177,2164 344,2163 377,2164 384,2167 433,2163 516,2169 674,2164 684,2167 722,2165 734,2162 840,2161 958,2164 1012,2172 1071,2166 1169,2164 1168,2121 1159,2120 1054,2122 1037,2124 1028,2133 1025,2124 1020,2120 932,2116 698,2119 554,2126 440,2120 403,2125 397,2116"/>
+        <Coords points="172,2159 176,2163 344,2163 433,2163 730,2163 734,2162 840,2161 918,2163 1168,2163 1168,2121 1159,2120 1054,2122 1037,2124 1028,2133 1025,2124 1020,2120 932,2116 698,2119 554,2126 440,2120 403,2125 397,2116 171,2120"/>
         <Baseline points="172,2154 525,2159 836,2151 1025,2159 1169,2155"/>
         <Word id="region0001_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="226,2130 396,2127 397,2159 227,2162"/>
@@ -1450,7 +1465,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673343415400_1084" custom="readingOrder {index:2;}">
-          <Coords points="728,2122 876,2116 910,2116 960,2117 988,2118 1020,2120 1039,2123 1040,2154 989,2155 877,2157 729,2156"/>
+          <Coords points="728,2122 729,2156 877,2157 989,2155 1040,2154 1039,2123 1037,2124 1028,2133 1025,2124 1020,2120 949,2116 918,2116 850,2117"/>
           <TextEquiv>
             <Unicode>KOEHLERI,</Unicode>
           </TextEquiv>
@@ -1500,7 +1515,7 @@ COVII, TREVERI, SCHMAVSII, SENCKEN-
 BERGII, HEVMANNI, KOEHLERI, GES-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.068877" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1673342835072_883" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1673342835072_883" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="1.068877" type="signature-mark" readingDirection="left-to-right">
       <Coords points="171,2163 911,2163 911,2219 171,2219"/>
       <TextLine id="region0001_line0033" custom="readingOrder {index:0;}">
         <Coords points="637,2166 625,2171 627,2213 633,2219 797,2217 802,2212 802,2187 796,2182 746,2182 739,2174 731,2174 721,2182 720,2168 716,2165 681,2168 674,2165"/>
@@ -1519,7 +1534,7 @@ BERGII, HEVMANNI, KOEHLERI, GES-</Unicode>
         <Unicode>I4</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.068877" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673342835072_882" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673342835072_882" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="1.068877" type="catch-word" readingDirection="left-to-right">
       <Coords points="911,2163 1169,2163 1169,2219 911,2219"/>
       <TextLine id="region0001_line0034" custom="readingOrder {index:0;}">
         <Coords points="1000,2177 995,2182 996,2211 1007,2219 1169,2218 1168,2174"/>

@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-277">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:14Z</Created>
     <LastChange>2024-01-19T13:10:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-789127-p0244-9_lat.jpg" imageWidth="2039" imageHeight="3027" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/e8168f72-4497-43f4-b5d8-33c2725a5549/00000244.jpg" imageWidth="2039" imageHeight="3027" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="206,257 159,2908 1920,2926 1931,252"/>
     </Border>
@@ -69,7 +85,7 @@
         <RegionRefIndexed index="55" regionRef="region_1677230438595_728"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1677230177531_596" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1677230177531_596" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="697,510 697,541 771,541 771,510"/>
       <TextLine id="line_1677230177704_599" custom="readingOrder {index:0;}">
         <Coords points="697,510 697,541 771,541 771,510"/>
@@ -87,24 +103,24 @@
         <Unicode>240</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1677230184283_605" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1677230184283_605" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="875,499 875,532 1668,518 1668,485"/>
       <TextLine id="line_1677230184453_608" custom="readingOrder {index:0;}">
-        <Coords points="875,499 875,532 1668,524 1668,491"/>
+        <Coords points="875,532 1668,518 1668,491 875,499"/>
         <Word id="word_1677230195323_620" custom="readingOrder {index:0;}">
-          <Coords points="875,499 1183,499 1183,532 875,532"/>
+          <Coords points="1183,499 875,499 875,532 1183,528"/>
           <TextEquiv>
             <Unicode>HEXANDRIA.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1677230195323_619" custom="readingOrder {index:1;}">
-          <Coords points="1183,499 1508,499 1508,532 1183,532"/>
+          <Coords points="1508,499 1183,499 1183,528 1508,525"/>
           <TextEquiv>
             <Unicode>MONOGYNIA.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1677230192936_615" custom="readingOrder {index:2;}">
-          <Coords points="1510,488 1670,488 1670,521 1510,521"/>
+          <Coords points="1510,521 1668,521 1668,491 1510,492"/>
           <TextEquiv>
             <Unicode>Allium.</Unicode>
           </TextEquiv>
@@ -117,7 +133,7 @@
         <Unicode>HEXANDRIA. MONOGYNIA. Allium.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647942744850_4836" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1647942744850_4836" custom="readingOrder {index:2;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="651,577 819,574 819,663 653,666"/>
       <TextLine id="line_1647943284171_5134" custom="readingOrder {index:0;}">
         <Coords points="654,582 751,582 751,624 654,624"/>
@@ -135,7 +151,7 @@
         <Unicode>Cepa.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647942751257_4843" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1647942751257_4843" custom="readingOrder {index:3;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,574 964,571 964,660 819,663"/>
       <TextLine id="line_1647943286617_5137" custom="readingOrder {index:0;}">
         <Coords points="835,578 953,578 953,622 835,622"/>
@@ -159,7 +175,7 @@
         <Unicode>31. A.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647942751257_4842" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1647942751257_4842" custom="readingOrder {index:4;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,571 1836,557 1837,646 964,660"/>
       <TextLine id="line_1647943291807_5140" custom="readingOrder {index:0;}">
         <Coords points="969,577 1825,559 1832,604 973,618"/>
@@ -176,7 +192,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1647943341085_5178" custom="readingOrder {index:2;}">
-          <Coords points="1203,568 1331,568 1331,598 1203,598"/>
+          <Coords points="1203,598 1331,598 1331,569 1203,572"/>
           <TextEquiv>
             <Unicode>inferne</Unicode>
           </TextEquiv>
@@ -194,7 +210,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1647943347829_5187" custom="readingOrder {index:5;}">
-          <Coords points="1743,564 1830,564 1830,599 1743,599"/>
+          <Coords points="1743,564 1743,599 1830,599 1830,591 1825,564"/>
           <TextEquiv>
             <Unicode>foliis</Unicode>
           </TextEquiv>
@@ -206,7 +222,7 @@
       <TextLine id="line_1647943295133_5143" custom="readingOrder {index:1;}">
         <Coords points="973,628 1142,628 1142,651 973,651"/>
         <Word id="word_1647943350861_5190" custom="readingOrder {index:0;}">
-          <Coords points="969,629 1140,629 1140,648 969,648"/>
+          <Coords points="1140,648 1140,629 973,629 973,648"/>
           <TextEquiv>
             <Unicode>teretibus.</Unicode>
           </TextEquiv>
@@ -216,16 +232,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſcapo nudo inferne ventricoſo longiore foliis&#13;
+        <Unicode>ſcapo nudo inferne ventricoſo longiore foliis
 teretibus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943001690_4961" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1647943001690_4961" custom="readingOrder {index:5;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="639,663 819,659 819,746 640,746"/>
       <TextLine id="line_1647943297929_5146" custom="readingOrder {index:0;}">
         <Coords points="649,666 773,666 773,706 649,706"/>
         <Word id="word_1647943354167_5193" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="655,663 755,663 755,700 655,700"/>
+          <Coords points="655,700 755,700 755,666 655,666"/>
           <TextEquiv>
             <Unicode>Moly.</Unicode>
           </TextEquiv>
@@ -238,18 +254,18 @@ teretibus.</Unicode>
         <Unicode>Moly.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943007430_4967" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1647943007430_4967" custom="readingOrder {index:6;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,659 964,656 964,746 819,746"/>
       <TextLine id="line_1647943299858_5149" custom="readingOrder {index:0;}">
         <Coords points="836,668 957,668 957,700 836,700"/>
         <Word id="word_1647943356492_5196" custom="readingOrder {index:0;}">
-          <Coords points="835,668 883,668 883,702 835,702"/>
+          <Coords points="836,668 836,700 883,700 883,668"/>
           <TextEquiv>
             <Unicode>32.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943358000_5199" custom="readingOrder {index:1;}">
-          <Coords points="912,666 953,666 953,702 912,702"/>
+          <Coords points="953,668 912,668 912,700 953,700"/>
           <TextEquiv>
             <Unicode>A.</Unicode>
           </TextEquiv>
@@ -262,42 +278,42 @@ teretibus.</Unicode>
         <Unicode>32. A.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943015509_4975" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1647943015509_4975" custom="readingOrder {index:7;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,656 1836,642 1837,737 964,737"/>
       <TextLine id="line_1647943305123_5152" custom="readingOrder {index:0;}">
         <Coords points="980,668 1825,649 1832,681 980,691"/>
         <Word id="word_1647943359977_5202" custom="readingOrder {index:0;}">
-          <Coords points="972,666 1070,666 1070,699 972,699"/>
+          <Coords points="1070,666 1068,666 980,668 980,691 1070,689"/>
           <TextEquiv>
             <Unicode>ſcapo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943361481_5205" custom="readingOrder {index:1;}">
-          <Coords points="1095,668 1176,668 1176,691 1095,691"/>
+          <Coords points="1176,668 1095,668 1095,689 1176,688"/>
           <TextEquiv>
             <Unicode>nudo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943364079_5208" custom="readingOrder {index:2;}">
-          <Coords points="1202,661 1462,661 1462,694 1202,694"/>
+          <Coords points="1462,661 1291,661 1202,663 1202,688 1462,685"/>
           <TextEquiv>
             <Unicode>ſubcylincrico,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943365965_5211" custom="readingOrder {index:3;}">
-          <Coords points="1478,652 1544,652 1544,688 1478,688"/>
+          <Coords points="1544,655 1478,656 1478,685 1544,684"/>
           <TextEquiv>
             <Unicode>fol.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943368219_5214" custom="readingOrder {index:4;}">
-          <Coords points="1566,652 1751,652 1751,688 1566,688"/>
+          <Coords points="1751,652 1691,652 1566,654 1566,684 1751,681"/>
           <TextEquiv>
             <Unicode>lanceolatis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943370749_5217" custom="readingOrder {index:5;}">
-          <Coords points="1770,649 1834,649 1834,680 1770,680"/>
+          <Coords points="1770,680 1831,680 1825,649 1770,650"/>
           <TextEquiv>
             <Unicode>ſeſ-</Unicode>
           </TextEquiv>
@@ -321,7 +337,7 @@ teretibus.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647943377593_5226" custom="readingOrder {index:2;}">
-          <Coords points="1289,695 1443,695 1443,737 1289,737"/>
+          <Coords points="1443,704 1289,704 1289,737 1443,737"/>
           <TextEquiv>
             <Unicode>faſtigiata.</Unicode>
           </TextEquiv>
@@ -331,14 +347,14 @@ teretibus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſcapo nudo ſubcylincrico, fol. lanceolatis ſeſ-&#13;
+        <Unicode>ſcapo nudo ſubcylincrico, fol. lanceolatis ſeſ-
 ſilibus, vmbella faſtigiata.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943097243_5045" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1647943097243_5045" custom="readingOrder {index:8;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="640,746 819,746 819,791 640,791"/>
       <TextLine id="line_1647942757066_4858" custom="readingOrder {index:0;}">
-        <Coords points="641,748 686,743 732,744 740,754 747,754 756,744 768,744 777,755 819,754 819,793 795,792 759,793 743,800 730,793 713,794 707,790 696,790 689,796 673,792 657,798 642,800"/>
+        <Coords points="641,748 641,791 694,791 696,790 707,790 708,791 819,791 819,754 777,755 769,746 754,746 747,754 740,754 733,746 659,746"/>
         <Word id="region0004_line0003_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:11;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="736,749 646,752 647,795 666,794 673,792 680,793 691,793 696,790 707,790 711,793 815,790 814,754 777,755 771,748 751,748 747,754 740,754"/>
           <TextEquiv>
@@ -353,10 +369,10 @@ teretibus.</Unicode>
         <Unicode>ſiſtuloſum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943108443_5054" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1647943108443_5054" custom="readingOrder {index:9;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,746 964,746 964,793 819,793"/>
       <TextLine id="line_1647942760253_4879" custom="readingOrder {index:0;}">
-        <Coords points="819,754 886,753 901,748 921,748 926,744 936,749 947,750 964,749 964,790 925,792 868,797 819,793"/>
+        <Coords points="921,748 901,748 886,753 819,754 819,793 913,793 925,792 964,790 964,749 947,750 936,749 930,746 923,746"/>
         <Word id="region0004_line0003_word0001" custom="readingOrder {index:0;}">
           <Coords points="839,756 887,755 888,785 840,786"/>
           <TextEquiv conf="0.941066">
@@ -377,10 +393,10 @@ teretibus.</Unicode>
         <Unicode>Iiſtuloſum. 34. A. ſcapo nudo adaequante folia teretia ventricoſa.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943030161_4982" custom="readingOrder {index:10;}">
+    <TextRegion id="TextRegion_1647943030161_4982" custom="readingOrder {index:10;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,737 1837,737 1837,782 964,782"/>
       <TextLine id="line_1647942760253_4878" custom="readingOrder {index:0;}">
-        <Coords points="964,749 998,747 1025,751 1099,750 1137,748 1142,744 1153,744 1160,748 1202,748 1230,741 1239,745 1352,743 1370,748 1385,743 1405,743 1414,737 1426,737 1435,742 1454,736 1468,737 1474,742 1512,738 1516,740 1562,741 1580,739 1586,732 1596,732 1604,740 1728,736 1733,730 1744,730 1752,737 1768,736 1796,729 1831,729 1836,734 1838,779 1774,779 1767,775 1725,779 1720,776 1706,776 1701,779 1689,776 1674,779 1633,780 1617,778 1604,782 1517,783 1497,783 1492,780 1457,782 1449,779 1434,780 1429,783 1304,786 1295,790 1284,790 1275,785 1254,786 1248,782 1239,782 1232,788 1164,790 1157,786 1147,786 1141,790 1054,791 1043,798 1031,796 1021,791 997,789 964,790"/>
+        <Coords points="1405,743 1385,743 1370,748 1352,743 1239,745 1230,741 1202,748 1160,748 1153,744 1142,744 1137,748 1099,750 1025,751 998,747 964,749 964,782 1239,782 1248,782 1430,782 1434,780 1449,779 1457,782 1492,780 1495,782 1604,782 1617,778 1633,780 1674,779 1689,776 1701,779 1706,776 1720,776 1725,779 1767,775 1774,779 1837,779 1837,756 1836,737 1752,737 1697,737 1604,740 1601,737 1581,737 1580,739 1562,741 1516,740 1512,738 1474,742 1468,737 1450,737 1435,742 1426,737 1414,737"/>
         <Word id="word_1647943030229_4985" custom="readingOrder {index:0;}">
           <Coords points="978,748 998,747 1025,751 1076,750 1076,782 978,782"/>
           <TextEquiv conf="0.905846">
@@ -425,7 +441,7 @@ teretibus.</Unicode>
         <Unicode>Iiſtuloſum. 34. A. ſcapo nudo adaequante folia teretia ventricoſa.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943097243_5044" custom="readingOrder {index:11;}">
+    <TextRegion id="TextRegion_1647943097243_5044" custom="readingOrder {index:11;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="640,791 819,791 819,877 641,877"/>
       <TextLine id="line_1647942757067_4860" custom="readingOrder {index:0;}">
         <Coords points="642,801 657,799 673,793 689,797 696,791 707,791 714,798 733,797 743,801 754,797 819,796 819,843 806,844 800,842 795,834 741,837 723,832 695,836 642,835"/>
@@ -440,7 +456,7 @@ teretibus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647942757067_4862" custom="readingOrder {index:1;}">
-        <Coords points="642,841 703,840 711,834 727,834 733,841 796,839 806,845 819,844 819,875 815,876 725,875 704,886 688,881 674,885 661,883 656,887 644,887"/>
+        <Coords points="806,845 796,839 733,841 727,834 711,834 703,840 642,841 643,877 721,877 725,875 815,876 819,875 819,844"/>
         <Word id="word_1647943093205_5042" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="650,842 732,839 733,841 772,839 772,875 725,875 720,877 650,877"/>
           <TextEquiv conf="0.9130285">
@@ -452,14 +468,14 @@ teretibus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Schoeno- 35. A. ſcapo nudo adaequante folia teretia ſubulato-&#13;
+        <Unicode>Schoeno- 35. A. ſcapo nudo adaequante folia teretia ſubulato-
 praſum. filiformia.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943113332_5059" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1647943113332_5059" custom="readingOrder {index:12;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,793 964,793 964,875 819,875"/>
       <TextLine id="line_1647942760254_4881" custom="readingOrder {index:0;}">
-        <Coords points="819,796 877,798 925,793 964,791 964,832 963,832 878,841 819,843"/>
+        <Coords points="877,798 819,796 819,843 878,841 963,832 964,832 964,793 925,793"/>
         <Word id="region0004_line0004_word0001" custom="readingOrder {index:0;}">
           <Coords points="840,802 887,801 888,834 841,835"/>
           <TextEquiv conf="0.91793996">
@@ -480,10 +496,10 @@ praſum. filiformia.</Unicode>
         <Unicode>Schoeno- 35. A. ſcapo nudo adaequante folia teretia ſubulato-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943037046_4995" custom="readingOrder {index:13;}">
+    <TextRegion id="TextRegion_1647943037046_4995" custom="readingOrder {index:13;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,782 1837,782 1838,866 964,866"/>
       <TextLine id="line_1647942760254_4880" custom="readingOrder {index:0;}">
-        <Coords points="964,791 997,790 1021,792 1031,797 1043,799 1053,794 1141,791 1147,787 1157,787 1164,791 1232,789 1239,783 1248,783 1254,787 1278,787 1284,791 1295,791 1304,787 1429,784 1434,781 1554,784 1604,783 1617,779 1633,781 1674,780 1689,777 1701,780 1706,777 1720,777 1725,780 1767,776 1774,780 1838,780 1839,819 1545,827 1321,828 1314,837 1303,838 1294,836 1290,828 1056,835 1046,831 1032,838 1028,833 964,832"/>
+        <Coords points="1429,784 1304,787 1295,791 1284,791 1278,787 1254,787 1248,783 1239,783 1232,789 1164,791 1157,787 1147,787 1141,791 1053,794 1043,799 1031,797 1021,792 997,790 964,791 964,832 1028,833 1032,838 1046,831 1056,835 1290,828 1294,836 1303,838 1314,837 1321,828 1545,827 1837,819 1837,782 1607,782 1604,783 1554,784 1474,782 1432,782"/>
         <Word id="region0004_line0004_word0003" custom="readingOrder {index:0;}">
           <Coords points="1009,791 979,792 979,832 996,832 1078,830 1077,793 1053,794 1043,799 1031,797 1021,792"/>
           <TextEquiv conf="0.90789133">
@@ -525,7 +541,7 @@ praſum. filiformia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647942760254_4882" custom="readingOrder {index:1;}">
-        <Coords points="964,834 1004,832 1028,834 1032,839 1049,832 1058,837 1108,835 1113,832 1127,832 1132,836 1195,836 1200,841 1201,867 1197,872 1188,875 1152,876 1147,873 1136,873 1130,877 1019,880 964,877"/>
+        <Coords points="1200,841 1195,836 1132,836 1127,832 1113,832 1108,835 1058,837 1049,832 1032,839 1028,834 1004,832 964,834 964,866 1200,866"/>
         <Word id="word_1647943037114_4998" custom="readingOrder {index:0;}">
           <Coords points="984,836 1028,834 1032,839 1043,834 1052,833 1058,837 1108,835 1112,832 1127,832 1132,836 1153,836 1154,866 984,866"/>
           <TextEquiv conf="0.87484497">
@@ -537,14 +553,14 @@ praſum. filiformia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Schoeno- 35. A. ſcapo nudo adaequante folia teretia ſubulato-&#13;
+        <Unicode>Schoeno- 35. A. ſcapo nudo adaequante folia teretia ſubulato-
 praſum. filiformia.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943093135_5038" custom="readingOrder {index:14;}">
+    <TextRegion id="TextRegion_1647943093135_5038" custom="readingOrder {index:14;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="641,877 819,877 819,963 643,963"/>
       <TextLine id="line_1647942757068_4864" custom="readingOrder {index:0;}">
-        <Coords points="644,888 656,888 666,884 704,887 717,884 725,876 811,875 817,881 819,880 819,926 793,928 787,924 732,929 718,923 644,923"/>
+        <Coords points="717,884 704,887 666,884 656,888 644,888 644,923 718,923 732,929 787,924 793,928 819,926 819,880 817,881 813,877 724,877"/>
         <Word id="region0004_line0006_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="682,885 661,886 656,888 655,888 656,923 718,923 726,926 774,925 772,883 715,884 704,887"/>
           <TextEquiv>
@@ -556,7 +572,7 @@ praſum. filiformia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647942757069_4866" custom="readingOrder {index:1;}">
-        <Coords points="644,928 723,926 732,930 787,925 793,929 819,927 819,960 705,965 690,961 645,962"/>
+        <Coords points="793,929 787,925 732,930 723,926 644,928 645,962 690,961 697,963 750,963 819,960 819,927"/>
         <Word id="word_1647943083105_5036" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="676,939 759,936 760,956 730,957 697,957 690,955 676,955"/>
           <TextEquiv conf="0.9162619">
@@ -568,11 +584,11 @@ praſum. filiformia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tenuiſſi-&#13;
+        <Unicode>tenuiſſi-
 mum. bus, capitul. laxis paucifloris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943116831_5064" custom="readingOrder {index:15;}">
+    <TextRegion id="TextRegion_1647943116831_5064" custom="readingOrder {index:15;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,875 964,875 964,966 819,966"/>
       <TextLine id="line_1647942760256_4885" custom="readingOrder {index:0;}">
         <Coords points="819,880 925,875 951,879 964,878 964,918 819,926"/>
@@ -596,10 +612,10 @@ mum. bus, capitul. laxis paucifloris.</Unicode>
         <Unicode>36. A.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943042579_5004" custom="readingOrder {index:16;}">
+    <TextRegion id="TextRegion_1647943042579_5004" custom="readingOrder {index:16;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,866 1838,866 1838,928 964,961"/>
       <TextLine id="line_1647942760255_4884" custom="readingOrder {index:0;}">
-        <Coords points="964,878 987,878 1035,881 1130,879 1136,874 1147,874 1154,878 1181,877 1191,874 1229,875 1258,872 1274,863 1283,863 1291,871 1298,865 1309,864 1317,872 1366,870 1372,864 1382,863 1390,870 1401,870 1411,863 1441,861 1448,863 1544,861 1562,868 1571,868 1577,861 1590,860 1597,867 1611,867 1621,865 1629,858 1637,858 1644,868 1647,868 1649,862 1656,857 1734,855 1747,858 1753,866 1802,865 1808,858 1819,858 1826,865 1839,864 1840,896 1840,907 1492,913 1486,909 1465,914 1429,909 1415,912 1405,910 1398,915 1391,915 1351,912 1291,914 1284,910 1269,915 1230,913 1178,915 1167,920 1146,920 1139,916 1131,917 1124,921 1044,923 1037,928 1026,929 1017,923 980,922 975,918 964,918"/>
+        <Coords points="1258,872 1229,875 1191,874 1181,877 1154,878 1147,874 1136,874 1130,879 1035,881 987,878 964,878 964,918 975,918 980,922 1017,923 1026,929 1037,928 1044,923 1124,921 1131,917 1139,916 1146,920 1167,920 1178,915 1230,913 1269,915 1284,910 1291,914 1351,912 1391,915 1398,915 1405,910 1415,912 1429,909 1465,914 1486,909 1492,913 1838,907 1838,866 1753,866 1647,866 1647,868 1644,868 1642,866 1616,866 1611,867 1597,867 1596,866 1572,866 1571,868 1562,868 1556,866 1406,866 1401,870 1390,870 1385,866 1370,866 1366,870 1317,872 1311,866 1296,866 1291,871 1286,866 1268,866"/>
         <Word id="region0004_line0006_word0003" custom="readingOrder {index:0;}">
           <Coords points="992,878 970,879 971,918 975,918 979,921 1068,919 1066,880 1035,881"/>
           <TextEquiv conf="0.9155965">
@@ -647,7 +663,7 @@ mum. bus, capitul. laxis paucifloris.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647942760256_4886" custom="readingOrder {index:1;}">
-        <Coords points="964,919 975,919 980,923 1017,924 1026,930 1037,929 1046,924 1124,922 1131,918 1139,917 1146,921 1167,921 1178,916 1221,914 1269,916 1277,911 1285,911 1291,915 1351,913 1391,916 1398,916 1405,911 1415,913 1429,910 1465,915 1486,910 1492,914 1557,914 1560,918 1561,945 1551,954 1388,957 1351,956 1339,951 1335,951 1330,958 1316,953 1271,957 1260,953 1183,962 1165,963 1151,958 1141,963 1128,964 1122,968 1111,969 1103,964 1035,968 991,962 964,962"/>
+        <Coords points="1560,918 1557,914 1492,914 1486,910 1465,915 1429,910 1415,913 1405,911 1398,916 1391,916 1351,913 1291,915 1285,911 1277,911 1269,916 1221,914 1178,916 1167,921 1146,921 1139,917 1131,918 1124,922 1046,924 1037,929 1026,930 1017,924 980,923 975,919 964,919 964,961 1560,938"/>
         <Word id="word_1647943042648_5007" custom="readingOrder {index:0;}">
           <Coords points="966,924 992,923 1017,924 1026,930 1037,929 1043,925 1043,961 966,961"/>
           <TextEquiv conf="0.9326156">
@@ -677,11 +693,11 @@ mum. bus, capitul. laxis paucifloris.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tenuiſſi. 36. A, ſcapo nudo tereti inani, fol. ſubulatis filiformi-&#13;
+        <Unicode>tenuiſſi. 36. A, ſcapo nudo tereti inani, fol. ſubulatis filiformi-
 mum. bus, capitul. laxis paucifloris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943083029_5032" custom="readingOrder {index:17;}">
+    <TextRegion id="TextRegion_1647943083029_5032" custom="readingOrder {index:17;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="643,963 819,963 819,1054 645,1058"/>
       <TextLine id="line_1647942757070_4868" custom="readingOrder {index:0;}">
         <Coords points="645,963 699,963 707,969 715,970 819,965 819,1018 810,1019 793,1007 749,1009 735,1004 721,1007 645,1008"/>
@@ -708,14 +724,14 @@ mum. bus, capitul. laxis paucifloris.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Chamae-&#13;
+        <Unicode>Chamae-
 moly.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943116831_5063" custom="readingOrder {index:18;}">
+    <TextRegion id="TextRegion_1647943116831_5063" custom="readingOrder {index:18;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="819,966 964,966 964,1051 819,1054"/>
       <TextLine id="line_1647942760257_4889" custom="readingOrder {index:0;}">
-        <Coords points="819,965 928,961 941,964 964,963 964,1009 876,1010 869,1017 819,1018"/>
+        <Coords points="964,966 819,966 819,1018 869,1017 876,1010 964,1009"/>
         <Word id="region0004_line0008_word0001" custom="readingOrder {index:0;}">
           <Coords points="839,974 886,973 887,1007 840,1008"/>
           <TextEquiv conf="0.9589342">
@@ -736,7 +752,7 @@ moly.</Unicode>
         <Unicode>Chamat- 37. A. Kapo nudo ſubnullo, capſ. cernuis, fol. pla-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647943042579_5003" custom="readingOrder {index:19;}">
+    <TextRegion id="TextRegion_1647943042579_5003" custom="readingOrder {index:19;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="964,961 1843,932 1843,1037 964,1051"/>
       <TextLine id="line_1647942760257_4888" custom="readingOrder {index:0;}">
         <Coords points="964,963 991,963 1035,969 1103,965 1111,970 1122,969 1128,965 1141,964 1151,959 1165,964 1183,963 1226,957 1246,957 1252,954 1271,958 1316,954 1329,959 1335,952 1339,952 1349,957 1388,958 1511,954 1597,955 1601,955 1609,947 1623,946 1629,953 1652,953 1657,946 1663,943 1725,942 1756,944 1762,952 1770,953 1783,952 1793,944 1803,943 1809,950 1841,949 1842,993 1802,994 1787,997 1779,1003 1767,1003 1762,1000 1744,1000 1722,996 1660,997 1654,1003 1645,1003 1635,997 1511,999 1466,1001 1460,1006 1443,1007 1436,1000 1426,999 1372,1006 1366,1002 1339,1000 1148,1005 1142,1002 1104,1006 1098,1004 1063,1005 1038,1014 1027,1015 1003,1004 988,1009 964,1009"/>
@@ -805,11 +821,11 @@ moly.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſcapo nudo nudo ſubnullo, ſubnullo, capſ. capſ. cernuis, cernuis, fol. fol. pla- pla-&#13;
+        <Unicode>ſcapo nudo nudo ſubnullo, ſubnullo, capſ. capſ. cernuis, cernuis, fol. fol. pla- pla-
 nis ciliatis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" type="heading" readingDirection="left-to-right" id="TextRegion_1647942182463_4680" custom="readingOrder {index:20;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1647942182463_4680" custom="readingOrder {index:20;} structure {type:heading;}" orientation="1.6487838" type="heading" readingDirection="left-to-right">
       <Coords points="650,1101 1841,1080 1844,1229 1839,1314 631,1314 630,1240"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="972,1095 968,1100 967,1110 840,1110 759,1113 727,1118 697,1127 673,1128 650,1132 651,1161 652,1180 662,1179 669,1188 681,1187 687,1179 712,1177 862,1177 977,1174 1008,1175 1014,1183 1023,1183 1033,1175 1163,1168 1208,1169 1209,1176 1214,1179 1236,1179 1240,1177 1242,1168 1256,1165 1352,1165 1371,1172 1377,1168 1460,1165 1492,1161 1503,1175 1519,1175 1523,1163 1551,1162 1563,1164 1580,1161 1594,1164 1736,1157 1804,1161 1842,1160 1842,1156 1842,1136 1841,1113 1776,1113 1771,1103 1755,1100 1743,1102 1738,1113 1620,1114 1618,1107 1613,1103 1604,1103 1597,1106 1592,1114 1583,1116 1500,1114 1377,1119 1327,1115 1321,1105 1305,1108 1298,1116 1270,1115 1256,1118 1227,1119 1205,1116 1199,1112 1131,1121 1094,1111 1067,1113 1044,1108 993,1110 994,1096 977,1095"/>
@@ -919,10 +935,10 @@ nis ciliatis.</Unicode>
 valuulis pilo cancellato connexis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944006106_5773" custom="readingOrder {index:21;}">
+    <TextRegion id="TextRegion_1647944006106_5773" custom="readingOrder {index:21;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="631,1314 814,1314 814,1395 632,1395"/>
       <TextLine id="line_1647943982277_5698" custom="readingOrder {index:0;}">
-        <Coords points="633,1361 712,1358 714,1351 719,1346 741,1346 747,1350 752,1345 760,1345 767,1349 769,1356 814,1353 814,1393 790,1395 732,1394 692,1395 688,1398 671,1399 666,1396 634,1399"/>
+        <Coords points="769,1356 767,1349 760,1345 752,1345 747,1350 741,1346 719,1346 714,1351 712,1358 633,1361 633,1395 692,1395 732,1394 790,1395 814,1393 814,1353"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="767,1352 713,1353 712,1358 655,1360 656,1389 813,1385 812,1353 769,1356"/>
           <TextEquiv conf="0.90111756">
@@ -937,10 +953,10 @@ valuulis pilo cancellato connexis.</Unicode>
         <Unicode>candidum. 1. X. fol. ſparſis, coroll. campanulatis: intus glabris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944047956_5811" custom="readingOrder {index:22;}">
+    <TextRegion id="TextRegion_1647944047956_5811" custom="readingOrder {index:22;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1314 929,1314 929,1391 814,1391"/>
       <TextLine id="line_1647943988065_5731" custom="readingOrder {index:0;}">
-        <Coords points="814,1353 836,1352 845,1351 855,1343 882,1341 929,1339 929,1391 912,1393 903,1390 869,1390 814,1393"/>
+        <Coords points="882,1341 855,1343 845,1351 836,1352 814,1353 814,1391 850,1391 869,1390 903,1390 906,1391 929,1391 929,1339"/>
         <Word id="region0006_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="841,1360 865,1359 865,1382 841,1383"/>
           <TextEquiv conf="0.93232095">
@@ -961,10 +977,10 @@ valuulis pilo cancellato connexis.</Unicode>
         <Unicode>1. L.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944082810_5852" custom="readingOrder {index:23;}">
+    <TextRegion id="TextRegion_1647944082810_5852" custom="readingOrder {index:23;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1314 1839,1314 1840,1385 929,1385"/>
       <TextLine id="line_1647943988065_5730" custom="readingOrder {index:0;}">
-        <Coords points="929,1339 973,1339 1071,1346 1099,1344 1105,1339 1119,1337 1129,1344 1173,1344 1242,1341 1278,1332 1319,1331 1345,1338 1429,1339 1434,1335 1443,1335 1451,1339 1479,1340 1485,1333 1498,1332 1505,1340 1511,1341 1526,1339 1532,1334 1543,1334 1549,1341 1591,1340 1597,1334 1609,1334 1615,1341 1643,1338 1682,1341 1714,1340 1724,1332 1734,1332 1740,1338 1746,1338 1754,1331 1762,1330 1775,1339 1788,1339 1793,1333 1803,1333 1814,1340 1839,1339 1840,1375 1840,1380 1761,1382 1755,1379 1747,1379 1741,1384 1716,1388 1692,1384 1678,1378 1667,1380 1662,1377 1636,1382 1588,1383 1546,1382 1538,1378 1527,1381 1502,1382 1491,1378 1479,1382 1422,1381 1416,1385 1403,1386 1393,1381 1325,1381 1278,1377 1268,1378 1259,1382 1164,1390 1122,1388 1113,1383 1103,1383 1093,1389 1061,1391 1055,1395 1046,1395 1039,1388 979,1388 970,1391 961,1386 943,1391 929,1391"/>
+        <Coords points="1839,1339 1814,1340 1803,1333 1793,1333 1788,1339 1775,1339 1762,1330 1754,1331 1746,1338 1740,1338 1734,1332 1724,1332 1714,1340 1682,1341 1643,1338 1615,1341 1609,1334 1597,1334 1591,1340 1549,1341 1543,1334 1532,1334 1526,1339 1511,1341 1505,1340 1498,1332 1485,1333 1479,1340 1451,1339 1443,1335 1434,1335 1429,1339 1345,1338 1319,1331 1278,1332 1242,1341 1173,1344 1129,1344 1119,1337 1105,1339 1099,1344 1071,1346 973,1339 929,1339 929,1385 1099,1385 1103,1383 1113,1383 1116,1385 1223,1385 1259,1382 1268,1378 1278,1377 1325,1381 1393,1381 1401,1385 1416,1385 1422,1381 1479,1382 1491,1378 1502,1382 1527,1381 1538,1378 1546,1382 1588,1383 1636,1382 1662,1377 1667,1380 1678,1378 1692,1384 1698,1385 1734,1385 1741,1384 1747,1379 1755,1379 1761,1382 1839,1380 1839,1364"/>
         <Word id="region0006_line0002_word0003" custom="readingOrder {index:0;}">
           <Coords points="947,1347 1005,1345 1006,1380 948,1382"/>
           <TextEquiv>
@@ -1009,10 +1025,10 @@ valuulis pilo cancellato connexis.</Unicode>
         <Unicode>fol. ſparſis, coroll. campanulatis: intus glabris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944014015_5778" custom="readingOrder {index:24;}">
+    <TextRegion id="TextRegion_1647944014015_5778" custom="readingOrder {index:24;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="632,1395 814,1395 814,1475 633,1475"/>
       <TextLine id="line_1647943982278_5700" custom="readingOrder {index:0;}">
-        <Coords points="652,1397 666,1397 676,1405 687,1402 692,1396 750,1396 755,1399 779,1399 793,1395 814,1393 814,1439 803,1440 778,1438 745,1441 737,1451 724,1451 717,1442 634,1444 634,1406 648,1405"/>
+        <Coords points="779,1399 755,1399 750,1396 692,1396 687,1402 676,1405 666,1397 652,1397 648,1405 634,1406 634,1444 717,1442 724,1451 737,1451 745,1441 778,1438 803,1440 814,1439 814,1395 793,1395"/>
         <Word id="region0006_line0003_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="673,1403 654,1404 654,1443 717,1442 719,1445 742,1444 745,1441 778,1438 787,1438 787,1400 682,1403 676,1405"/>
           <TextEquiv conf="0.91130745">
@@ -1027,7 +1043,7 @@ valuulis pilo cancellato connexis.</Unicode>
         <Unicode>bulbifer. 2. L. fol. ſparſis, coroll. campanulatis erectis: intus</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944051829_5816" custom="readingOrder {index:25;}">
+    <TextRegion id="TextRegion_1647944051829_5816" custom="readingOrder {index:25;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1391 929,1391 929,1478 814,1478"/>
       <TextLine id="line_1647943988066_5733" custom="readingOrder {index:0;}">
         <Coords points="814,1393 869,1391 903,1391 909,1396 913,1393 929,1392 929,1435 895,1437 814,1439"/>
@@ -1051,10 +1067,10 @@ valuulis pilo cancellato connexis.</Unicode>
         <Unicode>bulbifer. 2. L. fol. ſparſis, coroll. campanulatis erectis: intus</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944088496_5861" custom="readingOrder {index:26;}">
+    <TextRegion id="TextRegion_1647944088496_5861" custom="readingOrder {index:26;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1385 1840,1385 1841,1467 929,1467"/>
       <TextLine id="line_1647943988066_5732" custom="readingOrder {index:0;}">
-        <Coords points="929,1392 943,1392 953,1388 961,1387 970,1392 979,1389 1039,1389 1046,1396 1055,1396 1061,1392 1093,1390 1103,1384 1113,1384 1123,1389 1164,1391 1259,1383 1268,1379 1278,1378 1325,1382 1393,1382 1403,1387 1416,1386 1422,1382 1479,1383 1491,1379 1503,1383 1527,1382 1538,1379 1547,1383 1588,1384 1636,1383 1662,1378 1668,1381 1678,1379 1692,1385 1716,1389 1741,1385 1748,1380 1756,1380 1761,1383 1791,1381 1840,1384 1841,1388 1841,1424 1454,1424 1427,1425 1420,1432 1409,1434 1398,1433 1388,1424 1332,1424 1230,1427 1166,1433 1162,1436 1130,1432 1074,1432 1051,1438 1036,1432 1013,1434 1003,1429 993,1433 929,1435"/>
+        <Coords points="1093,1390 1061,1392 1055,1396 1046,1396 1039,1389 979,1389 970,1392 961,1387 953,1388 943,1392 929,1392 929,1435 993,1433 1003,1429 1013,1434 1036,1432 1051,1438 1074,1432 1130,1432 1162,1436 1166,1433 1230,1427 1332,1424 1388,1424 1398,1433 1409,1434 1420,1432 1427,1425 1454,1424 1840,1424 1840,1385 1741,1385 1716,1389 1692,1385 1417,1385 1416,1386 1403,1387 1399,1385 1235,1385 1164,1391 1123,1389 1115,1385 1101,1385"/>
         <Word id="region0006_line0003_word0003" custom="readingOrder {index:0;}">
           <Coords points="945,1394 1003,1392 1004,1427 946,1429"/>
           <TextEquiv>
@@ -1096,7 +1112,7 @@ valuulis pilo cancellato connexis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943988066_5734" custom="readingOrder {index:1;}">
-        <Coords points="929,1435 993,1434 1000,1430 1013,1435 1036,1433 1051,1439 1061,1436 1119,1434 1124,1439 1125,1466 1122,1470 1102,1468 1092,1475 1063,1477 1040,1474 968,1477 961,1475 929,1475"/>
+        <Coords points="1125,1466 1124,1439 1119,1434 1061,1436 1051,1439 1036,1433 1013,1435 1000,1430 993,1434 929,1435 929,1467 1124,1467"/>
         <Word id="word_1647944088593_5864" custom="readingOrder {index:0;}">
           <Coords points="947,1441 1048,1437 1051,1439 1055,1437 1078,1437 1078,1467 947,1467"/>
           <TextEquiv conf="0.8608379">
@@ -1112,7 +1128,7 @@ valuulis pilo cancellato connexis.</Unicode>
 ſcabris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944018568_5783" custom="readingOrder {index:27;}">
+    <TextRegion id="TextRegion_1647944018568_5783" custom="readingOrder {index:27;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="633,1475 814,1475 814,1573 634,1573"/>
       <TextLine id="line_1647943982279_5702" custom="readingOrder {index:0;}">
         <Coords points="635,1491 772,1488 774,1481 779,1477 789,1476 800,1485 814,1484 814,1532 807,1533 795,1527 734,1528 733,1533 721,1536 712,1535 707,1529 701,1528 681,1531 664,1537 636,1540"/>
@@ -1139,14 +1155,14 @@ valuulis pilo cancellato connexis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>pomponi-&#13;
+        <Unicode>pomponi-
 um. uolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944056077_5821" custom="readingOrder {index:28;}">
+    <TextRegion id="TextRegion_1647944056077_5821" custom="readingOrder {index:28;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1478 929,1478 929,1563 814,1563"/>
       <TextLine id="line_1647943988067_5737" custom="readingOrder {index:0;}">
-        <Coords points="814,1484 845,1482 862,1473 895,1472 909,1476 929,1476 929,1525 880,1527 863,1531 814,1532"/>
+        <Coords points="845,1482 814,1484 814,1532 863,1531 880,1527 929,1525 929,1478 852,1478"/>
         <Word id="region0006_line0005_word0001" custom="readingOrder {index:0;}">
           <Coords points="832,1489 859,1488 860,1522 833,1523"/>
           <TextEquiv conf="0.91256905">
@@ -1167,10 +1183,10 @@ um. uolutis.</Unicode>
         <Unicode>Pomponi- 3. L. fol. ſparſis ſubulatis, flor. reflexis, coroll, re-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944111305_5876" custom="readingOrder {index:29;}">
+    <TextRegion id="TextRegion_1647944111305_5876" custom="readingOrder {index:29;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1467 1841,1467 1842,1543 929,1560"/>
       <TextLine id="line_1647943988067_5736" custom="readingOrder {index:0;}">
-        <Coords points="929,1476 961,1476 968,1478 992,1476 1077,1477 1092,1476 1102,1469 1114,1469 1125,1474 1148,1467 1194,1464 1205,1463 1212,1469 1222,1470 1231,1469 1238,1462 1251,1461 1258,1468 1271,1468 1279,1466 1286,1460 1294,1460 1303,1468 1318,1467 1337,1462 1383,1457 1411,1465 1472,1466 1500,1464 1509,1456 1523,1455 1534,1464 1563,1465 1571,1457 1579,1457 1587,1464 1631,1465 1699,1463 1734,1456 1778,1456 1788,1465 1842,1464 1842,1499 1842,1501 1842,1507 1696,1506 1623,1509 1619,1513 1608,1513 1604,1510 1572,1508 1494,1507 1381,1510 1322,1517 1318,1514 1288,1512 1204,1515 1082,1519 1062,1521 1053,1526 1047,1522 1035,1525 1031,1522 1008,1523 1002,1519 992,1519 983,1523 929,1525"/>
+        <Coords points="1125,1474 1114,1469 1102,1469 1092,1476 1077,1477 992,1476 968,1478 961,1476 929,1476 929,1525 983,1523 992,1519 1002,1519 1008,1523 1031,1522 1035,1525 1047,1522 1053,1526 1062,1521 1082,1519 1204,1515 1288,1512 1318,1514 1322,1517 1381,1510 1494,1507 1572,1508 1604,1510 1608,1513 1619,1513 1623,1509 1696,1506 1841,1506 1841,1467 1318,1467 1303,1468 1301,1467 1275,1467 1271,1468 1258,1468 1257,1467 1233,1467 1231,1469 1222,1470 1212,1469 1209,1467 1148,1467"/>
         <Word id="region0006_line0005_word0003" custom="readingOrder {index:0;}">
           <Coords points="944,1479 1002,1477 1003,1512 945,1514"/>
           <TextEquiv>
@@ -1230,14 +1246,14 @@ um. uolutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>fol. ſparſis ſubulatis, flor. reflexis, coroll. re-&#13;
+        <Unicode>fol. ſparſis ſubulatis, flor. reflexis, coroll. re-
 um. uolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944024380_5788" custom="readingOrder {index:30;}">
+    <TextRegion id="TextRegion_1647944024380_5788" custom="readingOrder {index:30;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="634,1573 814,1573 814,1657 635,1657"/>
       <TextLine id="line_1647943982284_5706" custom="readingOrder {index:0;}">
-        <Coords points="637,1578 660,1577 667,1570 682,1570 690,1576 700,1576 702,1571 707,1569 721,1568 726,1571 728,1577 751,1577 753,1570 769,1566 775,1569 777,1576 814,1577 814,1616 793,1614 713,1617 706,1613 691,1616 637,1617"/>
+        <Coords points="660,1577 637,1578 637,1617 691,1616 706,1613 713,1617 793,1614 814,1616 814,1577 777,1576 776,1573 752,1573 751,1577 728,1577 726,1573 701,1573 700,1576 690,1576 686,1573 664,1573"/>
         <Word id="region0006_line0007_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="688,1574 661,1575 660,1577 652,1577 653,1610 797,1606 796,1576 777,1576 776,1572 752,1573 751,1577 728,1577 726,1573 700,1574 700,1576 690,1576"/>
           <TextEquiv>
@@ -1249,7 +1265,7 @@ um. uolutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943982285_5708" custom="readingOrder {index:1;}">
-        <Coords points="637,1623 688,1621 690,1617 698,1614 709,1615 713,1621 814,1619 814,1654 767,1658 754,1658 746,1654 735,1654 729,1658 680,1660 671,1655 638,1656"/>
+        <Coords points="713,1621 709,1615 698,1614 690,1617 688,1621 637,1623 638,1656 671,1655 674,1657 730,1657 735,1654 746,1654 752,1657 778,1657 814,1654 814,1619"/>
         <Word id="region0006_line0008_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="712,1620 688,1620 688,1621 670,1622 671,1652 774,1649 773,1620 713,1621"/>
           <TextEquiv>
@@ -1261,11 +1277,11 @@ um. uolutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>chalcedo-&#13;
+        <Unicode>chalcedo-
 nicum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944059789_5826" custom="readingOrder {index:31;}">
+    <TextRegion id="TextRegion_1647944059789_5826" custom="readingOrder {index:31;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1563 929,1563 929,1652 814,1652"/>
       <TextLine id="line_1647943988068_5741" custom="readingOrder {index:0;}">
         <Coords points="838,1564 853,1563 889,1562 929,1563 929,1610 826,1618 814,1616 814,1577 822,1578"/>
@@ -1289,10 +1305,10 @@ nicum.</Unicode>
         <Unicode>chalcedo. 4. L. fol. ſparſis lanceolatis, flor. reflexis, coroll. reuo-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944120144_5885" custom="readingOrder {index:32;}">
+    <TextRegion id="TextRegion_1647944120144_5885" custom="readingOrder {index:32;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1560 1842,1543 1843,1631 929,1653"/>
       <TextLine id="line_1647943988068_5740" custom="readingOrder {index:0;}">
-        <Coords points="929,1563 950,1565 957,1568 1019,1565 1051,1568 1068,1566 1081,1561 1119,1562 1125,1556 1137,1556 1142,1561 1227,1560 1239,1550 1254,1549 1260,1557 1270,1557 1281,1553 1288,1547 1300,1547 1307,1555 1334,1547 1383,1545 1395,1554 1476,1551 1483,1544 1497,1543 1512,1551 1538,1551 1545,1543 1555,1542 1563,1550 1654,1551 1671,1550 1692,1542 1735,1542 1743,1546 1746,1553 1843,1552 1844,1595 1718,1598 1636,1595 1583,1601 1579,1598 1549,1596 1461,1596 1368,1600 1338,1603 1333,1607 1324,1607 1313,1602 1261,1601 1054,1611 1021,1618 996,1609 975,1613 942,1610 929,1610"/>
+        <Coords points="1119,1562 1081,1561 1068,1566 1051,1568 1019,1565 957,1568 950,1565 929,1563 929,1610 942,1610 975,1613 996,1609 1021,1618 1054,1611 1261,1601 1313,1602 1324,1607 1333,1607 1338,1603 1368,1600 1461,1596 1549,1596 1579,1598 1583,1601 1636,1595 1718,1598 1842,1595 1842,1552 1746,1553 1743,1546 1740,1544 1681,1545 1671,1550 1654,1551 1563,1550 1561,1548 1540,1548 1538,1551 1512,1551 1508,1549 1477,1549 1476,1551 1395,1554 1391,1551 1314,1552 1307,1555 1305,1552 1279,1553 1270,1557 1260,1557 1257,1553 1233,1554 1227,1560 1142,1561 1137,1556 1124,1556"/>
         <Word id="region0006_line0007_word0003" custom="readingOrder {index:0;}">
           <Coords points="932,1569 990,1568 991,1603 933,1604"/>
           <TextEquiv conf="0.81462103">
@@ -1340,7 +1356,7 @@ nicum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943988068_5742" custom="readingOrder {index:1;}">
-        <Coords points="929,1611 942,1611 975,1614 996,1610 1021,1619 1033,1617 1040,1613 1064,1617 1067,1621 1068,1643 1059,1650 1030,1650 1022,1653 980,1651 967,1655 956,1651 929,1653"/>
+        <Coords points="1068,1643 1067,1621 1064,1617 1040,1613 1033,1617 1021,1619 996,1610 975,1614 942,1611 929,1611 929,1653 956,1651 959,1652 977,1651 980,1651 990,1651 1028,1650 1030,1650 1053,1650 1059,1649"/>
         <Word id="region0006_line0008_word0001" custom="readingOrder {index:0;}">
           <Coords points="958,1612 938,1613 939,1646 1027,1644 1026,1618 1021,1619 1000,1611 985,1611 975,1614"/>
           <TextEquiv>
@@ -1352,14 +1368,14 @@ nicum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>chalcedo. 4. L. fol. ſparſis lanceolatis, flor. reflexis, coroll. reuo-&#13;
+        <Unicode>chalcedo. 4. L. fol. ſparſis lanceolatis, flor. reflexis, coroll. reuo-
 lutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944028758_5793" custom="readingOrder {index:33;}">
+    <TextRegion id="TextRegion_1647944028758_5793" custom="readingOrder {index:33;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="635,1657 814,1657 814,1738 636,1738"/>
       <TextLine id="line_1647943982285_5710" custom="readingOrder {index:0;}">
-        <Coords points="638,1657 671,1656 681,1664 728,1661 735,1655 746,1655 754,1661 763,1661 799,1660 814,1658 814,1708 812,1708 800,1699 712,1702 701,1704 693,1713 681,1714 676,1711 639,1712"/>
+        <Coords points="728,1661 681,1664 672,1657 638,1657 639,1712 676,1711 681,1714 693,1713 701,1704 712,1702 800,1699 812,1708 814,1708 814,1658 799,1660 763,1661 754,1661 748,1657 732,1657"/>
         <Word id="region0006_line0009_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="676,1660 643,1661 644,1707 699,1705 701,1704 712,1702 800,1699 804,1702 809,1702 808,1659 799,1660 763,1661 754,1661 749,1657 731,1658 728,1661 681,1664"/>
           <TextEquiv conf="0.8471355">
@@ -1374,10 +1390,10 @@ lutis.</Unicode>
         <Unicode>ſuperbum. 5. L. fol. ſparſis lanccolatis , flor. reflexis ramoſo-py-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944062775_5831" custom="readingOrder {index:34;}">
+    <TextRegion id="TextRegion_1647944062775_5831" custom="readingOrder {index:34;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1652 929,1652 929,1736 814,1736"/>
       <TextLine id="line_1647943988069_5745" custom="readingOrder {index:0;}">
-        <Coords points="814,1658 838,1656 853,1652 902,1650 927,1655 929,1654 929,1700 883,1702 829,1708 814,1708"/>
+        <Coords points="838,1656 814,1658 814,1708 829,1708 883,1702 929,1700 929,1654 927,1655 912,1652 853,1652"/>
         <Word id="region0006_line0009_word0001" custom="readingOrder {index:0;}">
           <Coords points="827,1668 857,1668 858,1700 828,1700"/>
           <TextEquiv conf="0.9194664">
@@ -1398,10 +1414,10 @@ lutis.</Unicode>
         <Unicode>ſuperbum. 5. L. fol. ſparſis lanccolatis , flor. reflexis ramoſo-py-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944131385_5894" custom="readingOrder {index:35;}">
+    <TextRegion id="TextRegion_1647944131385_5894" custom="readingOrder {index:35;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1653 1843,1631 1844,1709 929,1738"/>
       <TextLine id="line_1647943988069_5744" custom="readingOrder {index:0;}">
-        <Coords points="929,1654 956,1652 967,1656 980,1652 1022,1654 1036,1650 1086,1653 1098,1643 1110,1642 1118,1650 1143,1647 1151,1642 1161,1642 1167,1648 1218,1647 1258,1645 1268,1637 1278,1636 1285,1644 1306,1644 1314,1635 1326,1637 1330,1643 1365,1636 1403,1634 1430,1642 1492,1641 1510,1640 1518,1633 1532,1630 1542,1639 1571,1641 1582,1633 1591,1632 1598,1640 1710,1640 1744,1634 1749,1638 1779,1640 1845,1637 1846,1688 1818,1693 1759,1696 1752,1692 1750,1683 1427,1685 1420,1681 1388,1686 1376,1686 1371,1682 1360,1682 1354,1688 1246,1684 1220,1686 1208,1690 1090,1695 1086,1692 1073,1692 1053,1696 1036,1688 1026,1698 1016,1693 1008,1693 1000,1698 929,1700"/>
+        <Coords points="929,1654 929,1700 1000,1698 1008,1693 1016,1693 1026,1698 1036,1688 1053,1696 1073,1692 1086,1692 1090,1695 1208,1690 1220,1686 1246,1684 1354,1688 1360,1682 1371,1682 1376,1686 1388,1686 1420,1681 1427,1685 1750,1683 1752,1692 1759,1696 1818,1693 1844,1688 1843,1637 1779,1640 1749,1638 1744,1634 1710,1640 1598,1640 1595,1637 1576,1637 1571,1641 1542,1639 1541,1638 1511,1639 1510,1640 1492,1641 1430,1642 1427,1641 1306,1644 1306,1644 1303,1644 1255,1645 1218,1647 1167,1648 1166,1647 1134,1648 1118,1650 1116,1648 1091,1649 1086,1653 1041,1650 1034,1650 1022,1654 980,1652 967,1656 957,1652 949,1653"/>
         <Word id="region0006_line0009_word0003" custom="readingOrder {index:0;}">
           <Coords points="962,1654 941,1655 942,1690 1000,1688 999,1653 973,1653 967,1656"/>
           <TextEquiv conf="0.92178833">
@@ -1443,7 +1459,7 @@ lutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943988069_5746" custom="readingOrder {index:1;}">
-        <Coords points="929,1701 1000,1699 1008,1694 1016,1694 1026,1699 1036,1689 1053,1697 1086,1693 1090,1696 1208,1692 1220,1687 1246,1685 1354,1689 1360,1683 1371,1683 1376,1687 1388,1687 1420,1682 1427,1686 1493,1685 1498,1690 1499,1717 1493,1723 1475,1727 1461,1723 1445,1728 1418,1728 1402,1725 1388,1725 1382,1728 1307,1730 1273,1726 1261,1730 1222,1734 1208,1735 1199,1731 1189,1731 1185,1735 1153,1733 1119,1735 1112,1740 1096,1736 1073,1739 1012,1741 981,1738 955,1740 947,1737 929,1737"/>
+        <Coords points="1499,1717 1498,1690 1493,1685 1427,1686 1420,1682 1388,1687 1376,1687 1371,1683 1360,1683 1354,1689 1246,1685 1220,1687 1208,1692 1090,1696 1086,1693 1053,1697 1036,1689 1026,1699 1016,1694 1008,1694 1000,1699 929,1701 929,1737 947,1737 948,1737 1269,1727 1273,1726 1280,1726 1495,1720"/>
         <Word id="word_1647944131483_5897" custom="readingOrder {index:0;}">
           <Coords points="941,1701 1000,1699 1008,1694 1016,1694 1026,1699 1036,1689 1037,1689 1053,1697 1086,1693 1090,1696 1125,1695 1125,1732 949,1738 947,1737 943,1737"/>
           <TextEquiv conf="0.91944605">
@@ -1467,14 +1483,14 @@ lutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>fol. ſparſis lanceolatis, , , flor. reflexis ramoſo-py- ramoſo-py-&#13;
+        <Unicode>fol. ſparſis lanceolatis, , , flor. reflexis ramoſo-py- ramoſo-py-
 ramidatis, coroll. reuolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647947776310_6201" custom="readingOrder {index:36;}">
+    <TextRegion id="TextRegion_1647947776310_6201" custom="readingOrder {index:36;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="636,1738 814,1738 814,1790 636,1790"/>
       <TextLine id="line_1647943982286_5712" custom="readingOrder {index:0;}">
-        <Coords points="639,1738 662,1736 714,1737 723,1745 728,1746 792,1745 814,1740 814,1785 786,1785 774,1792 759,1793 754,1792 751,1785 744,1783 733,1787 640,1787"/>
+        <Coords points="792,1745 728,1746 723,1745 715,1738 639,1738 640,1787 733,1787 744,1783 751,1785 753,1790 777,1790 786,1785 814,1785 814,1740"/>
         <Word id="region0006_line0011_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="722,1744 652,1746 653,1787 699,1787 735,1786 744,1783 751,1785 751,1786 786,1785 786,1785 791,1785 790,1745 728,1746 723,1745"/>
           <TextEquiv conf="0.91122675">
@@ -1489,10 +1505,10 @@ ramidatis, coroll. reuolutis.</Unicode>
         <Unicode>Martag. 6. L. fol. verticillatis, flor. reflexis, coroll. reuolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944066027_5836" custom="readingOrder {index:37;}">
+    <TextRegion id="TextRegion_1647944066027_5836" custom="readingOrder {index:37;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1736 929,1736 929,1784 814,1784"/>
       <TextLine id="line_1647943988070_5749" custom="readingOrder {index:0;}">
-        <Coords points="814,1740 841,1736 882,1734 888,1738 929,1738 929,1782 894,1785 814,1785"/>
+        <Coords points="814,1740 814,1784 905,1784 929,1782 929,1738 888,1738 885,1736 841,1736"/>
         <Word id="region0006_line0011_word0001" custom="readingOrder {index:0;}">
           <Coords points="821,1746 849,1745 849,1774 821,1775"/>
           <TextEquiv conf="0.9229264">
@@ -1513,10 +1529,10 @@ ramidatis, coroll. reuolutis.</Unicode>
         <Unicode>Martag. 6. L. fol. verticillatis, flor. reflexis, coroll. reuolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944141745_5905" custom="readingOrder {index:38;}">
+    <TextRegion id="TextRegion_1647944141745_5905" custom="readingOrder {index:38;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1738 1844,1709 1845,1761 929,1783"/>
       <TextLine id="line_1647943988070_5748" custom="readingOrder {index:0;}">
-        <Coords points="929,1738 947,1738 955,1741 1073,1740 1097,1737 1112,1741 1120,1736 1153,1734 1185,1736 1189,1732 1199,1732 1208,1736 1223,1735 1261,1731 1273,1727 1307,1731 1382,1729 1388,1726 1402,1726 1409,1729 1438,1730 1461,1724 1469,1728 1581,1726 1604,1718 1645,1717 1656,1720 1661,1725 1669,1726 1735,1724 1741,1718 1755,1717 1761,1724 1778,1724 1792,1718 1804,1716 1810,1722 1846,1721 1847,1751 1847,1764 1736,1768 1602,1765 1588,1769 1518,1771 1487,1774 1467,1773 1461,1768 1419,1772 1401,1768 1381,1773 1353,1773 1265,1772 1257,1776 1241,1777 1228,1781 1208,1781 1198,1777 1157,1780 1119,1778 1101,1782 1094,1778 1086,1778 1079,1782 985,1785 967,1782 956,1786 944,1781 929,1782"/>
+        <Coords points="1261,1731 1223,1735 1208,1736 1199,1732 1189,1732 1185,1736 1153,1734 1120,1736 1112,1741 1097,1737 1073,1740 955,1741 947,1738 929,1738 929,1782 944,1781 948,1783 967,1782 967,1782 967,1782 1084,1779 1086,1778 1094,1778 1096,1779 1117,1778 1119,1778 1125,1778 1259,1775 1265,1772 1348,1773 1385,1772 1401,1768 1416,1771 1430,1771 1461,1768 1464,1770 1595,1767 1602,1765 1642,1766 1845,1761 1844,1721 1810,1722 1804,1716 1792,1718 1778,1724 1761,1724 1755,1717 1741,1718 1735,1724 1669,1726 1661,1725 1656,1720 1645,1717 1604,1718 1581,1726 1469,1728 1461,1724 1438,1730 1409,1729 1402,1726 1388,1726 1382,1729 1307,1731 1274,1727 1273,1727"/>
         <Word id="word_1647944131484_5898" custom="readingOrder {index:0;}">
           <Coords points="933,1738 947,1738 955,1741 990,1740 991,1772 934,1773"/>
           <TextEquiv conf="0.928079">
@@ -1561,10 +1577,10 @@ ramidatis, coroll. reuolutis.</Unicode>
         <Unicode>Martag. 6. L. fol. verticillatis, flor. reflexis, coroll. reuolutis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647947776310_6200" custom="readingOrder {index:39;}">
+    <TextRegion id="TextRegion_1647947776310_6200" custom="readingOrder {index:39;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="636,1790 814,1790 814,1865 638,1865"/>
       <TextLine id="line_1647943982287_5714" custom="readingOrder {index:0;}">
-        <Coords points="640,1795 716,1790 731,1791 741,1784 751,1786 753,1792 759,1794 774,1793 786,1786 814,1786 814,1839 789,1837 769,1839 758,1832 738,1830 641,1831"/>
+        <Coords points="640,1795 641,1831 738,1830 758,1832 769,1839 789,1837 814,1839 814,1790 779,1790 774,1793 759,1794 753,1792 752,1790 732,1790 731,1791 716,1790"/>
         <Word id="region0006_line0012_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="753,1792 651,1795 652,1831 738,1830 758,1832 762,1834 799,1833 798,1790 778,1791 774,1793 759,1794 753,1792"/>
           <TextEquiv conf="0.71411866">
@@ -1579,7 +1595,7 @@ ramidatis, coroll. reuolutis.</Unicode>
         <Unicode>canadenſ. 7. L. fol, verticillatis, for, reflexis, coroll. campanu-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944068705_5841" custom="readingOrder {index:40;}">
+    <TextRegion id="TextRegion_1647944068705_5841" custom="readingOrder {index:40;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1784 929,1784 929,1867 814,1867"/>
       <TextLine id="line_1647943988071_5751" custom="readingOrder {index:0;}">
         <Coords points="814,1786 894,1786 929,1783 929,1825 892,1829 886,1832 834,1834 826,1839 814,1839"/>
@@ -1603,10 +1619,10 @@ ramidatis, coroll. reuolutis.</Unicode>
         <Unicode>canadenſ. 7. L. fol, verticillatis, for, reflexis, coroll. campanu-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944149977_5910" custom="readingOrder {index:41;}">
+    <TextRegion id="TextRegion_1647944149977_5910" custom="readingOrder {index:41;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1783 1845,1761 1846,1837 929,1869"/>
       <TextLine id="line_1647943988071_5750" custom="readingOrder {index:0;}">
-        <Coords points="929,1783 944,1782 956,1787 979,1783 998,1787 1079,1783 1086,1779 1094,1779 1101,1783 1119,1779 1157,1781 1198,1778 1208,1782 1228,1782 1241,1778 1257,1777 1265,1773 1381,1774 1401,1769 1419,1773 1461,1769 1467,1774 1487,1775 1626,1765 1662,1769 1847,1766 1848,1785 1848,1807 1754,1812 1752,1818 1745,1822 1730,1821 1725,1813 1703,1811 1534,1814 1484,1822 1480,1819 1455,1816 1355,1816 1278,1820 1235,1825 1083,1828 997,1829 991,1825 954,1829 945,1825 932,1825 929,1825"/>
+        <Coords points="1079,1783 998,1787 979,1783 956,1787 945,1782 929,1783 929,1825 932,1825 945,1825 954,1829 991,1825 997,1829 1083,1828 1235,1825 1278,1820 1355,1816 1455,1816 1480,1819 1484,1822 1534,1814 1703,1811 1725,1813 1730,1821 1745,1822 1752,1818 1754,1812 1845,1807 1845,1766 1662,1769 1635,1766 1599,1766 1487,1775 1467,1774 1462,1770 1443,1770 1419,1773 1411,1771 1389,1771 1381,1774 1324,1773 1260,1775 1257,1777 1241,1778 1228,1782 1208,1782 1198,1778 1157,1781 1119,1779 1101,1783 1094,1779 1085,1779"/>
         <Word id="word_1647943988071_5752" custom="readingOrder {index:0;}">
           <Coords points="929,1787 989,1786 990,1821 929,1823"/>
           <TextEquiv>
@@ -1660,11 +1676,11 @@ ramidatis, coroll. reuolutis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>fol. verticillatis, flor. reflexis, coroll. campanu-&#13;
+        <Unicode>fol. verticillatis, flor. reflexis, coroll. campanu-
 latis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944039433_5803" custom="readingOrder {index:42;}">
+    <TextRegion id="TextRegion_1647944039433_5803" custom="readingOrder {index:42;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="638,1865 814,1865 814,1954 640,1954"/>
       <TextLine id="line_1647943982288_5718" custom="readingOrder {index:0;}">
         <Coords points="641,1875 711,1874 721,1864 736,1865 741,1874 773,1871 814,1873 814,1919 795,1918 786,1913 751,1914 742,1910 731,1910 711,1919 695,1913 642,1912"/>
@@ -1679,7 +1695,7 @@ latis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943982289_5720" custom="readingOrder {index:1;}">
-        <Coords points="643,1919 699,1916 713,1920 731,1911 742,1911 751,1915 789,1915 799,1920 814,1920 814,1945 797,1946 761,1951 748,1950 729,1959 721,1960 713,1950 694,1951 688,1949 675,1949 669,1953 643,1954"/>
+        <Coords points="799,1920 789,1915 751,1915 742,1911 731,1911 713,1920 699,1916 643,1919 643,1954 669,1953 675,1949 688,1949 694,1951 713,1950 716,1954 739,1954 748,1950 761,1951 797,1946 814,1945 814,1920"/>
         <Word id="word_1647944039528_5806" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="675,1917 690,1916 699,1916 713,1920 722,1915 749,1914 751,1915 761,1915 762,1950 761,1951 748,1950 739,1954 716,1954 713,1950 694,1951 688,1949 675,1949"/>
           <TextEquiv conf="0.9134438">
@@ -1691,14 +1707,14 @@ latis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>camſcat-&#13;
+        <Unicode>camſcat-
 cenſe. lata, petalis ſeſſilibus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944072283_5846" custom="readingOrder {index:43;}">
+    <TextRegion id="TextRegion_1647944072283_5846" custom="readingOrder {index:43;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1867 929,1867 929,1955 814,1955"/>
       <TextLine id="line_1647943988072_5757" custom="readingOrder {index:0;}">
-        <Coords points="814,1873 824,1874 852,1865 890,1864 904,1868 929,1868 929,1911 924,1912 837,1916 819,1920 814,1919"/>
+        <Coords points="824,1874 814,1873 814,1919 819,1920 837,1916 924,1912 929,1911 929,1868 904,1868 900,1867 845,1867"/>
         <Word id="region0006_line0014_word0001" custom="readingOrder {index:0;}">
           <Coords points="816,1880 846,1879 846,1912 816,1913"/>
           <TextEquiv>
@@ -1719,10 +1735,10 @@ cenſe. lata, petalis ſeſſilibus.</Unicode>
         <Unicode>9. L.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944162417_5927" custom="readingOrder {index:44;}">
+    <TextRegion id="TextRegion_1647944162417_5927" custom="readingOrder {index:44;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1869 1846,1837 1848,1925 929,1958"/>
       <TextLine id="line_1647943988072_5756" custom="readingOrder {index:0;}">
-        <Coords points="929,1868 1026,1872 1066,1870 1082,1862 1093,1862 1100,1868 1107,1866 1115,1860 1128,1858 1176,1864 1186,1857 1195,1857 1202,1864 1218,1863 1235,1858 1273,1855 1300,1862 1322,1863 1406,1859 1424,1849 1438,1850 1444,1856 1482,1858 1573,1856 1598,1847 1650,1846 1660,1855 1849,1850 1849,1858 1849,1882 1849,1893 1756,1897 1750,1907 1731,1908 1721,1898 1716,1897 1541,1900 1499,1905 1493,1909 1485,1910 1479,1906 1446,1903 1277,1907 1269,1903 1237,1904 1233,1908 1217,1905 1139,1911 1134,1908 1111,1908 1106,1913 1093,1913 947,1916 938,1911 929,1911"/>
+        <Coords points="1066,1870 1026,1872 942,1868 929,1869 929,1911 938,1911 947,1916 1093,1913 1106,1913 1111,1908 1134,1908 1139,1911 1217,1905 1233,1908 1237,1904 1269,1903 1277,1907 1446,1903 1479,1906 1485,1910 1493,1909 1499,1905 1541,1900 1716,1897 1721,1898 1731,1908 1750,1907 1756,1897 1847,1893 1846,1850 1660,1855 1650,1846 1598,1847 1573,1856 1482,1858 1444,1856 1439,1851 1418,1851 1406,1859 1322,1863 1300,1862 1279,1856 1233,1858 1218,1863 1202,1864 1197,1859 1181,1860 1176,1864 1153,1861 1111,1862 1107,1866 1100,1868 1094,1863 1078,1863"/>
         <Word id="word_1647944150077_5916" custom="readingOrder {index:0;}">
           <Coords points="929,1869 952,1868 986,1870 987,1901 929,1903"/>
           <TextEquiv>
@@ -1764,7 +1780,7 @@ cenſe. lata, petalis ſeſſilibus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1647943988073_5760" custom="readingOrder {index:1;}">
-        <Coords points="929,1912 939,1912 947,1917 997,1917 1106,1914 1111,1909 1154,1911 1217,1906 1233,1909 1237,1905 1269,1904 1278,1908 1378,1906 1384,1911 1384,1939 1373,1946 1352,1947 1310,1949 1292,1944 1246,1951 1217,1951 1212,1948 1172,1953 1167,1950 1131,1951 1116,1954 1112,1951 1099,1952 1061,1956 1043,1962 1031,1958 1002,1960 988,1954 970,1957 963,1953 945,1956 929,1956"/>
+        <Coords points="1384,1939 1384,1911 1378,1906 1278,1908 1269,1904 1237,1905 1233,1909 1217,1906 1154,1911 1111,1909 1106,1914 997,1917 947,1917 939,1912 929,1912 929,1956 945,1956 963,1953 969,1957 974,1956 988,1954 992,1956 1102,1952 1112,1951 1113,1951 1284,1945 1292,1944 1295,1945 1380,1942"/>
         <Word id="word_1647943988073_5762" custom="readingOrder {index:0;}">
           <Coords points="929,1913 941,1913 947,1917 997,1917 1011,1916 1012,1951 929,1954"/>
           <TextEquiv conf="0.8035675">
@@ -1792,10 +1808,10 @@ cenſe. lata, petalis ſeſſilibus.</Unicode>
 cenſe. lata, petalis ſeſſilibus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944039433_5802" custom="readingOrder {index:45;}">
+    <TextRegion id="TextRegion_1647944039433_5802" custom="readingOrder {index:45;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="640,1954 814,1954 814,2086 644,2089"/>
       <TextLine id="line_1647943982291_5722" custom="readingOrder {index:0;}">
-        <Coords points="643,1955 669,1954 675,1950 688,1950 694,1952 714,1951 721,1961 733,1959 748,1951 761,1952 813,1947 814,1947 814,2001 785,1996 719,1997 710,1996 704,1991 689,1994 684,1991 676,1992 662,2001 644,2001"/>
+        <Coords points="643,1955 644,2001 662,2001 676,1992 684,1991 689,1994 704,1991 710,1996 719,1997 785,1996 814,2001 814,1954 742,1954 733,1959 721,1961 716,1954 669,1954"/>
         <Word id="region0006_line0016_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="718,1957 649,1960 649,2001 662,2001 676,1992 684,1991 689,1994 704,1991 710,1996 719,1997 785,1996 786,1996 786,1956 735,1957 733,1959 721,1961"/>
           <TextEquiv>
@@ -1819,14 +1835,14 @@ cenſe. lata, petalis ſeſſilibus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>philadel-&#13;
+        <Unicode>philadel-
 phicum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944072283_5845" custom="readingOrder {index:46;}">
+    <TextRegion id="TextRegion_1647944072283_5845" custom="readingOrder {index:46;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="814,1955 929,1955 929,2084 814,2086"/>
       <TextLine id="line_1647943988074_5765" custom="readingOrder {index:0;}">
-        <Coords points="814,1947 832,1951 887,1949 897,1954 918,1954 929,1957 929,1998 900,2001 821,2003 814,2001"/>
+        <Coords points="921,1955 814,1955 814,2001 821,2003 900,2001 929,1998 929,1957"/>
         <Word id="region0006_line0016_word0001" custom="readingOrder {index:0;}">
           <Coords points="832,1960 859,1960 860,1994 833,1994"/>
           <TextEquiv conf="0.92701644">
@@ -1847,10 +1863,10 @@ phicum.</Unicode>
         <Unicode>Philadel- 8. L. fol. verticillatis, flor. erectis, coroll. campanu-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647944162416_5926" custom="readingOrder {index:47;}">
+    <TextRegion id="TextRegion_1647944162416_5926" custom="readingOrder {index:47;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="929,1958 1848,1925 1853,2068 929,2084"/>
       <TextLine id="line_1647943988073_5764" custom="readingOrder {index:0;}">
-        <Coords points="929,1957 931,1958 963,1954 974,1958 988,1955 1002,1961 1031,1959 1043,1963 1061,1957 1099,1953 1112,1952 1116,1955 1131,1952 1196,1953 1212,1949 1217,1952 1246,1952 1292,1945 1310,1950 1398,1946 1429,1935 1443,1935 1526,1942 1588,1940 1608,1931 1661,1930 1673,1938 1682,1939 1850,1935 1851,1975 1851,1977 1760,1982 1750,1989 1737,1989 1729,1987 1727,1982 1684,1982 1678,1977 1665,1977 1660,1982 1569,1982 1562,1976 1555,1977 1538,1985 1507,1986 1493,1981 1474,1981 1443,1985 1435,1989 1399,1988 1390,1984 1360,1989 1338,1986 1330,1990 1297,1991 1282,1988 1274,1994 1243,1996 1159,1997 1152,1993 1131,1994 1124,1997 971,2000 956,1996 929,1998"/>
+        <Coords points="931,1958 931,1958 929,1958 929,1998 956,1996 971,2000 1124,1997 1131,1994 1152,1993 1159,1997 1243,1996 1274,1994 1282,1988 1297,1991 1330,1990 1338,1986 1360,1989 1390,1984 1399,1988 1435,1989 1443,1985 1474,1981 1493,1981 1507,1986 1538,1985 1555,1977 1562,1976 1569,1982 1660,1982 1665,1977 1678,1977 1684,1982 1727,1982 1729,1987 1737,1989 1750,1989 1760,1982 1850,1977 1848,1935 1682,1939 1673,1938 1663,1932 1602,1934 1588,1940 1526,1942 1481,1938 1413,1941 1398,1946 1310,1950 1292,1945 1246,1952 1217,1952 1212,1949 1196,1953 1131,1952 1116,1955 1112,1952 1099,1953 1061,1957 1043,1963 1031,1959 1002,1961 990,1956 983,1956 974,1958 970,1957 932,1958"/>
         <Word id="region0006_line0016_word0003" custom="readingOrder {index:0;}">
           <Coords points="943,1956 944,1988 1002,1987 1001,1960 988,1955 974,1958 963,1954"/>
           <TextEquiv conf="0.9318453">
@@ -1963,7 +1979,7 @@ lata, petalis vnguiculatis. Catesb. cayol- 2.p. 58.
 t. 58.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:48;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:48;} structure {type:heading;}" orientation="1.6487838" type="heading" readingDirection="left-to-right">
       <Coords points="649,2130 1837,2109 1841,2348 653,2369"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="743,2129 729,2133 650,2141 651,2190 662,2189 671,2198 682,2197 688,2189 710,2188 717,2196 728,2195 734,2189 786,2188 909,2191 1107,2190 1353,2178 1398,2179 1399,2186 1409,2190 1429,2187 1432,2178 1600,2176 1622,2178 1626,2187 1643,2189 1651,2187 1654,2178 1663,2176 1687,2178 1800,2174 1815,2174 1821,2179 1830,2179 1838,2174 1837,2123 1757,2123 1750,2115 1740,2115 1728,2125 1681,2128 1552,2127 1517,2124 1511,2115 1498,2115 1497,2115 1488,2125 1422,2129 1388,2122 1319,2129 1291,2124 1212,2128 1155,2121 1154,2121 1032,2128 1028,2124 1020,2123 891,2126"/>
@@ -1974,7 +1990,7 @@ t. 58.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="894,2179 1215,2170 1214,2121 783,2134 783,2177 786,2177"/>
+          <Coords points="1215,2170 1214,2127 1212,2128 1166,2122 1087,2124 1032,2128 1030,2126 783,2134 783,2177 786,2177 894,2179"/>
           <TextEquiv conf="0.898755">
             <Unicode>FRITILLARIA.</Unicode>
           </TextEquiv>
@@ -2093,10 +2109,10 @@ t. 58.</Unicode>
 ne corollae.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948250212_6430" custom="readingOrder {index:49;}">
+    <TextRegion id="TextRegion_1647948250212_6430" custom="readingOrder {index:49;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="643,2417 804,2414 804,2479 645,2479"/>
       <TextLine id="line_1647948221613_6397" custom="readingOrder {index:0;}">
-        <Coords points="653,2431 667,2432 671,2442 736,2439 744,2429 754,2429 760,2433 767,2426 777,2425 804,2425 804,2477 795,2478 721,2480 716,2477 704,2477 693,2488 679,2487 675,2480 645,2482 644,2443 647,2435"/>
+        <Coords points="777,2425 767,2426 760,2433 754,2429 744,2429 736,2439 671,2442 667,2432 653,2431 647,2435 644,2443 644,2467 645,2479 702,2479 704,2477 716,2477 719,2479 758,2479 795,2478 804,2477 804,2425"/>
         <Word id="region0008_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="649,2433 650,2477 790,2473 789,2427 765,2427 760,2433 754,2429 744,2429 736,2439 671,2442 667,2432 653,2431"/>
           <TextEquiv>
@@ -2111,10 +2127,10 @@ ne corollae.</Unicode>
         <Unicode>imperial. 1. F. racemo comoſo inferne nudo, fol. integerrimis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948231155_6411" custom="readingOrder {index:50;}">
+    <TextRegion id="TextRegion_1647948231155_6411" custom="readingOrder {index:50;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="804,2414 922,2411 922,2470 804,2470"/>
       <TextLine id="line_1647948225693_6406" custom="readingOrder {index:0;}">
-        <Coords points="804,2425 808,2426 818,2430 844,2422 917,2420 922,2421 922,2471 861,2471 804,2477"/>
+        <Coords points="917,2420 844,2422 818,2430 808,2426 804,2425 804,2470 922,2470 922,2421"/>
         <Word id="region0008_line0001_word0001" custom="readingOrder {index:0;}">
           <Coords points="817,2437 844,2436 845,2460 818,2461"/>
           <TextEquiv conf="0.95722085">
@@ -2135,10 +2151,10 @@ ne corollae.</Unicode>
         <Unicode>imperial. 1. F. racemo comoſo inferne nudo, fol. integerrimis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948244210_6417" custom="readingOrder {index:51;}">
+    <TextRegion id="TextRegion_1647948244210_6417" custom="readingOrder {index:51;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="922,2411 1836,2396 1837,2464 922,2464"/>
       <TextLine id="line_1647948225693_6405" custom="readingOrder {index:0;}">
-        <Coords points="922,2421 942,2427 1083,2423 1083,2409 1087,2409 1103,2410 1105,2423 1169,2421 1179,2419 1188,2412 1199,2412 1206,2419 1232,2419 1240,2411 1250,2410 1254,2413 1254,2406 1275,2406 1277,2410 1291,2407 1299,2412 1301,2419 1443,2417 1449,2408 1463,2406 1469,2416 1490,2417 1495,2410 1503,2407 1561,2405 1616,2409 1622,2415 1653,2413 1657,2416 1744,2412 1752,2404 1764,2404 1770,2409 1776,2409 1789,2408 1796,2402 1807,2400 1813,2405 1836,2405 1837,2450 1702,2459 1698,2463 1687,2459 1679,2463 1673,2460 1650,2460 1567,2462 1541,2460 1537,2457 1515,2460 1507,2456 1499,2460 1467,2462 1430,2461 1423,2457 1414,2458 1410,2461 1282,2463 1272,2458 1235,2463 1229,2459 1222,2459 1204,2465 1189,2461 1173,2465 946,2472 922,2471"/>
+        <Coords points="1836,2405 1813,2405 1807,2400 1796,2402 1789,2408 1776,2409 1770,2409 1764,2404 1752,2404 1744,2412 1657,2416 1653,2413 1622,2415 1616,2409 1561,2405 1503,2407 1495,2410 1490,2417 1469,2416 1463,2406 1449,2408 1443,2417 1301,2419 1299,2412 1291,2407 1277,2410 1275,2406 1254,2406 1254,2413 1250,2410 1240,2411 1232,2419 1206,2419 1199,2412 1188,2412 1179,2419 1169,2421 1105,2423 1103,2410 1087,2409 1083,2409 1083,2423 942,2427 922,2421 922,2464 1177,2464 1189,2461 1200,2464 1207,2464 1222,2459 1229,2459 1235,2463 1272,2458 1282,2463 1410,2461 1414,2458 1423,2457 1430,2461 1467,2462 1499,2460 1507,2456 1515,2460 1537,2457 1541,2460 1567,2462 1650,2460 1673,2460 1679,2463 1687,2459 1698,2463 1702,2459 1836,2450 1836,2422"/>
         <Word id="region0008_line0001_word0003" custom="readingOrder {index:0;}">
           <Coords points="930,2432 1058,2428 1059,2455 931,2459"/>
           <TextEquiv conf="0.8871004">
@@ -2183,10 +2199,10 @@ ne corollae.</Unicode>
         <Unicode>imperial. 1. F. racemo comoſo inferne nudo, fol. integerrimis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948250212_6429" custom="readingOrder {index:52;}">
+    <TextRegion id="TextRegion_1647948250212_6429" custom="readingOrder {index:52;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="645,2479 804,2479 804,2528 647,2534"/>
       <TextLine id="line_1647948221613_6399" custom="readingOrder {index:0;}">
-        <Coords points="645,2487 676,2486 683,2490 693,2489 704,2478 716,2478 722,2485 739,2484 765,2479 804,2476 804,2521 745,2524 679,2536 675,2533 665,2533 655,2526 646,2525"/>
+        <Coords points="693,2489 683,2490 676,2486 645,2486 646,2525 655,2526 665,2533 673,2533 701,2531 745,2524 804,2521 804,2479 765,2479 739,2484 722,2485 716,2479 703,2479"/>
         <Word id="region0008_line0002_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="718,2480 700,2481 693,2489 683,2490 676,2486 649,2486 650,2525 654,2525 744,2523 742,2483 739,2484 722,2485"/>
           <TextEquiv conf="0.7141716">
@@ -2201,7 +2217,7 @@ ne corollae.</Unicode>
         <Unicode>regia. 2. F. racemo comoſo inferne nudo, fol. crenatis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948231155_6410" custom="readingOrder {index:53;}">
+    <TextRegion id="TextRegion_1647948231155_6410" custom="readingOrder {index:53;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="804,2470 922,2470 922,2523 804,2528"/>
       <TextLine id="line_1647948225693_6408" custom="readingOrder {index:0;}">
         <Coords points="804,2476 861,2472 915,2471 922,2474 922,2517 804,2521"/>
@@ -2225,10 +2241,10 @@ ne corollae.</Unicode>
         <Unicode>regia. 2. F. racemo comoſo inferne nudo, fol. crenatis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.6487838" readingDirection="left-to-right" id="TextRegion_1647948244210_6416" custom="readingOrder {index:54;}">
+    <TextRegion id="TextRegion_1647948244210_6416" custom="readingOrder {index:54;}" orientation="1.6487838" readingDirection="left-to-right">
       <Coords points="922,2464 1837,2464 1838,2492 922,2523"/>
       <TextLine id="line_1647948225693_6407" custom="readingOrder {index:0;}">
-        <Coords points="922,2474 927,2477 950,2476 982,2472 1155,2467 1180,2462 1204,2466 1222,2460 1229,2460 1237,2465 1272,2459 1280,2464 1290,2464 1410,2462 1414,2459 1423,2458 1430,2462 1477,2463 1499,2461 1507,2457 1515,2461 1537,2458 1541,2461 1567,2463 1650,2461 1673,2461 1679,2464 1687,2460 1696,2464 1702,2460 1758,2460 1763,2465 1764,2485 1750,2496 1722,2500 1638,2505 1521,2506 1474,2510 1469,2513 1405,2506 1086,2512 922,2517"/>
+        <Coords points="1155,2467 982,2472 950,2476 927,2477 922,2474 922,2517 1086,2512 1405,2506 1409,2506 1751,2494 1764,2485 1763,2465 1762,2464 1696,2464 1679,2464 1290,2464 1280,2464 1242,2464 1237,2465 1235,2464 1210,2464 1204,2466 1192,2464 1170,2464"/>
         <Word id="region0008_line0002_word0003" custom="readingOrder {index:0;}">
           <Coords points="932,2484 1059,2480 1060,2507 932,2511"/>
           <TextEquiv>
@@ -2273,7 +2289,7 @@ ne corollae.</Unicode>
         <Unicode>regia. 2. F. racemo comoſo inferne nudo, fol. crenatis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1677230438595_728" custom="readingOrder {index:55;} structure {type:catch-word;}">
+    <TextRegion id="region_1677230438595_728" custom="readingOrder {index:55;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1705,2502 1705,2549 1792,2549 1792,2502"/>
       <TextLine id="line_1677230438706_731" custom="readingOrder {index:0;}">
         <Coords points="1705,2502 1705,2549 1792,2549 1792,2502"/>

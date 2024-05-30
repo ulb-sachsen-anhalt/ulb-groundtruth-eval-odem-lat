@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-13">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:12Z</Created>
     <LastChange>2024-01-19T13:07:12Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-128365_urn+nbn+de+gbv+3+1-128365-p0010-7_lat.png" imageWidth="2862" imageHeight="3078" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/3100800e-415b-4364-9618-19e771a7d10e/00000010.jpg" imageWidth="2862" imageHeight="3078" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="409,243 404,2947 2662,2945 2679,249"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region0008"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.0779243" readingDirection="left-to-right" id="TextRegion_1645600630008_1080" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1645600630008_1080" custom="readingOrder {index:0;}" orientation="-1.0779243" readingDirection="left-to-right">
       <Coords points="997,496 2574,531 2552,1550 2551,1574 981,1574 974,1515"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1144,500 1129,508 1076,510 1068,509 1062,500 1053,499 1038,510 996,510 995,553 1083,553 1091,549 1103,549 1122,553 1185,554 1186,560 1199,563 1208,562 1214,551 1254,556 1308,555 1325,559 1558,564 1564,561 1578,561 1583,564 1640,566 1664,564 1670,567 1738,570 1775,571 1781,568 1982,574 1998,570 2011,573 2060,571 2104,574 2106,578 2117,581 2130,573 2168,576 2187,577 2193,574 2208,577 2271,575 2276,579 2314,581 2319,589 2340,591 2364,584 2369,578 2572,582 2573,539 2503,538 2500,530 2480,529 2477,533 2468,533 2463,537 2443,537 2441,529 2416,528 2413,536 2239,534 2203,532 2196,530 2191,523 2174,523 2169,531 2120,531 2118,521 2056,520 2054,530 2007,530 1996,519 1983,519 1933,519 1923,522 1915,529 1889,528 1883,517 1865,516 1859,518 1851,527 1842,527 1837,516 1824,515 1816,520 1814,527 1804,527 1802,519 1797,514 1744,513 1730,516 1724,524 1703,524 1698,523 1690,512 1681,512 1671,520 1663,521 1545,519 1540,515 1531,514 1526,518 1453,518 1449,507 1433,507 1426,510 1424,517 1414,517 1257,511 1254,502 1227,502 1222,507 1203,501"/>
@@ -1418,7 +1433,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0001" custom="readingOrder {index:20;}">
-        <Coords points="1054,1500 1046,1506 984,1507 983,1552 1041,1556 1049,1564 1059,1564 1069,1557 1087,1554 1176,1554 1429,1559 1625,1566 1854,1570 1930,1572 1939,1575 2151,1574 2323,1579 2354,1582 2361,1589 2374,1588 2382,1580 2389,1578 2434,1575 2475,1578 2479,1575 2510,1575 2531,1583 2549,1583 2549,1541 2443,1537 2439,1530 2416,1529 2414,1535 2396,1529 2307,1527 2294,1534 2275,1535 2246,1531 2204,1532 2198,1524 2180,1523 2135,1523 2123,1530 2081,1530 2077,1527 2068,1527 2064,1530 2048,1530 2041,1521 2027,1521 2021,1530 1953,1530 1945,1528 1941,1519 1921,1518 1890,1517 1880,1517 1875,1525 1856,1525 1853,1517 1830,1516 1826,1524 1812,1525 1751,1524 1743,1522 1738,1515 1723,1514 1718,1523 1655,1522 1616,1520 1609,1519 1603,1512 1588,1515 1581,1511 1479,1509 1469,1516 1341,1515 1181,1511 1177,1502 1160,1502 1155,1511 1128,1510 1124,1501 1101,1501 1097,1509 1087,1509 1079,1508 1072,1500"/>
+        <Coords points="1046,1506 984,1507 983,1552 1041,1556 1049,1564 1059,1564 1069,1557 1087,1554 1176,1554 1429,1559 1625,1566 1854,1570 1930,1572 1936,1574 2151,1574 2549,1574 2549,1541 2443,1537 2439,1530 2416,1529 2414,1535 2396,1529 2307,1527 2294,1534 2275,1535 2246,1531 2204,1532 2198,1524 2180,1523 2135,1523 2123,1530 2081,1530 2077,1527 2068,1527 2064,1530 2048,1530 2041,1521 2027,1521 2021,1530 1953,1530 1945,1528 1941,1519 1921,1518 1890,1517 1880,1517 1875,1525 1856,1525 1853,1517 1830,1516 1826,1524 1812,1525 1751,1524 1743,1522 1738,1515 1723,1514 1718,1523 1655,1522 1616,1520 1609,1519 1603,1512 1588,1515 1581,1511 1479,1509 1469,1516 1341,1515 1181,1511 1177,1502 1160,1502 1155,1511 1128,1510 1124,1501 1101,1501 1097,1509 1087,1509 1079,1508 1072,1500 1054,1500"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="990,1516 1034,1517 1034,1544 990,1543"/>
           <TextEquiv conf="0.927979">
@@ -1480,7 +1495,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1645600630102_1083" custom="readingOrder {index:10;}">
-          <Coords points="2364,1532 2407,1532 2414,1535 2414,1532 2440,1533 2443,1537 2545,1539 2545,1574 2363,1574"/>
+          <Coords points="2364,1532 2363,1574 2545,1574 2545,1540 2443,1537 2440,1533 2414,1532 2414,1535 2405,1532"/>
           <TextEquiv>
             <Unicode>Judaeos,</Unicode>
           </TextEquiv>
@@ -1490,30 +1505,30 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mitur. Ipſum vero decretum totius Eccleſiae Hieroſolymitanae approbatione&#13;
-conditum literisque comprehenſum, placuit Apoſtolis, Senioribus &amp; univerſo&#13;
-Fratrum collegio, Paulo &amp; Barnaba, virisque aliis probatiſſimis, dare eccleſiae&#13;
-Antiochenae, ut redderent &amp; interpretarentur. Legimus enim v. 22. Tum viſum&#13;
-eſt Apoſtolis &amp; Presbyteris, cum tota eccleſia, delectos viros mittendos eſſe, una cum&#13;
-Paulo &amp; Barnaba Antiochium. De literarum vero ad Antiochenos emiſſarum&#13;
-autoribus legimus v. 23. Apoſtoli &amp; presbyteri &amp; fratres. v. 25. Viſum eſt nobis&#13;
-unanimiter congregatis v. 28. Viſum eſt ſpiritui ſancto &amp; nobis. En Concilii Hie-&#13;
-roſolymitani ejusdemque Apoſtolici rationem &amp; formam plane ad juris&#13;
-ſocialis leges effictam a). Quod omnes concernit, ab omnibus curandum eſt:&#13;
-&amp; ad quos ſpectat finis a ſocietate legitima propoſitus, ad eos quoque ſpectat jus,&#13;
-proſpiciendi de mediis, quoquomodo ad propoſitum finem legitimum requiſitis aut&#13;
-conducentibus, legitime obtinendum, rite utendi. Quae ratio &amp; forma in con-&#13;
-ciliis eccleſiaſticis adhibenda e concilio noſtro Apoſtolico, cordatis eo facilius&#13;
-patebit lectoribus, quo ſolertius animum attenderint partim ad ea, quae&#13;
-abſolute &amp; ſimpliciter, partim non niſi cum indulgentia quadam, prudentum&#13;
-medicorum inſtar, ad infirmitates perſonarum &amp; circumſtantias tempo-&#13;
-rum ſuorum, decreta tunc fuerint Hieroſolymis. Qualia fuerunt: abſtine-&#13;
-rent fideles ex praeputio ſeſe quoque a carnibus ſuffocatorum animalium &amp;&#13;
-ab eſu ſanguinis, idque ad tempus ne uſu illarum rerum offenderentur ii, qui&#13;
+        <Unicode>mitur. Ipſum vero decretum totius Eccleſiae Hieroſolymitanae approbatione
+conditum literisque comprehenſum, placuit Apoſtolis, Senioribus &amp; univerſo
+Fratrum collegio, Paulo &amp; Barnaba, virisque aliis probatiſſimis, dare eccleſiae
+Antiochenae, ut redderent &amp; interpretarentur. Legimus enim v. 22. Tum viſum
+eſt Apoſtolis &amp; Presbyteris, cum tota eccleſia, delectos viros mittendos eſſe, una cum
+Paulo &amp; Barnaba Antiochium. De literarum vero ad Antiochenos emiſſarum
+autoribus legimus v. 23. Apoſtoli &amp; presbyteri &amp; fratres. v. 25. Viſum eſt nobis
+unanimiter congregatis v. 28. Viſum eſt ſpiritui ſancto &amp; nobis. En Concilii Hie-
+roſolymitani ejusdemque Apoſtolici rationem &amp; formam plane ad juris
+ſocialis leges effictam a). Quod omnes concernit, ab omnibus curandum eſt:
+&amp; ad quos ſpectat finis a ſocietate legitima propoſitus, ad eos quoque ſpectat jus,
+proſpiciendi de mediis, quoquomodo ad propoſitum finem legitimum requiſitis aut
+conducentibus, legitime obtinendum, rite utendi. Quae ratio &amp; forma in con-
+ciliis eccleſiaſticis adhibenda e concilio noſtro Apoſtolico, cordatis eo facilius
+patebit lectoribus, quo ſolertius animum attenderint partim ad ea, quae
+abſolute &amp; ſimpliciter, partim non niſi cum indulgentia quadam, prudentum
+medicorum inſtar, ad infirmitates perſonarum &amp; circumſtantias tempo-
+rum ſuorum, decreta tunc fuerint Hieroſolymis. Qualia fuerunt: abſtine-
+rent fideles ex praeputio ſeſe quoque a carnibus ſuffocatorum animalium &amp;
+ab eſu ſanguinis, idque ad tempus ne uſu illarum rerum offenderentur ii, qui
 ex Judaeis erant converſi &amp; fraternitas chriſtiana inter Gentes &amp; Judaeos,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0779243" type="catch-word" readingDirection="left-to-right" id="TextRegion_1645600630008_1079" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1645600630008_1079" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="-1.0779243" type="catch-word" readingDirection="left-to-right">
       <Coords points="981,1574 2551,1574 2549,1624 983,1589"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
         <Coords points="2499,1576 2479,1576 2474,1580 2434,1576 2385,1580 2375,1590 2357,1592 2356,1616 2357,1619 2548,1623 2549,1584 2531,1584 2516,1577"/>
@@ -1531,7 +1546,7 @@ ex Judaeis erant converſi &amp; fraternitas chriſtiana inter Gentes &amp; Juda
         <Unicode>Chriſto</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0779243" type="footnote" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="region0008" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="-1.0779243" type="footnote" readingDirection="left-to-right">
       <Coords points="1020,1644 2555,1678 2537,2500 1002,2467"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1039,1646 1035,1658 1020,1658 1019,1699 1046,1702 1066,1695 1077,1695 1082,1698 1124,1698 1138,1704 1151,1705 1160,1696 1205,1700 1212,1696 1225,1696 1236,1701 1314,1700 1338,1704 1373,1702 1379,1705 1455,1707 1472,1704 1479,1709 1491,1710 1502,1708 1506,1704 1512,1708 1523,1710 1554,1710 1568,1705 1612,1706 1624,1711 1670,1711 1676,1708 1698,1712 1706,1708 1717,1708 1722,1711 1768,1712 1775,1709 1797,1713 1970,1716 1988,1713 1993,1716 2025,1715 2030,1718 2131,1720 2142,1724 2161,1715 2179,1715 2185,1718 2247,1719 2260,1715 2287,1719 2318,1716 2331,1717 2342,1725 2349,1721 2402,1720 2446,1721 2452,1725 2470,1726 2479,1721 2511,1716 2553,1719 2554,1685 2532,1682 2248,1677 2246,1671 2238,1671 2224,1671 2221,1676 2211,1676 2208,1670 2193,1670 2184,1670 2178,1676 2145,1676 2138,1675 2133,1669 2117,1669 2112,1675 2069,1678 2027,1677 2022,1669 2010,1668 2002,1677 1941,1673 1936,1669 1928,1669 1923,1673 1883,1674 1705,1672 1672,1670 1665,1661 1654,1661 1645,1670 1634,1669 1620,1660 1568,1659 1558,1668 1548,1669 1538,1668 1531,1661 1520,1661 1513,1667 1481,1667 1474,1659 1462,1658 1455,1666 1416,1666 1415,1659 1410,1653 1346,1652 1339,1662 1328,1662 1308,1660 1298,1651 1288,1651 1280,1656 1268,1650 1225,1649 1219,1659 1191,1658 1176,1654 1147,1657 1143,1649 1129,1647 1119,1657 1105,1657 1102,1647"/>
@@ -2884,24 +2899,24 @@ ex Judaeis erant converſi &amp; fraternitas chriſtiana inter Gentes &amp; Juda
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a) Inclytus Iuſtus Henningius Boehmerus conventum hunc Apoſtolorum, cum pres-&#13;
-byteris &amp; reliquis eccleſiae Hieroſolymitanae membris, concilium fuiſſe negat, ſi-&#13;
-quidem illi, inter quos Antiochiae controverſia illa exorta erat, in ſententiam&#13;
-Eccleſiae Hieroſolymitanae compromiſiſſent; ex compromiſſo igitur in illa eccle-&#13;
-ſia, de hac quaeſtione actum, decretumque cum aliis, non per modum imperii&#13;
-ſed doctrinae communicatum eſſe. V. Diſſertat. juris eccleſiaſtici antiqui Diſſert:&#13;
-III item emendationes &amp; additamenta ad Io. Schilteri Inſtitut. juris cannonici&#13;
-Lib. I. Tit. IV ut &amp; origines praecipuarum materiarum juris eccleſiaſt. Cap. IV.&#13;
-Verum ſi concedamus; quamvis hoc non expreſſis verbis Act. XV, 2. adſtruatur,&#13;
-partes Antiochiae diſceptantes in Hieroſolymitanae eccleſiae ſententiam compro-&#13;
-miſiffe, exinde tamen vero fundamento concludi poteſt, illos, optumam hanc&#13;
-eſſe viam litem hanc componendi, intellexiſſe, ſi congregationi cuidam eccleſiae&#13;
-Hieroſolymitanae, hanc controverſiam paullo accuratius perſequendam &amp; compo-&#13;
-nendam commendarent, cum eo modo. Quod actum ſit, quo in conciliis agi ſolet,&#13;
-non video, cur conventui nomen Concilii aut Synodi eccleſiaſticae, denegari debeat,&#13;
-praeſertim cum &amp; ſolenni decreto controverſia iſta fuerit finita. Ipſemet Boeh-&#13;
-merus in Iure ſuo parochiali admittit concilium, conventum Hieroſolymitanum&#13;
-fuiſſe Sect. I. C. II. §. LXVIII. Quod fi ergo Concilium fuit hic conventus; recte&#13;
+        <Unicode>a) Inclytus Iuſtus Henningius Boehmerus conventum hunc Apoſtolorum, cum pres-
+byteris &amp; reliquis eccleſiae Hieroſolymitanae membris, concilium fuiſſe negat, ſi-
+quidem illi, inter quos Antiochiae controverſia illa exorta erat, in ſententiam
+Eccleſiae Hieroſolymitanae compromiſiſſent; ex compromiſſo igitur in illa eccle-
+ſia, de hac quaeſtione actum, decretumque cum aliis, non per modum imperii
+ſed doctrinae communicatum eſſe. V. Diſſertat. juris eccleſiaſtici antiqui Diſſert:
+III item emendationes &amp; additamenta ad Io. Schilteri Inſtitut. juris cannonici
+Lib. I. Tit. IV ut &amp; origines praecipuarum materiarum juris eccleſiaſt. Cap. IV.
+Verum ſi concedamus; quamvis hoc non expreſſis verbis Act. XV, 2. adſtruatur,
+partes Antiochiae diſceptantes in Hieroſolymitanae eccleſiae ſententiam compro-
+miſiffe, exinde tamen vero fundamento concludi poteſt, illos, optumam hanc
+eſſe viam litem hanc componendi, intellexiſſe, ſi congregationi cuidam eccleſiae
+Hieroſolymitanae, hanc controverſiam paullo accuratius perſequendam &amp; compo-
+nendam commendarent, cum eo modo. Quod actum ſit, quo in conciliis agi ſolet,
+non video, cur conventui nomen Concilii aut Synodi eccleſiaſticae, denegari debeat,
+praeſertim cum &amp; ſolenni decreto controverſia iſta fuerit finita. Ipſemet Boeh-
+merus in Iure ſuo parochiali admittit concilium, conventum Hieroſolymitanum
+fuiſſe Sect. I. C. II. §. LXVIII. Quod fi ergo Concilium fuit hic conventus; recte
 etiam conciliorum origo ab illo derivatur. v. Buddei Eccleſia Apoſtolica p. m. 187.</Unicode>
       </TextEquiv>
     </TextRegion>

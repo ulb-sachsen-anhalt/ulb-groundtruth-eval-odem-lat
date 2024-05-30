@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-268">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:11Z</Created>
     <LastChange>2024-01-19T13:10:11Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-774691-p0250-9_lat.png" imageWidth="1824" imageHeight="2878" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a2c0b991-6df1-4e91-b897-87cfd9931085/00000250.jpg" imageWidth="1824" imageHeight="2878" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="276,292 250,2756 1727,2767 1733,304"/>
     </Border>
@@ -22,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="region_1683097282542_1357"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1683097225153_1298" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1683097225153_1298" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="653,453 653,498 740,498 740,453"/>
       <TextLine id="line_1683097225252_1301" custom="readingOrder {index:0;}">
         <Coords points="653,453 653,498 740,498 740,453"/>
@@ -40,7 +55,7 @@
         <Unicode>228</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1683097228668_1307" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1683097228668_1307" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="964,454 964,498 1333,498 1333,454"/>
       <TextLine id="line_1683097228769_1310" custom="readingOrder {index:0;}">
         <Coords points="964,454 964,498 1333,498 1333,454"/>
@@ -64,7 +79,7 @@
         <Unicode>DE FEBRIBVS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7104146" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;}" orientation="-0.7104146" readingDirection="left-to-right">
       <Coords points="636,536 1634,536 1634,1745 636,1745"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1160,536 1153,546 1101,544 1096,540 1087,540 1082,544 1002,545 999,536 979,536 973,546 953,547 948,536 933,536 928,546 895,546 890,542 882,542 874,547 832,548 825,548 817,536 803,536 796,541 793,549 715,547 710,543 702,542 694,547 679,547 673,538 662,537 654,540 649,549 637,549 636,590 893,591 900,596 912,588 931,590 940,586 1013,588 1026,585 1175,588 1182,591 1204,591 1216,597 1222,593 1251,592 1454,596 1467,589 1472,589 1479,596 1525,598 1563,598 1577,591 1584,599 1597,604 1633,602 1634,567 1624,566 1616,559 1586,555 1578,544 1564,545 1559,556 1522,555 1521,546 1516,541 1497,543 1493,554 1487,554 1481,545 1470,544 1458,545 1454,554 1412,553 1407,541 1393,540 1385,545 1383,553 1364,553 1359,541 1346,539 1340,544 1338,552 1331,552 1328,542 1324,539 1308,540 1302,550 1285,550 1280,545 1272,545 1265,549 1191,549 1188,536"/>
@@ -1171,7 +1186,7 @@ craſſoſque humores, et bilis inertiam praepollere,
 veroſimile eſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7104146" readingDirection="left-to-right" id="TextRegion_1670229141872_286" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1670229141872_286" custom="readingOrder {index:3;}" orientation="-0.7104146" readingDirection="left-to-right">
       <Coords points="637,1743 1602,1743 1602,1863 1600,1949 1418,1997 637,1997 623,1904 623,1845"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="975,1743 974,1756 961,1758 956,1766 936,1766 925,1759 900,1757 883,1759 876,1767 861,1766 853,1757 840,1758 832,1766 796,1766 761,1758 638,1756 637,1788 691,1789 692,1808 705,1812 777,1810 800,1804 930,1806 937,1802 977,1805 989,1801 1109,1806 1160,1806 1181,1802 1194,1804 1202,1811 1219,1806 1319,1807 1341,1804 1348,1804 1357,1809 1374,1810 1422,1812 1437,1809 1445,1816 1465,1808 1491,1814 1601,1815 1602,1777 1590,1777 1581,1768 1571,1768 1565,1773 1544,1767 1522,1768 1518,1765 1505,1765 1495,1771 1489,1767 1479,1766 1463,1772 1461,1765 1453,1761 1399,1760 1390,1763 1386,1770 1354,1770 1342,1769 1335,1761 1312,1759 1302,1768 1265,1769 1261,1758 1242,1757 1233,1767 1224,1767 1217,1758 1205,1758 1198,1767 1172,1767 1167,1758 1156,1756 1143,1766 1098,1765 1087,1758 1076,1757 1068,1765 1059,1766 994,1765 994,1743"/>
@@ -1455,14 +1470,14 @@ veroſimile eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>*) Quando ictericus color ab ejuſmodi cauſſa, vt febris&#13;
-ſymptoma tantum eſt, in qualbet acceſſione ipſe appa-&#13;
-ret, aut in ea intenſior euadit et contra in intermiſſio-&#13;
-nis interuallo euaneſcit, vel ſalem multum diluitur; ſic-&#13;
+        <Unicode>*) Quando ictericus color ab ejuſmodi cauſſa, vt febris
+ſymptoma tantum eſt, in qualbet acceſſione ipſe appa-
+ret, aut in ea intenſior euadit et contra in intermiſſio-
+nis interuallo euaneſcit, vel ſalem multum diluitur; ſic-
 que cum ipſa febre accedit, receditque.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7104146" type="heading" readingDirection="left-to-right" id="TextRegion_1670229127651_282" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670229127651_282" custom="readingOrder {index:4;} structure {type:heading;}" orientation="-0.7104146" type="heading" readingDirection="left-to-right">
       <Coords points="637,1997 1418,1997 1418,2076 637,2076"/>
       <TextLine id="region0008_line0002" custom="readingOrder {index:0;}">
         <Coords points="822,1999 763,2004 760,2008 760,2037 765,2050 770,2054 796,2055 1196,2064 1417,2066 1418,2024 1365,2023 1356,2021 1350,2011 1339,2011 1330,2018 1317,2016 1310,2020 1280,2022 1146,2021 1138,2020 1135,2012 1129,2008 1120,2008 1113,2014 1100,2013 1096,2016 1053,2015 1040,2011 986,2015 976,2005 968,2004 961,2011 948,2009 942,2014 879,2015 878,2004 873,1999"/>
@@ -1493,7 +1508,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         <Unicode>Curatio tertianae nothae.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7104146" type="heading" readingDirection="left-to-right" id="TextRegion_1670229127651_281" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670229127651_281" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-0.7104146" type="heading" readingDirection="left-to-right">
       <Coords points="637,2076 1418,2076 1418,2144 637,2144"/>
       <TextLine id="region0008_line0003" custom="readingOrder {index:0;}">
         <Coords points="1015,2085 940,2090 936,2095 936,2124 944,2130 944,2144 1062,2142 1105,2144 1278,2143 1281,2129 1289,2123 1289,2094 1284,2089"/>
@@ -1518,7 +1533,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         <Unicode>§. CLVIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7104146" readingDirection="left-to-right" id="region0009" custom="readingOrder {index:6;}">
+    <TextRegion id="region0009" custom="readingOrder {index:6;}" orientation="-0.7104146" readingDirection="left-to-right">
       <Coords points="632,2159 1594,2159 1590,2435 628,2435"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="953,2159 945,2160 945,2174 863,2171 860,2160 829,2160 824,2167 782,2168 743,2166 729,2159 661,2159 633,2167 632,2200 656,2207 674,2208 682,2212 712,2210 717,2214 783,2207 881,2210 886,2213 950,2217 1018,2215 1043,2219 1207,2221 1210,2230 1219,2232 1240,2230 1242,2221 1312,2222 1343,2228 1348,2225 1360,2225 1366,2231 1378,2231 1388,2224 1445,2224 1447,2232 1462,2235 1476,2233 1478,2225 1593,2226 1594,2184 1539,2183 1536,2173 1532,2170 1514,2174 1497,2172 1490,2182 1416,2182 1390,2181 1388,2173 1382,2168 1368,2169 1362,2179 1322,2175 1316,2179 1280,2179 1275,2174 1267,2174 1260,2179 1199,2179 1163,2179 1156,2169 1132,2168 1126,2174 1118,2174 1113,2178 1077,2178 1072,2167 1059,2165 1053,2167 1046,2177 988,2174 983,2170 964,2174 965,2160"/>
@@ -1570,7 +1585,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0002" custom="readingOrder {index:1;}">
-        <Coords points="777,2208 759,2212 754,2220 718,2218 712,2211 693,2211 682,2218 681,2213 674,2209 660,2208 656,2211 654,2219 632,2220 633,2260 769,2263 855,2261 1023,2271 1034,2277 1043,2277 1050,2272 1161,2271 1169,2283 1174,2284 1191,2282 1195,2271 1367,2273 1399,2276 1404,2280 1417,2279 1421,2276 1485,2276 1489,2284 1511,2285 1515,2283 1517,2275 1594,2275 1593,2234 1578,2234 1572,2226 1555,2227 1553,2233 1477,2233 1465,2236 1449,2233 1366,2232 1332,2227 1313,2231 1238,2231 1219,2233 1112,2230 1108,2227 1095,2229 1092,2221 1070,2219 1058,2229 1031,2230 1029,2219 1018,2216 996,2217 991,2219 985,2227 974,2227 889,2222 887,2214 881,2211 852,2210 845,2211 841,2220 795,2219 790,2210"/>
+        <Coords points="759,2212 754,2220 718,2218 712,2211 693,2211 682,2218 681,2213 674,2209 660,2208 656,2211 654,2219 632,2220 633,2260 769,2263 855,2261 1023,2271 1034,2277 1043,2277 1050,2272 1161,2271 1169,2283 1174,2284 1191,2282 1195,2271 1367,2273 1399,2276 1404,2280 1417,2279 1421,2276 1485,2276 1489,2284 1511,2285 1515,2283 1517,2275 1592,2275 1592,2234 1578,2234 1572,2226 1555,2227 1553,2233 1477,2233 1465,2236 1449,2233 1366,2232 1332,2227 1313,2231 1238,2231 1219,2233 1112,2230 1108,2227 1095,2229 1092,2221 1070,2219 1058,2229 1031,2230 1029,2219 1018,2216 996,2217 991,2219 985,2227 974,2227 889,2222 887,2214 881,2211 852,2210 845,2211 841,2220 795,2219 790,2210 777,2208"/>
         <Baseline points="633,2250 1041,2262 1594,2265"/>
         <Word id="region0009_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="655,2211 654,2219 641,2219 641,2251 813,2253 813,2219 795,2219 791,2212 758,2212 754,2220 718,2218 712,2211 692,2211 682,2218 681,2213 678,2211"/>
@@ -1613,7 +1628,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0003" custom="readingOrder {index:2;}">
-        <Coords points="848,2262 844,2264 842,2271 783,2273 737,2271 725,2268 717,2262 705,2263 702,2267 696,2262 683,2262 678,2265 676,2272 665,2271 658,2270 653,2262 636,2262 633,2265 632,2313 758,2315 795,2320 800,2317 819,2317 837,2313 872,2312 909,2316 929,2322 1000,2321 1047,2324 1052,2328 1101,2324 1195,2325 1209,2322 1279,2322 1320,2326 1325,2330 1359,2323 1368,2325 1373,2322 1448,2327 1460,2325 1477,2331 1514,2327 1594,2329 1593,2286 1591,2278 1584,2275 1572,2276 1567,2286 1476,2286 1423,2283 1418,2279 1404,2283 1332,2284 1300,2281 1295,2273 1280,2272 1262,2281 1192,2282 1174,2285 1168,2284 1161,2272 1120,2272 1112,2281 1009,2280 887,2272 866,2267 861,2263"/>
+        <Coords points="844,2264 842,2271 783,2273 737,2271 725,2268 717,2262 705,2263 702,2267 696,2262 683,2262 678,2265 676,2272 665,2271 658,2270 653,2262 636,2262 633,2265 632,2313 758,2315 795,2320 800,2317 819,2317 837,2313 872,2312 909,2316 929,2322 1000,2321 1047,2324 1052,2328 1101,2324 1195,2325 1209,2322 1279,2322 1320,2326 1325,2330 1359,2323 1368,2325 1373,2322 1448,2327 1460,2325 1477,2331 1514,2327 1591,2328 1592,2282 1591,2278 1584,2275 1572,2276 1567,2286 1476,2286 1423,2283 1418,2279 1404,2283 1332,2284 1300,2281 1295,2273 1280,2272 1262,2281 1192,2282 1174,2285 1168,2284 1161,2272 1120,2272 1112,2281 1009,2280 887,2272 866,2267 861,2263 848,2262"/>
         <Baseline points="632,2303 1594,2319"/>
         <Word id="region0009_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="640,2265 639,2306 797,2308 797,2272 783,2273 737,2271 725,2268 722,2266 702,2265 702,2267 700,2265 677,2265 676,2272 665,2271 658,2270 654,2265"/>
@@ -1662,7 +1677,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0004" custom="readingOrder {index:3;}">
-        <Coords points="857,2313 852,2316 852,2322 847,2324 747,2325 668,2322 651,2318 632,2320 632,2362 703,2364 705,2373 720,2376 730,2374 733,2364 862,2365 1070,2375 1092,2377 1097,2383 1103,2384 1119,2383 1126,2378 1175,2374 1244,2374 1253,2381 1259,2381 1264,2377 1289,2376 1295,2373 1378,2375 1380,2384 1384,2386 1403,2386 1407,2376 1459,2379 1593,2380 1594,2339 1481,2336 1476,2331 1460,2326 1453,2328 1451,2334 1397,2334 1387,2324 1373,2323 1368,2326 1351,2325 1333,2332 1305,2332 1295,2332 1293,2325 1279,2323 1272,2325 1269,2333 1255,2334 1240,2334 1237,2326 1233,2324 1209,2323 1202,2325 1200,2334 1007,2332 1005,2325 1000,2322 988,2322 984,2329 978,2329 971,2328 966,2321 951,2324 902,2324 891,2321 884,2314"/>
+        <Coords points="852,2316 852,2322 847,2324 747,2325 668,2322 651,2318 632,2320 632,2362 703,2364 705,2373 720,2376 730,2374 733,2364 862,2365 1070,2375 1092,2377 1097,2383 1103,2384 1119,2383 1126,2378 1175,2374 1244,2374 1253,2381 1259,2381 1264,2377 1289,2376 1295,2373 1378,2375 1380,2384 1384,2386 1403,2386 1407,2376 1459,2379 1590,2379 1591,2338 1481,2336 1476,2331 1460,2326 1453,2328 1451,2334 1397,2334 1387,2324 1373,2323 1368,2326 1351,2325 1333,2332 1305,2332 1295,2332 1293,2325 1279,2323 1272,2325 1269,2333 1255,2334 1240,2334 1237,2326 1233,2324 1209,2323 1202,2325 1200,2334 1007,2332 1005,2325 1000,2322 988,2322 984,2329 978,2329 971,2328 966,2321 951,2324 902,2324 891,2321 884,2314 857,2313"/>
         <Baseline points="632,2351 1098,2367 1593,2370"/>
         <Word id="region0009_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="638,2323 637,2362 703,2364 703,2365 733,2365 733,2364 776,2364 777,2325 765,2325 747,2325 729,2324"/>
@@ -1699,7 +1714,7 @@ que cum ipſa febre accedit, receditque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0005" custom="readingOrder {index:4;}">
-        <Coords points="655,2363 649,2372 632,2372 633,2415 849,2418 999,2426 1007,2427 1013,2432 1024,2432 1031,2427 1065,2425 1162,2429 1320,2428 1337,2429 1345,2435 1354,2435 1361,2430 1382,2429 1594,2432 1593,2391 1312,2386 1309,2376 1295,2374 1287,2377 1284,2385 1254,2385 1244,2375 1232,2375 1225,2378 1222,2385 1194,2385 1191,2376 1175,2375 1168,2378 1166,2386 1103,2385 1071,2380 1066,2383 1021,2385 997,2383 992,2373 977,2371 961,2372 956,2380 916,2379 914,2371 909,2368 894,2368 891,2376 779,2374 720,2377 690,2374 681,2364"/>
+        <Coords points="649,2372 632,2372 633,2415 849,2418 999,2426 1007,2427 1013,2432 1024,2432 1031,2427 1065,2425 1162,2429 1320,2428 1337,2429 1345,2435 1354,2435 1361,2430 1382,2429 1590,2431 1590,2390 1312,2386 1309,2376 1295,2374 1287,2377 1284,2385 1254,2385 1244,2375 1232,2375 1225,2378 1222,2385 1194,2385 1191,2376 1175,2375 1168,2378 1166,2386 1103,2385 1071,2380 1066,2383 1021,2385 997,2383 992,2373 977,2371 961,2372 956,2380 916,2379 914,2371 909,2368 894,2368 891,2376 779,2374 720,2377 690,2374 681,2364 655,2363"/>
         <Baseline points="633,2405 998,2417 1594,2422"/>
         <Word id="region0009_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="652,2367 649,2372 638,2372 638,2403 732,2404 732,2376 720,2377 690,2374 684,2367"/>
@@ -1736,14 +1751,14 @@ que cum ipſa febre accedit, receditque.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quare ſi ex antecedentibns pateat, jam pridem&#13;
-obſtructa viſcera eſſe, ſi temperamentum, corporis&#13;
-habitus, vitae genus, victus ratio, aetas, anni&#13;
-tempus cruditatibus congerendis, lentiſque humo-&#13;
+        <Unicode>Quare ſi ex antecedentibns pateat, jam pridem
+obſtructa viſcera eſſe, ſi temperamentum, corporis
+habitus, vitae genus, victus ratio, aetas, anni
+tempus cruditatibus congerendis, lentiſque humo-
 ribus accumulandis, et condenſandae, coaceruan-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683097282542_1357" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="region_1683097282542_1357" custom="readingOrder {index:7;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1452,2441 1452,2488 1588,2488 1588,2441"/>
       <TextLine id="line_1683097282614_1360" custom="readingOrder {index:0;}">
         <Coords points="1452,2441 1452,2488 1588,2488 1588,2441"/>

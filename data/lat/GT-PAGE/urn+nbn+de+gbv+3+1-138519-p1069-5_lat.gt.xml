@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-36">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:17Z</Created>
     <LastChange>2024-01-19T13:07:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-138519-p1069-5_lat.jpg" imageWidth="1774" imageHeight="2508" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/68ad4c80-77dc-46d7-b36c-447650d56edf/00001069.jpg" imageWidth="1774" imageHeight="2508" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="81,324 88,2405 1542,2422 1525,324"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region_1676460429845_5962"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676460254215_5792" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676460254215_5792" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="360,431 360,465 826,465 826,431"/>
       <TextLine id="line_1676460254300_5795" custom="readingOrder {index:0;}">
         <Coords points="360,431 826,431 826,465 360,465"/>
@@ -44,7 +59,7 @@
         <Unicode>EMBLEMATA TRIBONIANI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676460258945_5798" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676460258945_5798" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="986,433 986,479 1030,479 1030,433"/>
       <TextLine id="line_1676460259021_5801" custom="readingOrder {index:0;}">
         <Coords points="986,433 1030,433 1030,479 986,479"/>
@@ -62,7 +77,7 @@
         <Unicode>31</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.090882495" type="paragraph" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="0.090882495" type="paragraph" readingDirection="left-to-right">
       <Coords points="116,504 1070,504 1070,1857 116,1857"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="172,505 166,510 116,510 116,548 170,551 189,549 201,553 266,556 274,563 288,566 294,566 299,558 364,559 387,563 402,561 428,567 458,567 466,564 487,566 584,559 804,556 813,567 820,567 829,564 831,556 853,553 867,556 889,554 1069,559 1069,517 1009,516 999,507 991,507 983,515 954,515 949,507 939,505 916,505 914,513 864,514 857,505 843,505 837,513 813,513 789,511 779,505 766,505 761,509 699,514 694,505 677,505 674,516 667,518 615,520 610,511 599,510 591,520 580,520 579,511 575,506 564,505 555,510 553,520 521,521 514,520 512,513 507,509 450,509 380,517 376,507 360,506 355,511 354,519 325,519 317,517 317,510 312,505 297,505 287,516 268,515 259,505 251,505 242,513 188,511 181,505"/>
@@ -157,13 +172,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="302,569 302,604 374,604 374,564 373,569"/>
+          <Coords points="302,604 374,604 374,569 373,569 302,569"/>
           <TextEquiv conf="0.96370673">
             <Unicode>erat</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="383,564 383,606 533,605 533,563 528,564 523,567 522,573 510,573 465,572 459,567 445,568 440,572 392,572 391,567 386,564"/>
+          <Coords points="383,606 533,605 533,571 526,571 522,570 522,573 510,573 465,572 459,567 456,570 442,570 440,572 392,572 391,567 386,564 386,569 383,569"/>
           <TextEquiv>
             <Unicode>domina.</Unicode>
           </TextEquiv>
@@ -295,7 +310,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643962576773_791" custom="readingOrder {index:8;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="891,664 893,664 909,664 968,669 1024,676 1024,700 968,701 891,701"/>
+          <Coords points="891,664 891,701 968,701 1024,700 1024,676 968,669 927,672 921,668 913,668 909,664 893,664"/>
           <TextEquiv>
             <Unicode>diuortio</Unicode>
           </TextEquiv>
@@ -487,7 +502,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643962614780_801" custom="readingOrder {index:3;}">
-          <Coords points="526,880 617,880 624,872 634,872 642,879 649,880 655,874 655,923 525,923"/>
+          <Coords points="617,880 525,880 525,919 555,922 629,920 637,923 655,923 655,874 649,880 642,879 634,872 624,872"/>
           <TextEquiv>
             <Unicode>venerit</Unicode>
           </TextEquiv>
@@ -511,7 +526,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643962981812_955" custom="readingOrder {index:7;}">
-          <Coords points="961,879 964,879 995,877 1008,885 1028,880 1028,919 961,916"/>
+          <Coords points="1008,885 999,879 964,879 961,879 961,916 1028,919 1028,880 1026,880"/>
           <TextEquiv>
             <Unicode>ex-</Unicode>
           </TextEquiv>
@@ -1291,7 +1306,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643962729139_822" custom="readingOrder {index:1;}">
-          <Coords points="217,1647 357,1641 366,1641 466,1658 466,1680 448,1695 269,1696 217,1696"/>
+          <Coords points="217,1647 217,1696 238,1696 239,1694 269,1695 269,1696 448,1695 466,1680 466,1658 457,1657 403,1656 373,1655 373,1646 366,1641 357,1641 350,1646 350,1651 346,1655 337,1655 329,1646 320,1646 312,1654 237,1651 218,1648 217,1647"/>
           <TextEquiv>
             <Unicode>proprietatem:</Unicode>
           </TextEquiv>
@@ -1405,7 +1420,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0026_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="755,1748 755,1793 828,1794 828,1753 864,1750 839,1759 827,1748"/>
+          <Coords points="755,1748 755,1793 828,1794 828,1753 864,1750"/>
           <TextEquiv>
             <Unicode>Diſ.</Unicode>
           </TextEquiv>
@@ -1447,7 +1462,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0027_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:1;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="276,1799 307,1801 307,1840 276,1838"/>
+          <Coords points="276,1838 307,1840 307,1801 301,1800 280,1801 276,1800"/>
           <TextEquiv conf="0.85980767">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -1499,46 +1514,46 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>cum in fundo 78. §. 2. de iur. dot. Atqui mulier in&#13;
-d.l. 66. erat domina. Nam diuortio ſoluto ma-&#13;
-trimonio dotem aduentitiam, (de qua ibi agitur)&#13;
-mulier repetit, quia eſt domina, tit. 6. §. diuortio&#13;
-reg. Vlp. Niſi forte qui dotem dedit eam reddi&#13;
-ſibi ſtipulatus ſit; quæ dos ſpecialiter repetitia&#13;
-vocatur d. tit. 6. aduentitia. Mirum eſt, quod&#13;
-hoc Pomponio non venerit in mentem. De ex-&#13;
-traneo autem quod dicit, ſi ei cedatur vſusfructus,&#13;
-nihil ad eum tranſire, ſed ad dominum proprie-&#13;
-tatis reuerſurum vſumfructum, recte ſe habet.&#13;
-Cedendo enim vſumfructum extraneo, nihil agi-&#13;
-tur, d.§. finitur, puta, in perſona extranei nihil&#13;
-agitur: hoc vero agitur, præter intentionem&#13;
-agentis, ex ratione iuris, vt vſusſructus redeat ad&#13;
-proprietatem. Cuiac.in not. add. §. finitur. Do-&#13;
-nell. 10. comm. 19. Diſſentiunt Hotomann. Bal-&#13;
-duin. ibidem Pinell. part. 3. l.1. C. de bon. matern.&#13;
-num. 39. Weſenbec. in par. D. quib. mod, vſusfr.&#13;
-am. num.5. Sand. de action. ceſſ. c.5. n.35. H.&#13;
-Grotius l. d. Jur. bell. &amp; pac. 4. n. 10. qui reſpon-&#13;
-dent ad d.l.66. in ſpecies huius l. reuerti vſumfr.&#13;
-ad proprietatem: non ſtatim, ſed legitimo tempo-&#13;
-re; puta, mortuo fructuario: quam reſponſionem&#13;
-ſolide confutat Bachouius vol. 1. Diſ. 16. theſ. 10.&#13;
+        <Unicode>cum in fundo 78. §. 2. de iur. dot. Atqui mulier in
+d.l. 66. erat domina. Nam diuortio ſoluto ma-
+trimonio dotem aduentitiam, (de qua ibi agitur)
+mulier repetit, quia eſt domina, tit. 6. §. diuortio
+reg. Vlp. Niſi forte qui dotem dedit eam reddi
+ſibi ſtipulatus ſit; quæ dos ſpecialiter repetitia
+vocatur d. tit. 6. aduentitia. Mirum eſt, quod
+hoc Pomponio non venerit in mentem. De ex-
+traneo autem quod dicit, ſi ei cedatur vſusfructus,
+nihil ad eum tranſire, ſed ad dominum proprie-
+tatis reuerſurum vſumfructum, recte ſe habet.
+Cedendo enim vſumfructum extraneo, nihil agi-
+tur, d.§. finitur, puta, in perſona extranei nihil
+agitur: hoc vero agitur, præter intentionem
+agentis, ex ratione iuris, vt vſusſructus redeat ad
+proprietatem. Cuiac.in not. add. §. finitur. Do-
+nell. 10. comm. 19. Diſſentiunt Hotomann. Bal-
+duin. ibidem Pinell. part. 3. l.1. C. de bon. matern.
+num. 39. Weſenbec. in par. D. quib. mod, vſusfr.
+am. num.5. Sand. de action. ceſſ. c.5. n.35. H.
+Grotius l. d. Jur. bell. &amp; pac. 4. n. 10. qui reſpon-
+dent ad d.l.66. in ſpecies huius l. reuerti vſumfr.
+ad proprietatem: non ſtatim, ſed legitimo tempo-
+re; puta, mortuo fructuario: quam reſponſionem
+ſolide confutat Bachouius vol. 1. Diſ. 16. theſ. 10.
 lit. A. &amp; B. &amp; in comment. ad §. finitur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.090882495" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:3;}">
+    <TextRegion id="region0002" custom="readingOrder {index:3;}" orientation="0.090882495" readingDirection="left-to-right">
       <Coords points="224,1893 950,1893 950,1975 224,1975"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;} structure {type:heading;}">
         <Coords points="224,1894 224,1960 306,1967 308,1975 341,1975 343,1967 563,1967 571,1974 596,1974 604,1967 949,1961 949,1905 842,1901 833,1893 810,1893 802,1899 797,1899 791,1893 764,1893 754,1898 748,1893 699,1893 695,1898 678,1896 662,1902 636,1906 520,1905 512,1904 506,1895 493,1895 487,1898 464,1894 454,1898 449,1904 384,1910 373,1909 371,1902 363,1896 354,1896 343,1905 317,1895"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="441,1967 441,1912 242,1891 230,1960 306,1967 308,1975 341,1975 343,1967"/>
+          <Coords points="441,1912 404,1908 384,1910 373,1909 371,1904 346,1902 343,1905 331,1900 275,1894 241,1894 230,1960 306,1967 308,1975 341,1975 343,1967 441,1967"/>
           <TextEquiv conf="0.7994142">
             <Unicode>Vlpian.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="538,1957 538,1902 460,1902 460,1957"/>
+          <Coords points="538,1905 520,1905 512,1904 510,1902 460,1902 460,1957 538,1957"/>
           <TextEquiv>
             <Unicode>lib.</Unicode>
           </TextEquiv>
@@ -1569,7 +1584,7 @@ lit. A. &amp; B. &amp; in comment. ad §. finitur.</Unicode>
         <Unicode>Vlpian. lib. 18. ad Edictum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.090882495" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644312796588_444" custom="readingOrder {index:4;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644312796588_444" custom="readingOrder {index:4;} structure {type:paragraph;}" orientation="0.090882495" type="paragraph" readingDirection="left-to-right">
       <Coords points="164,1974 1075,1974 1075,2113 164,2113"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="164,1975 164,2034 174,2031 184,2037 259,2041 268,2045 289,2047 364,2046 372,2049 505,2050 646,2050 667,2047 671,2050 697,2050 874,2043 1074,2044 1074,1992 991,1992 989,1984 985,1981 967,1981 962,1985 960,1992 948,1993 937,1993 935,1985 930,1981 918,1981 910,1986 908,1993 737,1995 732,1991 726,1991 720,1985 708,1985 702,1987 697,1996 691,1997 683,1990 670,1990 664,1999 659,1999 654,1989 638,1988 623,1992 619,1999 566,1999 498,1997 492,1986 478,1986 472,1990 470,1998 363,1999 223,1987 212,1975"/>
@@ -1614,7 +1629,7 @@ lit. A. &amp; B. &amp; in comment. ad §. finitur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
-        <Coords points="169,2032 164,2035 164,2101 251,2105 272,2108 276,2113 288,2118 298,2117 303,2110 407,2111 455,2119 459,2122 563,2112 630,2112 644,2115 659,2111 741,2111 745,2114 756,2114 766,2110 812,2106 878,2104 976,2104 1005,2106 1013,2112 1031,2108 1074,2109 1074,2061 1067,2061 1057,2054 899,2051 678,2060 671,2058 669,2049 656,2048 645,2051 644,2059 618,2059 616,2051 613,2050 594,2051 591,2059 461,2059 456,2051 441,2051 436,2055 432,2052 423,2052 415,2059 398,2058 391,2050 374,2051 364,2047 348,2049 346,2057 335,2054 328,2048 311,2048 304,2051 267,2049 259,2042 245,2042 239,2048 182,2048 184,2038 178,2033"/>
+        <Coords points="164,2035 164,2101 251,2105 272,2108 276,2113 300,2113 303,2110 407,2111 419,2113 552,2113 563,2112 630,2112 634,2113 651,2113 659,2111 741,2111 743,2113 758,2113 766,2110 812,2106 878,2104 976,2104 1005,2106 1013,2112 1031,2108 1074,2109 1074,2061 1067,2061 1057,2054 899,2051 678,2060 671,2058 669,2049 656,2048 645,2051 644,2059 618,2059 616,2051 613,2050 594,2051 591,2059 461,2059 456,2051 441,2051 436,2055 432,2052 423,2052 415,2059 398,2058 391,2050 374,2051 364,2047 348,2049 346,2057 335,2054 328,2048 311,2048 304,2051 267,2049 259,2042 245,2042 239,2048 182,2048 184,2038 178,2033 169,2032"/>
         <Word id="word_1643962781483_833" custom="readingOrder {index:0;}">
           <Coords points="245,2042 259,2042 267,2049 295,2050 295,2103 223,2103 223,2048 239,2048"/>
           <TextEquiv>
@@ -1662,11 +1677,11 @@ lit. A. &amp; B. &amp; in comment. ad §. finitur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Si autem nondum mihi damnum dede-&#13;
+        <Unicode>Si autem nondum mihi damnum dede-
 ris, ſed ita ignem habeas, vt metuam,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676460429845_5962" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1676460429845_5962" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="968,2121 968,2159 1035,2159 1035,2121"/>
       <TextLine id="line_1676460429916_5965" custom="readingOrder {index:0;}">
         <Coords points="968,2121 968,2159 1035,2159 1035,2121"/>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-227">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:20Z</Created>
     <LastChange>2024-01-19T13:09:20Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-705950-p0325-3_lat.png" imageWidth="1817" imageHeight="2506" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/cb2226b3-dea7-4b2d-80a3-bbde68e60f7b/00000325.jpg" imageWidth="1817" imageHeight="2506" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="136,114 147,2375 1399,2362 1382,116"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.4162676" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;}" orientation="0.4162676" readingDirection="left-to-right">
       <Coords points="160,379 1120,379 1120,2112 160,2112"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="160,380 161,430 215,429 218,437 226,439 244,436 247,428 278,426 296,433 312,435 314,427 388,429 639,428 686,429 694,439 708,438 712,430 1000,428 1004,437 1023,438 1027,436 1029,428 1120,424 1119,387 1115,386 859,388 854,380 845,379 819,379 817,387 800,388 661,388 657,379 640,380 635,389 589,389 587,380 523,379 521,386 474,387 472,380 434,379 412,379 408,383 394,385 195,387 190,380"/>
@@ -493,7 +508,7 @@
         <Coords points="205,884 200,886 195,894 161,895 160,936 184,936 188,944 196,946 209,944 214,935 342,937 348,938 355,944 364,944 372,937 383,937 390,945 401,945 411,936 422,935 774,937 783,937 793,946 812,946 821,937 837,936 922,934 935,944 950,944 955,935 1051,935 1080,935 1095,939 1119,938 1120,894 1039,894 1033,893 1027,885 1013,885 1008,891 908,896 875,895 862,892 858,887 841,885 817,886 811,895 758,893 753,887 742,887 735,892 713,892 705,886 677,886 674,887 672,894 666,895 598,896 593,892 583,892 578,896 557,896 316,895 309,885 263,884 250,890 246,885 239,883 230,884 219,889 215,885"/>
         <Baseline points="161,927 1120,928"/>
         <Word id="word_1658911372331_4288" custom="readingOrder {index:0;}">
-          <Coords points="167,894 197,890 312,889 368,895 368,938 211,939 185,939 167,936"/>
+          <Coords points="198,890 195,894 167,895 167,936 184,936 186,939 211,939 212,939 214,935 342,937 348,938 348,938 368,938 368,895 316,895 312,889 251,890 250,890 250,890"/>
           <TextEquiv>
             <Unicode>cryſtallina,</Unicode>
           </TextEquiv>
@@ -1461,7 +1476,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658911612899_4357" custom="readingOrder {index:3;}">
-          <Coords points="609,1904 674,1903 683,1903 684,1942 675,1942 604,1940 604,1908"/>
+          <Coords points="604,1940 675,1942 684,1942 683,1903 674,1903 609,1903 609,1909 604,1908"/>
           <TextEquiv>
             <Unicode>eſt?</Unicode>
           </TextEquiv>
@@ -1591,7 +1606,7 @@
         <Baseline points="161,2093 1120,2093"/>
         <Word id="region0001_line0034_word0000" custom="readingOrder {index:0;}">
           <Coords points="246,2101 246,2062 183,2063 183,2102 211,2101 213,2100 230,2100 242,2101"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>que</Unicode>
           </TextEquiv>
         </Word>
@@ -1636,39 +1651,39 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>lia propone: ſive illa vis per ordinem expan-&#13;
-dere, ſive (ut eſt melius) in unum acervum da-&#13;
-re. Video elaboratam ſcrupuloſa diſtinctione te-&#13;
-ſtudinem, at foediſſimorum pigerrimorumque&#13;
-animalium teſtas, ingentibus pretiis emtas, in&#13;
-quibus ipſa illa quae placet varietas, ſubditis&#13;
-medicamentis, in ſimilitudinem veri coloratur.&#13;
-Video iſtic menſas, et aeſtimatum lignum ſe-&#13;
-natoris cenſu, eo pretioſius, quo illud in plu-&#13;
-res nodos, arboris infelicitas torſit. Video iſtic&#13;
-cryſtallina, quorum accendit fragilitas pretium.&#13;
-omnium enim rerum voluptas apud imperi-&#13;
-tos, ipſo quo fugare debet periculo, creſcit.&#13;
-Video murrhina pocula. parum ſcilicet luxuria&#13;
-magno fuerit, niſi quod vomant, capacibus&#13;
-gemmis inter ſe propinarent. Video uniones,&#13;
-non ſingulos ſingulis auribus comparatos: iam&#13;
-enim exercitatae aures oneri ferendo ſunt: iun-&#13;
-guntur inter ſe, et inſuper alii binis ſuperpo-&#13;
-nuntur. non ſatis muliebris inſania viros ſubie-&#13;
-cerat, niſi bina ac terna patrimonia auribus ſin-&#13;
-gulis pependiſſent. Video ſericas veſtes, ſi ve-&#13;
-ſtes vocandae ſunt, in quibus nihil eſt quo defendi&#13;
-aut corpus, aut denique pudor poſſit: quibus&#13;
-ſumtis, mulier parum liquido, nudam ſe non&#13;
-eſſe, iurabit. Haec ingenti ſumma, ab ignotis&#13;
-etiam ad commercium gentibus arceſſuntur, ut&#13;
-matronae noſtrae, ne adulteris quidem, plus&#13;
-ſui in cubiculo, quam in publico oſtendant.&#13;
-X. Quid agis avaritia? quot rerum caritate&#13;
-aurum tuum victum eſt? omnia iſta quae re-&#13;
-tuli, in maiore honore pretioque ſunt. Nunc&#13;
-volo tuas opes recognoſcere, laminas utrius-&#13;
+        <Unicode>lia propone: ſive illa vis per ordinem expan-
+dere, ſive (ut eſt melius) in unum acervum da-
+re. Video elaboratam ſcrupuloſa diſtinctione te-
+ſtudinem, at foediſſimorum pigerrimorumque
+animalium teſtas, ingentibus pretiis emtas, in
+quibus ipſa illa quae placet varietas, ſubditis
+medicamentis, in ſimilitudinem veri coloratur.
+Video iſtic menſas, et aeſtimatum lignum ſe-
+natoris cenſu, eo pretioſius, quo illud in plu-
+res nodos, arboris infelicitas torſit. Video iſtic
+cryſtallina, quorum accendit fragilitas pretium.
+omnium enim rerum voluptas apud imperi-
+tos, ipſo quo fugare debet periculo, creſcit.
+Video murrhina pocula. parum ſcilicet luxuria
+magno fuerit, niſi quod vomant, capacibus
+gemmis inter ſe propinarent. Video uniones,
+non ſingulos ſingulis auribus comparatos: iam
+enim exercitatae aures oneri ferendo ſunt: iun-
+guntur inter ſe, et inſuper alii binis ſuperpo-
+nuntur. non ſatis muliebris inſania viros ſubie-
+cerat, niſi bina ac terna patrimonia auribus ſin-
+gulis pependiſſent. Video ſericas veſtes, ſi ve-
+ſtes vocandae ſunt, in quibus nihil eſt quo defendi
+aut corpus, aut denique pudor poſſit: quibus
+ſumtis, mulier parum liquido, nudam ſe non
+eſſe, iurabit. Haec ingenti ſumma, ab ignotis
+etiam ad commercium gentibus arceſſuntur, ut
+matronae noſtrae, ne adulteris quidem, plus
+ſui in cubiculo, quam in publico oſtendant.
+X. Quid agis avaritia? quot rerum caritate
+aurum tuum victum eſt? omnia iſta quae re-
+tuli, in maiore honore pretioque ſunt. Nunc
+volo tuas opes recognoſcere, laminas utrius-
 que materiae, ad quas cupiditas noſtra caligat.</Unicode>
       </TextEquiv>
     </TextRegion>

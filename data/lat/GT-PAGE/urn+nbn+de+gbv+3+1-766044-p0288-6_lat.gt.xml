@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-261">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:05Z</Created>
     <LastChange>2024-01-19T13:10:05Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-766044_urn+nbn+de+gbv+3+1-766044-p0288-6_lat.png" imageWidth="1619" imageHeight="2355" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/f2018e1e-4a81-4ece-93f8-872d03dccdff/00000288.jpg" imageWidth="1619" imageHeight="2355" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="350,215 303,2254 1501,2278 1525,255"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="3" regionRef="region0009"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.5343783" type="marginalia" readingDirection="left-to-right" id="TextRegion_1651570241076_2488" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1651570241076_2488" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-1.5343783" type="marginalia" readingDirection="left-to-right">
       <Coords points="469,442 626,445 624,524 611,581 602,620 483,617 463,578 464,530"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="469,442 469,482 516,484 526,480 561,485 625,484 625,456 617,456 616,446 557,445 554,448 539,447 537,444"/>
@@ -92,13 +107,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>U. c. 284.&#13;
-a. C. 468.&#13;
-Accuſatur&#13;
+        <Unicode>U. c. 284.
+a. C. 468.
+Accuſatur
 Appius.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.5343783" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:2;}">
+    <TextRegion id="region0008" custom="readingOrder {index:2;}" orientation="-1.5343783" readingDirection="left-to-right">
       <Coords points="635,447 1425,466 1391,1902 600,1883"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1029,456 1025,462 758,458 745,456 743,449 723,449 720,455 635,453 634,494 649,495 659,502 676,503 684,497 711,496 754,499 764,503 775,503 780,500 882,500 884,506 890,510 903,510 909,501 919,500 939,501 943,507 951,510 962,509 967,501 1023,506 1029,512 1037,512 1045,507 1058,506 1221,512 1227,521 1242,521 1248,513 1258,512 1423,515 1424,473 1407,473 1403,466 1364,465 1358,474 1345,473 1336,464 1254,462 1241,470 1227,468 1221,461 1217,461 1209,461 1204,468 1179,470 1133,469 1126,460 1115,459 1108,467 1103,467 1096,458 1073,457 1067,465 1063,465 1051,464 1048,457 1045,456"/>
@@ -145,7 +160,7 @@ Appius.</Unicode>
       <TextLine id="region0008_line0002" custom="readingOrder {index:1;}">
         <Coords points="940,508 934,510 930,517 840,518 832,509 819,509 815,517 800,517 699,513 691,504 680,504 673,512 634,512 633,551 698,556 706,559 716,557 899,557 1076,563 1128,570 1132,575 1141,577 1150,577 1159,571 1188,571 1192,574 1202,575 1206,572 1246,571 1354,574 1359,582 1369,583 1378,581 1383,575 1422,575 1423,535 1321,532 1316,523 1302,520 1291,520 1279,531 1199,531 1174,529 1165,519 1153,520 1149,527 1123,526 1117,516 1107,516 1099,524 1067,523 1062,515 1050,514 1043,521 1037,521 1032,520 1025,511 1012,511 1002,519 956,518 952,511"/>
         <Word id="word_1651570353920_2535" custom="readingOrder {index:0;}">
-          <Coords points="641,512 677,506 692,507 714,532 714,546 704,545 641,537"/>
+          <Coords points="641,537 704,545 714,546 714,532 692,507 678,506 673,512 641,512"/>
           <TextEquiv>
             <Unicode>cui,</Unicode>
           </TextEquiv>
@@ -193,7 +208,7 @@ Appius.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651570370988_2545" custom="readingOrder {index:2;}">
-          <Coords points="974,577 1023,572 1039,573 1060,599 1059,613 1038,616 974,615"/>
+          <Coords points="1039,573 1024,572 1019,579 981,578 974,577 974,615 1038,616 1059,613 1060,599 1045,580 1044,580 1040,574"/>
           <TextEquiv>
             <Unicode>agri,</Unicode>
           </TextEquiv>
@@ -367,7 +382,7 @@ Appius.</Unicode>
       <TextLine id="region0008_line0007" custom="readingOrder {index:6;}">
         <Coords points="645,786 626,787 626,816 626,836 732,839 762,846 790,847 796,852 810,852 817,846 845,844 917,847 926,848 932,856 943,856 950,854 954,848 1415,857 1416,846 1416,818 1350,814 1326,806 1308,809 1279,806 1270,814 1257,814 1170,812 1164,805 1152,803 1145,812 902,806 836,802 830,794 818,794 810,801 804,802 678,797 664,795 654,786"/>
         <Word id="word_1651570405002_2552" custom="readingOrder {index:0;}">
-          <Coords points="634,791 660,791 752,799 776,819 775,832 766,832 633,824"/>
+          <Coords points="634,791 633,824 766,832 775,832 776,819 753,799 678,797 664,795 659,791"/>
           <TextEquiv>
             <Unicode>ſuarum,</Unicode>
           </TextEquiv>
@@ -739,7 +754,7 @@ Appius.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651570517686_2608" custom="readingOrder {index:5;}">
-          <Coords points="1195,1270 1213,1264 1228,1264 1265,1265 1278,1266 1324,1275 1323,1316 1307,1316 1195,1309"/>
+          <Coords points="1214,1264 1207,1271 1195,1271 1195,1309 1307,1316 1323,1316 1324,1275 1296,1275 1284,1274 1279,1266 1278,1266 1266,1265 1262,1268 1259,1265 1245,1264 1238,1272 1234,1272 1228,1264"/>
           <TextEquiv>
             <Unicode>plebis,</Unicode>
           </TextEquiv>
@@ -1135,7 +1150,7 @@ Appius.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651570605444_2627" custom="readingOrder {index:3;}">
-          <Coords points="930,1777 937,1775 956,1775 1051,1784 1081,1802 1081,1816 1079,1816 930,1807"/>
+          <Coords points="956,1775 938,1775 935,1778 930,1778 930,1807 1079,1816 1081,1816 1081,1802 1052,1784 959,1780 956,1775"/>
           <TextEquiv>
             <Unicode>timeret,</Unicode>
           </TextEquiv>
@@ -1199,34 +1214,34 @@ Appius.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>agraria, tum propter judicium Ap. Claudii:&#13;
-cui, acerrimo adverſario legis, cauſſamque&#13;
-poſſeſſorum publici agri, tamquam tertio con-&#13;
-ſuli, ſuſtinenti, M. Duilius &amp; C. Sicinius&#13;
-diem dixere. Numquam ante tam inviſus plebi&#13;
-reus ad judicium vocatus populi eſt, plenus&#13;
-ſuarum, plenus paternarum irarum. Patres&#13;
-quoque non temere pro ullo æque adniſi&#13;
-ſunt: propugnatorem ſenatus, majeſtatisque&#13;
-vindicem ſuæ, ad omnes tribunicios plebeios-&#13;
-que obpoſitum tumultus, modum dumtaxat&#13;
-in certamine egreſſum, iratæ objici plebi (b).&#13;
-Unus e Patribus, ipſe Ap. Claudius, &amp; tri-&#13;
-bunos, &amp; plebem, &amp; ſuum judicium pro&#13;
-nihilo habebat. IIlum non minæ plebis, non&#13;
-ſenatus preces perpellere umquam potuere,&#13;
-non modo ut veſtem mutaret, aut ſupplex&#13;
-prenſaret homines; ſed ne ut ex conſueta&#13;
-quidem aſperitate orationis, quum ad popu-&#13;
-Ium agenda cauſſa eſſet, aliquid leniret atque&#13;
-ſubmitteret. Idem habitus oris, eadem contu-&#13;
-macia in vultu, idem in oratione ſpiritus&#13;
-erat: adeo ut magna pars plebis Appium&#13;
-non minus reum timeret, quam conſulem&#13;
+        <Unicode>agraria, tum propter judicium Ap. Claudii:
+cui, acerrimo adverſario legis, cauſſamque
+poſſeſſorum publici agri, tamquam tertio con-
+ſuli, ſuſtinenti, M. Duilius &amp; C. Sicinius
+diem dixere. Numquam ante tam inviſus plebi
+reus ad judicium vocatus populi eſt, plenus
+ſuarum, plenus paternarum irarum. Patres
+quoque non temere pro ullo æque adniſi
+ſunt: propugnatorem ſenatus, majeſtatisque
+vindicem ſuæ, ad omnes tribunicios plebeios-
+que obpoſitum tumultus, modum dumtaxat
+in certamine egreſſum, iratæ objici plebi (b).
+Unus e Patribus, ipſe Ap. Claudius, &amp; tri-
+bunos, &amp; plebem, &amp; ſuum judicium pro
+nihilo habebat. IIlum non minæ plebis, non
+ſenatus preces perpellere umquam potuere,
+non modo ut veſtem mutaret, aut ſupplex
+prenſaret homines; ſed ne ut ex conſueta
+quidem aſperitate orationis, quum ad popu-
+Ium agenda cauſſa eſſet, aliquid leniret atque
+ſubmitteret. Idem habitus oris, eadem contu-
+macia in vultu, idem in oratione ſpiritus
+erat: adeo ut magna pars plebis Appium
+non minus reum timeret, quam conſulem
 timuerat. Semel cauſſam dixit, quo ſemper</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.5343783" type="footnote" readingDirection="left-to-right" id="region0009" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="region0009" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-1.5343783" type="footnote" readingDirection="left-to-right">
       <Coords points="635,1905 1173,1918 1172,1969 633,1956"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="633,1955 720,1957 723,1949 737,1949 740,1957 756,1958 765,1950 875,1953 878,1961 924,1962 927,1955 1030,1963 1080,1962 1171,1966 1172,1929 1131,1926 1123,1918 1067,1916 1058,1925 1033,1924 1029,1919 1020,1916 961,1916 957,1913 946,1913 940,1919 936,1913 919,1912 915,1918 857,1917 836,1915 832,1910 817,1910 809,1915 805,1909 800,1909 792,1909 783,1915 780,1909 757,1907 736,1907 733,1913 724,1913 719,1907 635,1905"/>

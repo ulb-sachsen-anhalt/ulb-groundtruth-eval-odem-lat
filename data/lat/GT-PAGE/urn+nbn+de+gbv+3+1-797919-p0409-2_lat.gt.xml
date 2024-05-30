@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-286">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:22Z</Created>
     <LastChange>2024-01-19T13:10:22Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-797919-p0409-2_lat.png" imageWidth="1658" imageHeight="2759" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9c44a02c-4506-4b56-88a2-c8ce6a3f27cc/00000409.jpg" imageWidth="1658" imageHeight="2759" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="62,307 61,2603 1370,2647 1368,315"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1658733415652_1597"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.45349696" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.45349696" type="heading" readingDirection="left-to-right">
       <Coords points="215,522 1156,522 1156,692 215,692"/>
       <TextLine id="region0001_line0002" custom="readingOrder {index:0;}">
         <Coords points="1065,545 1051,548 1047,558 1028,559 1022,549 1003,548 999,551 997,559 883,563 864,568 825,566 817,557 806,557 798,566 781,564 777,567 716,569 658,566 614,571 560,571 551,562 540,562 535,566 527,561 512,561 507,565 505,572 425,571 357,568 351,558 331,558 326,553 308,554 303,558 301,565 294,556 259,557 245,561 234,556 215,567 215,613 272,613 476,621 780,615 852,617 857,621 865,621 872,617 905,617 942,610 1069,605 1136,610 1155,608 1155,562 1139,561 1137,550 1130,546"/>
@@ -67,11 +82,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Folia caulina teretia, umbella&#13;
+        <Unicode>Folia caulina teretia, umbella
 capsulifera.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45349696" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.45349696" type="heading" readingDirection="left-to-right">
       <Coords points="181,728 1207,728 1207,868 181,868"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="181,732 181,795 231,795 283,800 352,802 487,801 514,794 542,792 578,799 581,807 589,813 609,813 615,808 616,801 638,799 920,796 1102,790 1130,790 1140,800 1154,800 1169,790 1206,788 1206,735 1146,736 1143,728 1122,729 1118,738 1068,736 1062,728 1052,728 1047,732 1028,729 1012,737 999,738 992,730 983,730 976,735 962,731 882,733 857,747 812,749 747,749 742,747 741,741 736,737 716,735 708,742 694,741 687,749 510,754 488,743 444,742 404,737 270,738 242,733"/>
@@ -124,11 +139,11 @@ capsulifera.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>No. 383. Al.— parviflorum. Kleinblumiger&#13;
+        <Unicode>No. 383. Al.— parviflorum. Kleinblumiger
 Lauch.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45349696" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="0.45349696" readingDirection="left-to-right">
       <Coords points="181,884 1215,884 1215,1754 181,1754"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="411,884 414,898 423,901 432,911 322,913 321,901 316,896 251,895 189,902 185,905 184,917 181,918 182,952 307,951 330,946 349,946 388,954 591,953 635,955 642,959 650,959 656,956 717,951 780,951 795,957 801,952 856,949 1044,946 1084,952 1089,948 1215,942 1214,905 1179,899 1019,904 1017,898 1008,891 942,892 929,894 925,905 915,905 913,899 906,895 892,895 886,905 812,906 764,910 762,900 757,895 670,896 653,899 648,909 643,909 635,899 625,899 617,907 604,909 535,910 530,907 520,908 518,896 512,892 504,892 497,898 497,910 485,912 478,900 460,900 456,903 454,911 443,911 448,904 448,893 441,885"/>
@@ -699,25 +714,25 @@ Lauch.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Al.— caule tereti, folio, umbellifero, um-&#13;
-bella globosa, staminibus simplicibus, co-&#13;
-rolla longioribus, spatha subulata. Linn.&#13;
-Spec. pl. 427. Houtuyn Linn. Pfl. Syſt. 11.&#13;
-p. 221.&#13;
-Simillimum allio sphaerocephalo, differt:&#13;
-bulbo oblongo, tunicato. Caule terete,&#13;
-folioso, striato. Foliis teretibus, subula-&#13;
-tis, caulem saepe superantibus. Umbella&#13;
-globosa. Spatha diphylla, subulata, co-&#13;
-rollis longiore. Floribus minimis. Petalis&#13;
-ovatis, exterioribus, duplo longioribus, lan-&#13;
-ceolatis, purpurascentibus. Staminibus et&#13;
-stylis simplicibus, corolla longioribus.&#13;
-Habitat inter dumeta, inque agris sabulosis,&#13;
+        <Unicode>Al.— caule tereti, folio, umbellifero, um-
+bella globosa, staminibus simplicibus, co-
+rolla longioribus, spatha subulata. Linn.
+Spec. pl. 427. Houtuyn Linn. Pfl. Syſt. 11.
+p. 221.
+Simillimum allio sphaerocephalo, differt:
+bulbo oblongo, tunicato. Caule terete,
+folioso, striato. Foliis teretibus, subula-
+tis, caulem saepe superantibus. Umbella
+globosa. Spatha diphylla, subulata, co-
+rollis longiore. Floribus minimis. Petalis
+ovatis, exterioribus, duplo longioribus, lan-
+ceolatis, purpurascentibus. Staminibus et
+stylis simplicibus, corolla longioribus.
+Habitat inter dumeta, inque agris sabulosis,
 sed rarius.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45349696" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.45349696" type="heading" readingDirection="left-to-right">
       <Coords points="212,1821 1180,1821 1180,1902 212,1902"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="212,1823 213,1886 441,1879 741,1882 778,1889 914,1889 917,1901 938,1902 946,1902 951,1890 1180,1891 1180,1846 1135,1845 1126,1832 1114,1830 1102,1831 1099,1844 986,1844 870,1840 863,1828 850,1825 781,1825 752,1833 709,1833 673,1829 662,1821 596,1822 589,1829 581,1831 534,1832 526,1822 514,1822 509,1826 507,1822 478,1822 476,1832 467,1832 426,1831 421,1827 413,1827 408,1831 363,1832 356,1822 340,1822 338,1826 310,1822"/>
@@ -754,7 +769,7 @@ sed rarius.</Unicode>
         <Unicode>Foliis radicalibus: Scapo nudo.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45349696" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;} structure {type:heading;}" orientation="0.45349696" type="heading" readingDirection="left-to-right">
       <Coords points="137,1934 1212,1934 1212,2069 137,2069"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="424,1935 420,1941 392,1944 258,1944 213,1940 137,1940 137,2003 325,2004 363,2005 368,2010 381,2010 387,2005 429,2005 464,1998 529,1996 575,1991 686,2001 695,2012 707,2013 719,2008 722,2002 760,2002 821,2008 1118,2012 1161,2017 1165,2020 1212,2019 1211,1962 1204,1960 1185,1960 1183,1952 1174,1947 1155,1951 1149,1959 1096,1953 1077,1947 1069,1947 1062,1953 973,1959 971,1951 966,1947 952,1950 948,1959 934,1959 906,1956 866,1946 860,1941 838,1945 787,1947 761,1953 590,1952 552,1950 546,1942 534,1938 487,1938 482,1934 473,1934 468,1938 448,1939 446,1935"/>
@@ -779,7 +794,7 @@ sed rarius.</Unicode>
         </Word>
         <Word id="region0005_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="768,2000 768,1955 648,1956 648,1997 682,2000"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>cepa.</Unicode>
           </TextEquiv>
         </Word>
@@ -819,11 +834,11 @@ sed rarius.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>No. 384. Al.— cepa. Gemeiner Lauch;&#13;
+        <Unicode>No. 384. Al.— cepa. Gemeiner Lauch;
 Sil. Zwiebel.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45349696" readingDirection="left-to-right" id="TextRegion_1658733415652_1597" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1658733415652_1597" custom="readingOrder {index:5;}" orientation="0.45349696" readingDirection="left-to-right">
       <Coords points="236,2099 1212,2099 1212,2271 792,2334 240,2334 236,2271"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="248,2100 246,2114 236,2115 236,2154 307,2153 355,2146 383,2152 448,2152 470,2164 475,2163 481,2152 529,2154 536,2149 548,2148 556,2154 567,2155 587,2155 593,2150 603,2150 611,2157 633,2158 638,2162 680,2157 785,2163 838,2162 880,2167 1046,2165 1072,2165 1080,2169 1211,2160 1211,2123 1145,2120 1143,2114 1134,2109 1092,2110 1087,2115 1086,2123 986,2122 978,2111 964,2113 958,2122 915,2123 760,2117 755,2116 753,2109 746,2103 732,2103 721,2114 705,2114 695,2103 684,2104 678,2115 621,2111 617,2109 615,2100 601,2099 590,2099 587,2109 552,2107 392,2108 297,2114 294,2100"/>
@@ -992,9 +1007,9 @@ Sil. Zwiebel.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Al.— scapo nudo, inferne ventricoso, lon-&#13;
-giore, foliis teretibus. Linn. Hort Ups. 77.&#13;
-Cliff. 137. mat. med. 93.&#13;
+        <Unicode>Al.— scapo nudo, inferne ventricoso, lon-
+giore, foliis teretibus. Linn. Hort Ups. 77.
+Cliff. 137. mat. med. 93.
 Cepa vulgaris. B. pin, 71.</Unicode>
       </TextEquiv>
     </TextRegion>

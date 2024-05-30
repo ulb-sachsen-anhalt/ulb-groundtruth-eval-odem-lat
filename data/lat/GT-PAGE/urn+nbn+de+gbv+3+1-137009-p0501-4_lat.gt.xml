@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-24">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:15Z</Created>
     <LastChange>2024-01-19T13:07:15Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-137009_urn+nbn+de+gbv+3+1-137009-p0501-4_lat.png" imageWidth="2589" imageHeight="2881" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/df31d25a-d809-421f-b5e0-41ba643ac5bc/00000501.jpg" imageWidth="2589" imageHeight="2881" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="130,233 103,2754 2177,2783 2195,269"/>
     </Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676455018577_3005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676453452371_2963" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676453452371_2963" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="894,487 894,533 961,533 961,487"/>
       <TextLine id="line_1676453452469_2966" custom="readingOrder {index:0;}">
         <Coords points="894,487 894,533 961,533 961,487"/>
@@ -36,10 +52,10 @@
         <Unicode>19</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26788872" readingDirection="left-to-right" id="TextRegion_1643715096487_5705" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1643715096487_5705" custom="readingOrder {index:1;}" orientation="-0.26788872" readingDirection="left-to-right">
       <Coords points="242,552 1556,543 1556,2302 254,2311"/>
       <TextLine id="line_1643715096540_5708" custom="readingOrder {index:0;}">
-        <Coords points="256,576 401,578 411,561 425,561 431,557 443,560 443,576 462,576 465,567 473,560 492,560 499,566 513,565 519,556 526,555 532,549 543,550 548,562 567,560 574,566 661,568 662,556 670,551 686,553 690,566 734,566 746,550 761,546 780,549 786,564 872,565 902,564 907,556 918,549 927,549 931,552 933,564 952,564 960,552 973,553 977,562 1055,564 1068,548 1077,548 1081,551 1083,563 1192,565 1201,557 1202,550 1206,547 1215,547 1221,552 1223,567 1293,568 1294,555 1299,550 1355,551 1361,558 1373,558 1377,563 1378,572 1411,570 1410,557 1416,551 1428,553 1437,567 1518,568 1532,552 1556,551 1556,610 1554,610 1527,614 1507,611 1499,614 1488,611 1478,617 1471,614 1447,613 1439,608 1428,608 1424,616 1394,612 1387,617 1379,617 1372,612 1239,607 1228,604 1196,603 1187,613 1176,613 1166,609 1165,604 1131,604 1117,609 1103,601 1040,613 1032,613 1027,608 1018,607 998,609 929,602 887,604 886,609 880,612 871,612 864,606 856,606 853,611 843,613 839,611 843,600 838,598 827,606 778,606 777,613 766,618 752,617 744,604 708,606 700,613 691,615 678,613 672,608 656,606 596,606 586,616 579,614 575,609 544,607 535,614 512,617 496,608 490,613 489,618 484,618 469,617 462,609 457,609 449,617 396,618 381,630 371,628 366,617 256,618 251,613 251,581"/>
+        <Coords points="526,555 519,556 513,565 499,566 492,560 473,560 465,567 462,576 443,576 443,560 431,557 425,561 411,561 401,578 256,576 251,581 251,613 256,618 366,617 371,628 381,630 396,618 449,617 457,609 462,609 469,617 484,618 489,618 490,613 496,608 512,617 535,614 544,607 575,609 579,614 586,616 596,606 656,606 672,608 678,613 691,615 700,613 708,606 744,604 752,617 766,618 777,613 778,606 827,606 838,598 843,600 839,611 843,613 853,611 856,606 864,606 871,612 880,612 886,609 887,604 929,602 998,609 1018,607 1027,608 1032,613 1040,613 1103,601 1117,609 1131,604 1165,604 1166,609 1176,613 1187,613 1196,603 1228,604 1239,607 1372,612 1379,617 1387,617 1394,612 1424,616 1428,608 1439,608 1447,613 1471,614 1478,617 1488,611 1499,614 1507,611 1527,614 1554,610 1556,610 1556,551 1532,552 1518,568 1437,567 1428,553 1416,551 1410,557 1411,570 1378,572 1377,563 1373,558 1361,558 1355,551 1299,550 1294,555 1293,568 1223,567 1221,552 1215,547 1206,547 1202,550 1201,557 1192,565 1083,563 1081,551 1077,548 1068,548 1055,564 977,562 973,553 960,552 952,564 933,564 931,552 927,549 918,549 907,556 902,564 872,565 786,564 780,549 776,548 752,549 746,550 734,566 690,566 686,553 670,551 662,556 661,568 574,566 567,560 548,562 543,550 542,550 531,550"/>
         <Word id="region0000_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="321,576 321,603 421,604 421,561 411,561 401,578"/>
           <TextEquiv>
@@ -731,7 +747,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643715036411_5680" custom="readingOrder {index:7;}">
-          <Coords points="1281,1182 1351,1182 1355,1184 1405,1185 1406,1182 1448,1183 1447,1224 1281,1223"/>
+          <Coords points="1281,1182 1281,1223 1447,1224 1447,1184 1432,1184 1430,1182 1407,1182 1405,1185 1355,1184 1350,1182"/>
           <TextEquiv>
             <Unicode>Ciconia</Unicode>
           </TextEquiv>
@@ -1313,7 +1329,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0024_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1247,1807 1138,1807 1138,1855 1214,1857 1289,1860 1325,1858 1326,1809 1297,1807 1280,1817 1329,1814 1250,1811"/>
+          <Coords points="1247,1807 1138,1807 1138,1855 1325,1858 1326,1809"/>
           <TextEquiv conf="0.9045889">
             <Unicode>Medicos,</Unicode>
           </TextEquiv>
@@ -1325,7 +1341,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643787823654_121" custom="readingOrder {index:6;}">
-          <Coords points="1383,1803 1558,1803 1558,1855 1383,1855"/>
+          <Coords points="1383,1803 1383,1855 1556,1855 1556,1811 1530,1812 1524,1803 1509,1803 1504,1811 1493,1811 1486,1803 1467,1803 1459,1811 1455,1805 1448,1803 1422,1803 1416,1807 1409,1803"/>
           <TextEquiv>
             <Unicode>Illuftris-</Unicode>
           </TextEquiv>
@@ -1767,40 +1783,40 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>παϱά τοῖς Ἕλλησιν ἀγονίζοντϣ μέν οἱ τεχνίτϣ, ϰϱἰνοισι δέ οἱ μὴ τεχνί-&#13;
-τϣ. Ac ſi de Artificum præſtantia ad Artifices tantum dis-&#13;
-ſerere pertineret. Ad Medicum igitur, &amp; ad Profeſſorem&#13;
-Medicum, Medicorumque priorem ſui generis peritos noſce-&#13;
-re, non ad Idiotas; &amp; bonum vel malum Medicum pateface-&#13;
-re, ſpectabit. Arduum quidem (fateor) &amp; odio plenum o-&#13;
-pus, quum pravorum ingens ſit moles, detegiægre ferentium,&#13;
-veritasque ipſa, ex veteri proverbio odium pariat. Nullus&#13;
-tamen labor, nulla difficultas, nullum diſcrimen obſtare po-&#13;
-terit, quin huic Illuſtriſſimo Senatui debitas agam gratias.&#13;
-Etenim ſi in bene meritos gratum animum Animalia bruta&#13;
-oſtendunt, cedam ne his ego unquam? Anne Ciconia grati&#13;
-animi Hieroglyphicum apud Ægyptios pingebatur, quòd pa-&#13;
-rentibus ſeneſcentibus id alimenti, quod infantes ipſæ accepe-&#13;
-rant, redderent? Anne Leonis in Androclem beneficii accepti&#13;
-apud Ælianum, &amp; alios, memoria excolitur? Anne Canum vim c. x&#13;
-- dominis gratiæ actæ plurimos obtinent teſtes? Quamobrem "*&#13;
-illuſtriſſimo Senatui gratum me facturum pro meo officio&#13;
-cenſui, ſi Hippocratis ipſe ſententiam explanarem, &amp; quales&#13;
-ſint Medici fama, &amp; nomine, quales vero re, &amp; opere, ſcilicet&#13;
-optimos docerem: Cum pro Academia exteros Profeſſores&#13;
-Illuſtriſſimus Senatus convocare ſoleat, &amp; urbs ipſa patrios&#13;
-plurimos obtineat magnæ exiſtimationis Medicos, ac Illuftris- Illuftris-&#13;
-ſimi Senatores Medici opera pro ſua ſalute egeant. Ut ad&#13;
-hæc omnia perfectum Medicum eligere queant, Optimi Me-&#13;
-dici notas edocere conatus ſum, hoc libello, quem vobis Il-&#13;
-luſtrisſimi Senatores, do, dico, &amp; conſecro, ut me ipſum jure&#13;
-vobis dedidi. Suſcipite igitur hoc grati animi munuſculum,&#13;
-majora brevi ab allaturo &amp; ſub veſtro patrocinio me&#13;
-fovete, &amp; ab invidis tueamini, ac fœli-&#13;
+        <Unicode>παϱά τοῖς Ἕλλησιν ἀγονίζοντϣ μέν οἱ τεχνίτϣ, ϰϱἰνοισι δέ οἱ μὴ τεχνί-
+τϣ. Ac ſi de Artificum præſtantia ad Artifices tantum dis-
+ſerere pertineret. Ad Medicum igitur, &amp; ad Profeſſorem
+Medicum, Medicorumque priorem ſui generis peritos noſce-
+re, non ad Idiotas; &amp; bonum vel malum Medicum pateface-
+re, ſpectabit. Arduum quidem (fateor) &amp; odio plenum o-
+pus, quum pravorum ingens ſit moles, detegiægre ferentium,
+veritasque ipſa, ex veteri proverbio odium pariat. Nullus
+tamen labor, nulla difficultas, nullum diſcrimen obſtare po-
+terit, quin huic Illuſtriſſimo Senatui debitas agam gratias.
+Etenim ſi in bene meritos gratum animum Animalia bruta
+oſtendunt, cedam ne his ego unquam? Anne Ciconia grati
+animi Hieroglyphicum apud Ægyptios pingebatur, quòd pa-
+rentibus ſeneſcentibus id alimenti, quod infantes ipſæ accepe-
+rant, redderent? Anne Leonis in Androclem beneficii accepti
+apud Ælianum, &amp; alios, memoria excolitur? Anne Canum vim c. x
+- dominis gratiæ actæ plurimos obtinent teſtes? Quamobrem "*
+illuſtriſſimo Senatui gratum me facturum pro meo officio
+cenſui, ſi Hippocratis ipſe ſententiam explanarem, &amp; quales
+ſint Medici fama, &amp; nomine, quales vero re, &amp; opere, ſcilicet
+optimos docerem: Cum pro Academia exteros Profeſſores
+Illuſtriſſimus Senatus convocare ſoleat, &amp; urbs ipſa patrios
+plurimos obtineat magnæ exiſtimationis Medicos, ac Illuftris- Illuftris-
+ſimi Senatores Medici opera pro ſua ſalute egeant. Ut ad
+hæc omnia perfectum Medicum eligere queant, Optimi Me-
+dici notas edocere conatus ſum, hoc libello, quem vobis Il-
+luſtrisſimi Senatores, do, dico, &amp; conſecro, ut me ipſum jure
+vobis dedidi. Suſcipite igitur hoc grati animi munuſculum,
+majora brevi ab allaturo &amp; ſub veſtro patrocinio me
+fovete, &amp; ab invidis tueamini, ac fœli-
 ces valete.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26788872" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676453532953_2989" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676453532953_2989" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.26788872" type="marginalia" readingDirection="left-to-right">
       <Coords points="1556,1358 1779,1358 1780,1523 1556,1523"/>
       <TextLine id="line_1676453514057_2982" custom="readingOrder {index:0;}">
         <Coords points="1556,1358 1622,1358 1678,1363 1779,1361 1780,1385 1780,1408 1643,1408 1629,1405 1566,1405 1556,1404"/>
@@ -1817,7 +1833,7 @@ ces valete.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0016_word0007" custom="readingOrder {index:2;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1775,1411 1775,1364 1711,1363 1711,1409"/>
+          <Coords points="1775,1364 1711,1363 1711,1408 1775,1408"/>
           <TextEquiv>
             <Unicode>Hiſt.</Unicode>
           </TextEquiv>
@@ -1863,12 +1879,12 @@ ces valete.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Lib.6. de Hiſt.&#13;
-Anim c. ulti-&#13;
+        <Unicode>Lib.6. de Hiſt.
+Anim c. ulti-
 mo. Quamobrem</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676455024013_3014" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676455024013_3014" custom="readingOrder {index:3;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="853,2324 853,2368 1008,2368 1008,2324"/>
       <TextLine id="line_1676455024134_3017" custom="readingOrder {index:0;}">
         <Coords points="853,2324 853,2368 1008,2368 1008,2324"/>
@@ -1886,7 +1902,7 @@ mo. Quamobrem</Unicode>
         <Unicode>Nnn2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676455018577_3005" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676455018577_3005" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1390,2328 1390,2377 1540,2377 1540,2328"/>
       <TextLine id="line_1676455018717_3008" custom="readingOrder {index:0;}">
         <Coords points="1390,2328 1390,2377 1540,2377 1540,2328"/>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-180">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:47Z</Created>
     <LastChange>2024-01-19T13:08:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-509789-p1213-6_lat.jpg" imageWidth="2486" imageHeight="2954" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/4d3f1128-b8d3-4dbf-a859-44800046ac85/00001213.jpg" imageWidth="2486" imageHeight="2954" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="118,316 114,2868 2146,2844 2140,307"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1660210617028_2599"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.3382513" readingDirection="left-to-right" id="TextRegion_1660210675249_2630" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660210675249_2630" custom="readingOrder {index:0;}" orientation="0.3382513" readingDirection="left-to-right">
       <Coords points="240,588 1557,588 1557,932 240,932"/>
       <TextLine id="line_1660210594821_2511" custom="readingOrder {index:0;}">
         <Coords points="240,601 294,600 302,597 314,599 325,589 338,590 342,598 354,598 362,589 391,589 397,598 435,598 485,589 564,588 568,595 582,598 655,596 662,589 684,588 686,595 703,594 707,588 727,588 729,591 739,592 803,589 805,592 839,595 862,595 866,588 884,588 888,595 968,594 973,589 993,589 997,594 1000,589 1019,588 1022,593 1029,588 1039,588 1047,593 1108,595 1112,589 1146,589 1152,597 1170,598 1269,597 1277,589 1296,589 1298,596 1318,595 1325,589 1354,588 1358,594 1362,594 1368,588 1389,588 1393,595 1427,595 1449,589 1523,588 1535,595 1546,597 1557,597 1557,646 1525,648 1515,644 1483,648 1467,645 1448,649 1394,649 1387,655 1377,655 1370,649 1355,649 1349,646 1322,647 1314,651 1302,651 1297,655 1286,655 1279,651 1249,651 1242,648 1223,650 1209,647 1203,650 1156,651 1142,656 1111,646 1078,648 1067,653 1060,646 1056,649 1038,646 932,650 879,649 872,645 856,645 848,649 821,650 815,646 798,649 735,649 722,645 714,649 689,648 683,653 672,654 663,646 648,650 622,647 612,648 605,656 596,658 583,657 576,647 502,651 494,648 485,648 480,651 429,653 407,648 398,655 388,658 378,655 377,652 347,653 339,658 325,652 302,656 241,654"/>
@@ -172,7 +187,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660210936837_2819" custom="readingOrder {index:1;}">
-          <Coords points="415,721 468,720 557,719 557,764 549,769 454,773 442,772 415,767"/>
+          <Coords points="557,764 557,719 468,720 415,721 415,767 418,767 438,768 442,772 454,773 463,768 496,767 509,760 531,761 539,769 549,769"/>
           <TextEquiv>
             <Unicode>ehrlich</Unicode>
           </TextEquiv>
@@ -352,7 +367,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0006" custom="readingOrder {index:5;}">
-        <Coords points="420,878 408,883 389,883 379,887 369,884 292,886 259,881 241,883 240,941 275,944 357,940 377,934 392,938 431,935 474,937 491,934 498,936 532,938 589,933 614,937 674,937 681,930 686,930 694,937 707,937 713,944 723,944 730,938 781,940 903,930 908,925 908,891 903,886 891,884 810,883 791,879 747,882 736,877 722,877 713,882 680,878 673,882 643,884 636,879 623,879 616,884 598,886 590,886 585,882 522,885 507,883 502,877 492,878 484,884 450,884 440,883 433,878"/>
+        <Coords points="408,883 389,883 379,887 369,884 292,886 259,881 241,883 240,932 679,932 681,930 686,930 688,932 878,932 903,930 908,925 908,891 903,886 891,884 810,883 791,879 747,882 736,877 722,877 713,882 680,878 673,882 643,884 636,879 623,879 616,884 598,886 590,886 585,882 522,885 507,883 502,877 492,878 484,884 450,884 440,883 433,878 420,878"/>
         <Baseline points="240,932 908,932"/>
         <Word id="word_1660210675302_2633" custom="readingOrder {index:0;}">
           <Coords points="246,894 392,893 392,932 246,932"/>
@@ -383,18 +398,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>nach ihrer Gelegenheit, darinne bis zu ihrem ehelichen Be⸗&#13;
-rath, oder da ſie ſich nicht befreyen wuͤrde, bis zu ihrem Ab⸗&#13;
-ſterben ehrlich erhalten koͤnne. Wenn ſie ſich aber befrey⸗&#13;
-et, oder verſtorben, ſo ſoll ſolche Wohnung mit den Hoͤffen,&#13;
-Acker, Wieſen, Weiden und andern, an die Vettern wie⸗&#13;
+        <Unicode>nach ihrer Gelegenheit, darinne bis zu ihrem ehelichen Be⸗
+rath, oder da ſie ſich nicht befreyen wuͤrde, bis zu ihrem Ab⸗
+ſterben ehrlich erhalten koͤnne. Wenn ſie ſich aber befrey⸗
+et, oder verſtorben, ſo ſoll ſolche Wohnung mit den Hoͤffen,
+Acker, Wieſen, Weiden und andern, an die Vettern wie⸗
 derum kommen und fallen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3382513" readingDirection="left-to-right" id="TextRegion_1660210682073_2639" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1660210682073_2639" custom="readingOrder {index:1;}" orientation="0.3382513" readingDirection="left-to-right">
       <Coords points="240,932 1557,932 1557,1163 240,1163"/>
       <TextLine id="line_1660210594829_2521" custom="readingOrder {index:0;}">
-        <Coords points="302,947 359,941 377,935 398,939 431,936 474,938 491,935 498,937 532,939 589,934 618,938 630,943 675,943 674,938 681,931 686,931 694,938 694,944 723,945 799,942 883,931 907,938 915,931 930,928 985,928 990,933 991,945 1001,945 1003,938 1010,933 1022,933 1029,937 1031,944 1053,945 1143,943 1177,935 1186,935 1190,938 1237,939 1244,938 1246,932 1252,928 1276,927 1327,927 1335,932 1337,942 1394,939 1396,932 1403,928 1417,930 1422,939 1455,941 1557,938 1557,986 1540,990 1331,992 1324,989 1191,990 1176,987 1139,989 1135,999 1127,1001 1117,997 1115,988 1087,987 1083,990 1072,990 1066,1000 1058,1002 1051,1002 1045,996 1029,990 932,993 927,997 914,998 903,990 883,986 747,993 710,998 699,994 628,992 622,989 605,992 543,992 516,988 504,991 479,989 472,992 424,994 365,1003 345,997 340,988 324,985 305,985 300,980 300,951"/>
+        <Coords points="674,938 675,943 630,943 618,938 589,934 532,939 498,937 491,935 474,938 431,936 398,939 377,935 359,941 302,947 300,951 300,980 305,985 324,985 340,988 345,997 365,1003 424,994 472,992 479,989 504,991 516,988 543,992 605,992 622,989 628,992 699,994 710,998 747,993 883,986 903,990 914,998 927,997 932,993 1029,990 1045,996 1051,1002 1058,1002 1066,1000 1072,990 1083,990 1087,987 1115,988 1117,997 1127,1001 1135,999 1139,989 1176,987 1191,990 1324,989 1331,992 1540,990 1557,986 1557,938 1455,941 1422,939 1418,932 1396,932 1394,939 1337,942 1335,932 1246,932 1244,938 1237,939 1190,938 1186,935 1177,935 1143,943 1053,945 1031,944 1029,937 1022,933 1010,933 1003,938 1001,945 991,945 990,933 989,932 913,932 907,938 886,932 875,932 799,942 723,945 694,944 694,938 687,932 680,932"/>
         <Baseline points="300,974 363,984 495,977 682,983 858,976 1352,981 1557,978"/>
         <Word id="region0001_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="396,943 361,943 362,1000 384,1000 396,998"/>
@@ -559,7 +574,7 @@ derum kommen und fallen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0011" custom="readingOrder {index:3;}">
-        <Coords points="587,1103 581,1106 579,1112 426,1113 365,1116 363,1110 358,1107 345,1107 340,1109 337,1115 329,1116 241,1118 241,1166 317,1166 385,1161 392,1167 442,1160 619,1159 808,1162 819,1167 843,1158 874,1157 912,1161 919,1169 937,1170 941,1168 943,1161 950,1159 982,1161 1076,1157 1085,1160 1289,1160 1334,1158 1341,1154 1362,1154 1367,1149 1367,1118 1360,1112 1203,1110 1201,1105 1195,1102 1183,1103 1177,1110 1137,1112 1135,1107 1111,1111 900,1111 873,1109 867,1102 852,1103 848,1110 605,1112 602,1105"/>
+        <Coords points="581,1106 579,1112 426,1113 365,1116 363,1110 358,1107 345,1107 340,1109 337,1115 329,1116 241,1118 241,1163 357,1163 385,1161 387,1163 420,1163 442,1160 619,1159 808,1162 810,1163 829,1163 843,1158 874,1157 912,1161 913,1163 942,1163 943,1161 950,1159 982,1161 1076,1157 1085,1160 1289,1160 1334,1158 1341,1154 1362,1154 1367,1149 1367,1118 1360,1112 1203,1110 1201,1105 1195,1102 1183,1103 1177,1110 1137,1112 1135,1107 1111,1111 900,1111 873,1109 867,1102 852,1103 848,1110 605,1112 602,1105 587,1103"/>
         <Baseline points="241,1156 1367,1145"/>
         <Word id="region0001_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="338,1113 337,1115 329,1116 248,1118 249,1162 383,1161 385,1161 385,1161 403,1161 402,1114 365,1116 364,1113"/>
@@ -590,16 +605,16 @@ derum kommen und fallen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. IV. Cum vero Menſ. Aug. 1706. ad facultatem&#13;
-noſtram acta, plures quæſtiones, hanc ſucceſſionem no-&#13;
-bilium in Ducatu Bremenſi illuſtrantes, ſub examen revo-&#13;
+        <Unicode>§. IV. Cum vero Menſ. Aug. 1706. ad facultatem
+noſtram acta, plures quæſtiones, hanc ſucceſſionem no-
+bilium in Ducatu Bremenſi illuſtrantes, ſub examen revo-
 cantia, transmitterentur, ita pronunciavimus:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3382513" readingDirection="left-to-right" id="TextRegion_1660210682073_2638" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1660210682073_2638" custom="readingOrder {index:2;}" orientation="0.3382513" readingDirection="left-to-right">
       <Coords points="240,1163 1557,1163 1557,2048 240,2048"/>
       <TextLine id="line_1660210594833_2527" custom="readingOrder {index:0;}">
-        <Coords points="311,1168 365,1162 385,1162 392,1168 442,1161 509,1165 514,1161 532,1160 537,1162 539,1167 571,1167 594,1166 604,1160 619,1160 626,1166 666,1167 708,1166 713,1162 723,1162 728,1166 740,1167 819,1168 843,1159 874,1158 903,1162 922,1171 937,1171 942,1168 943,1162 950,1160 964,1160 973,1165 993,1160 1013,1161 1076,1158 1119,1166 1207,1166 1247,1164 1250,1161 1274,1163 1298,1159 1321,1160 1352,1154 1357,1157 1360,1166 1382,1166 1403,1163 1393,1161 1389,1156 1389,1145 1396,1137 1404,1137 1409,1142 1409,1156 1404,1163 1439,1155 1511,1155 1528,1157 1542,1168 1557,1168 1557,1211 1542,1212 1533,1215 1489,1213 1465,1217 1435,1217 1403,1212 1375,1219 1360,1218 1354,1212 1321,1211 1286,1215 1281,1211 1257,1214 1253,1211 1175,1213 1083,1211 1067,1217 1057,1211 1037,1215 1010,1215 968,1212 958,1221 953,1221 946,1216 863,1219 721,1212 714,1216 700,1216 693,1222 684,1222 677,1217 653,1218 626,1219 604,1224 595,1215 589,1215 582,1219 539,1218 524,1224 513,1218 448,1220 401,1217 385,1222 373,1220 367,1215 356,1215 353,1213 354,1202 313,1202 308,1197 308,1172"/>
+        <Coords points="311,1168 308,1172 308,1197 313,1202 354,1202 353,1213 356,1215 367,1215 373,1220 385,1222 401,1217 448,1220 513,1218 524,1224 539,1218 582,1219 589,1215 595,1215 604,1224 626,1219 653,1218 677,1217 684,1222 693,1222 700,1216 714,1216 721,1212 863,1219 946,1216 953,1221 958,1221 968,1212 1010,1215 1037,1215 1057,1211 1067,1217 1083,1211 1175,1213 1253,1211 1257,1214 1281,1211 1286,1215 1321,1211 1354,1212 1360,1218 1375,1219 1403,1212 1435,1217 1465,1217 1489,1213 1533,1215 1542,1212 1557,1211 1557,1168 1542,1168 1535,1163 1404,1163 1403,1163 1382,1166 1360,1166 1359,1163 1274,1163 1248,1163 1247,1164 1207,1166 1119,1166 1102,1163 981,1163 973,1165 969,1163 942,1163 942,1168 937,1171 922,1171 905,1163 832,1163 819,1168 740,1167 728,1166 724,1163 711,1163 708,1166 666,1167 626,1166 622,1163 599,1163 594,1166 571,1167 539,1167 537,1163 511,1163 509,1165 475,1163 427,1163 392,1168 386,1163 356,1163"/>
         <Baseline points="308,1191 454,1208 1557,1200"/>
         <Word id="region0001_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="361,1209 421,1209 421,1163 392,1168 385,1162 365,1162 361,1162"/>
@@ -693,7 +708,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660211272988_3157" custom="readingOrder {index:7;}">
-          <Coords points="1477,1217 1557,1217 1557,1266 1477,1266"/>
+          <Coords points="1477,1217 1477,1266 1531,1266 1535,1264 1550,1266 1557,1265 1557,1220 1539,1217"/>
           <TextEquiv>
             <Unicode>Be⸗</Unicode>
           </TextEquiv>
@@ -852,7 +867,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660211397740_3279" custom="readingOrder {index:4;}">
-          <Coords points="1009,1377 1131,1374 1280,1373 1311,1373 1311,1414 1092,1418 1016,1418 1009,1415"/>
+          <Coords points="1131,1374 1009,1377 1009,1415 1009,1415 1011,1415 1016,1418 1092,1418 1096,1415 1136,1417 1161,1417 1183,1414 1186,1416 1311,1414 1311,1373 1291,1374 1278,1373"/>
           <TextEquiv>
             <Unicode>Vice - Director</Unicode>
           </TextEquiv>
@@ -864,7 +879,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660211412539_3284" custom="readingOrder {index:6;}">
-          <Coords points="1404,1372 1558,1372 1558,1414 1404,1414"/>
+          <Coords points="1404,1372 1404,1414 1557,1414 1557,1376 1550,1372 1440,1372"/>
           <TextEquiv>
             <Unicode>Aſſeſſo-</Unicode>
           </TextEquiv>
@@ -907,7 +922,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660211451820_3313" custom="readingOrder {index:5;}">
-          <Coords points="1093,1426 1258,1425 1464,1425 1464,1471 1382,1473 1287,1473 1105,1473 1093,1471"/>
+          <Coords points="1464,1425 1258,1425 1093,1426 1093,1470 1105,1473 1137,1466 1159,1466 1177,1473 1191,1465 1217,1465 1287,1473 1303,1473 1318,1469 1366,1469 1368,1473 1382,1473 1383,1472 1403,1466 1438,1466 1446,1471 1464,1471"/>
           <TextEquiv>
             <Unicode>Rechts ⸗ Gelehrten</Unicode>
           </TextEquiv>
@@ -1254,7 +1269,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660210594851_2561" custom="readingOrder {index:9;}">
-          <Coords points="1501,1683 1502,1682 1525,1682 1526,1681 1549,1681 1550,1682 1557,1682 1557,1731 1546,1731 1515,1732 1499,1730 1496,1732 1501,1732"/>
+          <Coords points="1501,1683 1557,1682 1557,1731 1515,1732 1499,1730 1496,1732"/>
           <TextEquiv conf="0.8977955">
             <Unicode>die</Unicode>
           </TextEquiv>
@@ -1498,7 +1513,7 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660211879589_3829" custom="readingOrder {index:7;}">
-          <Coords points="1038,1887 1204,1887 1241,1887 1286,1890 1286,1928 1143,1929 1038,1929"/>
+          <Coords points="1038,1887 1038,1929 1143,1929 1286,1928 1286,1890 1242,1890 1241,1887 1205,1887 1204,1890 1186,1891 1141,1891 1139,1887 1113,1887 1111,1891 1100,1887 1090,1892 1075,1887"/>
           <TextEquiv>
             <Unicode>Creditoribus</Unicode>
           </TextEquiv>
@@ -1529,13 +1544,13 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0027_word0001" custom="readingOrder {index:1;}">
-          <Coords points="694,1938 687,1940 658,1941 640,1935 625,1938 611,1936 590,1937 585,1940 558,1940 550,1937 538,1939 531,1934 519,1934 512,1935 506,1942 500,1943 490,1939 461,1942 450,1936 437,1935 410,1937 410,1991 439,1991 511,1986 516,1990 525,1991 539,1984 548,1984 556,1987 613,1991 619,1987 638,1989 652,1984 684,1983 687,1986 694,1984"/>
+          <Coords points="658,1941 640,1935 625,1938 611,1936 590,1937 585,1940 558,1940 550,1937 538,1939 531,1934 519,1934 512,1935 506,1942 500,1943 490,1939 461,1942 450,1936 437,1935 429,1938 426,1935 410,1937 410,1989 439,1991 511,1986 516,1990 525,1991 539,1984 548,1984 556,1987 613,1991 619,1987 638,1989 652,1984 684,1983 687,1986 694,1984 694,1938 687,1940"/>
           <TextEquiv>
             <Unicode>Drochteriſchen</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0027_word0002" custom="readingOrder {index:2;}">
-          <Coords points="869,1940 718,1941 718,1985 818,1984 819,1984 821,1984 867,1984 870,1984"/>
+          <Coords points="718,1941 718,1985 818,1984 819,1984 821,1984 867,1984 869,1983 869,1942 840,1945 833,1942 810,1941 808,1940"/>
           <TextEquiv>
             <Unicode>Guͤther,</Unicode>
           </TextEquiv>
@@ -1642,29 +1657,29 @@ cantia, transmitterentur, ita pronunciavimus:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Jn Sachen Hauptmann Barthold Brummers Klaͤgers Wie⸗&#13;
-derbeklagten an einem, Lieutenant Gotreff Dieterich Plathen Be⸗&#13;
-klagten und Wiederklaͤgern am andern Theil erkennen Jhro Koͤnigl.&#13;
-Maj. zu Schweden in denen Hertzogthuͤmern Bremen und Verden&#13;
-zum Hofgerichte verordneter Director, Vice - Director und Aſſeſſo-&#13;
-res, auf eingeholten Rath auswertiger Rechts ⸗ Gelehrten vor&#13;
-Recht, daß quoad punctum conventionis Bekl. von der Klage zu&#13;
-entbinden und zu abſolviren ſey: wie wir ihn denn hiermit davon ent⸗&#13;
-binden und abſolviren, quoad reconventionem aber, daß Wieder⸗&#13;
-Beklagter zwar als Mit⸗Erbe, ſo viel die Corſiſchen und andere neu⸗&#13;
-erworbene Guͤther betrl. zu declariren, doch dabey ſchuldig ſey, die&#13;
-Drochterſchen Guͤther, ſo weit ſie auf den Erblaſſern vererbet, oder&#13;
-von der Schwertſeit anerkaufft, Wiederklaͤgern abzutreten und zu&#13;
-reſtituiren, wie wir ihn denn hierzu ſchuldig erkennen, und bleibet&#13;
-das uͤbrige, ſo etwa der Erblaſſer denen Creditoribus ratione itztge⸗&#13;
-meldter Drochteriſchen Guͤther, bezahlet, und alſo davon in ſolutum&#13;
+        <Unicode>Jn Sachen Hauptmann Barthold Brummers Klaͤgers Wie⸗
+derbeklagten an einem, Lieutenant Gotreff Dieterich Plathen Be⸗
+klagten und Wiederklaͤgern am andern Theil erkennen Jhro Koͤnigl.
+Maj. zu Schweden in denen Hertzogthuͤmern Bremen und Verden
+zum Hofgerichte verordneter Director, Vice - Director und Aſſeſſo-
+res, auf eingeholten Rath auswertiger Rechts ⸗ Gelehrten vor
+Recht, daß quoad punctum conventionis Bekl. von der Klage zu
+entbinden und zu abſolviren ſey: wie wir ihn denn hiermit davon ent⸗
+binden und abſolviren, quoad reconventionem aber, daß Wieder⸗
+Beklagter zwar als Mit⸗Erbe, ſo viel die Corſiſchen und andere neu⸗
+erworbene Guͤther betrl. zu declariren, doch dabey ſchuldig ſey, die
+Drochterſchen Guͤther, ſo weit ſie auf den Erblaſſern vererbet, oder
+von der Schwertſeit anerkaufft, Wiederklaͤgern abzutreten und zu
+reſtituiren, wie wir ihn denn hierzu ſchuldig erkennen, und bleibet
+das uͤbrige, ſo etwa der Erblaſſer denen Creditoribus ratione itztge⸗
+meldter Drochteriſchen Guͤther, bezahlet, und alſo davon in ſolutum
 angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3382513" type="heading" readingDirection="left-to-right" id="TextRegion_1660210643940_2614" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1660210643940_2614" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.3382513" type="heading" readingDirection="left-to-right">
       <Coords points="252,2069 1566,2069 1566,2123 252,2123"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
-        <Coords points="634,2070 580,2074 577,2078 578,2106 582,2109 638,2109 639,2117 645,2123 672,2125 1122,2126 1173,2124 1184,2121 1189,2116 1189,2083 1186,2079 1118,2078 1114,2070 1078,2070 1076,2078 1029,2079 1025,2069 979,2070 976,2077 971,2078 954,2070 876,2069 861,2077 833,2079 787,2078 784,2070 765,2070 761,2077 755,2077 738,2069"/>
+        <Coords points="580,2074 577,2078 578,2106 582,2109 638,2109 639,2117 645,2123 1176,2123 1184,2121 1189,2116 1189,2083 1186,2079 1118,2078 1114,2070 1078,2070 1076,2078 1029,2079 1025,2069 979,2070 976,2077 971,2078 954,2070 876,2069 861,2077 833,2079 787,2078 784,2070 765,2070 761,2077 755,2077 738,2069 634,2070"/>
         <Baseline points="578,2100 706,2114 1189,2112"/>
         <Word id="word_1660210643997_2617" custom="readingOrder {index:0;}">
           <Coords points="696,2082 875,2081 875,2123 696,2123"/>
@@ -1686,7 +1701,7 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
         <Unicode>Rationes Decidendi.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3382513" readingDirection="left-to-right" id="TextRegion_1660210643940_2613" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1660210643940_2613" custom="readingOrder {index:4;}" orientation="0.3382513" readingDirection="left-to-right">
       <Coords points="252,2123 1566,2123 1566,2412 252,2412"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="628,2126 619,2137 596,2136 588,2127 576,2127 570,2135 562,2129 551,2129 545,2135 498,2139 489,2129 480,2129 468,2139 451,2139 394,2130 291,2132 281,2138 281,2173 287,2179 305,2179 313,2185 355,2189 371,2186 392,2191 426,2191 441,2197 457,2194 461,2190 511,2188 523,2184 571,2184 586,2187 636,2186 645,2183 679,2186 696,2182 704,2187 723,2186 732,2192 744,2186 808,2189 870,2185 879,2192 889,2193 901,2186 962,2187 971,2179 975,2179 980,2187 988,2192 997,2185 1009,2185 1014,2188 1057,2182 1070,2182 1076,2185 1099,2182 1113,2186 1196,2187 1241,2185 1246,2191 1259,2187 1295,2190 1319,2186 1328,2192 1335,2192 1356,2184 1409,2188 1459,2188 1468,2185 1501,2189 1516,2186 1565,2187 1565,2137 1556,2130 1535,2131 1530,2136 1525,2132 1503,2131 1496,2133 1492,2139 1389,2140 1360,2138 1347,2130 1337,2130 1327,2138 1294,2137 1289,2133 1280,2133 1275,2137 1240,2138 1202,2127 1193,2127 1188,2131 1170,2132 1165,2128 1157,2128 1149,2134 1113,2138 981,2140 904,2137 897,2128 882,2128 869,2135 828,2132 819,2127 762,2135 755,2135 746,2128 737,2128 726,2136 719,2136 711,2128 700,2128 694,2134 689,2134 684,2129 673,2130 667,2135 645,2136 640,2128"/>
@@ -1722,7 +1737,7 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660212127028_3970" custom="readingOrder {index:5;}">
-          <Coords points="789,2135 903,2136 921,2138 921,2186 895,2189 876,2190 842,2187 789,2180"/>
+          <Coords points="903,2136 789,2135 789,2180 841,2187 870,2185 876,2190 895,2189 896,2189 901,2186 919,2186 921,2186 921,2138 916,2137 904,2137 903,2136"/>
           <TextEquiv>
             <Unicode>Sache</Unicode>
           </TextEquiv>
@@ -1832,7 +1847,7 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660212212283_4061" custom="readingOrder {index:1;}">
-          <Coords points="329,2250 508,2248 793,2247 793,2292 790,2296 775,2296 343,2295 329,2294"/>
+          <Coords points="793,2247 508,2248 329,2250 329,2294 343,2295 359,2290 385,2291 391,2288 448,2293 457,2290 480,2292 487,2288 502,2288 509,2290 517,2289 525,2294 540,2295 562,2290 575,2290 581,2293 666,2293 695,2287 711,2294 738,2288 753,2288 771,2291 775,2296 790,2296 793,2291"/>
           <TextEquiv>
             <Unicode>Erb⸗und Stamm⸗Guth</Unicode>
           </TextEquiv>
@@ -1887,7 +1902,7 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660212264394_4125" custom="readingOrder {index:1;}">
-          <Coords points="355,2293 518,2292 577,2292 595,2293 595,2343 572,2348 385,2349 363,2349 355,2346"/>
+          <Coords points="355,2293 355,2346 363,2349 368,2346 385,2349 405,2342 444,2345 455,2341 469,2341 473,2344 487,2341 502,2345 533,2339 553,2344 559,2342 572,2348 593,2343 594,2343 595,2343 595,2294 582,2295 577,2292 556,2292 533,2296 515,2292 467,2292 449,2294 432,2293"/>
           <TextEquiv>
             <Unicode>Ritter⸗Recht</Unicode>
           </TextEquiv>
@@ -1955,7 +1970,7 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
         </Word>
         <Word id="region0002_line0006_word0002" custom="readingOrder {index:2;}">
           <Coords points="573,2353 527,2353 528,2405 536,2405 573,2400"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Ob</Unicode>
           </TextEquiv>
         </Word>
@@ -2012,14 +2027,14 @@ angenommen, dem Wieder Beklagten billig bevor. B. R. W.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Es geben die in dieſer Sache ergangene Acta, daß vornemlich&#13;
-drey Fragen ſind geſtritten worden: (I) Ob das Guth Dornbuſch&#13;
-ein Erb⸗und Stamm⸗Guth ſey? (2) Ob ein Stamm⸗Vetter nach&#13;
-dem Ritter⸗Recht des defuncti matris fratrem uterinum gantz ex⸗&#13;
+        <Unicode>Es geben die in dieſer Sache ergangene Acta, daß vornemlich
+drey Fragen ſind geſtritten worden: (I) Ob das Guth Dornbuſch
+ein Erb⸗und Stamm⸗Guth ſey? (2) Ob ein Stamm⸗Vetter nach
+dem Ritter⸗Recht des defuncti matris fratrem uterinum gantz ex⸗
 cludire? (3) Ob die Drochterſchen Guͤther mit unter die Erb und</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3382513" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660210617028_2599" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660210617028_2599" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="0.3382513" type="marginalia" readingDirection="left-to-right">
       <Coords points="1557,927 1790,927 1790,1033 1557,1033"/>
       <TextLine id="line_1660210617084_2602" custom="readingOrder {index:0;}">
         <Coords points="1557,938 1633,937 1639,940 1674,943 1681,936 1691,936 1699,943 1713,943 1720,938 1728,938 1739,944 1756,944 1763,935 1775,935 1782,944 1790,943 1790,984 1735,985 1732,989 1726,990 1718,990 1712,985 1697,981 1682,984 1572,984 1557,986"/>
@@ -2041,7 +2056,7 @@ cludire? (3) Ob die Drochterſchen Guͤther mit unter die Erb und</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660210594830_2522" custom="readingOrder {index:1;}">
-        <Coords points="1557,987 1572,985 1597,989 1677,990 1685,983 1697,982 1718,991 1778,992 1783,997 1783,1024 1778,1029 1577,1031 1570,1033 1567,1044 1557,1047"/>
+        <Coords points="1577,1031 1778,1029 1783,1024 1783,997 1778,992 1718,991 1697,982 1685,983 1677,990 1597,989 1572,985 1557,987 1557,1033 1570,1033"/>
         <Baseline points="1557,1027 1584,1021 1783,1020"/>
         <Word id="region0001_line0008_word0007" custom="readingOrder {index:0;}">
           <Coords points="1563,996 1727,995 1727,1029 1563,1030"/>
@@ -2054,7 +2069,7 @@ cludire? (3) Ob die Drochterſchen Guͤther mit unter die Erb und</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>llluſtratio juris&#13;
+        <Unicode>llluſtratio juris
 Bremenſis.</Unicode>
       </TextEquiv>
     </TextRegion>

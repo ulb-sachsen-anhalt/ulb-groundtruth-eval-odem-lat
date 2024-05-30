@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-144">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:16Z</Created>
     <LastChange>2024-01-19T13:08:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-339280-p0678-1_lat.png" imageWidth="2965" imageHeight="4013" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/18bd730e-e0b7-48d0-964f-1e82e082e509/00000678.jpg" imageWidth="2965" imageHeight="4013" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="246,400 213,3868 2838,3872 2837,465"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.28567478" type="page-number" readingDirection="left-to-right" id="TextRegion_1674036967866_4623" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1674036967866_4623" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.28567478" type="page-number" readingDirection="left-to-right">
       <Coords points="998,748 1220,748 1220,844 998,844"/>
       <TextLine id="line_1674036967924_4626" custom="readingOrder {index:0;}">
         <Coords points="998,778 1011,778 1016,774 1031,773 1038,778 1187,783 1188,759 1193,754 1220,754 1220,824 1214,825 1209,820 1208,830 1203,835 1054,834 1048,839 1035,839 1029,833 998,832"/>
@@ -35,7 +50,7 @@
         <Unicode>652 TRACT. IV. LIBRI QUINTI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28567478" type="header" readingDirection="left-to-right" id="TextRegion_1674036967866_4622" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1674036967866_4622" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.28567478" type="header" readingDirection="left-to-right">
       <Coords points="1220,748 2242,748 2242,844 1220,844"/>
       <TextLine id="line_1674036967924_4625" custom="readingOrder {index:0;}">
         <Coords points="1220,754 1431,758 1435,748 1453,748 1457,757 1645,757 1652,753 1661,753 1667,757 1793,760 1798,756 1808,756 1818,761 1942,765 2241,765 2241,836 2143,835 2054,842 1950,844 1948,841 1873,831 1732,831 1650,824 1585,828 1461,827 1407,824 1220,824"/>
@@ -71,7 +86,7 @@
         <Unicode>652 TRACT. IV. LIBRI QUINTI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28567478" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:2;}">
+    <TextRegion id="region0006" custom="readingOrder {index:2;}" orientation="-0.28567478" readingDirection="left-to-right">
       <Coords points="921,854 2631,854 2631,3432 921,3432"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1787,855 1773,868 1698,868 1636,868 1635,860 1630,855 1597,855 1593,858 1591,867 1547,868 1409,866 1407,855 1385,855 1382,866 1323,865 1320,854 1301,854 1297,865 1266,866 1263,855 1243,855 1239,865 1181,865 1137,870 1086,870 1063,870 1058,859 1048,858 1025,862 1021,872 992,872 990,862 984,858 922,856 922,919 1003,921 1125,916 1148,922 1153,918 1188,917 1194,925 1209,926 1215,925 1220,915 1438,913 1551,916 1563,918 1570,927 1588,927 1600,919 1626,918 1635,910 1648,913 1652,920 1663,921 1665,918 1741,917 1808,921 2212,927 2224,924 2500,925 2631,921 2631,884 2592,881 2590,863 2574,859 2483,858 2468,866 2466,876 2270,877 2255,877 2253,867 2247,863 2169,863 2164,868 2163,877 2118,876 1968,874 1965,864 1961,861 1947,862 1942,873 1892,871 1889,862 1883,858 1871,860 1865,871 1827,872 1810,871 1809,862 1802,855"/>
@@ -229,7 +244,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0006_line0003_word0001" custom="readingOrder {index:1;}">
-          <Coords points="1024,1018 1252,1019 1252,975 1237,976 1233,987 1078,987 1084,978 1078,972 1076,983 1073,985 1061,994 1058,986 1055,988 1024,988"/>
+          <Coords points="1252,1019 1252,975 1237,976 1233,987 1078,987 1084,978 1078,972 1076,983 1073,985 1065,991 1065,992 1064,992 1061,994 1059,990 1055,988 1024,988 1024,1018"/>
           <TextEquiv conf="0.9102879">
             <Unicode>communi</Unicode>
           </TextEquiv>
@@ -876,7 +891,7 @@
         </Word>
         <Word id="region0006_line0013_word0008" custom="readingOrder {index:8;}">
           <Coords points="2284,1600 2284,1649 2607,1651 2607,1612 2604,1609 2498,1608 2496,1601 2472,1601 2472,1602 2471,1601 2349,1600 2348,1608 2302,1607 2300,1600"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>iuriſdictione,</Unicode>
           </TextEquiv>
         </Word>
@@ -1071,7 +1086,7 @@
         </Word>
         <Word id="region0006_line0016_word0007" custom="readingOrder {index:7;}">
           <Coords points="2138,1779 2136,1787 2080,1786 2080,1829 2410,1831 2410,1787 2397,1791 2351,1787 2182,1787 2171,1780 2169,1779"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ordinamenta,</Unicode>
           </TextEquiv>
         </Word>
@@ -1339,7 +1354,7 @@
         </Word>
         <Word id="region0006_line0020_word0008" custom="readingOrder {index:8;}">
           <Coords points="2411,2019 2409,2020 2407,2029 2320,2027 2313,2027 2313,2074 2432,2075 2432,2020 2432,2019"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quod</Unicode>
           </TextEquiv>
         </Word>
@@ -1778,7 +1793,7 @@
         </Word>
         <Word id="region0006_line0027_word0006" custom="readingOrder {index:6;}">
           <Coords points="1948,2440 1945,2449 1925,2449 1925,2494 2011,2495 2011,2450 2005,2451 2002,2440"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>eſt,</Unicode>
           </TextEquiv>
         </Word>
@@ -2774,47 +2789,47 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ctoribus, qui in hoc negligens fuerit incurrat d. communi Flo-&#13;
-rentię in pœnam lib. 500. f. p. pro vice qualibet ſibi auferenda,&#13;
-&amp; communi Florentiæ applicanda, &amp; de hoc quilibet ipſorum&#13;
-poſſit, &amp; debeat ſingulariter ſindicari, &amp; intelligi, &amp; obſervari&#13;
-debeant, prout iacent per omnes, &amp; ab omnibus poteſtatibus,&#13;
-capitaneis, vicariis, &amp; aliis offitialibus communis Florentiæ ſub&#13;
-pœna, &amp; pœnis ſuperius adnotatis ad ſanum, &amp; purum intelle-&#13;
-ctum, cavillationibus, &amp; pravis interpetrationibus omnino remo-&#13;
-tis, ſalvis etiam illis, quę gravius diſponerentur contra delinquen-&#13;
-tes in prædictis, vel aliquo prædictorum. Et quod quilibet pote-&#13;
-ſteria, liga, univerſitas cuiuslibet poteſteriæ, &amp; ligæ, &amp; homines&#13;
-&amp; offitiales cuiuslibet poteſteriæ, &amp; ligæ comitatus, &amp; diſtrictus&#13;
-Florentiæ, in qua, vel quibus eſſet offitialis cum iuriſdictione,&#13;
-ac etiam ipſi poteſtates, capitanei, vicarii, &amp; alii offitiales prædi-&#13;
-cti teneantur, &amp; debeant facere, &amp; facere ſumi, &amp; in publicam&#13;
-formam ſcribi, &amp; penes ſe habere præſentia ordinamenta, &amp; de-&#13;
-mum ipſa facere ligari, &amp; poni penes volumen ſtatutorum ipſius&#13;
-poteſteriæ, capitaneatus, &amp; vicariatus, &amp; loci, in quo iuriſdictio&#13;
-exercetur, ut exinde ſint tam poteſtatibus, vicariis, &amp; aliis offi-&#13;
-tialibus, quam omnibus aliis nota, &amp; manifeſta. Et quod quili-&#13;
-bet ex dd. poteſteriis, capitaneatibus, ſeu univerſitatibus, qui, ſeu&#13;
-quæ ſic ſumi, &amp; publicari non fecerit, incurrat, &amp; incurrere in-&#13;
-telligatur communi Florentiæ in pœnam lib. 25. f. p. communi&#13;
-Florentiæ ſolvendam, &amp; nihilominus etiam ſemper prædicta face-&#13;
-re teneatur. Et quod in qualibet terra, &amp; loco comitatus, ſeu&#13;
-diſtrictus Florentiæ ſubpoſita, ſeu ſubmiſſa, ſeu quę ſubmitteretur&#13;
-communi Florentiæ, in qua, vel quo eſt, vel eſſe debet vel erit&#13;
-pro communi Florentiæ poteſtas, capitaneus, vicarius, ſeu rector,&#13;
-vel offitialis iuriſdictionem exercens ſecundum formam quorum-&#13;
-cumque pactorum, ſeu quorumcumque communis Florentiæ ordi-&#13;
-namentorum tam editorum, quam edendorum ſit, &amp; eſſe debeat&#13;
-quædam capſa firmata duobus clavibus tenendis, &amp; quę retineri&#13;
-debeant una videl. per rectorem maioris eccleſie, vel ſuum locum&#13;
-tenentem, &amp; alia per rectorem, ſeu camerarium terrigenas talis&#13;
-terræ, vel loci, ſeu poteſteriæ, vicariatus, vel capitaneatus, re-&#13;
-ctoriæ, vel officii, quæ capſa ſit apta, ut quilibet poſſit in eam&#13;
-pro libito mittere omnem ſcripturam, ſeu cedulam, quam vellet&#13;
-&amp; teneri debet ipſa capſa fixa in aliqua, &amp; maxime in maiori&#13;
-eccleſia dictæ terræ, vel loci in loco magis publico, &amp; patenti.&#13;
-Quam capſam quilibet ipſorum communium, nec non ipſi pote-&#13;
-ſtates, capitanei, vicarii, rectores, &amp; officiales facere fieri, &amp; figi&#13;
+        <Unicode>ctoribus, qui in hoc negligens fuerit incurrat d. communi Flo-
+rentię in pœnam lib. 500. f. p. pro vice qualibet ſibi auferenda,
+&amp; communi Florentiæ applicanda, &amp; de hoc quilibet ipſorum
+poſſit, &amp; debeat ſingulariter ſindicari, &amp; intelligi, &amp; obſervari
+debeant, prout iacent per omnes, &amp; ab omnibus poteſtatibus,
+capitaneis, vicariis, &amp; aliis offitialibus communis Florentiæ ſub
+pœna, &amp; pœnis ſuperius adnotatis ad ſanum, &amp; purum intelle-
+ctum, cavillationibus, &amp; pravis interpetrationibus omnino remo-
+tis, ſalvis etiam illis, quę gravius diſponerentur contra delinquen-
+tes in prædictis, vel aliquo prædictorum. Et quod quilibet pote-
+ſteria, liga, univerſitas cuiuslibet poteſteriæ, &amp; ligæ, &amp; homines
+&amp; offitiales cuiuslibet poteſteriæ, &amp; ligæ comitatus, &amp; diſtrictus
+Florentiæ, in qua, vel quibus eſſet offitialis cum iuriſdictione,
+ac etiam ipſi poteſtates, capitanei, vicarii, &amp; alii offitiales prædi-
+cti teneantur, &amp; debeant facere, &amp; facere ſumi, &amp; in publicam
+formam ſcribi, &amp; penes ſe habere præſentia ordinamenta, &amp; de-
+mum ipſa facere ligari, &amp; poni penes volumen ſtatutorum ipſius
+poteſteriæ, capitaneatus, &amp; vicariatus, &amp; loci, in quo iuriſdictio
+exercetur, ut exinde ſint tam poteſtatibus, vicariis, &amp; aliis offi-
+tialibus, quam omnibus aliis nota, &amp; manifeſta. Et quod quili-
+bet ex dd. poteſteriis, capitaneatibus, ſeu univerſitatibus, qui, ſeu
+quæ ſic ſumi, &amp; publicari non fecerit, incurrat, &amp; incurrere in-
+telligatur communi Florentiæ in pœnam lib. 25. f. p. communi
+Florentiæ ſolvendam, &amp; nihilominus etiam ſemper prædicta face-
+re teneatur. Et quod in qualibet terra, &amp; loco comitatus, ſeu
+diſtrictus Florentiæ ſubpoſita, ſeu ſubmiſſa, ſeu quę ſubmitteretur
+communi Florentiæ, in qua, vel quo eſt, vel eſſe debet vel erit
+pro communi Florentiæ poteſtas, capitaneus, vicarius, ſeu rector,
+vel offitialis iuriſdictionem exercens ſecundum formam quorum-
+cumque pactorum, ſeu quorumcumque communis Florentiæ ordi-
+namentorum tam editorum, quam edendorum ſit, &amp; eſſe debeat
+quædam capſa firmata duobus clavibus tenendis, &amp; quę retineri
+debeant una videl. per rectorem maioris eccleſie, vel ſuum locum
+tenentem, &amp; alia per rectorem, ſeu camerarium terrigenas talis
+terræ, vel loci, ſeu poteſteriæ, vicariatus, vel capitaneatus, re-
+ctoriæ, vel officii, quæ capſa ſit apta, ut quilibet poſſit in eam
+pro libito mittere omnem ſcripturam, ſeu cedulam, quam vellet
+&amp; teneri debet ipſa capſa fixa in aliqua, &amp; maxime in maiori
+eccleſia dictæ terræ, vel loci in loco magis publico, &amp; patenti.
+Quam capſam quilibet ipſorum communium, nec non ipſi pote-
+ſtates, capitanei, vicarii, rectores, &amp; officiales facere fieri, &amp; figi
 ut dictum eſt teneantur, &amp; debeant infra quindecim dies, a die,</Unicode>
       </TextEquiv>
     </TextRegion>

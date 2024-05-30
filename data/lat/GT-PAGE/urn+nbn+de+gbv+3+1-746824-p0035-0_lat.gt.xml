@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-250">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:49Z</Created>
     <LastChange>2024-01-19T13:09:49Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-746824_urn+nbn+de+gbv+3+1-746824-p0035-0_lat.png" imageWidth="2269" imageHeight="2487" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9f8cbf16-1269-43e3-a8f8-4f59bca6b03f/00000035.jpg" imageWidth="2269" imageHeight="2487" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="117,208 144,2339 1847,2328 1841,218"/>
     </Border>
@@ -17,10 +32,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1653384562525_4055"/>
       </OrderedGroup>
     </ReadingOrder>
-    <ImageRegion orientation="0.45173463" id="region0009" custom="readingOrder {index:0;}">
-      <Coords points="321,812 553,808 557,1080 325,1084"/>
-    </ImageRegion>
-    <TextRegion orientation="0.45173463" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1653384567411_4062" custom="readingOrder {index:1;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1653384567411_4062" custom="readingOrder {index:1;} structure {type:drop-capital;}" orientation="0.45173463" type="drop-capital" readingDirection="left-to-right">
       <Coords points="242,817 549,811 549,1104 245,1104"/>
       <TextLine id="line_1653384580047_4072" custom="readingOrder {index:0;}">
         <Coords points="396,894 396,963 479,963 479,894"/>
@@ -38,7 +50,7 @@
         <Unicode>A</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45173463" readingDirection="left-to-right" id="TextRegion_1653384567411_4061" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1653384567411_4061" custom="readingOrder {index:2;}" orientation="0.45173463" readingDirection="left-to-right">
       <Coords points="549,887 1531,871 1534,1104 549,1104"/>
       <TextLine id="line_1653384567448_4064" custom="readingOrder {index:0;}">
         <Coords points="549,887 606,886 612,895 649,895 677,894 684,886 690,884 704,884 708,895 1179,887 1471,891 1487,894 1499,893 1503,885 1513,878 1524,878 1531,881 1531,940 1512,942 1506,947 1495,947 1489,943 1447,943 1408,935 1340,936 1329,932 1256,936 1243,932 1229,937 1167,937 1160,933 1142,934 1135,937 1012,936 996,940 969,940 961,945 949,945 944,940 929,938 868,938 844,940 839,948 833,950 813,951 803,948 801,940 747,942 722,939 692,941 687,950 670,952 665,950 663,941 549,943"/>
@@ -167,7 +179,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1653384567450_4068" custom="readingOrder {index:3;}">
-        <Coords points="549,1052 617,1053 625,1061 640,1058 641,1064 683,1060 687,1063 779,1063 782,1052 795,1050 807,1063 826,1060 837,1050 854,1049 860,1062 873,1063 880,1060 918,1059 920,1050 927,1048 945,1050 947,1059 1121,1054 1135,1056 1135,1046 1138,1043 1148,1042 1156,1035 1167,1045 1162,1054 1234,1053 1253,1050 1287,1051 1293,1043 1309,1044 1312,1051 1316,1052 1335,1050 1340,1043 1365,1042 1379,1043 1386,1050 1402,1053 1533,1054 1534,1107 1509,1109 1478,1098 1463,1100 1398,1098 1351,1099 1347,1107 1332,1110 1325,1106 1324,1099 1286,1095 1270,1099 1146,1102 1111,1111 1107,1111 1105,1103 961,1106 952,1103 917,1103 896,1109 870,1110 863,1114 839,1110 834,1116 825,1118 812,1117 810,1109 803,1107 639,1109 622,1113 549,1113"/>
+        <Coords points="1533,1054 1402,1053 1386,1050 1379,1043 1365,1042 1340,1043 1335,1050 1316,1052 1312,1051 1309,1044 1293,1043 1287,1051 1253,1050 1234,1053 1162,1054 1167,1045 1156,1035 1148,1042 1138,1043 1135,1046 1135,1056 1121,1054 947,1059 945,1050 927,1048 920,1050 918,1059 880,1060 873,1063 860,1062 854,1049 837,1050 826,1060 807,1063 795,1050 782,1052 779,1063 687,1063 683,1060 641,1064 640,1058 625,1061 617,1053 549,1052 549,1104 913,1104 917,1103 952,1103 955,1104 1057,1104 1105,1103 1105,1104 1138,1104 1146,1102 1270,1099 1286,1095 1324,1099 1324,1104 1348,1104 1351,1099 1398,1098 1463,1100 1478,1098 1494,1104 1533,1104"/>
         <Word id="region0007_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="603,1052 581,1053 582,1094 749,1093 748,1063 687,1063 683,1060 641,1064 640,1058 625,1061 617,1053"/>
           <TextEquiv conf="0.88023">
@@ -193,7 +205,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653384725349_4159" custom="readingOrder {index:4;}">
-          <Coords points="991,1050 1119,1053 1119,1097 992,1095"/>
+          <Coords points="992,1095 1119,1097 1119,1054 991,1057"/>
           <TextEquiv>
             <Unicode>TIBI</Unicode>
           </TextEquiv>
@@ -221,10 +233,10 @@ te ſalutari profectibus recentendis immorarer.
 Tantum abeſt, vt hoc TIBI placeat inſtitutum,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.45173463" readingDirection="left-to-right" id="TextRegion_1653384562525_4055" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1653384562525_4055" custom="readingOrder {index:3;}" orientation="0.45173463" readingDirection="left-to-right">
       <Coords points="245,1104 1534,1104 1549,2093 261,2115"/>
       <TextLine id="region0007_line0005" custom="readingOrder {index:0;}">
-        <Coords points="1278,1096 1269,1100 1266,1108 1159,1107 1135,1111 1134,1108 1124,1107 1111,1112 960,1114 958,1107 952,1104 943,1104 936,1108 930,1104 917,1104 897,1108 894,1116 825,1119 712,1119 710,1112 705,1109 689,1110 686,1119 650,1119 648,1111 639,1110 626,1113 625,1120 618,1122 594,1122 593,1115 589,1113 574,1113 570,1115 569,1120 535,1122 532,1114 525,1110 516,1110 511,1115 509,1124 465,1125 459,1113 447,1112 440,1122 427,1124 363,1123 259,1127 254,1132 254,1164 259,1169 277,1170 371,1172 374,1181 385,1183 395,1170 403,1169 512,1171 669,1163 717,1166 722,1171 733,1171 744,1166 745,1170 762,1170 769,1175 773,1172 775,1164 801,1160 832,1163 1040,1160 1259,1154 1265,1151 1283,1154 1307,1154 1312,1159 1323,1159 1330,1154 1364,1153 1535,1152 1534,1109 1491,1109 1486,1102 1478,1099 1470,1099 1463,1105 1457,1105 1451,1099 1435,1099 1429,1107 1418,1107 1416,1100 1411,1098 1398,1099 1393,1102 1392,1108 1346,1108 1332,1111 1325,1107 1306,1105 1304,1100 1298,1097"/>
+        <Coords points="1266,1108 1159,1107 1135,1111 1134,1108 1124,1107 1111,1112 960,1114 958,1107 952,1104 943,1104 936,1108 930,1104 917,1104 897,1108 894,1116 825,1119 712,1119 710,1112 705,1109 689,1110 686,1119 650,1119 648,1111 639,1110 626,1113 625,1120 618,1122 594,1122 593,1115 589,1113 574,1113 570,1115 569,1120 535,1122 532,1114 525,1110 516,1110 511,1115 509,1124 465,1125 459,1113 447,1112 440,1122 427,1124 363,1123 259,1127 254,1132 254,1164 259,1169 277,1170 371,1172 374,1181 385,1183 395,1170 403,1169 512,1171 669,1163 717,1166 722,1171 733,1171 744,1166 745,1170 762,1170 769,1175 773,1172 775,1164 801,1160 832,1163 1040,1160 1259,1154 1265,1151 1283,1154 1307,1154 1312,1159 1323,1159 1330,1154 1364,1153 1534,1152 1534,1118 1534,1109 1491,1109 1487,1104 1464,1104 1463,1105 1457,1105 1456,1104 1431,1104 1429,1107 1418,1107 1417,1104 1392,1104 1392,1108 1346,1108 1332,1111 1325,1107 1306,1105 1305,1104 1267,1104"/>
         <Word id="region0007_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="326,1124 326,1151 372,1151 372,1123 363,1123"/>
           <TextEquiv conf="0.90506476">
@@ -418,7 +430,7 @@ Tantum abeſt, vt hoc TIBI placeat inſtitutum,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653384808513_4189" custom="readingOrder {index:1;}">
-          <Coords points="517,1335 526,1332 568,1331 655,1330 692,1336 692,1384 691,1385 508,1384 507,1344"/>
+          <Coords points="517,1335 515,1344 507,1344 508,1384 556,1384 566,1384 571,1384 604,1385 605,1384 691,1385 692,1384 692,1336 659,1337 655,1330 568,1331 561,1341 548,1344 542,1344 536,1332 526,1332"/>
           <TextEquiv>
             <Unicode>dediſti;</Unicode>
           </TextEquiv>
@@ -526,13 +538,13 @@ Tantum abeſt, vt hoc TIBI placeat inſtitutum,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653384844063_4204" custom="readingOrder {index:1;}">
-          <Coords points="528,1453 689,1442 689,1481 605,1482 529,1481"/>
+          <Coords points="528,1453 529,1481 605,1482 689,1481 689,1447 580,1449"/>
           <TextEquiv>
             <Unicode>TVAM</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653384844063_4203" custom="readingOrder {index:2;}">
-          <Coords points="689,1442 765,1437 833,1436 935,1444 936,1479 689,1481"/>
+          <Coords points="766,1437 766,1437 765,1445 758,1447 689,1448 689,1481 936,1479 935,1445 858,1446 838,1445 833,1436 818,1436 812,1442 804,1442 800,1436"/>
           <TextEquiv>
             <Unicode>eruditionem</Unicode>
           </TextEquiv>
@@ -856,7 +868,7 @@ Tantum abeſt, vt hoc TIBI placeat inſtitutum,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0018_word0002" custom="readingOrder {index:2;}">
-          <Coords points="779,1833 825,1838 826,1878 780,1873"/>
+          <Coords points="780,1873 826,1878 825,1838 808,1836 807,1837 779,1836"/>
           <TextEquiv>
             <Unicode>vt</Unicode>
           </TextEquiv>
@@ -1084,5 +1096,8 @@ faue. Dab. Helmſtadii d. XVIII. Sept.
 cIↄIↄcc XLV.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <ImageRegion id="region0009" custom="readingOrder {index:0;}" orientation="0.45173463">
+      <Coords points="321,812 553,808 557,1080 325,1084"/>
+    </ImageRegion>
   </Page>
 </PcGts>

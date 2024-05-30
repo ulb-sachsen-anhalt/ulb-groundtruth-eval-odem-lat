@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-197">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:06Z</Created>
     <LastChange>2024-01-19T13:09:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-660313-p0473-9_lat.png" imageWidth="1392" imageHeight="2385" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/bd6101e1-1183-4950-9ac9-1f1e9d27e2ff/00000473.jpg" imageWidth="1392" imageHeight="2385" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="86,191 115,2284 1195,2283 1208,169"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1658906886021_2703"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.1405498" readingDirection="left-to-right" id="TextRegion_1658906886021_2703" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1658906886021_2703" custom="readingOrder {index:0;}" orientation="0.1405498" readingDirection="left-to-right">
       <Coords points="135,616 1023,616 1025,2062 1025,2128 174,2128 135,2082"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="249,617 240,627 135,624 136,681 187,680 200,671 201,664 224,666 231,677 244,677 254,666 267,664 351,665 357,671 365,671 372,665 426,663 543,666 561,669 837,668 839,675 845,680 857,678 862,667 873,665 1023,667 1022,623 992,623 985,616 960,616 955,624 946,616 936,616 929,625 829,627 827,620 822,616 804,616 795,627 769,627 762,618 749,618 743,628 703,629 688,628 679,618 667,619 660,626 624,619 562,619 550,627 537,627 533,618 519,617 512,627 506,627 444,623 441,616 422,616 419,623 363,624 335,625 333,617 314,617 310,625 275,627 270,617"/>
@@ -199,12 +214,12 @@
         </Word>
         <Word id="region0003_line0004_word0003" custom="readingOrder {index:3;}">
           <Coords points="556,795 553,800 524,797 524,827 601,827 601,799 578,801 573,795"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>enim</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658907093814_2765" custom="readingOrder {index:4;}">
-          <Coords points="615,788 618,786 723,786 860,787 860,836 727,837 614,827 614,790"/>
+          <Coords points="615,788 614,790 614,827 727,837 860,836 860,787 852,786 808,786 791,789 785,793 783,799 744,802 743,788 740,786 723,786 673,786 666,800 660,801 646,799 639,788 630,786 618,786"/>
           <TextEquiv>
             <Unicode>ϑεάνϑρωπος</Unicode>
           </TextEquiv>
@@ -1383,9 +1398,9 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0001" custom="readingOrder {index:27;}">
-        <Coords points="805,2062 797,2074 756,2075 751,2067 739,2066 730,2076 651,2080 542,2080 532,2070 522,2071 517,2079 472,2080 463,2070 454,2070 447,2078 442,2078 439,2070 433,2066 400,2067 394,2076 379,2077 373,2069 360,2067 350,2072 336,2072 329,2082 285,2083 280,2074 269,2073 263,2077 261,2084 227,2084 222,2074 210,2073 203,2082 174,2082 174,2122 240,2124 273,2131 279,2135 289,2135 294,2131 371,2124 426,2125 556,2122 562,2127 573,2129 580,2128 581,2122 644,2121 646,2129 651,2132 686,2134 696,2129 698,2121 711,2120 783,2119 911,2110 1024,2111 1024,2062 993,2062 988,2073 948,2062 923,2062 890,2070 831,2073 829,2067 822,2062"/>
+        <Coords points="797,2074 756,2075 751,2067 739,2066 730,2076 651,2080 542,2080 532,2070 522,2071 517,2079 472,2080 463,2070 454,2070 447,2078 442,2078 439,2070 433,2066 400,2067 394,2076 379,2077 373,2069 360,2067 350,2072 336,2072 329,2082 285,2083 280,2074 269,2073 263,2077 261,2084 227,2084 222,2074 210,2073 203,2082 174,2082 174,2122 240,2124 258,2128 327,2128 371,2124 426,2125 556,2122 562,2127 567,2128 580,2128 581,2122 644,2121 645,2128 696,2128 698,2121 711,2120 783,2119 911,2110 1024,2111 1024,2062 993,2062 988,2073 948,2062 923,2062 890,2070 831,2073 829,2067 822,2062 805,2062"/>
         <Word id="word_1658907715379_3001" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="209,2074 276,2074 299,2088 299,2120 280,2120 180,2110 180,2082"/>
+          <Coords points="209,2074 203,2082 180,2082 180,2110 280,2120 299,2120 299,2088 290,2082 285,2083 282,2077 276,2074 267,2074 263,2077 261,2084 227,2084 222,2074"/>
           <TextEquiv>
             <Unicode>niani;</Unicode>
           </TextEquiv>
@@ -1398,7 +1413,7 @@
         </Word>
         <Word id="region0004_line0001_word0003" custom="readingOrder {index:2;}">
           <Coords points="398,2070 394,2076 381,2076 381,2112 554,2112 554,2080 542,2080 532,2070 522,2071 517,2079 472,2080 463,2070 454,2070 447,2078 442,2078 439,2070"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>eſficientia</Unicode>
           </TextEquiv>
         </Word>
@@ -1425,33 +1440,33 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>perſonale, vel reale. De hoc in ſeqventi lit.&#13;
-dicendum. Illud autem 1.) non ſunt Angeli,&#13;
-Hebr. II, 16. Non qvaſi virtus officii tanta&#13;
-non fuiſſet: facilè enim ϑεάνϑρωπος non mi-&#13;
-nùs pro angelis, qvàm pro hominibus ſatisfa-&#13;
-cere potuiſſet, ſed qvòd imperſcrutabilis Dei&#13;
-voluntas ad angelos non reſpexerit. Nec 2.)&#13;
-Chriſtus ipſe, ut Sociniani fingunt. Nam li-&#13;
-cèt humana Natura fuerit creatura, ideò ta-&#13;
-men non peccatrix aut legi divinæ de ſe ſub-&#13;
-jecta, contra qvam peccare potuerit, Matth.&#13;
-XIl, 8. qvia perſonaliter eſt unita λόγω, à&#13;
-peccato originali ante unionem à Spiritu San-&#13;
-cto purgata, Luc. I, 35. Conferat. Hebr.&#13;
-VIl, 26. Dan. IX, 26. Johann. VIII, 46.,&#13;
-&amp; nobis ſolis illius meritum tribuitur. Eſai.&#13;
-XLIIl, 24. IX, 6. c. Ill, 4.5.6. Zach. IX,&#13;
-II. I. Timoth. I, 15. Per Particulam διὸ,&#13;
-Philipp. lI, 9. neqvaqvam inſinuatur, qvaſi&#13;
-Chriſtus ex merito ſit exaltatus, ſed qvόd ex-&#13;
-altatio ordine ſecuta fuerit exinanitionem, &amp;&#13;
-hæc qvaſi via fuerit ad exaltationem, atq; idem&#13;
-tenendum de Hebr. Il. 9. Luc. XXIV, 26.&#13;
-Nec 3.) Soli Electi, qvod eſt Calvinianorum&#13;
-ſomnium, ſive officium iſtud ratione vel ſuffi-&#13;
-cientiæ, vel efficientiæ ſpectetur, qvorum il-&#13;
-lud qvidem, non verò hoc largiuntur Calvi-&#13;
+        <Unicode>perſonale, vel reale. De hoc in ſeqventi lit.
+dicendum. Illud autem 1.) non ſunt Angeli,
+Hebr. II, 16. Non qvaſi virtus officii tanta
+non fuiſſet: facilè enim ϑεάνϑρωπος non mi-
+nùs pro angelis, qvàm pro hominibus ſatisfa-
+cere potuiſſet, ſed qvòd imperſcrutabilis Dei
+voluntas ad angelos non reſpexerit. Nec 2.)
+Chriſtus ipſe, ut Sociniani fingunt. Nam li-
+cèt humana Natura fuerit creatura, ideò ta-
+men non peccatrix aut legi divinæ de ſe ſub-
+jecta, contra qvam peccare potuerit, Matth.
+XIl, 8. qvia perſonaliter eſt unita λόγω, à
+peccato originali ante unionem à Spiritu San-
+cto purgata, Luc. I, 35. Conferat. Hebr.
+VIl, 26. Dan. IX, 26. Johann. VIII, 46.,
+&amp; nobis ſolis illius meritum tribuitur. Eſai.
+XLIIl, 24. IX, 6. c. Ill, 4.5.6. Zach. IX,
+II. I. Timoth. I, 15. Per Particulam διὸ,
+Philipp. lI, 9. neqvaqvam inſinuatur, qvaſi
+Chriſtus ex merito ſit exaltatus, ſed qvόd ex-
+altatio ordine ſecuta fuerit exinanitionem, &amp;
+hæc qvaſi via fuerit ad exaltationem, atq; idem
+tenendum de Hebr. Il. 9. Luc. XXIV, 26.
+Nec 3.) Soli Electi, qvod eſt Calvinianorum
+ſomnium, ſive officium iſtud ratione vel ſuffi-
+cientiæ, vel efficientiæ ſpectetur, qvorum il-
+lud qvidem, non verò hoc largiuntur Calvi-
 niani; niſi eſficientia pro apprehenſione actuali</Unicode>
       </TextEquiv>
     </TextRegion>

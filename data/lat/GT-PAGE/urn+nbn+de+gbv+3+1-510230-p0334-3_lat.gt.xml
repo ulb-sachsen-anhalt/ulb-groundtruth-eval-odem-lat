@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-185">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:48Z</Created>
     <LastChange>2024-01-19T13:08:48Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-510230-p0334-3_lat.png" imageWidth="2450" imageHeight="2902" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/d88fd9bb-a3fc-4b80-955e-71452a2e0837/00000334.jpg" imageWidth="2450" imageHeight="2902" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="172,352 166,2770 2317,2773 2319,354"/>
     </Border>
@@ -15,10 +31,10 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1662380155608_417"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.6420411" type="marginalia" readingDirection="left-to-right" id="TextRegion_1662380166897_495" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1662380166897_495" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.6420411" type="marginalia" readingDirection="left-to-right">
       <Coords points="579,1970 911,1970 911,2142 579,2142"/>
       <TextLine id="line_1662380155693_465" custom="readingOrder {index:0;}">
-        <Coords points="605,1967 684,1969 739,1974 865,1975 884,1969 911,1967 911,2015 698,2012 684,2015 612,2014 603,2012 600,2007 600,1972"/>
+        <Coords points="865,1975 739,1974 695,1970 602,1970 600,1972 600,2007 603,2012 612,2014 684,2015 698,2012 911,2015 911,1970 880,1970"/>
         <Baseline points="600,2003 911,2005"/>
         <Word id="word_1662380185957_507" custom="readingOrder {index:0;}">
           <Coords points="679,1968 684,1969 739,1974 823,1974 823,2007 679,2006"/>
@@ -83,7 +99,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1662380244668_549" custom="readingOrder {index:1;}">
-          <Coords points="777,2105 874,2105 874,2138 777,2138"/>
+          <Coords points="777,2138 874,2138 874,2108 777,2108"/>
           <TextEquiv>
             <Unicode>debet.</Unicode>
           </TextEquiv>
@@ -93,13 +109,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Innocens am-&#13;
-plexus conju- tendit, omnino vitare debet amplexus nocentis conju-&#13;
-gales nocentis&#13;
+        <Unicode>Innocens am-
+plexus conju- tendit, omnino vitare debet amplexus nocentis conju-
+gales nocentis
 debet. vitare</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6420411" readingDirection="left-to-right" id="TextRegion_1662380155608_417" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1662380155608_417" custom="readingOrder {index:1;}" orientation="-0.6420411" readingDirection="left-to-right">
       <Coords points="877,625 2230,625 2230,2483 2180,2535 906,2535"/>
       <TextLine id="line_1662380155655_420" custom="readingOrder {index:0;}">
         <Coords points="911,636 1052,637 1061,636 1064,626 1088,626 1091,635 1233,635 1254,630 1286,630 1292,627 1356,637 1368,636 1375,625 1391,626 1398,635 1407,635 1413,626 1430,626 1444,627 1452,636 1498,639 1546,639 1554,629 1567,631 1573,640 1580,641 1790,641 1862,633 1940,643 2015,644 2017,636 2026,631 2039,632 2044,644 2129,643 2135,634 2151,634 2158,643 2230,645 2229,694 2166,692 2158,695 2094,695 2086,688 2081,688 2074,695 2048,692 1877,692 1835,689 1824,695 1815,695 1811,692 1748,693 1716,695 1712,699 1700,702 1678,699 1674,694 1645,691 1638,688 1304,686 1295,689 1252,690 1247,694 1234,695 1227,689 1166,683 1160,686 1086,686 1080,693 1061,695 1055,693 1052,686 911,685"/>
@@ -282,7 +298,7 @@ debet. vitare</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662380295538_583" custom="readingOrder {index:2;}">
-          <Coords points="1169,808 1198,808 1284,809 1389,811 1424,813 1423,856 1404,856 1388,856 1168,853"/>
+          <Coords points="1169,808 1168,853 1388,856 1404,856 1409,856 1423,856 1424,813 1389,811 1335,810 1335,810 1216,809 1201,812 1198,808"/>
           <TextEquiv>
             <Unicode>ſtatuenda?</Unicode>
           </TextEquiv>
@@ -601,7 +617,7 @@ debet. vitare</Unicode>
         </Word>
         <Word id="region0002_line0010_word0003" custom="readingOrder {index:3;}">
           <Coords points="1663,1154 1662,1159 1631,1160 1494,1157 1494,1208 1500,1210 1500,1212 1528,1212 1531,1209 1541,1205 1562,1209 1697,1210 1706,1207 1797,1208 1806,1211 1868,1211 1868,1162 1800,1160 1798,1156 1773,1155 1772,1160 1691,1159 1689,1155"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quemadmodum</Unicode>
           </TextEquiv>
         </Word>
@@ -1107,7 +1123,7 @@ debet. vitare</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662380574882_732" custom="readingOrder {index:3;}">
-          <Coords points="1392,1672 1416,1672 1417,1679 1450,1678 1451,1673 1491,1673 1493,1679 1509,1679 1512,1673 1531,1674 1532,1674 1534,1680 1547,1680 1549,1674 1574,1674 1576,1681 1664,1680 1664,1732 1640,1734 1639,1733 1572,1729 1552,1731 1446,1729 1417,1732 1392,1731"/>
+          <Coords points="1392,1672 1392,1731 1415,1731 1446,1729 1552,1731 1572,1729 1639,1733 1640,1733 1664,1732 1664,1681 1576,1681 1574,1674 1549,1674 1547,1680 1534,1680 1532,1674 1531,1674 1512,1673 1509,1679 1493,1679 1490,1673 1451,1673 1450,1678 1417,1679 1416,1672"/>
           <TextEquiv>
             <Unicode>judicialem,</Unicode>
           </TextEquiv>
@@ -1651,7 +1667,7 @@ debet. vitare</Unicode>
         </Word>
         <Word id="region0002_line0029_word0008" custom="readingOrder {index:8;}">
           <Coords points="1585,2207 1622,2207 1622,2251 1585,2251"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -1888,7 +1904,7 @@ debet. vitare</Unicode>
         </Word>
         <Word id="region0002_line0032_word0008" custom="readingOrder {index:8;}">
           <Coords points="1862,2371 1861,2372 1850,2372 1850,2421 1865,2421 1868,2420 1879,2421 1889,2421 1911,2417 1916,2421 2073,2423 2073,2379 2070,2380 2068,2375 2048,2374 2040,2376 2038,2382 1967,2378 1966,2374 1962,2372 1956,2371 1940,2375 1936,2371"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Ehebruch</Unicode>
           </TextEquiv>
         </Word>
@@ -1952,7 +1968,7 @@ debet. vitare</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1662380155709_484" custom="readingOrder {index:32;}">
-        <Coords points="911,2470 935,2469 943,2460 958,2460 963,2467 979,2467 984,2461 1000,2460 1006,2468 1055,2470 1101,2468 1108,2460 1178,2461 1203,2466 1232,2460 1298,2460 1317,2462 1340,2471 1365,2472 1392,2471 1397,2462 1411,2460 1421,2471 1502,2473 1506,2464 1521,2463 1529,2474 1557,2474 1566,2465 1577,2466 1581,2474 1695,2475 1702,2469 1713,2469 1719,2476 1726,2477 1734,2471 1744,2471 1750,2480 1790,2481 1799,2472 1802,2461 1821,2460 1824,2466 1824,2481 1909,2484 1984,2485 2042,2481 2050,2474 2060,2473 2079,2473 2085,2481 2100,2481 2115,2468 2149,2466 2153,2469 2155,2477 2209,2477 2208,2521 2135,2525 2128,2532 2109,2535 2102,2534 2096,2529 2061,2530 2057,2538 2049,2539 2040,2537 2037,2531 2013,2531 2007,2536 1996,2536 1989,2531 1975,2530 1884,2529 1851,2530 1826,2539 1765,2538 1745,2527 1667,2529 1660,2534 1652,2534 1641,2528 1620,2527 1610,2532 1578,2534 1550,2524 1531,2524 1525,2529 1513,2528 1508,2524 1496,2526 1492,2523 1430,2520 1415,2522 1251,2520 1247,2522 1235,2519 1159,2518 1137,2518 1129,2527 1116,2525 1111,2518 954,2516 950,2519 940,2519 936,2516 911,2516"/>
+        <Coords points="2209,2477 2155,2477 2153,2469 2149,2466 2115,2468 2100,2481 2085,2481 2079,2473 2060,2473 2050,2474 2042,2481 1984,2485 1909,2484 1824,2481 1824,2466 1821,2460 1802,2461 1799,2472 1790,2481 1750,2480 1744,2471 1734,2471 1726,2477 1719,2476 1713,2469 1702,2469 1695,2475 1581,2474 1577,2466 1566,2465 1557,2474 1529,2474 1521,2463 1506,2464 1502,2473 1421,2471 1411,2460 1397,2462 1392,2471 1365,2472 1340,2471 1317,2462 1298,2460 1232,2460 1203,2466 1178,2461 1108,2460 1101,2468 1055,2470 1006,2468 1000,2460 984,2461 979,2467 963,2467 958,2460 943,2460 935,2469 911,2470 911,2516 936,2516 940,2519 950,2519 954,2516 1111,2518 1116,2525 1129,2527 1137,2518 1159,2518 1235,2519 1247,2522 1251,2520 1415,2522 1430,2520 1492,2523 1496,2526 1508,2524 1513,2528 1525,2529 1531,2524 1550,2524 1578,2534 1610,2532 1620,2527 1641,2528 1652,2534 1660,2534 1667,2529 1745,2527 1759,2535 1837,2535 1851,2530 1884,2529 1975,2530 1989,2531 1994,2535 2008,2535 2013,2531 2037,2531 2039,2535 2058,2535 2061,2530 2096,2529 2102,2534 2109,2535 2128,2532 2135,2525 2192,2521 2208,2505"/>
         <Baseline points="911,2507 1462,2511 1808,2525 2184,2512"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="940,2462 935,2469 913,2470 913,2506 1087,2508 1087,2468 1055,2470 1006,2468 1002,2463 982,2462 979,2467 963,2467 959,2462"/>
@@ -2007,38 +2023,38 @@ debet. vitare</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ram ejecerat, &amp; ad divortium egerat, &amp; nondum lata&#13;
-ſententia divortii, in expeditione conſtitutus aliam du-&#13;
-xerat, ubi quæſtio movebatur, an pœna polygamiæ in&#13;
-eum eſſet ſtatuenda? Exiſtimavimus, cauſam divortii&#13;
-prius eſſe diſcutiendam, tanquam quæſtionem præju-&#13;
-dicialem, qua diſcuſſa, &amp; divortio decreto, pœnam poly-&#13;
-gamiæ ordinariam omnino ceſſare. Equidem in l.8.&#13;
-pr.C.h.t. dicitur, matrimonium non niſi miſſo repudio diſſol-&#13;
-vi; ſed hæ literæ repudii neceſſariæ erant, ut de volunta-&#13;
-te innocentis conſtaret, quemadmodum in foris noſtris&#13;
-itidem actio eo nomine inſtituenda eſt. Similiter in N.&#13;
-117. c. 8. accuſatio legitima prærequiritur, &amp; hac demum&#13;
-probata, integrum eſſe marito dicitur, mittere repu-&#13;
-dium: ſed rurſus id neceſſarium erat, quando de adul-&#13;
-terio non ſatis conſtabat, quod in omnibus ejusmodi ju-&#13;
-ris articulis hodie quoque neceſſarium eſt, quæ ipſo jure&#13;
-fieri dicuntur. Ex hac obſervatione auoque hoc flu-&#13;
-it, maritum adulteram manifeſtam ejicere poſſe, et-&#13;
-iam ante ſententiam judicialem, hoc effectu, ut ei coha-&#13;
-bitare non teneatur; Interim tamen alimenta &amp; litis&#13;
-ſumtus adhuc ei ſuppeditare tenetur, antequam ſenten-&#13;
-tia divortii decernatur, prout dixi in tr. de action. inveſt.&#13;
-ſect. 1. m. 2. §. 36. id quod marito injungitur per ſenten-&#13;
-tiam proviſionalem. Imo qui ad divortium agere in-&#13;
-plexus conju- tendit, omnino vitare debet amplexus nocentis conju-&#13;
-sales noseiis gales, ne videatur remiſiſſe injuriam ſibi illatam, &amp;&#13;
-matrimonium, ipſo jure ſolutum, redintegraſſe. Brunne-&#13;
-mann. de jure eccl. lib. 2. c. 17. §. 20. Quod tamen diſtin-&#13;
-ctione indiget, prout optime proviſum eſt in ord.' prov.&#13;
-Boruſſ. lib. II. tit. 4. art. 1. §. 2. Jn dieſem Fall wollen wir,&#13;
-daß ein Unterſcheid zu machen ſey, ob der Ehebruch offen⸗&#13;
-bar und ohne Weitſaͤuftigkeit kan ausgefuͤhret werden:&#13;
+        <Unicode>ram ejecerat, &amp; ad divortium egerat, &amp; nondum lata
+ſententia divortii, in expeditione conſtitutus aliam du-
+xerat, ubi quæſtio movebatur, an pœna polygamiæ in
+eum eſſet ſtatuenda? Exiſtimavimus, cauſam divortii
+prius eſſe diſcutiendam, tanquam quæſtionem præju-
+dicialem, qua diſcuſſa, &amp; divortio decreto, pœnam poly-
+gamiæ ordinariam omnino ceſſare. Equidem in l.8.
+pr.C.h.t. dicitur, matrimonium non niſi miſſo repudio diſſol-
+vi; ſed hæ literæ repudii neceſſariæ erant, ut de volunta-
+te innocentis conſtaret, quemadmodum in foris noſtris
+itidem actio eo nomine inſtituenda eſt. Similiter in N.
+117. c. 8. accuſatio legitima prærequiritur, &amp; hac demum
+probata, integrum eſſe marito dicitur, mittere repu-
+dium: ſed rurſus id neceſſarium erat, quando de adul-
+terio non ſatis conſtabat, quod in omnibus ejusmodi ju-
+ris articulis hodie quoque neceſſarium eſt, quæ ipſo jure
+fieri dicuntur. Ex hac obſervatione auoque hoc flu-
+it, maritum adulteram manifeſtam ejicere poſſe, et-
+iam ante ſententiam judicialem, hoc effectu, ut ei coha-
+bitare non teneatur; Interim tamen alimenta &amp; litis
+ſumtus adhuc ei ſuppeditare tenetur, antequam ſenten-
+tia divortii decernatur, prout dixi in tr. de action. inveſt.
+ſect. 1. m. 2. §. 36. id quod marito injungitur per ſenten-
+tiam proviſionalem. Imo qui ad divortium agere in-
+plexus conju- tendit, omnino vitare debet amplexus nocentis conju-
+sales noseiis gales, ne videatur remiſiſſe injuriam ſibi illatam, &amp;
+matrimonium, ipſo jure ſolutum, redintegraſſe. Brunne-
+mann. de jure eccl. lib. 2. c. 17. §. 20. Quod tamen diſtin-
+ctione indiget, prout optime proviſum eſt in ord.' prov.
+Boruſſ. lib. II. tit. 4. art. 1. §. 2. Jn dieſem Fall wollen wir,
+daß ein Unterſcheid zu machen ſey, ob der Ehebruch offen⸗
+bar und ohne Weitſaͤuftigkeit kan ausgefuͤhret werden:
 alsdenn iſt der Mann berechtiget, die Frau auszuſtoſſen,</Unicode>
       </TextEquiv>
     </TextRegion>

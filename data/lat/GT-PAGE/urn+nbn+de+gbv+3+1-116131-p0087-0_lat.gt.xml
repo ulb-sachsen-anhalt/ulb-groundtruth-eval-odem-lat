@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-3">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:04Z</Created>
     <LastChange>2024-01-19T13:07:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-116131-p0087-0_lat.jpg" imageWidth="1602" imageHeight="2360" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/657499b0-8559-4f1d-97e1-bb9bcbd6133c/00000087.jpg" imageWidth="1602" imageHeight="2360" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="70,175 86,2280 1327,2284 1322,179"/>
     </Border>
@@ -24,7 +40,7 @@
         <RegionRefIndexed index="11" regionRef="region_1676286533102_1898"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676286426852_1826" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676286426852_1826" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="507,253 507,300 820,303 820,256"/>
       <TextLine id="line_1676286426994_1829" custom="readingOrder {index:0;}">
         <Coords points="507,253 507,300 818,304 818,257"/>
@@ -48,7 +64,7 @@
         <Unicode>III. LIBER</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676286421277_1817" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676286421277_1817" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1104,273 1104,311 1156,311 1156,273"/>
       <TextLine id="line_1676286421536_1820" custom="readingOrder {index:0;}">
         <Coords points="1104,273 1104,311 1156,311 1156,273"/>
@@ -66,10 +82,7 @@
         <Unicode>83</Unicode>
       </TextEquiv>
     </TextRegion>
-    <NoiseRegion id="Noise_1644571434269_52" custom="readingOrder {index:2;}">
-      <Coords points="215,1117 272,1117 272,1202 215,1202"/>
-    </NoiseRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571573295_68" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571573295_68" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="121,326 1178,336 1177,431 120,431"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="146,328 143,332 143,359 155,370 185,373 267,374 291,376 296,379 312,379 339,373 504,375 598,378 602,383 611,384 624,379 673,377 688,379 694,385 705,386 715,379 726,379 736,371 746,378 838,380 869,387 930,383 984,387 989,390 1019,387 1053,391 1059,386 1073,385 1157,387 1167,381 1167,361 1162,356 1121,354 1113,344 1023,342 985,335 940,335 915,340 864,339 829,333 754,333 747,337 734,339 650,336 639,332 594,331 555,335 514,335 502,334 500,331 477,330 475,333 382,333 380,330 278,332 253,329"/>
@@ -120,7 +133,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
-        <Coords points="734,372 726,380 732,391 708,390 699,386 665,389 659,383 619,382 569,389 488,389 464,387 459,383 441,386 430,382 408,382 384,387 378,381 369,380 361,387 338,387 262,386 238,378 147,377 142,382 142,409 150,415 150,421 155,426 227,424 481,429 492,430 500,441 510,440 513,432 517,430 544,429 977,437 993,427 993,400 988,395 894,394 887,387 872,388 869,392 848,392 842,386 829,386 823,392 817,392 811,385 797,385 790,390 742,391 746,379"/>
+        <Coords points="726,380 732,391 708,390 699,386 665,389 659,383 619,382 569,389 488,389 464,387 459,383 441,386 430,382 408,382 384,387 378,381 369,380 361,387 338,387 262,386 238,378 147,377 142,382 142,409 150,415 150,421 155,426 227,424 481,429 492,430 492,431 515,431 517,430 544,429 652,431 986,431 993,427 993,400 988,395 894,394 887,387 872,388 869,392 848,392 842,386 829,386 823,392 817,392 811,385 797,385 790,390 742,391 746,379 734,372"/>
         <Word id="region0003_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="239,378 201,378 201,419 270,420 270,386 262,386"/>
           <TextEquiv conf="0.9278627">
@@ -172,7 +185,7 @@
 Nec mos bellantes una ſtabulare: ſed alter</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571579436_73" custom="readingOrder {index:4;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571579436_73" custom="readingOrder {index:4;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="120,431 1177,431 1174,703 117,703"/>
       <TextLine id="region0003_line0003" custom="readingOrder {index:0;}">
         <Coords points="224,430 185,439 121,440 120,481 242,484 254,481 387,482 438,489 443,486 493,483 511,486 517,490 531,490 538,486 556,484 562,489 577,489 583,484 610,484 662,491 667,488 698,485 772,486 923,491 961,497 1027,497 1032,492 1032,470 1027,465 984,463 970,452 941,451 936,443 923,443 916,450 908,450 845,447 838,439 827,440 820,446 741,445 735,437 724,438 717,444 684,445 652,444 647,438 635,438 628,444 484,442 476,435 419,441 413,435 402,435 396,440 390,434 380,434 372,440 338,441 313,438 307,433 285,431"/>
@@ -243,7 +256,7 @@ Nec mos bellantes una ſtabulare: ſed alter</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1641203581019_337" custom="readingOrder {index:3;}">
-          <Coords points="714,498 749,498 812,501 876,506 876,535 714,533"/>
+          <Coords points="749,498 729,498 714,499 714,533 876,535 876,506 814,501 751,500 749,498"/>
           <TextEquiv>
             <Unicode>plagasque</Unicode>
           </TextEquiv>
@@ -343,7 +356,7 @@ Nec mos bellantes una ſtabulare: ſed alter</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0007" custom="readingOrder {index:4;}">
-        <Coords points="551,640 519,646 518,659 510,652 498,652 491,658 384,658 377,651 365,650 359,657 253,658 242,656 238,649 229,646 142,645 137,650 137,676 143,682 142,692 147,697 213,697 242,703 298,697 665,700 701,705 717,703 724,711 736,713 741,702 906,704 923,694 923,667 918,662 809,661 803,660 797,654 780,656 756,652 716,652 708,659 553,659 562,652 564,645 559,640"/>
+        <Coords points="519,646 518,659 510,652 498,652 491,658 384,658 377,651 365,650 359,657 253,658 242,656 238,649 229,646 142,645 137,650 137,676 143,682 142,692 147,697 213,697 242,703 298,697 665,700 686,703 717,703 740,703 741,702 823,703 907,703 923,694 923,667 918,662 809,661 803,660 797,654 780,656 756,652 716,652 708,659 553,659 562,652 564,645 559,640 551,640"/>
         <Word id="region0003_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="196,645 196,685 277,686 277,657 253,658 242,656 238,649 229,646"/>
           <TextEquiv conf="0.9624274">
@@ -375,7 +388,7 @@ Nec mos bellantes una ſtabulare: ſed alter</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0007_word0005" custom="readingOrder {index:5;}">
-          <Coords points="741,652 741,695 772,696 772,652 756,652"/>
+          <Coords points="741,695 772,696 772,654 756,652 741,652"/>
           <TextEquiv conf="0.8843112">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -391,14 +404,14 @@ Nec mos bellantes una ſtabulare: ſed alter</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>225 Victus abit, longeque ignotis exulat oris;&#13;
-Multa gemens, ignominiam, plagasque ſuperbi&#13;
-Victoris; tum, quos amiſit inultus, amores;&#13;
-Et ſtabula adſpectans regnis exceſſit avitis.&#13;
+        <Unicode>225 Victus abit, longeque ignotis exulat oris;
+Multa gemens, ignominiam, plagasque ſuperbi
+Victoris; tum, quos amiſit inultus, amores;
+Et ſtabula adſpectans regnis exceſſit avitis.
 Ergo omni cura vires exercet, &amp; inter</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571585274_78" custom="readingOrder {index:5;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571585274_78" custom="readingOrder {index:5;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="117,703 1174,703 1171,964 114,964"/>
       <TextLine id="region0003_line0008" custom="readingOrder {index:0;}">
         <Coords points="336,702 327,710 288,710 265,703 223,702 208,708 118,706 118,748 157,750 177,755 215,751 311,751 325,753 330,758 341,758 348,753 393,753 398,749 426,753 431,757 462,751 792,755 952,760 961,759 966,754 966,732 963,728 908,725 897,719 888,709 855,709 849,714 842,708 833,708 826,714 736,714 724,712 715,705 707,713 631,711 618,705 602,705 597,709 582,711 577,706 566,705 559,713 353,711 347,703"/>
@@ -581,7 +594,7 @@ Ergo omni cura vires exercet, &amp; inter</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0012" custom="readingOrder {index:4;}">
-        <Coords points="329,902 319,909 320,923 267,921 261,915 142,913 137,918 136,945 141,950 142,961 147,965 231,964 238,956 242,956 255,964 313,965 317,968 327,968 331,965 359,965 368,968 376,965 400,965 406,970 416,970 433,963 520,964 551,966 559,971 583,967 595,968 601,973 616,973 624,969 656,965 697,965 703,970 714,970 721,965 731,964 992,969 1001,962 1002,935 997,930 837,925 828,918 804,918 798,924 780,924 774,920 760,918 754,924 644,925 549,922 543,916 530,916 524,923 507,924 489,921 481,913 469,913 459,921 445,921 422,919 411,914 398,917 367,912 340,914 341,908"/>
+        <Coords points="319,909 320,923 267,921 261,915 142,913 137,918 136,945 141,950 142,961 145,964 231,964 238,956 242,956 255,964 430,964 433,963 520,964 731,964 998,964 1001,962 1002,935 997,930 837,925 828,918 804,918 798,924 780,924 774,920 760,918 754,924 644,925 549,922 543,916 530,916 524,923 507,924 489,921 481,913 469,913 459,921 445,921 422,919 411,914 398,917 367,912 340,914 341,908 329,902"/>
         <Word id="region0003_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="193,913 193,948 329,949 330,913 319,912 320,923 267,921 261,915"/>
           <TextEquiv conf="0.91307783">
@@ -629,17 +642,17 @@ Ergo omni cura vires exercet, &amp; inter</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>230 Dura jacet pernox inſtrato ſaxa cubili,&#13;
-Frondibus hirſutis &amp; carice paſtus acuta:&#13;
-Et tentat ſeſe, atque iraſci in cornua diſcit&#13;
-Arboris obnixus trunco: ventosque laceſſit&#13;
+        <Unicode>230 Dura jacet pernox inſtrato ſaxa cubili,
+Frondibus hirſutis &amp; carice paſtus acuta:
+Et tentat ſeſe, atque iraſci in cornua diſcit
+Arboris obnixus trunco: ventosque laceſſit
 Ictibus, &amp; ſparſa ad pugnam proludit arena.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571593108_85" custom="readingOrder {index:6;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571593108_85" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="114,964 1171,964 1168,1241 111,1241"/>
       <TextLine id="region0003_line0013" custom="readingOrder {index:0;}">
-        <Coords points="238,957 232,964 232,969 218,969 201,975 116,975 116,1017 147,1019 172,1025 228,1025 248,1020 308,1021 312,1024 321,1024 327,1021 358,1018 648,1020 705,1023 776,1020 816,1022 819,1027 839,1030 845,1022 986,1023 1030,1029 1083,1028 1088,1023 1088,1001 1083,996 1061,996 1060,988 1055,983 997,981 986,973 974,973 965,979 941,973 924,982 771,979 764,972 753,972 747,979 672,979 650,978 643,971 633,971 625,978 551,980 523,978 514,971 503,971 495,976 482,975 476,970 415,977 405,977 398,970 387,970 382,974 375,969 363,969 358,974 303,970 277,972 256,970 254,964"/>
+        <Coords points="232,969 218,969 201,975 116,975 116,1017 147,1019 172,1025 228,1025 248,1020 308,1021 312,1024 321,1024 327,1021 358,1018 648,1020 705,1023 776,1020 816,1022 819,1027 839,1030 845,1022 986,1023 1030,1029 1083,1028 1088,1023 1088,1001 1083,996 1061,996 1060,988 1055,983 997,981 986,973 974,973 965,979 941,973 924,982 771,979 764,972 753,972 747,979 672,979 650,978 643,971 633,971 625,978 551,980 523,978 514,971 503,971 495,976 482,975 476,970 415,977 405,977 398,970 387,970 382,974 375,969 363,969 358,974 303,970 277,972 256,970 254,964 232,964"/>
         <Word id="region0003_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="153,975 153,1007 214,1007 214,974 203,974 201,975"/>
           <TextEquiv conf="0.91923785">
@@ -837,7 +850,7 @@ Ictibus, &amp; ſparſa ad pugnam proludit arena.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0017" custom="readingOrder {index:4;}">
-        <Coords points="219,1172 211,1180 211,1186 202,1186 198,1189 144,1191 138,1202 139,1231 143,1234 324,1238 553,1238 557,1241 569,1241 573,1238 601,1238 629,1242 633,1245 670,1240 770,1243 774,1239 784,1238 792,1247 800,1244 832,1243 896,1244 901,1248 916,1248 927,1243 1003,1241 1011,1239 1014,1235 1014,1209 1011,1205 951,1200 944,1193 934,1193 923,1200 909,1200 904,1194 892,1194 885,1201 853,1202 751,1201 737,1198 731,1191 718,1191 709,1197 671,1199 567,1198 557,1191 555,1185 541,1183 537,1185 531,1198 410,1195 405,1189 395,1189 387,1196 284,1194 270,1200 254,1199 228,1189 226,1176"/>
+        <Coords points="211,1180 211,1186 202,1186 198,1189 144,1191 138,1202 139,1231 143,1234 324,1238 553,1238 557,1241 569,1241 573,1238 601,1238 622,1241 662,1241 670,1240 703,1241 772,1241 774,1239 784,1238 786,1241 1003,1241 1011,1239 1014,1235 1014,1209 1011,1205 951,1200 944,1193 934,1193 923,1200 909,1200 904,1194 892,1194 885,1201 853,1202 751,1201 737,1198 731,1191 718,1191 709,1197 671,1199 567,1198 557,1191 555,1185 541,1183 537,1185 531,1198 410,1195 405,1189 395,1189 387,1196 284,1194 270,1200 254,1199 228,1189 226,1176 219,1172"/>
         <Word id="region0003_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="226,1182 211,1182 211,1186 202,1186 198,1189 191,1189 191,1213 242,1213 242,1194 228,1189"/>
           <TextEquiv conf="0.9325828">
@@ -891,17 +904,17 @@ Ictibus, &amp; ſparſa ad pugnam proludit arena.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>235 Poſt, ubi collectum robur, viresque refectæ,&#13;
-Signa movet, præcepsque oblitum fertur in hoſtem:&#13;
-Fluctus ut, in medio cœpit cum albeſcere ponto,&#13;
-Longius, ex altoque ſinum trahit; utque volutus&#13;
+        <Unicode>235 Poſt, ubi collectum robur, viresque refectæ,
+Signa movet, præcepsque oblitum fertur in hoſtem:
+Fluctus ut, in medio cœpit cum albeſcere ponto,
+Longius, ex altoque ſinum trahit; utque volutus
 Ad terras, immane ſonat per ſaxa, nec ipſo</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571604234_95" custom="readingOrder {index:7;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571604234_95" custom="readingOrder {index:7;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="111,1241 1168,1241 1166,1505 109,1505"/>
       <TextLine id="region0003_line0018" custom="readingOrder {index:0;}">
-        <Coords points="777,1239 770,1244 771,1254 750,1254 744,1247 734,1247 728,1252 641,1253 635,1248 624,1248 619,1251 611,1244 603,1244 595,1252 405,1250 399,1244 388,1244 382,1250 294,1249 265,1242 217,1242 193,1248 113,1244 113,1246 113,1286 171,1289 178,1293 193,1290 216,1293 221,1290 249,1290 435,1291 487,1297 491,1294 513,1293 1042,1299 1092,1298 1100,1290 1100,1263 1095,1258 1031,1256 1025,1250 1011,1250 1005,1256 988,1256 899,1254 892,1249 878,1249 871,1254 851,1255 790,1254 792,1248 788,1243 784,1239"/>
+        <Coords points="770,1244 771,1254 750,1254 744,1247 734,1247 728,1252 641,1253 635,1248 624,1248 619,1251 611,1244 603,1244 595,1252 405,1250 399,1244 388,1244 382,1250 294,1249 265,1242 217,1242 193,1248 113,1244 113,1246 113,1286 171,1289 178,1293 193,1290 216,1293 221,1290 249,1290 435,1291 487,1297 491,1294 513,1293 1042,1299 1092,1298 1100,1290 1100,1263 1095,1258 1031,1256 1025,1250 1011,1250 1005,1256 988,1256 899,1254 892,1249 878,1249 871,1254 851,1255 790,1254 792,1248 788,1243 786,1241 774,1241"/>
         <Word id="region0003_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="150,1248 214,1248 214,1280 150,1280"/>
           <TextEquiv conf="0.92751074">
@@ -1081,7 +1094,7 @@ Ad terras, immane ſonat per ſaxa, nec ipſo</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0022" custom="readingOrder {index:4;}">
-        <Coords points="135,1453 130,1458 130,1485 135,1490 135,1500 140,1505 193,1505 199,1502 212,1505 315,1505 371,1514 401,1507 448,1506 454,1513 469,1514 482,1505 552,1504 901,1509 1041,1514 1087,1514 1092,1509 1092,1488 1087,1483 1059,1482 1051,1473 980,1470 974,1464 961,1464 957,1467 952,1463 941,1463 934,1470 885,1469 878,1462 858,1462 851,1468 758,1468 702,1464 693,1458 684,1458 679,1462 620,1465 522,1464 514,1458 500,1457 494,1465 366,1465 359,1457 347,1457 340,1465 306,1465 300,1458 288,1458 282,1464 264,1463 260,1459 241,1458 236,1462 225,1462 218,1456 206,1454"/>
+        <Coords points="130,1458 130,1485 135,1490 135,1500 140,1505 193,1505 199,1502 212,1505 315,1505 482,1505 552,1504 621,1505 1092,1505 1092,1488 1087,1483 1059,1482 1051,1473 980,1470 974,1464 961,1464 957,1467 952,1463 941,1463 934,1470 885,1469 878,1462 858,1462 851,1468 758,1468 702,1464 693,1458 684,1458 679,1462 620,1465 522,1464 514,1458 500,1457 494,1465 366,1465 359,1457 347,1457 340,1465 306,1465 300,1458 288,1458 282,1464 264,1463 260,1459 241,1458 236,1462 225,1462 218,1456 206,1454 135,1453"/>
         <Word id="region0003_line0022_word0000" custom="readingOrder {index:0;}">
           <Coords points="187,1462 221,1462 221,1493 187,1493"/>
           <TextEquiv conf="0.9310079">
@@ -1129,17 +1142,17 @@ Ad terras, immane ſonat per ſaxa, nec ipſo</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>240 Monte minor procumbit: at ima exæſtuat unda&#13;
-Verticibus, nigramque alte ſubjectat arenam.&#13;
-Omne adeo genus in terris hominumque ferarumque,&#13;
-Et genus æquoreum, pecudes, pictæque volucres,&#13;
+        <Unicode>240 Monte minor procumbit: at ima exæſtuat unda
+Verticibus, nigramque alte ſubjectat arenam.
+Omne adeo genus in terris hominumque ferarumque,
+Et genus æquoreum, pecudes, pictæque volucres,
 In furias ignemque ruunt. Amor omnibus idem.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571619578_102" custom="readingOrder {index:8;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571619578_102" custom="readingOrder {index:8;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="109,1505 1166,1505 1164,1784 107,1784"/>
       <TextLine id="region0003_line0023" custom="readingOrder {index:0;}">
-        <Coords points="199,1503 193,1506 193,1514 187,1517 111,1514 111,1556 154,1559 181,1567 261,1561 302,1561 308,1566 322,1566 332,1560 514,1562 551,1560 556,1557 566,1557 570,1560 775,1560 1003,1565 1013,1556 1013,1530 1008,1525 886,1522 878,1521 873,1516 860,1515 854,1520 822,1521 814,1514 791,1513 784,1517 779,1512 770,1512 762,1518 734,1519 644,1517 638,1511 630,1511 620,1517 608,1517 527,1519 519,1513 499,1513 485,1519 360,1520 286,1519 273,1511 214,1510 209,1504"/>
+        <Coords points="193,1506 193,1514 187,1517 111,1514 111,1556 154,1559 181,1567 261,1561 302,1561 308,1566 322,1566 332,1560 514,1562 551,1560 556,1557 566,1557 570,1560 775,1560 1003,1565 1013,1556 1013,1530 1008,1525 886,1522 878,1521 873,1516 860,1515 854,1520 822,1521 814,1514 791,1513 784,1517 779,1512 770,1512 762,1518 734,1519 644,1517 638,1511 630,1511 620,1517 608,1517 527,1519 519,1513 499,1513 485,1519 360,1520 286,1519 273,1511 214,1510 209,1505 195,1505"/>
         <Word id="word_1644571603608_92" custom="readingOrder {index:0;}">
           <Coords points="195,1505 208,1505 208,1552 147,1552 147,1515 187,1517 193,1514 193,1506"/>
           <TextEquiv conf="0.90956">
@@ -1325,7 +1338,7 @@ In furias ignemque ruunt. Amor omnibus idem.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0027" custom="readingOrder {index:4;}">
-        <Coords points="132,1726 127,1731 127,1758 132,1763 133,1773 138,1777 523,1779 529,1785 542,1785 550,1778 683,1782 828,1782 882,1789 923,1782 976,1781 986,1774 986,1747 983,1743 920,1741 913,1734 902,1734 896,1741 866,1741 820,1741 811,1734 804,1734 797,1741 664,1740 655,1739 649,1732 609,1729 571,1737 523,1737 518,1732 463,1729 450,1736 441,1737 358,1736 352,1730 339,1730 333,1736 325,1737 276,1735 270,1732 234,1736 218,1728"/>
+        <Coords points="127,1731 127,1758 132,1763 133,1773 138,1777 523,1779 528,1784 543,1784 550,1778 683,1782 828,1782 843,1784 911,1784 923,1782 976,1781 986,1774 986,1747 983,1743 920,1741 913,1734 902,1734 896,1741 866,1741 820,1741 811,1734 804,1734 797,1741 664,1740 655,1739 649,1732 609,1729 571,1737 523,1737 518,1732 463,1729 450,1736 441,1737 358,1736 352,1730 339,1730 333,1736 325,1737 276,1735 270,1732 234,1736 218,1728 132,1726"/>
         <Word id="region0003_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="185,1736 271,1737 271,1768 185,1767"/>
           <TextEquiv conf="0.9641991">
@@ -1379,14 +1392,14 @@ In furias ignemque ruunt. Amor omnibus idem.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>245 Tempore non alio catulorum oblita leæna&#13;
-Sævior erravit campis: nec funera vulgo&#13;
-Tam multa informes urſi ſtragemque dedere&#13;
-Per ſylvas. Tum ſævus aper, tum peſſima tigris.&#13;
+        <Unicode>245 Tempore non alio catulorum oblita leæna
+Sævior erravit campis: nec funera vulgo
+Tam multa informes urſi ſtragemque dedere
+Per ſylvas. Tum ſævus aper, tum peſſima tigris.
 Heu! male tum Libyæ ſolis erratur in agris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45808905" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644571619578_101" custom="readingOrder {index:9;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644571619578_101" custom="readingOrder {index:9;} structure {type:paragraph;}" orientation="-0.45808905" type="paragraph" readingDirection="left-to-right">
       <Coords points="107,1784 1164,1784 1163,2061 106,2051"/>
       <TextLine id="region0003_line0028" custom="readingOrder {index:0;}">
         <Coords points="397,1785 392,1788 376,1786 370,1792 351,1792 282,1792 257,1785 211,1784 192,1789 159,1785 109,1784 108,1826 150,1829 172,1837 186,1833 238,1831 242,1841 255,1844 259,1841 261,1833 306,1831 410,1832 461,1837 538,1832 654,1833 720,1837 726,1842 736,1842 746,1838 772,1835 818,1836 823,1840 831,1840 836,1836 905,1834 916,1834 922,1840 937,1840 943,1834 967,1832 1094,1834 1104,1826 1105,1799 1095,1793 935,1792 844,1796 625,1792 496,1791 451,1793 415,1792 408,1785"/>
@@ -1635,14 +1648,14 @@ Heu! male tum Libyæ ſolis erratur in agris.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>250 Nonne vides, ut tota tremor pertenter equorum&#13;
-Corpora, ſi tantum notas odor attulit auras!&#13;
-Ac neque eos jam fræna virum, neque verbera ſæva,&#13;
-Non ſcopuli, rupesque cavæ, atque objecta retardant&#13;
+        <Unicode>250 Nonne vides, ut tota tremor pertenter equorum
+Corpora, ſi tantum notas odor attulit auras!
+Ac neque eos jam fræna virum, neque verbera ſæva,
+Non ſcopuli, rupesque cavæ, atque objecta retardant
 Flumina, correptosque unda torquentia montes:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676286528792_1889" custom="readingOrder {index:10;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676286528792_1889" custom="readingOrder {index:10;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="612,2074 612,2116 693,2116 693,2074"/>
       <TextLine id="line_1676286528940_1892" custom="readingOrder {index:0;}">
         <Coords points="612,2074 612,2116 693,2116 693,2074"/>
@@ -1666,7 +1679,7 @@ Flumina, correptosque unda torquentia montes:</Unicode>
         <Unicode>F 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676286533102_1898" custom="readingOrder {index:11;} structure {type:catch-word;}">
+    <TextRegion id="region_1676286533102_1898" custom="readingOrder {index:11;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1008,2081 1008,2116 1093,2116 1093,2081"/>
       <TextLine id="line_1676286533194_1901" custom="readingOrder {index:0;}">
         <Coords points="1008,2081 1008,2116 1093,2116 1093,2081"/>
@@ -1684,5 +1697,8 @@ Flumina, correptosque unda torquentia montes:</Unicode>
         <Unicode>255</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1644571434269_52" custom="readingOrder {index:2;}">
+      <Coords points="215,1117 272,1117 272,1202 215,1202"/>
+    </NoiseRegion>
   </Page>
 </PcGts>

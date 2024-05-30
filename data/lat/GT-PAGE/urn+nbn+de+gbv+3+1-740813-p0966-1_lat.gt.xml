@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-248">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:46Z</Created>
     <LastChange>2024-01-19T13:09:46Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-740813-p0966-1_lat.jpg" imageWidth="2571" imageHeight="3199" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9de6804c-f05e-447b-8bf5-b99077b3ccd0/00000966.jpg" imageWidth="2571" imageHeight="3199" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="373,449 405,3041 2501,3069 2516,477"/>
     </Border>
@@ -22,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="region_1682591100133_3530"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682591014840_3403" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682591014840_3403" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="972,711 972,755 1056,755 1056,711"/>
       <TextLine id="line_1682591015076_3406" custom="readingOrder {index:0;}">
         <Coords points="972,711 972,755 1056,755 1056,711"/>
@@ -40,7 +55,7 @@
         <Unicode>938</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682591019491_3412" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682591019491_3412" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="1101,697 1101,757 2244,757 2244,697"/>
       <TextLine id="line_1682591019693_3415" custom="readingOrder {index:0;}">
         <Coords points="1101,697 1101,757 2244,757 2244,697"/>
@@ -82,7 +97,7 @@
         <Unicode>CAP. XI. SISTENS OBSERVATIONES MIXTAS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3047967" readingDirection="left-to-right" id="TextRegion_1668498062610_1767" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1668498062610_1767" custom="readingOrder {index:2;}" orientation="-1.3047967" readingDirection="left-to-right">
       <Coords points="969,805 2294,805 2294,981 1123,1016 966,1016 966,964"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="2138,809 2076,810 2071,814 2069,822 2020,820 2014,810 2003,809 1999,812 1968,810 1959,816 1942,817 1938,806 1917,805 1890,816 1737,813 1707,807 1701,811 1680,810 1660,815 1605,815 1597,806 1583,806 1572,816 1535,818 1198,813 1196,807 1190,805 1179,806 1172,812 1151,813 1049,810 1037,808 1035,805 1016,805 1010,809 970,809 969,849 970,857 987,855 993,859 1125,861 1152,861 1158,858 1173,861 1220,863 1248,857 1261,860 1290,857 1465,863 1491,863 1500,859 1508,859 1516,864 1535,862 1543,869 1572,867 1584,871 1594,866 1673,865 1690,861 1785,864 1854,863 1864,859 1899,860 1905,865 1952,867 1961,864 1978,874 1990,870 2017,874 2037,871 2082,875 2156,875 2163,882 2174,882 2182,874 2294,871 2294,826 2176,822 2170,817 2158,819 2151,810"/>
@@ -275,13 +290,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>anderer vielen momentorum, ſo aus denen weitlaͤufftigen Saͤtzen an⸗&#13;
-hero zu wiederholen unvonnoͤthen, vorjetzo zugeſchweigen;&#13;
-So ſind wir, wie in dem Urthel enthalten, zu erkennen bewogen&#13;
+        <Unicode>anderer vielen momentorum, ſo aus denen weitlaͤufftigen Saͤtzen an⸗
+hero zu wiederholen unvonnoͤthen, vorjetzo zugeſchweigen;
+So ſind wir, wie in dem Urthel enthalten, zu erkennen bewogen
 worden.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3047967" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;}" orientation="-1.3047967" type="heading" readingDirection="left-to-right">
       <Coords points="1192,1066 2062,1066 2062,1130 1192,1130"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="2003,1067 1192,1066 1192,1125 1437,1130 2061,1130 2062,1069"/>
@@ -318,7 +333,7 @@ worden.</Unicode>
         <Unicode>CAP. XI. OBSERVATIO XXXIll.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3047967" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:4;}">
+    <TextRegion id="region0006" custom="readingOrder {index:4;}" orientation="-1.3047967" type="heading" readingDirection="left-to-right">
       <Coords points="955,1149 2285,1149 2285,1524 955,1524"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1709,1149 1490,1149 1489,1187 1492,1191 1501,1193 1576,1199 1582,1202 1603,1202 1613,1200 1624,1203 1647,1203 1663,1200 1727,1196 1733,1190 1734,1152 1732,1149"/>
@@ -452,14 +467,14 @@ worden.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>DE&#13;
-OMISSIONE RENOVATIONIS&#13;
-INVESTITVRAE HODIE NEC DE IVRE&#13;
-COMMVNI, NEC SAXON. AD AMIS-&#13;
+        <Unicode>DE
+OMISSIONE RENOVATIONIS
+INVESTITVRAE HODIE NEC DE IVRE
+COMMVNI, NEC SAXON. AD AMIS-
 SIONEM FEVDI SVFFICIENTE.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3047967" readingDirection="left-to-right" id="TextRegion_1668498083798_1777" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1668498083798_1777" custom="readingOrder {index:5;}" orientation="-1.3047967" readingDirection="left-to-right">
       <Coords points="947,1554 1592,1554 1596,1660 1596,1724 1591,2715 925,2715 925,1719"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1277,1555 1272,1559 1270,1566 1221,1563 1217,1554 1196,1555 1189,1560 1179,1559 1176,1555 947,1554 947,1591 953,1591 960,1598 1033,1606 1201,1608 1215,1614 1220,1611 1323,1614 1346,1613 1352,1611 1374,1614 1405,1612 1410,1607 1411,1573 1406,1568 1297,1566 1291,1556"/>
@@ -1114,31 +1129,31 @@ SIONEM FEVDI SVFFICIENTE.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Pr. Facti ſpecies.&#13;
-Th.1 Feudi priuatio diiudican-&#13;
-da quoque ex lege prouincia-&#13;
-li.&#13;
-2. Et præſertim ex literis inue-&#13;
-ſtituræ.&#13;
-3. Inueſtituræ renouationis omis-&#13;
-ſionem ad feudi amiſſionem ſuf-&#13;
-ficere, non nulli quondam pu-&#13;
-tarunt.&#13;
-4. Vaſallus, gratiæ viam quæ-&#13;
-rens, viam iuſtitiæ deſeruiſſe&#13;
-cenſetur.&#13;
-5. Renouationem inueſtituræ pe-&#13;
-tens non præſtat cautionem.&#13;
-6. Sed potius contradictor, in&#13;
-actione priuatoria ſe fundans.&#13;
-7. Præſertim, ſi in caſu ſimili&#13;
-iam ſuccubuerit.&#13;
-3. Res iudicata ſemper obſtat, ſi&#13;
-eadem ſit vincendi cauſa apud&#13;
+        <Unicode>Pr. Facti ſpecies.
+Th.1 Feudi priuatio diiudican-
+da quoque ex lege prouincia-
+li.
+2. Et præſertim ex literis inue-
+ſtituræ.
+3. Inueſtituræ renouationis omis-
+ſionem ad feudi amiſſionem ſuf-
+ficere, non nulli quondam pu-
+tarunt.
+4. Vaſallus, gratiæ viam quæ-
+rens, viam iuſtitiæ deſeruiſſe
+cenſetur.
+5. Renouationem inueſtituræ pe-
+tens non præſtat cautionem.
+6. Sed potius contradictor, in
+actione priuatoria ſe fundans.
+7. Præſertim, ſi in caſu ſimili
+iam ſuccubuerit.
+3. Res iudicata ſemper obſtat, ſi
+eadem ſit vincendi cauſa apud
 iudicem eundem.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3047967" readingDirection="left-to-right" id="TextRegion_1668498087616_1782" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1668498087616_1782" custom="readingOrder {index:6;}" orientation="-1.3047967" readingDirection="left-to-right">
       <Coords points="1610,1543 2279,1543 2279,2683 1857,2738 1648,2728 1610,2683"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="2207,1543 2194,1559 2161,1555 2161,1543 2131,1544 2131,1555 2105,1552 2099,1546 2070,1549 2046,1546 2036,1548 2031,1558 2022,1550 2012,1550 2006,1552 2000,1561 1967,1564 1960,1555 1948,1554 1941,1565 1886,1567 1863,1572 1840,1570 1839,1564 1832,1559 1818,1560 1812,1570 1772,1569 1765,1560 1665,1559 1659,1563 1656,1574 1610,1574 1610,1626 1644,1625 1699,1616 1759,1615 1772,1610 1804,1614 1837,1613 1847,1608 1858,1607 1865,1615 1876,1607 1888,1605 1892,1605 1897,1615 1903,1615 1913,1605 1926,1608 1988,1606 2001,1601 2015,1604 2041,1602 2063,1595 2075,1599 2106,1599 2112,1596 2154,1603 2180,1601 2196,1607 2227,1602 2279,1601 2279,1557 2236,1557 2232,1544"/>
@@ -1726,7 +1741,7 @@ iudicem eundem.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0001" custom="readingOrder {index:21;}">
-        <Coords points="1909,2663 1866,2663 1851,2668 1838,2667 1829,2675 1822,2676 1812,2676 1805,2667 1792,2667 1787,2668 1782,2676 1777,2677 1653,2678 1652,2732 1668,2735 1679,2727 1721,2724 1825,2725 1829,2731 1839,2734 1848,2741 1857,2741 1867,2726 1961,2723 1976,2720 1978,2681 1975,2677 1960,2674 1954,2664"/>
+        <Coords points="1866,2663 1851,2668 1838,2667 1829,2675 1822,2676 1812,2676 1805,2667 1792,2667 1787,2668 1782,2676 1777,2677 1653,2678 1652,2728 1675,2729 1679,2727 1721,2724 1825,2725 1829,2731 1839,2734 1843,2737 1857,2738 1859,2737 1867,2726 1961,2723 1976,2720 1978,2681 1975,2677 1960,2674 1954,2664 1909,2663"/>
         <Baseline points="1652,2717 1976,2716"/>
         <Word id="region0011_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1658,2679 1724,2681 1723,2722 1657,2720"/>
@@ -1745,31 +1760,31 @@ iudicem eundem.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>9. Felonia, quia delictum, ſen-&#13;
-tentia abſolutoria ſtatim ſit res&#13;
-iudicata.&#13;
-10. Contnmaciæ pœna ex ſingu-&#13;
-lari cauſa quondam grauiſſi-&#13;
-ma.&#13;
-11. Renouationis inueſtituræ&#13;
-omiſſionem ad amiſſionem feudi&#13;
-non ſufficere, hodierni quo-&#13;
-que ICti Saxones agnoſcunt.&#13;
-12. Inueſtiturarum literæ, adre&#13;
-nouantes reſtrictæ, præciſe non&#13;
-inuoluunt pœnam priuationis&#13;
-grauiorem.&#13;
-13. In pœnalibus non admittitur&#13;
-interpretatio extenſiua.&#13;
-14. Ita priuatio fundi emphy-&#13;
-teutici non quadrat ad cenſiti-&#13;
-cum.&#13;
-15. Renouationem inueſtituræ&#13;
-petens non repulſus, habetur&#13;
+        <Unicode>9. Felonia, quia delictum, ſen-
+tentia abſolutoria ſtatim ſit res
+iudicata.
+10. Contnmaciæ pœna ex ſingu-
+lari cauſa quondam grauiſſi-
+ma.
+11. Renouationis inueſtituræ
+omiſſionem ad amiſſionem feudi
+non ſufficere, hodierni quo-
+que ICti Saxones agnoſcunt.
+12. Inueſtiturarum literæ, adre
+nouantes reſtrictæ, præciſe non
+inuoluunt pœnam priuationis
+grauiorem.
+13. In pœnalibus non admittitur
+interpretatio extenſiua.
+14. Ita priuatio fundi emphy-
+teutici non quadrat ad cenſiti-
+cum.
+15. Renouationem inueſtituræ
+petens non repulſus, habetur
 pro admiſſo.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682591100133_3530" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="region_1682591100133_3530" custom="readingOrder {index:7;} structure {type:catch-word;}" type="catch-word">
       <Coords points="2070,2761 2251,2761 2251,2696 2070,2696"/>
       <TextLine id="line_1682591093117_3524" custom="readingOrder {index:0;}">
         <Coords points="2078,2700 2078,2759 2249,2759 2249,2700"/>

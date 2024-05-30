@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-81">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:41Z</Created>
     <LastChange>2024-01-19T13:07:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-204271-p0159-8_lat.png" imageWidth="1517" imageHeight="2290" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/19c31020-3da1-43c4-87c2-4199c164d37a/00000159.jpg" imageWidth="1517" imageHeight="2290" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="67,134 88,2212 1365,2187 1328,109"/>
     </Border>
@@ -20,10 +35,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1674031373821_2105"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1674031355885_2096" custom="readingOrder {index:0;}">
-      <Coords points="525,257 635,257 635,303 525,303"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.833206" type="page-number" readingDirection="left-to-right" id="TextRegion_1674031348810_2088" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1674031348810_2088" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.833206" type="page-number" readingDirection="left-to-right">
       <Coords points="907,259 1021,259 1021,307 907,307"/>
       <TextLine id="line_1674031348844_2091" custom="readingOrder {index:0;}">
         <Coords points="907,259 1020,259 1021,305 907,305"/>
@@ -42,7 +54,7 @@
         <Unicode>147</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.833206" readingDirection="left-to-right" id="TextRegion_1674031344674_2084" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1674031344674_2084" custom="readingOrder {index:2;}" orientation="0.833206" readingDirection="left-to-right">
       <Coords points="144,343 1023,343 1023,511 737,563 146,563 144,511"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="517,344 514,355 510,357 496,357 489,347 474,348 470,357 443,358 435,347 422,349 418,358 404,358 394,357 387,347 370,347 358,358 244,363 241,355 235,351 144,351 144,389 147,390 148,402 153,406 306,403 311,411 321,412 332,410 336,399 498,398 532,394 662,398 670,404 686,405 696,395 856,392 890,393 895,396 1022,395 1022,354 896,353 894,344 887,343 870,343 867,352 812,352 810,343 786,344 783,353 646,354 637,364 636,356 631,351 631,344 613,343 612,351 593,351 583,350 577,344 567,344 559,353 542,354 538,343"/>
@@ -189,7 +201,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1674031482807_2150" custom="readingOrder {index:4;}">
-          <Coords points="677,518 740,518 740,534 677,534"/>
+          <Coords points="677,518 677,534 736,534 736,518"/>
           <TextEquiv>
             <Unicode>—</Unicode>
           </TextEquiv>
@@ -199,13 +211,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Loco poſteriori dicit: „quemadmodum re-&#13;
-„aliquiae cibi depellantur, tum adſtringen-&#13;
-„tibus ſe inteſtinis, tum relaxantibus, haud&#13;
+        <Unicode>Loco poſteriori dicit: „quemadmodum re-
+„aliquiae cibi depellantur, tum adſtringen-
+„tibus ſe inteſtinis, tum relaxantibus, haud
 — „ſane difficile dictu eſt.”</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.833206" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;}" orientation="0.833206" readingDirection="left-to-right">
       <Coords points="149,600 1027,600 1027,876 149,876"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="330,603 323,607 321,618 292,619 285,609 273,610 267,619 231,616 225,611 214,611 210,614 155,615 150,620 151,648 157,662 170,664 425,659 529,653 798,650 803,652 819,653 963,653 1003,659 1007,662 1027,659 1026,613 1014,612 1006,603 994,603 987,611 902,612 825,610 816,600 805,600 799,607 796,601 774,601 772,609 657,608 610,610 607,600 583,601 580,611 534,613 526,603 500,601 495,605 493,614 346,618 342,605"/>
@@ -429,14 +441,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Auriculam cordis dextram vltimo mori,&#13;
-HALLERVS ex GALENI admin. anat.&#13;
-L. VII. Cap. XII. ipſe docuit in experim. de&#13;
-cordis motu a ſtimulo nato, in Comment.&#13;
+        <Unicode>Auriculam cordis dextram vltimo mori,
+HALLERVS ex GALENI admin. anat.
+L. VII. Cap. XII. ipſe docuit in experim. de
+cordis motu a ſtimulo nato, in Comment.
 Goett. T. ll. p. 263.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.833206" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:4;}">
+    <TextRegion id="region0004" custom="readingOrder {index:4;}" orientation="0.833206" readingDirection="left-to-right">
       <Coords points="156,915 1052,915 1052,1880 156,1880"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="393,917 385,924 381,933 320,934 318,924 310,919 253,921 247,928 156,928 157,966 159,975 164,980 322,978 326,985 334,986 344,985 348,976 356,973 469,972 687,965 708,969 794,969 1052,964 1051,930 1037,929 1027,919 1016,919 1009,927 998,927 996,916 962,915 959,925 796,926 794,916 724,916 715,925 678,926 615,925 611,915 593,916 589,927 568,928 566,921 561,917 535,915 531,928 492,925 416,931 410,917"/>
@@ -478,7 +490,7 @@ Goett. T. ll. p. 263.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1674031601361_2203" custom="readingOrder {index:6;} textStyle {offset:0; length:6;fontSize:0.0; kerning:0; letterSpaced:true;}">
-          <Coords points="744,920 794,919 929,930 930,955 842,956 745,956"/>
+          <Coords points="794,919 744,920 745,956 842,956 930,955 929,930 874,926 796,926 795,919"/>
           <TextEquiv>
             <Unicode>GALENO</Unicode>
           </TextEquiv>
@@ -1327,27 +1339,27 @@ Goett. T. ll. p. 263.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Sed ſuperſunt et alia loca ex GALENO alle-&#13;
-ganda, olim a me omiſſa, iam vero indi-&#13;
-canda, cum velim, vt nil quidquam deſit in&#13;
-hiſtoria mea irritabilitatis, e veterum moni-&#13;
-mentis collecta. Sanguis, GALENVS ait&#13;
-L. I. de Temper. Cap. 9. p. 29. „a corde&#13;
-„ſuum accipit calorem, quippe id viſcus na-&#13;
-— „tura ſua — calidiſſimum eſt Typo-&#13;
-graphi culpa error irrepſit olim in theſi mea I,&#13;
-hic corrigendus. Exſtat ſcil. L. ll. (non IlI.)&#13;
-GALENI, Cap. VIII. p. 481. locus ille, vbi&#13;
-ait: „Cor primum ante alia omnia animalis&#13;
-— „membra formari dicunt. Cor ſicut&#13;
-„omnium aliorum membrorum moueri pri-&#13;
-— „mum incipit, ita vltimum deſinere”&#13;
-Prolixe ibi diſputat, vtrum cordis motus æ&#13;
-ſeipſo, an vero a cerebro, et num in corde&#13;
+        <Unicode>Sed ſuperſunt et alia loca ex GALENO alle-
+ganda, olim a me omiſſa, iam vero indi-
+canda, cum velim, vt nil quidquam deſit in
+hiſtoria mea irritabilitatis, e veterum moni-
+mentis collecta. Sanguis, GALENVS ait
+L. I. de Temper. Cap. 9. p. 29. „a corde
+„ſuum accipit calorem, quippe id viſcus na-
+— „tura ſua — calidiſſimum eſt Typo-
+graphi culpa error irrepſit olim in theſi mea I,
+hic corrigendus. Exſtat ſcil. L. ll. (non IlI.)
+GALENI, Cap. VIII. p. 481. locus ille, vbi
+ait: „Cor primum ante alia omnia animalis
+— „membra formari dicunt. Cor ſicut
+„omnium aliorum membrorum moueri pri-
+— „mum incipit, ita vltimum deſinere”
+Prolixe ibi diſputat, vtrum cordis motus æ
+ſeipſo, an vero a cerebro, et num in corde
 alimenti principium ſit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.833206" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1674031373822_2106" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1674031373822_2106" custom="readingOrder {index:5;} structure {type:signature-mark;}" orientation="0.833206" type="signature-mark" readingDirection="left-to-right">
       <Coords points="642,1912 843,1912 843,1961 642,1961"/>
       <TextLine id="line_1674031373856_2109" custom="readingOrder {index:0;}">
         <Coords points="642,1913 697,1912 737,1918 789,1919 843,1917 843,1960 642,1961"/>
@@ -1372,7 +1384,7 @@ alimenti principium ſit.</Unicode>
         <Unicode>K 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.833206" type="catch-word" readingDirection="left-to-right" id="TextRegion_1674031373821_2105" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1674031373821_2105" custom="readingOrder {index:6;} structure {type:catch-word;}" orientation="0.833206" type="catch-word" readingDirection="left-to-right">
       <Coords points="843,1912 1060,1912 1060,1961 843,1961"/>
       <TextLine id="line_1674031373856_2108" custom="readingOrder {index:0;}">
         <Coords points="843,1917 1019,1913 1023,1917 1059,1919 1060,1960 843,1960"/>
@@ -1391,5 +1403,8 @@ alimenti principium ſit.</Unicode>
         <Unicode>K o Cor</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1674031355885_2096" custom="readingOrder {index:0;}">
+      <Coords points="525,257 635,257 635,303 525,303"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

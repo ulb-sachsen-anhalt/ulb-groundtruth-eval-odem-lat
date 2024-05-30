@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-264">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:10Z</Created>
     <LastChange>2024-01-19T13:10:10Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-766166_urn+nbn+de+gbv+3+1-768683-p0257-3_lat.png" imageWidth="1562" imageHeight="2276" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/539c9ba4-9022-4254-ade3-341b140aa186/00000257.jpg" imageWidth="1562" imageHeight="2276" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="63,238 90,2198 1294,2205 1288,242"/>
     </Border>
@@ -18,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.3173646" readingDirection="left-to-right" id="TextRegion_1651135087732_6157" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1651135087732_6157" custom="readingOrder {index:0;}" orientation="1.3173646" readingDirection="left-to-right">
       <Coords points="172,431 986,431 986,1293 172,1293"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="237,432 232,441 172,443 172,483 200,482 204,490 220,491 228,482 317,480 324,489 338,488 344,480 424,480 433,487 452,487 460,480 523,479 595,481 606,483 611,488 622,488 628,483 722,482 728,492 745,490 749,481 843,480 875,484 880,481 929,476 986,474 985,434 926,436 919,432 900,431 896,436 837,436 797,440 691,442 642,441 640,435 634,431 612,432 606,440 548,440 472,438 467,431 451,432 447,439 431,439 426,431 406,432 401,438 265,441 258,439 250,431"/>
@@ -41,7 +56,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651135182530_6170" custom="readingOrder {index:3;}">
-          <Coords points="731,441 837,436 848,436 877,447 878,462 849,467 732,470"/>
+          <Coords points="837,436 797,440 731,441 732,470 849,467 878,462 877,447 848,436"/>
           <TextEquiv>
             <Unicode>poterat,</Unicode>
           </TextEquiv>
@@ -119,7 +134,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651135203995_6177" custom="readingOrder {index:3;}">
-          <Coords points="508,547 553,547 593,549 663,557 664,589 647,589 509,586"/>
+          <Coords points="508,547 509,586 647,589 664,589 663,557 600,557 593,549 582,550 576,556 566,556 561,555 553,547 542,548 535,555 524,554 516,547"/>
           <TextEquiv>
             <Unicode>habebat,</Unicode>
           </TextEquiv>
@@ -263,7 +278,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651135249896_6197" custom="readingOrder {index:2;}">
-          <Coords points="365,726 379,725 462,723 473,723 534,734 534,755 508,764 366,768"/>
+          <Coords points="379,725 365,726 366,768 508,764 534,755 534,734 528,733 514,733 482,732 473,723 463,723 452,732 382,731 379,725"/>
           <TextEquiv>
             <Unicode>jacentibus</Unicode>
           </TextEquiv>
@@ -389,7 +404,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651135293984_6223" custom="readingOrder {index:2;}">
-          <Coords points="398,902 464,900 505,899 545,904 546,944 529,944 399,941"/>
+          <Coords points="398,902 399,941 529,944 546,944 545,904 533,905 509,904 504,899 486,899 483,904 468,904 464,900"/>
           <TextEquiv>
             <Unicode>Deinde,</Unicode>
           </TextEquiv>
@@ -467,7 +482,7 @@
       <TextLine id="region0001_line0011" custom="readingOrder {index:10;}">
         <Coords points="195,1006 172,1007 172,1056 302,1054 314,1059 336,1059 346,1063 359,1062 362,1057 396,1055 460,1061 536,1055 718,1057 757,1059 761,1064 770,1066 780,1065 785,1058 886,1058 908,1059 914,1065 925,1065 931,1060 985,1057 986,1046 985,1016 934,1018 927,1008 916,1008 909,1017 886,1018 880,1009 868,1009 861,1018 842,1019 715,1017 708,1016 700,1008 690,1008 683,1015 642,1016 637,1009 624,1008 615,1017 596,1016 588,1008 574,1008 568,1016 521,1016 516,1015 508,1006 500,1007 490,1014 460,1017 426,1015 417,1007 409,1007 396,1016 340,1016 270,1014 254,1004 245,1004 234,1013 213,1010 206,1005"/>
         <Word id="word_1651135319632_6237" custom="readingOrder {index:0;}">
-          <Coords points="193,1012 236,1010 263,1009 296,1014 324,1020 325,1040 297,1042 194,1045"/>
+          <Coords points="193,1012 194,1045 297,1042 325,1040 324,1020 300,1014 270,1014 262,1009 237,1009 234,1013 218,1010"/>
           <TextEquiv>
             <Unicode>hoftes:</Unicode>
           </TextEquiv>
@@ -651,24 +666,24 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>equitemque ſagittas conjicere poterat, ita&#13;
-adverſus ſcuta Romana nec ad trajiciendum&#13;
-ſatis magnam vim habebat, nec aperti quid-&#13;
-quam erat, quod peteret. Itaque id ut va-&#13;
-num teli genus ſenſerunt eſſe, ſaxis paſſim&#13;
-tota valle jacentibus inceſſebant hoſtem. Ea,&#13;
-majore cum ſonitu, quam vulnere ullo, pul-&#13;
-ſatio ſcutorum parumper ſuccedentes Roma-&#13;
-nos tenuit. Deinde, iis quoque ſpretis, par-&#13;
-tim, teſtudine faƈta, per adverſos vadunt&#13;
-hoftes: partim, brevi circuitu quum in ju-&#13;
-gum collis evaſiſſent, trepidos ex præſidiis&#13;
-ſtationibusque Macedonas deturbant: &amp;, ut&#13;
-in locis inpeditis difficili fuga, plerosque&#13;
+        <Unicode>equitemque ſagittas conjicere poterat, ita
+adverſus ſcuta Romana nec ad trajiciendum
+ſatis magnam vim habebat, nec aperti quid-
+quam erat, quod peteret. Itaque id ut va-
+num teli genus ſenſerunt eſſe, ſaxis paſſim
+tota valle jacentibus inceſſebant hoſtem. Ea,
+majore cum ſonitu, quam vulnere ullo, pul-
+ſatio ſcutorum parumper ſuccedentes Roma-
+nos tenuit. Deinde, iis quoque ſpretis, par-
+tim, teſtudine faƈta, per adverſos vadunt
+hoftes: partim, brevi circuitu quum in ju-
+gum collis evaſiſſent, trepidos ex præſidiis
+ſtationibusque Macedonas deturbant: &amp;, ut
+in locis inpeditis difficili fuga, plerosque
 etiam obtruncant.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3173646" readingDirection="left-to-right" id="TextRegion_1651135087732_6156" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1651135087732_6156" custom="readingOrder {index:1;}" orientation="1.3173646" readingDirection="left-to-right">
       <Coords points="172,1293 986,1293 986,1927 172,1927"/>
       <TextLine id="region0001_line0016" custom="readingOrder {index:0;}">
         <Coords points="192,1296 188,1301 188,1328 193,1333 194,1343 198,1348 261,1347 267,1357 272,1357 285,1348 418,1350 426,1350 434,1358 451,1358 460,1351 530,1349 797,1352 844,1355 848,1358 880,1355 885,1361 891,1362 904,1358 909,1353 986,1352 985,1312 978,1311 816,1311 810,1311 808,1305 802,1301 792,1301 784,1310 604,1310 594,1300 582,1301 575,1310 520,1308 513,1299 485,1300 475,1308 399,1309 361,1306 345,1298 323,1296"/>
@@ -1145,20 +1160,20 @@ etiam obtruncant.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>XL. ITA anguſtiæ minore certamine, quam&#13;
-quod animis, propoſuerant, ſuperatæ, &amp; in&#13;
-Eordæam perventum; ubi pervaſtatis paſſim&#13;
-agris, in Elimeam ſe recepit. Inde inpetum&#13;
-in Oreſtidem fecit; &amp; oppidum Celetrum eſt&#13;
-adgreſſus, in peninſula ſitum. Lacus mœnia&#13;
-cingit: anguſtis faucibus unum ex continenti&#13;
-iter eſt. Primo ſitu ipſo freti, clauſis portis,&#13;
-imperium abnuere: deinde, poſtquam ſigna&#13;
-ferri, ac teſtudine ſuccedi ad portam, obſeſ-&#13;
+        <Unicode>XL. ITA anguſtiæ minore certamine, quam
+quod animis, propoſuerant, ſuperatæ, &amp; in
+Eordæam perventum; ubi pervaſtatis paſſim
+agris, in Elimeam ſe recepit. Inde inpetum
+in Oreſtidem fecit; &amp; oppidum Celetrum eſt
+adgreſſus, in peninſula ſitum. Lacus mœnia
+cingit: anguſtis faucibus unum ex continenti
+iter eſt. Primo ſitu ipſo freti, clauſis portis,
+imperium abnuere: deinde, poſtquam ſigna
+ferri, ac teſtudine ſuccedi ad portam, obſeſ-
 ſasque fauces agmine hoſtium viderunt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3173646" type="marginalia" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="1.3173646" type="marginalia" readingDirection="left-to-right">
       <Coords points="964,429 1121,429 1121,505 964,505"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="964,430 964,468 1043,466 1050,474 1120,474 1120,434 1034,437 1024,437 1023,430"/>
@@ -1209,11 +1224,11 @@ ferri, ac teſtudine ſuccedi ad portam, obſeſ-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>U. c. 556.&#13;
+        <Unicode>U. c. 556.
 a. C. 200.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3173646" type="marginalia" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="1.3173646" type="marginalia" readingDirection="left-to-right">
       <Coords points="978,893 1128,893 1128,1042 978,1042"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="978,894 978,933 1088,932 1127,928 1127,901 1123,900 1105,897 1043,898 1042,894 1027,893"/>
@@ -1264,9 +1279,9 @@ a. C. 200.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Perrum-&#13;
-punt&#13;
-Romani&#13;
+        <Unicode>Perrum-
+punt
+Romani
 anguſtias.</Unicode>
       </TextEquiv>
     </TextRegion>

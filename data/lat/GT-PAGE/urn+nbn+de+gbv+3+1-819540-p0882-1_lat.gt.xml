@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-303">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:43Z</Created>
     <LastChange>2024-01-19T13:10:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-819540-p0882-1_lat.png" imageWidth="2736" imageHeight="3255" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/3baadc81-af01-4dfc-9e6b-6d6f7be28ad3/00000882.jpg" imageWidth="2736" imageHeight="3255" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="181,300 167,3174 2634,3154 2607,314"/>
     </Border>
@@ -22,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="region_1682583945535_1019"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682583868713_948" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682583868713_948" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="729,522 729,585 806,585 806,522"/>
       <TextLine id="line_1682583868889_951" custom="readingOrder {index:0;}">
         <Coords points="729,522 729,585 806,585 806,522"/>
@@ -40,7 +55,7 @@
         <Unicode>856</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682583872251_957" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682583872251_957" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="1228,506 1228,559 1874,559 1874,506"/>
       <TextLine id="line_1682583872405_960" custom="readingOrder {index:0;}">
         <Coords points="1228,506 1228,559 1874,559 1874,506"/>
@@ -58,7 +73,7 @@
         <Unicode>SCIRRHUS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682583876034_966" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1682583876034_966" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="2223,508 2223,564 2387,564 2387,508"/>
       <TextLine id="line_1682583876199_969" custom="readingOrder {index:0;}">
         <Coords points="2223,508 2223,564 2387,564 2387,508"/>
@@ -76,7 +91,7 @@
         <Unicode>§.486.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.9508952" readingDirection="left-to-right" id="TextRegion_1666187872549_2633" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1666187872549_2633" custom="readingOrder {index:3;}" orientation="0.9508952" readingDirection="left-to-right">
       <Coords points="735,603 2391,603 2424,740 2424,767 737,799 735,748"/>
       <TextLine id="region0013_line0001" custom="readingOrder {index:0;}">
         <Coords points="1526,604 1495,607 1488,618 1473,620 1172,626 1168,623 1159,623 1155,626 1129,626 1123,626 1116,615 1101,613 1077,615 1066,627 1055,627 1039,625 1029,617 1008,614 967,617 946,629 905,630 899,617 886,616 877,622 875,631 804,633 802,624 797,620 735,621 735,685 746,685 748,692 756,696 775,694 779,692 781,683 805,681 930,680 947,680 951,686 968,678 1208,674 1247,678 1255,682 1292,679 1298,683 1311,683 1319,681 1325,675 1353,672 1510,666 1631,664 1637,667 1700,669 1704,676 1710,677 1715,676 1724,666 1750,667 1799,662 1828,665 1942,664 1964,666 1968,671 1974,671 1984,670 1989,665 2069,663 2154,666 2291,662 2296,665 2353,662 2363,665 2391,665 2390,617 2368,616 2365,608 2359,604 2320,606 2312,616 2283,617 2280,616 2278,608 2270,604 2253,605 2240,616 2215,616 2177,615 2168,603 2146,604 2144,614 2095,614 2073,612 2056,603 2022,603 1988,604 1966,613 1894,614 1889,603 1873,603 1866,607 1864,615 1831,616 1821,615 1814,603 1800,603 1793,607 1791,615 1778,617 1635,618 1632,608 1628,605 1604,608 1601,604 1593,603"/>
@@ -207,7 +222,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0001" custom="readingOrder {index:2;}">
-        <Coords points="750,741 746,752 737,752 737,801 893,797 925,793 937,805 946,805 953,792 1134,790 1140,783 1147,783 1152,778 1151,746 1146,741 901,747 898,740 878,741 875,748 830,749 825,741 806,741 802,750 776,751 771,740"/>
+        <Coords points="746,752 737,752 737,799 902,795 925,793 927,795 951,794 953,792 1134,790 1140,783 1147,783 1152,778 1151,746 1146,741 901,747 898,740 878,741 875,748 830,749 825,741 806,741 802,750 776,751 771,740 750,741"/>
         <Baseline points="737,791 1152,778"/>
         <Word id="region0014_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="747,750 746,752 743,752 744,794 894,791 893,747 875,747 875,748 830,749 830,748 803,749 802,750 776,751 775,749"/>
@@ -226,15 +241,15 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſphacelos, ſterilitatem, partem diſficilem, volvulum, &amp; multa ſimilia&#13;
-mala producere, quae ex natura &amp; officio laeſi, &amp; comprimentis, facile&#13;
+        <Unicode>ſphacelos, ſterilitatem, partem diſficilem, volvulum, &amp; multa ſimilia
+mala producere, quae ex natura &amp; officio laeſi, &amp; comprimentis, facile
 deduci queunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.9508952" readingDirection="left-to-right" id="TextRegion_1666187895303_2638" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1666187895303_2638" custom="readingOrder {index:4;}" orientation="0.9508952" readingDirection="left-to-right">
       <Coords points="737,799 2424,767 2424,1582 737,1611"/>
       <TextLine id="region0014_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1414,781 1407,786 1405,792 1363,794 1227,795 1223,792 1214,792 1210,795 1085,799 1083,793 1077,790 1062,791 1053,794 1049,799 1018,798 1012,793 998,794 992,799 965,800 963,795 953,793 946,806 937,806 925,794 911,797 907,803 860,804 818,799 739,802 738,852 860,851 872,846 884,846 891,849 899,845 909,845 916,849 944,849 950,845 974,848 1045,845 1049,842 1062,841 1081,841 1087,844 1153,845 1162,849 1180,850 1189,842 1206,839 1214,844 1339,840 1352,841 1363,847 1377,846 1404,835 1412,835 1421,840 1578,837 1586,832 1594,832 1602,837 1683,834 1692,830 1704,830 1713,834 1762,833 1797,828 1804,834 1811,835 1900,834 1921,829 1926,832 1965,834 1968,839 1977,840 1990,839 1996,833 2047,833 2057,838 2069,833 2085,833 2092,838 2100,837 2112,828 2120,831 2208,829 2280,832 2297,827 2305,837 2315,836 2321,832 2424,829 2424,784 2291,785 2280,783 2270,773 2255,774 2246,782 2156,783 2149,772 2138,771 2132,775 2129,784 2102,784 2042,783 2034,781 2027,773 2018,773 2010,777 2008,784 1999,785 1892,787 1886,776 1876,775 1867,780 1865,787 1850,788 1839,787 1837,779 1832,775 1786,777 1773,785 1737,786 1722,784 1711,777 1594,778 1582,780 1573,788 1543,788 1521,791 1514,790 1506,779 1476,781 1470,791 1439,791 1431,789 1423,781"/>
+        <Coords points="1405,792 1363,794 1227,795 1223,792 1214,792 1210,795 1085,799 1083,793 1081,792 1056,792 1053,794 1049,799 1018,798 1012,793 997,794 992,799 965,800 963,795 961,794 951,794 946,806 937,806 926,795 917,795 911,797 907,803 860,804 818,799 739,802 738,852 860,851 872,846 884,846 891,849 899,845 909,845 916,849 944,849 950,845 974,848 1045,845 1049,842 1062,841 1081,841 1087,844 1153,845 1162,849 1180,850 1189,842 1206,839 1214,844 1339,840 1352,841 1363,847 1377,846 1404,835 1412,835 1421,840 1578,837 1586,832 1594,832 1602,837 1683,834 1692,830 1704,830 1713,834 1762,833 1797,828 1804,834 1811,835 1900,834 1921,829 1926,832 1965,834 1968,839 1977,840 1990,839 1996,833 2047,833 2057,838 2069,833 2085,833 2092,838 2100,837 2112,828 2120,831 2208,829 2280,832 2297,827 2305,837 2315,836 2321,832 2424,829 2424,784 2291,785 2280,783 2270,773 2255,774 2246,782 2156,783 2149,772 2135,772 2132,775 2129,784 2102,784 2042,783 2034,781 2028,774 2014,774 2010,777 2008,784 1999,785 1892,787 1886,777 1871,777 1867,780 1865,787 1850,788 1839,787 1837,779 1835,778 1782,779 1773,785 1737,786 1722,784 1716,780 1578,783 1573,788 1543,788 1521,791 1514,790 1509,784 1473,785 1470,791 1439,791 1431,789 1427,785 1406,786"/>
         <Baseline points="738,842 1753,822 2424,819"/>
         <Word id="region0014_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="793,806 882,805 883,842 794,843"/>
@@ -1275,7 +1290,7 @@ deduci queunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0017" custom="readingOrder {index:15;}">
-        <Coords points="1349,1546 1341,1552 1296,1554 1287,1557 1270,1552 1025,1560 1020,1553 1008,1553 1001,1556 999,1561 959,1561 953,1556 941,1555 933,1562 833,1566 820,1570 738,1569 738,1613 791,1613 821,1608 832,1618 839,1617 846,1614 847,1610 885,1605 894,1610 946,1610 953,1615 967,1614 977,1608 1038,1606 1045,1602 1061,1605 1152,1604 1204,1602 1230,1597 1247,1602 1404,1600 1409,1597 1422,1597 1442,1606 1457,1604 1460,1599 1490,1598 1522,1599 1527,1603 1543,1606 1557,1600 1588,1598 1595,1603 1609,1604 1617,1602 1618,1596 1729,1592 1739,1590 1744,1585 1744,1553 1737,1548 1642,1547 1635,1541 1622,1542 1615,1548 1596,1549 1388,1552 1367,1552 1363,1547"/>
+        <Coords points="1341,1552 1296,1554 1287,1557 1270,1552 1025,1560 1020,1553 1008,1553 1001,1556 999,1561 959,1561 953,1556 941,1555 933,1562 833,1566 820,1570 738,1569 738,1610 810,1609 821,1608 822,1609 854,1608 885,1605 891,1608 1038,1605 1045,1602 1061,1605 1130,1604 1158,1603 1204,1602 1230,1597 1247,1602 1299,1601 1404,1599 1409,1597 1422,1597 1426,1599 1486,1598 1490,1598 1491,1598 1625,1595 1729,1592 1739,1590 1744,1585 1744,1553 1737,1548 1642,1547 1635,1541 1622,1542 1615,1548 1596,1549 1388,1552 1367,1552 1363,1547 1349,1546"/>
         <Baseline points="738,1603 1744,1580"/>
         <Word id="region0014_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="756,1576 803,1575 803,1601 756,1602"/>
@@ -1330,10 +1345,10 @@ cognitio a functionibus partium affectarum laeſis pendet. Quaedam tamen
 ex praecipuis enumerantur hac paragrapho.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.9508952" readingDirection="left-to-right" id="TextRegion_1666187912397_2645" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1666187912397_2645" custom="readingOrder {index:5;}" orientation="0.9508952" readingDirection="left-to-right">
       <Coords points="737,1611 2424,1582 2424,2187 737,2231"/>
       <TextLine id="region0014_line0018" custom="readingOrder {index:0;}">
-        <Coords points="1873,1583 1855,1587 1850,1598 1832,1599 1632,1601 1543,1607 1529,1604 1442,1607 1430,1606 1422,1598 1409,1598 1403,1604 1393,1605 1243,1607 1240,1601 1230,1598 1213,1600 1205,1607 1063,1611 1062,1606 1057,1604 1045,1603 1035,1611 967,1615 895,1615 889,1607 874,1606 860,1610 857,1615 832,1619 821,1609 812,1609 804,1612 802,1616 775,1616 767,1622 756,1623 753,1627 753,1659 756,1663 764,1665 796,1665 811,1662 828,1665 859,1664 868,1661 896,1663 924,1662 929,1659 942,1659 947,1662 976,1658 1130,1659 1135,1656 1147,1655 1171,1664 1212,1654 1219,1658 1247,1658 1256,1665 1276,1663 1279,1658 1289,1658 1304,1664 1310,1661 1312,1655 1334,1654 1344,1651 1360,1654 1459,1652 1465,1648 1479,1648 1487,1653 1527,1654 1535,1659 1589,1662 1619,1659 1642,1648 1659,1649 1671,1660 1699,1649 1789,1649 1822,1645 1840,1653 1859,1647 1870,1650 1894,1650 1907,1659 1924,1656 1928,1654 1929,1647 2099,1646 2119,1640 2133,1643 2166,1640 2173,1644 2187,1644 2193,1639 2202,1639 2207,1644 2230,1640 2252,1641 2255,1644 2266,1641 2276,1649 2284,1649 2340,1649 2365,1645 2387,1648 2423,1645 2424,1640 2424,1608 2399,1608 2398,1600 2392,1594 2289,1594 2272,1589 2247,1587 2201,1593 2179,1588 2122,1589 2099,1596 2057,1596 2054,1587 2049,1583 2031,1586 2027,1597 1966,1598 1955,1597 1952,1588 1942,1583"/>
+        <Coords points="1850,1598 1832,1599 1632,1601 1543,1607 1529,1604 1442,1607 1430,1606 1423,1599 1407,1599 1403,1604 1393,1605 1243,1607 1240,1602 1209,1602 1205,1607 1063,1611 1062,1606 1060,1605 1041,1605 1035,1611 967,1615 895,1615 890,1608 864,1608 860,1610 857,1615 832,1619 821,1609 810,1609 804,1612 802,1616 775,1616 767,1622 756,1623 753,1627 753,1659 756,1663 764,1665 796,1665 811,1662 828,1665 859,1664 868,1661 896,1663 924,1662 929,1659 942,1659 947,1662 976,1658 1130,1659 1135,1656 1147,1655 1171,1664 1212,1654 1219,1658 1247,1658 1256,1665 1276,1663 1279,1658 1289,1658 1304,1664 1310,1661 1312,1655 1334,1654 1344,1651 1360,1654 1459,1652 1465,1648 1479,1648 1487,1653 1527,1654 1535,1659 1589,1662 1619,1659 1642,1648 1659,1649 1671,1660 1699,1649 1789,1649 1822,1645 1840,1653 1859,1647 1870,1650 1894,1650 1907,1659 1924,1656 1928,1654 1929,1647 2099,1646 2119,1640 2133,1643 2166,1640 2173,1644 2187,1644 2193,1639 2202,1639 2207,1644 2230,1640 2252,1641 2255,1644 2266,1641 2276,1649 2284,1649 2340,1649 2365,1645 2387,1648 2423,1645 2424,1640 2424,1608 2399,1608 2398,1600 2392,1594 2289,1594 2272,1589 2247,1587 2201,1593 2179,1588 2122,1589 2099,1596 2057,1596 2054,1588 2029,1588 2027,1597 1966,1598 1955,1597 1952,1590 1852,1591"/>
         <Baseline points="753,1654 1470,1641 1568,1648 1716,1639 2144,1632 2424,1635"/>
         <Word id="region0014_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="812,1613 812,1662 821,1663 861,1663 868,1661 891,1662 915,1662 924,1662 929,1659 942,1659 946,1661 948,1661 976,1658 1121,1658 1130,1658 1135,1656 1147,1655 1156,1658 1179,1658 1179,1607 1063,1611 1062,1608 1037,1609 1035,1611 967,1615 895,1615 892,1611 858,1612 857,1615 832,1619 825,1612"/>
@@ -2107,24 +2122,24 @@ ex praecipuis enumerantur hac paragrapho.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Inflammationes, ſuppurationes, gangraenas, ſphacelos. In §. 375.,&#13;
-ubi de inflammationis cauſis agebatur, dictum fuit, omnes obſtructionum&#13;
-cauſas inflammationem facere poſſe: ſed, uti modo dictum fuit, inter cauſas&#13;
-obſtructionum, quae externa compreſſione vaſa arctarent, etiam ſcirrhus nu-&#13;
-meratur; adeoque haec res patet. Natam autem inflammationem ſequi poſ-&#13;
-ſunt omnes ejus affectus; adeoque &amp; ſuppuratio &amp; gangraena &amp; ſphacelus.&#13;
-Notandum tamen in ſcirrho exquiſito &amp; confirmato ſuppurationem nunquam&#13;
-fieri, ſed quidem in partibus vicinis a ſcirrho tumente compreſſis. Praeterea&#13;
-in Commentariis §. 422. β. ex Obſervationibus Hildani conſtitit, a tumore&#13;
-ſcirrhoſo venam cavam comprimente illo in loco, ubi in binas iliacas finditur,&#13;
-in utroque crure gangraenam natam fuiſſe, quam ſphacelus ſequebatur ad ge-&#13;
+        <Unicode>Inflammationes, ſuppurationes, gangraenas, ſphacelos. In §. 375.,
+ubi de inflammationis cauſis agebatur, dictum fuit, omnes obſtructionum
+cauſas inflammationem facere poſſe: ſed, uti modo dictum fuit, inter cauſas
+obſtructionum, quae externa compreſſione vaſa arctarent, etiam ſcirrhus nu-
+meratur; adeoque haec res patet. Natam autem inflammationem ſequi poſ-
+ſunt omnes ejus affectus; adeoque &amp; ſuppuratio &amp; gangraena &amp; ſphacelus.
+Notandum tamen in ſcirrho exquiſito &amp; confirmato ſuppurationem nunquam
+fieri, ſed quidem in partibus vicinis a ſcirrho tumente compreſſis. Praeterea
+in Commentariis §. 422. β. ex Obſervationibus Hildani conſtitit, a tumore
+ſcirrhoſo venam cavam comprimente illo in loco, ubi in binas iliacas finditur,
+in utroque crure gangraenam natam fuiſſe, quam ſphacelus ſequebatur ad ge-
 nua aſcendens &amp; mors.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.9508952" readingDirection="left-to-right" id="TextRegion_1666187912397_2644" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1666187912397_2644" custom="readingOrder {index:6;}" orientation="0.9508952" readingDirection="left-to-right">
       <Coords points="737,2231 2424,2187 2433,2855 737,2902"/>
       <TextLine id="region0014_line0030" custom="readingOrder {index:0;}">
-        <Coords points="1517,2195 1503,2205 1478,2208 1357,2211 1345,2208 1339,2212 1290,2215 1236,2214 1227,2218 1195,2222 1165,2222 1123,2217 1040,2218 1000,2226 997,2219 988,2216 971,2218 961,2226 939,2227 936,2221 924,2219 913,2223 910,2229 883,2230 868,2224 854,2223 823,2225 793,2229 788,2232 787,2240 765,2242 762,2246 763,2277 769,2283 863,2281 876,2273 882,2273 891,2280 928,2278 932,2284 942,2286 964,2273 1052,2274 1059,2270 1070,2270 1076,2274 1142,2272 1251,2267 1265,2261 1275,2261 1279,2264 1385,2259 1403,2253 1425,2257 1509,2255 1516,2251 1530,2250 1538,2254 1567,2253 1575,2250 1590,2253 1736,2251 1815,2255 1835,2255 1842,2251 1851,2251 1856,2255 1913,2255 1937,2251 1942,2253 1945,2259 1953,2261 1966,2255 2008,2253 2039,2253 2048,2259 2062,2259 2070,2249 2086,2249 2091,2252 2099,2249 2111,2248 2116,2251 2148,2251 2162,2248 2168,2250 2411,2248 2423,2247 2424,2241 2424,2200 2296,2202 2283,2201 2275,2191 2263,2190 2215,2194 2202,2201 2183,2203 2151,2204 2135,2193 2123,2193 2118,2197 2117,2204 2110,2204 2108,2198 2098,2193 2088,2194 2083,2205 1957,2207 1944,2206 1940,2197 1935,2193 1909,2195 1905,2198 1904,2206 1896,2206 1868,2205 1863,2202 1854,2202 1849,2206 1809,2205 1797,2193 1782,2196 1778,2204 1749,2204 1594,2205 1582,2195 1570,2196 1563,2204 1540,2204 1532,2195"/>
+        <Coords points="1195,2222 1165,2222 1150,2220 1011,2224 1000,2226 999,2224 962,2225 961,2226 939,2227 938,2226 911,2226 910,2229 883,2230 876,2227 792,2230 788,2232 787,2240 765,2242 762,2246 763,2277 769,2283 863,2281 876,2273 882,2273 891,2280 928,2278 932,2284 942,2286 964,2273 1052,2274 1059,2270 1070,2270 1076,2274 1142,2272 1251,2267 1265,2261 1275,2261 1279,2264 1385,2259 1403,2253 1425,2257 1509,2255 1516,2251 1530,2250 1538,2254 1567,2253 1575,2250 1590,2253 1736,2251 1815,2255 1835,2255 1842,2251 1851,2251 1856,2255 1913,2255 1937,2251 1942,2253 1945,2259 1953,2261 1966,2255 2008,2253 2039,2253 2048,2259 2062,2259 2070,2249 2086,2249 2091,2252 2099,2249 2111,2248 2116,2251 2148,2251 2162,2248 2168,2250 2411,2248 2423,2247 2424,2241 2424,2200 2296,2202 2283,2201 2275,2191 2274,2191 2242,2192 2215,2194 2202,2201 2183,2203 2151,2204 2137,2194 2121,2195 2118,2197 2117,2204 2110,2204 2108,2198 2103,2195 2087,2196 2083,2205 1957,2207 1944,2206 1941,2200 1905,2201 1904,2206 1896,2206 1868,2205 1863,2202 1854,2202 1849,2206 1809,2205 1807,2203 1778,2204 1778,2204 1772,2204 1225,2218"/>
         <Baseline points="763,2272 1112,2263 1404,2246 2424,2237"/>
         <Word id="region0014_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="823,2273 1027,2269 1026,2221 1000,2226 997,2219 988,2216 971,2218 961,2226 939,2227 936,2221 924,2219 913,2223 910,2229 883,2230 868,2224 854,2223 823,2225 822,2225"/>
@@ -2572,7 +2587,7 @@ nua aſcendens &amp; mors.</Unicode>
         </Word>
         <Word id="region0014_line0036_word0004" custom="readingOrder {index:4;}">
           <Coords points="1378,2520 1375,2523 1356,2522 1357,2569 1418,2569 1424,2577 1424,2577 1437,2577 1440,2565 1452,2564 1459,2568 1502,2567 1501,2519 1455,2522 1438,2522 1434,2519 1414,2519 1411,2522 1401,2522 1398,2519"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>vicinos</Unicode>
           </TextEquiv>
         </Word>
@@ -3031,22 +3046,22 @@ nua aſcendens &amp; mors.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Paralyſis. Ut fiant motus muſculorum voluntarii, requiritur liberum&#13;
-commercium inter cerebrum &amp; muſculos per nervos: ſi ergo ſcirrhus nervum&#13;
-ad muſculum tendentem in hoc itinere a cerebro ad muſculum usque ali-&#13;
-cubi compreſſerit, erit muſculus ille paralyticus. Si jam ingens truncus ner-&#13;
-voſus ad partem quandam corporis tendens a tali cauſa comprimatur, erit per-&#13;
-fecta paralyſis illius membri. Dum ſubaxillares glandulae, ſcirrhoſae factae&#13;
-&amp; tumidae valde, premunt vicinos truncos nervoſos, patet facile, inde para-&#13;
-lyſim naſci poſſe. Vidi ſic in muliere ſexagenaria dextram mammam totam ſcir-&#13;
-rhoſam, &amp; dein glandulas ſub axilla dextra admodum tumidas pariter indu-&#13;
-ruiſſe; unde primo maximus dolor in toto brachio dextro, dein ſtupor, &amp; in-&#13;
-cipiens paralyſis. Simul in colli dextro latere glandulae tumidae admodum &amp;&#13;
-durae erant, &amp; frequentia animi deliquia; forte a pari vago &amp; intercoſtali&#13;
+        <Unicode>Paralyſis. Ut fiant motus muſculorum voluntarii, requiritur liberum
+commercium inter cerebrum &amp; muſculos per nervos: ſi ergo ſcirrhus nervum
+ad muſculum tendentem in hoc itinere a cerebro ad muſculum usque ali-
+cubi compreſſerit, erit muſculus ille paralyticus. Si jam ingens truncus ner-
+voſus ad partem quandam corporis tendens a tali cauſa comprimatur, erit per-
+fecta paralyſis illius membri. Dum ſubaxillares glandulae, ſcirrhoſae factae
+&amp; tumidae valde, premunt vicinos truncos nervoſos, patet facile, inde para-
+lyſim naſci poſſe. Vidi ſic in muliere ſexagenaria dextram mammam totam ſcir-
+rhoſam, &amp; dein glandulas ſub axilla dextra admodum tumidas pariter indu-
+ruiſſe; unde primo maximus dolor in toto brachio dextro, dein ſtupor, &amp; in-
+cipiens paralyſis. Simul in colli dextro latere glandulae tumidae admodum &amp;
+durae erant, &amp; frequentia animi deliquia; forte a pari vago &amp; intercoſtali
 ejusdem lateris compreſſis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682583945535_1019" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="region_1682583945535_1019" custom="readingOrder {index:7;} structure {type:catch-word;}" type="catch-word">
       <Coords points="2297,2864 2297,2907 2421,2907 2421,2864"/>
       <TextLine id="line_1682583945637_1022" custom="readingOrder {index:0;}">
         <Coords points="2297,2864 2297,2907 2421,2907 2421,2864"/>

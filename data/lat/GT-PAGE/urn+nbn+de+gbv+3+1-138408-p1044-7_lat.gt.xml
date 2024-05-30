@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-33">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:17Z</Created>
     <LastChange>2024-01-19T13:07:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-138408-p1044-7_lat.jpg" imageWidth="1757" imageHeight="2781" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/03409839-0498-48fb-b0ab-9286bbf68e5a/00001044.jpg" imageWidth="1757" imageHeight="2781" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="284,379 222,2697 1660,2696 1670,392"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region_1676459301130_5159"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676458909030_4991" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676458909030_4991" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="679,559 679,605 748,605 748,559"/>
       <TextLine id="line_1676458909111_4994" custom="readingOrder {index:0;}">
         <Coords points="679,559 679,605 748,605 748,559"/>
@@ -38,7 +53,7 @@
         <Unicode>90</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676458921125_5000" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676458921125_5000" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="851,560 851,598 1494,598 1494,560"/>
       <TextLine id="line_1676458921199_5003" custom="readingOrder {index:0;}">
         <Coords points="851,560 1494,560 1494,598 851,598"/>
@@ -62,7 +77,7 @@
         <Unicode>EMBLEMATA TRIBONIANI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.20363209" type="paragraph" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="0.20363209" type="paragraph" readingDirection="left-to-right">
       <Coords points="671,641 1658,641 1658,1920 671,1920"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="699,642 695,655 672,660 672,695 936,692 971,695 978,701 983,701 989,696 1018,694 1167,690 1192,693 1336,694 1341,706 1351,707 1364,705 1367,695 1372,693 1465,694 1483,696 1488,701 1499,701 1504,697 1546,697 1563,692 1604,688 1647,688 1658,684 1657,647 1557,650 1555,642 1488,642 1486,651 1432,651 1428,642 1412,642 1408,651 1362,652 1225,651 1222,642 1194,642 1189,650 1185,650 1174,649 1171,642 1164,641 1147,641 1144,649 1110,648 1104,641 1003,642 997,652 983,653 894,650 766,654 762,642 741,642 739,654 722,654 716,642"/>
@@ -205,7 +220,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0001" custom="readingOrder {index:1;}">
-          <Coords points="901,749 889,749 885,758 776,757 776,796 920,796 920,757 918,758 909,758 907,751"/>
+          <Coords points="890,749 885,758 776,758 776,796 920,796 920,757 918,758 909,758 907,751 901,749"/>
           <TextEquiv conf="0.2998613">
             <Unicode>receptis</Unicode>
           </TextEquiv>
@@ -439,7 +454,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0007_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1390,976 1477,972 1477,1009 1390,1013"/>
+          <Coords points="1477,1009 1477,972 1390,976 1390,1013 1418,1011 1419,1010 1449,1010"/>
           <TextEquiv conf="0.9046637">
             <Unicode>quos</Unicode>
           </TextEquiv>
@@ -595,7 +610,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643885844531_5658" custom="readingOrder {index:6;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1295,1130 1411,1122 1433,1122 1443,1129 1463,1151 1463,1167 1443,1170 1295,1171"/>
+          <Coords points="1433,1122 1411,1122 1410,1130 1316,1131 1295,1130 1295,1164 1306,1167 1310,1163 1317,1163 1329,1170 1378,1170 1416,1170 1417,1170 1443,1170 1463,1167 1463,1151 1443,1129 1436,1130 1434,1122"/>
           <TextEquiv>
             <Unicode>gerendo,</Unicode>
           </TextEquiv>
@@ -1337,33 +1352,33 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>de bon. matern.; a Theodoſio vero penitus, l. cre-&#13;
-tionum 17. C. de iur. delib. CVIAC. ad VLPIAN. d. t.&#13;
-22.: receptis his duobus adquirendæ hereditatis&#13;
-modis, pro herede geſtione, &amp; aditione; quæ fit&#13;
-nuda voluntate, non verbis ſolemnibus, vt ve-&#13;
-tus illa cretio, ſed quibuscunque explicata, l. cum&#13;
-in antiquioribus 19. C. de iur. deliber.: quos modos&#13;
-Iuſtinianus in §. vltim. Inſtit. de hered. qual. &amp;&#13;
-diff. modo diſtinguit, modo coufundit. Diſtin-&#13;
-guit ibi: Poteſt, aut pro herede gerendo, aut et-&#13;
-iam nuda voluntate ſuscipiendæ hereditatis heres&#13;
-fieri. Confundit, dum aditionem facit ſpeciem&#13;
-pro herede geſtionis, ibi: pro herede gerere quis&#13;
-videtur, ſi quoquo modo voluntatem ſuam declaret,&#13;
-vel re, vel verbo de adeunda hereditate. ANTON.&#13;
-GOVEAN. l. var. iur. lect. 25. Aut fatendum, pro&#13;
-herede gerere, primo in ſpecie accipi, pro refe-&#13;
-ctione ædium hereditariarum, cultura agrorum,&#13;
-manumiſſione ſeruorum, &amp;c. l. 29. in princ. ff.&#13;
-de adquir. hered.: poſtea latius &amp; in genere, vt&#13;
-eam etiam adquiſitionem, quæ fit verbis, com-&#13;
-prehendat; quomodo pro herede gerere vſurpa-&#13;
-tur in l. filius 12. in princ. ff. de interrogat. in iur.&#13;
+        <Unicode>de bon. matern.; a Theodoſio vero penitus, l. cre-
+tionum 17. C. de iur. delib. CVIAC. ad VLPIAN. d. t.
+22.: receptis his duobus adquirendæ hereditatis
+modis, pro herede geſtione, &amp; aditione; quæ fit
+nuda voluntate, non verbis ſolemnibus, vt ve-
+tus illa cretio, ſed quibuscunque explicata, l. cum
+in antiquioribus 19. C. de iur. deliber.: quos modos
+Iuſtinianus in §. vltim. Inſtit. de hered. qual. &amp;
+diff. modo diſtinguit, modo coufundit. Diſtin-
+guit ibi: Poteſt, aut pro herede gerendo, aut et-
+iam nuda voluntate ſuscipiendæ hereditatis heres
+fieri. Confundit, dum aditionem facit ſpeciem
+pro herede geſtionis, ibi: pro herede gerere quis
+videtur, ſi quoquo modo voluntatem ſuam declaret,
+vel re, vel verbo de adeunda hereditate. ANTON.
+GOVEAN. l. var. iur. lect. 25. Aut fatendum, pro
+herede gerere, primo in ſpecie accipi, pro refe-
+ctione ædium hereditariarum, cultura agrorum,
+manumiſſione ſeruorum, &amp;c. l. 29. in princ. ff.
+de adquir. hered.: poſtea latius &amp; in genere, vt
+eam etiam adquiſitionem, quæ fit verbis, com-
+prehendat; quomodo pro herede gerere vſurpa-
+tur in l. filius 12. in princ. ff. de interrogat. in iur.
 fac. BACHOV. in d. l. §. vlt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.20363209" type="heading" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.20363209" type="heading" readingDirection="left-to-right">
       <Coords points="823,1979 1486,1979 1486,2063 823,2063"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1073,1979 1045,1981 1041,1986 1040,1998 823,1993 823,2046 1035,2054 1156,2053 1158,2063 1178,2063 1181,2053 1204,2051 1235,2060 1306,2062 1325,2051 1338,2048 1358,2049 1368,2060 1391,2060 1401,2048 1485,2043 1485,1991 1432,1991 1428,1979 1399,1979 1390,1991 1335,1993 1316,1993 1313,1984 1306,1979 1286,1979 1272,1992 1257,1993 1167,1995 1162,1985 1152,1984 1147,1988 1145,1995 1134,1996 1132,1985 1126,1981"/>
@@ -1399,7 +1414,7 @@ fac. BACHOV. in d. l. §. vlt.</Unicode>
         <Unicode>PAPINIAN. lib. 7. reſponſor.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.20363209" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644312015235_236" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1644312015235_236" custom="readingOrder {index:4;}" orientation="0.20363209" type="paragraph" readingDirection="left-to-right">
       <Coords points="683,2097 1630,2097 1626,2279 679,2279"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="852,2097 846,2101 843,2110 748,2112 720,2108 713,2102 683,2106 684,2167 735,2166 789,2160 922,2162 935,2157 943,2158 948,2163 1007,2166 1194,2165 1212,2161 1242,2164 1295,2159 1306,2162 1513,2161 1581,2156 1602,2153 1615,2147 1629,2148 1629,2102 1619,2101 1525,2106 1521,2097 1502,2097 1499,2100 1495,2097 1474,2097 1461,2109 1457,2109 1454,2097 1321,2098 1300,2100 1294,2112 1214,2114 1208,2102 1193,2101 1187,2106 1185,2114 1083,2115 1055,2113 1053,2106 1043,2101 1029,2102 1018,2113 934,2113 929,2111 929,2105 923,2099 906,2101 901,2111 882,2111 875,2110 873,2101 868,2097"/>
@@ -1444,7 +1459,7 @@ fac. BACHOV. in d. l. §. vlt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:1;}">
-        <Coords points="1615,2148 1603,2154 1602,2164 1483,2171 1309,2172 1305,2162 1295,2160 1277,2163 1271,2172 1227,2173 1225,2165 1212,2162 1192,2166 1187,2174 1102,2176 946,2172 948,2164 940,2158 920,2163 917,2170 808,2171 806,2164 800,2161 770,2162 764,2166 762,2173 684,2175 684,2223 778,2223 813,2221 820,2218 928,2219 947,2216 956,2220 993,2219 1017,2224 1058,2225 1059,2231 1064,2234 1084,2235 1090,2232 1092,2225 1136,2224 1142,2221 1356,2223 1384,2219 1475,2218 1490,2223 1497,2220 1517,2220 1519,2227 1535,2229 1548,2225 1550,2217 1630,2210 1629,2149"/>
+        <Coords points="1603,2154 1602,2164 1483,2171 1309,2172 1305,2162 1295,2160 1277,2163 1271,2172 1227,2173 1225,2165 1212,2162 1192,2166 1187,2174 1102,2176 946,2172 948,2164 940,2158 920,2163 917,2170 808,2171 806,2164 800,2161 770,2162 764,2166 762,2173 684,2175 684,2223 778,2223 813,2221 820,2218 928,2219 947,2216 956,2220 993,2219 1017,2224 1058,2225 1059,2231 1064,2234 1084,2235 1090,2232 1092,2225 1136,2224 1142,2221 1356,2223 1384,2219 1475,2218 1490,2223 1497,2220 1517,2220 1519,2227 1535,2229 1548,2225 1550,2217 1627,2210 1628,2148 1615,2148"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="750,2173 750,2207 863,2206 863,2170 808,2171 806,2164 800,2161 770,2162 764,2166 762,2173"/>
           <TextEquiv conf="0.922988">
@@ -1486,7 +1501,7 @@ fac. BACHOV. in d. l. §. vlt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0003" custom="readingOrder {index:2;}">
-        <Coords points="938,2217 926,2220 920,2229 844,2229 840,2219 820,2219 811,2222 807,2230 789,2232 684,2234 686,2294 773,2296 776,2284 860,2280 973,2280 1136,2285 1213,2285 1238,2281 1427,2282 1519,2280 1583,2270 1630,2270 1630,2223 1560,2224 1528,2230 1495,2229 1494,2224 1475,2219 1432,2219 1426,2222 1424,2230 1412,2230 1409,2221 1384,2220 1370,2223 1367,2232 1295,2232 1294,2225 1290,2222 1273,2222 1268,2224 1266,2232 1213,2233 1197,2229 1169,2229 1164,2222 1142,2222 1131,2231 1069,2236 1055,2232 1006,2230 1001,2223 993,2220 974,2220 961,2230 956,2228 955,2220"/>
+        <Coords points="926,2220 920,2229 844,2229 840,2219 820,2219 811,2222 807,2230 789,2232 684,2234 685,2279 1525,2279 1583,2270 1626,2270 1627,2223 1560,2224 1528,2230 1495,2229 1494,2224 1475,2219 1432,2219 1426,2222 1424,2230 1412,2230 1409,2221 1384,2220 1370,2223 1367,2232 1295,2232 1294,2225 1290,2222 1273,2222 1268,2224 1266,2232 1213,2233 1197,2229 1169,2229 1164,2222 1142,2222 1131,2231 1069,2236 1055,2232 1006,2230 1001,2223 993,2220 974,2220 961,2230 956,2228 955,2220 938,2217"/>
         <Word id="word_1644312015288_239" custom="readingOrder {index:0;}">
           <Coords points="749,2232 789,2232 807,2230 808,2227 843,2227 844,2229 889,2229 889,2279 749,2279"/>
           <TextEquiv conf="0.90633726">
@@ -1528,12 +1543,12 @@ fac. BACHOV. in d. l. §. vlt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Ante tabulas teſtamenti, codicilli facti non&#13;
-aliter valent, quam ſi teſtamento, quod&#13;
+        <Unicode>Ante tabulas teſtamenti, codicilli facti non
+aliter valent, quam ſi teſtamento, quod
 poſtea factum eſt, vel codicillis con-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676459301130_5159" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1676459301130_5159" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1554,2287 1554,2326 1626,2326 1626,2287"/>
       <TextLine id="line_1676459301201_5162" custom="readingOrder {index:0;}">
         <Coords points="1554,2287 1554,2326 1626,2326 1626,2287"/>

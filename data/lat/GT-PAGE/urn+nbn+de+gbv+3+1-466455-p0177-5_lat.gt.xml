@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-167">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:38Z</Created>
     <LastChange>2024-01-19T13:08:38Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-466455-p0177-5_lat.jpg" imageWidth="1929" imageHeight="2730" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/42f72202-acd3-486b-bd20-9409ffde70c8/00000177.jpg" imageWidth="1929" imageHeight="2730" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="54,240 65,2620 1702,2616 1670,246"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.282577" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="0.282577" readingDirection="left-to-right">
       <Coords points="149,569 1066,569 1066,1959 149,1959"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="165,571 149,572 150,642 184,641 190,637 192,626 349,628 362,636 375,636 378,633 398,633 433,626 614,619 840,618 927,625 1031,625 1065,619 1065,586 964,584 961,574 956,570 937,573 934,570 833,570 825,579 811,579 804,570 772,570 769,575 747,572 642,574 495,580 489,570 433,570 428,575 427,585 406,585 400,579 359,577 342,585 318,588 306,587 304,580 299,576 286,577 280,584 243,587 237,579 223,579 214,572"/>
@@ -824,7 +839,7 @@
       <TextLine id="region0001_line0020" custom="readingOrder {index:19;}">
         <Coords points="666,1766 660,1771 658,1779 651,1772 642,1772 634,1782 623,1782 618,1774 609,1773 603,1768 590,1769 585,1781 560,1782 447,1781 432,1774 422,1774 410,1782 365,1780 297,1783 295,1776 287,1772 274,1774 270,1784 253,1787 203,1788 195,1780 159,1783 154,1788 149,1788 149,1841 192,1839 215,1829 269,1825 276,1825 278,1832 283,1836 337,1836 342,1831 343,1822 448,1822 469,1824 475,1830 484,1830 492,1825 508,1825 531,1820 678,1818 722,1819 757,1826 817,1821 967,1830 1065,1830 1065,1791 987,1791 906,1783 903,1781 902,1773 897,1769 881,1773 878,1781 825,1777 801,1780 743,1780 709,1776 691,1778 677,1766"/>
         <Word id="region0001_line0020_word0000" custom="readingOrder {index:0;}">
-          <Coords points="167,1782 167,1821 202,1820 202,1779"/>
+          <Coords points="167,1821 202,1820 202,1787 195,1780 167,1782"/>
           <TextEquiv>
             <Unicode>ſi</Unicode>
           </TextEquiv>

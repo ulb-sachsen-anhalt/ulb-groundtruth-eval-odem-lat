@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-321">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:11:01Z</Created>
     <LastChange>2024-01-19T13:11:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-838261-p0058-4_lat.png" imageWidth="1602" imageHeight="2516" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/6d97f782-bc69-477d-b13d-6c646bcec88f/00000058.jpg" imageWidth="1602" imageHeight="2516" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="266,149 211,2382 1552,2367 1538,176"/>
     </Border>
@@ -18,10 +33,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1670234965780_2431"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1683098303259_2011" custom="readingOrder {index:0;}">
-      <Coords points="875,321 1063,321 1063,365 875,365"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1683098299475_2002" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683098299475_2002" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="489,330 489,374 554,374 554,330"/>
       <TextLine id="line_1683098299560_2005" custom="readingOrder {index:0;}">
         <Coords points="489,330 489,374 554,374 554,330"/>
@@ -39,7 +51,7 @@
         <Unicode>48</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.56705457" readingDirection="left-to-right" id="TextRegion_1670234972065_2436" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1670234972065_2436" custom="readingOrder {index:2;}" orientation="-0.56705457" readingDirection="left-to-right">
       <Coords points="479,419 1413,419 1413,1022 1406,1359 476,1359 466,1084 466,1022"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1318,419 1311,428 1302,429 1243,427 1239,424 1229,424 1225,427 1135,427 1124,426 1119,419 1102,419 1090,426 1068,427 888,425 885,420 854,419 849,425 809,426 784,423 782,420 766,420 762,423 745,422 732,426 656,429 631,428 621,419 570,420 563,428 552,421 538,419 486,420 480,421 479,473 639,472 645,480 661,481 667,472 701,469 803,470 814,478 830,479 838,476 843,470 871,468 917,470 922,476 937,476 946,469 963,468 1024,468 1038,470 1042,477 1050,480 1069,480 1079,472 1106,469 1175,473 1180,478 1189,478 1196,474 1231,472 1413,473 1413,428 1347,429 1340,428 1336,419"/>
@@ -657,7 +669,7 @@
         <Baseline points="478,1204 832,1197 1406,1203"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="483,1202 572,1203 572,1168 483,1169"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quae</Unicode>
           </TextEquiv>
         </Word>
@@ -699,7 +711,7 @@
         </Word>
         <Word id="region0006_line0002_word0007" custom="readingOrder {index:7;}">
           <Coords points="1187,1170 1305,1171 1305,1200 1187,1199"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>eorum</Unicode>
           </TextEquiv>
         </Word>
@@ -751,7 +763,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0001" custom="readingOrder {index:13;}">
-        <Coords points="1043,1291 1038,1301 915,1302 913,1291 860,1292 858,1300 842,1300 745,1301 700,1298 694,1301 639,1303 559,1303 549,1293 524,1294 518,1298 512,1294 503,1294 495,1303 479,1303 478,1349 608,1347 612,1357 630,1359 638,1354 640,1346 702,1347 707,1351 717,1351 722,1347 807,1344 812,1353 822,1355 829,1364 837,1364 842,1359 842,1343 903,1345 907,1348 935,1345 939,1354 950,1357 956,1362 965,1362 970,1358 972,1345 986,1344 1103,1344 1110,1352 1120,1352 1130,1343 1404,1350 1405,1304 1208,1302 1148,1305 1066,1302 1059,1292"/>
+        <Coords points="1038,1301 915,1302 913,1291 860,1292 858,1300 842,1300 745,1301 700,1298 694,1301 639,1303 559,1303 549,1293 524,1294 518,1298 512,1294 503,1294 495,1303 479,1303 478,1349 608,1347 612,1357 630,1359 638,1354 640,1346 702,1347 707,1351 717,1351 722,1347 807,1344 812,1353 822,1355 825,1359 842,1359 842,1343 903,1345 907,1348 935,1345 939,1354 950,1357 952,1359 968,1359 970,1358 972,1345 986,1344 1103,1344 1110,1352 1120,1352 1130,1343 1404,1350 1405,1304 1208,1302 1148,1305 1066,1302 1059,1292 1043,1291"/>
         <Baseline points="479,1339 1106,1334 1405,1341"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="502,1294 495,1303 484,1303 484,1334 608,1335 608,1303 559,1303 550,1294 523,1294 518,1298 512,1294"/>
@@ -818,23 +830,23 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Chriſti prae Angelis praerogatiuas, tum hanc&#13;
-etiam v. 10. (coll. v. 2.) commemorat, quod&#13;
-ipſi aeque ac Iehouae (Pſ. Il, 26.), coeli ter-&#13;
-raeque creatio tribuenda ſit. Contineri autem&#13;
-hanc ſententiam verbis v. 10.: Συ ϰατ αϱχας ϰυϱιε&#13;
-την γην εϧεμελειωσας, ϰαι εϱγα των χειϱων σȣ εισιν&#13;
-οι ȣϱανοι, vt planum fiat; primum vniuerſe v. 10.&#13;
-ineſſe aliquid, quod ad Chriſtum ſpectet, dein-&#13;
-de ita verba illa ad Chriſtum referri, vt eum mundi&#13;
-creatorem eſſe declarent, oſtendendum eſt. At-&#13;
-que illud quidem, ſi quid video, tum ex iis ipſis,&#13;
-quae v. 10- 12. dicuntur, tum ex eorum cum&#13;
-antecedentibus et conſequentibus collatione cla-&#13;
+        <Unicode>Chriſti prae Angelis praerogatiuas, tum hanc
+etiam v. 10. (coll. v. 2.) commemorat, quod
+ipſi aeque ac Iehouae (Pſ. Il, 26.), coeli ter-
+raeque creatio tribuenda ſit. Contineri autem
+hanc ſententiam verbis v. 10.: Συ ϰατ αϱχας ϰυϱιε
+την γην εϧεμελειωσας, ϰαι εϱγα των χειϱων σȣ εισιν
+οι ȣϱανοι, vt planum fiat; primum vniuerſe v. 10.
+ineſſe aliquid, quod ad Chriſtum ſpectet, dein-
+de ita verba illa ad Chriſtum referri, vt eum mundi
+creatorem eſſe declarent, oſtendendum eſt. At-
+que illud quidem, ſi quid video, tum ex iis ipſis,
+quae v. 10- 12. dicuntur, tum ex eorum cum
+antecedentibus et conſequentibus collatione cla-
 riſſime patet, non poſſe, quae de ȣϱανοις v. 10- 12.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.56705457" type="catch-word" readingDirection="left-to-right" id="TextRegion_1670234972065_2435" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1670234972065_2435" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="-0.56705457" type="catch-word" readingDirection="left-to-right">
       <Coords points="476,1359 1406,1359 1405,1411 478,1411"/>
       <TextLine id="region0007_line0002" custom="readingOrder {index:0;}">
         <Coords points="1356,1359 1338,1364 1332,1372 1255,1372 1250,1376 1250,1407 1252,1410 1404,1411 1404,1375 1385,1374 1378,1370 1374,1361"/>
@@ -853,7 +865,7 @@ riſſime patet, non poſſe, quae de ȣϱανοις v. 10- 12.</Unicode>
         <Unicode>aſſe-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.56705457" type="footnote" readingDirection="left-to-right" id="TextRegion_1670234965780_2431" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1670234965780_2431" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="-0.56705457" type="footnote" readingDirection="left-to-right">
       <Coords points="563,1530 1400,1530 1400,2020 740,2067 566,2067 563,2020"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="1386,1531 1376,1535 1372,1540 1336,1541 1329,1531 1318,1532 1310,1541 1285,1540 1281,1531 1268,1531 1260,1540 1168,1538 1147,1534 1105,1537 1102,1530 1083,1531 1076,1538 1044,1537 1040,1530 1025,1530 1019,1537 1007,1537 1005,1530 982,1530 980,1537 971,1537 967,1531 950,1531 946,1537 931,1533 914,1537 846,1537 843,1530 825,1530 821,1537 807,1538 742,1533 715,1537 667,1538 658,1534 638,1531 564,1532 564,1577 636,1576 666,1581 716,1578 725,1581 738,1575 867,1573 914,1579 920,1575 934,1573 984,1572 1161,1573 1170,1580 1184,1580 1190,1574 1224,1573 1400,1578 1400,1532"/>
@@ -1334,7 +1346,7 @@ riſſime patet, non poſſe, quae de ȣϱανοις v. 10- 12.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1670236133970_2809" custom="readingOrder {index:3;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="851,1885 889,1879 900,1879 969,1880 977,1885 977,1911 941,1913 851,1913"/>
+          <Coords points="900,1879 890,1879 882,1886 866,1886 851,1885 851,1913 941,1913 977,1911 977,1885 974,1885 969,1880 954,1880 948,1885 919,1886 906,1886 901,1879"/>
           <TextEquiv>
             <Unicode>vniuerſe</Unicode>
           </TextEquiv>
@@ -1502,18 +1514,21 @@ riſſime patet, non poſſe, quae de ȣϱανοις v. 10- 12.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>L. ll. p. 79), et in regendo vniuerſo tanquam vicario vti&#13;
-(v. g. in Tr. πεϱι γεωϱγιας p. cit), clariſſime doceat.&#13;
-Quam quidem opinionem, pluribus forte probatam, op-&#13;
-pugnare ſi propoſitum erat Paulo; aptiſſima ſane huic con-&#13;
-ſilio erant, quae et C. ll, 5. et C. l, 5. ſqq. dicuntur.&#13;
-Nempe Meſſiam Apoſtolus ita et ϥον Θεȣ ſenſu eminen-&#13;
-tiſſimo et imperantem vniuerſi et creatorem mundi eſſe de-&#13;
-clarat, vt Angelis vniuerſe tanquam miniſtris Dei eun-&#13;
-dem opponat Quin immo iisdem plane verbis, quibus&#13;
-dem tribuit.&#13;
+        <Unicode>L. ll. p. 79), et in regendo vniuerſo tanquam vicario vti
+(v. g. in Tr. πεϱι γεωϱγιας p. cit), clariſſime doceat.
+Quam quidem opinionem, pluribus forte probatam, op-
+pugnare ſi propoſitum erat Paulo; aptiſſima ſane huic con-
+ſilio erant, quae et C. ll, 5. et C. l, 5. ſqq. dicuntur.
+Nempe Meſſiam Apoſtolus ita et ϥον Θεȣ ſenſu eminen-
+tiſſimo et imperantem vniuerſi et creatorem mundi eſſe de-
+clarat, vt Angelis vniuerſe tanquam miniſtris Dei eun-
+dem opponat Quin immo iisdem plane verbis, quibus
+dem tribuit.
 Iehouae in V. T. creatio vniuerſi adſcribitur, Chriſto ean-</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683098303259_2011" custom="readingOrder {index:0;}">
+      <Coords points="875,321 1063,321 1063,365 875,365"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

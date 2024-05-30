@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-61">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:34Z</Created>
     <LastChange>2024-01-19T13:07:34Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-170971-p0037-1_lat.jpg" imageWidth="2113" imageHeight="2577" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/918abd39-f6f3-474a-8367-ae33c2c9d742/00000037.jpg" imageWidth="2113" imageHeight="2577" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="70,106 94,2463 2014,2488 2018,126"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1657521603284_161"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.101047345" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="0.101047345" readingDirection="left-to-right">
       <Coords points="265,367 1662,367 1662,867 265,867"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="302,368 296,372 293,381 265,381 265,426 523,428 611,423 653,428 664,424 706,422 713,419 801,421 837,418 846,423 853,423 856,427 879,429 885,428 888,421 893,418 967,421 1012,418 1025,422 1072,422 1085,419 1092,422 1178,422 1198,424 1201,428 1207,429 1217,428 1224,422 1236,422 1241,425 1299,426 1308,421 1315,421 1324,427 1488,429 1509,431 1531,439 1601,440 1613,433 1661,435 1661,392 1586,387 1534,387 1532,379 1526,374 1390,373 1378,378 1371,372 1360,370 1298,369 1283,370 1258,379 1227,380 1142,377 1137,367 1120,367 1112,376 1098,368 1045,368 1031,376 994,378 908,375 905,367 884,367 878,376 828,377 760,376 756,367 672,367 660,369 647,378 571,380 569,373 563,368 481,368 477,371 473,383 449,383 408,381 403,373 393,370 332,370 318,374 311,368"/>
@@ -329,7 +344,7 @@
         <Baseline points="266,692 937,679 1662,690"/>
         <Word id="region0002_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="275,687 423,687 423,645 416,645 408,653 404,653 401,644 388,643 375,648 369,644 357,645 352,648 351,654 329,655 324,647 275,647"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>foetido</Unicode>
           </TextEquiv>
         </Word>
@@ -527,18 +542,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>uit Venaeſectione, Sale angl. catarct. dato, et Tinct. fulig. per&#13;
-vices propinata. Alius conſeruationis gratia, praeter Venaeſe-&#13;
-ctionem, puluerem ex. Bacc. Iunip. Sulph. crud. et Antim. crud.&#13;
-partibus aequalibus confecit, et non ſine vtilitate dedit. Hanc&#13;
-vero ob rationem impediri oportet, ne iumenta aeri nebuloſo-&#13;
-foetido exponantur, nec concitatius agitentur, nec aeſtuantia ſta-&#13;
-tim in loca frigidiuſcula, paludoſa deducantur. Quapropter neceſſe&#13;
-eſt, vt hominibus prudentioribus, ac non, vt hodie ſolet, pue-&#13;
+        <Unicode>uit Venaeſectione, Sale angl. catarct. dato, et Tinct. fulig. per
+vices propinata. Alius conſeruationis gratia, praeter Venaeſe-
+ctionem, puluerem ex. Bacc. Iunip. Sulph. crud. et Antim. crud.
+partibus aequalibus confecit, et non ſine vtilitate dedit. Hanc
+vero ob rationem impediri oportet, ne iumenta aeri nebuloſo-
+foetido exponantur, nec concitatius agitentur, nec aeſtuantia ſta-
+tim in loca frigidiuſcula, paludoſa deducantur. Quapropter neceſſe
+eſt, vt hominibus prudentioribus, ac non, vt hodie ſolet, pue-
 ris cuſtodienda mandentur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.101047345" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.101047345" type="heading" readingDirection="left-to-right">
       <Coords points="648,945 1149,945 1149,1014 648,1014"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="826,946 711,950 706,955 706,992 711,997 755,998 785,1006 808,1007 814,1014 839,1014 844,1008 924,1005 1148,1003 1148,945"/>
@@ -563,7 +578,7 @@ ris cuſtodienda mandentur.</Unicode>
         <Unicode>§. XXXIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.101047345" readingDirection="left-to-right" id="TextRegion_1657521603284_161" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1657521603284_161" custom="readingOrder {index:2;}" orientation="0.101047345" readingDirection="left-to-right">
       <Coords points="253,1043 1661,1043 1688,1820 1688,1897 1664,2062 1283,2110 274,2110 253,1835"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="593,1043 588,1047 586,1057 462,1058 440,1050 325,1049 320,1054 320,1086 325,1091 333,1091 334,1100 339,1103 357,1106 447,1103 461,1106 467,1113 483,1114 491,1113 496,1106 504,1105 630,1102 655,1096 662,1097 667,1102 701,1103 902,1103 941,1100 1291,1100 1295,1097 1338,1100 1345,1096 1357,1096 1363,1100 1460,1099 1475,1103 1479,1109 1487,1111 1491,1111 1497,1102 1586,1106 1621,1106 1625,1103 1638,1103 1644,1107 1660,1107 1660,1048 1621,1048 1582,1058 1550,1056 1548,1047 1543,1043 1527,1044 1519,1055 1457,1054 1453,1043 1434,1043 1430,1046 1428,1054 1409,1054 1405,1043 1385,1043 1380,1054 1351,1054 1348,1043 1328,1043 1324,1054 1221,1053 1217,1043 1195,1043 1191,1053 1090,1056 1085,1044 1061,1044 1052,1056 947,1056 945,1048 940,1043 927,1043 922,1047 920,1057 879,1057 874,1044 859,1043 854,1048 853,1056 813,1057 802,1056 799,1047 794,1043 783,1043 778,1047 776,1056 612,1056 606,1044"/>
@@ -648,7 +663,7 @@ ris cuſtodienda mandentur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1295,1098 1291,1101 1291,1109 1062,1113 1059,1113 1059,1144 1327,1151 1327,1108 1295,1098"/>
+          <Coords points="1291,1101 1291,1109 1062,1113 1059,1113 1059,1144 1327,1151 1327,1109 1316,1109 1315,1104 1295,1098"/>
           <TextEquiv conf="0.68801576">
             <Unicode>communem,</Unicode>
           </TextEquiv>
@@ -1607,24 +1622,24 @@ ris cuſtodienda mandentur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Neque minus ruminationis conſeruandae ratio habenda eſt.&#13;
-Cui rei impetrandae conducet, ſalem communem, per vices, cum&#13;
-pabulo porrigere. Ac ipſas cepas, in ſtabulis, tempore potiſſi-&#13;
-mum morbi regnantis, ſuſpenſas haud parum ad ſanitatis boum&#13;
-conſeruationem conferre arbitror. Forſitan propter hunc effe-&#13;
-ctum, hinc inde praeſtitum, nomen remedii contra morbum ſpe-&#13;
-cifici meruerunt. Irritant nimirum aeque ac ſalia, hincque ſti-&#13;
-mulant excitantque partes ruminationem praeſtantes. Salem ve-&#13;
-ro porrigere, in recens emtis, et ab aliis locis adductis potiſſi-&#13;
-mum obſeruandum eſt. Haec enim pabulo nouo ſenſim ſen-&#13;
-ſimque aſſuefacere oportet, propterea quod experientia docet,&#13;
-iumenta, ex deiectioribus atque paludoſis locis in loca, ſubli-&#13;
-miori regione ſita, adducta, et contra, haud raro, cautione ne-&#13;
-ceſſaria neglecta, pathemata quaedam experiri, niſi mortem&#13;
-ipſam ſubeant. Praeſtabit itaque eiuſmodi brutis multum ſalis,&#13;
-cum herbis amaris coniuncti vſus, ad tempus continuatus. De&#13;
-reliquo ſemper cibarium bobus bene eligendum; euitandum&#13;
-omne, quacunque ratione inquinatum, aut non rite praepa-&#13;
+        <Unicode>Neque minus ruminationis conſeruandae ratio habenda eſt.
+Cui rei impetrandae conducet, ſalem communem, per vices, cum
+pabulo porrigere. Ac ipſas cepas, in ſtabulis, tempore potiſſi-
+mum morbi regnantis, ſuſpenſas haud parum ad ſanitatis boum
+conſeruationem conferre arbitror. Forſitan propter hunc effe-
+ctum, hinc inde praeſtitum, nomen remedii contra morbum ſpe-
+cifici meruerunt. Irritant nimirum aeque ac ſalia, hincque ſti-
+mulant excitantque partes ruminationem praeſtantes. Salem ve-
+ro porrigere, in recens emtis, et ab aliis locis adductis potiſſi-
+mum obſeruandum eſt. Haec enim pabulo nouo ſenſim ſen-
+ſimque aſſuefacere oportet, propterea quod experientia docet,
+iumenta, ex deiectioribus atque paludoſis locis in loca, ſubli-
+miori regione ſita, adducta, et contra, haud raro, cautione ne-
+ceſſaria neglecta, pathemata quaedam experiri, niſi mortem
+ipſam ſubeant. Praeſtabit itaque eiuſmodi brutis multum ſalis,
+cum herbis amaris coniuncti vſus, ad tempus continuatus. De
+reliquo ſemper cibarium bobus bene eligendum; euitandum
+omne, quacunque ratione inquinatum, aut non rite praepa-
 ratum.</Unicode>
       </TextEquiv>
     </TextRegion>

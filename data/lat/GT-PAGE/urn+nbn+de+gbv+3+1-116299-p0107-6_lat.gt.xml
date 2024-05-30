@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-5">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:04Z</Created>
     <LastChange>2024-01-19T13:07:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-116299-p0107-6_lat.jpg" imageWidth="1482" imageHeight="2360" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/94e0113e-ebd1-42cc-ae52-c6f8b293888a/00000107.jpg" imageWidth="1482" imageHeight="2360" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="65,267 79,2268 1236,2271 1198,269"/>
     </Border>
@@ -56,18 +72,18 @@
         <RegionRefIndexed index="42" regionRef="region_1676287309541_2086"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676287471517_2138" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676287471517_2138" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="440,384 442,415 733,411 731,380"/>
       <TextLine id="line_1676287471725_2141" custom="readingOrder {index:0;}">
-        <Coords points="442,381 442,415 729,411 729,377"/>
+        <Coords points="442,415 729,411 729,380 442,383"/>
         <Word id="word_1676287471840_2144" custom="readingOrder {index:0;}">
-          <Coords points="442,381 556,381 556,415 442,415"/>
+          <Coords points="556,381 442,381 442,415 556,413"/>
           <TextEquiv>
             <Unicode>PAL.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676287505109_2153" custom="readingOrder {index:1;}">
-          <Coords points="589,383 712,383 712,416 589,416"/>
+          <Coords points="712,383 589,383 589,412 712,411"/>
           <TextEquiv>
             <Unicode>PAN.</Unicode>
           </TextEquiv>
@@ -80,7 +96,7 @@
         <Unicode>PAL. PAN.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676287449590_2127" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676287449590_2127" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1063,386 1063,424 1118,424 1118,386"/>
       <TextLine id="line_1676287449677_2130" custom="readingOrder {index:0;}">
         <Coords points="1063,386 1063,424 1118,424 1118,386"/>
@@ -98,7 +114,7 @@
         <Unicode>85</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577467987_35" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577467987_35" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="97,435 201,433 201,507 96,507"/>
       <TextLine id="line_1644577468065_38" custom="readingOrder {index:0;}">
         <Coords points="97,443 133,446 137,442 142,442 146,446 201,447 201,489 125,489 123,480 97,479"/>
@@ -116,10 +132,10 @@
         <Unicode>Virg. Pars in gramineis exercent membra palæ- Palæſtra.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644579289039_660" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644579289039_660" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="201,433 904,426 904,473 201,473"/>
       <TextLine id="line_1644577474158_45" custom="readingOrder {index:0;}">
-        <Coords points="201,447 210,448 215,443 264,446 299,444 307,434 315,434 318,438 427,437 429,433 445,432 451,437 477,437 479,432 497,432 500,437 626,434 729,436 736,435 738,430 758,430 760,434 837,436 843,430 856,430 863,438 889,439 893,429 904,428 904,471 887,474 827,474 821,480 807,480 800,473 786,471 395,474 382,486 331,486 324,482 322,476 310,476 219,480 212,482 210,489 201,489"/>
+        <Coords points="893,429 889,439 863,438 856,430 843,430 837,436 760,434 758,430 738,430 736,435 729,436 626,434 500,437 497,432 479,432 477,437 451,437 445,432 429,433 427,437 318,438 315,434 307,434 299,444 264,446 215,443 210,448 201,447 201,473 525,473 786,471 800,473 892,473 904,471 904,428"/>
         <Word id="region0005_line0003_word0001" custom="readingOrder {index:0;}">
           <Coords points="216,443 216,463 281,463 281,445 264,446"/>
           <TextEquiv conf="0.96138436">
@@ -164,7 +180,7 @@
         <Unicode>Virg. Pars in gramineis exercent membra palæ- Palæſtra.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577474064_41" custom="readingOrder {index:4;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577474064_41" custom="readingOrder {index:4;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="904,426 1070,425 1070,507 904,507"/>
       <TextLine id="line_1644577474158_44" custom="readingOrder {index:0;}">
         <Coords points="904,428 909,428 926,428 934,435 951,435 954,438 983,434 988,438 1023,439 1023,467 985,467 978,468 972,474 960,474 954,469 917,469 904,471"/>
@@ -182,10 +198,10 @@
         <Unicode>Virg. Pars in gramineis exercent membra palæ- Palæſtra.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" readingDirection="left-to-right" id="TextRegion_1644579289039_659" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1644579289039_659" custom="readingOrder {index:5;}" orientation="0.027151447" readingDirection="left-to-right">
       <Coords points="201,473 904,473 904,507 201,507"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
-        <Coords points="546,470 528,472 528,495 532,508 537,512 580,512 593,509 607,513 666,513 677,504 677,481 672,476 627,476 620,470"/>
+        <Coords points="528,495 531,507 673,507 677,504 677,481 672,476 627,476 623,473 528,473"/>
         <Word id="word_1644573400764_357" custom="readingOrder {index:0;}">
           <Coords points="574,480 642,480 642,507 574,507"/>
           <TextEquiv conf="0.91616166">
@@ -200,7 +216,7 @@
         <Unicode>ſtris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577478721_50" custom="readingOrder {index:6;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577478721_50" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="96,507 198,507 198,719 94,719 94,717 96,514"/>
       <TextLine id="line_1644577653706_189" custom="readingOrder {index:0;}">
         <Coords points="98,511 197,511 197,567 98,567"/>
@@ -218,10 +234,10 @@
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577793097_215" custom="readingOrder {index:7;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577793097_215" custom="readingOrder {index:7;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,507 899,507 899,555 198,555"/>
       <TextLine id="line_1644577495284_60" custom="readingOrder {index:0;}">
-        <Coords points="207,515 243,515 255,519 261,513 271,513 279,521 294,519 306,509 316,509 324,518 401,518 406,516 407,510 411,507 459,507 465,517 577,517 586,510 604,512 610,517 628,516 634,512 734,514 740,509 751,509 758,517 771,517 782,505 794,506 798,516 847,516 857,508 865,508 872,510 878,520 883,521 886,520 886,513 891,508 899,508 899,551 882,554 682,552 632,555 618,552 612,555 487,555 481,564 463,563 457,555 307,557 246,564 214,563 207,560"/>
+        <Coords points="407,510 406,516 401,518 324,518 316,509 306,509 294,519 279,521 271,513 261,513 255,519 243,515 207,515 207,555 457,555 487,555 612,555 618,552 632,555 682,552 882,554 899,551 899,508 891,508 886,513 886,520 883,521 878,520 872,510 865,508 857,508 847,516 798,516 794,507 780,507 771,517 758,517 751,509 740,509 734,514 634,512 628,516 610,517 604,512 586,510 577,517 465,517 459,507 411,507"/>
         <Word id="region0007_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="243,515 212,515 212,548 285,548 285,520 279,521 273,515 259,515 255,519"/>
           <TextEquiv conf="0.9627377">
@@ -284,7 +300,7 @@
         <Unicode>Ovid. Quis furor eſt, quæ nocte latent in luce fa- Palam.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577704707_198" custom="readingOrder {index:8;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577704707_198" custom="readingOrder {index:8;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="899,507 1070,507 1070,552 899,552"/>
       <TextLine id="line_1644577495284_59" custom="readingOrder {index:0;}">
         <Coords points="899,508 936,508 951,509 957,515 998,515 998,549 923,548 899,551"/>
@@ -302,10 +318,10 @@
         <Unicode>Ovid. Quis furor eſt, quæ nocte latent in luce fa- Palam.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577793097_214" custom="readingOrder {index:9;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577793097_214" custom="readingOrder {index:9;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,555 899,555 899,719 198,719"/>
       <TextLine id="region0007_line0003" custom="readingOrder {index:0;}">
-        <Coords points="618,553 610,557 531,556 526,561 526,584 537,594 612,593 618,596 656,595 673,586 673,563 670,559 634,558 626,553"/>
+        <Coords points="610,557 531,556 526,561 526,584 537,594 612,593 618,596 656,595 673,586 673,563 670,559 634,558 629,555 614,555"/>
         <Word id="region0007_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="575,559 626,559 626,587 575,587"/>
           <TextEquiv conf="0.9132496">
@@ -437,18 +453,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>teri&#13;
-Et quæ clam facias, facta referre palam.&#13;
-Wer will ſagen/ was er heimlich gethan hat.&#13;
+        <Unicode>teri
+Et quæ clam facias, facta referre palam.
+Wer will ſagen/ was er heimlich gethan hat.
 vid. caſa. Palatium.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577711472_202" custom="readingOrder {index:10;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577711472_202" custom="readingOrder {index:10;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="899,675 1072,675 1072,719 899,719"/>
       <TextLine id="line_1644577852676_224" custom="readingOrder {index:0;}">
         <Coords points="1049,705 908,705 908,678 1049,678"/>
         <Word id="region0009_line0002_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="959,675 911,676 911,700 1037,699 1037,676 960,677"/>
+          <Coords points="911,700 1037,699 1037,678 911,678"/>
           <TextEquiv>
             <Unicode>Palatium.</Unicode>
           </TextEquiv>
@@ -461,7 +477,7 @@ vid. caſa. Palatium.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577503893_65" custom="readingOrder {index:11;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577503893_65" custom="readingOrder {index:11;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="94,719 198,719 198,844 94,844"/>
       <TextLine id="line_1644577503956_68" custom="readingOrder {index:0;}">
         <Coords points="95,720 143,720 149,728 178,729 188,724 198,724 198,768 147,770 133,774 95,774"/>
@@ -479,10 +495,10 @@ vid. caſa. Palatium.</Unicode>
         <Unicode>Juv. Multis in ſolo vivendi cauſa palato eſt. Palatum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577948910_247" custom="readingOrder {index:12;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577948910_247" custom="readingOrder {index:12;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,719 902,719 894,748 197,765"/>
       <TextLine id="line_1644577508362_75" custom="readingOrder {index:0;}">
-        <Coords points="198,724 258,725 265,719 276,720 282,728 286,721 298,719 305,728 314,728 325,719 335,719 342,727 351,727 358,717 402,716 409,725 442,725 444,717 448,714 459,715 465,724 484,724 515,722 521,714 545,714 552,722 600,722 609,713 624,713 630,720 669,719 671,713 691,712 693,718 748,720 754,712 796,711 827,712 833,718 902,718 902,760 873,760 864,745 828,745 825,756 821,759 712,759 671,756 657,758 651,766 640,766 632,759 573,759 198,768"/>
+        <Coords points="258,725 198,724 198,764 826,749 828,745 864,745 866,748 894,748 902,719 748,719 748,720 720,719 669,719 630,720 629,719 603,719 600,722 552,722 549,719 517,719 515,722 484,724 465,724 461,719 443,719 442,725 409,725 404,719 356,719 351,727 342,727 335,719 325,719 314,728 305,728 298,719 286,721 282,728 276,720 265,719"/>
         <Word id="word_1644577949004_250" custom="readingOrder {index:0;}">
           <Coords points="209,724 258,725 265,719 276,720 282,728 286,721 298,719 305,728 313,728 313,758 209,758"/>
           <TextEquiv conf="0.9128827">
@@ -533,7 +549,7 @@ vid. caſa. Palatium.</Unicode>
         <Unicode>Juv. Multis in ſolo vivendi cauſa palato eſt. Palatum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577508299_71" custom="readingOrder {index:13;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577508299_71" custom="readingOrder {index:13;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="902,719 1072,719 1071,844 902,844"/>
       <TextLine id="line_1644577508362_74" custom="readingOrder {index:0;}">
         <Coords points="902,718 957,719 963,725 1030,724 1030,756 978,761 902,760"/>
@@ -551,10 +567,10 @@ vid. caſa. Palatium.</Unicode>
         <Unicode>Palatum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577948910_246" custom="readingOrder {index:14;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577948910_246" custom="readingOrder {index:14;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,758 902,758 902,844 198,844"/>
       <TextLine id="region0017_line0001" custom="readingOrder {index:0;}">
-        <Coords points="785,754 779,755 774,761 750,761 748,755 723,755 720,758 714,755 690,755 625,756 619,760 594,762 586,759 576,759 572,762 539,762 537,757 516,757 512,763 507,757 494,757 488,764 478,764 473,757 453,757 447,763 306,769 290,769 284,762 209,762 209,812 373,811 395,808 463,810 465,807 501,805 564,805 577,808 581,805 612,804 624,804 630,809 638,809 644,804 672,801 685,802 691,807 716,803 719,808 734,808 739,802 773,802 777,808 784,808 800,807 804,802 899,801 899,755 874,754 839,760 809,760 805,754"/>
+        <Coords points="774,761 750,761 749,758 720,758 622,758 619,760 594,762 586,759 576,759 572,762 539,762 537,758 515,758 512,763 507,758 493,758 488,764 478,764 473,758 452,758 447,763 306,769 290,769 284,762 209,762 209,812 373,811 395,808 463,810 465,807 501,805 564,805 577,808 581,805 612,804 624,804 630,809 638,809 644,804 672,801 685,802 691,807 716,803 719,808 734,808 739,802 773,802 777,808 784,808 800,807 804,802 899,801 899,758 850,758 839,760 809,760 807,758 776,758"/>
         <Word id="region0017_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="288,767 215,767 215,801 297,801 297,769 290,769"/>
           <TextEquiv conf="0.9274902">
@@ -614,7 +630,7 @@ vid. caſa. Palatium.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0018_line0001" custom="readingOrder {index:1;}">
-        <Coords points="420,801 412,808 401,809 380,810 376,802 358,802 353,807 306,805 299,812 293,813 255,813 255,855 303,855 308,859 319,859 324,855 374,854 384,849 438,848 444,845 451,845 457,849 521,848 533,844 560,843 572,835 572,811 567,806 458,807 455,801"/>
+        <Coords points="412,808 401,809 380,810 376,802 358,802 353,807 306,805 299,812 293,813 255,813 255,844 533,844 560,843 572,835 572,811 567,806 458,807 455,801 420,801"/>
         <Word id="word_1644573427921_371" custom="readingOrder {index:0;}">
           <Coords points="260,813 293,813 299,812 301,810 410,810 410,844 260,844"/>
           <TextEquiv conf="0.90206075">
@@ -632,11 +648,11 @@ vid. caſa. Palatium.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Viele meynen/ ſie leben/ / auf daß ſie eſſen und&#13;
+        <Unicode>Viele meynen/ ſie leben/ / auf daß ſie eſſen und
 wohlleben koͤnnen.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577514552_80" custom="readingOrder {index:15;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577514552_80" custom="readingOrder {index:15;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="94,844 198,844 198,973 94,973"/>
       <TextLine id="line_1644578083958_269" custom="readingOrder {index:0;}">
         <Coords points="94,844 180,844 180,917 94,917"/>
@@ -654,10 +670,10 @@ wohlleben koͤnnen.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578224645_313" custom="readingOrder {index:16;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578224645_313" custom="readingOrder {index:16;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,844 902,844 902,878 198,878"/>
       <TextLine id="line_1644577519721_88" custom="readingOrder {index:0;}">
-        <Coords points="201,849 665,838 864,855 902,836 902,877 203,889"/>
+        <Coords points="201,849 202,878 843,878 902,877 902,844 886,844 864,855 735,844 411,844"/>
         <Word id="word_1644578224739_316" custom="readingOrder {index:0;}">
           <Coords points="211,865 376,863 376,856 385,856 383,878 209,878"/>
           <TextEquiv>
@@ -690,10 +706,10 @@ wohlleben koͤnnen.</Unicode>
         <Unicode>— Paleæ jactantur inanes.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577519662_84" custom="readingOrder {index:17;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577519662_84" custom="readingOrder {index:17;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="902,844 1071,844 1071,973 902,973"/>
       <TextLine id="line_1644577519721_87" custom="readingOrder {index:0;}">
-        <Coords points="902,836 947,836 957,837 962,845 989,845 989,877 902,877"/>
+        <Coords points="989,877 989,845 962,845 961,844 902,844 902,877"/>
         <Word id="word_1644573427921_378" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="912,844 961,844 962,845 985,845 985,868 912,868"/>
           <TextEquiv>
@@ -708,10 +724,10 @@ wohlleben koͤnnen.</Unicode>
         <Unicode>Virg. —— Paleæ jactantur inanes. Palea.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578224645_312" custom="readingOrder {index:18;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578224645_312" custom="readingOrder {index:18;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="198,878 902,878 902,973 198,973"/>
       <TextLine id="region0019_line0002" custom="readingOrder {index:0;}">
-        <Coords points="792,875 766,880 755,879 750,883 737,884 692,882 684,876 672,876 661,883 626,887 606,886 602,883 592,883 588,886 575,881 513,881 486,888 479,888 472,883 452,888 446,882 435,882 429,888 413,884 408,888 379,891 377,884 371,879 351,879 353,892 313,886 293,888 294,880 278,880 278,891 208,891 208,939 287,938 320,939 323,942 365,936 401,938 405,935 438,932 628,930 659,930 665,935 675,935 681,930 688,929 806,926 811,930 823,930 832,925 899,921 899,882 872,883 868,875"/>
+        <Coords points="766,880 755,879 750,883 737,884 692,882 686,878 668,878 661,883 626,887 606,886 602,883 592,883 588,886 575,881 513,881 486,888 479,888 472,883 452,888 446,882 435,882 429,888 413,884 408,888 379,891 377,884 371,879 351,879 353,892 313,886 293,888 294,880 278,880 278,891 208,891 208,939 287,938 320,939 323,942 365,936 401,938 405,935 438,932 628,930 659,930 665,935 675,935 681,930 688,929 806,926 811,930 823,930 832,925 899,921 899,882 872,883 869,878 776,878"/>
         <Word id="region0019_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="214,891 214,924 282,924 282,890 278,890 278,891"/>
           <TextEquiv conf="0.93150115">
@@ -759,7 +775,7 @@ wohlleben koͤnnen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0020_line0001" custom="readingOrder {index:1;}">
-        <Coords points="208,940 209,981 270,983 293,980 306,983 310,980 360,980 368,978 371,974 371,948 366,943"/>
+        <Coords points="208,973 371,973 371,948 366,943 208,940"/>
         <Word id="word_1644573432858_386" custom="readingOrder {index:0;}">
           <Coords points="254,949 275,949 275,973 254,973"/>
           <TextEquiv conf="0.7075144">
@@ -777,11 +793,11 @@ wohlleben koͤnnen.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Wie Spreu/ die der Wind verſtreuet. Pſalm.&#13;
+        <Unicode>Wie Spreu/ die der Wind verſtreuet. Pſalm.
 I, 4.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577525190_93" custom="readingOrder {index:19;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577525190_93" custom="readingOrder {index:19;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="94,973 197,973 197,1260 95,1260"/>
       <TextLine id="line_1644578087542_272" custom="readingOrder {index:0;}">
         <Coords points="98,979 185,979 185,1028 98,1028"/>
@@ -799,10 +815,10 @@ I, 4.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578372943_357" custom="readingOrder {index:20;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578372943_357" custom="readingOrder {index:20;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="197,973 903,973 903,1011 197,1011"/>
       <TextLine id="line_1644577533049_103" custom="readingOrder {index:0;}">
-        <Coords points="209,982 291,982 321,987 373,987 412,983 477,982 480,980 481,969 485,966 534,966 566,970 572,964 583,964 595,972 602,972 609,964 619,964 626,972 852,968 903,969 903,1009 857,1010 851,1006 807,1006 792,1010 575,1010 559,1011 555,1016 548,1017 534,1017 531,1012 511,1012 405,1018 286,1018 261,1013 209,1013"/>
+        <Coords points="480,980 477,982 412,983 373,987 321,987 291,982 209,982 209,1011 559,1011 575,1010 792,1010 807,1006 851,1006 857,1010 903,1009 903,973 480,973"/>
         <Word id="region0020_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="214,989 216,1003 280,1003 278,989"/>
           <TextEquiv conf="0.8827733">
@@ -841,10 +857,10 @@ I, 4.</Unicode>
         <Unicode>Virg. — — — Optima torvæ Palear.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577532956_99" custom="readingOrder {index:21;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577532956_99" custom="readingOrder {index:21;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="903,973 1071,973 1073,1012 905,1012"/>
       <TextLine id="line_1644577533049_102" custom="readingOrder {index:0;}">
-        <Coords points="903,969 940,970 944,967 955,967 961,973 1001,972 1001,1008 903,1009"/>
+        <Coords points="1001,1008 1001,973 961,973 903,973 904,1008"/>
         <Word id="region0020_line0002_word0005" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="940,970 910,970 910,996 997,996 997,972 961,973 958,970"/>
           <TextEquiv>
@@ -859,10 +875,10 @@ I, 4.</Unicode>
         <Unicode>Virg. — — — Optima torvæ Palear.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578372943_356" custom="readingOrder {index:22;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578372943_356" custom="readingOrder {index:22;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="197,1011 903,1011 903,1260 197,1260"/>
       <TextLine id="line_1644577533049_105" custom="readingOrder {index:0;}">
-        <Coords points="206,1014 237,1015 255,1022 306,1022 330,1009 340,1010 346,1019 413,1019 434,1015 473,1015 483,1006 493,1007 498,1015 544,1016 732,1013 741,1012 748,1004 758,1004 765,1011 783,1011 786,1004 806,1004 808,1010 831,1010 836,1003 852,1003 856,1009 903,1009 903,1047 798,1050 790,1051 783,1060 771,1060 763,1052 658,1054 650,1051 637,1059 629,1054 595,1053 573,1055 558,1061 546,1055 466,1054 435,1058 429,1062 419,1062 414,1058 339,1058 332,1059 325,1066 314,1066 307,1059 206,1061"/>
+        <Coords points="306,1022 255,1022 237,1015 206,1014 206,1061 307,1059 314,1066 325,1066 332,1059 339,1058 414,1058 419,1062 429,1062 435,1058 466,1054 546,1055 558,1061 573,1055 595,1053 629,1054 637,1059 650,1051 658,1054 763,1052 771,1060 783,1060 790,1051 798,1050 903,1047 903,1011 783,1011 765,1011 741,1011 741,1012 732,1013 544,1016 498,1015 495,1011 477,1011 473,1015 434,1015 413,1019 346,1019 340,1011 326,1011"/>
         <Word id="region0021_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="213,1014 213,1046 323,1046 323,1012 306,1022 255,1022 237,1015"/>
           <TextEquiv>
@@ -1078,7 +1094,7 @@ I, 4.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0021_line0006" custom="readingOrder {index:5;}">
-        <Coords points="588,1218 583,1222 557,1223 548,1219 535,1222 407,1220 390,1225 382,1222 370,1224 366,1221 356,1225 324,1221 302,1225 266,1224 260,1229 252,1226 213,1227 210,1229 210,1255 213,1259 223,1262 266,1265 272,1269 352,1268 366,1271 375,1267 429,1266 441,1270 454,1265 493,1264 504,1268 522,1262 571,1261 591,1265 620,1263 626,1260 647,1264 665,1261 721,1269 727,1266 797,1264 806,1254 806,1228 803,1224 797,1223 744,1222 735,1225 666,1224 657,1221 652,1224 633,1224 628,1220 604,1223"/>
+        <Coords points="583,1222 557,1223 548,1219 535,1222 407,1220 390,1225 382,1222 370,1224 366,1221 356,1225 324,1221 302,1225 266,1224 260,1229 252,1226 213,1227 210,1229 210,1255 213,1259 216,1260 626,1260 800,1260 806,1254 806,1228 803,1224 797,1223 744,1222 735,1225 666,1224 657,1221 652,1224 633,1224 628,1220 604,1223 588,1218"/>
         <Word id="word_1644573439155_397" custom="readingOrder {index:0;}">
           <Coords points="263,1232 306,1232 306,1260 263,1260"/>
           <TextEquiv conf="0.9260802">
@@ -1126,20 +1142,20 @@ I, 4.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Forma bovis, cui turpe caput, cui plurima&#13;
-cervix,&#13;
-Et crurum tenùs à mento palearia pendent.&#13;
-Das find die beſten Ochſen/ / welche einen groſ⸗&#13;
-ſen Kopf/ und dicken Hals haben/ / und denen&#13;
+        <Unicode>Forma bovis, cui turpe caput, cui plurima
+cervix,
+Et crurum tenùs à mento palearia pendent.
+Das find die beſten Ochſen/ / welche einen groſ⸗
+ſen Kopf/ und dicken Hals haben/ / und denen
 die Kehle biß auf die Knie hanget.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577537909_116" custom="readingOrder {index:23;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577537909_116" custom="readingOrder {index:23;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="95,1260 199,1260 199,1555 96,1555"/>
       <TextLine id="line_1644578472084_408" custom="readingOrder {index:0;}">
         <Coords points="102,1270 181,1270 181,1320 102,1320"/>
         <Word id="region0013_line_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="184,1308 184,1267 103,1267 103,1308"/>
+          <Coords points="103,1308 181,1308 181,1270 103,1270"/>
           <TextEquiv conf="0.9053642">
             <Unicode>Virg.</Unicode>
           </TextEquiv>
@@ -1152,10 +1168,10 @@ die Kehle biß auf die Knie hanget.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578495130_416" custom="readingOrder {index:24;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578495130_416" custom="readingOrder {index:24;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="199,1260 907,1260 907,1309 199,1309"/>
       <TextLine id="line_1644577544518_126" custom="readingOrder {index:0;}">
-        <Coords points="208,1260 266,1266 273,1271 366,1272 377,1269 431,1268 441,1271 450,1267 494,1266 504,1269 522,1263 571,1262 591,1266 620,1264 626,1261 647,1265 665,1262 721,1270 727,1267 860,1263 866,1262 871,1255 877,1253 885,1253 891,1259 907,1258 907,1301 900,1302 659,1304 629,1310 574,1305 515,1305 467,1315 459,1315 447,1308 429,1306 365,1310 356,1318 344,1318 337,1310 305,1310 298,1320 283,1320 277,1310 208,1310"/>
+        <Coords points="866,1262 860,1263 727,1267 721,1270 665,1262 647,1265 626,1261 620,1264 591,1266 571,1262 522,1263 504,1269 494,1266 450,1267 441,1271 431,1268 377,1269 366,1272 273,1271 266,1266 208,1260 208,1309 381,1309 429,1306 447,1308 448,1309 495,1309 515,1305 574,1305 618,1309 634,1309 659,1304 900,1302 907,1301 907,1260 867,1260"/>
         <Word id="region0021_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="219,1261 219,1290 263,1290 263,1265"/>
           <TextEquiv conf="0.9258493">
@@ -1212,10 +1228,10 @@ die Kehle biß auf die Knie hanget.</Unicode>
         <Unicode>Virg. Te quoque magna Pales, † &amp; te memorande Pales.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644578582756_453" custom="readingOrder {index:25;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644578582756_453" custom="readingOrder {index:25;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="907,1260 1071,1260 1071,1298 907,1298"/>
       <TextLine id="line_1644577544518_125" custom="readingOrder {index:0;}">
-        <Coords points="907,1258 942,1257 952,1254 965,1255 969,1252 984,1255 1040,1255 1045,1260 1045,1287 1031,1296 997,1296 990,1300 981,1300 976,1296 944,1296 907,1301"/>
+        <Coords points="997,1296 1031,1296 1045,1287 1045,1260 907,1260 907,1298 929,1298 944,1296 976,1296 978,1298 993,1298"/>
         <Word id="region0021_line0007_word0008" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="916,1262 991,1261 991,1292 916,1293"/>
           <TextEquiv>
@@ -1230,7 +1246,7 @@ die Kehle biß auf die Knie hanget.</Unicode>
         <Unicode>Virg. Te quoque magna Pales, † &amp; te memorande Pales.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578495130_415" custom="readingOrder {index:26;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578495130_415" custom="readingOrder {index:26;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="199,1309 907,1309 907,1555 199,1555"/>
       <TextLine id="region0021_line0008" custom="readingOrder {index:0;}">
         <Coords points="537,1308 532,1313 532,1336 541,1340 651,1346 776,1346 782,1345 785,1341 785,1314 780,1309 643,1308 628,1311"/>
@@ -1407,7 +1423,7 @@ die Kehle biß auf die Knie hanget.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1644577544534_134" custom="readingOrder {index:5;}">
-        <Coords points="345,1518 353,1517 415,1518 422,1515 432,1522 440,1522 448,1513 464,1516 481,1513 487,1516 527,1516 538,1521 549,1521 570,1516 907,1514 907,1554 872,1555 868,1552 618,1552 609,1555 500,1555 486,1556 484,1559 464,1559 462,1556 354,1557 342,1548 342,1522"/>
+        <Coords points="570,1516 549,1521 538,1521 527,1516 487,1516 481,1513 464,1516 448,1513 440,1522 432,1522 422,1515 415,1518 353,1517 345,1518 342,1522 342,1548 351,1555 500,1555 609,1555 618,1552 868,1552 872,1555 907,1554 907,1514"/>
         <Word id="word_1644573445014_415" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="397,1517 415,1518 422,1515 432,1522 440,1522 448,1513 459,1515 459,1555 397,1555"/>
           <TextEquiv conf="0.8924504">
@@ -1425,15 +1441,15 @@ die Kehle biß auf die Knie hanget.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>canemus&#13;
-Paſtor ab Amphryſo.* — —&#13;
-† Nemorum &amp; pabuli Dea, * i. e. Apollo,&#13;
-qui juxta Amphryſum fluv. pavit pecus&#13;
-Admeti, Regis Theſſaliæ.&#13;
+        <Unicode>canemus
+Paſtor ab Amphryſo.* — —
+† Nemorum &amp; pabuli Dea, * i. e. Apollo,
+qui juxta Amphryſum fluv. pavit pecus
+Admeti, Regis Theſſaliæ.
 vid. jacere. Palinurus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644578586787_457" custom="readingOrder {index:27;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644578586787_457" custom="readingOrder {index:27;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="907,1508 1071,1508 1071,1539 1071,1555 907,1555"/>
       <TextLine id="line_1644577544534_133" custom="readingOrder {index:0;}">
         <Coords points="907,1514 948,1514 964,1510 973,1510 978,1515 992,1517 1053,1517 1053,1552 907,1554"/>
@@ -1451,7 +1467,7 @@ vid. jacere. Palinurus.</Unicode>
         <Unicode>vid. jacere. Palinurus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577550550_139" custom="readingOrder {index:28;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577550550_139" custom="readingOrder {index:28;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="96,1555 200,1555 200,1760 96,1760 97,1611"/>
       <TextLine id="line_1644578710038_483" custom="readingOrder {index:0;}">
         <Coords points="189,1613 103,1613 103,1559 189,1559"/>
@@ -1469,10 +1485,10 @@ vid. jacere. Palinurus.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578784084_509" custom="readingOrder {index:29;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578784084_509" custom="readingOrder {index:29;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1555 908,1555 908,1599 200,1599"/>
       <TextLine id="line_1644577556195_147" custom="readingOrder {index:0;}">
-        <Coords points="209,1554 248,1554 257,1557 262,1553 276,1553 282,1561 345,1561 474,1559 481,1551 491,1551 499,1559 519,1559 520,1550 524,1545 539,1545 551,1549 556,1559 601,1557 610,1548 620,1548 627,1557 635,1557 641,1549 656,1546 723,1550 736,1558 745,1550 756,1550 762,1556 782,1557 790,1548 802,1548 814,1552 818,1557 829,1557 829,1541 849,1541 850,1551 847,1557 901,1559 908,1553 908,1593 856,1596 847,1605 835,1605 828,1596 751,1596 740,1606 726,1606 718,1597 652,1596 646,1601 624,1602 616,1599 613,1594 586,1598 513,1597 505,1606 492,1606 485,1597 379,1598 373,1607 356,1607 349,1599 319,1599 315,1606 306,1609 293,1608 289,1600 209,1601"/>
+        <Coords points="257,1557 251,1555 209,1555 209,1599 319,1599 349,1599 378,1599 379,1598 485,1597 486,1599 511,1599 513,1597 586,1598 613,1594 616,1599 648,1599 652,1596 718,1597 719,1599 747,1599 751,1596 828,1596 830,1599 853,1599 856,1596 908,1593 908,1555 905,1555 901,1559 847,1557 848,1555 829,1555 829,1557 818,1557 816,1555 783,1555 782,1557 762,1556 761,1555 739,1555 736,1558 731,1555 636,1555 635,1557 627,1557 625,1555 603,1555 601,1557 556,1559 554,1555 519,1555 519,1559 499,1559 495,1555 477,1555 474,1559 345,1561 282,1561 277,1555 259,1555"/>
         <Word id="region0022_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="221,1554 221,1590 275,1590 275,1553 262,1553 257,1557 248,1554"/>
           <TextEquiv conf="0.93267286">
@@ -1517,10 +1533,10 @@ vid. jacere. Palinurus.</Unicode>
         <Unicode>Sed quoque remipedes vigili Capitolia pro- Palo.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644578756834_497" custom="readingOrder {index:30;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644578756834_497" custom="readingOrder {index:30;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="908,1555 1071,1555 1071,1596 908,1596"/>
       <TextLine id="line_1644577556190_146" custom="readingOrder {index:0;}">
-        <Coords points="908,1553 909,1553 947,1554 952,1550 962,1550 969,1557 1025,1557 1030,1562 1030,1584 1025,1589 908,1593"/>
+        <Coords points="1025,1589 1030,1584 1030,1562 1025,1557 969,1557 967,1555 908,1555 908,1593"/>
         <Word id="word_1644573445014_417" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="919,1555 967,1555 969,1557 982,1557 982,1576 919,1576"/>
           <TextEquiv>
@@ -1535,7 +1551,7 @@ vid. jacere. Palinurus.</Unicode>
         <Unicode>Sed quoque remipedes vigili Capitolia pro- Palo.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578784084_508" custom="readingOrder {index:31;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578784084_508" custom="readingOrder {index:31;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1599 908,1599 908,1760 200,1760"/>
       <TextLine id="region0022_line0002" custom="readingOrder {index:0;}">
         <Coords points="536,1599 527,1605 527,1630 542,1642 589,1644 606,1638 624,1637 688,1638 698,1635 701,1631 701,1604 696,1599 653,1599 641,1603 624,1603 614,1598"/>
@@ -1628,7 +1644,7 @@ vid. jacere. Palinurus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1644577556195_151" custom="readingOrder {index:3;}">
-        <Coords points="362,1724 370,1723 424,1724 433,1729 441,1720 450,1725 455,1719 466,1719 473,1726 516,1726 524,1729 531,1722 540,1722 546,1726 867,1725 873,1717 908,1717 908,1754 876,1755 872,1752 632,1752 627,1760 609,1764 566,1762 559,1765 476,1765 467,1761 431,1764 410,1760 405,1763 385,1763 365,1759 359,1753 359,1728"/>
+        <Coords points="873,1717 867,1725 546,1726 540,1722 531,1722 524,1729 516,1726 473,1726 466,1719 455,1719 450,1725 441,1720 433,1729 424,1724 370,1723 362,1724 359,1728 359,1753 365,1759 370,1760 410,1760 627,1760 632,1752 872,1752 876,1755 908,1754 908,1717"/>
         <Word id="region0022_line0005_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="412,1723 412,1751 474,1751 474,1726 473,1726 466,1719 455,1719 450,1725 441,1720 433,1729 424,1724"/>
           <TextEquiv>
@@ -1646,13 +1662,13 @@ vid. jacere. Palinurus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>pter&#13;
-Palantur ſtrepitu, vernaque prata terunt,&#13;
-Von den Gaͤnſen auf dem Acker.&#13;
+        <Unicode>pter
+Palantur ſtrepitu, vernaque prata terunt,
+Von den Gaͤnſen auf dem Acker.
 vid. culex. Palus, udis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644578765960_501" custom="readingOrder {index:32;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644578765960_501" custom="readingOrder {index:32;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="908,1710 1072,1710 1073,1760 908,1760"/>
       <TextLine id="line_1644577556195_150" custom="readingOrder {index:0;}">
         <Coords points="908,1717 948,1718 952,1715 964,1715 970,1722 1026,1722 1035,1713 1055,1713 1062,1720 1072,1720 1072,1754 1000,1755 988,1758 964,1753 908,1754"/>
@@ -1676,12 +1692,12 @@ vid. culex. Palus, udis.</Unicode>
         <Unicode>vid. culex. Palus, udis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577560597_156" custom="readingOrder {index:33;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577560597_156" custom="readingOrder {index:33;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="96,1760 200,1760 200,1888 96,1888"/>
       <TextLine id="line_1644578715194_486" custom="readingOrder {index:0;}">
         <Coords points="180,1804 101,1804 101,1769 180,1769"/>
         <Word id="region0015_line_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="171,1802 171,1769 104,1767 104,1800"/>
+          <Coords points="171,1769 104,1769 104,1800 171,1802"/>
           <TextEquiv conf="0.85983443">
             <Unicode>Tib.</Unicode>
           </TextEquiv>
@@ -1694,10 +1710,10 @@ vid. culex. Palus, udis.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578867897_524" custom="readingOrder {index:34;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578867897_524" custom="readingOrder {index:34;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1760 908,1760 908,1806 200,1806"/>
       <TextLine id="line_1644577567956_164" custom="readingOrder {index:0;}">
-        <Coords points="210,1761 249,1761 272,1768 320,1768 332,1767 339,1758 350,1758 356,1766 363,1767 368,1760 373,1760 386,1764 387,1767 420,1761 438,1766 449,1762 467,1762 483,1768 542,1769 556,1768 566,1763 586,1763 592,1767 624,1767 631,1758 644,1758 657,1766 782,1762 788,1754 799,1754 805,1760 812,1761 875,1762 876,1757 881,1755 908,1754 908,1790 905,1791 880,1795 872,1799 742,1798 736,1801 723,1800 701,1808 673,1805 656,1806 644,1811 634,1806 579,1808 573,1804 557,1804 529,1812 519,1807 494,1806 485,1802 462,1806 396,1803 368,1806 361,1802 266,1805 248,1802 210,1802"/>
+        <Coords points="332,1767 320,1768 272,1768 249,1761 210,1761 210,1802 248,1802 266,1805 361,1802 368,1806 396,1803 462,1806 485,1802 494,1806 550,1806 557,1804 573,1804 576,1806 634,1806 656,1806 673,1805 682,1806 706,1806 723,1800 736,1801 742,1798 872,1799 880,1795 905,1791 908,1790 908,1760 875,1760 875,1762 812,1761 805,1760 783,1760 782,1762 657,1766 647,1760 629,1760 624,1767 592,1767 586,1763 566,1763 556,1768 542,1769 483,1768 467,1762 449,1762 438,1766 420,1761 387,1767 386,1764 373,1760 368,1760 363,1767 356,1766 351,1760 337,1760"/>
         <Word id="word_1644573450702_424" custom="readingOrder {index:0;}">
           <Coords points="217,1761 249,1761 272,1768 320,1768 332,1767 337,1760 351,1760 356,1766 360,1766 360,1802 329,1803 254,1803 248,1802 217,1802"/>
           <TextEquiv conf="0.91475767">
@@ -1736,10 +1752,10 @@ vid. culex. Palus, udis.</Unicode>
         <Unicode>Convenit imbellem palis adjungere vitem. Palus, in</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577567878_160" custom="readingOrder {index:35;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577567878_160" custom="readingOrder {index:35;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="908,1760 1073,1760 1074,1888 908,1888"/>
       <TextLine id="line_1644577567956_163" custom="readingOrder {index:0;}">
-        <Coords points="908,1754 922,1754 964,1754 988,1759 1028,1756 1066,1760 1072,1761 1072,1792 998,1791 986,1794 981,1791 957,1790 908,1790"/>
+        <Coords points="957,1790 981,1791 986,1794 998,1791 1072,1792 1072,1761 1066,1760 908,1760 908,1790"/>
         <Word id="region0022_line0006_word0005" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="981,1791 997,1791 997,1764 920,1764 920,1790 957,1790"/>
           <TextEquiv>
@@ -1760,10 +1776,10 @@ vid. culex. Palus, udis.</Unicode>
         <Unicode>Convenit imbellem palis adjungere vitem. Palus, in</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644578867897_523" custom="readingOrder {index:36;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644578867897_523" custom="readingOrder {index:36;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1806 908,1806 908,1888 200,1888"/>
       <TextLine id="line_1644577567956_166" custom="readingOrder {index:0;}">
-        <Coords points="210,1803 274,1806 298,1803 361,1803 368,1807 427,1804 462,1807 485,1803 494,1807 519,1808 529,1813 557,1805 573,1805 579,1809 634,1807 644,1812 656,1807 673,1806 701,1809 723,1801 736,1802 742,1799 757,1801 800,1798 808,1802 866,1802 880,1796 905,1792 908,1792 908,1847 895,1847 891,1850 882,1850 876,1845 824,1844 788,1845 782,1851 772,1851 766,1846 754,1847 749,1852 726,1849 721,1853 709,1853 704,1849 602,1850 571,1852 565,1859 555,1859 548,1852 475,1851 403,1854 383,1849 318,1848 304,1845 285,1848 269,1845 263,1848 211,1851"/>
+        <Coords points="368,1807 366,1806 274,1806 210,1806 211,1851 263,1848 269,1845 285,1848 304,1845 318,1848 383,1849 403,1854 475,1851 548,1852 555,1859 565,1859 571,1852 602,1850 704,1849 709,1853 721,1853 726,1849 749,1852 754,1847 766,1846 772,1851 782,1851 788,1845 824,1844 876,1845 882,1850 891,1850 895,1847 908,1847 908,1806 709,1806 701,1809 673,1806 656,1807 644,1812 634,1807 579,1809 574,1806 553,1806 529,1813 519,1808 494,1807 491,1806 467,1806 462,1807 450,1806 387,1806"/>
         <Word id="region0022_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="252,1805 215,1805 215,1839 286,1839 286,1805 282,1805 274,1806"/>
           <TextEquiv conf="0.9039938">
@@ -1811,7 +1827,7 @@ vid. culex. Palus, udis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0022_line0008" custom="readingOrder {index:1;}">
-        <Coords points="269,1846 263,1849 224,1852 223,1883 228,1886 267,1891 335,1891 340,1887 351,1887 357,1891 363,1887 390,1890 402,1881 402,1855 397,1852 318,1849 304,1846 285,1849"/>
+        <Coords points="263,1849 224,1852 223,1883 228,1886 243,1888 338,1888 340,1887 351,1887 352,1888 361,1888 363,1887 372,1888 392,1888 402,1881 402,1855 397,1852 318,1849 304,1846 285,1849 269,1846"/>
         <Word id="region0022_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="352,1888 359,1888 359,1855 269,1855 269,1888 338,1888 340,1887 351,1887"/>
           <TextEquiv conf="0.9022926">
@@ -1823,11 +1839,11 @@ vid. culex. Palus, udis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Den Wein⸗Stock muß man an Pfahlen auf⸗&#13;
+        <Unicode>Den Wein⸗Stock muß man an Pfahlen auf⸗
 leiten.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644577573651_171" custom="readingOrder {index:37;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644577573651_171" custom="readingOrder {index:37;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="96,1888 200,1888 200,2056 96,2055"/>
       <TextLine id="line_1644578718287_489" custom="readingOrder {index:0;}">
         <Coords points="104,1893 198,1893 198,1938 104,1938"/>
@@ -1845,10 +1861,10 @@ leiten.</Unicode>
         <Unicode/>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644579070288_611" custom="readingOrder {index:38;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644579070288_611" custom="readingOrder {index:38;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1888 910,1888 910,1932 200,1932"/>
       <TextLine id="line_1644577581440_179" custom="readingOrder {index:0;}">
-        <Coords points="211,1885 295,1894 335,1892 340,1888 351,1888 357,1892 363,1888 374,1888 381,1892 390,1892 403,1890 414,1884 425,1884 431,1888 435,1885 444,1885 450,1892 567,1893 573,1885 614,1883 627,1885 631,1892 646,1892 670,1890 681,1880 693,1880 702,1890 707,1890 782,1888 790,1878 822,1878 826,1881 831,1877 845,1878 849,1886 857,1886 864,1879 877,1878 883,1886 910,1885 910,1923 771,1926 765,1935 737,1939 696,1938 690,1931 658,1934 649,1931 616,1931 610,1928 576,1936 529,1931 471,1930 461,1931 459,1937 451,1942 436,1940 431,1932 211,1932"/>
+        <Coords points="335,1892 295,1894 239,1888 211,1888 211,1932 431,1932 460,1932 461,1931 471,1930 529,1931 538,1932 593,1932 610,1928 616,1931 649,1931 652,1932 679,1932 690,1931 690,1932 767,1932 771,1926 910,1923 910,1888 782,1888 707,1890 702,1890 700,1888 672,1888 670,1890 646,1892 631,1892 628,1888 570,1888 567,1893 450,1892 446,1888 431,1888 406,1888 403,1890 390,1892 381,1892 374,1888 363,1888 357,1892 351,1888 340,1888"/>
         <Word id="word_1644573456905_435" custom="readingOrder {index:0;}">
           <Coords points="219,1888 239,1888 284,1892 284,1917 219,1917"/>
           <TextEquiv conf="0.95881563">
@@ -1905,10 +1921,10 @@ leiten.</Unicode>
         <Unicode>Una mihi eſt panacea, fides, fuge pallida le-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644577581346_175" custom="readingOrder {index:39;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644577581346_175" custom="readingOrder {index:39;} structure {type:marginalia;}" orientation="0.027151447" type="marginalia" readingDirection="left-to-right">
       <Coords points="910,1888 1074,1888 1077,2057 936,2052 910,2052"/>
       <TextLine id="line_1644577581440_178" custom="readingOrder {index:0;}">
-        <Coords points="910,1885 937,1884 966,1889 1069,1887 1073,1890 1073,1918 1069,1921 1035,1921 1029,1926 1020,1926 1009,1921 910,1923"/>
+        <Coords points="966,1889 960,1888 910,1888 910,1923 1009,1921 1020,1926 1029,1926 1035,1921 1069,1921 1073,1918 1073,1890 1070,1888 1017,1888"/>
         <Word id="region0022_line0009_word0008" custom="readingOrder {index:0;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="920,1891 1027,1891 1027,1915 920,1915"/>
           <TextEquiv>
@@ -1923,10 +1939,10 @@ leiten.</Unicode>
         <Unicode>Panacea.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027151447" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644579070288_610" custom="readingOrder {index:40;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644579070288_610" custom="readingOrder {index:40;} structure {type:paragraph;}" orientation="0.027151447" type="paragraph" readingDirection="left-to-right">
       <Coords points="200,1932 910,1932 910,2052 273,2057 200,2056"/>
       <TextLine id="region0022_line0010" custom="readingOrder {index:0;}">
-        <Coords points="606,1929 576,1937 541,1937 538,1941 539,1968 694,1968 696,1965 696,1939 691,1934 618,1933"/>
+        <Coords points="576,1937 541,1937 538,1941 539,1968 694,1968 696,1965 696,1939 691,1934 618,1933 615,1932 594,1932"/>
         <Word id="region0022_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="591,1936 650,1936 650,1965 591,1965"/>
           <TextEquiv conf="0.89583635">
@@ -1980,7 +1996,7 @@ leiten.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0024_line0001" custom="readingOrder {index:2;}">
-        <Coords points="522,2009 502,2013 479,2013 475,2010 401,2010 385,2013 257,2011 255,2061 310,2061 315,2064 341,2061 414,2061 421,2067 431,2067 438,2061 556,2064 621,2056 674,2057 698,2054 703,2049 703,2017 698,2012 617,2013 591,2009"/>
+        <Coords points="502,2013 479,2013 475,2010 401,2010 385,2013 257,2011 255,2056 273,2057 698,2053 703,2049 703,2017 698,2012 617,2013 591,2009 522,2009"/>
         <Word id="region0024_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="260,2024 307,2024 307,2060 260,2060"/>
           <TextEquiv conf="0.9242919">
@@ -2010,12 +2026,12 @@ leiten.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>the.&#13;
-Der Glaube iſt meine Univerſal-Medicin wi⸗ Der Glaube iſt meine Univerſal-Medicin wi⸗ Der Glaube iſt meine Univerſal-Medicin wi⸗&#13;
+        <Unicode>the.
+Der Glaube iſt meine Univerſal-Medicin wi⸗ Der Glaube iſt meine Univerſal-Medicin wi⸗ Der Glaube iſt meine Univerſal-Medicin wi⸗
 der Kranckheit und Todt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676287304927_2077" custom="readingOrder {index:41;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676287304927_2077" custom="readingOrder {index:41;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="605,2059 605,2105 679,2105 679,2059"/>
       <TextLine id="line_1676287305084_2080" custom="readingOrder {index:0;}">
         <Coords points="605,2059 605,2105 679,2105 679,2059"/>
@@ -2039,7 +2055,7 @@ der Kranckheit und Todt.</Unicode>
         <Unicode>F 3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676287309541_2086" custom="readingOrder {index:42;} structure {type:catch-word;}">
+    <TextRegion id="region_1676287309541_2086" custom="readingOrder {index:42;} structure {type:catch-word;}" type="catch-word">
       <Coords points="844,2054 844,2096 908,2096 908,2054"/>
       <TextLine id="line_1676287309687_2089" custom="readingOrder {index:0;}">
         <Coords points="844,2054 844,2096 908,2096 908,2054"/>

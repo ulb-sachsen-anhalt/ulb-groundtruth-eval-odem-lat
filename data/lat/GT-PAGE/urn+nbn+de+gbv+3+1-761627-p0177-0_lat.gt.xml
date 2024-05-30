@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-259">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:01Z</Created>
     <LastChange>2024-01-19T13:10:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-761627-p0177-0_lat.png" imageWidth="1613" imageHeight="2387" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/cdcb4170-19dc-483c-8785-fd043c8d1dfa/00000177.jpg" imageWidth="1613" imageHeight="2387" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="72,289 58,2298 1484,2339 1500,324"/>
     </Border>
@@ -16,12 +32,12 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1660545420503_1006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.3971488" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1660545424127_1011" custom="readingOrder {index:0;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1660545424127_1011" custom="readingOrder {index:0;} structure {type:drop-capital;}" orientation="0.3971488" type="drop-capital" readingDirection="left-to-right">
       <Coords points="161,478 296,478 296,636 161,636"/>
       <TextLine id="line_1660545436700_1031" custom="readingOrder {index:0;}">
-        <Coords points="166,502 240,501 252,501 289,501 296,501 296,611 296,660 257,658 162,629 162,607"/>
+        <Coords points="289,501 252,501 240,501 166,502 162,607 162,629 184,636 296,636 296,611 296,501"/>
         <Word id="word_1660545441003_1038" custom="readingOrder {index:0;}">
-          <Coords points="166,481 206,481 293,489 296,611 296,628 224,629 165,629 164,606"/>
+          <Coords points="293,501 289,501 252,501 240,501 166,502 165,517 164,606 165,629 224,629 296,628 296,611"/>
           <TextEquiv>
             <Unicode>H</Unicode>
           </TextEquiv>
@@ -34,7 +50,7 @@
         <Unicode>H</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3971488" readingDirection="left-to-right" id="TextRegion_1660545424127_1010" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1660545424127_1010" custom="readingOrder {index:1;}" orientation="0.3971488" readingDirection="left-to-right">
       <Coords points="296,501 1056,501 1056,659 296,659"/>
       <TextLine id="line_1660545424163_1013" custom="readingOrder {index:0;}">
         <Coords points="296,501 368,502 374,509 382,509 389,508 393,501 459,501 471,502 475,511 493,512 504,502 527,501 544,503 553,514 584,516 665,516 667,507 673,502 687,504 692,515 791,512 794,502 815,501 818,511 845,511 853,501 876,501 880,510 885,512 918,512 952,505 997,505 1014,515 1055,517 1056,560 963,560 945,557 716,558 710,562 630,563 604,562 595,559 554,560 545,557 296,558"/>
@@ -84,7 +100,7 @@
         <Baseline points="296,598 1056,605"/>
         <Word id="word_1660545424164_1019" custom="readingOrder {index:0;}">
           <Coords points="296,578 443,578 443,605 296,605"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode> mano</Unicode>
           </TextEquiv>
         </Word>
@@ -111,7 +127,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660545424165_1021" custom="readingOrder {index:2;}">
-        <Coords points="296,611 301,613 306,619 368,618 369,612 374,609 392,611 393,618 430,618 460,622 509,619 510,614 518,611 531,613 534,619 609,622 686,620 691,614 707,614 713,620 730,620 740,619 749,613 790,611 798,611 803,614 804,619 811,619 830,618 831,613 836,610 864,610 869,613 870,618 932,619 937,612 950,611 957,614 958,618 1056,621 1055,665 971,664 957,663 950,660 933,663 921,660 899,668 889,663 878,663 873,666 823,667 724,668 709,665 700,669 620,677 599,674 591,666 583,663 429,664 414,661 408,664 364,665 296,660"/>
+        <Coords points="958,618 957,614 950,611 937,612 932,619 870,618 869,613 864,610 836,610 831,613 830,618 811,619 804,619 803,614 798,611 790,611 749,613 740,619 730,620 713,620 707,614 691,614 686,620 609,622 534,619 531,613 518,611 510,614 509,619 460,622 430,618 393,618 392,611 374,609 369,612 368,618 306,619 301,613 296,611 296,659 1055,659 1056,621"/>
         <Baseline points="296,649 587,653 614,659"/>
         <Word id="region0001_line0002_word0002" custom="readingOrder {index:0;}">
           <Coords points="326,644 427,643 427,618 393,618 392,611 374,609 369,612 368,618 326,618"/>
@@ -126,7 +142,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660545530233_1065" custom="readingOrder {index:2;}">
-          <Coords points="551,620 597,620 597,661 551,661"/>
+          <Coords points="551,620 551,661 597,661 597,621 559,620"/>
           <TextEquiv>
             <Unicode>v.</Unicode>
           </TextEquiv>
@@ -138,13 +154,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660545532544_1068" custom="readingOrder {index:4;}">
-          <Coords points="693,616 909,616 909,653 693,653"/>
+          <Coords points="693,616 693,653 909,653 909,618 870,618 869,616 830,616 830,618 811,619 804,619 803,616 744,616 740,619 730,620 713,620 709,616"/>
           <TextEquiv>
             <Unicode>haſtiludia,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660545534220_1071" custom="readingOrder {index:5;}">
-          <Coords points="936,616 1027,616 1027,655 936,655"/>
+          <Coords points="936,616 936,655 1027,655 1027,620 958,618 957,616"/>
           <TextEquiv>
             <Unicode>item</Unicode>
           </TextEquiv>
@@ -154,12 +170,12 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Æc diſtinctio maximam in foro Ro-&#13;
- mano præbebat vtilitatem. Ludi&#13;
+        <Unicode>Æc diſtinctio maximam in foro Ro-
+ mano præbebat vtilitatem. Ludi
 enim artis gr. v. haſtiludia, item</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3971488" readingDirection="left-to-right" id="TextRegion_1660545420503_1006" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1660545420503_1006" custom="readingOrder {index:2;}" orientation="0.3971488" readingDirection="left-to-right">
       <Coords points="161,659 1056,659 1056,2076 161,2076"/>
       <TextLine id="region0001_line0004" custom="readingOrder {index:0;}">
         <Coords points="277,660 271,670 161,668 162,712 177,711 202,720 204,714 324,713 332,726 348,725 352,723 352,717 358,715 388,714 394,718 466,716 548,720 698,720 716,717 722,720 775,721 789,718 831,720 832,724 839,728 858,727 864,720 900,719 926,714 1056,717 1055,671 958,669 957,664 950,661 934,664 915,662 905,666 901,671 897,671 889,664 878,664 873,667 872,673 726,674 725,669 721,667 709,666 702,669 701,674 620,678 599,675 591,667 583,664 575,665 571,674 556,674 554,665 548,663 533,665 530,673 510,674 432,671 431,666 423,662 411,663 406,670 301,670 299,663"/>
@@ -214,7 +230,7 @@ enim artis gr. v. haſtiludia, item</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0005_word0001" custom="readingOrder {index:1;}">
-          <Coords points="257,719 257,723 255,723 255,768 267,767 276,772 285,772 288,773 314,773 319,769 329,769 334,772 427,769 464,773 516,770 516,723 472,726 471,720 469,719 443,719 443,726 433,726 396,724 395,719 356,719 354,724 332,727 327,719 309,719 308,723 298,723 296,719"/>
+          <Coords points="255,723 255,768 267,767 276,772 285,772 288,773 314,773 319,769 329,769 334,772 427,769 464,773 516,770 516,727 472,726 471,720 469,719 444,719 443,726 433,726 396,724 395,719 356,719 354,724 332,727 327,719 309,719 308,723 298,723 296,719 257,719 257,723"/>
           <TextEquiv conf="0.91835696">
             <Unicode>digladiando,</Unicode>
           </TextEquiv>
@@ -845,7 +861,7 @@ enim artis gr. v. haſtiludia, item</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0018_word0003" custom="readingOrder {index:3;}">
-          <Coords points="676,1399 580,1399 580,1405 580,1456 583,1457 632,1459 635,1459 661,1459 736,1456 736,1410 695,1402"/>
+          <Coords points="580,1399 580,1402 576,1406 576,1408 580,1412 580,1456 583,1457 593,1452 609,1452 630,1455 632,1459 635,1459 639,1459 645,1458 647,1459 661,1459 662,1459 663,1456 696,1456 711,1453 717,1456 726,1456 736,1456 736,1410 698,1410 695,1402 676,1399 661,1401 657,1403 656,1409 596,1409 584,1408 584,1406 581,1403 582,1401"/>
           <TextEquiv conf="0.9261425">
             <Unicode>amplius</Unicode>
           </TextEquiv>
@@ -1359,32 +1375,32 @@ enim artis gr. v. haſtiludia, item</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>quando pretium ei decernitur, qui ſaltan-&#13;
-do, digladiando, perorando, &amp;c. reliquos&#13;
-vincit, iure Romano omnino erant permiſ-&#13;
-ſi, v. l.3. ff. h.t. At vero ludi fortunæ v. gr.&#13;
-quando teſſeris luditur, nec non ludi mixti,&#13;
-v. gr. chartis luſoriis &amp; ſimilibus, in totum&#13;
-prohibiti erant, l. f. C. h.t. Hodie non mo-&#13;
-do plurimi DD. teſtantur, ſed experientia&#13;
-quoque hoc comprobat, omnes ludos eſſe&#13;
-permiſſos, quippe qui maxime in ipſis aulis&#13;
-frequentantur, &amp; illi, qui ludendo ſuccu-&#13;
-buerunt, ad perditum ſoluendum omnino&#13;
-adſtringuntur. a) Hinc ſua ſponte conſe-&#13;
-quitur, adlatam diſtinctionem apud nos in&#13;
-praxi nullum vſum amplius præſtare. Alia&#13;
-quæſtio eſt: annon Principes melius face-&#13;
-rent, ſi prohibitionem iuris Romani in fo-&#13;
-ro iterum introducerent? quam quidem&#13;
-affirmamus, ſed ad nos non pertinet po-&#13;
-teſtas legislatoria, nec etiam principes a&#13;
-nobis deſiderarunt, vt hac parte ipſis con-&#13;
-ſilia ad nouas leges ferendas fuppeditemus.&#13;
-Ergo expectandum eſt tempus, vbi forſan&#13;
-ludi fortunæ &amp; mixti propter maximum&#13;
-eorum abuſum, præſertim apud iuuenes,&#13;
-qui negari non poteſt, iterum abrogabun-&#13;
+        <Unicode>quando pretium ei decernitur, qui ſaltan-
+do, digladiando, perorando, &amp;c. reliquos
+vincit, iure Romano omnino erant permiſ-
+ſi, v. l.3. ff. h.t. At vero ludi fortunæ v. gr.
+quando teſſeris luditur, nec non ludi mixti,
+v. gr. chartis luſoriis &amp; ſimilibus, in totum
+prohibiti erant, l. f. C. h.t. Hodie non mo-
+do plurimi DD. teſtantur, ſed experientia
+quoque hoc comprobat, omnes ludos eſſe
+permiſſos, quippe qui maxime in ipſis aulis
+frequentantur, &amp; illi, qui ludendo ſuccu-
+buerunt, ad perditum ſoluendum omnino
+adſtringuntur. a) Hinc ſua ſponte conſe-
+quitur, adlatam diſtinctionem apud nos in
+praxi nullum vſum amplius præſtare. Alia
+quæſtio eſt: annon Principes melius face-
+rent, ſi prohibitionem iuris Romani in fo-
+ro iterum introducerent? quam quidem
+affirmamus, ſed ad nos non pertinet po-
+teſtas legislatoria, nec etiam principes a
+nobis deſiderarunt, vt hac parte ipſis con-
+ſilia ad nouas leges ferendas fuppeditemus.
+Ergo expectandum eſt tempus, vbi forſan
+ludi fortunæ &amp; mixti propter maximum
+eorum abuſum, præſertim apud iuuenes,
+qui negari non poteſt, iterum abrogabun-
 tur.</Unicode>
       </TextEquiv>
     </TextRegion>

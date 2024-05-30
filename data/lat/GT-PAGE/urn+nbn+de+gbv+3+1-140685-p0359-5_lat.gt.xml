@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-39">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:18Z</Created>
     <LastChange>2024-01-19T13:07:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-140685_urn+nbn+de+gbv+3+1-140685-p0359-5_lat.png" imageWidth="1466" imageHeight="2210" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/4d43d25f-fa74-4d99-88f9-2c7dfe5579cc/00000359.jpg" imageWidth="1466" imageHeight="2210" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="91,194 85,2119 1219,2116 1202,183"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676533307205_484"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676533296450_475" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676533296450_475" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="462,297 462,339 703,339 703,297"/>
       <TextLine id="line_1676533296520_478" custom="readingOrder {index:0;}">
         <Coords points="462,297 462,339 703,339 703,297"/>
@@ -43,7 +58,7 @@
         <Unicode>Appendix II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676533292001_466" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676533292001_466" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="945,297 945,344 1004,344 1004,297"/>
       <TextLine id="line_1676533292056_469" custom="readingOrder {index:0;}">
         <Coords points="945,297 945,344 1004,344 1004,297"/>
@@ -61,7 +76,7 @@
         <Unicode>167</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21762961" type="paragraph" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;} structure {type:paragraph;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;} structure {type:paragraph;}" orientation="-0.21762961" type="paragraph" readingDirection="left-to-right">
       <Coords points="126,348 931,353 922,1762 117,1757"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="126,349 126,402 179,404 187,408 220,412 302,413 311,410 326,415 383,420 391,424 400,424 409,418 421,421 454,420 476,419 484,415 500,416 505,423 515,424 524,419 550,415 556,415 566,424 576,420 660,419 666,416 678,418 683,415 706,416 717,423 726,420 753,420 759,424 768,424 774,420 808,417 814,420 856,422 867,427 879,424 930,425 930,359 867,361 858,364 853,371 811,370 806,366 798,366 793,370 780,369 775,368 768,360 757,360 747,364 678,363 673,367 656,369 596,371 595,364 590,358 575,357 570,362 558,363 553,371 520,371 514,362 504,362 493,370 463,370 452,361 442,361 432,367 415,364 410,360 391,360 386,364 315,366 308,357 295,356 289,363 250,360 234,349"/>
@@ -492,7 +507,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1644232383553_1718" custom="readingOrder {index:1;}">
-          <Coords points="334,875 376,875 475,875 511,881 539,894 539,923 511,927 466,930 354,937 338,937 332,933 332,876"/>
+          <Coords points="376,875 367,875 365,877 353,878 334,875 332,876 332,933 338,937 354,937 354,937 363,933 466,930 483,925 507,927 511,927 539,923 539,894 512,881 482,881 475,875 461,875 447,880 377,884 372,882 376,875"/>
           <TextEquiv>
             <Unicode>Prancken/</Unicode>
           </TextEquiv>
@@ -600,7 +615,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1644232713356_1824" custom="readingOrder {index:1;}">
-          <Coords points="228,1037 332,1037 376,1037 574,1038 605,1048 605,1079 580,1090 462,1089 380,1088 245,1084 228,1079"/>
+          <Coords points="228,1037 228,1079 229,1079 233,1075 241,1074 245,1084 262,1077 275,1082 327,1082 372,1087 380,1088 417,1088 446,1088 456,1084 462,1089 491,1085 559,1089 560,1089 580,1090 605,1079 605,1048 583,1041 577,1041 573,1037 567,1037 557,1040 513,1040 482,1037 377,1037 376,1039 356,1039 322,1037"/>
           <TextEquiv>
             <Unicode>Pfauen⸗Schwantz/</Unicode>
           </TextEquiv>
@@ -720,7 +735,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1644232420074_1737" custom="readingOrder {index:1;}">
-          <Coords points="308,1193 608,1194 644,1203 644,1237 608,1241 535,1244 329,1243 308,1238"/>
+          <Coords points="308,1193 308,1238 314,1238 329,1243 342,1235 377,1238 384,1243 393,1243 399,1238 407,1238 412,1242 443,1237 497,1241 527,1236 535,1244 546,1240 602,1241 608,1241 644,1237 644,1203 608,1194 574,1194 571,1194 571,1194"/>
           <TextEquiv>
             <Unicode>Hirſch ⸗ Geſtirn/</Unicode>
           </TextEquiv>
@@ -1084,36 +1099,36 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Thurniers⸗Helm herfuͤr/ und ſtehet auf&#13;
-den euſſern oder lincken zwiſchen einen&#13;
-doppelten Hirſch ⸗ Geſtirn von ſechs/&#13;
-als unten drey und oben ſo viel Zincken/&#13;
-derendas euſſere roth und innere Ge⸗&#13;
-ſtirn weiß iſt/ ein uͤber ſich ausgebreite⸗&#13;
-ter blau geſpiegelter Pfauẽ⸗Schwantz/&#13;
-auf der mitten oder andern Thurniers⸗&#13;
-Helm aber uͤber und vor ſich in vorder&#13;
-Theile ein gekroͤhnter Loͤw mit ausge⸗&#13;
-ſtreckten Prancken/ roth ausgeſchla⸗&#13;
-gener Zungen/ auf deſſen Kron uͤber ſich&#13;
-auch ein ausgebreiteter blaugeſpiegel⸗&#13;
-ter Pfauen⸗Schwantz/ mit einem gel⸗&#13;
-ben Rechen/ und dann auf den vordern&#13;
-oder dritten Helm zwiſchen zweyen&#13;
-rothen Hirſch ⸗ Geſtirn/ iedes von&#13;
-ſechs/ als unten drey und oben ſo&#13;
-viel Enden entſpringenden/ ein auff⸗&#13;
-rechts und einwerths gekehrter aus⸗&#13;
-gebreiteter ſchwartzer Adler zum Flug&#13;
-geſchickt/ allermaſſen ſolch uniret/&#13;
-vermehret/ gezieret/ und verbeſſert&#13;
-Graͤfliches Wappen/ in Mitte dieſes&#13;
-unſers Kaͤyſerlichen Brieffs gemah⸗&#13;
-let/ und mit Farben eigentlich aus⸗&#13;
+        <Unicode>Thurniers⸗Helm herfuͤr/ und ſtehet auf
+den euſſern oder lincken zwiſchen einen
+doppelten Hirſch ⸗ Geſtirn von ſechs/
+als unten drey und oben ſo viel Zincken/
+derendas euſſere roth und innere Ge⸗
+ſtirn weiß iſt/ ein uͤber ſich ausgebreite⸗
+ter blau geſpiegelter Pfauẽ⸗Schwantz/
+auf der mitten oder andern Thurniers⸗
+Helm aber uͤber und vor ſich in vorder
+Theile ein gekroͤhnter Loͤw mit ausge⸗
+ſtreckten Prancken/ roth ausgeſchla⸗
+gener Zungen/ auf deſſen Kron uͤber ſich
+auch ein ausgebreiteter blaugeſpiegel⸗
+ter Pfauen⸗Schwantz/ mit einem gel⸗
+ben Rechen/ und dann auf den vordern
+oder dritten Helm zwiſchen zweyen
+rothen Hirſch ⸗ Geſtirn/ iedes von
+ſechs/ als unten drey und oben ſo
+viel Enden entſpringenden/ ein auff⸗
+rechts und einwerths gekehrter aus⸗
+gebreiteter ſchwartzer Adler zum Flug
+geſchickt/ allermaſſen ſolch uniret/
+vermehret/ gezieret/ und verbeſſert
+Graͤfliches Wappen/ in Mitte dieſes
+unſers Kaͤyſerlichen Brieffs gemah⸗
+let/ und mit Farben eigentlich aus⸗
 geſtrichen iſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676533310373_493" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676533310373_493" custom="readingOrder {index:3;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="562,1903 562,1964 647,1964 647,1903"/>
       <TextLine id="line_1676533310433_496" custom="readingOrder {index:0;}">
         <Coords points="562,1903 562,1964 647,1964 647,1903"/>
@@ -1137,7 +1152,7 @@ geſtrichen iſt.</Unicode>
         <Unicode>L 4</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676533307205_484" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676533307205_484" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="746,1908 746,1950 883,1950 883,1908"/>
       <TextLine id="line_1676533307257_487" custom="readingOrder {index:0;}">
         <Coords points="746,1908 746,1950 883,1950 883,1908"/>

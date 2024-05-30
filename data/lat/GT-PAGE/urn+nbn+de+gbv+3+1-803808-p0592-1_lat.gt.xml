@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-293">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:31Z</Created>
     <LastChange>2024-01-19T13:10:31Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-803808-p0592-1_lat.png" imageWidth="3024" imageHeight="4207" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/0a746c14-f002-4056-8041-a81353aff1ba/00000592.jpg" imageWidth="3024" imageHeight="4207" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="144,134 146,4081 2514,4058 2476,107"/>
     </Border>
@@ -40,7 +55,7 @@
         <RegionRefIndexed index="25" regionRef="region_1683028952872_251"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683028635524_72" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683028635524_72" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="1053,292 1053,339 1485,339 1485,292"/>
       <TextLine id="line_1683028635843_75" custom="readingOrder {index:0;}">
         <Coords points="1053,292 1053,339 1485,339 1485,292"/>
@@ -64,7 +79,7 @@
         <Unicode>Conſilium XXIX.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683028639098_81" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683028639098_81" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="2210,285 2210,353 2343,353 2343,285"/>
       <TextLine id="line_1683028639382_84" custom="readingOrder {index:0;}">
         <Coords points="2210,285 2210,353 2343,353 2343,285"/>
@@ -82,10 +97,10 @@
         <Unicode>565</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671294158_1176" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671294158_1176" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,409 252,409 252,505 176,505"/>
       <TextLine id="line_1668671240603_824" custom="readingOrder {index:0;}">
-        <Coords points="176,430 209,422 255,426 270,432 270,475 227,476 197,483 177,484"/>
+        <Coords points="209,422 176,430 177,484 197,483 227,476 252,475 252,425"/>
         <Baseline points="177,468 270,467"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="181,430 245,429 246,475 182,476"/>
@@ -101,10 +116,10 @@
         <Unicode>981</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671288389_1160" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671288389_1160" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,857 253,857 253,982 176,982"/>
       <TextLine id="line_1668671240624_860" custom="readingOrder {index:0;}">
-        <Coords points="177,870 194,867 219,865 270,868 270,914 229,915 225,918 212,918 206,915 195,925 183,926 178,922 176,913"/>
+        <Coords points="219,865 194,867 177,870 176,913 178,922 183,926 195,925 206,915 212,918 225,918 229,915 253,914 253,867"/>
         <Baseline points="176,905 270,902"/>
         <Word id="region0002_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="248,873 186,874 186,918 203,917 206,915 211,917 225,917 229,915 248,914"/>
@@ -117,7 +132,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671285386_1154" custom="readingOrder {index:1;}">
-        <Coords points="180,929 208,926 212,923 270,920 270,966 269,967 262,974 249,977 197,982 176,982 176,930"/>
+        <Coords points="212,923 208,926 180,929 176,930 176,982 197,982 249,977 253,976 253,920"/>
         <Baseline points="176,971 270,955"/>
         <Word id="region0002_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="184,968 245,967 245,924 209,924 208,926 184,928"/>
@@ -130,14 +145,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>982 ubi idem in venditione faſcium, lignorum &amp; anno-&#13;
+        <Unicode>982 ubi idem in venditione faſcium, lignorum &amp; anno-
 983 næ obtinere ſtatuit. Addo eundem Nattam conſil.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671281705_1144" custom="readingOrder {index:4;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671281705_1144" custom="readingOrder {index:4;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,1504 255,1506 255,1603 176,1601"/>
       <TextLine id="line_1668671240652_908" custom="readingOrder {index:0;}">
-        <Coords points="213,1513 225,1513 233,1517 270,1517 270,1556 252,1558 250,1563 242,1561 233,1562 227,1569 216,1572 176,1575 177,1521 208,1517"/>
+        <Coords points="233,1517 225,1513 213,1513 208,1517 177,1521 176,1575 216,1572 227,1569 233,1562 242,1561 250,1563 252,1558 255,1557 255,1517"/>
         <Word id="region0002_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="212,1514 208,1517 191,1519 191,1559 252,1558 252,1558 257,1558 257,1518 233,1517 226,1513"/>
           <TextEquiv>
@@ -152,10 +167,10 @@
         <Unicode>984</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671277076_1132" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671277076_1132" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,1942 254,1939 254,2018 176,2021 176,1948"/>
       <TextLine id="line_1668671240679_942" custom="readingOrder {index:0;}">
-        <Coords points="221,1948 239,1950 270,1945 270,2003 191,2005 192,1955 216,1952"/>
+        <Coords points="239,1950 221,1948 216,1952 192,1955 191,2005 254,2003 254,1947"/>
         <Baseline points="191,1996 270,1990"/>
         <Word id="word_1668671240680_944" custom="readingOrder {index:0;}">
           <Coords points="221,1948 239,1950 262,1946 270,1946 270,1990 197,1991 197,1954 216,1952"/>
@@ -171,7 +186,7 @@
         <Unicode>985</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671271909_1118" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671271909_1118" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,2186 270,2186 270,2254 176,2254"/>
       <TextLine id="line_1668671272096_1121" custom="readingOrder {index:0;}">
         <Coords points="195,2186 270,2186 270,2228 261,2232 215,2239 207,2243 188,2243 189,2187"/>
@@ -190,14 +205,14 @@
         <Unicode>586 ubi addit, ejusmodi ſtatutum tollere libertatem pu-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671266251_1104" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671266251_1104" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="176,2373 270,2373 270,2447 177,2447"/>
       <TextLine id="line_1668671240709_974" custom="readingOrder {index:0;}">
         <Coords points="188,2380 229,2378 270,2380 270,2427 257,2428 251,2434 237,2434 233,2430 204,2434 189,2433"/>
         <Baseline points="189,2420 270,2419"/>
         <Word id="region0005_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="193,2387 258,2386 259,2427 194,2428"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>987</Unicode>
           </TextEquiv>
         </Word>
@@ -209,10 +224,10 @@
         <Unicode>987 conſil. 32 r. n. 2. Haud ſecus, ut ſi vel ſex aut ſeptem</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671262603_1086" custom="readingOrder {index:8;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671262603_1086" custom="readingOrder {index:8;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="178,2612 270,2612 270,2668 179,2668"/>
       <TextLine id="line_1668671262784_1093" custom="readingOrder {index:0;}">
-        <Coords points="221,2612 225,2612 238,2617 270,2620 270,2670 246,2668 189,2671 188,2616 219,2614"/>
+        <Coords points="221,2612 219,2614 188,2616 188,2668 246,2668 270,2668 270,2620 238,2617 225,2612"/>
         <Baseline points="189,2658 270,2658"/>
         <Word id="region0005_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="195,2619 196,2662 260,2661 259,2619 249,2618"/>
@@ -228,7 +243,7 @@
         <Unicode>988 27. verſ. Item adde. Et collegium Notariorum non</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671258918_1078" custom="readingOrder {index:9;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671258918_1078" custom="readingOrder {index:9;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="180,2878 270,2878 270,2947 181,2947"/>
       <TextLine id="line_1668671240734_1010" custom="readingOrder {index:0;}">
         <Coords points="216,2880 270,2885 270,2925 247,2929 228,2938 189,2936 188,2883 212,2883"/>
@@ -247,7 +262,7 @@
         <Unicode>989</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671254595_1064" custom="readingOrder {index:10;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671254595_1064" custom="readingOrder {index:10;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="184,3435 270,3435 270,3520 185,3520"/>
       <TextLine id="line_1668671240786_1056" custom="readingOrder {index:0;}">
         <Coords points="198,3454 270,3457 270,3495 254,3498 232,3509 188,3510 189,3455"/>
@@ -265,7 +280,7 @@
         <Unicode>990</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" readingDirection="left-to-right" id="TextRegion_1668671240430_816" custom="readingOrder {index:11;}">
+    <TextRegion id="TextRegion_1668671240430_816" custom="readingOrder {index:11;}" orientation="0.4439486" readingDirection="left-to-right">
       <Coords points="257,368 1302,367 1319,1930 1319,2005 1314,3838 261,3839"/>
       <TextLine id="line_1668671240600_819" custom="readingOrder {index:0;}">
         <Coords points="270,383 398,381 399,373 404,368 421,369 427,379 487,379 497,368 518,367 523,378 527,380 597,379 601,376 613,379 704,378 717,376 727,368 801,367 815,368 821,376 889,377 927,376 934,368 1026,367 1037,375 1095,379 1117,379 1125,369 1138,370 1143,379 1167,378 1172,367 1191,368 1195,378 1202,379 1236,371 1301,369 1301,418 1223,423 1048,423 1019,418 1004,422 829,423 818,420 804,424 772,424 732,421 706,422 704,428 689,431 678,420 646,420 610,422 608,431 593,435 572,418 544,423 499,422 488,434 475,432 474,425 470,423 396,423 384,419 371,420 353,433 314,431 301,434 273,427 270,426"/>
@@ -1394,7 +1409,7 @@
         </Word>
         <Word id="region0002_line0019_word0003" custom="readingOrder {index:3;}">
           <Coords points="827,1252 821,1254 756,1254 756,1300 770,1297 789,1304 807,1305 819,1301 852,1301 863,1293 869,1297 869,1306 881,1305 896,1298 916,1301 934,1300 934,1251 929,1251 891,1255 850,1254 845,1251"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>angelegtes</Unicode>
           </TextEquiv>
         </Word>
@@ -1473,7 +1488,7 @@
         <Coords points="270,1355 373,1355 411,1350 421,1353 474,1354 497,1353 517,1347 529,1351 559,1349 601,1353 607,1349 614,1349 619,1356 637,1353 654,1346 677,1346 687,1351 747,1354 765,1351 772,1347 785,1347 790,1351 848,1352 855,1355 872,1354 878,1349 909,1353 973,1345 979,1348 1008,1350 1036,1347 1042,1350 1090,1349 1098,1352 1150,1348 1164,1354 1194,1353 1206,1358 1252,1349 1261,1354 1301,1353 1302,1398 1275,1400 1267,1395 1258,1395 1247,1401 1207,1401 1173,1400 1154,1395 1146,1400 1066,1400 1058,1395 1051,1395 1044,1398 998,1397 984,1401 933,1401 891,1398 884,1395 854,1398 838,1393 826,1393 814,1398 642,1400 624,1395 608,1399 603,1396 575,1398 569,1395 537,1395 532,1398 504,1401 490,1396 477,1401 443,1397 435,1401 389,1395 383,1398 339,1398 308,1403 270,1399"/>
         <Baseline points="270,1391 1302,1387"/>
         <Word id="word_1668672541527_1918" custom="readingOrder {index:0;}">
-          <Coords points="270,1366 370,1366 395,1369 395,1395 383,1398 320,1401 287,1401 270,1399"/>
+          <Coords points="395,1395 395,1369 370,1366 270,1366 270,1399 289,1401 320,1401 321,1401 339,1398 383,1398 389,1395 393,1396"/>
           <TextEquiv>
             <Unicode>werde/</Unicode>
           </TextEquiv>
@@ -2193,7 +2208,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0002" custom="readingOrder {index:2;}">
-          <Coords points="387,1936 388,1987 499,1986 500,1985 587,1983 703,1983 743,1982 743,1937 656,1939 652,1934 632,1934 629,1940 606,1941 566,1940 562,1934 542,1935 540,1940 507,1942 451,1940 442,1935"/>
+          <Coords points="388,1987 499,1986 500,1985 587,1983 703,1983 743,1982 743,1937 729,1937 729,1940 713,1940 656,1939 652,1934 633,1934 629,1940 606,1941 566,1940 562,1934 543,1934 540,1940 507,1942 451,1940 441,1935 387,1936"/>
           <TextEquiv>
             <Unicode>Quemadmodum,</Unicode>
           </TextEquiv>
@@ -2553,7 +2568,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0006_word0003" custom="readingOrder {index:3;}">
-          <Coords points="681,2271 832,2274 831,2236 719,2233 680,2233"/>
+          <Coords points="825,2273 830,2272 831,2272 831,2236 719,2233 680,2233 681,2271"/>
           <TextEquiv conf="0.91028494">
             <Unicode>valere:</Unicode>
           </TextEquiv>
@@ -3506,7 +3521,7 @@
         <Coords points="285,3062 294,3062 299,3066 359,3067 403,3059 440,3063 453,3061 478,3068 505,3068 512,3065 574,3065 587,3060 596,3061 601,3065 649,3060 660,3064 702,3066 828,3061 842,3064 884,3057 915,3060 926,3055 937,3055 945,3061 972,3061 980,3056 989,3056 997,3061 1092,3062 1243,3060 1248,3056 1267,3060 1284,3056 1292,3061 1310,3061 1310,3104 1240,3105 1233,3100 1211,3102 1191,3094 1184,3099 1184,3105 1177,3109 1163,3097 1153,3108 1143,3106 1138,3101 1119,3104 1019,3106 1015,3103 971,3105 940,3102 917,3106 883,3105 878,3108 854,3105 844,3109 831,3109 820,3105 810,3110 785,3107 774,3111 767,3106 753,3109 634,3110 628,3107 603,3106 597,3109 568,3110 558,3115 539,3114 533,3110 482,3110 472,3106 461,3106 453,3110 446,3106 429,3105 423,3111 411,3111 372,3106 315,3111 289,3107 282,3111 270,3111 270,3064 282,3065"/>
         <Baseline points="270,3100 851,3098 1198,3086 1310,3093"/>
         <Word id="word_1668673588990_2499" custom="readingOrder {index:0;}">
-          <Coords points="270,3071 375,3064 378,3064 562,3068 562,3113 559,3114 539,3114 270,3111"/>
+          <Coords points="270,3071 270,3111 282,3111 289,3107 315,3111 372,3106 411,3111 423,3111 429,3105 446,3106 453,3110 461,3106 472,3106 482,3110 533,3110 539,3114 559,3114 562,3113 562,3068 507,3066 505,3068 478,3068 470,3066 378,3064 375,3064 359,3067 335,3066"/>
           <TextEquiv>
             <Unicode>licey ⸗ Ordnung</Unicode>
           </TextEquiv>
@@ -3597,7 +3612,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1668673665740_2583" custom="readingOrder {index:5;}">
-          <Coords points="935,3110 1160,3100 1207,3100 1233,3101 1287,3104 1298,3108 1298,3157 1145,3158 1122,3158 935,3156"/>
+          <Coords points="935,3110 935,3156 951,3156 991,3153 996,3157 1006,3157 1008,3156 1115,3156 1120,3158 1122,3158 1145,3158 1147,3158 1153,3153 1194,3152 1200,3156 1218,3153 1226,3157 1252,3157 1253,3157 1298,3157 1298,3108 1293,3108 1287,3104 1262,3104 1254,3109 1241,3107 1233,3101 1211,3103 1207,3100 1207,3100 1188,3100 1187,3105 1177,3110 1165,3100 1161,3100 1153,3109 1143,3107 1138,3102 1040,3108 1020,3109 1017,3106"/>
           <TextEquiv>
             <Unicode>Auſ⸗ und Fuͤrkaͤuffe</Unicode>
           </TextEquiv>
@@ -3824,7 +3839,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0030_word0001" custom="readingOrder {index:1;}">
-          <Coords points="419,3369 353,3370 359,3398 368,3402 370,3395 378,3397 419,3399"/>
+          <Coords points="353,3370 359,3398 369,3397 369,3398 370,3395 378,3397 419,3399 419,3369"/>
           <TextEquiv conf="0.90537834">
             <Unicode>per</Unicode>
           </TextEquiv>
@@ -4051,7 +4066,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1668674111613_2925" custom="readingOrder {index:3;}">
-          <Coords points="669,3592 704,3588 712,3588 764,3592 764,3638 619,3638 619,3597"/>
+          <Coords points="704,3588 698,3594 663,3592 619,3597 619,3638 654,3638 666,3636 673,3638 735,3638 738,3637 746,3638 751,3633 761,3638 764,3638 764,3592 732,3595 716,3599 707,3594 712,3588"/>
           <TextEquiv>
             <Unicode>Sachen</Unicode>
           </TextEquiv>
@@ -4198,7 +4213,7 @@
         <Coords points="331,3737 347,3738 351,3745 358,3747 425,3737 438,3740 503,3742 561,3736 567,3739 593,3741 705,3743 711,3746 721,3746 737,3738 744,3745 757,3746 767,3743 774,3737 792,3736 810,3741 849,3741 864,3736 878,3735 887,3738 893,3735 908,3734 919,3739 961,3741 965,3736 979,3734 987,3740 1162,3740 1167,3733 1181,3733 1196,3735 1203,3742 1286,3740 1294,3743 1310,3743 1309,3786 1281,3790 1224,3790 1166,3784 1077,3784 1071,3792 1056,3793 1047,3784 841,3786 835,3783 820,3783 813,3787 794,3788 733,3786 694,3794 680,3789 621,3787 581,3789 576,3786 564,3786 553,3790 475,3786 365,3790 354,3794 342,3794 307,3789 270,3789 270,3743 323,3742"/>
         <Baseline points="270,3778 1309,3776"/>
         <Word id="word_1668674225654_3036" custom="readingOrder {index:0;}">
-          <Coords points="280,3745 376,3744 432,3744 526,3751 526,3781 432,3788 365,3790 319,3791 280,3789"/>
+          <Coords points="280,3745 280,3789 307,3789 321,3791 365,3790 443,3787 526,3781 526,3751 432,3744 378,3744 358,3747 351,3745 351,3744"/>
           <TextEquiv>
             <Unicode>auſgerichteter</Unicode>
           </TextEquiv>
@@ -4238,7 +4253,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671240783_1053" custom="readingOrder {index:70;}">
-        <Coords points="270,3791 300,3790 354,3795 362,3792 432,3791 475,3787 553,3791 564,3787 600,3791 621,3788 631,3791 673,3790 694,3795 733,3787 810,3790 820,3784 835,3784 842,3787 843,3791 954,3790 960,3796 961,3825 952,3828 885,3833 857,3841 846,3837 834,3837 824,3841 815,3833 802,3831 710,3832 701,3836 680,3829 672,3832 652,3829 640,3834 628,3831 596,3834 547,3831 540,3835 491,3836 483,3832 463,3832 443,3838 382,3841 370,3847 351,3847 345,3842 335,3841 299,3846 270,3846"/>
+        <Coords points="885,3833 952,3828 961,3825 960,3796 954,3790 843,3791 842,3787 835,3784 820,3784 810,3790 733,3787 694,3795 673,3790 631,3791 621,3788 600,3791 564,3787 553,3791 475,3787 432,3791 362,3792 354,3795 300,3790 270,3791 270,3838 425,3838 443,3838 463,3832 483,3832 491,3836 540,3835 547,3831 596,3834 628,3831 640,3834 652,3829 672,3832 680,3829 701,3836 710,3832 802,3831 815,3833 821,3838 830,3838 834,3837 846,3837 849,3838 866,3838"/>
         <Baseline points="270,3834 502,3823 679,3819 835,3826 961,3820"/>
         <Word id="region0005_line0039_word0000" custom="readingOrder {index:0;}">
           <Coords points="413,3799 280,3800 281,3842 330,3842 335,3841 341,3842 382,3841 382,3841 414,3839"/>
@@ -4275,80 +4290,80 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>n. 347. de teſtam. p. 1. poſt Lucam de Penna in l. i. C.&#13;
-ne ruſt. ad ull. obſeq. Et dominus prohibere non poſ-&#13;
-ſit ſubditis, ne animalia ſua extrahant ad loca extera,&#13;
-ubiea cariùs vendere poſſint, neque jubere iſto caſu,&#13;
-ut teneantur vendere domino ejusq́; macellariis in&#13;
-ſuo dominio, cùm ſit contra juris communis diſpo-&#13;
-ſitionem, ut quis vendat rem ſuam minori pretio,&#13;
-quàm ab alio haberi poſſit, aut res etiam valeat. Nat-&#13;
-ta conſ.83. n. 4. Covar. 3. var. Reſol. 114. n. 6. quos&#13;
-refert &amp; ſequitur Bertazz. conſil. civil. 21. n 47. &amp; 48.&#13;
-982 ubi idem in venditione faſcium, lignorum &amp; anno-&#13;
-983 næ obtinere ſtatuit. Addo eundem Nattam conſil.&#13;
-43. n. 1. &amp; 29. &amp; 554. n. 31. quo loci contendit, e-&#13;
-tiam conſuetudinem vendendi hordeũ &amp; vina Prin-&#13;
-cipi viliori pretio, tanquam violentam, non valere,&#13;
-niſi ex libero civium conſenſu oriatur.&#13;
-Zum Vierdten/ wann man das Werck eigentlich/ wie&#13;
-es beſchaffen/ tauffen will/ als iſt ſo viel ohnſchwer zu&#13;
-vermercken/daß durch ſolch angelegtes Verbot der Victu-&#13;
-alien und anderer Handthierung halben dahin gezielet&#13;
-werde/ dergeſtalt die Gewerb von der Stadt Landau ab/&#13;
-ins Pfaͤltziſche Gebiet zu transferiren und einen eigennuͤ⸗&#13;
-tzigen monopoliſchen Vortheil zu erjagen.&#13;
-Welches den gemeinen Rechten und dero Lehrer Mei⸗&#13;
-nung nicht allen è diametro entgegen/ die alle Statu-&#13;
-ta, dadurch ein monopolium eingefuͤhrt und fovirt&#13;
-wird/vor unzulaͤſſig und verboten achten/ Innocent. in&#13;
-c. cum acceſſiſſent. de conſtit. Dd. inl. 1. C. de mono-&#13;
-pol. Rol. conſil. 22. n. 9. vol. 2. Surd. conſil. 321.n. 25.&#13;
-Cacheran. deciſ. 17. n. 16. Sola in Conſtit. Sabaud.&#13;
-ſub rubr. de accuſat. &amp; inquiſit. tit. de proceſſu in-&#13;
-quiſitorial. gl. 1. partis n. 11. Grammat. deciſ. 100.&#13;
-n. 12. Quemadmodum, ſi quis velit compellere ho-&#13;
-mines ad adeundum duntaxat ſuum proprium mo-&#13;
-lendinum, is committere monopolium cenſetur, So-&#13;
-cin. conſil. 272. n. 5.&amp; 6. vol. 3. Boſſius tr. de union.&#13;
-&amp;colligat. n. 7. Decian. in pr. crim. lib. 7.c. 21. n. 21.&#13;
-586 ubi addit, ejusmodi ſtatutum tollere libertatem pu-&#13;
-blicam, ideoque non valere: quod &amp; probat Bertazz.&#13;
-conſil. civil. 2 1. n. 48. vol. 1. idem Bertazz. in addit.&#13;
-in lit. a. &amp; conſil. 420. n. 10. lib. 2. in criminal. Surd.&#13;
-conſil. 321. n. 26. Haud ſecus, ut ſi vel ſex aut ſeptem&#13;
-macellarii impetrent privilegium monopolii, ut ſo-&#13;
-li carnes vendant, hujusmodi privilegium non vale-&#13;
-re, ex quo ſit in præjudicium Reipublicæ ad anno-&#13;
-nam flagellandam, cenſuit Chaſſan. rubr. 13. §.7. n.&#13;
-17. verſ. Item adde. Et collegium Notariorum non&#13;
-poſſe facere ſtatutum, quòd nemo, niſi ſit de eorum&#13;
-numero, recipiat Inſtrumentum, cùm etiam ſapiat&#13;
-monopolicam pravitatem, reſpondit Natta conſil.&#13;
-672. n. 50. Surd. conſil. 257. n. 12.&#13;
-Beſondern es ſeyn auch dergleichen eigennuͤtzige mo-&#13;
-nopoliſche Ordnungen in deß H. Reichs publicirten&#13;
-Satzungen/ inſonderheit dem Abſchied de Anno 1512.&#13;
-zu Coͤln aufgericht/ §. Und nachdem etwan viel ꝛc. Po⸗&#13;
-licey ⸗ Ordnung de Anno 1548. &amp; de Annno 1577. ſub&#13;
-tit. Die Monopolia und ſchaͤdliche Auſ⸗ und Fuͤrkaͤuffe&#13;
-belangende/ ꝛc. mit Aufſetzung ſtarcker Poen/ernſtlich ver⸗&#13;
-boten/ deßwegen dann die Kaiſ. Majeſt. und Dero Cam⸗&#13;
-mergericht/ um Abſchaffung ſolcher ſchaͤdlichen Ordnun⸗&#13;
-gen/ auf Anruffung der Beſchwerten wider die Ubertret⸗&#13;
-ter/ per viam mandati ſine Clauſula zu verfahren/ an⸗&#13;
-gewoͤhnt iſt.&#13;
-Jnmaſſen dann vor dieſem in Sachen der Stadt&#13;
-Braunſchweig contra Hertzogen Braunſchweig/ am&#13;
-hochermeldten Cammergericht/ auch vor wenig abgewi⸗&#13;
-chenen Jahren/ in Sachen deß Herrn Abten zu Kempten&#13;
-und ihrer Fr. Gn. Conſorten wider die Stadt Mem⸗&#13;
-mingen/ eines gleichmaͤſſigen Verbots und vermeintlich&#13;
-auſgerichteter Ordnung halber Mandata pœnalia aus⸗&#13;
+        <Unicode>n. 347. de teſtam. p. 1. poſt Lucam de Penna in l. i. C.
+ne ruſt. ad ull. obſeq. Et dominus prohibere non poſ-
+ſit ſubditis, ne animalia ſua extrahant ad loca extera,
+ubiea cariùs vendere poſſint, neque jubere iſto caſu,
+ut teneantur vendere domino ejusq́; macellariis in
+ſuo dominio, cùm ſit contra juris communis diſpo-
+ſitionem, ut quis vendat rem ſuam minori pretio,
+quàm ab alio haberi poſſit, aut res etiam valeat. Nat-
+ta conſ.83. n. 4. Covar. 3. var. Reſol. 114. n. 6. quos
+refert &amp; ſequitur Bertazz. conſil. civil. 21. n 47. &amp; 48.
+982 ubi idem in venditione faſcium, lignorum &amp; anno-
+983 næ obtinere ſtatuit. Addo eundem Nattam conſil.
+43. n. 1. &amp; 29. &amp; 554. n. 31. quo loci contendit, e-
+tiam conſuetudinem vendendi hordeũ &amp; vina Prin-
+cipi viliori pretio, tanquam violentam, non valere,
+niſi ex libero civium conſenſu oriatur.
+Zum Vierdten/ wann man das Werck eigentlich/ wie
+es beſchaffen/ tauffen will/ als iſt ſo viel ohnſchwer zu
+vermercken/daß durch ſolch angelegtes Verbot der Victu-
+alien und anderer Handthierung halben dahin gezielet
+werde/ dergeſtalt die Gewerb von der Stadt Landau ab/
+ins Pfaͤltziſche Gebiet zu transferiren und einen eigennuͤ⸗
+tzigen monopoliſchen Vortheil zu erjagen.
+Welches den gemeinen Rechten und dero Lehrer Mei⸗
+nung nicht allen è diametro entgegen/ die alle Statu-
+ta, dadurch ein monopolium eingefuͤhrt und fovirt
+wird/vor unzulaͤſſig und verboten achten/ Innocent. in
+c. cum acceſſiſſent. de conſtit. Dd. inl. 1. C. de mono-
+pol. Rol. conſil. 22. n. 9. vol. 2. Surd. conſil. 321.n. 25.
+Cacheran. deciſ. 17. n. 16. Sola in Conſtit. Sabaud.
+ſub rubr. de accuſat. &amp; inquiſit. tit. de proceſſu in-
+quiſitorial. gl. 1. partis n. 11. Grammat. deciſ. 100.
+n. 12. Quemadmodum, ſi quis velit compellere ho-
+mines ad adeundum duntaxat ſuum proprium mo-
+lendinum, is committere monopolium cenſetur, So-
+cin. conſil. 272. n. 5.&amp; 6. vol. 3. Boſſius tr. de union.
+&amp;colligat. n. 7. Decian. in pr. crim. lib. 7.c. 21. n. 21.
+586 ubi addit, ejusmodi ſtatutum tollere libertatem pu-
+blicam, ideoque non valere: quod &amp; probat Bertazz.
+conſil. civil. 2 1. n. 48. vol. 1. idem Bertazz. in addit.
+in lit. a. &amp; conſil. 420. n. 10. lib. 2. in criminal. Surd.
+conſil. 321. n. 26. Haud ſecus, ut ſi vel ſex aut ſeptem
+macellarii impetrent privilegium monopolii, ut ſo-
+li carnes vendant, hujusmodi privilegium non vale-
+re, ex quo ſit in præjudicium Reipublicæ ad anno-
+nam flagellandam, cenſuit Chaſſan. rubr. 13. §.7. n.
+17. verſ. Item adde. Et collegium Notariorum non
+poſſe facere ſtatutum, quòd nemo, niſi ſit de eorum
+numero, recipiat Inſtrumentum, cùm etiam ſapiat
+monopolicam pravitatem, reſpondit Natta conſil.
+672. n. 50. Surd. conſil. 257. n. 12.
+Beſondern es ſeyn auch dergleichen eigennuͤtzige mo-
+nopoliſche Ordnungen in deß H. Reichs publicirten
+Satzungen/ inſonderheit dem Abſchied de Anno 1512.
+zu Coͤln aufgericht/ §. Und nachdem etwan viel ꝛc. Po⸗
+licey ⸗ Ordnung de Anno 1548. &amp; de Annno 1577. ſub
+tit. Die Monopolia und ſchaͤdliche Auſ⸗ und Fuͤrkaͤuffe
+belangende/ ꝛc. mit Aufſetzung ſtarcker Poen/ernſtlich ver⸗
+boten/ deßwegen dann die Kaiſ. Majeſt. und Dero Cam⸗
+mergericht/ um Abſchaffung ſolcher ſchaͤdlichen Ordnun⸗
+gen/ auf Anruffung der Beſchwerten wider die Ubertret⸗
+ter/ per viam mandati ſine Clauſula zu verfahren/ an⸗
+gewoͤhnt iſt.
+Jnmaſſen dann vor dieſem in Sachen der Stadt
+Braunſchweig contra Hertzogen Braunſchweig/ am
+hochermeldten Cammergericht/ auch vor wenig abgewi⸗
+chenen Jahren/ in Sachen deß Herrn Abten zu Kempten
+und ihrer Fr. Gn. Conſorten wider die Stadt Mem⸗
+mingen/ eines gleichmaͤſſigen Verbots und vermeintlich
+auſgerichteter Ordnung halber Mandata pœnalia aus⸗
 gangen und ertheilt worden ſeyn.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" readingDirection="left-to-right" id="TextRegion_1668671357028_1208" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1668671357028_1208" custom="readingOrder {index:12;}" orientation="0.4439486" readingDirection="left-to-right">
       <Coords points="1306,359 2366,359 2366,2329 1306,2329"/>
       <TextLine id="line_1668671357187_1211" custom="readingOrder {index:0;}">
         <Coords points="1333,369 1338,364 1438,360 1465,361 1469,364 1471,372 1476,372 1481,366 1495,361 1511,360 1523,371 1563,370 1568,366 1578,366 1585,370 1616,371 1624,363 1649,361 1658,368 1662,365 1672,365 1676,368 1696,370 1729,370 1738,363 1753,363 1760,369 1797,369 1804,363 1814,363 1822,364 1828,369 1853,370 1875,368 1880,364 1891,363 1897,367 1939,360 2026,360 2060,368 2072,363 2112,362 2128,364 2132,372 2204,373 2276,371 2282,364 2289,362 2302,365 2309,370 2366,369 2366,416 2302,418 2286,422 2279,421 2273,417 2260,420 2178,424 2167,420 2146,419 2080,422 2068,417 2048,424 2041,420 1968,421 1964,418 1928,423 1915,420 1870,420 1864,417 1850,420 1701,420 1690,416 1659,419 1636,415 1622,416 1607,421 1599,421 1592,417 1506,420 1496,425 1479,424 1474,421 1441,423 1431,419 1420,427 1383,421 1365,414 1362,405 1338,405 1333,400"/>
@@ -4563,7 +4578,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
         </Word>
         <Word id="region0007_line0007_word0001" custom="readingOrder {index:1;}">
           <Coords points="1534,610 1533,581 1455,582 1456,611 1508,610 1513,610 1514,610"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>vom</Unicode>
           </TextEquiv>
         </Word>
@@ -4824,7 +4839,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1730,758 1709,759 1705,760 1652,761 1652,805 1706,811 1730,808"/>
+          <Coords points="1652,805 1659,805 1664,805 1714,809 1730,808 1730,759 1725,760 1652,761"/>
           <TextEquiv>
             <Unicode>und</Unicode>
           </TextEquiv>
@@ -4976,7 +4991,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0013_word0008" custom="readingOrder {index:8;}">
-          <Coords points="2221,858 2221,896 2317,893 2317,857 2333,857 2310,857 2309,858 2302,857 2236,858 2233,858"/>
+          <Coords points="2221,858 2221,896 2317,893 2333,857"/>
           <TextEquiv conf="0.90504134">
             <Unicode>actis</Unicode>
           </TextEquiv>
@@ -5081,7 +5096,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1668674882665_3567" custom="readingOrder {index:2;}">
-          <Coords points="1646,1004 1808,1004 1828,1007 1828,1047 1778,1049 1682,1050 1646,1041"/>
+          <Coords points="1646,1004 1646,1041 1682,1050 1697,1050 1703,1044 1710,1048 1710,1050 1745,1049 1747,1048 1756,1049 1778,1049 1828,1047 1828,1007 1819,1007 1811,1006 1809,1004 1808,1004 1792,1004 1789,1006 1759,1007 1747,1010 1739,1007 1707,1006 1704,1004 1689,1004 1663,1006 1661,1004"/>
           <TextEquiv>
             <Unicode>insgemein</Unicode>
           </TextEquiv>
@@ -5142,7 +5157,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1668674914052_3584" custom="readingOrder {index:4;}">
-          <Coords points="1862,1054 1900,1050 1924,1050 1971,1053 2004,1057 2004,1088 1971,1094 1862,1095"/>
+          <Coords points="1901,1050 1896,1053 1869,1055 1862,1054 1862,1095 1971,1094 2004,1088 2004,1057 1971,1053 1927,1053 1924,1050"/>
           <TextEquiv>
             <Unicode>gefreyet</Unicode>
           </TextEquiv>
@@ -5270,7 +5285,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1668674970813_3618" custom="readingOrder {index:7;}">
-          <Coords points="2058,1152 2181,1150 2356,1150 2356,1184 2200,1193 2164,1195 2058,1196"/>
+          <Coords points="2181,1150 2181,1152 2076,1153 2058,1152 2058,1196 2108,1195 2114,1193 2139,1195 2164,1195 2200,1193 2356,1184 2356,1150 2296,1150 2271,1150 2271,1151 2249,1152 2207,1152 2205,1150"/>
           <TextEquiv>
             <Unicode>quemadmodum</Unicode>
           </TextEquiv>
@@ -5447,7 +5462,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0022_word0006" custom="readingOrder {index:6;}">
-          <Coords points="2223,1295 2221,1298 2219,1298 2219,1331 2358,1330 2358,1310 2333,1304 2308,1300 2290,1299 2260,1302 2250,1297 2241,1298 2236,1295"/>
+          <Coords points="2219,1298 2219,1331 2358,1330 2358,1310 2325,1310 2300,1306 2290,1299 2260,1302 2250,1297 2241,1298 2235,1295 2225,1295 2221,1298"/>
           <TextEquiv>
             <Unicode>Rechts⸗</Unicode>
           </TextEquiv>
@@ -5864,7 +5879,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
         </Word>
         <Word id="region0007_line0030_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1745,1685 1742,1689 1718,1691 1718,1723 1846,1722 1846,1685 1792,1685 1791,1689 1765,1688 1762,1685"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Andiũ</Unicode>
           </TextEquiv>
         </Word>
@@ -6023,7 +6038,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
         </Word>
         <Word id="region0007_line0033_word0001" custom="readingOrder {index:1;}">
           <Coords points="1472,1880 1471,1848 1406,1848 1406,1879 1423,1878 1427,1880"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>von</Unicode>
           </TextEquiv>
         </Word>
@@ -6413,7 +6428,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0040_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1616,2176 1616,2177 1594,2177 1580,2181 1569,2177 1559,2177 1559,2222 1570,2222 1576,2217 1598,2221 1662,2220 1674,2217 1689,2221 1691,2221 1740,2219 1740,2175 1712,2177 1642,2176 1642,2175"/>
+          <Coords points="1594,2177 1580,2181 1569,2177 1559,2177 1559,2222 1569,2222 1576,2217 1598,2221 1662,2220 1674,2217 1689,2221 1691,2221 1740,2219 1740,2177 1712,2177 1642,2176 1641,2175 1616,2175 1616,2177"/>
           <TextEquiv conf="0.90907973">
             <Unicode>patiatur,</Unicode>
           </TextEquiv>
@@ -6444,7 +6459,7 @@ gangen und ertheilt worden ſeyn.</Unicode>
         </Word>
         <Word id="region0007_line0040_word0008" custom="readingOrder {index:8;}">
           <Coords points="2231,2171 2226,2175 2217,2175 2214,2174 2214,2209 2301,2208 2301,2176 2282,2176 2274,2171"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>aliàs</Unicode>
           </TextEquiv>
         </Word>
@@ -6569,49 +6584,49 @@ gangen und ertheilt worden ſeyn.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Fuͤnfftens gibt aud wider deß Pfaͤltziſch angemaſten&#13;
-Abwehren und Verbieten wolermeldteꝛ Herren von Lan⸗&#13;
-dau und ihres Wochenmarcks herbrachtem ohnverſperr⸗&#13;
-ten Zugang kein geringen Vorſtand/ daß ſie eben deſſen&#13;
-wegen vom Kaiſer Rudolpho 1291. vor ſich und alle&#13;
-und jede/ ſo dahin Kauffens oder Verkauffens halber zie⸗&#13;
-hen oder reiſen/ inſonderheit und zwar der geſtalt privile-&#13;
-girt/ daß ſie in ſonderbarem Jhrer Kaiſ. Majeſt. und deß&#13;
-H. Reichs Schutz und Schirm ſeyn und bleiben/ und dar⸗&#13;
-uͤber im wenigſten betrangt und angefochten werden ſol⸗&#13;
-len/ꝛc. alles mehrern Jnhalts ſub num. 40. den actis in&#13;
-Copia beygefuͤgten Privilegii.&#13;
-Allermaſſen dann zum Sechſten extra cauſam ſpe-&#13;
-cialis Privilegii insgemein alle mercatus &amp; nundinæ&#13;
-vigore juris communis alſo gefreyet ſeyn/ ut omnes eò&#13;
-emendi vel vendendi gratiâ ambulantes non minùs&#13;
-à Juris quàm facti moleſtiis tuti ſint, quemadmodum&#13;
-ex Corſeto annotavit Jo. Vinc. Carocius tr. de re&#13;
-furtiva penes tertium reperta qu. 27. n 2. &amp; ſeqq.&#13;
-Demnach dann zum Beſchluß nicht weniger Rechts⸗&#13;
-gruͤndig: Quòd is, qui obtinuit Jus mercatus, poſſit à&#13;
-Superiore impetrare inhibitionem, ne ſimiles mer-&#13;
-catus fiant eodem die in Civitate vicina, eò quòd fu-&#13;
-turum ſit, ut per concurſum ei indirectò noceatur&#13;
-&amp; negotiantibus in plura loca diviſis mercatus di-&#13;
-minuatur, quod pati neutiquam cogitur, quemad-&#13;
-modum annotavit Teſſaurus deciſ. 264. n.5. Chop-&#13;
-pin. lib. 1. de Legib. Andiũ c.44. n.8. verſ. in antiquo.&#13;
-Als werden wolgedachte Herren von Landau diß Orts/&#13;
-da man die Pfaͤltziſche Hinterſaſſen und andere Ausmaͤr⸗&#13;
-cker von Landauiſchem Wochen⸗Marckt abzuhalten/ und&#13;
-alſo denſelben allerdings in Abgang zu bringen/ directò&#13;
-im Werck iſt/ ſolch nachgriffiges Jntent von ſich zuthaͤdi⸗&#13;
-gen/ in Recht um ſo viel deſtomehr befugt ſeyn. Si enim&#13;
-juſtè amovetur id, quod per indirectum &amp; quandam&#13;
-conſequentiam in alterius damnum vergit, multò&#13;
-minùs id, quod directò ad nocendum ordinatum&#13;
-eſt, ut quis patiatur, ullà cogitur ratione Et aliàs re-&#13;
-ctè à loco ad perſonas argumentum duci poteſt. E- 993&#13;
+        <Unicode>Fuͤnfftens gibt aud wider deß Pfaͤltziſch angemaſten
+Abwehren und Verbieten wolermeldteꝛ Herren von Lan⸗
+dau und ihres Wochenmarcks herbrachtem ohnverſperr⸗
+ten Zugang kein geringen Vorſtand/ daß ſie eben deſſen
+wegen vom Kaiſer Rudolpho 1291. vor ſich und alle
+und jede/ ſo dahin Kauffens oder Verkauffens halber zie⸗
+hen oder reiſen/ inſonderheit und zwar der geſtalt privile-
+girt/ daß ſie in ſonderbarem Jhrer Kaiſ. Majeſt. und deß
+H. Reichs Schutz und Schirm ſeyn und bleiben/ und dar⸗
+uͤber im wenigſten betrangt und angefochten werden ſol⸗
+len/ꝛc. alles mehrern Jnhalts ſub num. 40. den actis in
+Copia beygefuͤgten Privilegii.
+Allermaſſen dann zum Sechſten extra cauſam ſpe-
+cialis Privilegii insgemein alle mercatus &amp; nundinæ
+vigore juris communis alſo gefreyet ſeyn/ ut omnes eò
+emendi vel vendendi gratiâ ambulantes non minùs
+à Juris quàm facti moleſtiis tuti ſint, quemadmodum
+ex Corſeto annotavit Jo. Vinc. Carocius tr. de re
+furtiva penes tertium reperta qu. 27. n 2. &amp; ſeqq.
+Demnach dann zum Beſchluß nicht weniger Rechts⸗
+gruͤndig: Quòd is, qui obtinuit Jus mercatus, poſſit à
+Superiore impetrare inhibitionem, ne ſimiles mer-
+catus fiant eodem die in Civitate vicina, eò quòd fu-
+turum ſit, ut per concurſum ei indirectò noceatur
+&amp; negotiantibus in plura loca diviſis mercatus di-
+minuatur, quod pati neutiquam cogitur, quemad-
+modum annotavit Teſſaurus deciſ. 264. n.5. Chop-
+pin. lib. 1. de Legib. Andiũ c.44. n.8. verſ. in antiquo.
+Als werden wolgedachte Herren von Landau diß Orts/
+da man die Pfaͤltziſche Hinterſaſſen und andere Ausmaͤr⸗
+cker von Landauiſchem Wochen⸗Marckt abzuhalten/ und
+alſo denſelben allerdings in Abgang zu bringen/ directò
+im Werck iſt/ ſolch nachgriffiges Jntent von ſich zuthaͤdi⸗
+gen/ in Recht um ſo viel deſtomehr befugt ſeyn. Si enim
+juſtè amovetur id, quod per indirectum &amp; quandam
+conſequentiam in alterius damnum vergit, multò
+minùs id, quod directò ad nocendum ordinatum
+eſt, ut quis patiatur, ullà cogitur ratione Et aliàs re-
+ctè à loco ad perſonas argumentum duci poteſt. E- 993
 verh. in loco, à loco ad perſonas.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="heading" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:13;} structure {type:heading;}">
+    <TextRegion id="region0008" custom="readingOrder {index:13;} structure {type:heading;}" orientation="0.4439486" type="heading" readingDirection="left-to-right">
       <Coords points="1448,2349 2231,2349 2231,2450 1448,2450"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1507,2350 1448,2352 1449,2408 1719,2406 1766,2401 1823,2399 1835,2402 1852,2398 1872,2398 1905,2402 2026,2406 2231,2405 2230,2349"/>
@@ -6650,10 +6665,10 @@ verh. in loco, à loco ad perſonas.</Unicode>
 ORUM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1668674318151_3097" custom="readingOrder {index:14;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1668674318151_3097" custom="readingOrder {index:14;} structure {type:drop-capital;}" orientation="0.4439486" type="drop-capital" readingDirection="left-to-right">
       <Coords points="1326,2460 1417,2460 1417,2562 1326,2562"/>
       <TextLine id="line_1668675586141_4043" custom="readingOrder {index:0;}">
-        <Coords points="1326,2466 1417,2461 1417,2528 1417,2564 1398,2565 1375,2564 1327,2561 1326,2526"/>
+        <Coords points="1326,2466 1326,2526 1327,2561 1343,2562 1417,2562 1417,2528 1417,2461"/>
         <Baseline points="1326,2511 1398,2505 1417,2505 1327,2553 1417,2556"/>
         <Word id="word_1668675590625_4049" custom="readingOrder {index:0;}">
           <Coords points="1326,2470 1406,2469 1417,2532 1417,2563 1394,2563 1375,2563 1373,2563 1350,2562 1331,2561 1326,2525"/>
@@ -6669,7 +6684,7 @@ ORUM.</Unicode>
         <Unicode>W</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" readingDirection="left-to-right" id="TextRegion_1668674318151_3096" custom="readingOrder {index:15;}">
+    <TextRegion id="TextRegion_1668674318151_3096" custom="readingOrder {index:15;}" orientation="0.4439486" readingDirection="left-to-right">
       <Coords points="1417,2460 2373,2460 2373,2562 1417,2562"/>
       <TextLine id="line_1668674318310_3099" custom="readingOrder {index:0;}">
         <Coords points="1417,2461 1430,2461 1490,2463 1503,2470 1522,2471 1612,2463 1617,2467 1644,2470 1713,2470 1729,2469 1740,2461 1753,2461 1759,2467 1787,2464 1834,2470 1856,2470 1864,2461 1873,2461 1879,2466 1889,2465 1894,2470 1924,2468 1932,2460 1941,2460 1946,2465 1955,2460 1970,2461 1974,2467 2012,2465 2029,2468 2044,2467 2049,2460 2065,2460 2071,2468 2107,2468 2115,2461 2127,2461 2133,2468 2179,2467 2184,2460 2205,2460 2212,2468 2235,2469 2291,2464 2295,2460 2330,2464 2371,2461 2373,2463 2373,2516 2363,2517 2350,2520 2339,2516 2276,2510 2222,2516 2146,2516 2130,2513 2124,2516 2096,2518 2089,2509 2081,2510 2075,2507 2067,2516 2043,2515 2033,2512 2014,2516 1991,2513 1985,2516 1980,2511 1966,2511 1956,2517 1939,2513 1930,2516 1877,2518 1865,2513 1848,2513 1840,2516 1794,2512 1755,2515 1749,2518 1674,2517 1667,2516 1659,2510 1649,2510 1640,2517 1622,2514 1612,2518 1572,2519 1567,2515 1558,2514 1547,2519 1488,2523 1421,2521 1417,2527"/>
@@ -6705,7 +6720,7 @@ ORUM.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1668675639984_4098" custom="readingOrder {index:5;}">
-          <Coords points="2030,2472 2252,2470 2282,2480 2282,2509 2238,2514 2140,2515 2043,2515 2030,2512"/>
+          <Coords points="2238,2514 2282,2509 2282,2480 2252,2470 2030,2472 2030,2512 2031,2512 2033,2512 2043,2515 2067,2515 2075,2507 2081,2510 2089,2509 2093,2515 2126,2515 2130,2513 2140,2514"/>
           <TextEquiv>
             <Unicode>abgebrochen/</Unicode>
           </TextEquiv>
@@ -6721,7 +6736,7 @@ ORUM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668674318311_3101" custom="readingOrder {index:1;}">
-        <Coords points="1421,2522 1546,2521 1558,2515 1567,2516 1573,2521 1610,2520 1622,2515 1639,2520 1649,2511 1659,2511 1668,2519 1749,2519 1755,2516 1794,2513 1840,2517 1848,2514 1865,2514 1887,2520 1928,2518 1939,2514 1956,2518 1966,2512 1980,2512 1985,2517 1991,2514 2014,2517 2033,2513 2045,2517 2066,2518 2075,2508 2081,2511 2089,2510 2096,2519 2122,2518 2130,2514 2146,2517 2222,2517 2276,2511 2339,2517 2348,2521 2373,2519 2373,2563 2358,2564 2353,2561 2334,2563 2320,2560 2288,2566 2243,2566 2214,2560 2200,2563 2129,2565 2096,2564 2090,2561 2070,2564 2065,2561 2053,2561 2049,2564 2021,2569 1991,2562 1978,2567 1868,2566 1860,2571 1847,2571 1836,2566 1818,2566 1808,2561 1775,2569 1760,2568 1752,2563 1743,2563 1736,2567 1699,2567 1687,2562 1672,2564 1653,2560 1644,2564 1612,2563 1598,2571 1590,2572 1579,2563 1571,2563 1564,2567 1541,2567 1515,2562 1502,2566 1486,2564 1478,2568 1446,2569 1421,2564 1417,2564 1417,2528"/>
+        <Coords points="2348,2521 2339,2517 2276,2511 2222,2517 2146,2517 2130,2514 2122,2518 2096,2519 2089,2510 2081,2511 2075,2508 2066,2518 2045,2517 2033,2513 2014,2517 1991,2514 1985,2517 1980,2512 1966,2512 1956,2518 1939,2514 1928,2518 1887,2520 1865,2514 1848,2514 1840,2517 1794,2513 1755,2516 1749,2519 1668,2519 1659,2511 1649,2511 1639,2520 1622,2515 1610,2520 1573,2521 1567,2516 1558,2515 1546,2521 1421,2522 1417,2528 1417,2562 1515,2562 1648,2562 1653,2560 1662,2562 1687,2562 1803,2562 1808,2561 1810,2562 1991,2562 2051,2562 2053,2561 2065,2561 2066,2562 2083,2562 2090,2561 2092,2562 2204,2562 2214,2560 2223,2562 2309,2562 2320,2560 2329,2562 2343,2562 2353,2561 2354,2562 2373,2562 2373,2519"/>
         <Baseline points="1417,2556 1432,2557 2373,2552"/>
         <Word id="word_1668674318312_3103" custom="readingOrder {index:0;}">
           <Coords points="1417,2532 1499,2532 1499,2563 1417,2563"/>
@@ -6742,7 +6757,7 @@ ORUM.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1668675683486_4143" custom="readingOrder {index:3;}">
-          <Coords points="1936,2515 1939,2514 1966,2512 2074,2508 2075,2508 2225,2516 2225,2562 2200,2563 2024,2568 1978,2567 1936,2566"/>
+          <Coords points="2225,2562 2225,2516 2222,2517 2146,2517 2130,2514 2122,2518 2096,2519 2089,2510 2081,2511 2075,2508 2066,2518 2045,2517 2033,2513 2014,2517 1991,2514 1985,2517 1980,2512 1966,2512 1956,2518 1939,2514 1936,2515 1936,2566 1978,2567 1991,2562 2015,2567 2024,2568 2027,2567 2049,2564 2053,2561 2065,2561 2070,2564 2090,2561 2096,2564 2129,2565 2200,2563 2214,2560 2223,2562"/>
           <TextEquiv>
             <Unicode>hoͤchſterwehnter</Unicode>
           </TextEquiv>
@@ -6758,11 +6773,11 @@ ORUM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Elchem allem auch damit nichts abgebrochen/ daß&#13;
+        <Unicode>Elchem allem auch damit nichts abgebrochen/ daß
 man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" readingDirection="left-to-right" id="TextRegion_1668674315014_3092" custom="readingOrder {index:16;}">
+    <TextRegion id="TextRegion_1668674315014_3092" custom="readingOrder {index:16;}" orientation="0.4439486" readingDirection="left-to-right">
       <Coords points="1326,2562 2373,2562 2373,3832 1328,3832"/>
       <TextLine id="line_1668671410442_1351" custom="readingOrder {index:0;}">
         <Coords points="1327,2562 1355,2565 1393,2563 1405,2567 1421,2565 1446,2570 1476,2570 1486,2565 1502,2567 1515,2563 1543,2569 1563,2569 1571,2564 1579,2564 1590,2573 1606,2569 1612,2564 1644,2565 1653,2561 1672,2565 1687,2563 1696,2569 1708,2570 1735,2570 1743,2564 1752,2564 1761,2571 1784,2570 1794,2563 1808,2562 1820,2570 1839,2569 1847,2572 1888,2568 1978,2568 1991,2563 2021,2570 2047,2566 2053,2562 2065,2562 2071,2566 2078,2562 2090,2562 2096,2566 2111,2564 2159,2567 2163,2564 2177,2563 2181,2566 2193,2566 2214,2561 2243,2567 2288,2567 2320,2561 2334,2564 2353,2562 2358,2565 2373,2565 2373,2613 2362,2614 2357,2618 2346,2618 2333,2613 2144,2614 2097,2615 2089,2620 2080,2620 2075,2615 2014,2617 2007,2623 1994,2623 1981,2621 1976,2617 1906,2614 1630,2614 1622,2610 1525,2615 1516,2621 1503,2622 1492,2616 1449,2614 1441,2608 1429,2608 1425,2611 1412,2609 1403,2615 1380,2621 1362,2615 1345,2620 1326,2619"/>
@@ -7320,7 +7335,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </Word>
         <Word id="region0009_line0014_word0002" custom="readingOrder {index:2;}">
           <Coords points="1746,3145 1828,3144 1828,3105 1804,3106 1787,3110 1769,3102 1759,3102 1756,3105 1746,3105"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>lige/</Unicode>
           </TextEquiv>
         </Word>
@@ -7738,7 +7753,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671410462_1385" custom="readingOrder {index:19;}">
-        <Coords points="1327,3493 1403,3492 1439,3498 1495,3500 1552,3498 1559,3492 1570,3492 1577,3499 1612,3499 1614,3492 1628,3489 1635,3501 1645,3501 1657,3497 1658,3492 1665,3489 1677,3490 1681,3492 1682,3497 1725,3497 1786,3487 1814,3488 1834,3494 2004,3493 2010,3485 2017,3483 2034,3484 2039,3487 2042,3494 2051,3496 2108,3494 2153,3496 2161,3499 2171,3497 2178,3487 2182,3486 2232,3486 2240,3498 2246,3499 2257,3487 2275,3487 2280,3498 2290,3499 2303,3493 2327,3492 2331,3486 2340,3484 2373,3484 2373,3540 2351,3540 2340,3543 2325,3541 2319,3535 2183,3538 2045,3535 2036,3542 2028,3542 2022,3533 2012,3532 2006,3535 1998,3531 1923,3536 1841,3534 1834,3538 1771,3539 1757,3536 1731,3539 1714,3537 1704,3545 1684,3550 1675,3545 1673,3539 1648,3540 1642,3537 1626,3540 1448,3539 1326,3543"/>
+        <Coords points="2340,3484 2331,3486 2327,3492 2303,3493 2290,3499 2280,3498 2275,3487 2257,3487 2246,3499 2240,3498 2232,3486 2182,3486 2178,3487 2171,3497 2161,3499 2153,3496 2108,3494 2051,3496 2042,3494 2039,3487 2034,3484 2017,3483 2010,3485 2004,3493 1834,3494 1814,3488 1786,3487 1725,3497 1682,3497 1681,3492 1677,3490 1665,3489 1658,3492 1657,3497 1645,3501 1635,3501 1628,3489 1614,3492 1612,3499 1577,3499 1570,3492 1559,3492 1552,3498 1495,3500 1439,3498 1403,3492 1327,3492 1327,3542 1448,3539 1626,3540 1642,3537 1648,3540 1673,3539 1675,3545 1684,3550 1704,3545 1714,3537 1731,3539 1757,3536 1771,3539 1834,3538 1841,3534 1923,3536 1998,3531 2006,3535 2012,3532 2022,3533 2028,3542 2036,3542 2045,3535 2183,3538 2319,3535 2325,3541 2340,3543 2351,3540 2373,3540 2373,3484"/>
         <Baseline points="1326,3533 2019,3523 2373,3529"/>
         <Word id="region0009_line0022_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1340,3502 1377,3502 1377,3533 1340,3533"/>
@@ -7793,7 +7808,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671410463_1387" custom="readingOrder {index:20;}">
-        <Coords points="1326,3549 1516,3549 1545,3545 1623,3548 1625,3541 1642,3538 1650,3542 1651,3550 1690,3551 1706,3545 1714,3538 1727,3539 1733,3544 1763,3537 1772,3540 1773,3543 1831,3543 1841,3535 1854,3535 1861,3541 1890,3539 1979,3541 1993,3532 2006,3536 2019,3533 2028,3543 2340,3544 2373,3543 2373,3580 2370,3581 2365,3585 2354,3585 2350,3582 2292,3583 2236,3589 2232,3592 2190,3586 2125,3586 2123,3595 2116,3601 2102,3601 2096,3595 2095,3586 2077,3584 2037,3586 2003,3596 1945,3596 1939,3592 1937,3582 1929,3581 1888,3583 1886,3593 1879,3598 1864,3595 1860,3584 1746,3590 1563,3589 1557,3594 1549,3594 1543,3589 1530,3589 1517,3591 1506,3598 1495,3597 1491,3590 1473,3589 1327,3593"/>
+        <Coords points="2340,3544 2028,3543 2019,3533 2006,3536 1993,3532 1979,3541 1890,3539 1861,3541 1854,3535 1841,3535 1831,3543 1773,3543 1772,3540 1763,3537 1733,3544 1727,3539 1714,3538 1706,3545 1690,3551 1651,3550 1650,3542 1642,3538 1625,3541 1623,3548 1545,3545 1516,3549 1327,3549 1327,3592 1473,3589 1491,3590 1495,3597 1506,3598 1517,3591 1530,3589 1543,3589 1549,3594 1557,3594 1563,3589 1746,3590 1860,3584 1864,3595 1879,3598 1886,3593 1888,3583 1929,3581 1937,3582 1939,3592 1945,3596 2003,3596 2037,3586 2077,3584 2095,3586 2096,3595 2102,3601 2116,3601 2123,3595 2125,3586 2190,3586 2232,3592 2236,3589 2292,3583 2350,3582 2354,3585 2365,3585 2370,3581 2373,3580 2373,3543"/>
         <Baseline points="1327,3583 1930,3572 1990,3583 2045,3575 2373,3571"/>
         <Word id="region0009_line0023_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:10;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1338,3552 1555,3550 1556,3584 1339,3586"/>
@@ -7860,7 +7875,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0024" custom="readingOrder {index:21;}">
-        <Coords points="1327,3597 1326,3642 1464,3633 1469,3628 1469,3603 1464,3598"/>
+        <Coords points="1464,3633 1469,3628 1469,3603 1464,3598 1327,3597 1327,3641"/>
         <Baseline points="1326,3632 1469,3623"/>
         <Word id="region0009_line0024_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1341,3610 1422,3609 1422,3632 1341,3633"/>
@@ -7934,7 +7949,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671410465_1391" custom="readingOrder {index:23;}">
-        <Coords points="1326,3682 1345,3681 1365,3682 1393,3693 1481,3686 1526,3692 1531,3685 1540,3685 1549,3689 1589,3687 1677,3690 1690,3687 1763,3686 1767,3681 1782,3678 1796,3679 1803,3685 1831,3685 1846,3689 1858,3686 1885,3689 1916,3685 1938,3688 1950,3681 1963,3681 1970,3686 2031,3687 2037,3681 2054,3679 2067,3687 2082,3688 2097,3688 2103,3684 2120,3687 2201,3686 2234,3683 2247,3689 2264,3684 2280,3687 2322,3685 2333,3689 2348,3686 2373,3685 2373,3731 2369,3729 2360,3729 2348,3730 2340,3738 2324,3733 2280,3732 2208,3730 2203,3733 2172,3733 2160,3731 2149,3734 2121,3734 2111,3730 1956,3731 1939,3730 1933,3726 1916,3729 1875,3730 1870,3734 1859,3734 1854,3730 1840,3727 1821,3729 1765,3727 1741,3729 1730,3737 1722,3736 1715,3731 1694,3730 1566,3736 1557,3732 1546,3732 1539,3736 1492,3740 1468,3740 1451,3735 1413,3737 1408,3734 1381,3736 1373,3739 1366,3735 1351,3734 1346,3738 1339,3738 1336,3735 1327,3735"/>
+        <Coords points="2348,3686 2333,3689 2322,3685 2280,3687 2264,3684 2247,3689 2234,3683 2201,3686 2120,3687 2103,3684 2097,3688 2082,3688 2067,3687 2054,3679 2037,3681 2031,3687 1970,3686 1963,3681 1950,3681 1938,3688 1916,3685 1885,3689 1858,3686 1846,3689 1831,3685 1803,3685 1796,3679 1782,3678 1767,3681 1763,3686 1690,3687 1677,3690 1589,3687 1549,3689 1540,3685 1531,3685 1526,3692 1481,3686 1393,3693 1365,3682 1345,3681 1327,3681 1327,3735 1336,3735 1339,3738 1346,3738 1351,3734 1366,3735 1373,3739 1381,3736 1408,3734 1413,3737 1451,3735 1468,3740 1492,3740 1539,3736 1546,3732 1557,3732 1566,3736 1694,3730 1715,3731 1722,3736 1730,3737 1741,3729 1765,3727 1821,3729 1840,3727 1854,3730 1859,3734 1870,3734 1875,3730 1916,3729 1933,3726 1939,3730 1956,3731 2111,3730 2121,3734 2149,3734 2160,3731 2172,3733 2203,3733 2208,3730 2280,3732 2324,3733 2340,3738 2348,3730 2360,3729 2369,3729 2373,3731 2373,3685"/>
         <Baseline points="1327,3725 1474,3729 1787,3717 2373,3720"/>
         <Word id="region0009_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="1339,3691 1339,3738 1346,3737 1351,3734 1366,3735 1370,3737 1376,3737 1381,3736 1408,3734 1413,3737 1426,3736 1426,3690 1393,3693 1386,3690"/>
@@ -7983,7 +7998,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671410466_1393" custom="readingOrder {index:24;}">
-        <Coords points="1327,3736 1346,3739 1355,3735 1373,3740 1399,3735 1427,3739 1451,3736 1468,3741 1492,3741 1539,3737 1546,3733 1557,3733 1562,3737 1583,3737 1694,3731 1716,3733 1730,3738 1741,3730 1765,3728 1821,3730 1840,3728 1854,3731 1859,3735 1870,3735 1874,3732 1914,3733 1922,3727 1933,3727 1940,3734 1971,3736 2088,3736 2094,3732 2111,3731 2122,3737 2141,3737 2166,3732 2173,3735 2202,3736 2208,3731 2221,3731 2228,3736 2326,3735 2337,3739 2348,3731 2360,3730 2372,3731 2373,3732 2373,3784 2367,3781 2351,3779 2253,3778 2222,3780 2220,3784 2211,3786 2197,3777 2185,3780 2158,3778 2153,3781 2059,3781 2042,3777 1933,3778 1926,3774 1899,3778 1880,3775 1873,3778 1839,3778 1838,3782 1832,3785 1815,3787 1765,3786 1758,3785 1749,3778 1737,3777 1726,3777 1718,3781 1620,3782 1604,3778 1592,3783 1538,3784 1516,3790 1488,3787 1475,3791 1460,3790 1456,3787 1436,3789 1427,3786 1366,3786 1360,3783 1326,3784"/>
+        <Coords points="2372,3731 2360,3730 2348,3731 2337,3739 2326,3735 2228,3736 2221,3731 2208,3731 2202,3736 2173,3735 2166,3732 2141,3737 2122,3737 2111,3731 2094,3732 2088,3736 1971,3736 1940,3734 1933,3727 1922,3727 1914,3733 1874,3732 1870,3735 1859,3735 1854,3731 1840,3728 1821,3730 1765,3728 1741,3730 1730,3738 1716,3733 1694,3731 1583,3737 1562,3737 1557,3733 1546,3733 1539,3737 1492,3741 1468,3741 1451,3736 1427,3739 1399,3735 1373,3740 1355,3735 1346,3739 1327,3736 1327,3783 1360,3783 1366,3786 1427,3786 1436,3789 1456,3787 1460,3790 1475,3791 1488,3787 1516,3790 1538,3784 1592,3783 1604,3778 1620,3782 1718,3781 1726,3777 1737,3777 1749,3778 1758,3785 1765,3786 1815,3787 1832,3785 1838,3782 1839,3778 1873,3778 1880,3775 1899,3778 1926,3774 1933,3778 2042,3777 2059,3781 2153,3781 2158,3778 2185,3780 2197,3777 2211,3786 2220,3784 2222,3780 2253,3778 2351,3779 2367,3781 2373,3784 2373,3732"/>
         <Baseline points="1326,3775 1730,3769 1793,3774 1907,3767 2373,3771"/>
         <Word id="region0009_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="1453,3783 1453,3741 1339,3742 1339,3783 1360,3783 1361,3783"/>
@@ -8032,7 +8047,7 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1668671410467_1397" custom="readingOrder {index:25;}">
-        <Coords points="1326,3785 1360,3784 1386,3789 1436,3790 1456,3788 1460,3791 1475,3792 1485,3789 1516,3791 1548,3786 1594,3786 1596,3782 1604,3779 1615,3780 1621,3785 1721,3784 1726,3778 1737,3778 1749,3779 1758,3786 1765,3787 1815,3788 1837,3783 1871,3783 1872,3779 1880,3776 1888,3776 1896,3781 1902,3777 1926,3775 1934,3782 1976,3784 1981,3784 1987,3778 1999,3778 2004,3780 2006,3785 2020,3784 2027,3779 2042,3778 2052,3783 2082,3786 2143,3786 2151,3785 2158,3779 2169,3779 2177,3784 2182,3784 2188,3779 2197,3778 2211,3787 2236,3784 2361,3783 2370,3784 2373,3785 2373,3826 2312,3825 2230,3830 2216,3835 2202,3830 2183,3829 2004,3831 1946,3828 1940,3824 1914,3826 1908,3824 1876,3824 1859,3832 1849,3832 1844,3828 1794,3827 1551,3830 1547,3833 1327,3834"/>
+        <Coords points="2370,3784 2361,3783 2236,3784 2211,3787 2197,3778 2188,3779 2182,3784 2177,3784 2169,3779 2158,3779 2151,3785 2143,3786 2082,3786 2052,3783 2042,3778 2027,3779 2020,3784 2006,3785 2004,3780 1999,3778 1987,3778 1981,3784 1976,3784 1934,3782 1926,3775 1902,3777 1896,3781 1888,3776 1880,3776 1872,3779 1871,3783 1837,3783 1815,3788 1765,3787 1758,3786 1749,3779 1737,3778 1726,3778 1721,3784 1621,3785 1615,3780 1604,3779 1596,3782 1594,3786 1548,3786 1516,3791 1485,3789 1475,3792 1460,3791 1456,3788 1436,3790 1386,3789 1360,3784 1327,3784 1328,3832 1548,3832 1551,3830 1794,3827 1844,3828 1849,3832 1859,3832 1876,3824 1908,3824 1914,3826 1940,3824 1946,3828 2004,3831 2183,3829 2202,3830 2207,3832 2224,3832 2230,3830 2312,3825 2373,3826 2373,3785"/>
         <Baseline points="1327,3824 1922,3815 2373,3816"/>
         <Word id="region0009_line0028_word0000" custom="readingOrder {index:0;}">
           <Coords points="1338,3789 1339,3825 1549,3823 1548,3789 1516,3791 1485,3789 1475,3792 1460,3791 1456,3788 1436,3790 1386,3789 1383,3788"/>
@@ -8081,35 +8096,35 @@ man obgehoͤrter Maſſen hoͤchſterwehnter Chur⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Pfaltz vi Jurisdictionis ſtatuta aufzurichten bekenntlich&#13;
-einraͤumen muß.&#13;
-Alldieweil ſolches cæteris paribus, und von ziemlichẽ/&#13;
-zulaͤſſigen und redlichen Statutis, Geboten und Verboten/&#13;
-aber gar nicht dahin zu verſtehen/ daß einer Herꝛſchafft in-&#13;
-hiando propriis utilitatibus in præjudicium aliorum,&#13;
-einig griffig und verfaͤnglich Statut und Oronung/ da⸗&#13;
-durch ſie alle Handthierung an ſich und ihre Angehoͤrige&#13;
-allein ziehen und ſeine Benachbarten deren entſetzen moͤch⸗&#13;
-ten/ zu promulgiren erlaubt ſeyn ſolte.&#13;
-Daß aber unter beſagtem Statuto und Ordnung diß&#13;
-fuͤrnemlich vergraben lige/ ſolches iſt bereits oben ange⸗&#13;
-regt/ und kan von maͤnniglich mit ſchlechter Vernunfft&#13;
-ohnſchwer berechnet werden. Ejusmodi autem Statuta&#13;
-in præjudicium tertii vergentia &amp; bono publico con-&#13;
-traria neutiquam ferenda ſunt, aut valida judican-&#13;
-tur. Cacher. deciſ. 17. n. 9. Neque enim ita debemus&#13;
-verſuram quaſi faciendo discooperire unam altare,&#13;
-ut alterum cooperiamus. Bald. in l. fin. §.ſed ſi quis.&#13;
-C. Communia de legat. Cravett. conſ.95 1.n.1. Zaſ.conſ.&#13;
-12.num.96. vol. 1. Coler. de proceſſ. exc. p.2. c.3, num.&#13;
-120.&#13;
-Nebenſt deme iſt oben angezeigt/ wie durch die Pfaͤltzi⸗&#13;
-ſchen Verbot monopolica pravitas fovirt/ und darzu&#13;
-Anlaß gegeben werde. Quâ ratione rurſus hujusmodi&#13;
+        <Unicode>Pfaltz vi Jurisdictionis ſtatuta aufzurichten bekenntlich
+einraͤumen muß.
+Alldieweil ſolches cæteris paribus, und von ziemlichẽ/
+zulaͤſſigen und redlichen Statutis, Geboten und Verboten/
+aber gar nicht dahin zu verſtehen/ daß einer Herꝛſchafft in-
+hiando propriis utilitatibus in præjudicium aliorum,
+einig griffig und verfaͤnglich Statut und Oronung/ da⸗
+durch ſie alle Handthierung an ſich und ihre Angehoͤrige
+allein ziehen und ſeine Benachbarten deren entſetzen moͤch⸗
+ten/ zu promulgiren erlaubt ſeyn ſolte.
+Daß aber unter beſagtem Statuto und Ordnung diß
+fuͤrnemlich vergraben lige/ ſolches iſt bereits oben ange⸗
+regt/ und kan von maͤnniglich mit ſchlechter Vernunfft
+ohnſchwer berechnet werden. Ejusmodi autem Statuta
+in præjudicium tertii vergentia &amp; bono publico con-
+traria neutiquam ferenda ſunt, aut valida judican-
+tur. Cacher. deciſ. 17. n. 9. Neque enim ita debemus
+verſuram quaſi faciendo discooperire unam altare,
+ut alterum cooperiamus. Bald. in l. fin. §.ſed ſi quis.
+C. Communia de legat. Cravett. conſ.95 1.n.1. Zaſ.conſ.
+12.num.96. vol. 1. Coler. de proceſſ. exc. p.2. c.3, num.
+120.
+Nebenſt deme iſt oben angezeigt/ wie durch die Pfaͤltzi⸗
+ſchen Verbot monopolica pravitas fovirt/ und darzu
+Anlaß gegeben werde. Quâ ratione rurſus hujusmodi
 Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671385536_1323" custom="readingOrder {index:17;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671385536_1323" custom="readingOrder {index:17;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2366,945 2444,945 2444,994 2366,994"/>
       <TextLine id="line_1668671385708_1326" custom="readingOrder {index:0;}">
         <Coords points="2366,945 2443,945 2444,986 2409,994 2366,994"/>
@@ -8128,12 +8143,12 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>991</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671380416_1311" custom="readingOrder {index:18;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671380416_1311" custom="readingOrder {index:18;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2366,1264 2444,1264 2444,1336 2366,1336"/>
       <TextLine id="line_1668671650840_1586" custom="readingOrder {index:0;}">
-        <Coords points="2366,1264 2413,1264 2447,1285 2433,1337 2366,1336 2366,1311"/>
+        <Coords points="2366,1264 2366,1311 2366,1336 2433,1336 2444,1296 2444,1283 2413,1264"/>
         <Word id="word_1668671665264_1592" custom="readingOrder {index:0;}">
-          <Coords points="2367,1273 2444,1273 2444,1316 2367,1316"/>
+          <Coords points="2367,1273 2367,1316 2438,1316 2444,1296 2444,1283 2427,1273"/>
           <TextEquiv>
             <Unicode>992</Unicode>
           </TextEquiv>
@@ -8146,7 +8161,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>992</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671376028_1299" custom="readingOrder {index:19;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671376028_1299" custom="readingOrder {index:19;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2366,2211 2444,2211 2444,2276 2366,2276"/>
       <TextLine id="line_1668671357235_1286" custom="readingOrder {index:0;}">
         <Coords points="2366,2216 2370,2216 2381,2213 2439,2212 2443,2215 2443,2259 2433,2263 2420,2262 2370,2270 2366,2270"/>
@@ -8165,7 +8180,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>ctè à loco ad perſonas argumentum duci poteſt. E- 993</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671430398_1438" custom="readingOrder {index:20;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671430398_1438" custom="readingOrder {index:20;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2373,3190 2460,3190 2460,3249 2373,3249"/>
       <TextLine id="line_1668671410454_1372" custom="readingOrder {index:0;}">
         <Coords points="2373,3197 2450,3196 2460,3199 2460,3235 2459,3243 2450,3249 2441,3249 2434,3244 2399,3250 2373,3249"/>
@@ -8184,7 +8199,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>ohnſchmer berechnet merden. Ejusmodi autem Statuta 994</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671427448_1424" custom="readingOrder {index:21;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671427448_1424" custom="readingOrder {index:21;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2373,3338 2460,3338 2460,3396 2373,3396"/>
       <TextLine id="line_1668671427622_1429" custom="readingOrder {index:0;}">
         <Coords points="2373,3342 2442,3338 2459,3338 2459,3389 2373,3391"/>
@@ -8203,7 +8218,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>tur. Cacher. àeciſ. r7. n. 9. Neque enim ita debemus 995</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4439486" type="marginalia" readingDirection="left-to-right" id="TextRegion_1668671424562_1412" custom="readingOrder {index:22;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1668671424562_1412" custom="readingOrder {index:22;} structure {type:marginalia;}" orientation="0.4439486" type="marginalia" readingDirection="left-to-right">
       <Coords points="2373,3726 2460,3726 2461,3787 2373,3787"/>
       <TextLine id="line_1668671423655_1408" custom="readingOrder {index:0;}">
         <Coords points="2373,3732 2377,3737 2409,3739 2435,3730 2460,3729 2459,3781 2425,3783 2416,3786 2401,3784 2395,3787 2376,3787 2373,3784"/>
@@ -8222,7 +8237,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>996</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="footer" id="region_1683028888717_173" custom="readingOrder {index:23;} structure {type:footer;}">
+    <TextRegion id="region_1683028888717_173" custom="readingOrder {index:23;} structure {type:footer;}" type="footer">
       <Coords points="447,3843 447,3878 919,3878 919,3843"/>
       <TextLine id="line_1683028888979_176" custom="readingOrder {index:0;}">
         <Coords points="447,3843 447,3878 919,3878 919,3843"/>
@@ -8258,7 +8273,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>Conſil. KlockI Tom. I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1683028949368_242" custom="readingOrder {index:24;} structure {type:signature-mark;}">
+    <TextRegion id="region_1683028949368_242" custom="readingOrder {index:24;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="1859,3837 1859,3873 1953,3873 1953,3837"/>
       <TextLine id="line_1683028949631_245" custom="readingOrder {index:0;}">
         <Coords points="1859,3837 1859,3873 1953,3873 1953,3837"/>
@@ -8276,7 +8291,7 @@ Statutum, uti ex radice cupiditatis&amp; avaritię contra</Unicode>
         <Unicode>Bbb</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683028952872_251" custom="readingOrder {index:25;} structure {type:catch-word;}">
+    <TextRegion id="region_1683028952872_251" custom="readingOrder {index:25;} structure {type:catch-word;}" type="catch-word">
       <Coords points="2236,3837 2236,3879 2372,3879 2372,3837"/>
       <TextLine id="line_1683028953109_254" custom="readingOrder {index:0;}">
         <Coords points="2236,3837 2236,3879 2372,3879 2372,3837"/>

@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-168">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:39Z</Created>
     <LastChange>2024-01-19T13:08:39Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-478201-p0107-9_lat.jpg" imageWidth="1559" imageHeight="2238" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/8ff17ae0-0f41-4f5b-865e-0d4764f612a2/00000107.jpg" imageWidth="1559" imageHeight="2238" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="121,159 125,2163 1291,2166 1257,142"/>
     </Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.3680595" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="1.3680595" readingDirection="left-to-right">
       <Coords points="320,263 1140,263 1140,591 320,591"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="899,264 893,269 892,277 660,284 599,285 597,278 592,275 570,273 563,277 561,287 506,288 501,283 491,283 485,288 440,290 435,288 431,280 425,279 321,281 321,341 379,340 503,330 561,331 638,328 656,330 662,335 705,329 710,334 725,334 734,331 736,325 747,322 850,319 928,322 932,328 941,330 955,330 962,321 1014,319 1020,328 1041,328 1047,324 1049,318 1056,316 1124,315 1140,311 1140,270 1123,270 1120,264 1099,264 1098,269 995,273 990,264 974,264 970,274 929,275 926,270 919,265"/>
@@ -212,18 +228,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>f. Peccato aliena, quorum aliquis parti-&#13;
-ceps ſit concurrendo ad illa&#13;
-α. Remotius per ſcandala.&#13;
-β. Propius&#13;
-aa. Mediate et indirecte.&#13;
+        <Unicode>f. Peccato aliena, quorum aliquis parti-
+ceps ſit concurrendo ad illa
+α. Remotius per ſcandala.
+β. Propius
+aa. Mediate et indirecte.
 bb. Immediate et directe.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3680595" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;} structure {type:heading;}" orientation="1.3680595" type="heading" readingDirection="left-to-right">
       <Coords points="176,669 1140,669 1146,739 182,739"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
-        <Coords points="880,665 767,670 745,682 644,684 402,702 397,707 398,739 591,738 739,729 917,724 920,720 919,706 924,701 923,667 918,664"/>
+        <Coords points="767,670 745,682 644,684 402,702 397,707 398,739 591,738 739,729 917,724 920,720 919,706 924,701 923,669 789,669"/>
         <Baseline points="398,738 730,719 920,716"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="464,726 761,719 760,689 491,695 463,697"/>
@@ -245,7 +261,7 @@ bb. Immediate et directe.</Unicode>
         <Unicode>ARTICVLVS III.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3680595" type="heading" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;} structure {type:heading;}" orientation="1.3680595" type="heading" readingDirection="left-to-right">
       <Coords points="290,737 1054,737 1054,818 290,818"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="737,738 693,742 521,745 291,756 290,818 474,818 624,807 1054,796 1053,737"/>
@@ -276,7 +292,7 @@ bb. Immediate et directe.</Unicode>
         <Unicode>DE LIBERO ARBITRIO.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3680595" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;}" orientation="1.3680595" readingDirection="left-to-right">
       <Coords points="151,841 1183,841 1183,1942 151,1942"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="353,841 252,848 151,848 151,904 306,900 411,890 457,889 495,884 500,877 512,876 517,871 516,841"/>
@@ -744,7 +760,7 @@ bb. Immediate et directe.</Unicode>
         <Coords points="367,1468 305,1474 304,1502 313,1515 349,1516 366,1520 427,1516 441,1519 461,1519 464,1524 480,1525 505,1514 529,1518 533,1513 541,1512 560,1519 571,1519 581,1514 645,1510 652,1505 651,1474 646,1469 589,1468 420,1474 401,1469"/>
         <Baseline points="310,1509 652,1499"/>
         <Word id="word_1658395428359_4013" custom="readingOrder {index:0;}">
-          <Coords points="355,1480 513,1477 534,1499 534,1512 529,1517 487,1521 462,1521 366,1520 355,1517"/>
+          <Coords points="534,1512 534,1499 513,1477 355,1480 355,1517 366,1520 427,1516 441,1519 461,1519 462,1521 487,1521 489,1520 505,1514 525,1517 529,1517 533,1513"/>
           <TextEquiv>
             <Unicode>Deut.30,</Unicode>
           </TextEquiv>
@@ -1056,26 +1072,26 @@ bb. Immediate et directe.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>I. NEXVS.&#13;
-II. INDOLES. Eſt doctrina pura et funda-&#13;
- mentalis.&#13;
-llI. SEDES. I Cor. 2, 14. Ioh. 15, 4.5. Phil.2, 13.&#13;
-IV. IPSA EXPLICATIO HVIVS DO-&#13;
-CTRINAE, vbi&#13;
-I. Denominatio liberi arbitrii.&#13;
-2. Explicatio libertatis. Conſiſtit ea in facul-&#13;
-tate ſe determinandi per diſtinctam cogni-&#13;
-tionem; quam homini ineſſe comprobatur&#13;
-a. Ex experientia.&#13;
-b. Ex 1Cor. 7,36. Philem. v. 14. Hebr. 10, 26.&#13;
-Deut.30, 19.&#13;
-3. Obiectum libertatis, quo referas&#13;
-a. Naturalia ſeu humana, ad quae vires&#13;
-hominum natura ſufficiunt, ita, vt&#13;
-α. Externam ipſius felicitatem ex parte&#13;
-promoueant, ipſumque ad ſalutarem&#13;
-doctrinarum diuinarum vſum praepa-&#13;
-rent ac ſtimulent, atque illius con-&#13;
+        <Unicode>I. NEXVS.
+II. INDOLES. Eſt doctrina pura et funda-
+ mentalis.
+llI. SEDES. I Cor. 2, 14. Ioh. 15, 4.5. Phil.2, 13.
+IV. IPSA EXPLICATIO HVIVS DO-
+CTRINAE, vbi
+I. Denominatio liberi arbitrii.
+2. Explicatio libertatis. Conſiſtit ea in facul-
+tate ſe determinandi per diſtinctam cogni-
+tionem; quam homini ineſſe comprobatur
+a. Ex experientia.
+b. Ex 1Cor. 7,36. Philem. v. 14. Hebr. 10, 26.
+Deut.30, 19.
+3. Obiectum libertatis, quo referas
+a. Naturalia ſeu humana, ad quae vires
+hominum natura ſufficiunt, ita, vt
+α. Externam ipſius felicitatem ex parte
+promoueant, ipſumque ad ſalutarem
+doctrinarum diuinarum vſum praepa-
+rent ac ſtimulent, atque illius con-
 temtum inexcuſatum reddant;</Unicode>
       </TextEquiv>
     </TextRegion>

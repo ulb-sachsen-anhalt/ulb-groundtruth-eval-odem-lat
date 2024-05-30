@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-179">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:47Z</Created>
     <LastChange>2024-01-19T13:08:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-509526-p0812-5_lat.png" imageWidth="2547" imageHeight="2920" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/7795a562-e4e7-4174-bd12-d1e64f88e301/00000812.jpg" imageWidth="2547" imageHeight="2920" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="442,162 399,2736 2408,2755 2420,185"/>
     </Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1655715790078_3801"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.5263988" type="marginalia" readingDirection="left-to-right" id="TextRegion_1655715777150_3794" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1655715777150_3794" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.5263988" type="marginalia" readingDirection="left-to-right">
       <Coords points="851,823 1152,821 1152,1120 846,1120"/>
       <TextLine id="line_1655715771907_3737" custom="readingOrder {index:0;}">
         <Coords points="868,890 944,888 949,885 961,885 969,890 984,891 1004,891 1012,884 1022,884 1030,891 1097,892 1105,891 1114,881 1147,884 1152,884 1152,931 1124,933 1110,929 1089,929 1076,932 1075,936 1066,939 1049,937 1045,932 874,932 868,931 865,927 865,894"/>
@@ -93,7 +109,7 @@
         </Word>
         <Word id="region0004_line0005_word0001" custom="readingOrder {index:1;}">
           <Coords points="1019,1048 1130,1049 1130,1022 1125,1024 1104,1024 1087,1019 1072,1023 1067,1019 1056,1018 1043,1018 1035,1024 1019,1024"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>adjecta</Unicode>
           </TextEquiv>
         </Word>
@@ -115,17 +131,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>An imposſi-&#13;
-bilis condi-&#13;
-tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-&#13;
-non adjecta tum paucis tangam, de quorum uſu dubitari poterat.&#13;
+        <Unicode>An imposſi-
+bilis condi-
+tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-
+non adjecta tum paucis tangam, de quorum uſu dubitari poterat.
 habeatur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5263988" type="heading" readingDirection="left-to-right" id="TextRegion_1655715793692_3810" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1655715793692_3810" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.5263988" type="heading" readingDirection="left-to-right">
       <Coords points="1152,821 2417,813 2416,883 1152,883"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1866,813 1644,816 1639,821 1639,856 1642,860 1650,862 1649,880 1654,885 1733,886 1768,883 1785,875 1798,873 1862,873 1867,868 1867,855 1875,849 1875,814"/>
+        <Coords points="1639,821 1639,856 1642,860 1650,862 1649,880 1652,883 1768,883 1785,875 1798,873 1862,873 1867,868 1867,855 1875,849 1875,816 1642,817"/>
         <Baseline points="1649,874 1867,864"/>
         <Word id="word_1655715793731_3813" custom="readingOrder {index:0;}">
           <Coords points="1717,823 1753,823 1752,871 1716,871"/>
@@ -147,10 +163,10 @@ habeatur.</Unicode>
         <Unicode>§. I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5263988" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1655715799836_3819" custom="readingOrder {index:2;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1655715799836_3819" custom="readingOrder {index:2;} structure {type:drop-capital;}" orientation="-0.5263988" type="drop-capital" readingDirection="left-to-right">
       <Coords points="1152,883 1248,883 1248,1006 1152,1006"/>
       <TextLine id="line_1655715827007_3836" custom="readingOrder {index:0;}">
-        <Coords points="1152,884 1240,879 1248,879 1248,937 1248,999 1152,1016 1152,972"/>
+        <Coords points="1152,884 1152,972 1152,1006 1208,1006 1248,999 1248,937 1248,883 1169,883"/>
         <Baseline points="1152,926 1169,927 1226,928 1248,928 1184,927 1223,928"/>
         <Word id="word_1655715832222_3843" custom="readingOrder {index:0;}">
           <Coords points="1152,885 1226,884 1248,884 1248,928 1239,983 1163,982 1152,928"/>
@@ -166,10 +182,10 @@ habeatur.</Unicode>
         <Unicode>N</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5263988" readingDirection="left-to-right" id="TextRegion_1655715799836_3818" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1655715799836_3818" custom="readingOrder {index:3;}" orientation="-0.5263988" readingDirection="left-to-right">
       <Coords points="1248,883 2416,883 2416,1006 1248,1006"/>
       <TextLine id="line_1655715799879_3821" custom="readingOrder {index:0;}">
-        <Coords points="1248,879 1306,880 1316,883 1324,892 1363,893 1367,881 1388,880 1395,886 1397,894 1441,895 1508,895 1515,883 1532,885 1537,895 1682,895 1684,886 1689,884 1708,886 1711,896 1736,896 1742,886 1761,885 1765,897 1861,896 1870,887 1884,889 1888,896 1945,894 2175,897 2267,895 2276,893 2281,884 2287,882 2300,882 2307,890 2416,892 2416,937 2407,942 2263,946 2252,945 2247,942 2221,943 2217,951 2207,952 2201,957 2190,954 2188,947 2172,945 2161,945 2147,952 2142,947 2120,947 2113,944 2100,947 1972,946 1842,941 1776,946 1591,944 1589,953 1566,957 1556,953 1555,944 1492,943 1481,954 1475,954 1467,952 1464,944 1450,941 1356,943 1349,940 1296,942 1260,938 1248,936"/>
+        <Coords points="1363,893 1324,892 1316,883 1248,883 1248,936 1260,938 1296,942 1349,940 1356,943 1450,941 1464,944 1467,952 1475,954 1481,954 1492,943 1555,944 1556,953 1566,957 1589,953 1591,944 1776,946 1842,941 1972,946 2100,947 2113,944 2120,947 2142,947 2147,952 2161,945 2172,945 2188,947 2190,954 2201,957 2207,952 2217,951 2221,943 2247,942 2252,945 2263,946 2407,942 2416,937 2416,892 2307,890 2300,883 2284,883 2281,884 2276,893 2267,895 2175,897 1945,894 1888,896 1884,889 1870,887 1861,896 1765,897 1761,885 1742,886 1736,896 1711,896 1708,886 1689,884 1684,886 1682,895 1537,895 1532,885 1515,883 1508,895 1441,895 1397,894 1395,886 1391,883 1366,883"/>
         <Baseline points="1248,928 1601,936 2416,932"/>
         <Word id="word_1655715799880_3823" custom="readingOrder {index:0;}">
           <Coords points="1248,884 1317,884 1323,890 1323,929 1248,928"/>
@@ -230,7 +246,7 @@ habeatur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1655715799881_3825" custom="readingOrder {index:1;}">
-        <Coords points="1248,937 1260,939 1293,941 1298,943 1300,952 1322,952 1327,944 1341,941 1357,944 1359,952 1385,953 1388,944 1403,942 1410,946 1412,953 1417,953 1423,944 1428,942 1450,942 1455,944 1457,952 1475,955 1481,955 1492,944 1497,944 1503,947 1505,954 1557,954 1566,958 1612,953 1758,955 1814,952 1827,952 1830,945 1842,942 1897,942 1903,946 1905,952 1950,955 1972,955 1978,947 1996,947 2002,954 2096,955 2098,948 2106,945 2121,948 2124,955 2149,955 2161,946 2172,946 2179,949 2180,955 2201,958 2207,953 2217,952 2221,944 2232,943 2247,943 2252,946 2253,951 2269,953 2413,952 2416,954 2415,995 2404,1000 2264,1005 2160,1002 2144,1005 2079,1004 2058,1000 2046,1004 2043,1010 2034,1013 2030,1013 2015,1001 1997,1009 1989,1009 1983,1004 1966,1004 1959,1001 1911,1004 1766,1005 1762,1008 1750,1008 1746,1005 1690,1003 1681,1000 1582,1004 1248,999"/>
+        <Coords points="2413,952 2269,953 2253,951 2252,946 2247,943 2232,943 2221,944 2217,952 2207,953 2201,958 2180,955 2179,949 2172,946 2161,946 2149,955 2124,955 2121,948 2106,945 2098,948 2096,955 2002,954 1996,947 1978,947 1972,955 1950,955 1905,952 1903,946 1897,942 1842,942 1830,945 1827,952 1814,952 1758,955 1612,953 1566,958 1557,954 1505,954 1503,947 1497,944 1492,944 1481,955 1475,955 1457,952 1455,944 1450,942 1428,942 1423,944 1417,953 1412,953 1410,946 1403,942 1388,944 1385,953 1359,952 1357,944 1341,941 1327,944 1322,952 1300,952 1298,943 1293,941 1260,939 1248,937 1248,999 1582,1004 1681,1000 1690,1003 1746,1005 1747,1006 1764,1006 1766,1005 1911,1004 1959,1001 1966,1004 1983,1004 1985,1006 2003,1006 2015,1001 2021,1006 2045,1006 2046,1004 2058,1000 2079,1004 2144,1005 2160,1002 2264,1005 2404,1000 2415,995 2416,954"/>
         <Word id="region0004_line0004_word0004" custom="readingOrder {index:0;}">
           <Coords points="1270,941 1269,986 1311,987 1311,952 1300,952 1298,943 1294,941"/>
           <TextEquiv conf="0.8516082">
@@ -284,14 +300,14 @@ habeatur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>On adeo quicquam in hoc tit. occurrere, quod u-&#13;
+        <Unicode>On adeo quicquam in hoc tit. occurrere, quod u-
 tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5263988" readingDirection="left-to-right" id="TextRegion_1655715790078_3801" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1655715790078_3801" custom="readingOrder {index:4;}" orientation="-0.5263988" readingDirection="left-to-right">
       <Coords points="1152,1006 2416,1006 2409,2385 1152,2378"/>
       <TextLine id="line_1655715771910_3744" custom="readingOrder {index:0;}">
-        <Coords points="1152,1014 1180,1010 1374,1010 1376,1003 1384,1001 1399,1004 1401,1011 1441,1009 1624,1014 1653,1011 1655,1004 1668,1001 1685,1003 1686,1011 1771,1012 1934,1011 1937,1005 1945,1002 1968,1005 1970,1012 2002,1012 2004,1005 2015,1002 2030,1014 2034,1014 2043,1011 2048,1004 2058,1001 2074,1004 2075,1012 2086,1003 2098,1003 2103,1005 2105,1011 2110,1012 2151,1013 2154,1005 2171,1003 2176,1005 2179,1013 2211,1014 2290,1011 2334,1005 2415,1005 2415,1054 2410,1059 2211,1062 2209,1069 2203,1072 2198,1072 2183,1061 2172,1064 1975,1060 1753,1061 1751,1068 1744,1072 1724,1071 1719,1062 1713,1059 1662,1058 1649,1062 1623,1063 1619,1066 1607,1066 1603,1063 1530,1062 1524,1070 1518,1072 1495,1071 1489,1067 1487,1061 1454,1060 1433,1056 1399,1060 1298,1061 1294,1066 1284,1068 1272,1066 1265,1060 1236,1059 1230,1055 1213,1058 1174,1056 1152,1060"/>
+        <Coords points="1374,1010 1180,1010 1152,1014 1152,1060 1174,1056 1213,1058 1230,1055 1236,1059 1265,1060 1272,1066 1284,1068 1294,1066 1298,1061 1399,1060 1433,1056 1454,1060 1487,1061 1489,1067 1495,1071 1518,1072 1524,1070 1530,1062 1603,1063 1607,1066 1619,1066 1623,1063 1649,1062 1662,1058 1713,1059 1719,1062 1724,1071 1744,1072 1751,1068 1753,1061 1975,1060 2172,1064 2183,1061 2198,1072 2203,1072 2209,1069 2211,1062 2410,1059 2415,1054 2415,1006 2326,1006 2290,1011 2211,1014 2179,1013 2176,1006 2153,1006 2151,1013 2110,1012 2105,1011 2103,1006 2082,1006 2075,1012 2074,1006 2046,1006 2043,1011 2034,1014 2030,1014 2020,1006 2003,1006 2002,1012 1970,1012 1968,1006 1936,1006 1934,1011 1771,1012 1686,1011 1685,1006 1654,1006 1653,1011 1624,1014 1441,1009 1401,1011 1399,1006 1375,1006"/>
         <Baseline points="1152,1050 1181,1047 2153,1054 2415,1049"/>
         <Word id="region0004_line0005_word0002" custom="readingOrder {index:0;}">
           <Coords points="1180,1010 1166,1012 1166,1041 1257,1041 1257,1010"/>
@@ -679,7 +695,7 @@ tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-</Unicode>
         </Word>
         <Word id="region0004_line0012_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1883,1392 1935,1393 1935,1353 1913,1352 1905,1355 1883,1354"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
@@ -697,7 +713,7 @@ tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-</Unicode>
         </Word>
         <Word id="region0004_line0012_word0008" custom="readingOrder {index:8;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="2093,1359 2055,1359 2055,1401 2062,1404 2078,1404 2080,1403 2093,1401"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>J.</Unicode>
           </TextEquiv>
         </Word>
@@ -1580,7 +1596,7 @@ tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1655715771935_3790" custom="readingOrder {index:23;}">
-        <Coords points="1152,2315 1161,2314 1171,2318 1174,2324 1177,2318 1192,2317 1195,2321 1229,2330 1247,2327 1328,2328 1332,2320 1356,2317 1382,2319 1387,2322 1388,2328 1401,2328 1402,2324 1420,2318 1427,2321 1428,2328 1563,2328 1610,2323 1659,2328 1674,2323 1686,2324 1693,2333 1698,2334 1823,2336 1890,2334 1893,2327 1898,2324 1914,2324 1919,2327 1920,2332 1952,2332 1964,2323 1983,2323 1988,2326 1990,2333 1995,2333 1997,2325 2003,2323 2036,2323 2060,2327 2062,2337 2086,2335 2091,2329 2106,2328 2113,2329 2118,2334 2141,2336 2150,2328 2166,2327 2175,2330 2177,2338 2193,2338 2199,2336 2200,2330 2216,2327 2221,2329 2225,2338 2241,2339 2288,2320 2314,2318 2331,2313 2374,2312 2380,2309 2399,2309 2404,2314 2404,2349 2396,2355 2396,2368 2393,2372 2297,2378 2261,2385 1741,2385 1573,2381 1570,2384 1535,2380 1464,2378 1369,2379 1365,2384 1345,2384 1343,2379 1152,2375"/>
+        <Coords points="2297,2378 2393,2372 2396,2368 2396,2355 2404,2349 2404,2314 2399,2309 2380,2309 2374,2312 2331,2313 2314,2318 2288,2320 2241,2339 2225,2338 2221,2329 2216,2327 2200,2330 2199,2336 2193,2338 2177,2338 2175,2330 2166,2327 2150,2328 2141,2336 2118,2334 2113,2329 2106,2328 2091,2329 2086,2335 2062,2337 2060,2327 2036,2323 2003,2323 1997,2325 1995,2333 1990,2333 1988,2326 1983,2323 1964,2323 1952,2332 1920,2332 1919,2327 1914,2324 1898,2324 1893,2327 1890,2334 1823,2336 1698,2334 1693,2333 1686,2324 1674,2323 1659,2328 1610,2323 1563,2328 1428,2328 1427,2321 1420,2318 1402,2324 1401,2328 1388,2328 1387,2322 1382,2319 1356,2317 1332,2320 1328,2328 1247,2327 1229,2330 1195,2321 1192,2317 1177,2318 1174,2324 1171,2318 1161,2314 1152,2315 1152,2375 1343,2379 1343,2379 1369,2379 1369,2379 1464,2378 1535,2380 1536,2380 2265,2384"/>
         <Baseline points="1152,2364 2177,2379 2396,2364"/>
         <Word id="region0004_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="1153,2356 1275,2358 1275,2327 1247,2327 1229,2330 1195,2321 1192,2317 1177,2318 1174,2324 1171,2318 1161,2314 1153,2315"/>
@@ -1641,29 +1657,29 @@ tio hodie pro AN ſu fori ſit immutatum, exiſtimo, proinde illa tan-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>non adjecta tum paucis tangam, de quorum uſu dubitari poterat.&#13;
-Primo conſtat, conditionem impoſſibilem vel turpem&#13;
-aut deriſoriam pro non ſcripta haberi, ſalva nihilomi-&#13;
-nus inſtitutione heredis. l.9. l. 14. l. 27. ff. h. v. l.3. ff. de&#13;
-condit. &amp; demonſtr. Non deſunt tamen, qui exiſtimant,&#13;
-hodie inſtitutionem ipſam vitiari &amp; plane nullam eſſe,&#13;
-qua in ſententia eſt Grönewegen ad §. 10. J. de inſtit. he-&#13;
-red. judicans, hanc diſpoſitionem juris Civilis abrogan-&#13;
-dam eſſe. Similiter Simon van Leven in Cenſura for.&#13;
-lib. 3. c. 5. n. 25. &amp; 26. urget moribus hodiernis condi-&#13;
-tionem per ſe impoſſibilem ipſam diſpoſitionem vitia-&#13;
-re, perindeque haberi ac ſi ridicule &amp; ludendi animo&#13;
-nihil diſpoſuiſſet teſtator. Verum quemadmodum u-&#13;
-terque admodum facilis eſſe ſolet in negando uſu ju-&#13;
-ris Rom. ita non tuto iis fides hac in re haberi&#13;
-poteſt. Scilicet quando urgent, deficere hic ſeri-&#13;
-am voluntatem teſtatoris, aliquid ſupponunt, quod&#13;
-ſtatum controverſiæ mutat. Neque enim credendum&#13;
-eſt, JCtos Romanos in illa ſententia fuiſſe, ut, ſuppoſito&#13;
-hoc principio, quod teſtator ſerio diſponere noluerit,&#13;
-aut mentis compos non fuerit, nihilominus teſtamen-&#13;
-tum effectum habere crediderint, ſed ubique potius&#13;
-ſuppoſuere, teſtatorem, talem conditionem impoſſi-&#13;
+        <Unicode>non adjecta tum paucis tangam, de quorum uſu dubitari poterat.
+Primo conſtat, conditionem impoſſibilem vel turpem
+aut deriſoriam pro non ſcripta haberi, ſalva nihilomi-
+nus inſtitutione heredis. l.9. l. 14. l. 27. ff. h. v. l.3. ff. de
+condit. &amp; demonſtr. Non deſunt tamen, qui exiſtimant,
+hodie inſtitutionem ipſam vitiari &amp; plane nullam eſſe,
+qua in ſententia eſt Grönewegen ad §. 10. J. de inſtit. he-
+red. judicans, hanc diſpoſitionem juris Civilis abrogan-
+dam eſſe. Similiter Simon van Leven in Cenſura for.
+lib. 3. c. 5. n. 25. &amp; 26. urget moribus hodiernis condi-
+tionem per ſe impoſſibilem ipſam diſpoſitionem vitia-
+re, perindeque haberi ac ſi ridicule &amp; ludendi animo
+nihil diſpoſuiſſet teſtator. Verum quemadmodum u-
+terque admodum facilis eſſe ſolet in negando uſu ju-
+ris Rom. ita non tuto iis fides hac in re haberi
+poteſt. Scilicet quando urgent, deficere hic ſeri-
+am voluntatem teſtatoris, aliquid ſupponunt, quod
+ſtatum controverſiæ mutat. Neque enim credendum
+eſt, JCtos Romanos in illa ſententia fuiſſe, ut, ſuppoſito
+hoc principio, quod teſtator ſerio diſponere noluerit,
+aut mentis compos non fuerit, nihilominus teſtamen-
+tum effectum habere crediderint, ſed ubique potius
+ſuppoſuere, teſtatorem, talem conditionem impoſſi-
 bilem adjicientem, &amp; ſanæ mentis fuiſſe &amp; ſerio diſ-</Unicode>
       </TextEquiv>
     </TextRegion>

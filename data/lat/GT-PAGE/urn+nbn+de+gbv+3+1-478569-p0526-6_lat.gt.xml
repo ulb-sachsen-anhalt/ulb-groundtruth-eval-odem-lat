@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-169">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:39Z</Created>
     <LastChange>2024-01-19T13:08:39Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-478569-p0526-6_lat.png" imageWidth="2911" imageHeight="3225" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/578cf6e2-1a33-4471-812b-5185359eb84f/00000526.jpg" imageWidth="2911" imageHeight="3225" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="203,216 250,3018 2769,3029 2768,226"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1673603832024_1951"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.0018443243" type="page-number" readingDirection="left-to-right" id="TextRegion_1673603710955_1788" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673603710955_1788" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.0018443243" type="page-number" readingDirection="left-to-right">
       <Coords points="1150,337 1451,337 1451,411 1150,411"/>
       <TextLine id="line_1673603700077_1779" custom="readingOrder {index:0;}">
         <Coords points="1150,349 1161,352 1166,358 1167,366 1365,367 1370,372 1370,410 1150,410"/>
@@ -38,7 +53,7 @@
         <Unicode>502</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.0018443243" type="header" readingDirection="left-to-right" id="TextRegion_1673603710955_1787" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1673603710955_1787" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.0018443243" type="header" readingDirection="left-to-right">
       <Coords points="1451,337 2135,337 2135,411 1451,411"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
         <Coords points="1664,337 1538,338 1533,343 1533,392 1538,397 1556,398 2134,398 2134,337"/>
@@ -57,10 +72,10 @@
         <Unicode>INTRODVCTIO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.0018443243" type="marginalia" readingDirection="left-to-right" id="TextRegion_1673603777759_1844" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1673603777759_1844" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.0018443243" type="marginalia" readingDirection="left-to-right">
       <Coords points="882,685 1150,683 1150,1094 882,1096"/>
       <TextLine id="line_1673603777817_1847" custom="readingOrder {index:0;}">
-        <Coords points="882,686 932,686 953,689 958,685 973,685 976,689 985,685 1161,685 1161,727 1114,728 1065,733 1033,732 1028,735 1005,736 937,735 921,739 882,741"/>
+        <Coords points="985,685 976,689 973,685 958,685 953,689 932,686 882,686 882,741 921,739 937,735 1005,736 1028,735 1033,732 1065,733 1114,728 1150,727 1150,685"/>
         <Baseline points="882,727 1161,716"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="1002,699 888,699 888,738 925,738 937,735 1002,735"/>
@@ -79,16 +94,16 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603777818_1849" custom="readingOrder {index:1;}">
-        <Coords points="882,745 908,744 937,736 973,736 979,741 1004,742 1027,740 1033,733 1048,733 1053,738 1063,738 1096,735 1114,729 1161,727 1161,789 1140,789 1111,780 891,788 882,787"/>
+        <Coords points="1114,729 1096,735 1063,738 1053,738 1048,733 1033,733 1027,740 1004,742 979,741 973,736 937,736 908,744 882,745 882,787 891,788 1111,780 1140,789 1150,789 1150,727"/>
         <Baseline points="882,774 1059,771 1161,774"/>
         <Word id="region0003_line0002_word0001" custom="readingOrder {index:0;}">
-          <Coords points="904,742 885,784 1020,778 1017,740 973,736"/>
+          <Coords points="885,784 1020,778 1017,740 1004,742 979,741 973,736 920,740 908,744 903,744"/>
           <TextEquiv conf="0.90879244">
             <Unicode>rectius</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0002_word0002" custom="readingOrder {index:1;}">
-          <Coords points="1144,728 1114,729 1033,733 1031,735 1031,774 1144,774"/>
+          <Coords points="1114,729 1096,735 1063,738 1053,738 1048,733 1033,733 1031,735 1031,774 1144,774 1144,728"/>
           <TextEquiv conf="0.9069647">
             <Unicode>intel-</Unicode>
           </TextEquiv>
@@ -98,7 +113,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603777820_1853" custom="readingOrder {index:2;}">
-        <Coords points="882,787 906,787 920,788 926,792 1132,788 1142,790 1156,799 1161,799 1161,848 1159,849 1125,840 1112,827 1033,833 996,832 945,840 931,845 915,844 912,841 882,840"/>
+        <Coords points="1142,790 1132,788 926,792 920,788 906,787 882,787 882,840 912,841 915,844 931,845 945,840 996,832 1033,833 1112,827 1125,840 1150,846 1150,795"/>
         <Baseline points="882,822 1039,833 1123,838 1141,839 1161,838"/>
         <Word id="region0003_line0003_word0001" custom="readingOrder {index:0;}">
           <Coords points="889,790 889,835 976,835 996,832 1033,833 1046,831 1055,832 1055,791 1029,790 926,792 923,790"/>
@@ -107,7 +122,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0003_word0002" custom="readingOrder {index:1;}">
-          <Coords points="1130,842 1130,789 1127,788 1117,786 1059,787 1059,827 1097,825 1110,838 1125,842"/>
+          <Coords points="1130,789 1127,788 1059,789 1059,827 1097,825 1099,827 1112,827 1125,840 1130,841"/>
           <TextEquiv conf="0.6468613">
             <Unicode>re-</Unicode>
           </TextEquiv>
@@ -117,7 +132,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603901838_2020" custom="readingOrder {index:3;}">
-        <Coords points="886,845 931,846 945,842 988,840 996,833 1009,833 1015,840 1023,840 1049,837 1062,830 1089,832 1096,828 1115,829 1125,841 1156,848 1161,852 1161,888 918,888 920,885 886,884"/>
+        <Coords points="1125,841 1115,829 1096,828 1089,832 1062,830 1049,837 1023,840 1015,840 1009,833 996,833 988,840 945,842 931,846 886,845 886,884 920,885 918,888 1150,888 1150,846"/>
         <Baseline points="1055,834 1122,838"/>
         <Word id="word_1673603901896_2023" custom="readingOrder {index:0;}">
           <Coords points="886,845 931,846 945,842 988,840 996,833 1007,833 1007,888 918,888 920,885 886,884"/>
@@ -154,7 +169,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603777823_1861" custom="readingOrder {index:5;}">
-        <Coords points="882,943 901,943 913,935 928,935 933,941 1031,938 1039,937 1042,931 1049,929 1062,931 1065,937 1092,936 1102,934 1108,928 1142,921 1161,920 1161,969 1152,970 1116,977 924,984 911,986 903,993 888,994 882,991"/>
+        <Coords points="1142,921 1108,928 1102,934 1092,936 1065,937 1062,931 1049,929 1042,931 1039,937 1031,938 933,941 928,935 913,935 901,943 882,943 882,991 888,994 903,993 911,986 924,984 1116,977 1150,970 1150,920"/>
         <Baseline points="882,975 1145,960 1161,959"/>
         <Word id="region0003_line0006_word0001" custom="readingOrder {index:0;}">
           <Coords points="887,980 1033,980 1034,937 1031,938 933,941 928,935 913,935 901,943 888,943"/>
@@ -173,7 +188,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603777825_1865" custom="readingOrder {index:6;}">
-        <Coords points="882,993 903,994 914,991 964,989 967,983 985,981 998,982 1002,988 1019,988 1060,985 1072,978 1088,978 1094,984 1109,984 1139,980 1161,979 1161,1028 1059,1027 1051,1030 904,1032 891,1043 882,1041"/>
+        <Coords points="1139,980 1109,984 1094,984 1088,978 1072,978 1060,985 1019,988 1002,988 998,982 985,981 967,983 964,989 914,991 903,994 882,993 882,1041 891,1043 904,1032 1051,1030 1059,1027 1150,1027 1150,979"/>
         <Baseline points="882,1026 1161,1018"/>
         <Word id="region0003_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="884,1015 1052,1015 1052,985 1019,988 1002,988 998,982 985,981 967,983 964,989 914,991 903,994 884,993"/>
@@ -192,7 +207,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603777826_1869" custom="readingOrder {index:7;}">
-        <Coords points="882,1044 891,1044 904,1033 912,1034 915,1040 950,1040 961,1039 968,1031 996,1031 1003,1037 1018,1037 1044,1036 1059,1028 1076,1028 1081,1030 1083,1035 1161,1037 1161,1088 1145,1089 1113,1080 882,1083"/>
+        <Coords points="1083,1035 1081,1030 1076,1028 1059,1028 1044,1036 1018,1037 1003,1037 996,1031 968,1031 961,1039 950,1040 915,1040 912,1034 904,1033 891,1044 882,1044 882,1083 1113,1080 1145,1089 1150,1088 1150,1036"/>
         <Baseline points="882,1075 1161,1073"/>
         <Word id="word_1673603775893_1839" custom="readingOrder {index:0;}">
           <Coords points="882,1044 891,1044 904,1033 912,1034 915,1040 950,1040 961,1039 968,1031 996,1031 1003,1037 1015,1037 1015,1064 882,1064"/>
@@ -211,20 +226,20 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Multi Pſalmi&#13;
-uinb rectius intel- Pſalmorum idemtidem obſeruandum esſe exiſtimamus, nimi-&#13;
-ntã liguntur re- ſ”;m bene quidem inſtitui conſiderationem interiorem com-&#13;
-vocati ad fa- poſitionis&#13;
-miliarem&#13;
-v” piorum in cuiusdam in ſacro poemate locum habentis; ſed hanc ipſam&#13;
-precibus fun- toto caelo differre ab eo, quod vulgo adpellari ſolet figmen-&#13;
+        <Unicode>Multi Pſalmi
+uinb rectius intel- Pſalmorum idemtidem obſeruandum esſe exiſtimamus, nimi-
+ntã liguntur re- ſ”;m bene quidem inſtitui conſiderationem interiorem com-
+vocati ad fa- poſitionis
+miliarem
+v” piorum in cuiusdam in ſacro poemate locum habentis; ſed hanc ipſam
+precibus fun- toto caelo differre ab eo, quod vulgo adpellari ſolet figmen-
 dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.0018443243" readingDirection="left-to-right" id="TextRegion_1673603832025_1952" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1673603832025_1952" custom="readingOrder {index:3;}" orientation="-0.0018443243" readingDirection="left-to-right">
       <Coords points="1146,436 2638,425 2643,685 2643,1483 2637,2535 1145,2535 1142,744"/>
       <TextLine id="line_1673603749863_1808" custom="readingOrder {index:0;}">
-        <Coords points="1142,449 1164,449 1184,446 1193,438 1208,438 1213,442 1220,436 1229,434 1238,434 1246,442 1261,441 1270,433 1291,433 1300,441 1370,442 1389,441 1391,434 1397,429 1413,431 1417,439 1433,439 1435,429 1444,424 1510,423 1516,429 1517,438 1765,435 1767,427 1771,424 1801,424 1808,436 1881,436 1925,433 1929,425 1936,422 1946,422 1953,433 1962,433 1969,423 1975,420 1994,421 2000,433 2136,431 2138,424 2144,419 2158,421 2162,430 2240,430 2268,423 2299,421 2347,421 2361,428 2392,431 2402,430 2410,421 2580,421 2586,427 2587,438 2632,439 2632,486 2566,485 2557,493 2545,485 2495,483 2378,481 2270,483 2257,486 2252,480 2240,480 2235,483 2143,479 2103,483 2054,481 2016,484 1581,484 1378,491 1338,489 1331,492 1165,498 1142,498"/>
+        <Coords points="1220,436 1213,442 1208,438 1193,438 1184,446 1164,449 1145,449 1145,498 1165,498 1331,492 1338,489 1378,491 1581,484 2016,484 2054,481 2103,483 2143,479 2235,483 2240,480 2252,480 2257,486 2270,483 2378,481 2495,483 2545,485 2557,493 2566,485 2632,486 2632,439 2587,438 2586,427 2584,425 2404,426 2402,430 2392,431 2361,428 2359,427 2248,427 2240,430 2162,430 2161,428 2136,428 2136,431 2000,433 1998,429 1964,429 1962,433 1953,433 1951,430 1926,430 1925,433 1881,436 1808,436 1805,431 1765,431 1765,435 1517,438 1516,433 1434,433 1433,439 1417,439 1414,434 1390,434 1389,441 1370,442 1300,441 1293,434 1267,435 1261,441 1246,442 1239,435 1222,435"/>
         <Baseline points="1142,486 2127,470 2632,476"/>
         <Word id="region0001_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="1156,477 1375,477 1375,441 1370,442 1300,441 1291,433 1270,433 1261,441 1246,442 1238,434 1229,434 1220,436 1213,442 1208,438 1193,438 1184,446 1164,449 1156,449"/>
@@ -285,7 +300,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603749860_1804" custom="readingOrder {index:1;}">
-        <Coords points="1142,507 1328,500 1330,493 1338,490 1352,492 1355,499 1571,494 1574,487 1581,485 1593,486 1598,494 1715,494 1772,485 1801,487 1808,484 1831,484 1836,488 1862,485 1865,494 1870,496 1957,496 2046,494 2049,484 2065,482 2070,485 2072,494 2100,496 2104,483 2143,480 2170,482 2194,491 2234,491 2236,483 2252,481 2258,491 2267,492 2331,492 2367,487 2378,482 2421,482 2482,485 2498,494 2512,496 2533,496 2535,487 2539,486 2552,490 2557,497 2566,486 2632,487 2632,540 2618,545 2590,542 2399,541 2346,551 2340,548 2309,548 2281,539 2244,537 2190,537 2142,543 2087,544 2082,548 2071,548 2064,543 1990,539 1984,542 1905,541 1853,544 1843,545 1834,553 1817,553 1811,545 1523,543 1308,550 1284,555 1278,559 1274,551 1224,551 1197,554 1195,561 1179,560 1170,564 1166,563 1164,554 1142,553"/>
+        <Coords points="1164,554 1166,563 1170,564 1179,560 1195,561 1197,554 1224,551 1274,551 1278,559 1284,555 1308,550 1523,543 1811,545 1817,553 1834,553 1843,545 1853,544 1905,541 1984,542 1990,539 2064,543 2071,548 2082,548 2087,544 2142,543 2190,537 2244,537 2281,539 2309,548 2340,548 2346,551 2399,541 2590,542 2618,545 2632,540 2632,487 2566,486 2557,497 2552,490 2539,486 2535,487 2533,496 2512,496 2498,494 2482,485 2421,482 2378,482 2367,487 2331,492 2267,492 2258,491 2252,481 2236,483 2234,491 2194,491 2170,482 2143,480 2104,483 2100,496 2072,494 2070,485 2065,482 2049,484 2046,494 1957,496 1870,496 1865,494 1862,485 1836,488 1831,484 1808,484 1801,487 1772,485 1715,494 1598,494 1593,486 1581,485 1574,487 1571,494 1355,499 1352,492 1338,490 1330,493 1328,500 1145,506 1144,553"/>
         <Baseline points="1142,544 1184,544 2207,527 2337,534 2632,530"/>
         <Word id="region0001_line0005_word0001" custom="readingOrder {index:0;}">
           <Coords points="1161,542 1273,542 1270,502 1158,506"/>
@@ -340,7 +355,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603749864_1810" custom="readingOrder {index:2;}">
-        <Coords points="1142,565 1173,565 1179,561 1212,562 1215,554 1224,552 1233,553 1237,562 1277,561 1284,556 1300,553 1305,560 1442,557 1514,555 1517,546 1533,544 1539,547 1542,556 1597,555 1604,554 1606,547 1612,544 1625,544 1630,547 1632,554 1864,556 1921,554 1923,547 1928,543 1944,545 1948,553 1974,553 1982,543 1990,540 2009,542 2013,553 2176,549 2180,540 2190,538 2200,539 2204,549 2346,552 2439,552 2441,546 2446,543 2460,544 2464,552 2530,549 2535,544 2603,544 2609,555 2632,556 2632,604 2488,605 2371,600 2367,611 2351,612 2344,607 2342,600 2273,602 2267,607 2257,607 2250,602 2212,600 2160,605 2151,612 2130,614 2121,606 2074,602 1976,604 1969,605 1967,612 1960,616 1943,616 1938,612 1936,605 1925,604 1843,605 1836,613 1820,615 1810,613 1806,606 1788,606 1782,610 1774,610 1768,605 1669,604 1663,600 1650,604 1459,603 1436,606 1346,605 1226,611 1142,611"/>
+        <Coords points="1226,611 1346,605 1436,606 1459,603 1650,604 1663,600 1669,604 1768,605 1774,610 1782,610 1788,606 1806,606 1810,613 1820,615 1836,613 1843,605 1925,604 1936,605 1938,612 1943,616 1960,616 1967,612 1969,605 1976,604 2074,602 2121,606 2130,614 2151,612 2160,605 2212,600 2250,602 2257,607 2267,607 2273,602 2342,600 2344,607 2351,612 2367,611 2371,600 2488,605 2632,604 2632,556 2609,555 2603,544 2535,544 2530,549 2464,552 2460,544 2446,543 2441,546 2439,552 2346,552 2204,549 2200,539 2190,538 2180,540 2176,549 2013,553 2009,542 1990,540 1982,543 1974,553 1948,553 1944,545 1928,543 1923,547 1921,554 1864,556 1632,554 1630,547 1625,544 1612,544 1606,547 1604,554 1597,555 1542,556 1539,547 1533,544 1517,546 1514,555 1442,557 1305,560 1300,553 1284,556 1277,561 1237,562 1233,553 1224,552 1215,554 1212,562 1179,561 1173,565 1144,565 1143,611"/>
         <Baseline points="1142,600 1585,593 2632,595"/>
         <Word id="region0001_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="1158,591 1325,591 1325,559 1305,560 1300,553 1284,556 1277,561 1237,562 1233,553 1224,552 1215,554 1212,562 1179,561 1173,565 1158,565"/>
@@ -395,7 +410,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1673603749858_1800" custom="readingOrder {index:3;}">
-        <Coords points="1142,624 1185,624 1336,620 1340,608 1356,606 1362,611 1363,620 1416,620 1448,618 1450,607 1459,604 1472,606 1474,617 1607,616 1612,604 1629,605 1632,615 1650,615 1650,605 1657,601 1670,605 1675,614 1773,614 1777,611 1787,611 1791,614 1820,616 1845,613 1911,614 1916,619 1916,646 1911,651 1902,651 1892,656 1857,661 1501,662 1186,670 1142,669"/>
+        <Coords points="1186,670 1501,662 1857,661 1892,656 1902,651 1911,651 1916,646 1916,619 1911,614 1845,613 1820,616 1791,614 1787,611 1777,611 1773,614 1675,614 1670,605 1657,601 1650,605 1650,615 1632,615 1629,605 1612,604 1607,616 1474,617 1472,606 1459,604 1450,607 1448,618 1416,620 1363,620 1362,611 1356,606 1340,608 1336,620 1185,624 1143,624 1142,669"/>
         <Baseline points="1142,658 1204,660 1916,645"/>
         <Word id="region0001_line0013_word0001" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1157,648 1248,648 1248,622 1185,624 1157,624"/>
@@ -435,7 +450,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         <Coords points="1142,675 1156,678 1160,689 1293,689 1297,675 1308,667 1481,666 1516,663 1522,664 1527,672 1537,674 1629,674 1659,673 1665,663 1680,663 1686,673 1742,674 1780,672 1787,662 1806,662 1813,671 1828,672 2027,672 2036,659 2052,659 2059,669 2064,659 2074,656 2085,657 2091,667 2137,669 2234,667 2236,659 2243,654 2258,655 2265,667 2270,666 2274,656 2287,654 2295,658 2298,668 2422,667 2426,657 2443,655 2461,657 2466,669 2519,670 2527,658 2541,657 2547,662 2549,670 2632,672 2632,721 2420,719 2416,729 2400,731 2394,727 2392,719 2230,717 2172,720 2170,728 2165,732 2145,732 2140,728 2138,721 2114,720 1394,724 1381,727 1376,723 1312,720 1157,720 1147,722 1142,729"/>
         <Baseline points="1142,719 1221,720"/>
         <Word id="region0001_line0010_word0003" custom="readingOrder {index:0;}">
-          <Coords points="1304,729 1420,728 1419,665 1308,667 1303,670"/>
+          <Coords points="1419,666 1308,667 1303,670 1303,720 1312,720 1376,723 1381,727 1394,724 1419,723"/>
           <TextEquiv>
             <Unicode>§.V.</Unicode>
           </TextEquiv>
@@ -459,7 +474,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
           </TextEquiv>
         </Word>
         <Word id="region0001_line0010_word0007" custom="readingOrder {index:4;}">
-          <Coords points="2035,723 2106,726 2106,659 2074,656 2064,659 2059,669 2052,659 2036,659 2035,660"/>
+          <Coords points="2106,667 2091,667 2085,657 2074,656 2064,659 2059,669 2052,659 2036,659 2035,660 2035,720 2106,720"/>
           <TextEquiv>
             <Unicode>id,</Unicode>
           </TextEquiv>
@@ -1100,7 +1115,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         </Word>
         <Word id="region0005_line0001_word0007" custom="readingOrder {index:6;}">
           <Coords points="2423,1318 2423,1319 2388,1320 2388,1361 2611,1361 2611,1318 2488,1319 2465,1318"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>tribuamus:</Unicode>
           </TextEquiv>
         </Word>
@@ -1191,7 +1206,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
           </TextEquiv>
         </Word>
         <Word id="region0005_line0005_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1589,1436 1584,1443 1578,1444 1505,1441 1502,1440 1502,1491 1587,1491 1635,1490 1624,1488 1626,1442 1651,1442 1648,1442 1646,1436"/>
+          <Coords points="1589,1436 1578,1444 1502,1440 1502,1491 1635,1490 1624,1488 1626,1442 1651,1442 1646,1436"/>
           <TextEquiv conf="0.8949752">
             <Unicode>quaſi</Unicode>
           </TextEquiv>
@@ -1642,31 +1657,31 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
       <TextLine id="line_1673603795221_1898" custom="readingOrder {index:25;}">
         <Coords points="1146,1914 1197,1914 1198,1907 1203,1904 1221,1905 1223,1913 1272,1911 1297,1908 1303,1901 1311,1899 1317,1899 1334,1909 1353,1908 1358,1900 1372,1899 1378,1904 1384,1900 1392,1900 1405,1906 1444,1908 1602,1909 1637,1899 1640,1908 1678,1908 1681,1898 1689,1896 1702,1897 1705,1907 1744,1907 1753,1896 1760,1894 1779,1895 1784,1907 1826,1905 1839,1896 1926,1893 2027,1894 2033,1902 2086,1904 2141,1900 2152,1892 2172,1892 2180,1900 2243,1903 2373,1901 2405,1897 2412,1892 2420,1891 2432,1891 2439,1896 2474,1899 2477,1892 2496,1890 2502,1893 2504,1901 2521,1901 2532,1890 2553,1890 2559,1895 2564,1890 2581,1889 2586,1891 2589,1900 2636,1900 2636,1950 2436,1948 2429,1951 2289,1953 2287,1961 2282,1964 2264,1962 2258,1953 2155,1953 2123,1950 2073,1953 2007,1952 1982,1955 1884,1953 1868,1956 1564,1956 1468,1959 1465,1966 1456,1969 1440,1967 1437,1959 1408,1958 1184,1962 1157,1965 1146,1965"/>
         <Word id="word_1673604837770_2283" custom="readingOrder {index:0;}">
-          <Coords points="1145,1912 1224,1912 1224,1953 1145,1953"/>
+          <Coords points="1197,1912 1197,1914 1146,1914 1146,1953 1224,1953 1224,1912 1223,1913 1222,1912"/>
           <TextEquiv>
             <Unicode>mi</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604839798_2286" custom="readingOrder {index:1;}">
-          <Coords points="1244,1910 1406,1910 1406,1950 1244,1950"/>
+          <Coords points="1244,1950 1406,1950 1406,1910 1280,1910 1272,1911 1244,1912"/>
           <TextEquiv>
             <Unicode>noſtri?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604841664_2289" custom="readingOrder {index:2;}">
-          <Coords points="1435,1907 1663,1907 1663,1955 1435,1955"/>
+          <Coords points="1609,1907 1602,1909 1444,1908 1435,1907 1435,1955 1663,1955 1663,1908 1640,1908 1639,1907"/>
           <TextEquiv>
             <Unicode>quomodo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604843186_2292" custom="readingOrder {index:3;}">
-          <Coords points="1687,1901 1729,1901 1729,1946 1687,1946"/>
+          <Coords points="1687,1901 1687,1946 1729,1946 1729,1907 1705,1907 1703,1901"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604844687_2295" custom="readingOrder {index:4;}">
-          <Coords points="1751,1903 1833,1903 1833,1947 1751,1947"/>
+          <Coords points="1751,1903 1751,1947 1833,1947 1833,1903 1828,1903 1826,1905 1784,1907 1782,1903"/>
           <TextEquiv>
             <Unicode>ſinu</Unicode>
           </TextEquiv>
@@ -1678,25 +1693,25 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
           </TextEquiv>
         </Word>
         <Word id="word_1673604847998_2301" custom="readingOrder {index:6;}">
-          <Coords points="1982,1895 2055,1895 2055,1950 1982,1950"/>
+          <Coords points="1982,1895 1982,1950 2055,1950 2055,1902 2033,1902 2027,1895"/>
           <TextEquiv>
             <Unicode>illa</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604850129_2304" custom="readingOrder {index:7;}">
-          <Coords points="2079,1901 2219,1901 2219,1940 2079,1940"/>
+          <Coords points="2127,1901 2086,1904 2079,1903 2079,1940 2219,1940 2219,1901 2201,1901"/>
           <TextEquiv>
             <Unicode>noſtra</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604851792_2307" custom="readingOrder {index:8;}">
-          <Coords points="2243,1910 2382,1910 2382,1955 2243,1955"/>
+          <Coords points="2382,1910 2243,1910 2243,1953 2258,1953 2259,1955 2288,1955 2289,1953 2382,1951"/>
           <TextEquiv>
             <Unicode>optata</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673604854324_2310" custom="readingOrder {index:9;}">
-          <Coords points="2400,1891 2442,1891 2442,1943 2400,1943"/>
+          <Coords points="2420,1891 2412,1892 2405,1897 2400,1897 2400,1943 2442,1943 2442,1896 2439,1896 2432,1891"/>
           <TextEquiv>
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -1971,7 +1986,7 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
           </TextEquiv>
         </Word>
         <Word id="word_1673604974790_2465" custom="readingOrder {index:4;}">
-          <Coords points="1832,2192 1919,2191 1937,2191 2035,2200 2035,2241 1883,2241 1823,2236 1823,2202"/>
+          <Coords points="1832,2191 1829,2204 1823,2202 1823,2236 1883,2241 2035,2241 2035,2200 2013,2204 1940,2204 1940,2193 1937,2191 1919,2191 1913,2204 1908,2204 1898,2195 1887,2195 1880,2204 1856,2204 1855,2194 1852,2191"/>
           <TextEquiv>
             <Unicode>άπλότητα</Unicode>
           </TextEquiv>
@@ -2340,45 +2355,45 @@ dendis vſum. tum poeticum Nos ſane multo rectius quam plurima in Pſal-</Unico
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>adfectum in Cananaea muliere obſeruare licet, Matth. XV, 22.&#13;
-quae primum exclamat: Miſerere mei, Domine, fili Dauidis!&#13;
-deinde vero calamitatem, quae ipſam vrgebat, exponit: Filia&#13;
-- mea male a daemonio vexatur.&#13;
-§.V. Hic merito adnotamus id, quod in explicatione&#13;
-uinb rectius intel- Pſalmorum idemtidem obſeruandum esſe exiſtimamus, nimi-&#13;
-rum bene quidem inſtitui conſiderationem interiorem com-&#13;
-Le; w nose; a fa- poſitionis Pſalmorum, &amp;, ſi ſancto modo intelligas, fictionis&#13;
-v” piorum in cuiusdam in ſacro poemate locum habentis; ſed hanc ipſam&#13;
-precibus fun- toto caelo differre ab eo, quod vulgo adpellari ſolet figmen-&#13;
-tum poeticum. Nos ſane multo rectius quam plurima in Pſal-&#13;
-mis intelligemus, ſi Pſalmos ad familiarem vſum reuocemus,&#13;
-vſitatum etiamnum piis, qui preces fundunt. Idem enim eſt&#13;
-Spiritus, qui ſuggesſit Pſalmos, &amp; qui ſuggerit hodie preces.&#13;
-Licet enim in Pſalmis immediata Θεοπνευϛία agnoſcenda ſit,&#13;
-precibus autem piorum Θεοπνευϛίαν eiusmodi non tribuamus:&#13;
-mæ;- idem tamen eſt Spiritus. Et multo ſane facilius omnia intro-&#13;
-ſpiciemus, &amp; quaſi in adfectum animumque auctoris Pſalmo-&#13;
-rum penetrabimus, ſi iſto modo rationem illorum componen-&#13;
-dorum inueſtigemus, quam ſi neſcio quae figmenta ac com-&#13;
-menta poetica in iis quaeramus, quibus adhibitis obſcuratur&#13;
-potius, quam illuſtratur, verus Pſalmorum ſenſus. Sin au-&#13;
-tem cogitemus: Quid? ſi nos ipſi in eiusmodi calamitate nos&#13;
-ad DEVM reciperemus, ſi ad eum confugeremus, &amp; auxilium&#13;
-ab illo peteremus, quomodo tunc effunderemus deſideria ani-&#13;
-mi noſtri? quomodo in ſinu DEI illa noſtra optata &amp; deſide-&#13;
-ria reponeremus? tum certe deprehendemus, nos ſimilibus&#13;
-in caſibus eadem ratione acturos esſe, &amp; in Pſalmis paralleli-&#13;
-ſmum inueniemus. Ita ſane illud, quod initio huius Pſalmi&#13;
-ſupra animaduertimus, non ad ſingulare aliquod artificium eſt&#13;
-referendum, ſed potius ad άπλότητα Spiritus gratiae, qui, vbi&#13;
-ſentit homo, ſe premi &amp; difficultatibus atque calamitatibus&#13;
-quaſi conſtringi, recipit ſe ad DEVM, &amp; vt DEVS primum&#13;
-illud eſt in adfectu, ad quod homo ſe conuertit, ita etiam&#13;
-primum eſt in ipſis precibus &amp; in expresſione vocum; ſicut&#13;
+        <Unicode>adfectum in Cananaea muliere obſeruare licet, Matth. XV, 22.
+quae primum exclamat: Miſerere mei, Domine, fili Dauidis!
+deinde vero calamitatem, quae ipſam vrgebat, exponit: Filia
+- mea male a daemonio vexatur.
+§.V. Hic merito adnotamus id, quod in explicatione
+uinb rectius intel- Pſalmorum idemtidem obſeruandum esſe exiſtimamus, nimi-
+rum bene quidem inſtitui conſiderationem interiorem com-
+Le; w nose; a fa- poſitionis Pſalmorum, &amp;, ſi ſancto modo intelligas, fictionis
+v” piorum in cuiusdam in ſacro poemate locum habentis; ſed hanc ipſam
+precibus fun- toto caelo differre ab eo, quod vulgo adpellari ſolet figmen-
+tum poeticum. Nos ſane multo rectius quam plurima in Pſal-
+mis intelligemus, ſi Pſalmos ad familiarem vſum reuocemus,
+vſitatum etiamnum piis, qui preces fundunt. Idem enim eſt
+Spiritus, qui ſuggesſit Pſalmos, &amp; qui ſuggerit hodie preces.
+Licet enim in Pſalmis immediata Θεοπνευϛία agnoſcenda ſit,
+precibus autem piorum Θεοπνευϛίαν eiusmodi non tribuamus:
+mæ;- idem tamen eſt Spiritus. Et multo ſane facilius omnia intro-
+ſpiciemus, &amp; quaſi in adfectum animumque auctoris Pſalmo-
+rum penetrabimus, ſi iſto modo rationem illorum componen-
+dorum inueſtigemus, quam ſi neſcio quae figmenta ac com-
+menta poetica in iis quaeramus, quibus adhibitis obſcuratur
+potius, quam illuſtratur, verus Pſalmorum ſenſus. Sin au-
+tem cogitemus: Quid? ſi nos ipſi in eiusmodi calamitate nos
+ad DEVM reciperemus, ſi ad eum confugeremus, &amp; auxilium
+ab illo peteremus, quomodo tunc effunderemus deſideria ani-
+mi noſtri? quomodo in ſinu DEI illa noſtra optata &amp; deſide-
+ria reponeremus? tum certe deprehendemus, nos ſimilibus
+in caſibus eadem ratione acturos esſe, &amp; in Pſalmis paralleli-
+ſmum inueniemus. Ita ſane illud, quod initio huius Pſalmi
+ſupra animaduertimus, non ad ſingulare aliquod artificium eſt
+referendum, ſed potius ad άπλότητα Spiritus gratiae, qui, vbi
+ſentit homo, ſe premi &amp; difficultatibus atque calamitatibus
+quaſi conſtringi, recipit ſe ad DEVM, &amp; vt DEVS primum
+illud eſt in adfectu, ad quod homo ſe conuertit, ita etiam
+primum eſt in ipſis precibus &amp; in expresſione vocum; ſicut
 hoc ipſo loco Pſaltes: O DEVS, exclamat, in nomine tuo ſerua</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.0018443243" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673603832024_1951" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673603832024_1951" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.0018443243" type="catch-word" readingDirection="left-to-right">
       <Coords points="1145,2535 2637,2535 2637,2596 1146,2596"/>
       <TextLine id="region0005_line0028" custom="readingOrder {index:0;}">
         <Coords points="2600,2544 2593,2547 2532,2547 2473,2552 2468,2557 2468,2589 2473,2594 2481,2595 2636,2594 2636,2547"/>

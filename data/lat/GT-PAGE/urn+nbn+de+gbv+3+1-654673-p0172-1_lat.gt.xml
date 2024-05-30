@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-194">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:04Z</Created>
     <LastChange>2024-01-19T13:09:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-654673-p0172-1_lat.png" imageWidth="1571" imageHeight="2442" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/5b42ac83-5236-4bfc-a656-ea2490a92cf8/00000172.jpg" imageWidth="1571" imageHeight="2442" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="494,428 1453,428 1453,2200 494,2200"/>
     </Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1658296849790_48"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.7378595" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="-0.7378595" readingDirection="left-to-right">
       <Coords points="525,533 1444,533 1444,761 525,761"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1368,533 1355,534 1352,542 1344,543 1187,548 1061,545 1054,536 1040,536 1028,546 839,547 840,533 832,533 819,534 818,547 730,549 723,540 710,540 703,549 680,553 675,543 662,541 656,545 654,554 587,553 582,544 575,542 526,540 525,601 562,601 573,597 594,597 598,600 688,600 741,597 750,593 772,596 791,596 797,593 860,599 883,598 894,592 906,592 911,595 924,590 936,593 1048,594 1072,597 1083,602 1099,603 1109,599 1152,595 1161,591 1209,594 1248,590 1267,592 1268,598 1272,600 1287,601 1293,598 1298,590 1306,589 1398,588 1443,584 1444,539 1382,539 1380,533"/>
@@ -177,13 +193,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſummi, honor, ut catalogo meo quædam&#13;
-adhuc analecta adderem, excitavit. Quæ,&#13;
-etſi minoris forte momenti, notatu ta-&#13;
+        <Unicode>ſummi, honor, ut catalogo meo quædam
+adhuc analecta adderem, excitavit. Quæ,
+etſi minoris forte momenti, notatu ta-
 men haud injucunda, erunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.7378595" type="heading" readingDirection="left-to-right">
       <Coords points="961,804 1004,804 1004,860 961,860"/>
       <TextLine id="region0002_line" custom="readingOrder {index:0;}">
         <Coords points="961,804 1004,804 1004,860 961,860"/>
@@ -201,7 +217,7 @@ men haud injucunda, erunt.</Unicode>
         <Unicode>I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1658296897589_77" custom="readingOrder {index:2;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1658296897589_77" custom="readingOrder {index:2;} structure {type:drop-capital;}" orientation="-0.7378595" type="drop-capital" readingDirection="left-to-right">
       <Coords points="511,902 656,902 656,1065 511,1065"/>
       <TextLine id="line_1658296989515_115" custom="readingOrder {index:0;}">
         <Coords points="531,908 580,908 633,910 656,917 656,1027 656,1062 642,1062 527,1054 526,1053 525,914"/>
@@ -220,7 +236,7 @@ men haud injucunda, erunt.</Unicode>
         <Unicode>E</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" readingDirection="left-to-right" id="TextRegion_1658296897589_76" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1658296897589_76" custom="readingOrder {index:3;}" orientation="-0.7378595" readingDirection="left-to-right">
       <Coords points="656,902 1447,902 1447,1065 656,1065"/>
       <TextLine id="line_1658296897621_79" custom="readingOrder {index:0;}">
         <Coords points="656,917 729,918 736,908 750,909 756,918 777,918 849,916 854,912 883,917 885,910 890,906 900,906 909,912 916,905 931,905 938,915 981,916 992,914 1003,905 1030,903 1369,902 1410,903 1447,908 1447,946 1441,946 1427,955 1407,951 1398,957 1349,956 1335,961 1316,958 1299,959 1294,962 1211,961 1113,965 1052,964 1026,960 974,962 866,960 860,966 854,967 847,960 829,960 782,963 710,963 703,968 693,968 686,962 656,962"/>
@@ -291,7 +307,7 @@ men haud injucunda, erunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1658296897621_85" custom="readingOrder {index:2;}">
-        <Coords points="662,1021 740,1019 799,1022 801,1018 808,1015 818,1015 824,1021 832,1021 843,1020 858,1012 871,1014 876,1021 902,1020 903,1016 911,1013 923,1014 928,1020 981,1019 986,1012 1003,1012 1008,1018 1022,1019 1025,1014 1039,1013 1048,1019 1060,1019 1072,1011 1091,1012 1097,1018 1139,1020 1203,1018 1212,1011 1242,1016 1251,1009 1263,1010 1269,1016 1327,1010 1351,1015 1362,1008 1372,1014 1383,1006 1406,1003 1416,1004 1423,1010 1447,1011 1446,1048 1422,1050 1413,1059 1396,1056 1380,1063 1314,1062 1296,1059 1287,1064 1274,1061 1255,1066 1159,1068 1147,1068 1139,1063 1133,1063 1125,1071 1088,1062 1078,1066 1056,1067 939,1066 931,1062 922,1062 906,1068 834,1069 715,1065 704,1071 699,1071 688,1063 656,1062 656,1027"/>
+        <Coords points="1423,1010 1416,1004 1406,1003 1383,1006 1372,1014 1362,1008 1351,1015 1327,1010 1269,1016 1263,1010 1251,1009 1242,1016 1212,1011 1203,1018 1139,1020 1097,1018 1091,1012 1072,1011 1060,1019 1048,1019 1039,1013 1025,1014 1022,1019 1008,1018 1003,1012 986,1012 981,1019 928,1020 923,1014 911,1013 903,1016 902,1020 876,1021 871,1014 858,1012 843,1020 832,1021 824,1021 818,1015 808,1015 801,1018 799,1022 740,1019 662,1021 656,1027 656,1062 688,1063 690,1065 715,1065 914,1065 922,1062 931,1062 937,1065 1080,1065 1088,1062 1100,1065 1131,1065 1133,1063 1139,1063 1142,1065 1258,1065 1274,1061 1287,1064 1296,1059 1314,1062 1380,1063 1396,1056 1413,1059 1422,1050 1446,1048 1447,1011"/>
         <Baseline points="656,1050 1134,1057 1355,1051 1446,1041"/>
         <Word id="word_1658296897621_87" custom="readingOrder {index:0;}">
           <Coords points="662,1021 740,1019 799,1022 801,1018 808,1015 818,1015 819,1016 819,1059 656,1056 656,1027"/>
@@ -328,15 +344,15 @@ men haud injucunda, erunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>t primo quidem ALFONSI CONRA-&#13;
-DI MANTVANI commentarii (qui,&#13;
+        <Unicode>t primo quidem ALFONSI CONRA-
+DI MANTVANI commentarii (qui,
  quanti faciendus ſit, celeb. HEV-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" readingDirection="left-to-right" id="TextRegion_1658296894398_72" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1658296894398_72" custom="readingOrder {index:4;}" orientation="-0.7378595" readingDirection="left-to-right">
       <Coords points="511,1065 1447,1065 1447,1698 1023,1744 515,1744 511,1698"/>
       <TextLine id="line_1658296949135_92" custom="readingOrder {index:0;}">
-        <Coords points="527,1054 641,1054 641,1062 636,1065 688,1064 699,1072 708,1071 715,1066 745,1066 778,1071 884,1073 911,1071 914,1066 922,1063 934,1064 940,1070 984,1071 1017,1068 1042,1071 1057,1067 1078,1067 1088,1063 1125,1072 1133,1064 1139,1064 1148,1070 1171,1070 1262,1069 1270,1063 1280,1062 1287,1065 1296,1060 1308,1060 1315,1063 1316,1067 1327,1067 1380,1064 1396,1057 1446,1059 1446,1106 1417,1109 1404,1105 1392,1112 1372,1109 1363,1114 1348,1115 1256,1116 1247,1116 1241,1123 1225,1123 1215,1117 1189,1117 1182,1113 1172,1112 1164,1117 1150,1117 1131,1123 1120,1118 1072,1116 1065,1112 1050,1112 1039,1120 1028,1113 964,1117 859,1114 852,1106 848,1106 842,1110 832,1110 827,1124 815,1127 802,1125 799,1116 781,1118 779,1123 774,1125 755,1124 749,1118 589,1119 582,1115 570,1115 553,1119 522,1118 511,1115 512,1066 622,1064 560,1060 547,1061 543,1058 531,1058"/>
+        <Coords points="914,1066 911,1071 884,1073 778,1071 745,1066 715,1066 708,1071 699,1072 689,1065 636,1065 567,1065 512,1066 511,1115 522,1118 553,1119 570,1115 582,1115 589,1119 749,1118 755,1124 774,1125 779,1123 781,1118 799,1116 802,1125 815,1127 827,1124 832,1110 842,1110 848,1106 852,1106 859,1114 964,1117 1028,1113 1039,1120 1050,1112 1065,1112 1072,1116 1120,1118 1131,1123 1150,1117 1164,1117 1172,1112 1182,1113 1189,1117 1215,1117 1225,1123 1241,1123 1247,1116 1256,1116 1348,1115 1363,1114 1372,1109 1392,1112 1404,1105 1417,1109 1446,1106 1446,1065 1362,1065 1327,1067 1316,1067 1315,1065 1287,1065 1267,1065 1262,1069 1171,1070 1148,1070 1140,1065 1132,1065 1125,1072 1096,1065 1083,1065 1078,1067 1057,1067 1042,1071 1017,1068 984,1071 940,1070 935,1065 916,1065"/>
         <Baseline points="511,1105 1145,1107 1446,1096"/>
         <Word id="word_1658297051250_152" custom="readingOrder {index:0;}">
           <Coords points="527,1054 641,1054 641,1062 636,1065 688,1064 699,1072 708,1071 715,1066 745,1066 753,1067 753,1122 749,1118 589,1119 582,1115 570,1115 553,1119 525,1118 525,1065 622,1064 560,1060 547,1061 543,1058 531,1058"/>
@@ -351,13 +367,13 @@ DI MANTVANI commentarii (qui,&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1658297036784_132" custom="readingOrder {index:2;}">
-          <Coords points="808,1084 887,1084 887,1112 808,1112"/>
+          <Coords points="887,1112 887,1084 808,1084 808,1112 831,1112 832,1110 842,1110 848,1106 852,1106 857,1112"/>
           <TextEquiv>
             <Unicode>552</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658297038641_135" custom="readingOrder {index:3;}">
-          <Coords points="910,1069 1050,1069 1050,1110 910,1110"/>
+          <Coords points="912,1069 911,1071 910,1071 910,1110 1050,1110 1050,1069 1050,1069 1042,1071 1025,1069 1006,1069 984,1071 940,1070 939,1069"/>
           <TextEquiv>
             <Unicode>docet,</Unicode>
           </TextEquiv>
@@ -369,13 +385,13 @@ DI MANTVANI commentarii (qui,&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1658297041541_141" custom="readingOrder {index:5;}">
-          <Coords points="1121,1067 1203,1067 1203,1112 1121,1112"/>
+          <Coords points="1130,1067 1125,1072 1121,1071 1121,1112 1172,1112 1203,1112 1203,1069 1171,1070 1148,1070 1143,1067"/>
           <TextEquiv>
             <Unicode>jam</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658297043376_144" custom="readingOrder {index:6;}">
-          <Coords points="1227,1067 1376,1067 1376,1110 1227,1110"/>
+          <Coords points="1264,1067 1262,1069 1227,1069 1227,1110 1370,1110 1372,1109 1376,1109 1376,1067 1327,1067 1316,1067"/>
           <TextEquiv>
             <Unicode>pridem</Unicode>
           </TextEquiv>
@@ -462,7 +478,7 @@ DI MANTVANI commentarii (qui,&#13;
         </Word>
         <Word id="region0003_line0006_word0003" custom="readingOrder {index:3;}">
           <Coords points="1153,1167 1140,1168 1131,1163 1123,1163 1114,1169 1094,1171 1068,1168 1060,1163 1047,1163 1042,1168 1000,1170 990,1169 984,1163 958,1162 952,1164 948,1172 938,1173 930,1173 923,1169 889,1167 889,1218 920,1218 924,1223 953,1223 956,1217 986,1216 995,1211 1007,1211 1014,1215 1073,1216 1082,1219 1119,1215 1142,1215 1147,1219 1153,1219"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>explicationis</Unicode>
           </TextEquiv>
         </Word>
@@ -690,7 +706,7 @@ DI MANTVANI commentarii (qui,&#13;
         </Word>
         <Word id="region0003_line0012_word0001" custom="readingOrder {index:1;}">
           <Coords points="682,1512 837,1514 837,1484 764,1484 759,1479 747,1478 740,1481 737,1486 724,1486 718,1480 706,1479 698,1486 682,1486"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>civitate</Unicode>
           </TextEquiv>
         </Word>
@@ -883,22 +899,22 @@ DI MANTVANI commentarii (qui,&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>MANNVS p. 552 docet, &amp; jam pridem in&#13;
-bibl. Brem. cl.I. p. 866, ejus, capitis&#13;
-XIlltii, vers. 8. explicationis veſtigiis inſi-&#13;
-ſtens, declaravit,) duas prodiiſſe editio-&#13;
-nes, deinceps adnotavi. Præter eam e-&#13;
-nim, quam indicavi, Baſilæenſem 1574,&#13;
-bibliothecæ OIZELIANÆ catalogus anti-&#13;
-quiorem exhibet, anno nimirum 1560. 8. in&#13;
-eadem civitate prelo liberatam. Quam et-&#13;
-iam indicat, inter apocalypseos expoſi-&#13;
-tores haud ſane infimus, W. COVPERVS,&#13;
-in introd. in ſcript. apoc. opp. edit. Belg. p.&#13;
+        <Unicode>MANNVS p. 552 docet, &amp; jam pridem in
+bibl. Brem. cl.I. p. 866, ejus, capitis
+XIlltii, vers. 8. explicationis veſtigiis inſi-
+ſtens, declaravit,) duas prodiiſſe editio-
+nes, deinceps adnotavi. Præter eam e-
+nim, quam indicavi, Baſilæenſem 1574,
+bibliothecæ OIZELIANÆ catalogus anti-
+quiorem exhibet, anno nimirum 1560. 8. in
+eadem civitate prelo liberatam. Quam et-
+iam indicat, inter apocalypseos expoſi-
+tores haud ſane infimus, W. COVPERVS,
+in introd. in ſcript. apoc. opp. edit. Belg. p.
 m. 6.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" type="heading" readingDirection="left-to-right" id="TextRegion_1658296865530_56" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658296865530_56" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-0.7378595" type="heading" readingDirection="left-to-right">
       <Coords points="515,1744 1023,1744 1023,1814 515,1814"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
         <Coords points="969,1748 876,1750 873,1754 874,1809 877,1812 949,1814 1023,1812 1022,1749"/>
@@ -917,7 +933,7 @@ m. 6.</Unicode>
         <Unicode>II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7378595" readingDirection="left-to-right" id="TextRegion_1658296849790_48" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1658296849790_48" custom="readingOrder {index:6;}" orientation="-0.7378595" readingDirection="left-to-right">
       <Coords points="504,1834 1428,1834 1431,2101 1431,2164 500,2164 500,2101"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1362,1834 1277,1842 1097,1840 1086,1844 1082,1853 989,1855 850,1855 846,1846 833,1844 826,1848 824,1855 813,1855 773,1846 746,1843 727,1846 718,1854 653,1856 598,1847 526,1845 521,1850 520,1882 529,1888 529,1897 534,1902 808,1903 850,1909 863,1905 879,1905 885,1899 896,1898 902,1911 913,1912 921,1906 921,1901 961,1901 967,1898 993,1901 1059,1900 1068,1896 1084,1901 1102,1901 1163,1897 1283,1898 1352,1892 1414,1882 1427,1883 1428,1835"/>
@@ -1117,7 +1133,7 @@ m. 6.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:5;}">
-        <Coords points="1354,2101 1295,2101 1281,2104 1270,2111 1237,2113 1174,2112 1168,2102 1147,2101 1137,2111 1030,2114 997,2111 989,2102 975,2104 971,2112 737,2114 715,2113 711,2104 698,2103 692,2106 690,2113 562,2117 545,2117 537,2107 525,2107 519,2115 501,2117 500,2163 510,2163 517,2169 525,2169 535,2163 608,2164 687,2160 940,2162 947,2170 967,2170 973,2161 1060,2163 1086,2159 1236,2162 1240,2160 1281,2159 1353,2151 1367,2144 1384,2147 1431,2144 1431,2102"/>
+        <Coords points="1295,2101 1281,2104 1270,2111 1237,2113 1174,2112 1168,2102 1147,2101 1137,2111 1030,2114 997,2111 989,2102 975,2104 971,2112 737,2114 715,2113 711,2104 698,2103 692,2106 690,2113 562,2117 545,2117 537,2107 525,2107 519,2115 501,2117 500,2163 510,2163 511,2164 533,2164 535,2163 608,2164 687,2160 940,2162 941,2164 971,2164 973,2161 1060,2163 1086,2159 1236,2162 1240,2160 1281,2159 1353,2151 1367,2144 1384,2147 1431,2144 1431,2102 1354,2101"/>
         <Baseline points="500,2154 1222,2150 1431,2135"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="505,2146 566,2147 566,2116 562,2117 545,2117 537,2107 525,2107 519,2115 505,2116"/>
@@ -1166,11 +1182,11 @@ m. 6.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Inter illos, quos eruditiſſ. IKENIVS&#13;
-catalogo meo adjecit, de JO. NAPEIRII&#13;
-commentario quædam ſubuectere liceat.&#13;
-Quanti ille, ſeculo elapſo habitus fuerit,&#13;
-plures illius, quarum brevi temporis ſpa-&#13;
+        <Unicode>Inter illos, quos eruditiſſ. IKENIVS
+catalogo meo adjecit, de JO. NAPEIRII
+commentario quædam ſubuectere liceat.
+Quanti ille, ſeculo elapſo habitus fuerit,
+plures illius, quarum brevi temporis ſpa-
 tio una alteram excepit, verſiones &amp; edi-</Unicode>
       </TextEquiv>
     </TextRegion>

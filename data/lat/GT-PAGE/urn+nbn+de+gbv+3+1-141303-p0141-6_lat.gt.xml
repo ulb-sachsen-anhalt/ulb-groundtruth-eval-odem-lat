@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-40">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:19Z</Created>
     <LastChange>2024-01-19T13:07:19Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-141303_urn+nbn+de+gbv+3+1-141303-p0141-6_lat.png" imageWidth="2382" imageHeight="2787" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/bba71916-031f-45b1-a797-04d38230bc31/00000141.jpg" imageWidth="2382" imageHeight="2787" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="205,136 182,2693 2272,2695 2280,134"/>
     </Border>
@@ -18,12 +34,12 @@
         <RegionRefIndexed index="4" regionRef="region0010"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676534476182_1042" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676534476182_1042" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="475,305 2157,305 2157,454 475,454"/>
       <TextLine id="line_1676534486876_1045" custom="readingOrder {index:0;}">
         <Coords points="492,312 555,312 555,442 492,442"/>
         <Word id="word_1676534520209_1067" custom="readingOrder {index:0;}">
-          <Coords points="497,305 567,305 567,432 497,432"/>
+          <Coords points="497,432 555,432 555,312 497,312"/>
           <TextEquiv>
             <Unicode>Dies.</Unicode>
           </TextEquiv>
@@ -35,7 +51,7 @@
       <TextLine id="line_1676534490380_1048" custom="readingOrder {index:1;}">
         <Coords points="572,315 882,315 882,367 572,367"/>
         <Word id="word_1676534522635_1070" custom="readingOrder {index:0;}">
-          <Coords points="567,312 887,312 887,359 567,359"/>
+          <Coords points="882,359 882,315 572,315 572,359"/>
           <TextEquiv>
             <Unicode>Barometrum.</Unicode>
           </TextEquiv>
@@ -59,7 +75,7 @@
       <TextLine id="line_1676534499511_1054" custom="readingOrder {index:3;}">
         <Coords points="910,312 1060,312 1060,364 910,364"/>
         <Word id="word_1676534528405_1076" custom="readingOrder {index:0;}">
-          <Coords points="910,307 1070,307 1070,367 910,367"/>
+          <Coords points="910,364 1060,364 1060,312 910,312"/>
           <TextEquiv>
             <Unicode>Venti.</Unicode>
           </TextEquiv>
@@ -101,7 +117,7 @@
       <TextLine id="line_1676534509264_1063" custom="readingOrder {index:6;}">
         <Coords points="2002,402 2142,402 2142,434 2002,434"/>
         <Word id="word_1676534538118_1088" custom="readingOrder {index:0;}">
-          <Coords points="2012,389 2147,389 2147,442 2012,442"/>
+          <Coords points="2012,434 2142,434 2142,402 2012,402"/>
           <TextEquiv>
             <Unicode>1728.</Unicode>
           </TextEquiv>
@@ -111,16 +127,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Dies.&#13;
-Barometrum.&#13;
-mane|veſperi&#13;
-Venti.&#13;
-Conſtitutio tempeſtatis.&#13;
-Auguſtus.&#13;
+        <Unicode>Dies.
+Barometrum.
+mane|veſperi
+Venti.
+Conſtitutio tempeſtatis.
+Auguſtus.
 1728.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.09682495" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:1;}">
+    <TextRegion id="region0004" custom="readingOrder {index:1;}" orientation="-0.09682495" readingDirection="left-to-right">
       <Coords points="502,923 502,1023 837,1023 837,448 502,448 502,461 494,461 494,923"/>
       <TextLine id="line_1646130741682_2606" custom="readingOrder {index:0;}">
         <Coords points="494,461 502,461 502,456 561,456 561,497 559,497 549,506 495,503"/>
@@ -447,22 +463,22 @@ Auguſtus.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1&#13;
-18. 2&#13;
-19&#13;
-2 17. 2 18&#13;
-3 17 17. 1&#13;
-4 17 18&#13;
-5 18. 2 17&#13;
-6 18.1 19&#13;
-7 19.2 19&#13;
-8 20 20. 1&#13;
-9 21 23&#13;
-10 24. 3 23. 2&#13;
+        <Unicode>1
+18. 2
+19
+2 17. 2 18
+3 17 17. 1
+4 17 18
+5 18. 2 17
+6 18.1 19
+7 19.2 19
+8 20 20. 1
+9 21 23
+10 24. 3 23. 2
 11 23 22. 1</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.09682495" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:2;}">
+    <TextRegion id="region0007" custom="readingOrder {index:2;}" orientation="-0.09682495" readingDirection="left-to-right">
       <Coords points="491,1065 850,1065 850,2118 491,2118"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="558,1066 557,1076 492,1079 492,1129 556,1128 569,1119 573,1119 581,1126 596,1125 608,1128 627,1124 698,1120 708,1111 715,1112 722,1120 746,1120 751,1123 836,1121 842,1112 850,1109 850,1071 846,1068 767,1066 765,1069 724,1069 716,1078 708,1079 698,1070 583,1075 582,1066"/>
@@ -975,34 +991,34 @@ Auguſtus.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>12 23.2 23&#13;
-13 23.2 24&#13;
-14.23. 1 19. 1&#13;
-15 18 17&#13;
-16 18 18&#13;
-17 20 20. 2&#13;
-18 20 25&#13;
-19 24 24. 2&#13;
-20 23 22&#13;
-21 22 22. 2&#13;
-22 20 19&#13;
-23 19 19. 1&#13;
-24 20 20&#13;
-25 19 19.1&#13;
-26 17 18&#13;
-27 15 15.2&#13;
-28 14 14&#13;
-29 17 18&#13;
-30 14 14&#13;
+        <Unicode>12 23.2 23
+13 23.2 24
+14.23. 1 19. 1
+15 18 17
+16 18 18
+17 20 20. 2
+18 20 25
+19 24 24. 2
+20 23 22
+21 22 22. 2
+22 20 19
+23 19 19. 1
+24 20 20
+25 19 19.1
+26 17 18
+27 15 15.2
+28 14 14
+29 17 18
+30 14 14
 31 17 18</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.09682495" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;}" orientation="-0.09682495" readingDirection="left-to-right">
       <Coords points="1054,446 2159,446 2159,2110 1054,2110"/>
       <TextLine id="line_1646130922643_2696" custom="readingOrder {index:0;}">
         <Coords points="1054,446 1089,446 1088,450 1079,452 1084,459 1091,459 1095,453 1116,452 1135,459 1238,459 1277,456 1284,447 1311,447 1315,455 1346,455 1353,447 1385,447 1391,459 1427,459 1422,456 1405,456 1401,453 1400,447 1425,446 1477,462 1479,465 1479,473 1487,474 1492,479 1492,496 1474,499 1468,505 1453,505 1448,502 1435,504 1428,501 1410,503 1388,501 1379,497 1249,500 1098,499 1090,491 1084,491 1078,497 1070,499 1055,499"/>
         <Word id="word_1676535388283_1826" custom="readingOrder {index:0;}">
-          <Coords points="1105,452 1284,447 1410,446 1478,464 1479,465 1492,479 1492,491 1256,491 1105,483"/>
+          <Coords points="1478,464 1411,446 1400,447 1401,453 1405,456 1422,456 1427,459 1391,459 1385,447 1353,447 1346,455 1315,455 1311,447 1284,447 1277,456 1238,459 1135,459 1116,452 1105,452 1105,483 1256,491 1492,491 1492,479 1487,474 1479,473 1479,465"/>
           <TextEquiv>
             <Unicode>Sereno- æſtuoſum,</Unicode>
           </TextEquiv>
@@ -1452,7 +1468,7 @@ Auguſtus.&#13;
       <TextLine id="region0003_line0028" custom="readingOrder {index:18;}">
         <Coords points="1830,1352 1819,1363 1816,1383 1789,1380 1779,1370 1759,1373 1754,1370 1743,1370 1739,1373 1728,1371 1726,1362 1721,1357 1710,1358 1704,1368 1695,1373 1665,1372 1660,1377 1659,1385 1601,1386 1593,1381 1583,1381 1561,1389 1552,1386 1542,1376 1523,1380 1517,1387 1504,1387 1504,1382 1495,1373 1475,1376 1467,1381 1466,1387 1427,1387 1426,1380 1420,1376 1402,1379 1395,1374 1353,1375 1346,1379 1345,1385 1327,1382 1322,1385 1278,1386 1221,1385 1219,1379 1213,1376 1187,1380 1180,1376 1108,1377 1101,1385 1092,1385 1084,1377 1054,1376 1054,1416 1058,1417 1059,1422 1070,1425 1087,1425 1094,1417 1101,1417 1111,1425 1201,1425 1224,1426 1229,1430 1233,1430 1242,1421 1272,1427 1291,1426 1297,1421 1332,1421 1339,1425 1372,1420 1377,1424 1385,1421 1398,1429 1410,1429 1417,1424 1430,1422 1435,1433 1444,1433 1450,1429 1494,1429 1497,1434 1507,1437 1523,1436 1529,1429 1536,1428 1555,1428 1560,1431 1571,1424 1679,1427 1686,1423 1695,1423 1703,1433 1722,1434 1730,1432 1735,1421 1748,1420 1754,1425 1766,1427 1815,1427 1817,1435 1822,1439 1846,1439 1852,1431 1863,1433 1870,1429 1911,1427 1912,1440 1917,1444 1927,1444 1932,1439 1932,1430 1935,1427 1984,1427 2030,1433 2032,1444 2038,1448 2055,1448 2062,1441 2069,1447 2079,1447 2086,1441 2097,1442 2103,1448 2114,1448 2120,1443 2158,1444 2158,1408 2110,1406 2089,1401 2083,1398 2083,1392 2072,1377 2066,1378 2062,1384 1932,1383 1931,1375 1926,1370 1916,1370 1910,1376 1902,1371 1887,1370 1875,1383 1857,1383 1855,1373 1846,1368 1846,1357 1838,1352"/>
         <Word id="region0003_line0028_word0001" custom="readingOrder {index:0;}">
-          <Coords points="1113,1376 1113,1423 1446,1424 1446,1387 1427,1387 1426,1380 1420,1376 1402,1379 1395,1374 1353,1375 1346,1379 1345,1385 1327,1382 1322,1385 1278,1386 1221,1385 1219,1379 1213,1376 1187,1380 1180,1376"/>
+          <Coords points="1113,1423 1240,1423 1242,1421 1254,1423 1294,1424 1297,1421 1332,1421 1337,1424 1348,1424 1372,1420 1377,1424 1378,1424 1385,1421 1390,1424 1418,1424 1430,1422 1431,1424 1446,1424 1446,1387 1427,1387 1426,1380 1420,1376 1402,1379 1395,1374 1353,1375 1346,1379 1345,1385 1327,1382 1322,1385 1278,1386 1221,1385 1219,1379 1213,1376 1187,1380 1180,1376 1113,1377"/>
           <TextEquiv>
             <Unicode>Nubilo-ventoſum,</Unicode>
           </TextEquiv>
@@ -1792,41 +1808,41 @@ Auguſtus.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Sereno- æſtuoſum,&#13;
-Nubilo- ventoſo- ſiccum,&#13;
-Nubilo- ſereno- æſtuoſum, parum ventoſum,&#13;
-Continuat, absque æſtu &amp; ventis,&#13;
-Sereno- æſtuoſo- ventoſum,&#13;
-| Nubilo- ſerenum,&#13;
-- - calido- ventoſum,&#13;
-Continuat, cum pluvia pauca,&#13;
-I Sereno- ventoſo- nubilum,&#13;
-I Sereno- ſudum,&#13;
-| Nubilo- calido- ſudum, ſub veſperam tonitrua &amp; fulgura&#13;
-audiebantur, pluvia ſecuta,&#13;
-1 Frigido- nubilum,&#13;
-| Nubilo- calido- ſerenum,&#13;
-Calido- ſerenum,&#13;
-Sereno-æſtuoſum,&#13;
-- - calidum,&#13;
-Sereno- nubilo- calidum,&#13;
-Nubilo-ventoſum, ad pluviam diſpoſitum, ſerenum,&#13;
-Sereno- nubilum cum pluvia rara,&#13;
-| Frigido- nubilo- ſerenum, parumper ventoſum,&#13;
-Continuat absque ventis,&#13;
-Idem cum ventis,&#13;
-Continuat, fere,&#13;
-Idem,&#13;
-Nubilo- ſereno- calidum,&#13;
-Idem,&#13;
-Idem-- æſtuoſum,&#13;
-| Continuat,&#13;
-Nubilo- ſudum, calidum tamen, per totam noctem plu-&#13;
-| Nubilo- pluvioſum, (vioſum,&#13;
+        <Unicode>Sereno- æſtuoſum,
+Nubilo- ventoſo- ſiccum,
+Nubilo- ſereno- æſtuoſum, parum ventoſum,
+Continuat, absque æſtu &amp; ventis,
+Sereno- æſtuoſo- ventoſum,
+| Nubilo- ſerenum,
+- - calido- ventoſum,
+Continuat, cum pluvia pauca,
+I Sereno- ventoſo- nubilum,
+I Sereno- ſudum,
+| Nubilo- calido- ſudum, ſub veſperam tonitrua &amp; fulgura
+audiebantur, pluvia ſecuta,
+1 Frigido- nubilum,
+| Nubilo- calido- ſerenum,
+Calido- ſerenum,
+Sereno-æſtuoſum,
+- - calidum,
+Sereno- nubilo- calidum,
+Nubilo-ventoſum, ad pluviam diſpoſitum, ſerenum,
+Sereno- nubilum cum pluvia rara,
+| Frigido- nubilo- ſerenum, parumper ventoſum,
+Continuat absque ventis,
+Idem cum ventis,
+Continuat, fere,
+Idem,
+Nubilo- ſereno- calidum,
+Idem,
+Idem-- æſtuoſum,
+| Continuat,
+Nubilo- ſudum, calidum tamen, per totam noctem plu-
+| Nubilo- pluvioſum, (vioſum,
 Continuat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.09682495" type="footer" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:4;} structure {type:footer;}">
+    <TextRegion id="region0010" custom="readingOrder {index:4;} structure {type:footer;}" orientation="-0.09682495" type="footer" readingDirection="left-to-right">
       <Coords points="505,2258 2168,2258 2168,2448 505,2448"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="1569,2264 1377,2271 1249,2269 1000,2273 803,2273 797,2267 789,2267 782,2273 732,2271 583,2279 511,2279 505,2282 505,2363 642,2362 749,2355 772,2348 776,2350 778,2364 794,2363 799,2360 800,2353 824,2350 899,2351 920,2354 931,2360 936,2359 941,2353 957,2353 971,2361 1062,2350 1072,2353 1080,2361 1086,2359 1087,2353 1113,2351 1240,2353 1259,2357 1270,2365 1291,2366 1298,2359 1326,2355 1385,2357 1468,2352 1589,2352 1598,2363 1616,2363 1622,2359 1624,2352 1644,2350 1843,2355 1853,2362 1865,2362 1872,2356 1961,2352 1998,2354 2016,2351 2088,2351 2094,2356 2105,2356 2111,2351 2167,2351 2167,2306 2108,2305 2098,2302 2094,2296 2162,2296 2167,2293 2167,2268 2041,2265 1689,2269"/>
@@ -1943,7 +1959,7 @@ Continuat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Menſibus April. Maj. Jun. Julio &amp; Auguſt. nec tantum pluviæ cecidit, ut terra ſaltem&#13;
+        <Unicode>Menſibus April. Maj. Jun. Julio &amp; Auguſt. nec tantum pluviæ cecidit, ut terra ſaltem
 inde fuerit humectata.</Unicode>
       </TextEquiv>
     </TextRegion>

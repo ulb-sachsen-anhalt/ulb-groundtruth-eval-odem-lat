@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-300">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:41Z</Created>
     <LastChange>2024-01-19T13:10:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-815078-p0019-8_lat.png" imageWidth="2562" imageHeight="3087" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/8900bc44-e98d-4d36-a68b-bd17a1adbca3/00000019.jpg" imageWidth="2562" imageHeight="3087" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="82,365 138,2987 1941,2974 1921,434"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1658307439916_4747"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.6912912" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:0;}">
+    <TextRegion id="region0005" custom="readingOrder {index:0;}" orientation="0.6912912" readingDirection="left-to-right">
       <Coords points="303,656 1600,656 1600,1041 303,1041"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1214,657 1211,669 1196,670 1129,672 1123,663 1108,662 1101,664 1094,672 1074,673 1035,663 960,663 940,665 921,674 897,675 879,674 872,665 854,662 846,665 841,675 806,677 799,671 787,671 781,678 730,683 667,685 662,672 650,671 645,675 643,683 637,683 630,673 616,673 612,676 610,685 591,687 530,684 523,675 513,675 501,684 351,688 346,693 346,729 351,734 371,734 380,741 421,741 426,744 505,735 509,743 517,744 530,741 548,743 555,741 560,732 596,729 874,723 908,725 934,728 942,732 956,732 961,729 989,728 1018,718 1098,720 1235,718 1261,721 1269,718 1334,714 1600,710 1600,670 1557,665 1541,657 1458,657 1444,665 1405,667 1402,657 1384,657 1378,666 1296,667 1292,657 1272,656 1269,667 1239,668 1234,657"/>
@@ -44,7 +59,7 @@
         </Word>
         <Word id="region0005_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="943,671 977,671 977,722 943,722"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -352,15 +367,15 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>5. Apparitionem Auctor §. V. refert ad glorioſum Chri-&#13;
-ſti corpus, jam ante lapſum ex Adamo aſſumtum. Quæ&#13;
-hypotheſis Dodec. I. Diſſert. IX. deſtructa eſt.&#13;
-6. Revelationem vero protevangelii §. VI. obſcurat Au-&#13;
-tor, immo ratione ſenſus ab evangelii centro alieniſſimi&#13;
+        <Unicode>5. Apparitionem Auctor §. V. refert ad glorioſum Chri-
+ſti corpus, jam ante lapſum ex Adamo aſſumtum. Quæ
+hypotheſis Dodec. I. Diſſert. IX. deſtructa eſt.
+6. Revelationem vero protevangelii §. VI. obſcurat Au-
+tor, immo ratione ſenſus ab evangelii centro alieniſſimi
 depravat. Id quod ex ipſiusmet verbis percipiemus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6912912" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.6912912" type="heading" readingDirection="left-to-right">
       <Coords points="702,1062 1216,1062 1216,1163 702,1163"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1024,1062 928,1066 905,1072 886,1082 821,1087 793,1086 780,1075 763,1070 702,1070 703,1161 976,1153 1028,1153 1032,1162 1063,1163 1072,1153 1117,1146 1216,1147 1215,1062"/>
@@ -397,7 +412,7 @@ depravat. Id quod ex ipſiusmet verbis percipiemus.</Unicode>
         <Unicode>Locus II. §. VI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6912912" readingDirection="left-to-right" id="TextRegion_1658307415142_4739" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658307415142_4739" custom="readingOrder {index:2;}" orientation="0.6912912" readingDirection="left-to-right">
       <Coords points="307,1151 1619,1151 1619,2296 307,2374"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1204,1151 1198,1155 1195,1164 1183,1162 1176,1153 1160,1155 1156,1165 1127,1165 1119,1153 1107,1154 1101,1165 1056,1166 1051,1156 1035,1155 1030,1159 1028,1167 934,1172 819,1173 817,1165 813,1162 797,1162 789,1173 767,1174 760,1165 744,1164 738,1168 736,1179 688,1179 674,1170 660,1168 604,1168 591,1172 582,1181 542,1183 525,1183 519,1174 499,1171 407,1173 391,1174 387,1177 386,1211 390,1216 391,1233 397,1239 472,1242 478,1237 491,1237 500,1238 506,1243 520,1242 530,1230 574,1228 660,1228 740,1222 884,1218 907,1223 918,1219 941,1218 950,1224 963,1225 968,1224 970,1215 1043,1212 1052,1221 1067,1223 1076,1211 1090,1210 1157,1209 1160,1220 1177,1217 1184,1220 1191,1216 1192,1209 1196,1207 1577,1205 1618,1201 1618,1164 1570,1162 1560,1152 1537,1152 1532,1158 1377,1161 1376,1154 1372,1151 1327,1152 1322,1162 1221,1163 1216,1152"/>
@@ -1324,7 +1339,7 @@ depravat. Id quod ex ipſiusmet verbis percipiemus.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0016_word0006" custom="readingOrder {index:6;} textStyle {offset:0; length:10;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1290,2025 1278,2036 1229,2036 1229,2079 1232,2079 1449,2076 1448,2031 1319,2035 1317,2027 1314,2025"/>
+          <Coords points="1229,2079 1232,2079 1449,2076 1448,2033 1319,2035 1317,2027 1314,2025 1291,2025 1278,2036 1229,2036"/>
           <TextEquiv conf="0.9061033">
             <Unicode>naſcentur,</Unicode>
           </TextEquiv>
@@ -1505,7 +1520,7 @@ depravat. Id quod ex ipſiusmet verbis percipiemus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0020" custom="readingOrder {index:19;}">
-        <Coords points="1176,2261 1167,2264 1164,2274 1160,2276 1108,2273 1079,2277 1075,2267 1060,2265 1055,2269 1052,2278 1028,2278 1026,2270 1021,2266 1010,2267 1005,2270 991,2268 987,2271 982,2268 970,2268 963,2272 961,2282 949,2283 873,2285 867,2276 851,2277 837,2283 833,2289 818,2289 813,2278 801,2277 793,2282 789,2291 775,2291 768,2284 756,2284 749,2294 731,2295 726,2285 714,2283 707,2288 705,2296 650,2301 643,2288 629,2288 624,2291 622,2302 591,2306 586,2296 571,2295 566,2299 564,2308 389,2316 364,2305 307,2308 307,2365 539,2356 801,2335 814,2335 823,2345 835,2345 842,2342 848,2333 854,2332 856,2339 861,2343 868,2343 885,2336 886,2330 1087,2320 1307,2315 1318,2312 1323,2307 1322,2275 1317,2270 1254,2271 1229,2261 1223,2265 1221,2272 1192,2273 1187,2261"/>
+        <Coords points="1167,2264 1164,2274 1160,2276 1108,2273 1079,2277 1075,2267 1060,2265 1055,2269 1052,2278 1028,2278 1026,2270 1021,2266 1010,2267 1005,2270 991,2268 987,2271 982,2268 970,2268 963,2272 961,2282 949,2283 873,2285 867,2276 851,2277 837,2283 833,2289 818,2289 813,2278 801,2277 793,2282 789,2291 775,2291 768,2284 756,2284 749,2294 731,2295 726,2285 714,2283 707,2288 705,2296 650,2301 643,2288 629,2288 624,2291 622,2302 591,2306 586,2296 571,2295 566,2299 564,2308 389,2316 364,2305 307,2308 307,2365 539,2356 801,2335 814,2335 822,2343 841,2342 842,2342 848,2333 854,2332 856,2339 859,2341 875,2340 885,2336 886,2330 1087,2320 1295,2315 1309,2314 1318,2312 1323,2307 1322,2275 1317,2270 1254,2271 1229,2261 1223,2265 1221,2272 1192,2273 1187,2261 1176,2261"/>
         <Baseline points="307,2355 1073,2310 1322,2304"/>
         <Word id="region0007_line0020_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="332,2351 427,2350 424,2314 389,2316 364,2305 329,2306"/>
@@ -1542,32 +1557,32 @@ depravat. Id quod ex ipſiusmet verbis percipiemus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quarto Deus declarat, quod principium odii contra Sa-&#13;
-tanam divinamque (Geneſ. III. v.5.) inimicitiam contra omnia&#13;
-diaboli adminicula atque opera, in corde hominis ſit poſiturus.&#13;
-Hæc autem inimicitia ipſe divinus amor eſt moiusque Iuminis&#13;
-interni, adverſus tenebras, peccata, ſemenque univerſum cor-&#13;
-ruptionis, quam Satanas in cordibus omnium huminum ſemi-&#13;
-navit, oppoſiti. Quinto, eidem revelat Deus, divinam hanc&#13;
-inimicitiam, quæ eſt ipſe Deus, ſeu divinum Verbum in corde&#13;
-hominis naſcens ut divinam ibi lumen amoremque ingeneret,&#13;
-(etenim quis alius eo tempore diaboli hoſtis &amp; fons inimicitiæ&#13;
-contra ipſum fuerit,quam ipſe Deus?) revelat inquam homini,&#13;
-divinam eam inimicitiam ex ipſo in corda omnium poſtero-&#13;
-rum tranſituram eſſe; ita ut omnes, ex quo naſcentur, prin-&#13;
-cipium vitæ, luminis &amp; amoris divini atque inimicitiæ contra&#13;
-diabolum in centro cordis ſint habituri. Ideo autem divina&#13;
-hæc inimicitia omnibus quotquot ex muliere naſcentur, ſeu to-&#13;
-ti ſemini mulieris, promittitur; quoniam cauſa materialis,&#13;
-ut ita loquar,hominum omnium in muliere erat; Deus autem&#13;
-ibidem Verbum æternum, diaboli inimicum, tanquam adiun-&#13;
+        <Unicode>Quarto Deus declarat, quod principium odii contra Sa-
+tanam divinamque (Geneſ. III. v.5.) inimicitiam contra omnia
+diaboli adminicula atque opera, in corde hominis ſit poſiturus.
+Hæc autem inimicitia ipſe divinus amor eſt moiusque Iuminis
+interni, adverſus tenebras, peccata, ſemenque univerſum cor-
+ruptionis, quam Satanas in cordibus omnium huminum ſemi-
+navit, oppoſiti. Quinto, eidem revelat Deus, divinam hanc
+inimicitiam, quæ eſt ipſe Deus, ſeu divinum Verbum in corde
+hominis naſcens ut divinam ibi lumen amoremque ingeneret,
+(etenim quis alius eo tempore diaboli hoſtis &amp; fons inimicitiæ
+contra ipſum fuerit,quam ipſe Deus?) revelat inquam homini,
+divinam eam inimicitiam ex ipſo in corda omnium poſtero-
+rum tranſituram eſſe; ita ut omnes, ex quo naſcentur, prin-
+cipium vitæ, luminis &amp; amoris divini atque inimicitiæ contra
+diabolum in centro cordis ſint habituri. Ideo autem divina
+hæc inimicitia omnibus quotquot ex muliere naſcentur, ſeu to-
+ti ſemini mulieris, promittitur; quoniam cauſa materialis,
+ut ita loquar,hominum omnium in muliere erat; Deus autem
+ibidem Verbum æternum, diaboli inimicum, tanquam adiun-
 ctum materiæ hominis inſeparabile introducit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6912912" type="heading" readingDirection="left-to-right" id="TextRegion_1658307439916_4748" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658307439916_4748" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.6912912" type="heading" readingDirection="left-to-right">
       <Coords points="307,2374 1619,2296 1619,2380 307,2446"/>
       <TextLine id="region0007_line0021" custom="readingOrder {index:0;}">
-        <Coords points="1061,2330 1056,2335 1056,2349 1013,2349 1011,2340 1005,2335 991,2338 985,2349 936,2350 929,2340 918,2339 910,2344 907,2354 902,2353 902,2346 898,2340 884,2337 865,2345 850,2343 842,2349 839,2359 799,2361 771,2361 766,2353 757,2349 639,2351 631,2353 628,2357 628,2389 636,2395 635,2418 640,2423 709,2423 797,2415 811,2427 819,2424 821,2415 828,2414 1046,2402 1055,2410 1057,2418 1070,2420 1075,2418 1081,2401 1318,2396 1323,2391 1322,2367 1319,2363 1278,2363 1276,2344 1272,2341 1251,2342 1249,2333 1242,2328 1227,2331 1222,2341 1177,2338 1171,2337 1165,2331 1153,2331 1145,2337 1129,2338 1117,2346 1099,2349 1079,2349 1078,2335 1071,2330"/>
+        <Coords points="1056,2335 1056,2349 1013,2349 1011,2340 1005,2335 991,2338 985,2349 936,2350 929,2340 918,2339 910,2344 907,2354 902,2353 902,2346 898,2340 893,2339 876,2340 865,2345 850,2343 842,2349 839,2359 799,2361 771,2361 766,2353 757,2349 715,2349 629,2354 628,2357 628,2389 636,2395 635,2418 640,2423 709,2423 797,2415 803,2420 819,2420 821,2415 828,2414 1046,2402 1053,2408 1078,2407 1081,2401 1288,2396 1318,2395 1323,2391 1322,2367 1319,2363 1278,2363 1276,2344 1272,2341 1251,2342 1249,2333 1242,2328 1227,2331 1222,2341 1177,2338 1171,2337 1165,2331 1153,2331 1145,2337 1129,2338 1117,2346 1099,2349 1079,2349 1078,2335 1071,2330 1061,2330"/>
         <Baseline points="635,2413 995,2393 1322,2387"/>
         <Word id="word_1658307415186_4742" custom="readingOrder {index:0;}">
           <Coords points="696,2351 726,2349 757,2349 766,2353 771,2361 799,2361 839,2359 842,2349 844,2347 902,2346 902,2353 907,2354 909,2346 933,2346 936,2350 968,2349 968,2406 828,2414 821,2415 820,2418 801,2418 797,2415 748,2419 697,2420"/>
@@ -1595,8 +1610,8 @@ ctum materiæ hominis inſeparabile introducit.</Unicode>
         <Unicode>Disquiſitio hujus loci.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6912912" readingDirection="left-to-right" id="TextRegion_1658307439916_4747" custom="readingOrder {index:4;}">
-      <Coords points="307,2446 1619,2380 1619,2471 1620,2471 1621,2457 1621,2445 1058,2472 307,2518"/>
+    <TextRegion id="TextRegion_1658307439916_4747" custom="readingOrder {index:4;}" orientation="0.6912912" readingDirection="left-to-right">
+      <Coords points="307,2518 307,2446 1619,2380 1619,2471 1620,2471"/>
       <TextLine id="region0007_line0022" custom="readingOrder {index:0;}">
         <Coords points="1496,2391 1491,2396 1491,2408 1484,2410 1479,2409 1479,2402 1473,2395 1456,2392 1442,2408 1387,2409 1383,2397 1369,2395 1360,2400 1358,2409 1281,2410 1276,2400 1264,2399 1259,2403 1257,2411 1250,2411 1248,2404 1242,2400 1233,2400 1227,2404 1225,2414 1215,2414 1213,2406 1208,2402 1197,2402 1193,2405 1190,2415 1163,2416 1158,2404 1148,2403 1141,2408 1139,2416 1123,2417 1117,2405 1105,2404 1098,2411 1096,2419 1061,2421 1042,2420 1041,2411 1035,2404 1022,2403 1001,2410 986,2408 980,2413 978,2423 969,2424 882,2424 811,2428 797,2416 786,2416 776,2423 773,2430 751,2432 741,2423 724,2423 715,2432 668,2438 662,2426 649,2425 640,2428 636,2433 636,2439 631,2441 595,2443 558,2436 511,2437 476,2444 404,2446 399,2451 400,2483 406,2489 406,2497 411,2502 500,2501 520,2503 526,2512 543,2516 632,2517 632,2489 839,2479 868,2487 878,2487 900,2484 905,2479 904,2472 911,2470 975,2468 982,2480 995,2481 1012,2475 1017,2468 1057,2462 1234,2460 1295,2455 1418,2453 1422,2455 1422,2460 1427,2466 1440,2467 1448,2463 1456,2452 1489,2452 1497,2453 1499,2461 1504,2465 1516,2465 1530,2453 1618,2447 1618,2407 1576,2407 1568,2403 1568,2395 1563,2390"/>
         <Baseline points="557,2487 588,2480 864,2469 924,2459 1618,2439"/>

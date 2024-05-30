@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-107">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:56Z</Created>
     <LastChange>2024-01-19T13:07:56Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-250883-p0224-0_lat.jpg" imageWidth="1790" imageHeight="2660" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/5d52955e-dd4c-4238-8ac3-0406cf9a945f/00000224.jpg" imageWidth="1790" imageHeight="2660" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="152,139 162,2543 1693,2579 1682,139"/>
     </Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region0018"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.04184829" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:0;}">
+    <TextRegion id="region0014" custom="readingOrder {index:0;}" orientation="-0.04184829" readingDirection="left-to-right">
       <Coords points="949,457 1606,457 1606,676 949,676"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="949,457 949,514 1003,512 1020,507 1026,510 1046,509 1048,518 1064,520 1072,518 1077,509 1183,512 1204,509 1234,513 1236,519 1242,522 1256,520 1260,514 1296,513 1344,520 1353,525 1363,525 1372,521 1410,520 1605,522 1605,478 1580,477 1574,467 1559,467 1553,473 1546,469 1534,469 1528,475 1519,475 1517,469 1510,464 1481,464 1474,474 1415,472 1409,466 1398,466 1392,471 1352,472 1286,468 1280,457 1262,457 1256,467 1171,468 1167,462 1149,457 1138,458 1132,467 1096,466 1091,457 1069,457 1062,466 1011,467 997,465 983,458"/>
@@ -177,7 +193,7 @@ que dum in Liquorem Cineres
 clavellati vel Sal Tartori ſolu-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.04184829" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:1;}">
+    <TextRegion id="region0015" custom="readingOrder {index:1;}" orientation="-0.04184829" readingDirection="left-to-right">
       <Coords points="685,663 1460,663 1460,764 685,764"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="1011,664 998,667 935,667 930,672 930,703 933,707 975,714 1208,721 1212,727 1225,730 1235,730 1242,721 1252,720 1459,730 1459,684 1406,681 1393,677 1346,677 1331,674 1322,666 1311,668 1306,665 1293,665 1285,671 1277,671 1271,665 1260,665 1252,674 1215,674 1179,672 1174,668 1166,668 1161,672 1143,672 1136,665 1125,665 1118,672 1082,672 1074,671 1070,664 1045,664 1041,668 1035,668 1033,664"/>
@@ -232,7 +248,7 @@ clavellati vel Sal Tartori ſolu-</Unicode>
         </Word>
         <Word id="region0015_line0002_word0003" custom="readingOrder {index:3;}">
           <Coords points="910,716 939,716 939,758 910,758"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -251,7 +267,7 @@ clavellati vel Sal Tartori ſolu-</Unicode>
 De uſu vid. §. 384.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.04184829" type="heading" readingDirection="left-to-right" id="region0016" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0016" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.04184829" type="heading" readingDirection="left-to-right">
       <Coords points="567,791 1601,791 1601,994 567,994"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="685,791 663,798 567,800 567,855 607,855 612,863 627,862 632,855 730,851 805,853 816,858 827,858 833,853 998,856 1205,863 1407,863 1523,871 1600,872 1600,822 1534,821 1470,814 1389,813 1387,805 1383,802 1371,803 1366,813 1345,814 1167,810 990,811 964,807 882,803 773,803 768,801 763,791"/>
@@ -328,12 +344,12 @@ De uſu vid. §. 384.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>141. LIQVOR ANODYNVS MINERALIS&#13;
-HOFFMANNI ſeu SPIRITVS VITRIOLI&#13;
+        <Unicode>141. LIQVOR ANODYNVS MINERALIS
+HOFFMANNI ſeu SPIRITVS VITRIOLI
 DVLCIS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.04184829" readingDirection="left-to-right" id="region0017" custom="readingOrder {index:3;}">
+    <TextRegion id="region0017" custom="readingOrder {index:3;}" orientation="-0.04184829" readingDirection="left-to-right">
       <Coords points="628,991 1636,991 1636,1312 628,1312"/>
       <TextLine id="region0017_line0001" custom="readingOrder {index:0;}">
         <Coords points="628,991 628,1053 701,1055 705,1052 734,1051 742,1058 754,1058 762,1051 858,1048 900,1052 904,1055 962,1052 964,1059 973,1061 988,1058 991,1050 1152,1052 1160,1047 1176,1045 1184,1052 1200,1046 1210,1053 1223,1053 1227,1056 1239,1053 1266,1053 1268,1061 1273,1065 1288,1065 1298,1054 1356,1054 1361,1065 1377,1068 1391,1065 1399,1054 1435,1054 1471,1057 1476,1060 1517,1056 1635,1056 1635,1010 1599,1010 1600,992 1580,992 1574,999 1573,1009 1543,1008 1547,1002 1547,992 1527,992 1526,995 1502,998 1448,997 1440,1004 1438,1010 1424,1010 1422,1001 1415,998 1411,992 1399,992 1395,997 1367,997 1355,1001 1346,1008 1329,1009 1323,1009 1322,1002 1317,997 1274,994 1234,996 1230,999 1228,1008 1201,1008 1195,998 1182,997 1176,1001 1173,1009 1168,1009 1167,999 1162,994 1102,994 1089,998 1083,1006 1063,1006 1059,1001 1050,1000 1044,995 1033,995 1025,1006 1020,1006 1015,996 1001,995 996,999 995,1005 989,1007 988,999 982,992 928,991 925,995 925,1014 921,1016 914,1015 914,1007 909,1002 859,1002 857,996 848,991 777,991 765,999 701,998 693,997 687,991"/>
@@ -533,15 +549,15 @@ DVLCIS.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. 517. Rec., Spiritus Vini rectificatiſſimi Libras&#13;
-quatuor.&#13;
-Immitte in Vitrum altius et am-&#13;
-plum, epiſtomio probe muni-&#13;
-tum, deinde ſenſim et per vi-&#13;
+        <Unicode>§. 517. Rec., Spiritus Vini rectificatiſſimi Libras
+quatuor.
+Immitte in Vitrum altius et am-
+plum, epiſtomio probe muni-
+tum, deinde ſenſim et per vi-
 ces affunde</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.04184829" readingDirection="left-to-right" id="region0018" custom="readingOrder {index:4;}">
+    <TextRegion id="region0018" custom="readingOrder {index:4;}" orientation="-0.04184829" readingDirection="left-to-right">
       <Coords points="729,1326 1615,1326 1615,2325 729,2325"/>
       <TextLine id="region0018_line0001" custom="readingOrder {index:0;}">
         <Coords points="962,1327 957,1332 925,1333 907,1345 876,1349 873,1353 874,1379 878,1382 1068,1381 1347,1384 1431,1388 1615,1388 1614,1334 1609,1329 1601,1329 1595,1335 1591,1327 1574,1327 1573,1341 1518,1339 1506,1329 1427,1329 1418,1334 1410,1334 1404,1339 1392,1340 1371,1340 1365,1334 1354,1334 1347,1340 1224,1341 1218,1330 1209,1327 1195,1327 1184,1340 1176,1340 1174,1332 1169,1328 1159,1328 1149,1339 1141,1339 1127,1327 1020,1327 1013,1333 1007,1327 996,1327 989,1334 986,1334 982,1327"/>
@@ -1144,7 +1160,7 @@ ces affunde</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0018_line0019" custom="readingOrder {index:18;}">
-        <Coords points="1351,2265 1344,2267 1341,2274 1303,2274 1285,2279 1272,2276 1171,2277 1142,2274 1132,2270 1115,2274 1089,2274 1076,2281 1061,2278 944,2277 939,2282 939,2314 944,2319 1171,2323 1175,2326 1187,2323 1292,2320 1299,2329 1319,2325 1325,2330 1341,2330 1349,2320 1416,2321 1521,2328 1522,2335 1527,2338 1551,2335 1554,2328 1593,2326 1606,2320 1614,2323 1614,2283 1584,2284 1582,2278 1575,2274 1559,2277 1556,2284 1547,2284 1544,2277 1534,2274 1524,2276 1521,2283 1512,2283 1447,2276 1383,2274 1381,2268 1374,2265"/>
+        <Coords points="1344,2267 1341,2274 1303,2274 1285,2279 1272,2276 1171,2277 1142,2274 1132,2270 1115,2274 1089,2274 1076,2281 1061,2278 944,2277 939,2282 939,2314 944,2319 1171,2323 1173,2325 1179,2325 1187,2323 1292,2320 1295,2325 1319,2325 1345,2325 1349,2320 1416,2321 1476,2325 1595,2325 1606,2320 1614,2323 1614,2283 1584,2284 1582,2278 1575,2274 1559,2277 1556,2284 1547,2284 1544,2277 1534,2274 1524,2276 1521,2283 1512,2283 1447,2276 1383,2274 1381,2268 1374,2265 1351,2265"/>
         <Baseline points="939,2309 1614,2317"/>
         <Word id="region0018_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="978,2285 1068,2285 1068,2310 978,2310"/>
@@ -1175,24 +1191,24 @@ ces affunde</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Acidi Vitrioli concentrati Libram&#13;
-unam. u&#13;
-Admixtio haec cum calore et&#13;
-ſtrepitu fit, et liquorem lim-&#13;
-pidum in rufum mutat. Mix-&#13;
-ta rite obſerata ſtent per ſep-&#13;
-tem dies in loco frigido; tunc&#13;
-liquorem effunde in retortam,&#13;
-et huic applicato ſimulque&#13;
-probe obſerato recipienti, de-&#13;
-ſtilla ea ex Arenae Balneo,&#13;
-leniſſimo ignis gradu. Pro-&#13;
-dit ſic primo, ponderis Li-&#13;
-brarum trium Spiritus ſumme&#13;
-ſubtilis, inflammabilis et fla-&#13;
-grans, gratiſimi ſaporis odo-&#13;
-riſque, quem exime et ſub&#13;
-Liquoris anodyni nomine ſer-&#13;
+        <Unicode>Acidi Vitrioli concentrati Libram
+unam. u
+Admixtio haec cum calore et
+ſtrepitu fit, et liquorem lim-
+pidum in rufum mutat. Mix-
+ta rite obſerata ſtent per ſep-
+tem dies in loco frigido; tunc
+liquorem effunde in retortam,
+et huic applicato ſimulque
+probe obſerato recipienti, de-
+ſtilla ea ex Arenae Balneo,
+leniſſimo ignis gradu. Pro-
+dit ſic primo, ponderis Li-
+brarum trium Spiritus ſumme
+ſubtilis, inflammabilis et fla-
+grans, gratiſimi ſaporis odo-
+riſque, quem exime et ſub
+Liquoris anodyni nomine ſer-
 va. Iterum applicato recipi-</Unicode>
       </TextEquiv>
     </TextRegion>

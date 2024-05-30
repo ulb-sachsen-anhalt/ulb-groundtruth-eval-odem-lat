@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-233">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:29Z</Created>
     <LastChange>2024-01-19T13:09:29Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-721479-p0240-8_lat.jpg" imageWidth="1990" imageHeight="3060" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/99fa8402-f89a-46af-bc32-3d9edf983a53/00000240.jpg" imageWidth="1990" imageHeight="3060" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="161,331 142,2897 1889,2929 1892,372"/>
     </Border>
@@ -22,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="region0015"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682415005796_2654" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682415005796_2654" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="698,541 698,584 768,584 768,541"/>
       <TextLine id="line_1682415006010_2657" custom="readingOrder {index:0;}">
         <Coords points="698,541 698,584 768,584 768,541"/>
@@ -40,7 +55,7 @@
         <Unicode>168</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682415009737_2663" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682415009737_2663" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="903,545 903,595 1526,595 1526,545"/>
       <TextLine id="line_1682415009930_2666" custom="readingOrder {index:0;}">
         <Coords points="903,545 903,595 1526,595 1526,545"/>
@@ -70,7 +85,7 @@
         <Unicode>P. VIRGILII MARONIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:2;}">
+    <TextRegion id="region0005" custom="readingOrder {index:2;}" orientation="-0.9627115" readingDirection="left-to-right">
       <Coords points="686,636 1749,636 1749,707 686,707"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1488,640 1480,645 1477,652 1279,648 1232,651 1058,653 895,649 841,643 756,643 750,642 748,636 686,636 686,687 1147,696 1149,707 1204,707 1205,696 1214,694 1321,694 1345,694 1346,701 1351,706 1372,707 1377,701 1378,693 1389,692 1595,700 1639,706 1748,705 1749,660 1666,662 1563,656 1561,649 1556,645 1542,646 1537,655 1515,655 1510,653 1510,648 1505,642"/>
@@ -125,10 +140,10 @@
         <Unicode>Nunc te marmoreum pro tempore fecimus; at</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:3;}">
+    <TextRegion id="region0006" custom="readingOrder {index:3;}" orientation="-0.9627115" readingDirection="left-to-right">
       <Coords points="1316,722 1746,722 1746,769 1316,769"/>
       <TextLine id="region0006_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1378,722 1316,722 1316,764 1377,769 1745,769 1746,741 1729,740 1728,747 1743,738 1732,728 1707,740 1722,729 1697,722 1644,721 1632,742 1434,739 1389,736 1387,725"/>
+        <Coords points="1378,722 1316,722 1316,764 1745,769 1746,741 1728,747 1743,738 1732,728 1707,740 1722,729 1697,722 1644,721 1632,742 1389,736"/>
         <Baseline points="1316,755 1745,764"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1374,767 1375,732 1322,731 1321,764 1346,766"/>
@@ -150,7 +165,7 @@
         <Unicode>tu, 35</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" readingDirection="left-to-right" id="TextRegion_1663750273102_2769" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1663750273102_2769" custom="readingOrder {index:4;}" orientation="-0.9627115" readingDirection="left-to-right">
       <Coords points="683,775 1746,775 1746,913 1671,1054 678,1054 678,988 679,917"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1532,777 1524,783 1520,791 1354,792 1288,790 1284,783 1272,781 1262,791 1256,792 1181,791 1177,780 1159,779 1154,783 1152,791 1109,791 1108,781 1103,776 1051,775 1046,780 1045,791 781,787 779,776 683,775 683,827 854,831 886,837 889,841 901,845 910,845 921,837 941,835 952,837 962,845 979,845 989,837 1016,834 1092,834 1094,843 1100,847 1150,848 1162,846 1165,835 1170,833 1274,836 1297,838 1303,844 1311,844 1317,839 1367,836 1640,833 1645,828 1646,798 1641,793 1557,792 1552,780"/>
@@ -325,13 +340,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Si fetura gregem ſuppleuerit, aureus eſto.&#13;
-c. Nerine Galatea, thymo mihi dulcior Hyblae,&#13;
-Candidior cycnis, edera ſormoſior alba;&#13;
+        <Unicode>Si fetura gregem ſuppleuerit, aureus eſto.
+c. Nerine Galatea, thymo mihi dulcior Hyblae,
+Candidior cycnis, edera ſormoſior alba;
 Quum primum paſti repetent praeſepia tauri,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" type="footnote" readingDirection="left-to-right" id="TextRegion_1663750277787_2774" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1663750277787_2774" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.9627115" type="footnote" readingDirection="left-to-right">
       <Coords points="674,1082 1744,1082 1744,1265 1492,1304 673,1304 672,1258 672,1169"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="1685,1082 1652,1082 1647,1086 1642,1082 1629,1082 1619,1091 1614,1083 1552,1083 1548,1091 1527,1092 1452,1091 1448,1083 1388,1082 1347,1082 1344,1089 1295,1089 1256,1089 1253,1083 1209,1082 1173,1082 1171,1087 1099,1088 1078,1088 1076,1083 1031,1082 1024,1083 1023,1088 966,1087 962,1083 912,1082 892,1083 883,1087 829,1087 826,1087 825,1083 734,1082 715,1083 715,1104 723,1110 722,1117 726,1120 781,1123 839,1121 1218,1123 1277,1125 1287,1129 1328,1132 1350,1120 1360,1128 1367,1125 1414,1124 1429,1134 1442,1135 1482,1134 1486,1132 1488,1125 1495,1133 1514,1133 1522,1126 1529,1125 1743,1129 1744,1092 1712,1091 1707,1082"/>
@@ -411,7 +426,7 @@ Quum primum paſti repetent praeſepia tauri,</Unicode>
         <Baseline points="674,1156 1744,1161"/>
         <Word id="region0010_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="680,1149 715,1150 715,1121 680,1120"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>37</Unicode>
           </TextEquiv>
         </Word>
@@ -645,14 +660,14 @@ Quum primum paſti repetent praeſepia tauri,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>35 et tu Rottend. ac tu Menag. 36 greges Goth. ſec.&#13;
-37 Nunc Galathea thimo— mihi Parrhaſ., aperta aberratione.&#13;
-Nerine: ex Νϰϱείνη, a Νηϱείς. Alias eſt Νηϱηίνη a Νηϱηίς.&#13;
-38 cigno alter Rottend. 39 repetunt multi ap. Heinſ. quod et&#13;
+        <Unicode>35 et tu Rottend. ac tu Menag. 36 greges Goth. ſec.
+37 Nunc Galathea thimo— mihi Parrhaſ., aperta aberratione.
+Nerine: ex Νϰϱείνη, a Νηϱείς. Alias eſt Νηϱηίνη a Νηϱηίς.
+38 cigno alter Rottend. 39 repetunt multi ap. Heinſ. quod et
 ipſum deſendas. praeſagia fragm. Moreti, vitioſe.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" type="footnote" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0014" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.9627115" type="footnote" readingDirection="left-to-right">
       <Coords points="638,1321 1190,1321 1190,2594 638,2594"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="987,1333 977,1335 973,1342 967,1343 936,1343 928,1336 920,1335 912,1341 904,1342 855,1341 850,1333 843,1331 764,1330 749,1332 741,1338 639,1338 638,1373 689,1375 698,1381 710,1381 717,1375 867,1381 1190,1385 1190,1347 1174,1347 1167,1337 1153,1335 1144,1346 1075,1344 1071,1338 1061,1335"/>
@@ -924,7 +939,7 @@ ipſum deſendas. praeſagia fragm. Moreti, vitioſe.</Unicode>
         <Coords points="1035,1745 1031,1748 1029,1756 970,1754 963,1747 945,1745 811,1744 806,1749 805,1762 780,1761 779,1751 774,1746 667,1745 662,1750 661,1776 667,1782 668,1791 673,1795 765,1797 784,1791 817,1795 899,1796 1070,1795 1104,1802 1139,1800 1153,1796 1189,1798 1190,1757 1055,1757 1051,1747"/>
         <Baseline points="668,1785 1189,1788"/>
         <Word id="word_1663750771293_2941" custom="readingOrder {index:0;}">
-          <Coords points="717,1754 805,1754 880,1756 879,1787 759,1786 716,1785"/>
+          <Coords points="717,1754 716,1785 759,1786 879,1787 880,1756 805,1754 805,1762 780,1761 779,1754"/>
           <TextEquiv>
             <Unicode> 33 — 36.</Unicode>
           </TextEquiv>
@@ -1477,33 +1492,33 @@ ipſum deſendas. praeſagia fragm. Moreti, vitioſe.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>apud Terentian. Maur. de&#13;
-Metris: Iam nunc purpu-&#13;
-reo suras include cothurno&#13;
-(forte ad Inonem nutrix, vt&#13;
-Dianam illa imitetur). ſtabis&#13;
-vox ſollennis: tibi ſtatua po-&#13;
-netur: Expreſſit locum hunc&#13;
-Statius II Theb. 725 ſqq.&#13;
- 33 — 36. Etiam hoc, vt&#13;
-dixi, epigramma eſt, Priapi&#13;
-ſigno affixum, vt innumera&#13;
-alia; idque votum ei factum.&#13;
-Signum eius eſt ex marmore&#13;
-(ſane a paſtore ligneum ex-&#13;
-pectabas), ad quod ſacra&#13;
-quotannis fiunt paſtoritia:&#13;
- ponet ex voto auream ſta-&#13;
-tuam, (nimis ambitioſe pro&#13;
-pauperis paſtoris perſona!)&#13;
-ſi deus propitius fuerit.&#13;
-34. Idem color in Tib. I, I,&#13;
-19 ſq. Sat eſt tibi haec a me&#13;
-quotannis offerri. 35. pro&#13;
+        <Unicode>apud Terentian. Maur. de
+Metris: Iam nunc purpu-
+reo suras include cothurno
+(forte ad Inonem nutrix, vt
+Dianam illa imitetur). ſtabis
+vox ſollennis: tibi ſtatua po-
+netur: Expreſſit locum hunc
+Statius II Theb. 725 ſqq.
+ 33 — 36. Etiam hoc, vt
+dixi, epigramma eſt, Priapi
+ſigno affixum, vt innumera
+alia; idque votum ei factum.
+Signum eius eſt ex marmore
+(ſane a paſtore ligneum ex-
+pectabas), ad quod ſacra
+quotannis fiunt paſtoritia:
+ ponet ex voto auream ſta-
+tuam, (nimis ambitioſe pro
+pauperis paſtoris perſona!)
+ſi deus propitius fuerit.
+34. Idem color in Tib. I, I,
+19 ſq. Sat eſt tibi haec a me
+quotannis offerri. 35. pro
 tempore, vt tempus et res</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9627115" type="footnote" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:7;} structure {type:footnote;}">
+    <TextRegion id="region0015" custom="readingOrder {index:7;} structure {type:footnote;}" orientation="-0.9627115" type="footnote" readingDirection="left-to-right">
       <Coords points="1200,1336 1741,1336 1741,2597 1200,2597"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="1642,1336 1632,1351 1528,1350 1523,1339 1501,1336 1492,1338 1490,1350 1431,1349 1423,1340 1411,1339 1405,1348 1379,1353 1372,1346 1314,1346 1307,1337 1294,1336 1284,1347 1253,1347 1245,1337 1201,1337 1200,1384 1323,1385 1349,1387 1353,1390 1415,1387 1537,1387 1603,1389 1608,1395 1621,1395 1630,1389 1650,1388 1708,1390 1723,1395 1740,1393 1741,1353 1660,1351 1655,1338"/>
@@ -2328,29 +2343,29 @@ tempore, vt tempus et res</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ferebat, ἐϰ τω̃ν παϱόντων,&#13;
-ἐνόντων, ὑπαϱχόντων. 36. h.&#13;
-ſi bona ouium fetura fuerit.&#13;
-37. Nerine Galatea. Ne-&#13;
-rei et Doridis filia fuit, Nym-&#13;
-pha illa marina a Polyphemo&#13;
-adamata, quam tamen hic&#13;
-Corydon, Nympham paſtor,&#13;
-tamquam ſuam amicam, vt&#13;
-veſperi ad ſe veniat, appel-&#13;
-lat. Scilicet poeta tantum in&#13;
-hoc elaborauit, vt Theocri-&#13;
-teum carmen exprimeret&#13;
-Idyll. XI, 19 ſq., vti etiam&#13;
-fecit Ecl. IX, 39 ſq. Sic&#13;
-ſup. v. 26 Arcades paſtor&#13;
-memorat, qui inter Mantua-&#13;
-nos viuebat. Quamquam&#13;
-hoc ipſo minor carminis&#13;
-ſuauitas eſſe debet, quod in&#13;
-vera vita iſtae fabulae minus&#13;
-iucundae ſunt. De Hybla&#13;
-cf. Ecl. I, 55. edera alba&#13;
+        <Unicode>ferebat, ἐϰ τω̃ν παϱόντων,
+ἐνόντων, ὑπαϱχόντων. 36. h.
+ſi bona ouium fetura fuerit.
+37. Nerine Galatea. Ne-
+rei et Doridis filia fuit, Nym-
+pha illa marina a Polyphemo
+adamata, quam tamen hic
+Corydon, Nympham paſtor,
+tamquam ſuam amicam, vt
+veſperi ad ſe veniat, appel-
+lat. Scilicet poeta tantum in
+hoc elaborauit, vt Theocri-
+teum carmen exprimeret
+Idyll. XI, 19 ſq., vti etiam
+fecit Ecl. IX, 39 ſq. Sic
+ſup. v. 26 Arcades paſtor
+memorat, qui inter Mantua-
+nos viuebat. Quamquam
+hoc ipſo minor carminis
+ſuauitas eſſe debet, quod in
+vera vita iſtae fabulae minus
+iucundae ſunt. De Hybla
+cf. Ecl. I, 55. edera alba
 vid. ad Ecl. III, 39.</Unicode>
       </TextEquiv>
     </TextRegion>

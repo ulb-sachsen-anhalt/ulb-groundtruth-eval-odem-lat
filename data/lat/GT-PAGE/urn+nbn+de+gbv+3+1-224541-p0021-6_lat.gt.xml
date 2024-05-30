@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-91">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:47Z</Created>
     <LastChange>2024-01-19T13:07:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-224541-p0021-6_lat.jpg" imageWidth="2316" imageHeight="2805" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/18759dd1-7812-4335-9f21-fa5e4f266280/00000021.jpg" imageWidth="2316" imageHeight="2805" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="79,190 70,2711 1897,2710 1899,165"/>
     </Border>
@@ -24,7 +39,7 @@
         <RegionRefIndexed index="9" regionRef="TextRegion_1670840800089_6047"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.6461447" type="header" readingDirection="left-to-right" id="TextRegion_1670840751883_5994" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1670840751883_5994" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.6461447" type="header" readingDirection="left-to-right">
       <Coords points="530,552 1381,552 1381,617 530,617"/>
       <TextLine id="line_1670840751922_5997" custom="readingOrder {index:0;}">
         <Coords points="531,560 536,559 747,552 990,552 1381,559 1381,614 1079,613 950,606 782,614 530,616"/>
@@ -67,7 +82,7 @@
         <Unicode>DE PECCATO IN SPIRITVM S. I9</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" type="page-number" readingDirection="left-to-right" id="TextRegion_1670840751882_5993" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1670840751882_5993" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.6461447" type="page-number" readingDirection="left-to-right">
       <Coords points="1381,552 1542,552 1542,617 1381,617"/>
       <TextLine id="line_1670840751922_5996" custom="readingOrder {index:0;}">
         <Coords points="1381,559 1407,560 1413,568 1542,569 1541,616 1381,614"/>
@@ -86,7 +101,7 @@
         <Unicode>19</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" readingDirection="left-to-right" id="TextRegion_1670840781693_6032" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1670840781693_6032" custom="readingOrder {index:2;}" orientation="-0.6461447" readingDirection="left-to-right">
       <Coords points="279,639 1537,639 1537,1598 279,1598"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="915,639 911,648 813,650 741,649 734,639 717,640 711,648 707,648 698,640 688,639 678,642 672,648 631,653 622,653 620,645 614,640 599,639 590,645 585,654 566,654 561,645 547,644 541,648 539,655 461,657 455,647 444,646 439,649 429,648 420,657 410,648 397,648 387,659 280,661 279,719 339,720 351,711 442,708 471,703 500,703 515,707 550,705 556,710 571,711 581,707 584,702 614,701 649,700 657,706 669,706 679,699 722,695 793,692 881,694 890,686 896,687 903,694 1080,694 1092,705 1098,705 1107,698 1142,700 1149,708 1160,708 1168,701 1197,702 1226,705 1231,712 1241,714 1253,712 1257,705 1315,706 1325,717 1344,717 1350,707 1536,705 1537,660 1509,660 1507,653 1502,649 1486,650 1482,660 1441,662 1429,662 1428,653 1423,648 1405,650 1401,661 1397,651 1383,649 1378,653 1376,662 1338,662 1334,649 1322,648 1313,651 1310,661 1308,654 1302,649 1288,651 1284,660 1270,660 1207,656 1205,648 1200,644 1186,645 1181,656 1165,656 1137,652 1129,641 1113,642 1105,647 1090,647 1083,642 1072,642 1065,647 1059,642 1045,641 1039,646 1010,649 993,649 991,640 969,640 965,649 937,648 934,639"/>
@@ -104,7 +119,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0006_line0001_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="674,645 672,648 657,649 657,695 715,695 722,695 793,692 783,692 783,648 813,650 741,649 738,645 712,645 711,648 707,648 704,645"/>
+          <Coords points="674,645 657,695 793,692 813,650"/>
           <TextEquiv conf="0.6933602">
             <Unicode>ſedere</Unicode>
           </TextEquiv>
@@ -951,7 +966,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0017" custom="readingOrder {index:16;}">
-        <Coords points="886,1537 874,1544 872,1549 827,1540 812,1540 797,1547 773,1545 764,1538 745,1540 725,1537 714,1542 708,1536 698,1538 694,1545 657,1544 651,1538 635,1537 625,1540 622,1544 607,1545 604,1539 590,1535 578,1539 570,1536 560,1537 554,1540 553,1546 488,1546 482,1540 473,1539 466,1542 464,1547 421,1548 419,1542 403,1540 397,1543 395,1549 369,1549 366,1543 361,1541 343,1541 336,1544 332,1549 281,1553 280,1602 369,1603 550,1597 555,1605 565,1606 572,1596 658,1596 713,1593 1021,1598 1045,1597 1050,1592 1051,1565 1046,1560 986,1554 959,1558 949,1554 944,1549 904,1548 896,1551 892,1548 890,1539"/>
+        <Coords points="874,1544 872,1549 827,1540 812,1540 797,1547 773,1545 764,1538 745,1540 725,1537 714,1542 708,1536 698,1538 694,1545 657,1544 651,1538 635,1537 625,1540 622,1544 607,1545 604,1539 590,1535 578,1539 570,1536 560,1537 554,1540 553,1546 488,1546 482,1540 473,1539 466,1542 464,1547 421,1548 419,1542 403,1540 397,1543 395,1549 369,1549 366,1543 361,1541 343,1541 336,1544 332,1549 281,1553 280,1598 519,1598 550,1597 550,1598 570,1598 572,1596 658,1596 713,1593 1021,1598 1045,1597 1050,1592 1051,1565 1046,1560 986,1554 959,1558 949,1554 944,1549 904,1548 896,1551 892,1548 890,1539 886,1537"/>
         <Baseline points="280,1592 688,1582 1050,1587"/>
         <Word id="region0006_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="284,1586 367,1587 367,1546 366,1543 361,1541 343,1541 336,1544 332,1549 284,1552"/>
@@ -988,26 +1003,26 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>perhibet, ipſos ſedere in cathedra Moſis, &amp; quidquid ex le-&#13;
-ge Moſaica proponant, ſeruandum eſſe.&#13;
-5. Hæc vero cum ſit ratio peccati in Spiritum&#13;
-Sanctum, quis dubitaret, illud multo committi fre-&#13;
-quentius, quam vulgo putari ſolet; &amp; ab iis quidem&#13;
-maxime, qui hæc ipſa delicta ſua bonorum operum loco&#13;
-haberi volunt? Et quamuis multi ex hiſce peccatori-&#13;
-bus ad necem vsque aduerſus innocentes haud depu-&#13;
-gnent; peccatum tamen iſtud atrox omnino commit-&#13;
-tunt; vtpote quod ſola inſectatione &amp; criminatione,&#13;
-præcipue tali, qua aliis via ad conuerſionem obſtruitur,&#13;
-committi, e dictis haud poteſt eſſe obſcurum Quid?&#13;
-quod multis ad vincula &amp; cædes vsque furendi non tam&#13;
-voluntas deſit, quam facultas; inprimis in eccleſia e-&#13;
-uangelica, in qua turbulentorum hominum, quales&#13;
-hæretifices eſſe videas, intemperies, ab imperantibus&#13;
+        <Unicode>perhibet, ipſos ſedere in cathedra Moſis, &amp; quidquid ex le-
+ge Moſaica proponant, ſeruandum eſſe.
+5. Hæc vero cum ſit ratio peccati in Spiritum
+Sanctum, quis dubitaret, illud multo committi fre-
+quentius, quam vulgo putari ſolet; &amp; ab iis quidem
+maxime, qui hæc ipſa delicta ſua bonorum operum loco
+haberi volunt? Et quamuis multi ex hiſce peccatori-
+bus ad necem vsque aduerſus innocentes haud depu-
+gnent; peccatum tamen iſtud atrox omnino commit-
+tunt; vtpote quod ſola inſectatione &amp; criminatione,
+præcipue tali, qua aliis via ad conuerſionem obſtruitur,
+committi, e dictis haud poteſt eſſe obſcurum Quid?
+quod multis ad vincula &amp; cædes vsque furendi non tam
+voluntas deſit, quam facultas; inprimis in eccleſia e-
+uangelica, in qua turbulentorum hominum, quales
+hæretifices eſſe videas, intemperies, ab imperantibus
 eſt circumciſa &amp; valde limitata.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" type="heading" readingDirection="left-to-right" id="TextRegion_1670840781693_6031" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670840781693_6031" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.6461447" type="heading" readingDirection="left-to-right">
       <Coords points="279,1598 1537,1598 1537,1657 279,1657"/>
       <TextLine id="line_1670840780502_6025" custom="readingOrder {index:0;}">
         <Coords points="616,1601 642,1598 1099,1600 1163,1602 1166,1606 1165,1646 1153,1649 1151,1655 1148,1657 1010,1657 980,1653 966,1653 955,1656 913,1656 885,1650 841,1656 759,1654 754,1651 705,1651 693,1654 652,1647 636,1639 616,1639 611,1634 612,1604"/>
@@ -1032,10 +1047,10 @@ eſt circumciſa &amp; valde limitata.</Unicode>
         <Unicode>PROPOSITIO XI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" readingDirection="left-to-right" id="TextRegion_1670840780463_6021" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1670840780463_6021" custom="readingOrder {index:4;}" orientation="-0.6461447" readingDirection="left-to-right">
       <Coords points="279,1657 1537,1657 1537,2003 279,2003"/>
       <TextLine id="region0006_line0019" custom="readingOrder {index:0;}">
-        <Coords points="536,1647 531,1652 531,1664 523,1665 515,1671 462,1670 384,1674 381,1665 374,1660 365,1660 357,1665 341,1662 279,1661 280,1737 426,1733 458,1726 468,1730 554,1728 580,1726 590,1722 603,1724 617,1719 660,1720 663,1732 684,1734 692,1733 696,1720 726,1719 734,1715 755,1718 785,1718 792,1712 797,1712 804,1719 916,1720 1030,1716 1039,1719 1094,1721 1156,1719 1203,1725 1216,1725 1225,1717 1274,1718 1280,1722 1284,1717 1289,1717 1298,1725 1320,1727 1334,1742 1353,1738 1354,1730 1377,1729 1425,1734 1537,1736 1536,1681 1432,1677 1431,1663 1418,1658 1403,1661 1398,1668 1390,1660 1381,1660 1372,1665 1369,1673 1262,1671 1258,1680 1251,1680 1246,1671 1242,1680 1234,1680 1229,1671 1225,1670 1225,1663 1217,1656 1202,1658 1195,1669 999,1664 995,1657 980,1654 961,1655 954,1657 949,1663 909,1665 900,1664 900,1656 885,1651 862,1653 857,1656 854,1663 846,1657 838,1657 831,1663 806,1664 803,1661 772,1663 762,1660 754,1652 741,1652 732,1656 728,1653 713,1652 698,1655 679,1653 675,1660 666,1649 646,1648 636,1653 628,1663 616,1662 604,1667 598,1656 583,1655 572,1669 549,1670 550,1650 546,1647"/>
+        <Coords points="531,1664 523,1665 515,1671 462,1670 384,1674 381,1665 374,1660 365,1660 357,1665 341,1662 279,1661 280,1737 426,1733 458,1726 468,1730 554,1728 580,1726 590,1722 603,1724 617,1719 660,1720 663,1732 684,1734 692,1733 696,1720 726,1719 734,1715 755,1718 785,1718 792,1712 797,1712 804,1719 916,1720 1030,1716 1039,1719 1094,1721 1156,1719 1203,1725 1216,1725 1225,1717 1274,1718 1280,1722 1284,1717 1289,1717 1298,1725 1320,1727 1334,1742 1353,1738 1354,1730 1377,1729 1425,1734 1537,1736 1536,1681 1432,1677 1431,1663 1418,1658 1403,1661 1398,1668 1390,1660 1381,1660 1372,1665 1369,1673 1262,1671 1258,1680 1251,1680 1246,1671 1242,1680 1234,1680 1229,1671 1225,1670 1225,1663 1218,1657 1209,1657 1202,1658 1195,1669 999,1664 995,1657 954,1657 949,1663 909,1665 900,1664 900,1657 856,1657 854,1663 846,1657 838,1657 831,1663 806,1664 803,1661 772,1663 762,1660 759,1657 676,1657 675,1660 672,1657 632,1657 628,1663 616,1662 604,1667 598,1657 581,1657 572,1669 549,1670 549,1657 531,1657"/>
         <Baseline points="280,1724 708,1707 1142,1709 1537,1726"/>
         <Word id="word_1670840780502_6028" custom="readingOrder {index:0;}">
           <Coords points="287,1661 341,1662 357,1665 365,1660 374,1660 381,1665 384,1674 462,1670 515,1671 523,1665 531,1664 531,1657 549,1657 549,1670 560,1669 560,1721 287,1718"/>
@@ -1262,17 +1277,17 @@ eſt circumciſa &amp; valde limitata.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Peccatum in Spiritum Sanctum maxime quidem&#13;
-com miſſum fuit temporibus Chriſti &amp; Apo-&#13;
-ſtolorum; at nequaquam tamen ad iſta re-&#13;
-ſtringendum eſt; ſed fuit ac eſt omnium&#13;
+        <Unicode>Peccatum in Spiritum Sanctum maxime quidem
+com miſſum fuit temporibus Chriſti &amp; Apo-
+ſtolorum; at nequaquam tamen ad iſta re-
+ſtringendum eſt; ſed fuit ac eſt omnium
 temporum veteris ac noui teſtamenti.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" type="heading" readingDirection="left-to-right" id="TextRegion_1670840778007_6015" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1670840778007_6015" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-0.6461447" type="heading" readingDirection="left-to-right">
       <Coords points="279,2003 1537,2003 1537,2065 279,2065"/>
       <TextLine id="region0006_line0024" custom="readingOrder {index:0;}">
-        <Coords points="1012,1996 903,1997 894,2001 877,1998 669,2005 647,2002 642,2006 591,2007 577,2009 572,2013 570,2041 571,2049 575,2052 586,2058 597,2058 603,2065 636,2064 642,2068 655,2066 660,2069 685,2062 697,2063 703,2068 714,2064 749,2067 761,2066 770,2061 786,2063 797,2060 934,2061 956,2057 978,2057 995,2061 1140,2063 1148,2060 1213,2056 1218,2051 1219,2013 1214,2008 1115,1998"/>
+        <Coords points="669,2005 654,2003 645,2003 642,2006 591,2007 577,2009 572,2013 570,2041 571,2049 575,2052 586,2058 597,2058 603,2065 636,2064 637,2065 674,2065 685,2062 697,2063 699,2065 711,2065 714,2064 725,2065 762,2065 770,2061 786,2063 797,2060 934,2061 956,2057 978,2057 995,2061 1140,2063 1148,2060 1213,2056 1218,2051 1219,2013 1214,2008 1164,2003 728,2003"/>
         <Baseline points="577,2053 1218,2046"/>
         <Word id="region0006_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="1147,2018 641,2012 640,2066 642,2068 655,2066 658,2068 662,2068 685,2062 697,2063 703,2068 714,2064 749,2067 761,2066 770,2061 786,2063 797,2060 934,2061 956,2057 978,2057 995,2061 1140,2063 1146,2060"/>
@@ -1288,10 +1303,10 @@ temporum veteris ac noui teſtamenti.</Unicode>
         <Unicode>DEMONSTRATIO.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" readingDirection="left-to-right" id="TextRegion_1670840776009_6009" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1670840776009_6009" custom="readingOrder {index:6;}" orientation="-0.6461447" readingDirection="left-to-right">
       <Coords points="279,2065 1537,2065 1537,2302 279,2302"/>
       <TextLine id="region0006_line0025" custom="readingOrder {index:0;}">
-        <Coords points="556,2036 551,2041 551,2054 563,2061 565,2070 544,2067 533,2074 475,2068 428,2070 394,2081 330,2081 325,2086 324,2121 329,2126 369,2129 383,2126 408,2131 433,2127 479,2131 496,2126 506,2131 564,2131 578,2134 583,2130 595,2129 767,2121 782,2117 880,2118 917,2114 951,2115 962,2113 987,2114 999,2118 1085,2123 1112,2121 1140,2126 1252,2126 1257,2129 1281,2130 1309,2129 1320,2139 1332,2135 1339,2140 1351,2139 1355,2133 1443,2134 1449,2131 1536,2135 1536,2087 1476,2086 1473,2078 1465,2073 1451,2075 1447,2085 1374,2083 1363,2071 1352,2071 1347,2075 1346,2081 1341,2082 1331,2081 1322,2069 1312,2069 1307,2072 1301,2067 1288,2067 1273,2077 1206,2075 1167,2073 1160,2062 1148,2061 1135,2065 1129,2072 1088,2072 987,2068 986,2062 978,2058 956,2058 944,2061 943,2067 905,2068 897,2062 883,2062 869,2063 863,2068 838,2068 836,2063 823,2060 815,2063 770,2062 763,2065 760,2071 747,2073 722,2065 714,2065 705,2071 697,2064 668,2066 660,2070 655,2067 642,2069 636,2065 587,2064 583,2056 570,2049 569,2039"/>
+        <Coords points="565,2070 544,2067 533,2074 475,2068 428,2070 394,2081 330,2081 325,2086 324,2121 329,2126 369,2129 383,2126 408,2131 433,2127 479,2131 496,2126 506,2131 564,2131 578,2134 583,2130 595,2129 767,2121 782,2117 880,2118 917,2114 951,2115 962,2113 987,2114 999,2118 1085,2123 1112,2121 1140,2126 1252,2126 1257,2129 1281,2130 1309,2129 1320,2139 1332,2135 1339,2140 1351,2139 1355,2133 1443,2134 1449,2131 1536,2135 1536,2087 1476,2086 1473,2078 1465,2073 1451,2075 1447,2085 1374,2083 1363,2071 1352,2071 1347,2075 1346,2081 1341,2082 1331,2081 1322,2069 1312,2069 1307,2072 1301,2067 1288,2067 1273,2077 1206,2075 1167,2073 1161,2065 1135,2065 1129,2072 1088,2072 987,2068 986,2065 943,2065 943,2067 905,2068 901,2065 866,2065 863,2068 838,2068 836,2065 763,2065 760,2071 747,2073 722,2065 714,2065 705,2071 698,2065 682,2065 668,2066 660,2070 655,2067 642,2069 636,2065 563,2065"/>
         <Baseline points="577,2053 577,2053"/>
         <Word id="region0006_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="407,2097 435,2098 435,2069 428,2070 407,2076"/>
@@ -1468,7 +1483,7 @@ temporum veteris ac noui teſtamenti.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0028" custom="readingOrder {index:3;}">
-        <Coords points="801,2229 791,2236 793,2243 780,2243 775,2239 763,2238 753,2242 720,2242 715,2238 679,2234 668,2236 659,2243 626,2246 618,2239 605,2241 597,2235 587,2243 586,2248 530,2250 520,2242 499,2240 488,2243 470,2242 463,2250 439,2241 432,2243 429,2249 417,2248 412,2242 402,2241 382,2251 370,2251 363,2246 328,2255 280,2255 280,2302 372,2306 394,2305 405,2301 418,2304 484,2304 718,2296 796,2297 800,2300 811,2300 818,2296 1002,2295 1013,2285 1019,2285 1024,2291 1033,2294 1223,2302 1256,2305 1265,2314 1283,2314 1299,2304 1377,2300 1392,2295 1415,2298 1441,2295 1447,2299 1536,2297 1536,2251 1454,2250 1445,2244 1435,2244 1427,2251 1369,2253 1360,2257 1348,2257 1340,2254 1231,2250 1221,2249 1214,2242 1184,2243 1178,2240 1148,2240 1143,2242 1141,2248 1133,2248 1132,2243 1125,2238 1106,2240 1104,2248 1095,2249 1073,2248 1064,2237 1040,2238 1035,2246 1015,2246 1013,2239 1007,2236 994,2236 989,2239 987,2246 965,2246 960,2242 951,2241 947,2244 916,2244 915,2237 910,2234 895,2234 888,2237 886,2243 862,2242 860,2236 852,2234 833,2237 832,2243 813,2244 810,2235"/>
+        <Coords points="791,2236 793,2243 780,2243 775,2239 763,2238 753,2242 720,2242 715,2238 679,2234 668,2236 659,2243 626,2246 618,2239 605,2241 597,2235 587,2243 586,2248 530,2250 520,2242 499,2240 488,2243 470,2242 463,2250 439,2241 432,2243 429,2249 417,2248 412,2242 402,2241 382,2251 370,2251 363,2246 328,2255 280,2255 280,2302 402,2302 405,2301 409,2302 542,2302 718,2296 796,2297 800,2300 811,2300 818,2296 1002,2295 1013,2285 1019,2285 1024,2291 1033,2294 1223,2302 1338,2302 1377,2300 1392,2295 1415,2298 1441,2295 1447,2299 1536,2297 1536,2251 1454,2250 1445,2244 1435,2244 1427,2251 1369,2253 1360,2257 1348,2257 1340,2254 1231,2250 1221,2249 1214,2242 1184,2243 1178,2240 1148,2240 1143,2242 1141,2248 1133,2248 1132,2243 1125,2238 1106,2240 1104,2248 1095,2249 1073,2248 1064,2237 1040,2238 1035,2246 1015,2246 1013,2239 1007,2236 994,2236 989,2239 987,2246 965,2246 960,2242 951,2241 947,2244 916,2244 915,2237 910,2234 895,2234 888,2237 886,2243 862,2242 860,2236 852,2234 833,2237 832,2243 813,2244 810,2235 801,2229"/>
         <Baseline points="280,2291 988,2284 1284,2294 1536,2286"/>
         <Word id="region0006_line0028_word0000" custom="readingOrder {index:0;}">
           <Coords points="299,2283 348,2284 349,2251 343,2250 328,2255 299,2255"/>
@@ -1529,7 +1544,7 @@ lis potius manifeſtum eſt, Chriſtum, occaſione a pecca-
 to Phariſæorum ſumta, de hoc ipſo delicto generatim generatim</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" readingDirection="left-to-right" id="TextRegion_1670840797030_6041" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1670840797030_6041" custom="readingOrder {index:7;}" orientation="-0.6461447" readingDirection="left-to-right">
       <Coords points="279,2302 668,2302 668,2371 279,2371"/>
       <TextLine id="line_1670840797070_6044" custom="readingOrder {index:0;}">
         <Coords points="291,2302 306,2302 324,2310 392,2313 393,2306 410,2302 419,2306 422,2314 477,2316 668,2318 668,2350 499,2349 498,2360 493,2365 379,2364 377,2370 368,2371 345,2371 343,2364 280,2361 280,2304"/>
@@ -1548,10 +1563,10 @@ to Phariſæorum ſumta, de hoc ipſo delicto generatim generatim</Unicode>
         <Unicode>loqui. cC:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1670840800089_6048" custom="readingOrder {index:8;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1670840800089_6048" custom="readingOrder {index:8;} structure {type:signature-mark;}" orientation="-0.6461447" type="signature-mark" readingDirection="left-to-right">
       <Coords points="668,2302 1220,2302 1220,2371 668,2371"/>
       <TextLine id="line_1670840797069_6043" custom="readingOrder {index:0;}">
-        <Coords points="668,2318 922,2321 927,2317 986,2318 991,2304 1013,2286 1019,2286 1024,2292 1039,2296 1046,2307 1152,2309 1158,2315 1149,2324 1149,2346 1157,2356 1080,2359 972,2358 926,2354 668,2350"/>
+        <Coords points="991,2304 986,2318 927,2317 922,2321 668,2318 668,2350 926,2354 972,2358 1080,2359 1157,2356 1149,2346 1149,2324 1158,2315 1152,2309 1046,2307 1042,2302 993,2302"/>
         <Baseline points="668,2349 845,2341 1151,2349"/>
         <Word id="word_1670840773364_6006" custom="readingOrder {index:0;}">
           <Coords points="996,2302 1042,2302 1046,2307 1081,2307 1081,2357 996,2356"/>
@@ -1567,10 +1582,10 @@ to Phariſæorum ſumta, de hoc ipſo delicto generatim generatim</Unicode>
         <Unicode>C2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6461447" type="catch-word" readingDirection="left-to-right" id="TextRegion_1670840800089_6047" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1670840800089_6047" custom="readingOrder {index:9;} structure {type:catch-word;}" orientation="-0.6461447" type="catch-word" readingDirection="left-to-right">
       <Coords points="1220,2302 1537,2302 1537,2371 1220,2371"/>
       <TextLine id="line_1670840800127_6050" custom="readingOrder {index:0;}">
-        <Coords points="1220,2315 1281,2316 1303,2310 1343,2308 1392,2296 1415,2299 1428,2296 1441,2296 1453,2302 1536,2301 1536,2351 1444,2351 1383,2357 1274,2357 1220,2356"/>
+        <Coords points="1343,2308 1303,2310 1281,2316 1220,2315 1220,2356 1274,2357 1383,2357 1444,2351 1536,2351 1536,2302 1453,2302 1367,2302"/>
         <Baseline points="1220,2347 1536,2342"/>
         <Word id="region0006_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="1333,2325 1365,2325 1365,2353 1333,2353"/>

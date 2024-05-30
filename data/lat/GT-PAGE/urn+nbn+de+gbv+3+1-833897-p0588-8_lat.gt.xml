@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-313">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:57Z</Created>
     <LastChange>2024-01-19T13:10:57Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-833897-p0588-8_lat.png" imageWidth="1711" imageHeight="2209" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/99ff8ff5-4053-442d-a668-ad95a60c65ae/00000588.jpg" imageWidth="1711" imageHeight="2209" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="98,118 156,2086 1622,2059 1612,111"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1655456159396_1422"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.22428389" readingDirection="left-to-right" id="TextRegion_1655456150803_1410" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1655456150803_1410" custom="readingOrder {index:0;}" orientation="0.22428389" readingDirection="left-to-right">
       <Coords points="699,272 1594,272 1594,787 699,787"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="960,273 952,283 701,283 699,322 706,325 830,322 836,326 1005,323 1037,326 1043,332 1053,332 1062,326 1073,324 1126,323 1131,326 1138,323 1247,323 1255,325 1259,333 1267,335 1282,333 1284,325 1339,327 1506,326 1593,330 1593,288 1576,288 1573,277 1568,273 1552,276 1543,287 1528,287 1468,284 1466,278 1459,273 1447,274 1442,283 1366,282 1359,273 1347,273 1338,284 1334,273 1311,273 1303,283 1223,284 1220,273 1196,273 1188,283 1181,283 1167,282 1164,273 1146,272 1140,272 1133,281 1128,280 1125,272 1103,272 1096,281 1083,281 1077,274 1066,273 1060,277 1058,283 1019,283 1012,273 1000,274 996,282 980,283 977,273"/>
@@ -345,7 +360,7 @@
         <Baseline points="699,623 1593,624"/>
         <Word id="region0006_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="768,589 758,591 755,591 755,631 810,631 810,590 791,591 790,589"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>tis,</Unicode>
           </TextEquiv>
         </Word>
@@ -362,7 +377,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0006_line0007_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1172,590 1140,590 1132,583 1109,586 1109,633 1172,633"/>
+          <Coords points="1132,583 1116,587 1113,585 1109,586 1109,633 1172,633 1172,590 1140,590"/>
           <TextEquiv conf="0.84273636">
             <Unicode>Deo</Unicode>
           </TextEquiv>
@@ -460,7 +475,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655455673044_1260" custom="readingOrder {index:1;}">
-          <Coords points="801,695 890,689 907,689 911,690 911,733 879,733 801,726"/>
+          <Coords points="801,695 801,726 879,733 911,733 911,690 908,689 907,689 890,689 887,692 853,692 851,691"/>
           <TextEquiv>
             <Unicode>Hæreſ.</Unicode>
           </TextEquiv>
@@ -512,7 +527,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0010" custom="readingOrder {index:9;}">
-        <Coords points="787,734 701,736 700,775 715,781 837,782 844,787 853,787 863,782 1032,783 1050,792 1065,789 1067,785 1244,786 1282,790 1286,787 1325,787 1336,780 1335,750 1330,745 1246,745 1236,744 1230,736 1204,735 1198,740 1185,736 1151,733 1129,737 1122,743 1105,745 1078,746 1072,741 1060,741 1054,746 1036,746 1014,742 994,744 988,741 969,740 964,746 955,747 914,745 909,736 897,736 890,742 883,742 872,734 859,734 852,740 840,740 833,733 822,734 816,738"/>
+        <Coords points="701,736 700,775 715,781 837,782 844,787 853,787 863,782 1032,783 1040,787 1066,787 1067,785 1244,786 1253,787 1286,787 1325,787 1336,780 1335,750 1330,745 1246,745 1236,744 1230,736 1204,735 1198,740 1185,736 1151,733 1129,737 1122,743 1105,745 1078,746 1072,741 1060,741 1054,746 1036,746 1014,742 994,744 988,741 969,740 964,746 955,747 914,745 909,736 897,736 890,742 883,742 872,734 859,734 852,740 840,740 833,733 822,734 816,738 787,734"/>
         <Baseline points="700,771 1336,778"/>
         <Word id="region0006_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="757,743 757,781 837,782 843,786 853,786 863,782 957,782 957,746 955,747 914,745 912,742"/>
@@ -543,22 +558,22 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1. e. transvaſatio, infuſio ſive poſitio unius vaſis&#13;
-in alterum, minoris ſcilicet in majus, ex ἀγτϵῖον&#13;
-vas. Docuerunt enim, circa A. C. 221. Fili-&#13;
-um ita in Patre eſſe, ſicut vas parvum in magno&#13;
-eſt, ac proinde Filium Patre minorem credide-&#13;
-runt. Eosdem qvoqve, cum Anthropomorphi-&#13;
-tis, corpus naturale Deo tribuiſſe, refert Roſſæ-&#13;
-us de Relig. mundi pag. 263. Vid. alias Auguſtin.&#13;
-de Hæreſ. cap. 58. Joſ. Arnd. Lex. ant.eccl. pag.463.&#13;
+        <Unicode>1. e. transvaſatio, infuſio ſive poſitio unius vaſis
+in alterum, minoris ſcilicet in majus, ex ἀγτϵῖον
+vas. Docuerunt enim, circa A. C. 221. Fili-
+um ita in Patre eſſe, ſicut vas parvum in magno
+eſt, ac proinde Filium Patre minorem credide-
+runt. Eosdem qvoqve, cum Anthropomorphi-
+tis, corpus naturale Deo tribuiſſe, refert Roſſæ-
+us de Relig. mundi pag. 263. Vid. alias Auguſtin.
+de Hæreſ. cap. 58. Joſ. Arnd. Lex. ant.eccl. pag.463.
 Philaſtrium Petrejum. &amp; alios.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.22428389" readingDirection="left-to-right" id="TextRegion_1655456163361_1429" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1655456163361_1429" custom="readingOrder {index:1;}" orientation="0.22428389" readingDirection="left-to-right">
       <Coords points="699,787 1594,787 1594,831 699,831"/>
       <TextLine id="region0006_line0011" custom="readingOrder {index:0;}">
-        <Coords points="700,781 700,834 892,835 926,840 939,836 976,833 1037,837 1195,836 1250,833 1255,828 1255,801 1252,797 1198,796 1193,787 1179,787 1174,796 1148,797 1144,795 1141,787 1124,785 1117,786 1112,794 1104,794 1096,786 1087,786 1080,792 1063,790 1050,793 1039,791 1032,784 863,783 853,788 844,788 837,783"/>
+        <Coords points="700,831 1252,831 1255,828 1255,801 1252,797 1198,796 1193,787 1179,787 1174,796 1148,797 1144,795 1141,787 1116,787 1112,794 1104,794 1097,787 1085,787 1080,792 1063,790 1050,793 1039,791 1035,787 855,787 853,788 844,788 842,787 700,787"/>
         <Baseline points="700,823 907,828 1255,823"/>
         <Word id="word_1655456163400_1432" custom="readingOrder {index:0;}">
           <Coords points="705,798 936,797 936,831 705,831"/>
@@ -586,7 +601,7 @@ Philaſtrium Petrejum. &amp; alios.</Unicode>
         <Unicode>METISTÆ; Vid. Mediani.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.22428389" readingDirection="left-to-right" id="TextRegion_1655456163361_1428" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1655456163361_1428" custom="readingOrder {index:2;}" orientation="0.22428389" readingDirection="left-to-right">
       <Coords points="699,831 1594,831 1594,1400 699,1400"/>
       <TextLine id="region0006_line0012" custom="readingOrder {index:0;}">
         <Coords points="703,834 699,836 699,887 1025,890 1113,887 1162,891 1176,889 1185,891 1193,897 1202,891 1262,888 1431,887 1438,896 1446,896 1457,887 1593,890 1593,839 1582,838 1569,838 1553,847 1503,848 1470,847 1468,838 1463,834 1450,835 1442,847 1428,847 1401,845 1370,838 1323,846 1293,845 1282,834 1269,837 1248,834 1195,837 1037,838 976,834 939,837 925,841 919,838 892,836"/>
@@ -1092,23 +1107,23 @@ Philaſtrium Petrejum. &amp; alios.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>MICHAëL SELLARIUS; De hoc Petrejus catal.&#13;
-hær. ſub, hoc. Tit. Docuit tempore Caroli V. Imp.&#13;
-tanquam anteſignanus Anabapti ſtarum, Roten-&#13;
-burgi ad Neccarum: Verum Corpus &amp; Sangvi-&#13;
-nem Chriſti non eſſe in S. cœna. Pueros non&#13;
-baptizandos. Juramentum ſuperioribus non&#13;
-præſtandum. Turcis non reſiſtendum &amp;c. Idem&#13;
-teſte Surio, A. 1527. Maji, exſecta prius lingva,&#13;
-forcipibus igneis dilaniatus eſt, ſed NB. a Ponti-&#13;
-ficiis, qvi hæreticos hunc in modum tractandos&#13;
+        <Unicode>MICHAëL SELLARIUS; De hoc Petrejus catal.
+hær. ſub, hoc. Tit. Docuit tempore Caroli V. Imp.
+tanquam anteſignanus Anabapti ſtarum, Roten-
+burgi ad Neccarum: Verum Corpus &amp; Sangvi-
+nem Chriſti non eſſe in S. cœna. Pueros non
+baptizandos. Juramentum ſuperioribus non
+præſtandum. Turcis non reſiſtendum &amp;c. Idem
+teſte Surio, A. 1527. Maji, exſecta prius lingva,
+forcipibus igneis dilaniatus eſt, ſed NB. a Ponti-
+ficiis, qvi hæreticos hunc in modum tractandos
 eſſe, ſtatuunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.22428389" type="heading" readingDirection="left-to-right" id="TextRegion_1655456156002_1415" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1655456156002_1415" custom="readingOrder {index:3;}" orientation="0.22428389" type="heading" readingDirection="left-to-right">
       <Coords points="700,1399 1592,1399 1592,1450 700,1450"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
-        <Coords points="700,1400 700,1450 995,1448 1053,1452 1197,1451 1300,1450 1305,1445 1305,1415 1302,1411 1243,1410 1237,1400 1224,1401 1219,1411 1190,1411 1189,1404 1184,1399 1173,1399 1166,1409 1156,1409 1151,1408 1143,1400 1130,1400 1124,1404 1070,1400"/>
+        <Coords points="700,1450 995,1448 1024,1450 1300,1450 1305,1445 1305,1415 1302,1411 1243,1410 1237,1400 1224,1401 1219,1411 1190,1411 1189,1404 1184,1399 1173,1399 1166,1409 1156,1409 1151,1408 1143,1400 1130,1400 1124,1404 1070,1400 700,1400"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="965,1415 708,1416 708,1449 965,1448"/>
           <TextEquiv>
@@ -1135,10 +1150,10 @@ eſſe, ſtatuunt.</Unicode>
         <Unicode>MILETIANI: Vid. Meletiani.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.22428389" type="heading" readingDirection="left-to-right" id="TextRegion_1655456169011_1441" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1655456169011_1441" custom="readingOrder {index:4;}" orientation="0.22428389" type="heading" readingDirection="left-to-right">
       <Coords points="700,1450 1592,1450 1594,1502 1591,1758 697,1758"/>
       <TextLine id="region0007_line0002" custom="readingOrder {index:0;}">
-        <Coords points="824,1450 700,1451 700,1502 1591,1501 1591,1458 1489,1458 1482,1448 1472,1449 1466,1458 1458,1458 1451,1449 1416,1447 1403,1449 1394,1458 1389,1459 1354,1459 1347,1448 1335,1448 1326,1460 1196,1458 1194,1452 1189,1450 1178,1450 1170,1458 1137,1460 1107,1460 1102,1452 1088,1451 1080,1461 1063,1461 1056,1453 1035,1451"/>
+        <Coords points="700,1451 700,1502 1591,1501 1591,1458 1489,1458 1483,1450 1471,1450 1466,1458 1458,1458 1451,1450 1402,1450 1394,1458 1389,1459 1354,1459 1348,1450 1333,1450 1326,1460 1196,1458 1194,1452 1189,1450 1178,1450 1170,1458 1137,1460 1107,1460 1102,1452 1088,1451 1080,1461 1063,1461 1056,1453 1035,1451 824,1450"/>
         <Word id="word_1655456008480_1377" custom="readingOrder {index:0;}">
           <Coords points="706,1463 997,1462 997,1500 776,1501 706,1498"/>
           <TextEquiv>
@@ -1278,7 +1293,7 @@ eſſe, ſtatuunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0003" custom="readingOrder {index:3;}">
-        <Coords points="873,1602 859,1615 701,1614 701,1653 793,1653 799,1656 828,1656 832,1659 866,1653 926,1653 928,1660 933,1664 947,1664 954,1654 960,1653 1120,1656 1246,1654 1272,1655 1273,1663 1278,1666 1297,1664 1299,1655 1468,1652 1519,1653 1521,1661 1536,1664 1547,1661 1549,1652 1594,1651 1594,1610 1563,1611 1551,1608 1547,1611 1512,1611 1510,1604 1505,1602 1490,1604 1485,1612 1400,1612 1398,1604 1385,1602 1354,1604 1351,1611 1345,1613 1287,1615 1205,1614 1203,1608 1196,1605 1184,1606 1180,1614 1177,1614 1175,1607 1171,1605 1155,1606 1151,1614 1107,1614 1099,1613 1097,1608 1090,1604 1038,1605 1033,1609 1027,1604 1012,1605 1008,1614 915,1614 913,1605 909,1603 897,1603 890,1607 885,1603"/>
+        <Coords points="859,1615 701,1614 701,1653 793,1653 799,1656 828,1656 832,1659 866,1653 926,1653 928,1660 933,1664 947,1664 954,1654 960,1653 1120,1656 1246,1654 1272,1655 1273,1663 1278,1666 1297,1664 1299,1655 1468,1652 1519,1653 1521,1661 1536,1664 1547,1661 1549,1652 1592,1651 1592,1610 1563,1611 1551,1608 1547,1611 1512,1611 1510,1604 1505,1602 1490,1604 1485,1612 1400,1612 1398,1604 1385,1602 1354,1604 1351,1611 1345,1613 1287,1615 1205,1614 1203,1608 1196,1605 1184,1606 1180,1614 1177,1614 1175,1607 1171,1605 1155,1606 1151,1614 1107,1614 1099,1613 1097,1608 1090,1604 1038,1605 1033,1609 1027,1604 1012,1605 1008,1614 915,1614 913,1605 909,1603 897,1603 890,1607 885,1603 873,1602"/>
         <Baseline points="701,1645 1594,1642"/>
         <Word id="region0012_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="759,1621 845,1620 845,1648 759,1649"/>
@@ -1327,7 +1342,7 @@ eſſe, ſtatuunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0004" custom="readingOrder {index:4;}">
-        <Coords points="787,1654 770,1656 765,1664 757,1665 701,1664 700,1703 710,1706 941,1704 1060,1711 1070,1708 1169,1706 1191,1707 1198,1713 1218,1706 1240,1709 1245,1715 1252,1717 1269,1716 1283,1707 1421,1706 1426,1716 1432,1716 1448,1705 1594,1702 1594,1661 1584,1661 1583,1654 1579,1651 1566,1651 1561,1654 1559,1661 1536,1665 1510,1661 1485,1663 1480,1654 1468,1653 1449,1655 1445,1664 1405,1664 1392,1654 1383,1654 1376,1659 1358,1654 1342,1654 1324,1663 1292,1667 1255,1664 1253,1659 1246,1655 1223,1656 1216,1664 1208,1665 1121,1666 1113,1656 1071,1657 1058,1664 1023,1665 1021,1657 1015,1654 1000,1654 991,1660 986,1655 972,1655 966,1665 924,1664 919,1655 905,1655 899,1665 882,1665 880,1656 875,1654 854,1657 849,1665 802,1665 800,1657"/>
+        <Coords points="770,1656 765,1664 757,1665 701,1664 700,1703 710,1706 941,1704 1060,1711 1070,1708 1169,1706 1191,1707 1198,1713 1218,1706 1240,1709 1245,1715 1252,1717 1269,1716 1283,1707 1421,1706 1426,1716 1432,1716 1448,1705 1591,1702 1592,1661 1584,1661 1583,1654 1579,1651 1566,1651 1561,1654 1559,1661 1536,1665 1510,1661 1485,1663 1480,1654 1468,1653 1449,1655 1445,1664 1405,1664 1392,1654 1383,1654 1376,1659 1358,1654 1342,1654 1324,1663 1292,1667 1255,1664 1253,1659 1246,1655 1223,1656 1216,1664 1208,1665 1121,1666 1113,1656 1071,1657 1058,1664 1023,1665 1021,1657 1015,1654 1000,1654 991,1660 986,1655 972,1655 966,1665 924,1664 919,1655 905,1655 899,1665 882,1665 880,1656 875,1654 854,1657 849,1665 802,1665 800,1657 787,1654"/>
         <Baseline points="700,1695 1594,1694"/>
         <Word id="region0012_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="766,1661 765,1664 757,1665 756,1664 756,1699 847,1698 847,1665 802,1665 801,1661"/>
@@ -1382,7 +1397,7 @@ eſſe, ſtatuunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0005" custom="readingOrder {index:5;}">
-        <Coords points="768,1706 761,1710 759,1716 700,1718 700,1752 744,1755 1014,1755 1087,1759 1118,1757 1119,1762 1123,1764 1141,1763 1147,1758 1188,1762 1194,1759 1251,1757 1413,1754 1417,1764 1432,1765 1443,1755 1472,1754 1477,1757 1489,1754 1532,1753 1537,1748 1537,1720 1534,1716 1464,1716 1458,1706 1448,1706 1432,1717 1349,1717 1345,1707 1329,1708 1324,1718 1300,1718 1297,1711 1292,1708 1283,1708 1272,1718 1252,1718 1227,1716 1225,1710 1218,1707 1213,1707 1200,1717 1173,1718 1161,1707 1144,1708 1136,1717 1123,1717 1118,1708 1010,1711 1001,1708 941,1705 853,1705 844,1707 840,1715 835,1715 830,1706 816,1707 810,1715 787,1716 785,1707"/>
+        <Coords points="761,1710 759,1716 700,1718 700,1752 744,1755 1014,1755 1068,1758 1102,1758 1118,1757 1118,1758 1147,1758 1222,1758 1251,1757 1413,1754 1414,1758 1439,1758 1443,1755 1472,1754 1477,1757 1489,1754 1532,1753 1537,1748 1537,1720 1534,1716 1464,1716 1458,1706 1448,1706 1432,1717 1349,1717 1345,1707 1329,1708 1324,1718 1300,1718 1297,1711 1292,1708 1283,1708 1272,1718 1252,1718 1227,1716 1225,1710 1218,1707 1213,1707 1200,1717 1173,1718 1161,1707 1144,1708 1136,1717 1123,1717 1118,1708 1010,1711 1001,1708 941,1705 853,1705 844,1707 840,1715 835,1715 830,1706 816,1707 810,1715 787,1716 785,1707 768,1706"/>
         <Baseline points="700,1743 1158,1749 1537,1742"/>
         <Word id="region0012_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="759,1715 759,1716 759,1752 854,1751 854,1714 840,1714 840,1715 835,1715 835,1714 810,1714 810,1715 787,1716 787,1715"/>
@@ -1425,18 +1440,18 @@ eſſe, ſtatuunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>MILLENARII, Veniunt hoc nomine illi omnes,&#13;
-qvi ſtatuunt: Regnum Chriſti mille per annos,&#13;
-ante Judicium extremum, eſſe in terris duratu-&#13;
-rum, ſub qvo electi multis corporalibus volupta-&#13;
-tibus fruituri ſint, Satana ligato &amp; impiis truci-&#13;
+        <Unicode>MILLENARII, Veniunt hoc nomine illi omnes,
+qvi ſtatuunt: Regnum Chriſti mille per annos,
+ante Judicium extremum, eſſe in terris duratu-
+rum, ſub qvo electi multis corporalibus volupta-
+tibus fruituri ſint, Satana ligato &amp; impiis truci-
 datis. Vid. Tit. Chiliaſtæ, it. Arnhemenſes.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.22428389" readingDirection="left-to-right" id="TextRegion_1655456159396_1422" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1655456159396_1422" custom="readingOrder {index:5;}" orientation="0.22428389" readingDirection="left-to-right">
       <Coords points="697,1758 1591,1758 1591,1862 697,1862"/>
       <TextLine id="region0012_line0006" custom="readingOrder {index:0;}">
-        <Coords points="1550,1751 1540,1762 1515,1764 1508,1755 1489,1755 1475,1758 1470,1765 1445,1767 1419,1766 1408,1756 1397,1757 1389,1764 1356,1766 1353,1756 1338,1756 1331,1760 1329,1767 1291,1772 1273,1771 1270,1763 1261,1758 1230,1760 1224,1768 1177,1770 1146,1762 1136,1765 1103,1763 1088,1767 1061,1768 1059,1762 1053,1758 1039,1759 1035,1767 1031,1768 1030,1759 1014,1756 700,1755 701,1809 910,1806 1002,1809 1011,1816 1017,1816 1023,1811 1079,1808 1088,1807 1094,1811 1157,1809 1172,1806 1230,1807 1242,1814 1251,1809 1287,1810 1292,1814 1301,1814 1322,1807 1339,1809 1414,1805 1420,1816 1429,1819 1445,1816 1452,1809 1458,1815 1468,1816 1477,1814 1483,1806 1489,1805 1594,1801 1593,1760 1566,1760 1561,1752"/>
+        <Coords points="1540,1762 1515,1764 1510,1758 1475,1758 1470,1765 1445,1767 1419,1766 1410,1758 1395,1758 1389,1764 1356,1766 1353,1758 1334,1758 1331,1760 1329,1767 1291,1772 1273,1771 1270,1763 1261,1758 1230,1760 1224,1768 1177,1770 1146,1762 1136,1765 1103,1763 1088,1767 1061,1768 1059,1762 1053,1758 1039,1759 1035,1767 1031,1768 1030,1759 1024,1758 700,1758 701,1809 910,1806 1002,1809 1011,1816 1017,1816 1023,1811 1079,1808 1088,1807 1094,1811 1157,1809 1172,1806 1230,1807 1242,1814 1251,1809 1287,1810 1292,1814 1301,1814 1322,1807 1339,1809 1414,1805 1420,1816 1429,1819 1445,1816 1452,1809 1458,1815 1468,1816 1477,1814 1483,1806 1489,1805 1591,1801 1591,1760 1566,1760 1564,1758 1543,1758"/>
         <Baseline points="701,1799 1307,1800 1594,1792"/>
         <Word id="region0012_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="1019,1810 1018,1767 705,1768 705,1808 910,1806 1002,1809 1003,1810"/>
@@ -1485,7 +1500,7 @@ datis. Vid. Tit. Chiliaſtæ, it. Arnhemenſes.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0007" custom="readingOrder {index:1;}">
-        <Coords points="1553,1802 1546,1806 1544,1812 1522,1813 1516,1805 1508,1804 1500,1806 1497,1812 1492,1814 1429,1820 1420,1817 1414,1806 1396,1808 1393,1817 1333,1817 1331,1810 1322,1808 1309,1811 1306,1818 1245,1819 1244,1815 1230,1808 1221,1808 1210,1819 1188,1819 1186,1810 1182,1807 1166,1809 1161,1818 1097,1818 1095,1812 1088,1808 1075,1810 1071,1818 1012,1818 1002,1810 989,1811 987,1818 933,1818 918,1817 916,1811 910,1807 897,1808 892,1816 869,1816 868,1809 863,1806 841,1806 834,1810 832,1816 701,1818 701,1857 760,1859 768,1862 768,1868 773,1873 821,1873 826,1868 827,1860 886,1860 915,1864 952,1863 965,1871 975,1870 982,1861 1359,1859 1401,1862 1446,1861 1485,1870 1511,1866 1516,1857 1524,1853 1537,1855 1594,1852 1594,1811 1569,1812 1564,1803"/>
+        <Coords points="1546,1806 1544,1812 1522,1813 1516,1805 1508,1804 1500,1806 1497,1812 1492,1814 1429,1820 1420,1817 1414,1806 1396,1808 1393,1817 1333,1817 1331,1810 1322,1808 1309,1811 1306,1818 1245,1819 1244,1815 1230,1808 1221,1808 1210,1819 1188,1819 1186,1810 1182,1807 1166,1809 1161,1818 1097,1818 1095,1812 1088,1808 1075,1810 1071,1818 1012,1818 1002,1810 989,1811 987,1818 933,1818 918,1817 916,1811 910,1807 897,1808 892,1816 869,1816 868,1809 863,1806 841,1806 834,1810 832,1816 701,1818 701,1857 760,1859 768,1862 826,1862 827,1860 886,1860 900,1862 981,1862 982,1861 1359,1859 1401,1862 1446,1861 1450,1862 1513,1862 1516,1857 1524,1853 1537,1855 1591,1852 1591,1811 1569,1812 1564,1803 1553,1802"/>
         <Baseline points="701,1850 1488,1853 1528,1844 1594,1843"/>
         <Word id="region0012_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="835,1810 834,1810 832,1816 760,1817 760,1859 765,1861 827,1861 827,1860 886,1860 888,1860 929,1860 929,1818 918,1817 916,1811 913,1809 896,1809 892,1816 869,1816 868,1809"/>
@@ -1534,7 +1549,7 @@ datis. Vid. Tit. Chiliaſtæ, it. Arnhemenſes.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>MIRABILIARII; i‧ e. Donatiſtæ, ab Auguſtino ita&#13;
+        <Unicode>MIRABILIARII; i‧ e. Donatiſtæ, ab Auguſtino ita
 appellati, qvia miracula ſe multa edere gloria-</Unicode>
       </TextEquiv>
     </TextRegion>

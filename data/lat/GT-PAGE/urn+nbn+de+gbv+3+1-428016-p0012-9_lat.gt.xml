@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-152">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:23Z</Created>
     <LastChange>2024-01-19T13:08:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-428016-p0012-9_lat.jpg" imageWidth="2499" imageHeight="3176" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/faa7851e-7ec9-49ce-87e2-bd5d9822edd4/00000012.jpg" imageWidth="2499" imageHeight="3176" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="384,429 499,2902 2374,2891 2395,440"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1653981642417_1913"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.45990667" readingDirection="left-to-right" id="TextRegion_1653981642417_1913" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1653981642417_1913" custom="readingOrder {index:0;}" orientation="0.45990667" readingDirection="left-to-right">
       <Coords points="936,761 2219,753 2273,2060 2276,2529 943,2537 940,2068"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1033,762 1031,771 936,769 936,773 937,818 1262,817 1300,819 1498,818 1551,812 1622,812 1637,816 1722,815 1728,811 1828,810 1860,814 1899,812 1906,815 2015,811 2017,818 2022,823 2105,824 2115,821 2116,805 2218,804 2218,753 2217,753 2162,754 2137,763 2081,763 2051,759 2045,754 2042,754 2020,755 2017,758 1973,759 1919,766 1915,756 1132,761 1111,769 1062,770 1058,761"/>
@@ -1196,7 +1211,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653982369296_2157" custom="readingOrder {index:6;}">
-          <Coords points="1938,1902 2098,1896 2112,1896 2223,1900 2223,1951 2215,1954 2127,1959 1960,1953 1938,1952"/>
+          <Coords points="2223,1951 2223,1900 2112,1896 2098,1896 1938,1902 1938,1952 1960,1953 1968,1953 1975,1948 1990,1948 1996,1951 2062,1950 2066,1953 2106,1949 2113,1950 2116,1955 2127,1959 2147,1957 2156,1950 2171,1950 2179,1943 2186,1944 2192,1950 2206,1950 2215,1954"/>
           <TextEquiv>
             <Unicode>Durch ⸗ Fall,</Unicode>
           </TextEquiv>
@@ -1850,7 +1865,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653982613437_2282" custom="readingOrder {index:5;}">
-          <Coords points="1641,2470 1653,2469 1693,2467 1705,2467 1737,2468 1746,2469 1807,2478 1808,2521 1790,2522 1634,2517 1634,2479"/>
+          <Coords points="1641,2470 1636,2479 1634,2479 1634,2517 1790,2522 1808,2521 1807,2478 1751,2479 1746,2469 1737,2468 1726,2479 1715,2479 1709,2475 1705,2467 1693,2467 1682,2471 1676,2478 1665,2480 1660,2480 1658,2473 1653,2469"/>
           <TextEquiv>
             <Unicode>inferior,</Unicode>
           </TextEquiv>

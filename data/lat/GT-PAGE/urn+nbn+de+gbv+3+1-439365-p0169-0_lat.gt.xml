@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-161">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:26Z</Created>
     <LastChange>2024-01-19T13:08:26Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-439365_urn+nbn+de+gbv+3+1-439365-p0169-0_lat.png" imageWidth="1660" imageHeight="2302" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/cbec24ba-952e-42a9-8517-017ad4a36a18/00000169.jpg" imageWidth="1660" imageHeight="2302" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="82,253 89,2214 1348,2210 1343,252"/>
     </Border>
@@ -18,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.2833382" readingDirection="left-to-right" id="TextRegion_1651475956708_1354" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1651475956708_1354" custom="readingOrder {index:0;}" orientation="1.2833382" readingDirection="left-to-right">
       <Coords points="182,449 1011,435 1019,910 190,937"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="401,446 396,448 393,456 387,457 379,449 365,448 346,450 341,459 282,463 263,463 245,458 183,458 184,502 250,504 432,489 545,486 573,487 581,489 625,488 641,483 668,481 710,482 724,489 735,485 771,482 776,485 848,487 920,487 928,474 928,451 923,446 886,447 881,444 871,444 867,448 806,448 797,440 781,441 776,447 751,448 712,447 707,441 671,441 669,445 592,446 581,449 534,450 523,444 467,445 442,451 429,452 421,446"/>
@@ -447,7 +462,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0011" custom="readingOrder {index:10;}">
-        <Coords points="671,873 663,880 648,877 610,880 604,876 560,877 556,883 538,883 520,879 484,880 461,888 417,891 395,891 388,886 380,886 360,894 336,896 310,897 303,892 291,892 285,896 279,892 269,892 257,900 237,900 225,895 190,895 191,936 267,937 286,933 323,933 333,932 339,928 359,926 404,929 455,922 467,927 495,922 542,921 553,918 727,915 752,917 758,922 773,921 779,916 890,914 899,903 898,880 893,875 712,880 693,879 686,874"/>
+        <Coords points="663,880 648,877 610,880 604,876 560,877 556,883 538,883 520,879 484,880 461,888 417,891 395,891 388,886 380,886 360,894 336,896 310,897 303,892 291,892 285,896 279,892 269,892 257,900 237,900 225,895 190,895 191,936 212,936 281,934 286,933 312,933 327,932 333,932 339,928 359,926 404,929 455,922 467,927 495,922 542,921 553,918 727,915 752,917 753,918 776,917 779,916 890,914 899,903 898,880 893,875 712,880 693,879 686,874 671,873"/>
         <Word id="region0002_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="197,895 198,921 306,919 305,893 303,892 291,892 285,896 279,892 269,892 257,900 237,900 225,895"/>
           <TextEquiv conf="0.9108262">
@@ -502,10 +517,10 @@ Ure foco; pinguique leva jejunia fumo,
 Occultè medicans, &amp; nubila teƈta vaporans.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.2833382" readingDirection="left-to-right" id="TextRegion_1651475965999_1367" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1651475965999_1367" custom="readingOrder {index:1;}" orientation="1.2833382" readingDirection="left-to-right">
       <Coords points="190,937 1019,910 1028,1403 1011,1554 202,1580 199,1417"/>
       <TextLine id="region0002_line0012" custom="readingOrder {index:0;}">
-        <Coords points="553,919 543,924 517,923 505,926 462,928 455,923 447,923 439,929 390,932 373,927 339,929 332,936 286,934 275,939 259,937 191,937 192,978 200,981 275,977 290,980 296,976 321,971 338,973 374,968 399,973 410,966 455,969 459,966 503,963 696,958 801,958 811,960 844,956 899,955 922,957 925,961 937,963 943,961 947,956 1008,956 1019,946 1019,945 1019,923 1014,918 873,919 867,914 843,915 836,921 825,923 817,920 733,921 727,916 713,917 709,922 654,922 648,917 602,924 593,918 577,919 569,925 562,919"/>
+        <Coords points="439,929 390,932 385,931 336,932 332,936 286,934 275,939 259,937 191,937 192,978 200,981 275,977 290,980 296,976 321,971 338,973 374,968 399,973 410,966 455,969 459,966 503,963 696,958 801,958 811,960 844,956 899,955 922,957 925,961 937,963 943,961 947,956 1008,956 1019,946 1019,945 1019,923 1014,918 873,919 868,915 842,916 836,921 825,923 817,920 733,921 731,919 711,920 709,922 654,922 654,922 605,923 602,924 601,924 569,925 569,925 569,925 439,929"/>
         <Word id="word_1651475956750_1356" custom="readingOrder {index:0;}">
           <Coords points="232,937 259,937 275,939 285,934 290,934 331,935 332,965 233,967"/>
           <TextEquiv conf="0.9053539">
@@ -921,7 +936,7 @@ Occultè medicans, &amp; nubila teƈta vaporans.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651476256659_1482" custom="readingOrder {index:1;}">
-          <Coords points="295,1329 303,1328 352,1327 391,1327 428,1330 429,1365 412,1365 296,1358"/>
+          <Coords points="295,1329 296,1358 412,1365 429,1365 428,1330 395,1330 391,1327 369,1330 349,1327 321,1327 318,1331 307,1332 303,1328"/>
           <TextEquiv>
             <Unicode>habitet:</Unicode>
           </TextEquiv>
@@ -1113,7 +1128,7 @@ Occultè medicans, &amp; nubila teƈta vaporans.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651476306103_1496" custom="readingOrder {index:4;}">
-          <Coords points="682,1490 695,1488 737,1486 764,1487 799,1492 804,1495 805,1518 788,1518 683,1514"/>
+          <Coords points="682,1490 683,1514 788,1518 805,1518 804,1495 799,1492 777,1493 764,1487 737,1486 730,1490 715,1492 698,1492 695,1488"/>
           <TextEquiv>
             <Unicode>locabis;</Unicode>
           </TextEquiv>
@@ -1123,7 +1138,7 @@ Occultè medicans, &amp; nubila teƈta vaporans.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0001" custom="readingOrder {index:14;}">
-        <Coords points="266,1530 262,1537 230,1531 204,1532 204,1545 205,1579 360,1569 462,1566 469,1572 481,1572 488,1567 618,1565 664,1566 676,1570 693,1565 922,1564 927,1559 927,1540 923,1536 914,1535 908,1528 873,1528 869,1525 860,1525 856,1528 799,1530 793,1523 780,1523 773,1530 767,1530 755,1530 748,1523 737,1523 730,1530 709,1531 671,1531 667,1523 646,1523 642,1527 639,1523 569,1523 546,1524 493,1531 447,1530 445,1527 405,1532 394,1527 380,1527 377,1531 352,1532 343,1528 294,1529 292,1535 286,1535 281,1529"/>
+        <Coords points="262,1537 230,1531 204,1532 204,1545 205,1579 360,1569 462,1566 468,1571 482,1570 488,1567 618,1565 648,1565 927,1556 927,1540 923,1536 914,1535 908,1528 873,1528 869,1525 860,1525 856,1528 799,1530 793,1523 780,1523 773,1530 767,1530 755,1530 748,1523 737,1523 730,1530 709,1531 671,1531 667,1523 646,1523 642,1527 639,1523 569,1523 546,1524 493,1531 447,1530 445,1527 405,1532 394,1527 380,1527 377,1531 352,1532 343,1528 294,1529 292,1535 286,1535 281,1529 266,1530"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="261,1537 209,1538 210,1572 293,1570 292,1536 262,1537 262,1537"/>
           <TextEquiv conf="0.898973">
@@ -1188,10 +1203,10 @@ Invitans reſides inter ſarmenta locabis;
 Queis ſaturi adrepant &amp; fila ſequacia ducant.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.2833382" readingDirection="left-to-right" id="TextRegion_1651475965999_1366" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1651475965999_1366" custom="readingOrder {index:2;}" orientation="1.2833382" readingDirection="left-to-right">
       <Coords points="202,1580 1011,1554 973,1915 211,1928"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
-        <Coords points="360,1570 352,1576 345,1577 298,1579 278,1574 207,1579 206,1618 324,1616 384,1611 465,1609 536,1610 540,1615 546,1615 560,1614 564,1609 625,1608 777,1607 788,1611 822,1606 952,1604 961,1597 960,1573 955,1568 873,1569 863,1564 847,1565 838,1570 785,1573 763,1572 759,1567 746,1566 732,1566 726,1572 701,1573 693,1566 675,1572 633,1568 505,1573 468,1573 462,1567 448,1568 444,1573 377,1575 373,1570"/>
+        <Coords points="352,1576 345,1577 298,1579 291,1577 207,1580 206,1618 324,1616 384,1611 465,1609 536,1610 540,1615 546,1615 560,1614 564,1609 625,1608 777,1607 788,1611 822,1606 952,1604 961,1597 960,1573 955,1568 873,1569 863,1564 847,1565 838,1570 785,1573 763,1572 759,1567 746,1566 732,1566 726,1572 701,1573 693,1566 675,1572 633,1568 505,1573 468,1573 466,1571 445,1572 444,1573 377,1575 377,1574 353,1575"/>
         <Word id="word_1651475966039_1369" custom="readingOrder {index:0;}">
           <Coords points="246,1579 292,1577 298,1579 341,1577 342,1604 247,1606"/>
           <TextEquiv conf="0.90951353">
@@ -1433,7 +1448,7 @@ Queis ſaturi adrepant &amp; fila ſequacia ducant.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651476367181_1521" custom="readingOrder {index:5;}">
-          <Coords points="767,1782 787,1781 901,1783 909,1784 910,1817 893,1818 768,1817"/>
+          <Coords points="787,1781 767,1782 768,1817 893,1818 910,1817 909,1785 901,1783 791,1785 788,1781"/>
           <TextEquiv>
             <Unicode>ſomnum;</Unicode>
           </TextEquiv>
@@ -1493,7 +1508,7 @@ Queis ſaturi adrepant &amp; fila ſequacia ducant.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651476401984_1534" custom="readingOrder {index:2;}">
-          <Coords points="375,1881 438,1877 471,1876 485,1879 504,1894 505,1910 497,1911 376,1909"/>
+          <Coords points="438,1877 438,1877 431,1881 422,1882 375,1881 376,1909 497,1911 505,1910 504,1894 485,1879 474,1879 471,1876 452,1877 451,1877 449,1877"/>
           <TextEquiv>
             <Unicode>Bombix,</Unicode>
           </TextEquiv>
@@ -1537,7 +1552,7 @@ Evigiletque famem: vacui jejunia ventris
 Sedat ubi Bombix, tabulata per omnia lenis</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.2833382" type="marginalia" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="region0006" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="1.2833382" type="marginalia" readingDirection="left-to-right">
       <Coords points="1001,441 1126,439 1127,511 1002,513"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1001,443 1002,477 1126,477 1125,448 1119,444 1092,443 1086,440 1001,442"/>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-208">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:09Z</Created>
     <LastChange>2024-01-19T13:09:09Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-671979-p0396-4_lat.png" imageWidth="2029" imageHeight="2642" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/1a7e0bf1-0933-42dc-851e-5dc1c19d4cec/00000396.jpg" imageWidth="2029" imageHeight="2642" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="368,121 431,2492 1960,2479 1955,133"/>
     </Border>
@@ -18,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1662386026743_3813"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.115554355" readingDirection="left-to-right" id="TextRegion_1662386020533_3800" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1662386020533_3800" custom="readingOrder {index:0;}" orientation="0.115554355" readingDirection="left-to-right">
       <Coords points="737,357 1921,357 1921,665 737,665"/>
       <TextLine id="region0035_line0001" custom="readingOrder {index:0;}">
         <Coords points="839,358 828,359 823,364 823,400 826,404 833,405 841,414 893,418 1083,420 1085,430 1096,433 1110,432 1115,421 1119,419 1517,421 1567,426 1571,429 1583,429 1588,426 1624,426 1628,432 1641,434 1656,432 1658,425 1663,423 1920,424 1920,375 1838,375 1837,364 1832,359 1816,361 1810,366 1808,374 1717,374 1512,371 1509,357 1483,357 1480,370 1466,369 1457,360 1442,360 1431,369 1405,369 1400,359 1386,358 1376,361 1372,371 1354,372 1342,372 1337,360 1322,358 1316,362 1313,372 1268,372 1267,364 1261,357 1159,358 1148,360 1138,368 1130,370 1110,370 1101,360 1089,361 1085,370 1050,370 969,368 950,358"/>
@@ -175,7 +190,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0035_line0005" custom="readingOrder {index:4;}">
-        <Coords points="782,601 774,608 737,607 738,661 905,661 917,667 932,664 1055,661 1113,665 1326,665 1329,674 1348,676 1359,662 1447,666 1578,665 1588,662 1591,658 1590,621 1585,616 1573,614 1410,615 1408,608 1404,606 1390,606 1384,609 1383,615 1192,616 1179,606 1167,613 1133,614 1118,610 1103,613 1071,613 1038,611 1037,604 1029,600 1012,602 1007,611 842,613 803,610 798,602"/>
+        <Coords points="774,608 737,607 738,661 905,661 913,665 927,665 932,664 1055,661 1113,665 1326,665 1356,665 1359,662 1425,665 1578,665 1588,662 1591,658 1590,621 1585,616 1573,614 1410,615 1408,608 1404,606 1390,606 1384,609 1383,615 1192,616 1179,606 1167,613 1133,614 1118,610 1103,613 1071,613 1038,611 1037,604 1029,600 1012,602 1007,611 842,613 803,610 798,602 782,601"/>
         <Baseline points="738,651 1591,652"/>
         <Word id="region0035_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="755,609 755,661 905,661 911,664 930,664 929,611 842,613 803,610 802,609"/>
@@ -200,17 +215,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Omnes poſſibiles induſtrias, quas zelus&#13;
-abunde ſuppeditabit, adhibeat, ut obſtinati&#13;
-peccatores ad frugem redeant, media effi-&#13;
-caciſſima erunt, preces, ſacrificia, mortifica-&#13;
+        <Unicode>Omnes poſſibiles induſtrias, quas zelus
+abunde ſuppeditabit, adhibeat, ut obſtinati
+peccatores ad frugem redeant, media effi-
+caciſſima erunt, preces, ſacrificia, mortifica-
 tiones, exhortationes privatæ.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.115554355" readingDirection="left-to-right" id="TextRegion_1662386024278_3805" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1662386024278_3805" custom="readingOrder {index:1;}" orientation="0.115554355" readingDirection="left-to-right">
       <Coords points="737,665 1921,665 1921,1627 737,1627"/>
       <TextLine id="region0035_line0006" custom="readingOrder {index:0;}">
-        <Coords points="881,662 832,664 827,669 826,678 813,679 810,683 811,721 815,724 1066,722 1090,725 1093,734 1113,738 1123,736 1126,725 1163,723 1201,725 1203,734 1208,737 1231,737 1235,735 1237,725 1251,724 1566,723 1651,732 1664,740 1681,740 1694,733 1733,728 1921,723 1921,685 1849,678 1758,674 1726,677 1423,676 1408,675 1402,665 1394,664 1385,665 1380,675 1373,675 1372,668 1367,663 1359,663 1348,677 1172,676 1170,667 1165,664 1147,666 1144,675 1092,675 1087,664 1071,662 1052,663 1048,675 1034,675 954,673 935,665 917,668 905,662"/>
+        <Coords points="827,669 826,678 813,679 810,683 811,721 815,724 1066,722 1090,725 1093,734 1113,738 1123,736 1126,725 1163,723 1201,725 1203,734 1208,737 1231,737 1235,735 1237,725 1251,724 1566,723 1651,732 1664,740 1681,740 1694,733 1733,728 1921,723 1921,685 1849,678 1758,674 1726,677 1423,676 1408,675 1402,665 1385,665 1380,675 1373,675 1372,668 1369,665 1357,665 1348,677 1172,676 1170,667 1166,665 1156,665 1147,666 1144,675 1092,675 1087,665 1051,665 1048,675 1034,675 954,673 935,665 917,668 911,665 831,665"/>
         <Baseline points="810,713 1542,713 1657,720 1921,715"/>
         <Word id="region0035_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="879,673 879,718 1004,717 1004,674 954,673 952,672"/>
@@ -880,25 +895,25 @@ tiones, exhortationes privatæ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Dum aliquis parochianorum ægrotave-&#13;
-rit, aut triſte aliquid ei acciderit, opportu-&#13;
-num erit ipſum viſitare, conſolari, exhorta-&#13;
-ri, ut afflictionem in animæ ſuæ utilitatem&#13;
-convertat, deſiderio ſemet emendandi, ſe to-&#13;
-tum in divinam voluntatem reſignando, ſuſ-&#13;
-cipiendo ſacramenta eccleſiaſtica, præſertim&#13;
-ſi infirmitas gravis ſit, &amp; tunc quoad fieri&#13;
-poteſt, viſitet eum mane, &amp; veſperi, om-&#13;
-nibusque modis ipſi ſubveniat: ubi viaticum&#13;
-præbuerit, eadem faciet, quæ de generali&#13;
-communione diximus, præprimis autem ex-&#13;
-citabit ad amorem Dei, dolorem de pecca-&#13;
-tis, condonationem injuriarum, &amp; propoſi-&#13;
-tum melioris vitæ, ſi eam Deus producere vo-&#13;
+        <Unicode>Dum aliquis parochianorum ægrotave-
+rit, aut triſte aliquid ei acciderit, opportu-
+num erit ipſum viſitare, conſolari, exhorta-
+ri, ut afflictionem in animæ ſuæ utilitatem
+convertat, deſiderio ſemet emendandi, ſe to-
+tum in divinam voluntatem reſignando, ſuſ-
+cipiendo ſacramenta eccleſiaſtica, præſertim
+ſi infirmitas gravis ſit, &amp; tunc quoad fieri
+poteſt, viſitet eum mane, &amp; veſperi, om-
+nibusque modis ipſi ſubveniat: ubi viaticum
+præbuerit, eadem faciet, quæ de generali
+communione diximus, præprimis autem ex-
+citabit ad amorem Dei, dolorem de pecca-
+tis, condonationem injuriarum, &amp; propoſi-
+tum melioris vitæ, ſi eam Deus producere vo-
 luerit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.115554355" readingDirection="left-to-right" id="TextRegion_1662386026743_3814" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1662386026743_3814" custom="readingOrder {index:2;}" orientation="0.115554355" readingDirection="left-to-right">
       <Coords points="737,1627 1921,1627 1921,2115 737,2115"/>
       <TextLine id="region0035_line0022" custom="readingOrder {index:0;}">
         <Coords points="1882,1628 1877,1633 1879,1647 1821,1645 1810,1633 1798,1633 1791,1640 1781,1634 1767,1634 1755,1643 1731,1644 1593,1645 1532,1641 1435,1647 1338,1645 1332,1644 1329,1635 1324,1631 1310,1633 1305,1644 1240,1643 1229,1632 1216,1632 1209,1636 1203,1631 1191,1631 1186,1635 1183,1644 1170,1645 1162,1645 1160,1636 1154,1631 1140,1632 1135,1638 1134,1645 1099,1644 1097,1635 1088,1630 1070,1633 1066,1644 939,1646 937,1636 930,1632 857,1634 806,1644 803,1648 803,1687 808,1692 817,1693 894,1696 1267,1692 1388,1696 1635,1693 1760,1696 1773,1693 1779,1696 1845,1696 1918,1693 1921,1689 1920,1651 1916,1648 1901,1647 1899,1635 1891,1628"/>
@@ -1227,20 +1242,20 @@ luerit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Circa adminiſtrationem extremæ unctio-&#13;
-nis curet, ne illa differatur, aut ſero nimis&#13;
-præbeatur, ſuggeret autem infirmo actus fi-&#13;
-dei, doloris de peccatis per ſenſus tam inter-&#13;
-nos, quam externos admiſſis, reſignationis,&#13;
-amoris, &amp; unionis cum Jeſu moriente, re-&#13;
-novabit etiam cum ægroto ſponſiones bap-&#13;
+        <Unicode>Circa adminiſtrationem extremæ unctio-
+nis curet, ne illa differatur, aut ſero nimis
+præbeatur, ſuggeret autem infirmo actus fi-
+dei, doloris de peccatis per ſenſus tam inter-
+nos, quam externos admiſſis, reſignationis,
+amoris, &amp; unionis cum Jeſu moriente, re-
+novabit etiam cum ægroto ſponſiones bap-
 tiſmi.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.115554355" readingDirection="left-to-right" id="TextRegion_1662386026743_3813" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1662386026743_3813" custom="readingOrder {index:3;}" orientation="0.115554355" readingDirection="left-to-right">
       <Coords points="737,2115 1921,2115 1921,2308 737,2308"/>
       <TextLine id="region0035_line0030" custom="readingOrder {index:0;}">
-        <Coords points="976,2115 968,2120 967,2128 940,2130 919,2130 915,2121 909,2116 840,2119 805,2124 800,2129 800,2165 812,2176 1000,2179 1032,2182 1041,2190 1067,2189 1078,2180 1094,2178 1222,2178 1225,2188 1249,2190 1253,2188 1255,2178 1445,2177 1497,2180 1518,2178 1527,2187 1541,2190 1557,2188 1563,2182 1601,2178 1685,2182 1689,2189 1702,2190 1715,2182 1921,2172 1921,2134 1845,2133 1841,2130 1837,2118 1824,2118 1813,2113 1797,2115 1783,2130 1768,2130 1766,2122 1760,2116 1745,2116 1739,2119 1736,2130 1627,2126 1582,2129 1464,2128 1454,2116 1441,2118 1436,2128 1422,2129 1057,2129 998,2127 992,2115"/>
+        <Coords points="968,2120 967,2128 940,2130 919,2130 915,2121 909,2116 840,2119 805,2124 800,2129 800,2165 812,2176 1000,2179 1032,2182 1041,2190 1067,2189 1078,2180 1094,2178 1222,2178 1225,2188 1249,2190 1253,2188 1255,2178 1445,2177 1497,2180 1518,2178 1527,2187 1541,2190 1557,2188 1563,2182 1601,2178 1685,2182 1689,2189 1702,2190 1715,2182 1921,2172 1921,2134 1845,2133 1841,2130 1837,2118 1824,2118 1817,2115 1797,2115 1783,2130 1768,2130 1766,2122 1760,2116 1745,2116 1739,2119 1736,2130 1627,2126 1582,2129 1464,2128 1454,2116 1441,2118 1436,2128 1422,2129 1057,2129 998,2127 992,2115 976,2115"/>
         <Baseline points="800,2165 1683,2171 1921,2163"/>
         <Word id="region0035_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="868,2128 912,2128 912,2171 868,2171"/>
@@ -1326,7 +1341,7 @@ tiſmi.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0035_line0032" custom="readingOrder {index:2;}">
-        <Coords points="765,2238 754,2239 750,2251 738,2251 738,2301 868,2302 926,2309 932,2313 1028,2300 1355,2301 1357,2309 1363,2313 1385,2314 1390,2310 1392,2301 1679,2300 1921,2293 1921,2247 1640,2250 1637,2240 1621,2238 1615,2242 1613,2250 1499,2247 1435,2252 1420,2251 1417,2241 1413,2239 1397,2240 1392,2250 1382,2239 1365,2238 1356,2241 1349,2249 1280,2252 1207,2250 1205,2239 1190,2238 1183,2241 1181,2250 1134,2250 1133,2246 1126,2244 1109,2244 1107,2251 1079,2251 1013,2242 1007,2238 992,2238 985,2243 951,2244 945,2250 902,2249 896,2240 882,2240 875,2251 836,2252 781,2251 778,2240"/>
+        <Coords points="754,2239 750,2251 738,2251 738,2301 868,2302 917,2308 968,2308 1028,2300 1355,2301 1356,2308 1390,2308 1392,2301 1679,2300 1921,2293 1921,2247 1640,2250 1637,2240 1621,2238 1615,2242 1613,2250 1499,2247 1435,2252 1420,2251 1417,2241 1413,2239 1397,2240 1392,2250 1382,2239 1365,2238 1356,2241 1349,2249 1280,2252 1207,2250 1205,2239 1190,2238 1183,2241 1181,2250 1134,2250 1133,2246 1126,2244 1109,2244 1107,2251 1079,2251 1013,2242 1007,2238 992,2238 985,2243 951,2244 945,2250 902,2249 896,2240 882,2240 875,2251 836,2252 781,2251 778,2240 765,2238"/>
         <Baseline points="738,2291 963,2297 1921,2285"/>
         <Word id="region0035_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="752,2245 750,2251 745,2251 745,2301 868,2302 884,2304 950,2304 950,2245 945,2250 902,2249 899,2245 878,2245 875,2251 836,2252 781,2251 779,2245"/>
@@ -1369,8 +1384,8 @@ tiſmi.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Si ad agonem pervenerit ægrotus, deſe-&#13;
-rendus non eſt, antequam ſpiritum commen-&#13;
+        <Unicode>Si ad agonem pervenerit ægrotus, deſe-
+rendus non eſt, antequam ſpiritum commen-
 daverit, &amp; oviculam exſpirantem in manus</Unicode>
       </TextEquiv>
     </TextRegion>

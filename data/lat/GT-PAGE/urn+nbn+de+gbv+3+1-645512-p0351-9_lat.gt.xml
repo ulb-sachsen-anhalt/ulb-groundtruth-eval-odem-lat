@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-189">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:58Z</Created>
     <LastChange>2024-01-19T13:08:58Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-645512-p0351-9_lat.png" imageWidth="2994" imageHeight="3492" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/2bace0d3-6d4c-487e-bd2f-1d5a94cdd77d/00000351.jpg" imageWidth="2994" imageHeight="3492" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="132,208 143,3242 2841,3248 2761,159"/>
     </Border>
@@ -30,7 +46,7 @@
         <RegionRefIndexed index="16" regionRef="region0022"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660307963901_1424" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1660307963901_1424" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="1057,571 1292,571 1590,573 1590,639 1342,639 1057,619"/>
       <TextLine id="line_1660308021471_1464" custom="readingOrder {index:0;}">
         <Coords points="1057,572 1291,571 1589,573 1590,624 1438,638 1418,638 1057,619"/>
@@ -67,7 +83,7 @@
         <Unicode>LIB. III. TIT. IV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="500,661 2123,661 2123,1027 500,1027"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="634,662 631,665 577,664 559,667 500,669 501,745 557,749 656,748 729,733 854,730 1064,743 1071,747 1081,747 1089,743 1200,738 1262,750 1319,752 1367,750 1463,740 1742,737 1813,741 2123,745 2123,664 2035,665 1920,661 1274,663"/>
@@ -147,7 +163,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660308083922_1489" custom="readingOrder {index:5;} textStyle {offset:0; length:10;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1339,909 1399,909 1401,898 1410,893 1413,893 1421,894 1425,899 1425,906 1429,909 1482,910 1550,918 1550,978 1508,979 1418,975 1414,965 1338,965"/>
+          <Coords points="1399,909 1338,909 1338,965 1414,965 1415,969 1421,969 1418,975 1508,979 1550,978 1550,918 1482,910 1429,909 1425,906 1425,899 1421,894 1411,893 1401,898"/>
           <TextEquiv>
             <Unicode>ſuffragium</Unicode>
           </TextEquiv>
@@ -183,7 +199,7 @@
       <TextLine id="line_1660308083857_1483" custom="readingOrder {index:3;}">
         <Coords points="1149,992 1154,987 1164,969 1409,969 1410,1001 1401,1008 1388,1006 1374,1021 1305,1026 1211,1027 1149,1027"/>
         <Word id="word_1660308099334_1494" custom="readingOrder {index:0;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1250,1002 1268,970 1346,974 1415,974 1410,1001 1406,1003 1347,1004 1251,1023"/>
+          <Coords points="1346,974 1268,970 1250,1002 1251,1023 1347,1004 1406,1003 1410,1001 1409,974"/>
           <TextEquiv>
             <Unicode>ſyndici?</Unicode>
           </TextEquiv>
@@ -193,13 +209,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>QUOD CUJUSQUE UNIVERSIT.&#13;
-NOMINE ETC.&#13;
-Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
+        <Unicode>QUOD CUJUSQUE UNIVERSIT.
+NOMINE ETC.
+Qu. I. An proprium municipis ſuffragium ei proſit in electione
 ſyndici?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1660308164866_1519" custom="readingOrder {index:2;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1660308164866_1519" custom="readingOrder {index:2;} structure {type:drop-capital;}" orientation="0.5619575" type="drop-capital" readingDirection="left-to-right">
       <Coords points="507,1040 592,1040 592,1150 507,1150"/>
       <TextLine id="line_1660308224943_1537" custom="readingOrder {index:0;}">
         <Coords points="507,1044 563,1043 592,1047 592,1088 592,1148 508,1151 507,1084"/>
@@ -217,7 +233,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         <Unicode>A</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660308164866_1518" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1660308164866_1518" custom="readingOrder {index:3;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="592,1040 2162,1040 2162,1150 592,1150"/>
       <TextLine id="line_1660308164932_1521" custom="readingOrder {index:0;}">
         <Coords points="592,1047 599,1048 631,1048 650,1041 739,1041 750,1049 781,1051 801,1051 805,1040 892,1040 894,1057 935,1053 939,1044 946,1042 975,1040 991,1043 995,1050 1039,1046 1154,1046 1164,1049 1169,1055 1176,1047 1196,1043 1201,1046 1222,1047 1230,1055 1241,1057 1270,1057 1275,1047 1287,1046 1295,1057 1318,1057 1323,1048 1335,1047 1343,1057 1382,1056 1384,1046 1389,1042 1421,1042 1436,1044 1441,1056 1542,1055 1546,1041 1637,1040 1642,1045 1643,1057 1665,1057 1673,1047 1694,1046 1702,1054 1710,1048 1722,1048 1729,1060 1742,1060 1743,1051 1749,1045 1765,1048 1770,1060 1802,1057 1909,1061 1914,1048 1929,1046 1935,1052 1936,1061 2078,1061 2082,1054 2088,1050 2099,1050 2104,1055 2105,1062 2161,1061 2161,1103 2009,1102 1995,1103 1988,1112 1983,1114 1975,1112 1970,1104 1930,1107 1924,1103 1871,1102 1868,1112 1855,1114 1843,1111 1840,1104 1806,1106 1763,1101 1703,1101 1687,1096 1676,1098 1666,1109 1651,1110 1641,1105 1639,1099 1624,1098 1385,1096 1340,1100 1332,1109 1320,1108 1315,1100 1262,1099 1260,1106 1249,1110 1238,1108 1235,1099 1226,1097 1205,1099 1198,1106 1178,1098 1153,1108 1143,1108 1110,1106 1096,1099 1065,1101 1040,1096 976,1097 919,1095 903,1102 897,1096 803,1095 797,1092 773,1093 771,1101 766,1105 748,1092 721,1102 715,1102 709,1097 699,1097 687,1103 677,1096 667,1097 661,1092 647,1090 592,1087"/>
@@ -259,7 +275,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1660308485418_1677" custom="readingOrder {index:6;}">
-          <Coords points="995,1055 1042,1055 1042,1099 995,1099"/>
+          <Coords points="1042,1055 995,1055 995,1096 1040,1096 1042,1096"/>
           <TextEquiv>
             <Unicode>t.</Unicode>
           </TextEquiv>
@@ -329,7 +345,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660308164938_1523" custom="readingOrder {index:1;}">
-        <Coords points="592,1088 647,1091 661,1093 667,1098 677,1097 687,1104 699,1098 709,1098 716,1104 728,1104 739,1095 748,1093 766,1106 779,1106 781,1095 797,1093 802,1095 804,1105 826,1105 834,1096 847,1098 851,1105 900,1105 919,1096 941,1096 948,1105 956,1108 997,1109 1023,1109 1026,1098 1040,1097 1065,1102 1080,1099 1086,1104 1096,1100 1104,1102 1110,1108 1143,1109 1171,1107 1173,1101 1178,1099 1198,1107 1205,1100 1226,1098 1231,1100 1234,1109 1249,1111 1267,1107 1343,1110 1351,1100 1365,1102 1372,1098 1385,1097 1390,1100 1392,1109 1408,1110 1458,1108 1488,1097 1495,1100 1531,1100 1543,1108 1547,1108 1551,1100 1558,1099 1566,1101 1572,1110 1659,1111 1666,1110 1676,1099 1687,1097 1700,1101 1705,1112 1813,1111 1845,1112 1855,1115 1877,1113 1883,1103 1897,1103 1901,1111 1905,1113 1983,1115 1988,1113 1995,1104 2016,1104 2024,1113 2031,1113 2038,1104 2050,1104 2057,1111 2064,1113 2162,1113 2162,1152 2070,1155 2064,1152 1954,1153 1951,1163 1941,1165 1926,1161 1923,1153 1865,1152 1829,1153 1826,1162 1808,1164 1803,1162 1800,1152 1784,1151 1762,1152 1758,1163 1741,1164 1734,1160 1732,1152 1712,1151 1568,1151 1535,1158 1478,1159 1467,1164 1459,1163 1453,1156 1439,1152 1416,1152 1413,1161 1395,1163 1388,1160 1386,1151 1267,1152 1160,1147 1139,1149 1137,1157 1129,1160 1123,1155 1109,1153 1108,1149 1085,1148 954,1154 949,1150 877,1147 867,1158 858,1159 850,1156 848,1148 822,1147 730,1146 728,1155 724,1157 705,1156 702,1147 695,1145 592,1148"/>
+        <Coords points="2064,1113 2057,1111 2050,1104 2038,1104 2031,1113 2024,1113 2016,1104 1995,1104 1988,1113 1983,1115 1905,1113 1901,1111 1897,1103 1883,1103 1877,1113 1855,1115 1845,1112 1813,1111 1705,1112 1700,1101 1687,1097 1676,1099 1666,1110 1659,1111 1572,1110 1566,1101 1558,1099 1551,1100 1547,1108 1543,1108 1531,1100 1495,1100 1488,1097 1458,1108 1408,1110 1392,1109 1390,1100 1385,1097 1372,1098 1365,1102 1351,1100 1343,1110 1267,1107 1249,1111 1234,1109 1231,1100 1226,1098 1205,1100 1198,1107 1178,1099 1173,1101 1171,1107 1143,1109 1110,1108 1104,1102 1096,1100 1086,1104 1080,1099 1065,1102 1040,1097 1026,1098 1023,1109 997,1109 956,1108 948,1105 941,1096 919,1096 900,1105 851,1105 847,1098 834,1096 826,1105 804,1105 802,1095 797,1093 781,1095 779,1106 766,1106 748,1093 739,1095 728,1104 716,1104 709,1098 699,1098 687,1104 677,1097 667,1098 661,1093 647,1091 592,1088 592,1148 695,1145 702,1147 703,1150 729,1150 730,1146 822,1147 848,1148 848,1150 874,1150 877,1147 949,1150 1041,1150 1085,1148 1108,1149 1108,1150 1138,1150 1139,1149 1160,1147 1224,1150 2162,1150 2162,1113"/>
         <Word id="region0005_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="622,1127 681,1126 680,1099 677,1097 667,1098 661,1093 647,1091 621,1089"/>
           <TextEquiv conf="0.8823706">
@@ -385,7 +401,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0010" custom="readingOrder {index:9;}">
-          <Coords points="1611,1144 1709,1143 1704,1101 1687,1097 1676,1099 1666,1110 1659,1111 1611,1110"/>
+          <Coords points="1709,1143 1705,1112 1705,1112 1700,1101 1687,1097 1676,1099 1666,1110 1659,1111 1611,1110 1611,1144"/>
           <TextEquiv conf="0.9232673">
             <Unicode>cauſis</Unicode>
           </TextEquiv>
@@ -403,7 +419,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0013" custom="readingOrder {index:12;}">
-          <Coords points="2036,1145 2083,1147 2083,1106 2039,1104"/>
+          <Coords points="2083,1147 2083,1113 2064,1113 2057,1111 2050,1104 2039,1104 2036,1145"/>
           <TextEquiv conf="0.89068115">
             <Unicode>ita</Unicode>
           </TextEquiv>
@@ -419,14 +435,14 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>FF. (I) per L. 4. h. c) (2) quia jus liberum ſuffragii habet, quod, quo minus t.&#13;
+        <Unicode>FF. (I) per L. 4. h. c) (2) quia jus liberum ſuffragii habet, quod, quo minus t.
 ſibi ipſi dari poſſit, nullibi prohibetur: idque (3) in cauſis quoque imperii ita re-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660308161426_1512" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1660308161426_1512" custom="readingOrder {index:4;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="507,1150 2162,1150 2162,1265 507,1265"/>
       <TextLine id="region0005_line0003" custom="readingOrder {index:0;}">
-        <Coords points="800,1148 794,1157 586,1156 507,1160 507,1201 546,1200 548,1207 565,1204 571,1197 644,1199 649,1203 658,1203 662,1199 721,1198 901,1201 1033,1198 1067,1200 1079,1202 1084,1208 1098,1211 1113,1209 1118,1204 1146,1200 1311,1203 1436,1202 1445,1209 1456,1211 1461,1211 1462,1203 1500,1204 1503,1211 1507,1213 1526,1212 1529,1204 1669,1204 1671,1209 1677,1212 1689,1210 1695,1203 1708,1203 1740,1205 1745,1214 1757,1216 1768,1214 1770,1205 2162,1207 2161,1166 2155,1165 2152,1154 2145,1153 2127,1155 2120,1164 2072,1165 2070,1156 2064,1153 2042,1155 2036,1164 1941,1166 1920,1162 1912,1154 1893,1154 1887,1161 1871,1163 1869,1155 1865,1153 1849,1154 1846,1163 1818,1165 1731,1164 1729,1156 1725,1153 1713,1153 1706,1162 1504,1161 1476,1162 1467,1165 1456,1162 1395,1164 1384,1161 1209,1159 1202,1150 1160,1148 1142,1150 1135,1160 1129,1161 1123,1156 1112,1154 1108,1154 1106,1159 1081,1158 1061,1150 1022,1151 1008,1159 959,1158 949,1151 922,1149 912,1150 907,1156 890,1157 888,1149 885,1148 877,1148 867,1159 826,1159 818,1158 811,1148"/>
+        <Coords points="794,1157 586,1156 507,1160 507,1201 546,1200 548,1207 565,1204 571,1197 644,1199 649,1203 658,1203 662,1199 721,1198 901,1201 1033,1198 1067,1200 1079,1202 1084,1208 1098,1211 1113,1209 1118,1204 1146,1200 1311,1203 1436,1202 1445,1209 1456,1211 1461,1211 1462,1203 1500,1204 1503,1211 1507,1213 1526,1212 1529,1204 1669,1204 1671,1209 1677,1212 1689,1210 1695,1203 1708,1203 1740,1205 1745,1214 1757,1216 1768,1214 1770,1205 2162,1207 2161,1166 2155,1165 2152,1154 2145,1153 2127,1155 2120,1164 2072,1165 2070,1156 2064,1153 2042,1155 2036,1164 1941,1166 1920,1162 1912,1154 1893,1154 1887,1161 1871,1163 1869,1155 1865,1153 1849,1154 1846,1163 1818,1165 1731,1164 1729,1156 1725,1153 1713,1153 1706,1162 1504,1161 1476,1162 1467,1165 1456,1162 1395,1164 1384,1161 1209,1159 1202,1150 1142,1150 1135,1160 1129,1161 1123,1156 1112,1154 1108,1154 1106,1159 1081,1158 1061,1150 1022,1151 1008,1159 959,1158 949,1151 935,1150 912,1150 907,1156 890,1157 888,1150 875,1150 867,1159 826,1159 818,1158 812,1150 798,1150"/>
         <Baseline points="507,1190 2161,1197"/>
         <Word id="region0005_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="658,1164 516,1165 516,1200 546,1200 547,1203 565,1203 571,1197 644,1199 649,1203 658,1203"/>
@@ -533,7 +549,7 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         </Word>
         <Word id="region0005_line0004_word0005" custom="readingOrder {index:5;}">
           <Coords points="1356,1237 1388,1236 1387,1203 1385,1203 1374,1211 1366,1204 1355,1204"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
@@ -578,11 +594,11 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ceptum, nam in electione Regis Romanorum quoque unusquisque electorum ſuo ſe&#13;
+        <Unicode>ceptum, nam in electione Regis Romanorum quoque unusquisque electorum ſuo ſe
 ſuffragio nominare poteſt: HENR. COCCEJUS in Jur. publ. c. 8. §. n.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660307973186_1430" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1660307973186_1430" custom="readingOrder {index:5;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="613,1284 2161,1284 2161,1353 1330,1402 516,1402 516,1337"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="613,1285 614,1334 667,1333 669,1341 675,1346 688,1344 695,1334 748,1334 749,1343 754,1348 807,1347 818,1339 838,1337 881,1337 886,1342 897,1342 903,1337 927,1336 1045,1336 1057,1337 1065,1346 1090,1346 1111,1345 1122,1337 1130,1336 1216,1335 1217,1344 1222,1349 1315,1347 1324,1344 1329,1337 1419,1338 1427,1339 1441,1348 1500,1347 1522,1340 1561,1339 1562,1348 1567,1353 1669,1352 1679,1349 1682,1343 1687,1340 1715,1340 1718,1352 1740,1352 1747,1342 2052,1339 2054,1349 2063,1353 2079,1352 2084,1339 2161,1340 2161,1298 2113,1298 2108,1284 2085,1285 2078,1299 2068,1298 2065,1291 2059,1287 2049,1287 2042,1298 2033,1298 2027,1284 2005,1284 2000,1288 1997,1298 1876,1300 1869,1291 1857,1291 1852,1296 1845,1286 1831,1287 1827,1292 1828,1298 1824,1299 1816,1298 1813,1291 1804,1287 1747,1288 1740,1290 1736,1298 1668,1298 1665,1285 1644,1284 1589,1284 1583,1296 1551,1298 1548,1288 1541,1284 1530,1286 1522,1295 1485,1292 1470,1285 1438,1284 1416,1285 1375,1295 1312,1292 1304,1290 1301,1284 1250,1285 1247,1291 1207,1293 1204,1284 1186,1284 1179,1293 1146,1294 1136,1293 1134,1285 1128,1284 1041,1285 1009,1291 1001,1291 996,1287 986,1287 981,1291 961,1292 959,1285 939,1285 929,1294 892,1293 874,1296 873,1284 792,1284 786,1290 727,1292 679,1288 667,1284"/>
@@ -761,11 +777,11 @@ Qu. I. An proprium municipis ſuffragium ei proſit in electione&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>OBJ. arg. L. 4. de tut. l. fin. de off. praet. l. 5. de off. praeſid. ubi nemo ſe ipſum&#13;
+        <Unicode>OBJ. arg. L. 4. de tut. l. fin. de off. praet. l. 5. de off. praeſid. ubi nemo ſe ipſum
 tutorem vel judicem eligere vel dare poteſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660307977917_1435" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1660307977917_1435" custom="readingOrder {index:6;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="616,1420 2165,1420 2165,1493 1324,1536 513,1536 513,1473"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="616,1421 617,1475 786,1472 809,1474 811,1482 816,1486 827,1485 832,1481 834,1474 1023,1473 1167,1475 1174,1483 1185,1482 1194,1474 1382,1474 1383,1482 1388,1487 1410,1487 1414,1484 1417,1474 1428,1474 1670,1477 1675,1479 1675,1484 1680,1489 1703,1489 1734,1488 1760,1481 1840,1476 1893,1478 1902,1487 1918,1489 1953,1487 1962,1479 1968,1478 2063,1476 2068,1488 2078,1490 2092,1488 2096,1475 2165,1476 2164,1431 2131,1429 2116,1432 1979,1434 1957,1431 1950,1423 1939,1423 1931,1433 1923,1433 1917,1424 1903,1420 1888,1423 1884,1435 1857,1435 1852,1420 1766,1421 1762,1432 1741,1431 1732,1423 1723,1423 1715,1433 1705,1433 1698,1423 1675,1421 1669,1425 1668,1433 1662,1434 1638,1433 1634,1420 1617,1421 1613,1432 1584,1433 1563,1430 1540,1432 1538,1420 1515,1420 1511,1432 1446,1432 1442,1420 1418,1420 1410,1433 1400,1433 1394,1423 1382,1421 1376,1427 1374,1434 1366,1434 1362,1421 1339,1421 1331,1432 1270,1433 1264,1432 1257,1422 1235,1420 1228,1420 1225,1431 1192,1431 1188,1420 1164,1421 1156,1432 1144,1432 1142,1421 1132,1420 1116,1420 1109,1431 1048,1432 1020,1430 1015,1420 994,1420 985,1430 942,1432 905,1431 897,1420 885,1421 879,1431 861,1432 802,1430 798,1420 722,1421 711,1429 683,1429 650,1421"/>
@@ -902,11 +918,11 @@ tutorem vel judicem eligere vel dare poteſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>RESP. Neque in noſtro caſu ſyndicus ſe ipſum dat vel eligit, ſed eligitur a parte&#13;
+        <Unicode>RESP. Neque in noſtro caſu ſyndicus ſe ipſum dat vel eligit, ſed eligitur a parte
 majore, comprehenſo, proprio ſuffragio. d)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="floating" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:7;}">
+    <TextRegion id="region0010" custom="readingOrder {index:7;}" orientation="0.5619575" type="floating" readingDirection="left-to-right">
       <Coords points="688,1551 1987,1551 1987,1660 688,1660"/>
       <TextLine id="region0010_line0002" custom="readingOrder {index:0;}">
         <Coords points="1204,1589 1199,1591 1195,1598 1186,1600 1181,1608 1175,1607 1174,1601 1169,1596 1157,1597 1147,1609 1114,1609 1104,1599 1096,1599 1087,1608 1082,1599 1069,1598 1061,1608 1054,1599 1042,1598 1031,1599 1022,1609 991,1609 987,1600 979,1595 964,1597 956,1608 934,1608 932,1600 926,1596 914,1597 902,1607 883,1608 876,1608 873,1599 866,1595 766,1597 756,1599 750,1604 733,1600 688,1600 689,1658 790,1660 791,1651 928,1651 931,1660 997,1660 1001,1649 1056,1648 1215,1649 1220,1653 1253,1648 1275,1649 1283,1653 1291,1653 1296,1649 1333,1648 1625,1650 1640,1660 1654,1660 1680,1651 1913,1653 1987,1650 1987,1611 1947,1611 1942,1607 1932,1607 1927,1611 1879,1611 1878,1603 1872,1598 1861,1598 1852,1608 1843,1601 1835,1601 1828,1610 1715,1610 1709,1605 1687,1609 1684,1602 1677,1597 1664,1597 1657,1600 1653,1608 1586,1608 1578,1598 1568,1598 1550,1608 1490,1607 1470,1596 1435,1597 1426,1599 1422,1606 1388,1607 1311,1606 1306,1598 1293,1597 1279,1606 1235,1609 1230,1596 1213,1589"/>
@@ -991,7 +1007,7 @@ majore, comprehenſo, proprio ſuffragio. d)</Unicode>
         <Unicode>Qu. II. An ſyndici in dubio ad omnes lites etiam futuras videantur</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:8;}">
+    <TextRegion id="region0012" custom="readingOrder {index:8;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="1207,1650 1442,1650 1442,1709 1207,1709"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1315,1650 1308,1659 1208,1662 1208,1702 1286,1701 1289,1708 1314,1708 1319,1702 1427,1701 1442,1697 1441,1650 1396,1650 1386,1657 1368,1658 1362,1654 1353,1655 1349,1651"/>
@@ -1010,12 +1026,12 @@ majore, comprehenſo, proprio ſuffragio. d)</Unicode>
         <Unicode>conſtituti?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="drop-capital" id="region_1660308249149_1548" custom="readingOrder {index:9;} structure {type:drop-capital;}">
+    <TextRegion id="region_1660308249149_1548" custom="readingOrder {index:9;} structure {type:drop-capital;}" type="drop-capital">
       <Coords points="492,1740 582,1740 582,1831 492,1831"/>
       <TextLine id="line_1660308259228_1554" custom="readingOrder {index:0;}">
         <Coords points="498,1751 580,1751 580,1827 498,1827"/>
         <Word id="word_1660308252718_1551" custom="readingOrder {index:0;}">
-          <Coords points="516,1755 583,1755 583,1826 516,1826"/>
+          <Coords points="516,1755 516,1826 580,1826 580,1755"/>
           <TextEquiv>
             <Unicode>A</Unicode>
           </TextEquiv>
@@ -1028,7 +1044,7 @@ majore, comprehenſo, proprio ſuffragio. d)</Unicode>
         <Unicode>A</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:10;}">
+    <TextRegion id="region0014" custom="readingOrder {index:10;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="579,1745 2166,1745 2166,1871 579,1871"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="726,1746 716,1755 700,1757 579,1757 579,1801 833,1798 841,1800 1048,1802 1114,1802 1126,1798 1139,1805 1266,1803 1271,1812 1278,1814 1299,1803 1417,1804 1459,1799 1460,1806 1469,1810 1483,1809 1491,1802 1752,1806 1774,1808 1781,1818 1798,1819 1827,1818 1835,1810 1867,1806 1997,1805 2000,1814 2005,1818 2025,1817 2028,1805 2165,1804 2163,1753 2149,1753 2142,1763 2108,1762 2106,1755 2100,1751 2092,1751 2084,1758 2075,1747 2059,1747 2046,1762 2021,1762 2020,1753 2013,1746 2001,1746 1992,1751 1969,1746 1960,1751 1958,1762 1948,1763 1943,1753 1933,1752 1928,1748 1914,1749 1909,1762 1738,1764 1737,1754 1730,1748 1646,1750 1628,1756 1601,1757 1593,1749 1570,1747 1547,1750 1534,1757 1518,1758 1517,1751 1512,1746 1454,1746 1430,1757 1428,1749 1424,1746 1332,1746 1326,1749 1323,1746 1238,1749 1226,1746 1139,1746 1126,1749 1120,1758 1085,1759 1083,1748 1074,1745 1036,1746 1028,1758 985,1758 983,1750 975,1745 967,1745 958,1757 951,1757 899,1756 895,1753 857,1756 854,1745"/>
@@ -1183,18 +1199,18 @@ majore, comprehenſo, proprio ſuffragio. d)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>FFIRM. Si ſunt univerſales: L. 6. §.1. L.1. §. 1. h. t. Nam generali diſpoſitioni&#13;
+        <Unicode>FFIRM. Si ſunt univerſales: L. 6. §.1. L.1. §. 1. h. t. Nam generali diſpoſitioni
 tamdiu inſiſtitur, donec quaedam excipiantur. Vid. q. ſeq.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:11;}">
+    <TextRegion id="region0015" custom="readingOrder {index:11;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="519,1885 2170,1885 2170,2007 519,2007"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="709,1885 704,1889 702,1896 682,1895 659,1890 569,1892 563,1898 563,1926 571,1932 571,1937 576,1942 673,1942 676,1951 684,1954 694,1953 702,1941 748,1940 826,1945 850,1944 856,1951 888,1952 903,1951 919,1941 929,1949 977,1954 1033,1953 1050,1941 1079,1940 1187,1940 1209,1943 1447,1944 1456,1953 1465,1953 1474,1944 1662,1946 1665,1954 1675,1959 1693,1956 1696,1944 1992,1945 2007,1945 2013,1949 2022,1949 2026,1945 2047,1945 2050,1952 2056,1956 2073,1955 2078,1943 2169,1942 2169,1891 2163,1885 2147,1887 2143,1899 2110,1900 2108,1893 2102,1889 2088,1892 2084,1900 2004,1901 1999,1891 1989,1891 1984,1887 1948,1891 1942,1895 1940,1901 1812,1901 1784,1899 1715,1902 1577,1903 1570,1892 1558,1892 1551,1902 1545,1902 1541,1893 1531,1891 1526,1886 1510,1888 1505,1900 1471,1901 1466,1888 1450,1886 1432,1902 1430,1895 1424,1890 1416,1890 1409,1895 1402,1888 1387,1889 1383,1901 1302,1901 1293,1887 1278,1891 1272,1899 1248,1896 1244,1899 1229,1900 1172,1901 1102,1900 1098,1888 1082,1889 1080,1885 979,1885 975,1895 934,1896 931,1885 870,1886 850,1893 812,1894 809,1885"/>
         <Baseline points="571,1932 917,1933 993,1943 1082,1930 1600,1936 2169,1932"/>
         <Word id="region0015_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="716,1898 626,1899 626,1942 673,1942 674,1946 698,1946 702,1941 716,1940"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>OBJ.</Unicode>
           </TextEquiv>
         </Word>
@@ -1342,11 +1358,11 @@ tamdiu inſiſtitur, donec quaedam excipiantur. Vid. q. ſeq.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>OBJ. L. 18. §. 13. ff. de mun. et hon. ubi ſyndici comparantur cum illis, qui ad&#13;
+        <Unicode>OBJ. L. 18. §. 13. ff. de mun. et hon. ubi ſyndici comparantur cum illis, qui ad
 certam cauſam agendam vel defendendam eliguntur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="heading" readingDirection="left-to-right" id="TextRegion_1660307996519_1450" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1660307996519_1450" custom="readingOrder {index:12;}" orientation="0.5619575" type="heading" readingDirection="left-to-right">
       <Coords points="519,2023 2171,2023 2172,2127 2172,2195 1901,2249 521,2249 519,2141"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="571,2024 566,2030 566,2059 571,2063 578,2063 580,2072 585,2076 682,2077 689,2074 719,2076 732,2073 753,2078 888,2075 907,2078 953,2078 955,2087 961,2090 979,2088 982,2078 1068,2077 1109,2080 1114,2084 1174,2078 1217,2077 1219,2085 1230,2090 1247,2089 1250,2078 1389,2079 1396,2089 1406,2089 1415,2079 1446,2080 1452,2089 1460,2091 1474,2090 1482,2079 1570,2081 1574,2084 1585,2084 1591,2078 1803,2076 1809,2082 1855,2076 1868,2087 1873,2087 1878,2077 1884,2074 1944,2076 2052,2072 2086,2075 2170,2074 2170,2034 2105,2030 2055,2033 2051,2030 2037,2033 1948,2033 1945,2023 1923,2023 1919,2033 1772,2036 1763,2034 1756,2026 1746,2026 1738,2036 1732,2036 1730,2023 1670,2024 1666,2036 1513,2037 1417,2037 1409,2027 1391,2031 1375,2024 1356,2025 1351,2037 1315,2037 1306,2036 1297,2026 1286,2026 1273,2036 1221,2035 1216,2023 1136,2023 1125,2031 1111,2034 1076,2035 1072,2032 1060,2035 985,2035 832,2034 829,2027 821,2023 741,2024 732,2033 699,2034 679,2032 653,2025"/>
@@ -1638,7 +1654,7 @@ certam cauſam agendam vel defendendam eliguntur.</Unicode>
         </Word>
         <Word id="region0019_line0002_word0005" custom="readingOrder {index:5;}">
           <Coords points="888,2185 919,2185 920,2234 889,2234"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -1656,7 +1672,7 @@ certam cauſam agendam vel defendendam eliguntur.</Unicode>
         </Word>
         <Word id="region0019_line0002_word0008" custom="readingOrder {index:8;}">
           <Coords points="1016,2220 1041,2220 1040,2189 1029,2189 1015,2191"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>t.</Unicode>
           </TextEquiv>
         </Word>
@@ -1680,7 +1696,7 @@ certam cauſam agendam vel defendendam eliguntur.</Unicode>
         </Word>
         <Word id="region0019_line0002_word0012" custom="readingOrder {index:12;}">
           <Coords points="1210,2217 1232,2217 1231,2197 1209,2197"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>1.</Unicode>
           </TextEquiv>
         </Word>
@@ -1743,13 +1759,13 @@ certam cauſam agendam vel defendendam eliguntur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>RESP. Non comparantur, ſed potius disjunguntur, et aſſeritur, quod non tantum&#13;
-ſyndici, ſed etiam illi, qui ad certam cauſam agendam eliguntur, liberi ſint a perſonali-&#13;
-bus oneribus. (2) Textus intelligi poteſt de illis ſyndicis, qui ad certam cauſam dantur,&#13;
+        <Unicode>RESP. Non comparantur, ſed potius disjunguntur, et aſſeritur, quod non tantum
+ſyndici, ſed etiam illi, qui ad certam cauſam agendam eliguntur, liberi ſint a perſonali-
+bus oneribus. (2) Textus intelligi poteſt de illis ſyndicis, qui ad certam cauſam dantur,
 quales ſunt in L. 6. §. I. h. t. l. 34. §. 1. de jurej. etc. Vid. ſup. tit. 3. qu. 10.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1660308010341_1458" custom="readingOrder {index:13;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1660308010341_1458" custom="readingOrder {index:13;} structure {type:signature-mark;}" orientation="0.5619575" type="signature-mark" readingDirection="left-to-right">
       <Coords points="1394,2279 1765,2279 1765,2339 1394,2339"/>
       <TextLine id="line_1660308010408_1461" custom="readingOrder {index:0;}">
         <Coords points="1394,2281 1447,2282 1458,2291 1465,2292 1533,2293 1765,2290 1765,2321 1574,2323 1570,2331 1560,2335 1395,2338"/>
@@ -1773,7 +1789,7 @@ quales ſunt in L. 6. §. I. h. t. l. 34. §. 1. de jurej. etc. Vid. ſup. tit. 
         <Unicode>Rr 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660308010341_1457" custom="readingOrder {index:14;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660308010341_1457" custom="readingOrder {index:14;} structure {type:catch-word;}" orientation="0.5619575" type="catch-word" readingDirection="left-to-right">
       <Coords points="1765,2279 2173,2279 2173,2339 1765,2339"/>
       <TextLine id="line_1660308010408_1460" custom="readingOrder {index:0;}">
         <Coords points="1765,2290 1945,2289 1948,2282 1958,2279 2172,2279 2173,2329 2105,2330 2102,2339 2004,2339 1962,2332 1957,2327 1957,2321 1950,2320 1765,2321"/>
@@ -1798,14 +1814,14 @@ quales ſunt in L. 6. §. I. h. t. l. 34. §. 1. de jurej. etc. Vid. ſup. tit. 
         <Unicode>Rr o Qu. III.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="footnote" readingDirection="left-to-right" id="region0020" custom="readingOrder {index:15;} structure {type:footnote;}">
+    <TextRegion id="region0020" custom="readingOrder {index:15;} structure {type:footnote;}" orientation="0.5619575" type="footnote" readingDirection="left-to-right">
       <Coords points="523,2414 1340,2414 1340,2916 523,2916"/>
       <TextLine id="region0020_line0001" custom="readingOrder {index:0;}">
         <Coords points="580,2414 555,2422 523,2423 524,2462 578,2464 586,2468 595,2468 603,2464 666,2458 765,2460 782,2457 788,2460 810,2458 829,2462 919,2464 928,2465 930,2470 939,2473 951,2472 956,2466 989,2467 993,2472 1000,2473 1004,2473 1013,2465 1060,2467 1072,2468 1073,2472 1087,2476 1097,2474 1100,2467 1107,2465 1163,2470 1340,2470 1339,2429 1331,2427 1199,2429 1197,2422 1188,2418 1172,2420 1166,2430 1153,2430 934,2426 908,2422 889,2414 821,2414 812,2420 796,2421 791,2420 786,2414 767,2415 762,2421 685,2419 672,2415"/>
         <Baseline points="523,2452 763,2448 992,2457 1340,2459"/>
         <Word id="region0020_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="602,2425 572,2426 572,2463 578,2464 581,2465 600,2465 602,2464"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>c)</Unicode>
           </TextEquiv>
         </Word>
@@ -2340,20 +2356,20 @@ quales ſunt in L. 6. §. I. h. t. l. 34. §. 1. de jurej. etc. Vid. ſup. tit. 
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>c) Plane enim ſi is quoque quem decernunt&#13;
-numerari poteſt in computatione duarum, quae&#13;
-praeſentes eſſe debent in electione, partium,&#13;
-uti PAULLUS docet in l. 4. mem. non poteſt&#13;
-non ſuffragium ſuum quoque ſibi prodeſſe&#13;
-electo.&#13;
-d) Quae reſponſio quadrat etiam ad ULPIANI&#13;
-in l. 25. ff. de procur. effatum; conf. STRUV.&#13;
-evolut. ad exerc. 7. th. 43. BERGER reſol.&#13;
-leg. obſtant. h. t. qu. I. ANT. SCHULTING&#13;
+        <Unicode>c) Plane enim ſi is quoque quem decernunt
+numerari poteſt in computatione duarum, quae
+praeſentes eſſe debent in electione, partium,
+uti PAULLUS docet in l. 4. mem. non poteſt
+non ſuffragium ſuum quoque ſibi prodeſſe
+electo.
+d) Quae reſponſio quadrat etiam ad ULPIANI
+in l. 25. ff. de procur. effatum; conf. STRUV.
+evolut. ad exerc. 7. th. 43. BERGER reſol.
+leg. obſtant. h. t. qu. I. ANT. SCHULTING
 enarr. ad Pand. h. t. pag. 495. NIC. HIER.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5619575" type="footnote" readingDirection="left-to-right" id="region0022" custom="readingOrder {index:16;} structure {type:footnote;}">
+    <TextRegion id="region0022" custom="readingOrder {index:16;} structure {type:footnote;}" orientation="0.5619575" type="footnote" readingDirection="left-to-right">
       <Coords points="1369,2416 2179,2416 2179,2892 1369,2892"/>
       <TextLine id="region0022_line0001" custom="readingOrder {index:0;}">
         <Coords points="1369,2422 1370,2470 1383,2468 1408,2474 1487,2475 1495,2480 1515,2475 1684,2469 1734,2472 1780,2469 1789,2476 1799,2478 1809,2475 1811,2471 1843,2467 1858,2470 1891,2470 1897,2475 1905,2476 1920,2468 2040,2464 2049,2460 2063,2463 2112,2463 2131,2460 2146,2464 2179,2464 2178,2416 2104,2417 2096,2422 2085,2423 2060,2416 1999,2417 1994,2419 1989,2427 1977,2428 1961,2428 1956,2420 1944,2419 1936,2429 1923,2430 1876,2427 1872,2424 1814,2430 1798,2428 1780,2420 1753,2421 1709,2430 1432,2431 1423,2424 1412,2422"/>
@@ -2543,7 +2559,7 @@ enarr. ad Pand. h. t. pag. 495. NIC. HIER.</Unicode>
         </Word>
         <Word id="region0022_line0004_word0005" custom="readingOrder {index:5;}">
           <Coords points="1776,2603 1802,2603 1802,2560 1778,2560 1776,2560"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -2882,15 +2898,15 @@ enarr. ad Pand. h. t. pag. 495. NIC. HIER.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>GUNDLING comm. ad part. prior. Pandect.&#13;
-h. t. pag. 323. Interim in partem adverſam&#13;
-abierunt LAUTERBACH comp. jur. h. t. p. 70.&#13;
-coll. theor. pract. h. t. §. 12. diſſ. de Syndicis,&#13;
-(Tubing. 1656.) §. 39. NOODT ad Pand.&#13;
-h. t. pag. 94. WESTENBERG princ. jur. ſec.&#13;
-Digeſt. ordin. h. t. §. 10. MICH. GODOFR.&#13;
-VERNHER ſectiſſ. comm. ad Pand. h. t. §. 5.&#13;
-viam intermediam elegit BACHOV ad prim.&#13;
+        <Unicode>GUNDLING comm. ad part. prior. Pandect.
+h. t. pag. 323. Interim in partem adverſam
+abierunt LAUTERBACH comp. jur. h. t. p. 70.
+coll. theor. pract. h. t. §. 12. diſſ. de Syndicis,
+(Tubing. 1656.) §. 39. NOODT ad Pand.
+h. t. pag. 94. WESTENBERG princ. jur. ſec.
+Digeſt. ordin. h. t. §. 10. MICH. GODOFR.
+VERNHER ſectiſſ. comm. ad Pand. h. t. §. 5.
+viam intermediam elegit BACHOV ad prim.
 part. Pandect. h. t. pag. 687.</Unicode>
       </TextEquiv>
     </TextRegion>

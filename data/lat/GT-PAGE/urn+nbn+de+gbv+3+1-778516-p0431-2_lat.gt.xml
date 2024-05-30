@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-270">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:11Z</Created>
     <LastChange>2024-01-19T13:10:11Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-778516-p0431-2_lat.png" imageWidth="1696" imageHeight="2408" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/2e2af6ce-0a3f-4ef4-83b2-6540285833c8/00000431.jpg" imageWidth="1696" imageHeight="2408" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="106,257 53,2304 1471,2340 1463,257"/>
     </Border>
@@ -18,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1654765508861_4084"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.16694634" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="-0.16694634" readingDirection="left-to-right">
       <Coords points="189,454 1111,454 1111,1604 189,1604"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="204,454 202,461 190,461 190,500 226,499 254,506 304,508 322,504 383,503 395,509 456,509 472,505 489,505 495,509 503,502 508,502 520,516 527,518 538,518 551,507 593,512 624,510 634,514 658,515 675,509 697,509 702,512 732,508 746,511 769,508 776,511 853,512 859,509 873,512 905,509 915,513 933,514 973,515 991,512 999,519 1009,518 1018,513 1056,516 1111,512 1111,478 1099,477 1092,467 1080,468 1071,476 1070,467 1065,462 1012,462 994,465 985,473 937,473 857,471 856,463 851,458 801,459 796,461 790,470 739,470 732,462 721,462 715,469 703,466 699,469 647,470 631,468 622,460 609,461 596,468 567,469 466,467 459,458 448,458 433,466 373,467 366,457 354,459 337,456 325,465 318,455 306,455 299,464 231,461 228,454"/>
@@ -104,7 +119,7 @@
         </Word>
         <Word id="region0001_line0002_word0005" custom="readingOrder {index:5;}">
           <Coords points="857,511 851,517 812,518 812,553 867,553 867,512 863,511"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>qui</Unicode>
           </TextEquiv>
         </Word>
@@ -141,7 +156,7 @@
         </Word>
         <Word id="region0001_line0003_word0002" custom="readingOrder {index:2;}">
           <Coords points="444,561 444,594 616,595 616,562 561,561 558,563 551,561"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>eorummque</Unicode>
           </TextEquiv>
         </Word>
@@ -411,7 +426,7 @@
         <Baseline points="226,855 1111,869"/>
         <Word id="region0001_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="270,824 270,866 315,868 417,868 422,862 424,862 424,829 397,829 391,833 380,833 362,831 358,824 341,824 338,827 312,826 305,829 297,824"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Denique</Unicode>
           </TextEquiv>
         </Word>
@@ -546,7 +561,7 @@
         </Word>
         <Word id="word_1654765753318_4216" custom="readingOrder {index:2;}">
           <Coords points="328,956 329,956 331,957 379,957 386,961 396,961 404,956 441,956 445,958 470,959 471,958 471,996 422,1001 369,999 365,1001 356,1001 349,998 327,996"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>tantum</Unicode>
           </TextEquiv>
         </Word>
@@ -1018,7 +1033,7 @@
         <Baseline points="189,1435 468,1434 1110,1449"/>
         <Word id="region0001_line0022_word0000" custom="readingOrder {index:0;}">
           <Coords points="198,1405 198,1445 211,1445 216,1442 229,1442 233,1445 367,1446 367,1447 397,1447 398,1446 418,1447 419,1447 427,1442 432,1442 432,1406 429,1406 417,1407 412,1406"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>accurataeque</Unicode>
           </TextEquiv>
         </Word>
@@ -1240,34 +1255,34 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>dem abſtinentiam praeſtat, et inter Germanos, Chri-&#13;
-ſtianus Thomaſius, s) uir illuſtris, qui fere ſcripto-&#13;
-ribus exteris, eorummque teſtimonio nusquam utun-&#13;
-tur, quam ubi nulla ſupereſt alia ratio ab ubiectis&#13;
-difficultatibus ſe expediendi, quod non raro ſit,&#13;
-adeo quidem, ut aliquando excuſſis omnibus utrius-&#13;
-que linguae auctoribus adhuc tamen interpreti ſa-&#13;
-tis ſuperque ſudandum ſit.&#13;
-Denique ſunt alii, qui maiorem ſibi licentiam&#13;
-ſumunt, commentariosque ſuos benedictis uete-&#13;
-rum, tanquam gemmis quibusdam, diſtinguunt,&#13;
-nec ibi tantum hoc faciunt, cum locis, quos in-&#13;
-terpretantur aliter mederi non poſſunt, uerum&#13;
-tum quoque, ubi periculum eſt, ne grauitate et&#13;
-multitudine rerum defeſſus legentis animus oppri-&#13;
-matur, his quaſi illecebris cum ab aſſidua medita-&#13;
-tione reuocant, ut paulliſper requietus melior de-&#13;
-inde alacriorque poſt eiusmodi remiſionem ad&#13;
-propoſitum opus redeat. Quorum ego morem,&#13;
-et conſuetudinem, ſemper et cum primis imitan-&#13;
-dum cenſui, quandoquidem ea ratione perfectae&#13;
-accurataeque tractationi iuris nihil decedit, lecto-&#13;
-ris autem utilitati maxime conſulitur, dum ne ta-&#13;
-men ea, quae ſic inſperſa ſunt, aliena ſint ab inſti-&#13;
+        <Unicode>dem abſtinentiam praeſtat, et inter Germanos, Chri-
+ſtianus Thomaſius, s) uir illuſtris, qui fere ſcripto-
+ribus exteris, eorummque teſtimonio nusquam utun-
+tur, quam ubi nulla ſupereſt alia ratio ab ubiectis
+difficultatibus ſe expediendi, quod non raro ſit,
+adeo quidem, ut aliquando excuſſis omnibus utrius-
+que linguae auctoribus adhuc tamen interpreti ſa-
+tis ſuperque ſudandum ſit.
+Denique ſunt alii, qui maiorem ſibi licentiam
+ſumunt, commentariosque ſuos benedictis uete-
+rum, tanquam gemmis quibusdam, diſtinguunt,
+nec ibi tantum hoc faciunt, cum locis, quos in-
+terpretantur aliter mederi non poſſunt, uerum
+tum quoque, ubi periculum eſt, ne grauitate et
+multitudine rerum defeſſus legentis animus oppri-
+matur, his quaſi illecebris cum ab aſſidua medita-
+tione reuocant, ut paulliſper requietus melior de-
+inde alacriorque poſt eiusmodi remiſionem ad
+propoſitum opus redeat. Quorum ego morem,
+et conſuetudinem, ſemper et cum primis imitan-
+dum cenſui, quandoquidem ea ratione perfectae
+accurataeque tractationi iuris nihil decedit, lecto-
+ris autem utilitati maxime conſulitur, dum ne ta-
+men ea, quae ſic inſperſa ſunt, aliena ſint ab inſti-
 tuto, aut unlgaria et nullius uſus dicteria, ſed cum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16694634" type="catch-word" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="-0.16694634" type="catch-word" readingDirection="left-to-right">
       <Coords points="346,1583 1100,1583 1100,1635 346,1635"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="1007,1584 1001,1589 999,1598 980,1598 976,1601 975,1635 1099,1635 1099,1607 1093,1607 1083,1592 1061,1589 1054,1591 1050,1599 1032,1599 1027,1589 1016,1584"/>
@@ -1286,7 +1301,7 @@ tuto, aut unlgaria et nullius uſus dicteria, ſed cum</Unicode>
         <Unicode>iudi-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16694634" type="footnote-continued" readingDirection="left-to-right" id="TextRegion_1654765508861_4085" custom="readingOrder {index:2;} structure {type:footnote-continued;}">
+    <TextRegion id="TextRegion_1654765508861_4085" custom="readingOrder {index:2;} structure {type:footnote-continued;}" orientation="-0.16694634" type="footnote-continued" readingDirection="left-to-right">
       <Coords points="232,1654 1109,1654 1109,1738 232,1738"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="717,1655 710,1658 706,1665 614,1661 529,1664 523,1655 508,1655 505,1658 500,1655 433,1655 423,1664 420,1664 414,1655 396,1655 392,1663 327,1662 324,1655 304,1655 300,1661 233,1660 233,1698 238,1702 320,1704 328,1710 336,1709 341,1703 342,1696 353,1704 368,1701 374,1696 389,1699 395,1697 399,1704 407,1701 420,1702 425,1697 432,1697 440,1705 460,1709 471,1700 477,1700 481,1705 514,1702 518,1706 523,1706 528,1702 540,1702 558,1709 568,1709 577,1702 593,1705 622,1702 629,1707 635,1707 639,1704 651,1704 657,1696 664,1696 669,1703 680,1703 690,1710 697,1705 708,1704 713,1710 725,1714 735,1712 737,1706 755,1704 948,1708 1040,1714 1045,1718 1109,1711 1109,1674 1089,1674 1087,1665 1082,1661 1029,1661 1018,1666 1011,1659 1000,1659 992,1668 975,1668 960,1657 950,1658 944,1666 850,1665 840,1656 832,1656 825,1663 818,1664 766,1664 759,1655 739,1655 733,1661 726,1655"/>
@@ -1323,7 +1338,7 @@ tuto, aut unlgaria et nullius uſus dicteria, ſed cum</Unicode>
         </Word>
         <Word id="region0003_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="953,1663 953,1700 1026,1700 1026,1663 1024,1663 1018,1666 1015,1663 996,1663 992,1668 975,1668 968,1663"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>iuris</Unicode>
           </TextEquiv>
         </Word>
@@ -1338,7 +1353,7 @@ tuto, aut unlgaria et nullius uſus dicteria, ſed cum</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
-        <Coords points="657,1697 651,1705 652,1708 629,1708 622,1703 587,1707 577,1703 568,1710 558,1710 540,1703 528,1703 523,1707 518,1707 514,1703 481,1706 477,1701 469,1702 460,1710 440,1706 432,1698 425,1698 420,1703 407,1702 399,1705 395,1698 389,1700 383,1697 374,1697 368,1702 354,1705 342,1697 342,1703 334,1711 328,1711 321,1706 249,1705 244,1710 244,1721 233,1722 233,1748 250,1748 260,1741 273,1746 283,1746 290,1742 306,1746 402,1744 410,1748 435,1744 457,1758 470,1746 497,1750 517,1748 524,1744 543,1744 550,1747 596,1745 601,1751 614,1743 623,1743 631,1748 643,1744 664,1743 670,1749 677,1749 689,1743 699,1747 715,1747 735,1746 741,1741 741,1718 738,1714 721,1714 713,1711 708,1705 697,1706 690,1711 680,1704 669,1704 664,1697"/>
+        <Coords points="651,1705 652,1708 629,1708 622,1703 587,1707 577,1703 568,1710 558,1710 540,1703 528,1703 523,1707 518,1707 514,1703 481,1706 477,1701 469,1702 460,1710 440,1706 432,1698 425,1698 420,1703 407,1702 399,1705 395,1698 389,1700 383,1697 374,1697 368,1702 354,1705 342,1697 342,1703 334,1711 328,1711 321,1706 249,1705 244,1710 244,1721 233,1722 233,1738 741,1738 741,1718 738,1714 721,1714 713,1711 708,1705 697,1706 690,1711 680,1704 669,1704 664,1697 657,1697"/>
         <Baseline points="657,1697 664,1697"/>
         <Word id="word_1654765508924_4090" custom="readingOrder {index:0;}">
           <Coords points="288,1705 321,1706 328,1711 334,1711 342,1703 342,1697 354,1705 368,1702 374,1697 384,1697 384,1738 288,1738"/>
@@ -1375,14 +1390,14 @@ tuto, aut unlgaria et nullius uſus dicteria, ſed cum</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>nique. in libris quatuor obſeruationum iuris Ro-&#13;
+        <Unicode>nique. in libris quatuor obſeruationum iuris Ro-
 mani, Lugd. Bat. 1710. 4.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16694634" type="footnote" readingDirection="left-to-right" id="TextRegion_1654765508861_4084" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1654765508861_4084" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.16694634" type="footnote" readingDirection="left-to-right">
       <Coords points="232,1738 1109,1738 1109,2088 232,2088"/>
       <TextLine id="region0003_line0003" custom="readingOrder {index:0;}">
-        <Coords points="1009,1731 1003,1735 1001,1743 963,1744 956,1751 950,1745 939,1745 930,1754 894,1752 888,1744 872,1739 863,1739 845,1748 828,1751 793,1751 788,1750 782,1741 765,1739 743,1741 735,1747 716,1749 701,1749 692,1744 677,1750 670,1750 664,1744 643,1745 631,1749 623,1744 614,1744 601,1752 596,1746 584,1745 578,1750 552,1750 543,1745 524,1745 513,1751 486,1751 470,1747 457,1759 435,1745 415,1749 402,1745 346,1745 328,1749 307,1749 298,1743 273,1747 260,1742 250,1749 233,1749 233,1789 252,1793 298,1789 370,1790 376,1787 386,1787 390,1790 437,1790 446,1781 456,1791 603,1791 615,1787 635,1786 649,1790 684,1790 690,1785 699,1785 710,1790 737,1791 750,1788 757,1792 786,1794 796,1799 810,1798 815,1794 883,1791 896,1791 900,1794 923,1794 932,1791 947,1796 969,1796 976,1793 992,1796 1062,1796 1068,1793 1109,1795 1109,1756 1072,1752 1059,1742 1050,1742 1045,1747 1039,1742 1029,1742 1024,1747 1022,1734 1018,1731"/>
+        <Coords points="1001,1743 963,1744 956,1751 950,1745 939,1745 930,1754 894,1752 888,1744 872,1739 863,1739 845,1748 828,1751 793,1751 788,1750 782,1741 765,1739 743,1741 735,1747 716,1749 701,1749 692,1744 677,1750 670,1750 664,1744 643,1745 631,1749 623,1744 614,1744 601,1752 596,1746 584,1745 578,1750 552,1750 543,1745 524,1745 513,1751 486,1751 470,1747 457,1759 435,1745 415,1749 402,1745 346,1745 328,1749 307,1749 298,1743 273,1747 260,1742 250,1749 233,1749 233,1789 252,1793 298,1789 370,1790 376,1787 386,1787 390,1790 437,1790 446,1781 456,1791 603,1791 615,1787 635,1786 649,1790 684,1790 690,1785 699,1785 710,1790 737,1791 750,1788 757,1792 786,1794 796,1799 810,1798 815,1794 883,1791 896,1791 900,1794 923,1794 932,1791 947,1796 969,1796 976,1793 992,1796 1062,1796 1068,1793 1109,1795 1109,1756 1072,1752 1059,1742 1050,1742 1045,1747 1039,1742 1029,1742 1024,1747 1022,1738 1002,1738"/>
         <Baseline points="233,1779 1109,1785"/>
         <Word id="region0003_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="244,1779 271,1780 271,1746 260,1742 250,1749 244,1749"/>
@@ -1507,7 +1522,7 @@ mani, Lugd. Bat. 1710. 4.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1654766472593_4693" custom="readingOrder {index:1;}">
-          <Coords points="521,1844 541,1844 616,1846 616,1877 560,1876 547,1874 521,1866"/>
+          <Coords points="616,1877 616,1846 541,1844 521,1844 521,1866 547,1874 549,1874 558,1873 560,1876 582,1876 585,1874 601,1875 612,1876"/>
           <TextEquiv>
             <Unicode>usque</Unicode>
           </TextEquiv>
@@ -1756,13 +1771,13 @@ mani, Lugd. Bat. 1710. 4.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>s) in diſſertationibus ſuis de uſu practico inſtitutio-&#13;
-num, anno 1711. edi coeptis, et ad titulum de&#13;
-adoptionibus usque productis. Item in diſſerta-&#13;
-tione de iure ininſto heredipetarum, de captato-&#13;
-riis inſtitutionibus, in primis initiis ſucceſſionis&#13;
-teſtamentariae apud Romanos, in de ſenſu legis&#13;
-decemuiralis teſtamentariae, de iudicio ſeu cen-&#13;
+        <Unicode>s) in diſſertationibus ſuis de uſu practico inſtitutio-
+num, anno 1711. edi coeptis, et ad titulum de
+adoptionibus usque productis. Item in diſſerta-
+tione de iure ininſto heredipetarum, de captato-
+riis inſtitutionibus, in primis initiis ſucceſſionis
+teſtamentariae apud Romanos, in de ſenſu legis
+decemuiralis teſtamentariae, de iudicio ſeu cen-
 ſura morum, et alibi.</Unicode>
       </TextEquiv>
     </TextRegion>

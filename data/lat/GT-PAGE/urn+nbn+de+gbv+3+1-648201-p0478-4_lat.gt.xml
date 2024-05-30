@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-193">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:00Z</Created>
     <LastChange>2024-01-19T13:09:00Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-648201-p0478-4_lat.jpg" imageWidth="1808" imageHeight="2746" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/3f394db4-f177-4d42-98ea-3c997dc6a078/00000478.jpg" imageWidth="1808" imageHeight="2746" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="576,348 1606,348 1606,2328 576,2328"/>
     </Border>
@@ -21,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="region0012"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.12339852" readingDirection="left-to-right" id="TextRegion_1658475704363_2506" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1658475704363_2506" custom="readingOrder {index:0;}" orientation="-0.12339852" readingDirection="left-to-right">
       <Coords points="585,448 1606,448 1606,983 1419,1035 586,1035 585,983"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1126,448 1124,457 1099,456 1094,452 1086,452 1081,456 985,459 796,457 791,448 775,448 769,457 709,458 702,448 690,448 683,455 674,449 662,449 655,459 586,460 586,509 628,511 639,503 655,501 814,497 848,498 852,509 866,509 873,498 920,499 921,506 926,511 944,510 948,500 1014,499 1017,510 1038,511 1042,509 1044,499 1106,499 1127,502 1144,499 1232,497 1248,511 1256,511 1262,508 1264,499 1393,499 1397,503 1411,504 1419,508 1423,498 1606,497 1606,452 1569,452 1565,449 1556,449 1546,454 1514,456 1300,457 1295,448 1278,448 1274,457 1204,457 1198,448 1184,448 1179,458 1177,448"/>
@@ -652,20 +667,20 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>geniti s. in quoquo partu ſuis primas premunt:&#13;
-¹ eae ſunt faucibus proximae: ² ſuam quiſque nouit&#13;
-in fetu quo genitus eſt ordine, eaque alitur, nec&#13;
-alia. Detracto illa alumno ſuo ſterileſcit illico, ac&#13;
-reſilit. t. Vno vero ex omni turba relicto, ſola&#13;
-munifex u., quae genito fuerat attributa, deſcen-&#13;
-dit. x. Vrſae y. mammas quaternas gerunt. Del-&#13;
-phini z. binas in ima aluo papillas tantum, nec eui-&#13;
-dentes, ³ et paulum in obliquum porrectas. Ne-&#13;
-que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
+        <Unicode>geniti s. in quoquo partu ſuis primas premunt:
+¹ eae ſunt faucibus proximae: ² ſuam quiſque nouit
+in fetu quo genitus eſt ordine, eaque alitur, nec
+alia. Detracto illa alumno ſuo ſterileſcit illico, ac
+reſilit. t. Vno vero ex omni turba relicto, ſola
+munifex u., quae genito fuerat attributa, deſcen-
+dit. x. Vrſae y. mammas quaternas gerunt. Del-
+phini z. binas in ima aluo papillas tantum, nec eui-
+dentes, ³ et paulum in obliquum porrectas. Ne-
+que aliud animal in curſu ⁴ lambitur. Et balaenae a.
 ⁵ autem vitulique mammis nutriunt fetus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="catch-word" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="region0008" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="-0.12339852" type="catch-word" readingDirection="left-to-right">
       <Coords points="1296,1019 1599,1019 1599,1079 1296,1079"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1498,1020 1453,1023 1404,1022 1399,1027 1399,1060 1409,1067 1410,1075 1416,1079 1598,1076 1598,1020"/>
@@ -684,10 +699,10 @@ que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
         <Unicode>XCVI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="footnote" readingDirection="left-to-right" id="TextRegion_1658475720713_2514" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1658475720713_2514" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="-0.12339852" type="footnote" readingDirection="left-to-right">
       <Coords points="632,1077 1556,1077 1556,1163 1556,1263 1341,1305 668,1305 632,1173"/>
       <TextLine id="line_1658477135142_2623" custom="readingOrder {index:0;}">
-        <Coords points="632,1086 652,1077 1296,1072 1348,1073 1598,1081 1598,1120 1358,1118 1036,1123 999,1133 805,1132 776,1131 632,1124"/>
+        <Coords points="632,1086 632,1124 776,1131 805,1132 999,1133 1036,1123 1358,1118 1556,1119 1556,1079 1473,1077 652,1077"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="638,1097 658,1097 658,1119 638,1119"/>
           <TextEquiv conf="0.6346641">
@@ -725,7 +740,7 @@ que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0006" custom="readingOrder {index:6;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1011,1095 1041,1095 1041,1127 1011,1127"/>
+          <Coords points="1041,1095 1011,1095 1011,1127 1021,1127 1036,1123 1041,1122"/>
           <TextEquiv>
             <Unicode>p.</Unicode>
           </TextEquiv>
@@ -737,7 +752,7 @@ que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0008" custom="readingOrder {index:8;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1160,1084 1160,1124 1251,1124 1256,1121 1257,1121 1257,1086 1200,1086 1199,1084"/>
+          <Coords points="1160,1121 1257,1119 1257,1086 1200,1086 1199,1084 1160,1084"/>
           <TextEquiv conf="0.8182422">
             <Unicode>ſuam.</Unicode>
           </TextEquiv>
@@ -749,7 +764,7 @@ que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0001" custom="readingOrder {index:10;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1442,1091 1342,1090 1342,1122 1396,1122 1442,1121"/>
+          <Coords points="1342,1090 1342,1118 1358,1118 1442,1118 1442,1091"/>
           <TextEquiv conf="0.58414364">
             <Unicode>praue.</Unicode>
           </TextEquiv>
@@ -966,14 +981,14 @@ que aliud animal in curſu ⁴ lambitur. Et balaenae a.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1. Et ſi eſcae ſunt f. p. tamen ſuam. V. praue. 2.&#13;
-Quidam inſerunt, et. 3. Sic ex MSS. em. Hard.&#13;
-conſ. Ch. paulo Gr. et vulgg. 4. lambitur. Balae-&#13;
-nae autem, vitulique marini mammis D. 5. autem,&#13;
+        <Unicode>1. Et ſi eſcae ſunt f. p. tamen ſuam. V. praue. 2.
+Quidam inſerunt, et. 3. Sic ex MSS. em. Hard.
+conſ. Ch. paulo Gr. et vulgg. 4. lambitur. Balae-
+nae autem, vitulique marini mammis D. 5. autem,
 in M. deeſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="footnote" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="region0007" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.12339852" type="footnote" readingDirection="left-to-right">
       <Coords points="582,1314 1086,1314 1086,2322 582,2322"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="653,1314 651,1325 583,1327 583,1364 594,1365 604,1362 613,1364 617,1369 650,1369 659,1366 660,1363 703,1365 776,1361 790,1357 824,1363 836,1361 850,1366 857,1358 869,1358 881,1364 898,1362 907,1356 969,1357 978,1360 1086,1360 1086,1315 1021,1315 1018,1319 1007,1315 960,1315 952,1318 947,1315 920,1315 917,1321 863,1323 833,1322 830,1314 805,1314 799,1323 742,1323 738,1314 720,1314 717,1323 695,1323 692,1314"/>
@@ -1423,7 +1438,7 @@ in M. deeſt.</Unicode>
         </Word>
         <Word id="region0007_line0012_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="832,1833 832,1791 767,1791 763,1794 733,1793 733,1832 746,1832 747,1833 775,1833 781,1830 797,1833"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>reſilit)</Unicode>
           </TextEquiv>
         </Word>
@@ -1791,32 +1806,32 @@ in M. deeſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>σχιδὲς ἐν τοῖς μηϱοῖς. Ariſt.&#13;
-de part. anim. L. IV. c. 10.&#13;
-p. 1035. H.&#13;
-s. Primo geniti) Ariſt.&#13;
-l. c. Alb. M. de anim. L. VI.&#13;
-tr. 3. c. I. p. 209. Quum&#13;
-autem porca peperit, primo&#13;
-nato filio dat mammam pri-&#13;
-mam, et ſic aliis filiis dat or-&#13;
-dinate mammas: aliquando ta-&#13;
-men hoc non accidit. H.&#13;
-t. Ac reſilit) In aluum re-&#13;
-dit, contacta, flaccida, ru-&#13;
-goſa. Dal.&#13;
-Ac reſilit) Mamma con-&#13;
-trahitur, et flacceſcit. H.&#13;
-u. Sola muniſex) Sola&#13;
-mamma ea cui ſuus eſt fetus la-&#13;
-ctandus. H.&#13;
-x. Deſcendit) Demittit ſe&#13;
-ab aluo mamma, et lac ſpon-&#13;
-te fundit. Libentius tamen&#13;
+        <Unicode>σχιδὲς ἐν τοῖς μηϱοῖς. Ariſt.
+de part. anim. L. IV. c. 10.
+p. 1035. H.
+s. Primo geniti) Ariſt.
+l. c. Alb. M. de anim. L. VI.
+tr. 3. c. I. p. 209. Quum
+autem porca peperit, primo
+nato filio dat mammam pri-
+mam, et ſic aliis filiis dat or-
+dinate mammas: aliquando ta-
+men hoc non accidit. H.
+t. Ac reſilit) In aluum re-
+dit, contacta, flaccida, ru-
+goſa. Dal.
+Ac reſilit) Mamma con-
+trahitur, et flacceſcit. H.
+u. Sola muniſex) Sola
+mamma ea cui ſuus eſt fetus la-
+ctandus. H.
+x. Deſcendit) Demittit ſe
+ab aluo mamma, et lac ſpon-
+te fundit. Libentius tamen
 agnouerim, diſtenditur. H.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="footnote" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="region0010" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="-0.12339852" type="footnote" readingDirection="left-to-right">
       <Coords points="1106,1312 1597,1312 1597,1406 1106,1406"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="1180,1312 1166,1319 1118,1321 1115,1325 1115,1351 1121,1356 1138,1356 1169,1362 1217,1356 1236,1358 1248,1363 1264,1360 1316,1362 1365,1356 1380,1359 1449,1356 1596,1359 1596,1313 1391,1313 1384,1318 1373,1317 1368,1313"/>
@@ -1871,7 +1886,7 @@ agnouerim, diſtenditur. H.</Unicode>
         </Word>
         <Word id="region0010_line0002_word0001" custom="readingOrder {index:1;}">
           <Coords points="1169,1371 1196,1371 1196,1391 1169,1391"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>c.</Unicode>
           </TextEquiv>
         </Word>
@@ -1904,11 +1919,11 @@ agnouerim, diſtenditur. H.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>y. Vrſae) Ariſt H. A. L.&#13;
+        <Unicode>y. Vrſae) Ariſt H. A. L.
 Il. c. 8. p. 176. H.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="footnote" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0011" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.12339852" type="footnote" readingDirection="left-to-right">
       <Coords points="1106,1435 1600,1435 1600,2184 1106,2184"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1171,1435 1168,1441 1107,1442 1107,1477 1172,1482 1196,1479 1249,1479 1258,1484 1274,1486 1278,1485 1279,1481 1299,1478 1307,1481 1324,1480 1340,1488 1344,1488 1352,1480 1374,1484 1391,1478 1412,1482 1485,1482 1499,1479 1505,1482 1530,1483 1600,1483 1600,1445 1559,1444 1555,1436 1539,1436 1533,1444 1437,1443 1420,1436 1331,1435 1326,1444 1319,1444 1312,1435 1280,1435 1277,1441 1271,1435"/>
@@ -2498,26 +2513,26 @@ Il. c. 8. p. 176. H.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>z. Delphini) Mammas ha-&#13;
-bent Delphini duas, inquit&#13;
-Philoſophus, H. A. L. II. c.&#13;
-I6. p. 215. quia ſunt viui-&#13;
-pari: eas vero non in parte&#13;
-ſuperiore, ſed prope geni-&#13;
-tale habent: neque papil-&#13;
-lae exſtant, quemadmodum&#13;
-quadrupedibus: ſed veluti&#13;
-tubulos habent duos, οἷον&#13;
-ϱύαϰας δύο, vtrimque ſin-&#13;
-gulos a latere, qua lac ef-&#13;
-fluat, quod in ipſo curſu&#13;
-ſugi ab aſſequentibus catu-&#13;
-lis nonnulli palam ſpecta-&#13;
-runt. Vide et Oppian. Ha-&#13;
+        <Unicode>z. Delphini) Mammas ha-
+bent Delphini duas, inquit
+Philoſophus, H. A. L. II. c.
+I6. p. 215. quia ſunt viui-
+pari: eas vero non in parte
+ſuperiore, ſed prope geni-
+tale habent: neque papil-
+lae exſtant, quemadmodum
+quadrupedibus: ſed veluti
+tubulos habent duos, οἷον
+ϱύαϰας δύο, vtrimque ſin-
+gulos a latere, qua lac ef-
+fluat, quod in ipſo curſu
+ſugi ab aſſequentibus catu-
+lis nonnulli palam ſpecta-
+runt. Vide et Oppian. Ha-
 lieut. L. I. v. 660. H.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.12339852" type="footnote" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0012" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.12339852" type="footnote" readingDirection="left-to-right">
       <Coords points="1108,2200 1597,2200 1597,2312 1108,2312"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1398,2201 1398,2214 1391,2221 1382,2224 1322,2226 1318,2218 1304,2216 1297,2220 1295,2227 1289,2227 1280,2216 1185,2215 1176,2218 1171,2227 1108,2229 1108,2262 1346,2265 1362,2264 1375,2260 1409,2265 1413,2262 1596,2259 1596,2213 1506,2212 1478,2216 1464,2215 1460,2212 1420,2214 1417,2201"/>
@@ -2610,7 +2625,7 @@ lieut. L. I. v. 660. H.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a. Et halaenae) Ariſt. H.&#13;
+        <Unicode>a. Et halaenae) Ariſt. H.
 A. L. III. c. 16. p. 383. H.</Unicode>
       </TextEquiv>
     </TextRegion>

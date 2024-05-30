@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-224">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:19Z</Created>
     <LastChange>2024-01-19T13:09:19Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-702297-p0033-7_lat.png" imageWidth="1553" imageHeight="2318" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/6cd94747-62bb-457d-8dbd-150b4fde753f/00000033.jpg" imageWidth="1553" imageHeight="2318" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="100,141 102,2193 1382,2203 1367,133"/>
     </Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="11" regionRef="TextRegion_1661859747498_818"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.4685416" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:heading;}" orientation="1.4685416" type="heading" readingDirection="left-to-right">
       <Coords points="541,398 682,398 682,463 541,463"/>
       <TextLine id="region0001_line" custom="readingOrder {index:0;}">
         <Coords points="541,398 682,398 682,463 541,463"/>
@@ -38,7 +54,7 @@
         <Unicode>§.5.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" readingDirection="left-to-right" id="TextRegion_1661859738625_744" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1661859738625_744" custom="readingOrder {index:1;}" orientation="1.4685416" readingDirection="left-to-right">
       <Coords points="193,475 1025,475 1054,1894 193,1894"/>
       <TextLine id="line_1661859738664_747" custom="readingOrder {index:0;}">
         <Coords points="207,482 297,480 350,491 418,492 425,492 434,481 448,480 454,484 456,493 466,494 520,493 522,487 529,480 551,482 560,490 611,487 613,475 668,475 676,476 677,479 680,476 735,475 738,487 780,488 820,486 822,475 848,475 852,484 935,479 946,475 959,477 1025,475 1026,518 990,520 988,528 982,532 968,531 964,520 928,522 911,530 888,532 719,537 625,535 588,531 438,536 382,534 366,535 358,544 346,544 339,534 215,534 210,530 209,522 203,516 203,487"/>
@@ -437,7 +453,7 @@
         </Word>
         <Word id="region0002_line0009_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="424,938 467,937 466,900 449,900 448,905 423,908"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
@@ -1340,7 +1356,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1661859738691_812" custom="readingOrder {index:27;}">
-        <Coords points="226,1843 244,1844 247,1851 280,1849 293,1843 310,1843 315,1846 465,1844 490,1848 498,1856 509,1855 515,1849 578,1847 596,1851 602,1857 603,1867 613,1865 614,1858 622,1852 667,1845 682,1846 686,1855 716,1856 727,1852 747,1850 752,1844 766,1844 771,1848 876,1846 878,1837 882,1835 897,1836 901,1845 915,1846 920,1838 930,1838 938,1845 948,1847 957,1846 967,1835 1016,1842 1053,1839 1054,1880 967,1885 962,1893 944,1892 931,1883 687,1897 629,1896 575,1902 520,1903 467,1896 412,1898 299,1893 194,1895 194,1853 218,1853"/>
+        <Coords points="1016,1842 967,1835 957,1846 948,1847 938,1845 930,1838 920,1838 915,1846 901,1845 897,1836 882,1835 878,1837 876,1846 771,1848 766,1844 752,1844 747,1850 727,1852 716,1856 686,1855 682,1846 667,1845 622,1852 614,1858 613,1865 603,1867 602,1857 596,1851 578,1847 515,1849 509,1855 498,1856 490,1848 465,1844 315,1846 310,1843 293,1843 280,1849 247,1851 244,1844 226,1843 218,1853 194,1853 194,1894 246,1894 299,1893 321,1894 739,1894 931,1883 944,1892 962,1893 967,1885 1053,1880 1052,1839"/>
         <Baseline points="194,1885 326,1883 543,1893 1054,1870"/>
         <Word id="region0002_line0028_word0000" custom="readingOrder {index:0;}">
           <Coords points="230,1854 327,1851 327,1887 230,1890"/>
@@ -1377,40 +1393,40 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Et quondam licet ſui heredes atque&#13;
-extranei multum ab inuicem diſcriminaren-&#13;
-tur, vsque eo vt ſuis delata hereditas necefſa-&#13;
-rio adeunda (quod immiſcere, non adire,&#13;
-aliàs vocant) fuerit; illud tamen diſcriminis, 5&#13;
-tam in re quam in nomine, iam diu ceſſauit,&#13;
-vt ſic omnes et ſinguli cuiusuis generis here-&#13;
-des in hoc hodie extranei reputentur. LV-&#13;
-DOVIC. ad ff. lib. 29. tit. 2 §. I. iunct.&#13;
-HEINECC. academiſche Reden lib. 2. tit. 19.&#13;
-§. 600. verb. Ferner erſeheu wir auch dar-&#13;
-aus etc. Quae aſſertio inſuper eo minime&#13;
-euellitur: quod nempe neque eo magis ſui et&#13;
-omnes, quos his aequiparandos heredes re-&#13;
-cenſet SCHVLTES in Addit. ad MODE-&#13;
-STIN. PISTOR. part. 4. quaeſt. 131. delatam&#13;
-hereditatem, absque praeuia aditione (minus&#13;
-vero extranei) ipſo iure in ſe ipſorumque porro&#13;
-heredes transferrent; vid. CARPZOV. part.&#13;
-3. conſtit. 14. defin. 23. n. 3. Haec enim ipſo 20&#13;
-iure licita hereditatis translatio eo nititur&#13;
-beneficio ac proficiſcitur: ne ſcilicet heredi-&#13;
-tas, ſuis quidem heredibus exiſtentibus ſed,&#13;
-ante hereditatis aditionem ſeu immixtionem,&#13;
-diem ſupremum obeuntibus aut aliàs impe-&#13;
-ditis, quo minus adeant, fiſco obtingeret.&#13;
-CARPZOV. part. 3. conſt. 14. tot. def. 23.&#13;
+        <Unicode>Et quondam licet ſui heredes atque
+extranei multum ab inuicem diſcriminaren-
+tur, vsque eo vt ſuis delata hereditas necefſa-
+rio adeunda (quod immiſcere, non adire,
+aliàs vocant) fuerit; illud tamen diſcriminis, 5
+tam in re quam in nomine, iam diu ceſſauit,
+vt ſic omnes et ſinguli cuiusuis generis here-
+des in hoc hodie extranei reputentur. LV-
+DOVIC. ad ff. lib. 29. tit. 2 §. I. iunct.
+HEINECC. academiſche Reden lib. 2. tit. 19.
+§. 600. verb. Ferner erſeheu wir auch dar-
+aus etc. Quae aſſertio inſuper eo minime
+euellitur: quod nempe neque eo magis ſui et
+omnes, quos his aequiparandos heredes re-
+cenſet SCHVLTES in Addit. ad MODE-
+STIN. PISTOR. part. 4. quaeſt. 131. delatam
+hereditatem, absque praeuia aditione (minus
+vero extranei) ipſo iure in ſe ipſorumque porro
+heredes transferrent; vid. CARPZOV. part.
+3. conſtit. 14. defin. 23. n. 3. Haec enim ipſo 20
+iure licita hereditatis translatio eo nititur
+beneficio ac proficiſcitur: ne ſcilicet heredi-
+tas, ſuis quidem heredibus exiſtentibus ſed,
+ante hereditatis aditionem ſeu immixtionem,
+diem ſupremum obeuntibus aut aliàs impe-
+ditis, quo minus adeant, fiſco obtingeret.
+CARPZOV. part. 3. conſt. 14. tot. def. 23.
 iunct. LVDWEL. Exercitat. ad inſtitut.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" type="marginalia" readingDirection="left-to-right" id="TextRegion_1661859756914_854" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1661859756914_854" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="1.4685416" type="marginalia" readingDirection="left-to-right">
       <Coords points="1028,703 1105,703 1105,755 1029,755"/>
       <TextLine id="line_1661859738668_755" custom="readingOrder {index:0;}">
-        <Coords points="1030,700 1105,697 1105,746 1105,753 1049,754 1031,749"/>
+        <Coords points="1105,703 1030,703 1031,749 1049,754 1105,753 1105,746"/>
         <Baseline points="1030,735 1105,742"/>
         <Word id="word_1661859756964_857" custom="readingOrder {index:0;}">
           <Coords points="1060,703 1082,703 1083,730 1061,731"/>
@@ -1426,10 +1442,10 @@ iunct. LVDWEL. Exercitat. ad inſtitut.</Unicode>
         <Unicode>aliàs vocant) fuerit; illud tamen diſcriminis, 5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" type="marginalia" readingDirection="left-to-right" id="TextRegion_1661859754544_846" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1661859754544_846" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="1.4685416" type="marginalia" readingDirection="left-to-right">
       <Coords points="1033,934 1105,934 1105,983 1034,983"/>
       <TextLine id="line_1661859738674_767" custom="readingOrder {index:0;}">
-        <Coords points="1035,943 1064,947 1105,947 1105,979 1105,988 1036,989"/>
+        <Coords points="1064,947 1035,943 1035,983 1105,983 1105,979 1105,947"/>
         <Baseline points="1035,979 1105,979"/>
         <Word id="region0002_line0010_word0009" custom="readingOrder {index:0;}">
           <Coords points="1047,947 1047,971 1090,970 1090,947 1064,947 1060,946"/>
@@ -1445,10 +1461,10 @@ iunct. LVDWEL. Exercitat. ad inſtitut.</Unicode>
         <Unicode>HE INE CC. academiſehe Reden lib. 2. tit. 19. 10</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" type="marginalia" readingDirection="left-to-right" id="TextRegion_1661859752304_838" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1661859752304_838" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="1.4685416" type="marginalia" readingDirection="left-to-right">
       <Coords points="1038,1190 1105,1190 1105,1242 1039,1242"/>
       <TextLine id="line_1661859738679_781" custom="readingOrder {index:0;}">
-        <Coords points="1040,1188 1045,1192 1105,1190 1105,1244 1057,1242 1051,1240 1049,1233 1041,1231"/>
+        <Coords points="1045,1192 1042,1190 1040,1190 1041,1231 1049,1233 1051,1240 1057,1242 1105,1242 1105,1190"/>
         <Baseline points="1041,1221 1105,1230"/>
         <Word id="region0002_line0015_word0006" custom="readingOrder {index:0;}">
           <Coords points="1053,1197 1093,1196 1094,1233 1054,1234"/>
@@ -1464,10 +1480,10 @@ iunct. LVDWEL. Exercitat. ad inſtitut.</Unicode>
         <Unicode>tenſet SCHVLTES in Addit. ad MODE- 15</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" type="marginalia" readingDirection="left-to-right" id="TextRegion_1661859750014_826" custom="readingOrder {index:9;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1661859750014_826" custom="readingOrder {index:9;} structure {type:marginalia;}" orientation="1.4685416" type="marginalia" readingDirection="left-to-right">
       <Coords points="1043,1446 1105,1446 1105,1488 1044,1488"/>
       <TextLine id="line_1661859738683_791" custom="readingOrder {index:0;}">
-        <Coords points="1045,1444 1105,1444 1105,1484 1048,1486 1046,1485"/>
+        <Coords points="1105,1446 1045,1446 1046,1485 1048,1486 1105,1484"/>
         <Baseline points="1046,1475 1105,1474"/>
         <Word id="word_1661859750063_829" custom="readingOrder {index:0;}">
           <Coords points="1054,1446 1098,1446 1098,1484 1054,1485"/>
@@ -1483,10 +1499,10 @@ iunct. LVDWEL. Exercitat. ad inſtitut.</Unicode>
         <Unicode>3. conſtit. 14. defin. 23. n. 3. Haec enim ipſo 20</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.4685416" type="marginalia" readingDirection="left-to-right" id="TextRegion_1661859747498_818" custom="readingOrder {index:11;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1661859747498_818" custom="readingOrder {index:11;} structure {type:marginalia;}" orientation="1.4685416" type="marginalia" readingDirection="left-to-right">
       <Coords points="1048,1691 1105,1691 1105,1743 1050,1743"/>
       <TextLine id="line_1661859738688_803" custom="readingOrder {index:0;}">
-        <Coords points="1050,1693 1105,1693 1105,1747 1087,1748 1063,1740 1051,1740"/>
+        <Coords points="1050,1693 1051,1740 1063,1740 1072,1743 1105,1743 1105,1693"/>
         <Baseline points="1051,1729 1105,1733"/>
         <Word id="region0002_line0025_word0006" custom="readingOrder {index:0;}">
           <Coords points="1060,1729 1102,1728 1100,1693 1058,1693"/>

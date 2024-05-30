@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-58">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:33Z</Created>
     <LastChange>2024-01-19T13:07:33Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-170319-p0014-4_lat.jpg" imageWidth="2331" imageHeight="2782" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/c6376028-d400-43fe-a7ae-37438bb84a5a/00000014.jpg" imageWidth="2331" imageHeight="2782" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="144,268 132,2675 2229,2686 2239,283"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region_1683527629995_47"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1683527621814_37" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1683527621814_37" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="670,420 670,462 762,462 762,420"/>
       <TextLine id="line_1683527621939_40" custom="readingOrder {index:0;}">
         <Coords points="670,420 670,462 762,462 762,420"/>
@@ -35,7 +50,7 @@
         <Unicode>XII</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.04536338" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;}" orientation="0.04536338" readingDirection="left-to-right">
       <Coords points="667,473 2027,473 2027,2325 667,2325"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="755,472 751,475 749,483 668,482 668,528 779,529 783,540 797,542 807,541 812,529 822,528 914,532 920,538 930,538 938,532 1077,530 1108,527 1128,527 1133,531 1141,531 1146,527 1241,526 1294,530 1468,529 1492,531 1498,537 1510,537 1517,531 1585,531 1636,535 1824,538 1848,540 1854,546 1862,546 1871,540 2027,543 2027,482 1952,483 1942,494 1862,492 1855,484 1843,484 1837,491 1724,491 1712,490 1706,484 1696,484 1690,490 1635,490 1627,478 1614,479 1608,488 1544,486 1538,479 1527,479 1521,486 1465,483 1456,476 1445,476 1438,481 1422,481 1414,480 1404,472 1388,472 1379,480 1359,482 1323,482 1316,475 1307,475 1300,483 1192,480 1185,476 1175,476 1170,481 1033,483 978,488 938,472 886,473 877,476 872,482 848,481 829,484 775,483 769,472"/>
@@ -1882,41 +1897,41 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mari poteſt, AMTHORIVM noſtrum, et eius vxorem, rariſſi-&#13;
-mum exemplar omnium virtutum, quae a Chriſtianis hominibus&#13;
-requiruntur, et Weiſſenſtadio, et toti viciniae, praebuiſſe. Hi&#13;
-pii Coniuges enim non modo domi omnibus officiis Chriſtianis&#13;
-ſingulis diebus accurate ſunt defuncti, ſed etiam ſacris publicis, et&#13;
-dominicis, et profeſtis diebus, porro concionibus funebribus&#13;
-et nuptialibus, ſi quae habebantur, diligentiſſime interfuerunt.&#13;
-Inter haec quotidiana pietatis et virtutum Chriſtianarum exerci-&#13;
-tia cogitauit etiam Noſter Iacobus Fridericus in primis de variis&#13;
-rationibus, quibus vti poſſet, vt, quae diuina benignitate acquiſi-&#13;
-uerat bona, in honorem Dei, et eius gloriam impenderet, et&#13;
-viuus pariter ac poſt obitum ſuum de eccleſia, de ſcholis et pau-&#13;
-peribus atque indigentioribus, bene promereretur. Legauit in&#13;
-hunc finem ad conſeruationem Orphanotrophei Baruthini duo&#13;
-mille et centum florenos Franconicos, legauit eccleſiae Vonſi-&#13;
-delienſi, incendio deletae, quingentos florenos, legauit dida-&#13;
-ctra pro triginta pueris et puellis, vt Baruthi, Vonſideliae, Mona-&#13;
-chomonti, Gefreſae et Weiſſenſtadii, per totum annum ſcholas&#13;
-gratis frequentare poſſent. Fundauit porro in honorem Dei&#13;
-vndecim conciones, quarum quatuor Weiſſenſtadii ſingulis annis,&#13;
-feſto Natiuitatis Chriſti, feſto Paſchatos, feſto Pentecoſtes, et&#13;
-feſto Paraſceues horis pomeridianis habentur. Commemora-&#13;
-mus autem in primis, nec poſteritas commemorare negliget,&#13;
-AMTHORIVM noſtrum, qui in nulla Academia bonis litteris&#13;
-operam nauauerat, in duabus Academiis, lenenſi et noſtra, duas&#13;
-fundaſſe menſas, in quibus viginti quatuor conuictores aluntur,&#13;
-ita quidem, vt in noſtra iisdem etiam ſtipendia iam fuerint di-&#13;
-ſtributa. Vt breuiter dicamus, AMTHORIVS noſter vltra&#13;
-duodecim mille et trecentos florenos ad pias cauſas legauit,&#13;
-quod vix ab homine priuato, huius loci et ordinis alio, factum&#13;
-fuit. Quanquam autem NOSTER legator vitam vere Chriſtia-&#13;
+        <Unicode>mari poteſt, AMTHORIVM noſtrum, et eius vxorem, rariſſi-
+mum exemplar omnium virtutum, quae a Chriſtianis hominibus
+requiruntur, et Weiſſenſtadio, et toti viciniae, praebuiſſe. Hi
+pii Coniuges enim non modo domi omnibus officiis Chriſtianis
+ſingulis diebus accurate ſunt defuncti, ſed etiam ſacris publicis, et
+dominicis, et profeſtis diebus, porro concionibus funebribus
+et nuptialibus, ſi quae habebantur, diligentiſſime interfuerunt.
+Inter haec quotidiana pietatis et virtutum Chriſtianarum exerci-
+tia cogitauit etiam Noſter Iacobus Fridericus in primis de variis
+rationibus, quibus vti poſſet, vt, quae diuina benignitate acquiſi-
+uerat bona, in honorem Dei, et eius gloriam impenderet, et
+viuus pariter ac poſt obitum ſuum de eccleſia, de ſcholis et pau-
+peribus atque indigentioribus, bene promereretur. Legauit in
+hunc finem ad conſeruationem Orphanotrophei Baruthini duo
+mille et centum florenos Franconicos, legauit eccleſiae Vonſi-
+delienſi, incendio deletae, quingentos florenos, legauit dida-
+ctra pro triginta pueris et puellis, vt Baruthi, Vonſideliae, Mona-
+chomonti, Gefreſae et Weiſſenſtadii, per totum annum ſcholas
+gratis frequentare poſſent. Fundauit porro in honorem Dei
+vndecim conciones, quarum quatuor Weiſſenſtadii ſingulis annis,
+feſto Natiuitatis Chriſti, feſto Paſchatos, feſto Pentecoſtes, et
+feſto Paraſceues horis pomeridianis habentur. Commemora-
+mus autem in primis, nec poſteritas commemorare negliget,
+AMTHORIVM noſtrum, qui in nulla Academia bonis litteris
+operam nauauerat, in duabus Academiis, lenenſi et noſtra, duas
+fundaſſe menſas, in quibus viginti quatuor conuictores aluntur,
+ita quidem, vt in noſtra iisdem etiam ſtipendia iam fuerint di-
+ſtributa. Vt breuiter dicamus, AMTHORIVS noſter vltra
+duodecim mille et trecentos florenos ad pias cauſas legauit,
+quod vix ab homine priuato, huius loci et ordinis alio, factum
+fuit. Quanquam autem NOSTER legator vitam vere Chriſtia-
 nam agere ſtuduit, et fidem, bonis operibus foecundam, omni-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683527629995_47" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="region_1683527629995_47" custom="readingOrder {index:2;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1939,2335 1939,2377 2017,2377 2017,2335"/>
       <TextLine id="line_1683527630088_50" custom="readingOrder {index:0;}">
         <Coords points="1939,2335 1939,2377 2017,2377 2017,2335"/>

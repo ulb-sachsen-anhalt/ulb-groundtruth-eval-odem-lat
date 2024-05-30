@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-30">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:16Z</Created>
     <LastChange>2024-01-19T13:07:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-138408_urn+nbn+de+gbv+3+1-138408-p0042-0_lat.png" imageWidth="1757" imageHeight="2781" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9b257807-0889-40af-a577-6df018d7ccb3/00000042.jpg" imageWidth="1757" imageHeight="2781" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="234,377 236,2707 1633,2736 1653,389"/>
     </Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1676457633517_4483"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676457241768_4337" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676457241768_4337" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="631,508 631,549 693,549 693,508"/>
       <TextLine id="line_1676457241861_4340" custom="readingOrder {index:0;}">
         <Coords points="631,508 631,549 693,549 693,508"/>
@@ -36,7 +52,7 @@
         <Unicode>24</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676457249503_4346" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676457249503_4346" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="827,510 827,551 1424,551 1424,510"/>
       <TextLine id="line_1676457249582_4349" custom="readingOrder {index:0;}">
         <Coords points="827,510 1424,510 1424,551 827,551"/>
@@ -60,12 +76,12 @@
         <Unicode>HISTORIA PANDECTARVM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.8159254" readingDirection="left-to-right" id="TextRegion_1645774826872_531" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1645774826872_531" custom="readingOrder {index:2;}" orientation="-0.8159254" readingDirection="left-to-right">
       <Coords points="635,582 1651,605 1646,1172 1643,1265 619,1265"/>
       <TextLine id="region0026_line0001" custom="readingOrder {index:0;}">
-        <Coords points="844,588 666,591 626,701 1638,706 1642,614 856,588"/>
+        <Coords points="666,591 632,682 632,701 1638,706 1642,614 856,588 844,588"/>
         <Word id="region0026_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="679,596 660,596 659,602 639,602 639,634 721,635 721,599 682,601"/>
+          <Coords points="664,596 650,634 721,635 721,599 682,601 679,596"/>
           <TextEquiv>
             <Unicode>circ.</Unicode>
           </TextEquiv>
@@ -215,7 +231,7 @@
       <TextLine id="region0026_line0004" custom="readingOrder {index:3;}">
         <Coords points="1001,748 994,755 913,755 891,758 880,755 763,753 758,748 750,747 738,749 731,756 632,760 630,806 812,799 862,801 871,805 913,803 919,808 935,808 943,801 967,800 973,797 986,798 994,802 1120,809 1332,811 1352,814 1363,823 1374,822 1381,815 1433,813 1649,816 1649,773 1507,772 1500,771 1494,763 1480,764 1477,771 1473,768 1434,769 1422,767 1416,762 1399,761 1382,760 1372,767 1357,767 1349,761 1338,761 1332,763 1330,769 1275,767 1274,762 1268,759 1256,758 1250,765 1198,766 1194,759 1189,757 1174,757 1172,763 1167,764 1023,755 1021,750 1016,748"/>
         <Word id="word_1643881088638_3878" custom="readingOrder {index:0;}">
-          <Coords points="641,759 736,750 760,750 859,754 885,778 885,796 875,796 641,790"/>
+          <Coords points="737,750 731,756 641,759 641,790 875,796 885,796 885,778 859,754 763,753 760,750"/>
           <TextEquiv>
             <Unicode>mandatum,</Unicode>
           </TextEquiv>
@@ -651,7 +667,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0026_line0013" custom="readingOrder {index:12;}">
-        <Coords points="816,1214 808,1217 807,1222 798,1223 771,1223 770,1217 756,1214 747,1222 740,1224 716,1221 715,1217 707,1214 689,1214 683,1218 620,1214 619,1271 761,1263 1067,1270 1149,1269 1155,1264 1155,1232 1145,1226 1008,1224 1006,1219 1001,1217 990,1217 985,1219 983,1224 835,1223 830,1221 825,1215"/>
+        <Coords points="808,1217 807,1222 798,1223 771,1223 770,1217 756,1214 747,1222 740,1224 716,1221 715,1217 707,1214 689,1214 683,1218 620,1214 619,1247 619,1265 725,1265 761,1263 848,1265 1153,1265 1155,1264 1155,1232 1145,1226 1008,1224 1006,1219 1001,1217 990,1217 985,1219 983,1224 835,1223 830,1221 825,1215 816,1214"/>
         <Word id="region0026_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="716,1221 639,1220 639,1263 742,1264 761,1263 826,1264 826,1222 807,1222 807,1222 798,1223 771,1223 771,1221 748,1221 747,1222 740,1224 716,1221"/>
           <TextEquiv conf="0.54423124">
@@ -669,22 +685,22 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>circ. fin., ſcilicet, non fuiſſe illos in componen-&#13;
-dis pandectis adeo ſollicitos de nouis conſtitu-&#13;
-tionibus, quoniam id non fuerat iis diſerte&#13;
-mandatum, quod tamen intuitu Inſtitutionum&#13;
-imperator mandauerat, v. l.3. §. 11. C. de vet.&#13;
-iur. enucl.: ? nam ſufficit, vt ipſe DVARENVS fa-&#13;
-tetur, quod imperator compilatoribus etiam&#13;
-veterum ICrorum libris &amp; dictis addere aliquid,&#13;
-vel detrahere, eademque mutare permiſerit,&#13;
-vid. ſupra §. XVI.: in quem vero finem hoc fa-&#13;
-ctum? certe in nullum alium, quam vt omiſſis&#13;
-antiquatis, talia iura inſererent operi, quæ æuo&#13;
+        <Unicode>circ. fin., ſcilicet, non fuiſſe illos in componen-
+dis pandectis adeo ſollicitos de nouis conſtitu-
+tionibus, quoniam id non fuerat iis diſerte
+mandatum, quod tamen intuitu Inſtitutionum
+imperator mandauerat, v. l.3. §. 11. C. de vet.
+iur. enucl.: ? nam ſufficit, vt ipſe DVARENVS fa-
+tetur, quod imperator compilatoribus etiam
+veterum ICrorum libris &amp; dictis addere aliquid,
+vel detrahere, eademque mutare permiſerit,
+vid. ſupra §. XVI.: in quem vero finem hoc fa-
+ctum? certe in nullum alium, quam vt omiſſis
+antiquatis, talia iura inſererent operi, quæ æuo
 Iuſtiniani conuenirent.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.8159254" readingDirection="left-to-right" id="TextRegion_1645774826872_530" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1645774826872_530" custom="readingOrder {index:3;}" orientation="-0.8159254" readingDirection="left-to-right">
       <Coords points="619,1265 1643,1265 1621,2292 596,2267"/>
       <TextLine id="region0026_line0014" custom="readingOrder {index:0;}">
         <Coords points="813,1264 725,1266 638,1273 632,1279 632,1310 644,1324 669,1324 676,1320 685,1320 692,1326 758,1320 949,1319 973,1323 1062,1322 1070,1325 1142,1329 1148,1335 1163,1334 1167,1327 1178,1326 1184,1338 1204,1337 1208,1335 1208,1329 1213,1327 1298,1326 1303,1327 1312,1341 1319,1342 1337,1341 1343,1331 1539,1342 1642,1339 1642,1303 1589,1298 1587,1290 1583,1287 1571,1287 1564,1296 1557,1296 1542,1292 1471,1293 1407,1288 1401,1284 1393,1284 1388,1287 1325,1287 1324,1280 1319,1274 1306,1275 1300,1286 1293,1284 1293,1276 1288,1271 1268,1273 1264,1285 1106,1278 1100,1270 1090,1269 1073,1269 1065,1277 1049,1277 1047,1271 1042,1269 1026,1268 1021,1271 1020,1277 1004,1277 986,1275 978,1270 965,1267 900,1268"/>
@@ -707,7 +723,7 @@ Iuſtiniani conuenirent.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643875466488_3243" custom="readingOrder {index:3;} textStyle {offset:0; length:12;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1186,1282 1264,1285 1266,1279 1293,1279 1293,1284 1300,1286 1304,1279 1324,1280 1325,1287 1388,1287 1393,1284 1401,1284 1407,1288 1443,1289 1443,1334 1343,1331 1340,1336 1308,1335 1303,1327 1298,1326 1213,1327 1208,1329 1208,1334 1186,1334"/>
+          <Coords points="1186,1282 1186,1334 1208,1334 1208,1329 1213,1327 1298,1326 1303,1327 1308,1335 1340,1336 1343,1331 1443,1334 1443,1290 1407,1288 1401,1284 1393,1284 1388,1287 1325,1287 1324,1280 1304,1279 1300,1286 1293,1284 1293,1279 1266,1279 1264,1285"/>
           <TextEquiv conf="0.76876473">
             <Unicode>quadrigentos</Unicode>
           </TextEquiv>
@@ -1295,7 +1311,7 @@ Iuſtiniani conuenirent.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0026_line0026_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1131,1908 1092,1908 1092,1962 1145,1962 1149,1961 1151,1962 1169,1966 1169,1912 1154,1912 1148,1908 1132,1914"/>
+          <Coords points="1092,1908 1092,1962 1145,1962 1149,1961 1151,1962 1169,1966 1169,1912 1157,1912 1132,1914 1131,1908"/>
           <TextEquiv conf="0.3563237">
             <Unicode>ſqq.</Unicode>
           </TextEquiv>
@@ -1599,7 +1615,7 @@ Iuſtiniani conuenirent.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0026_line0032" custom="readingOrder {index:18;}">
-        <Coords points="1330,2228 1325,2230 1321,2237 1315,2237 1249,2239 1176,2236 1101,2237 1096,2233 1087,2233 1079,2237 1076,2229 1056,2228 1051,2231 1050,2238 1036,2239 963,2236 952,2226 926,2226 922,2228 920,2235 888,2234 886,2226 882,2224 868,2233 859,2225 853,2225 849,2234 845,2235 833,2234 831,2225 821,2223 812,2234 807,2235 746,2232 745,2224 740,2221 724,2222 719,2225 718,2233 709,2234 664,2232 647,2223 596,2223 595,2281 735,2279 751,2280 759,2291 777,2291 789,2280 859,2280 871,2281 872,2289 877,2294 921,2295 931,2293 936,2283 1074,2286 1197,2282 1403,2289 1543,2289 1570,2293 1619,2293 1620,2247 1548,2246 1547,2238 1538,2235 1521,2237 1520,2244 1471,2244 1470,2236 1464,2233 1445,2235 1443,2244 1429,2244 1400,2241 1399,2235 1395,2232 1382,2230 1376,2232 1373,2238 1352,2238 1346,2236 1345,2230"/>
+        <Coords points="1325,2230 1321,2237 1315,2237 1249,2239 1176,2236 1101,2237 1096,2233 1087,2233 1079,2237 1076,2229 1056,2228 1051,2231 1050,2238 1036,2239 963,2236 952,2226 926,2226 922,2228 920,2235 888,2234 886,2226 882,2224 868,2233 859,2225 853,2225 849,2234 845,2235 833,2234 831,2225 821,2223 812,2234 807,2235 746,2232 745,2224 740,2221 724,2222 719,2225 718,2233 709,2234 664,2232 647,2223 597,2223 596,2267 1498,2289 1543,2289 1551,2290 1619,2291 1620,2247 1548,2246 1547,2238 1538,2235 1521,2237 1520,2244 1471,2244 1470,2236 1464,2233 1445,2235 1443,2244 1429,2244 1400,2241 1399,2235 1395,2232 1382,2230 1376,2232 1373,2238 1352,2238 1346,2236 1345,2230 1330,2228"/>
         <Word id="region0026_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="653,2226 635,2226 634,2268 691,2269 691,2233 664,2232"/>
           <TextEquiv conf="0.9039611">
@@ -1653,28 +1669,28 @@ Iuſtiniani conuenirent.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. XXVII. Pandectas, quadrigentos quadrigentos ac tri-&#13;
-ginta tres titulos, &amp; nouies mille ac centum et&#13;
-triginta duas leges complecti; adſerit LAVTER-&#13;
-BACHIVS in comp. iur. in præfat. Alii vero,&#13;
-prout ad dictum LAVTERBACHII locum ad-&#13;
-notauit Dn. STRYKIVS, octies mille ac centum&#13;
-et triginta quatuor leges ſolum numerant; to-&#13;
-ridemque agnoſcit gloſſa. Et hæ tantum etiam&#13;
-in foro habent auctoritatem iuxta tritum illud:&#13;
-quos textus non agnoſcit gloſſa, eos nec agnoſcit&#13;
-forum: Ceteræ ergo leges manent dubiæ,&#13;
-quum priuata induſiria reſtitutæ ſint a CONTIO&#13;
-&amp; CVIACIO, vid. l. 8. ſqq. ff. de bon. damn. l.10.&#13;
-ſqq. ff. de interdict. &amp; veleg. infra §. LVI. In-&#13;
-terim, in editionibus vulgatis diuerſis, &amp; titu-&#13;
-lorum &amp; legum numerus variat. Ita in editione&#13;
-GOTHOTREDI titulus pro ſoluto coaluit cum ti-&#13;
-tulo de vſurpationibus &amp; vſucapionibus; &amp; titu-&#13;
+        <Unicode>§. XXVII. Pandectas, quadrigentos quadrigentos ac tri-
+ginta tres titulos, &amp; nouies mille ac centum et
+triginta duas leges complecti; adſerit LAVTER-
+BACHIVS in comp. iur. in præfat. Alii vero,
+prout ad dictum LAVTERBACHII locum ad-
+notauit Dn. STRYKIVS, octies mille ac centum
+et triginta quatuor leges ſolum numerant; to-
+ridemque agnoſcit gloſſa. Et hæ tantum etiam
+in foro habent auctoritatem iuxta tritum illud:
+quos textus non agnoſcit gloſſa, eos nec agnoſcit
+forum: Ceteræ ergo leges manent dubiæ,
+quum priuata induſiria reſtitutæ ſint a CONTIO
+&amp; CVIACIO, vid. l. 8. ſqq. ff. de bon. damn. l.10.
+ſqq. ff. de interdict. &amp; veleg. infra §. LVI. In-
+terim, in editionibus vulgatis diuerſis, &amp; titu-
+lorum &amp; legum numerus variat. Ita in editione
+GOTHOTREDI titulus pro ſoluto coaluit cum ti-
+tulo de vſurpationibus &amp; vſucapionibus; &amp; titu-
 lus de priuilegiis creditorum cum titulo de rebus</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676457633517_4483" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676457633517_4483" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1471,2299 1471,2341 1599,2341 1599,2299"/>
       <TextLine id="line_1676457633586_4486" custom="readingOrder {index:0;}">
         <Coords points="1471,2299 1471,2341 1599,2341 1599,2299"/>
