@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-249">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:47Z</Created>
     <LastChange>2024-01-19T13:09:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/69d537f5-d309-4edb-b15d-dc40ca6be4d2/00000241.jpg" imageWidth="1887" imageHeight="2676" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region_1683623757985_2101"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683623689580_2002" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683623689580_2002" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="374,358 374,395 1065,395 1065,358"/>
       <TextLine id="line_1683623689668_2005" custom="readingOrder {index:0;}">
         <Coords points="374,358 374,395 1065,395 1065,358"/>
@@ -59,7 +75,7 @@
         <Unicode>LIB. III. DE FALSA SAPIENTIA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683623693594_2011" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683623693594_2011" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1132,354 1132,395 1205,395 1205,354"/>
       <TextLine id="line_1683623693677_2014" custom="readingOrder {index:0;}">
         <Coords points="1132,354 1132,395 1205,395 1205,354"/>
@@ -77,7 +93,7 @@
         <Unicode>181</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.50753176" readingDirection="left-to-right" id="TextRegion_1664272701587_3716" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1664272701587_3716" custom="readingOrder {index:2;}" orientation="0.50753176" readingDirection="left-to-right">
       <Coords points="201,430 1226,430 1226,2098 1222,2142 248,2142 201,2098"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="286,433 279,440 273,434 262,434 255,440 253,446 201,446 202,501 253,499 259,494 261,488 366,488 368,495 374,498 390,497 395,487 797,484 799,492 804,496 816,495 825,483 936,482 942,491 957,491 964,481 1147,480 1189,486 1226,485 1225,452 1211,451 1209,441 1200,437 1200,430 1120,431 1117,439 1113,438 1112,430 1089,430 1082,438 985,440 981,430 963,430 959,440 948,440 943,430 923,431 915,440 898,440 894,431 877,430 872,441 446,446 414,445 412,437 407,433 394,434 387,445 364,446 362,437 356,433 346,433 338,437 333,446 317,446 315,437 310,433"/>
@@ -567,7 +583,7 @@
         </Word>
         <Word id="region0001_line0010_word0005" custom="readingOrder {index:5;}">
           <Coords points="1117,928 1115,933 1078,933 1078,975 1173,974 1173,933 1146,935 1140,934 1138,928"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quia,</Unicode>
           </TextEquiv>
         </Word>
@@ -890,7 +906,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1664272893254_3769" custom="readingOrder {index:6;}">
-          <Coords points="862,1264 992,1258 996,1258 1007,1267 1007,1309 992,1309 861,1303 861,1266"/>
+          <Coords points="863,1263 861,1266 861,1303 992,1309 1007,1309 1007,1267 1005,1267 999,1260 996,1258 992,1258 980,1258 975,1267 963,1266 958,1259 895,1262 891,1270 888,1262"/>
           <TextEquiv>
             <Unicode>fuiſſet?</Unicode>
           </TextEquiv>
@@ -1694,7 +1710,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0001" custom="readingOrder {index:30;}">
-        <Coords points="265,2085 265,2094 270,2102 248,2103 249,2145 252,2146 376,2146 410,2150 415,2153 433,2150 441,2155 453,2155 460,2150 479,2145 525,2143 673,2142 709,2152 754,2151 764,2140 790,2140 803,2149 813,2149 819,2141 959,2136 1180,2135 1200,2137 1204,2140 1222,2136 1221,2093 1142,2093 1139,2085 1119,2085 1117,2092 1058,2094 1053,2085 1036,2085 1033,2093 1028,2094 1023,2085 1005,2085 1002,2091 994,2093 873,2095 840,2094 833,2086 819,2086 809,2094 794,2095 643,2099 637,2088 625,2087 617,2096 610,2099 573,2099 571,2091 566,2087 555,2087 547,2091 539,2084 518,2085 520,2100 399,2103 318,2099 295,2102 286,2085"/>
+        <Coords points="265,2094 270,2102 248,2103 248,2142 673,2142 762,2142 764,2140 790,2140 792,2142 818,2142 819,2141 959,2136 1180,2135 1200,2137 1204,2140 1222,2136 1221,2093 1142,2093 1139,2085 1119,2085 1117,2092 1058,2094 1053,2085 1036,2085 1033,2093 1028,2094 1023,2085 1005,2085 1002,2091 994,2093 873,2095 840,2094 833,2086 819,2086 809,2094 794,2095 643,2099 637,2088 625,2087 617,2096 610,2099 573,2099 571,2091 566,2087 555,2087 547,2091 539,2084 518,2085 520,2100 399,2103 318,2099 295,2102 286,2085 265,2085"/>
         <Baseline points="248,2136 731,2137 942,2126 1221,2126"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="253,2136 428,2134 428,2102 399,2103 318,2099 295,2102 286,2085 265,2085 265,2094 270,2102 253,2102"/>
@@ -1731,40 +1747,40 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>philoſophos omnes cæcos atque inſipientes fuiſſe,&#13;
-qui, quod eſt homini ſummum bonum conſtitutum,&#13;
-nec videre, nec intelligere, nec ſuſpicari aliquando&#13;
-potuerunt. Anaxagoras, cum ab eo quæreretur,&#13;
-cujus rei cauſa natus eſſet, reſpondit, cœli ac ſolis&#13;
-videndi. Hanc vocem admirantur omnes, ac philo-&#13;
-ſopho dignam judicant. At ego hunc puto, non in-&#13;
-venientem quid reſponderet, effudiſſe hoc paſſim,&#13;
-ne taceret. quod quidem ſecum, ſi ſapiens fuiſſet,&#13;
-commentatum &amp; meditatum habere debuit; quia, ſi&#13;
-quis rationem ſui neſciat, ne homo ſit quidem. Sed&#13;
-putemus, non ex tempore dictum illud effuſum.&#13;
-Videamus, in tribus verbis quot &amp; quanta pecca-&#13;
-verit: primum, quod omne hominis officium in&#13;
-ſolis oculis poſuit, nihil ad mentem referens, ſed&#13;
-ad corpus omnia. Quid ſi cæcus fuiſſet? officiumne&#13;
-hominis amitteret; quod fieri ſine occaſu animæ&#13;
-non poteſt? quid ceteræ corporis partes? num care-&#13;
-bunt ſuis quæque muneribus? Quid, quod plus eſt&#13;
-in auribus, quam in oculis, ſitum? quoniam &amp; do-&#13;
-ctrina, &amp; ſapientia, percipi auribus ſolis poteſt,&#13;
-oculis ſolis non poteſt. Cœli ac ſolis videndi cauſa&#13;
-natus es? Quis te in hoc ſpectaculum induxit? aut&#13;
-quid eœlo rerumque naturæ viſio tua confert? ni-&#13;
-mirum ut hoc immenſum &amp; admirabile opus laudes.&#13;
-Conſitere ergo, rerum omnium eſſe conſtitutorem&#13;
-Deum, qui te in hunc mundum, quaſi teſtem lauda-&#13;
-toremque tanti ſui operis, induxit. Magnum eſſe cre-&#13;
-dis, videre cœlum ac ſolem. cur ergo gratias non&#13;
-agis ei, qui hujus beneficii auctor eſt? cur non ipſius&#13;
+        <Unicode>philoſophos omnes cæcos atque inſipientes fuiſſe,
+qui, quod eſt homini ſummum bonum conſtitutum,
+nec videre, nec intelligere, nec ſuſpicari aliquando
+potuerunt. Anaxagoras, cum ab eo quæreretur,
+cujus rei cauſa natus eſſet, reſpondit, cœli ac ſolis
+videndi. Hanc vocem admirantur omnes, ac philo-
+ſopho dignam judicant. At ego hunc puto, non in-
+venientem quid reſponderet, effudiſſe hoc paſſim,
+ne taceret. quod quidem ſecum, ſi ſapiens fuiſſet,
+commentatum &amp; meditatum habere debuit; quia, ſi
+quis rationem ſui neſciat, ne homo ſit quidem. Sed
+putemus, non ex tempore dictum illud effuſum.
+Videamus, in tribus verbis quot &amp; quanta pecca-
+verit: primum, quod omne hominis officium in
+ſolis oculis poſuit, nihil ad mentem referens, ſed
+ad corpus omnia. Quid ſi cæcus fuiſſet? officiumne
+hominis amitteret; quod fieri ſine occaſu animæ
+non poteſt? quid ceteræ corporis partes? num care-
+bunt ſuis quæque muneribus? Quid, quod plus eſt
+in auribus, quam in oculis, ſitum? quoniam &amp; do-
+ctrina, &amp; ſapientia, percipi auribus ſolis poteſt,
+oculis ſolis non poteſt. Cœli ac ſolis videndi cauſa
+natus es? Quis te in hoc ſpectaculum induxit? aut
+quid eœlo rerumque naturæ viſio tua confert? ni-
+mirum ut hoc immenſum &amp; admirabile opus laudes.
+Conſitere ergo, rerum omnium eſſe conſtitutorem
+Deum, qui te in hunc mundum, quaſi teſtem lauda-
+toremque tanti ſui operis, induxit. Magnum eſſe cre-
+dis, videre cœlum ac ſolem. cur ergo gratias non
+agis ei, qui hujus beneficii auctor eſt? cur non ipſius
 virtutem, providentiam, poteſtatem metiris animo,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1683623757985_2101" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="region_1683623757985_2101" custom="readingOrder {index:3;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="932,2150 932,2199 1023,2199 1023,2150"/>
       <TextLine id="line_1683623758103_2104" custom="readingOrder {index:0;}">
         <Coords points="932,2150 932,2199 1023,2199 1023,2150"/>

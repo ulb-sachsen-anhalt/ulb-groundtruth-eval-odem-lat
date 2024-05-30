@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-174">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:43Z</Created>
     <LastChange>2024-01-19T13:08:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/cb388bd0-3285-40c7-b7d7-da3f500e89b1/00000031.jpg" imageWidth="2504" imageHeight="3102" type="content" primaryLanguage="Latin">
     <Border>
@@ -24,7 +40,7 @@
         <RegionRefIndexed index="10" regionRef="TextRegion_1654754798005_138"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754709162_69" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1654754709162_69" custom="readingOrder {index:0;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="282,572 1043,572 1043,673 282,673"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="353,573 336,578 282,577 283,631 350,630 359,628 364,622 386,621 433,625 449,622 487,624 499,631 523,625 563,624 566,630 572,632 617,635 627,639 697,638 720,630 823,635 959,633 1015,636 1019,639 1043,636 1042,596 1037,592 1028,591 951,588 922,583 874,583 851,589 738,588 734,578 717,579 712,575 658,575 646,581 601,578 528,580 510,586 504,580 471,580 443,572"/>
@@ -94,7 +110,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
-        <Coords points="449,623 415,628 283,632 283,672 300,673 304,679 315,683 372,675 474,673 488,683 545,680 555,685 572,674 573,662 622,662 627,657 627,640 623,637 568,631 499,632 489,628"/>
+        <Coords points="415,628 283,632 283,672 300,673 474,673 572,673 573,662 622,662 627,657 627,640 623,637 568,631 499,632 489,628 449,623"/>
         <Baseline points="283,663 568,665"/>
         <Word id="word_1654754709246_72" custom="readingOrder {index:0;}">
           <Coords points="290,643 349,643 349,673 300,673 290,672"/>
@@ -125,11 +141,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>35. Act. 14, 17. 3. Joh. II. I. Petr. 2,&#13;
+        <Unicode>35. Act. 14, 17. 3. Joh. II. I. Petr. 2,
 15, 20. &amp; 3,17. I7-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754728617_86" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1654754728617_86" custom="readingOrder {index:1;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="282,673 1043,673 1043,777 282,777"/>
       <TextLine id="region0003_line0003" custom="readingOrder {index:0;}">
         <Coords points="391,674 380,684 322,688 319,692 320,723 324,726 347,728 365,724 375,730 397,730 404,736 416,736 423,730 457,727 594,733 600,738 608,738 615,733 679,732 686,733 692,745 697,746 709,744 715,735 803,736 814,739 828,738 838,743 849,743 853,740 924,738 978,742 1000,740 1010,749 1017,748 1021,743 1043,742 1043,707 1032,707 1030,701 1023,697 953,694 937,684 878,684 867,686 856,695 822,697 791,695 789,688 782,684 716,683 709,686 705,692 680,692 667,690 656,682 626,681 605,682 601,685 599,693 585,694 583,681 578,676 571,676 552,689 490,688 480,676 463,674 452,677 444,688 410,685 405,675"/>
@@ -169,7 +185,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0004" custom="readingOrder {index:1;}">
-        <Coords points="358,725 350,730 283,730 282,775 307,776 312,781 358,774 416,775 430,777 437,787 449,788 457,787 466,778 545,782 559,780 568,783 587,785 599,794 606,794 620,786 633,785 721,787 729,788 737,797 747,797 755,788 1042,788 1043,749 1010,750 1000,741 989,743 987,748 975,749 962,749 958,740 944,738 929,740 927,749 833,750 804,749 802,742 797,738 789,738 779,747 770,737 754,737 744,747 697,747 691,745 686,734 671,735 667,745 644,745 638,734 621,734 612,742 602,742 581,740 576,733 562,734 558,739 514,739 512,733 507,730 494,731 489,737 487,730 482,728 457,728 448,735 404,737 375,734 371,727"/>
+        <Coords points="350,730 283,730 282,775 307,776 308,777 338,777 358,774 416,775 430,777 1042,777 1043,749 1010,750 1000,741 989,743 987,748 975,749 962,749 958,740 944,738 929,740 927,749 833,750 804,749 802,742 797,738 789,738 779,747 770,737 754,737 744,747 697,747 691,745 686,734 671,735 667,745 644,745 638,734 621,734 612,742 602,742 581,740 576,733 562,734 558,739 514,739 512,733 507,730 494,731 489,737 487,730 482,728 457,728 448,735 404,737 375,734 371,727 358,725"/>
         <Baseline points="283,765 404,764 611,776 827,777"/>
         <Word id="region0003_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="352,728 350,730 298,730 298,773 424,772 424,736 404,737 375,734 371,728"/>
@@ -184,7 +200,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0004_word0002" custom="readingOrder {index:2;}">
-          <Coords points="607,777 662,776 662,745 644,745 638,734 621,734 612,742 602,742 607,742"/>
+          <Coords points="607,777 662,776 662,745 644,745 638,734 602,742 607,742"/>
           <TextEquiv conf="0.75728995">
             <Unicode>ſeu</Unicode>
           </TextEquiv>
@@ -206,11 +222,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γαϑοποίία, Benefactum, 1 Petr. 4,&#13;
+        <Unicode>Α΄γαϑοποίία, Benefactum, 1 Petr. 4,
 19.boni efficientia, ſeu beneficiorum collatio.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754728617_85" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1654754728617_85" custom="readingOrder {index:2;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="282,777 1043,777 1043,1501 282,1501"/>
       <TextLine id="region0003_line0005" custom="readingOrder {index:0;}">
         <Coords points="391,778 386,786 379,790 322,793 319,797 320,825 326,828 364,830 376,835 397,835 400,840 409,843 421,839 424,835 482,833 507,836 520,833 528,837 576,839 584,844 603,843 608,839 645,837 719,838 758,842 764,848 772,848 782,842 816,840 950,844 954,848 962,848 967,844 997,844 1000,850 1012,852 1018,843 1043,844 1043,803 974,799 848,800 843,792 834,789 768,789 760,792 755,798 725,799 715,797 709,788 699,788 691,798 676,798 669,797 660,789 638,787 619,788 607,794 605,799 588,799 568,797 568,784 559,781 549,783 542,796 519,796 490,794 485,783 478,779 466,779 451,794 410,791 404,779"/>
@@ -784,7 +800,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0018" custom="readingOrder {index:13;}">
-        <Coords points="283,1452 282,1504 539,1503 544,1506 729,1510 801,1509 809,1507 812,1503 812,1474 806,1468 659,1467 658,1459 653,1456 636,1458 633,1466 620,1468 606,1467 598,1456 589,1456 582,1464 509,1463 479,1456 456,1456 430,1461 415,1459 404,1463 399,1454 379,1453 370,1463 352,1463 345,1453"/>
+        <Coords points="282,1501 812,1501 812,1474 806,1468 659,1467 658,1459 653,1456 636,1458 633,1466 620,1468 606,1467 598,1456 589,1456 582,1464 509,1463 479,1456 456,1456 430,1461 415,1459 404,1463 399,1454 379,1453 370,1463 352,1463 345,1453 283,1452"/>
         <Baseline points="282,1494 812,1499"/>
         <Word id="region0003_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="297,1460 297,1496 443,1495 443,1459 440,1459 430,1461 416,1459 414,1459 404,1463 401,1459 373,1459 370,1463 352,1463 349,1459"/>
@@ -815,29 +831,29 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γαϑωσύνη, Bonitas, Rom. 15, 14.&#13;
-Vulgatus habet vocabulum dilectio; &amp; qui&#13;
-illum ſequuntur, ut Lyranus, Gorronius,&#13;
-Toletus, intelligunt id de bonitate, comita-&#13;
-te &amp; exiſtimatione bona, quam de aliis ha-&#13;
-bemus. Sed magis &amp; aptius ſigniſicat, ſe-&#13;
-cundùm mentem Chryſoſtomi, generalem&#13;
-bonitatem &amp; virtutem, reliquas etiam in ſe&#13;
-complectentem. 2 Theſſal. 1, 11. Hac vo-&#13;
-ce [inquit ibi Beza] ſingularis &amp; omnibus&#13;
-numeris abſoluta DEI bonitas declaratur,&#13;
-Gal. 5, 22. Bonus &amp; benevolus affectus&#13;
-ad benefaciendum proximo. Cornel. à Lap.&#13;
+        <Unicode>Α΄γαϑωσύνη, Bonitas, Rom. 15, 14.
+Vulgatus habet vocabulum dilectio; &amp; qui
+illum ſequuntur, ut Lyranus, Gorronius,
+Toletus, intelligunt id de bonitate, comita-
+te &amp; exiſtimatione bona, quam de aliis ha-
+bemus. Sed magis &amp; aptius ſigniſicat, ſe-
+cundùm mentem Chryſoſtomi, generalem
+bonitatem &amp; virtutem, reliquas etiam in ſe
+complectentem. 2 Theſſal. 1, 11. Hac vo-
+ce [inquit ibi Beza] ſingularis &amp; omnibus
+numeris abſoluta DEI bonitas declaratur,
+Gal. 5, 22. Bonus &amp; benevolus affectus
+ad benefaciendum proximo. Cornel. à Lap.
 Conſule Bezam in locum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754715316_77" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1654754715316_77" custom="readingOrder {index:3;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="282,1501 1043,1501 1043,2387 282,2387"/>
       <TextLine id="region0003_line0019" custom="readingOrder {index:0;}">
         <Coords points="358,1505 355,1515 321,1515 317,1518 317,1548 320,1552 341,1559 403,1555 418,1564 431,1558 448,1557 543,1558 544,1561 553,1564 561,1563 566,1556 584,1556 588,1559 613,1559 618,1564 629,1564 636,1559 670,1557 743,1557 754,1566 778,1568 788,1562 809,1568 823,1559 861,1560 867,1566 877,1566 884,1560 907,1560 911,1561 915,1568 929,1567 940,1561 1043,1561 1042,1523 1014,1523 1009,1514 997,1512 982,1512 978,1515 976,1523 966,1523 935,1521 928,1512 916,1513 911,1522 899,1522 895,1519 874,1522 860,1521 852,1510 822,1510 812,1512 805,1518 768,1518 733,1516 725,1509 707,1509 699,1516 688,1516 671,1509 640,1508 621,1510 612,1520 597,1520 544,1519 544,1507 539,1504 516,1506 510,1518 493,1518 481,1507 458,1507 447,1511 443,1517 432,1517 424,1511 412,1514 404,1505 390,1505 387,1512 381,1514 373,1506"/>
         <Baseline points="317,1548 1043,1552"/>
         <Word id="region0003_line0019_word0000" custom="readingOrder {index:0;}">
-          <Coords points="365,1509 366,1557 403,1555 408,1558 439,1558 448,1557 474,1557 566,1557 566,1556 584,1556 585,1557 637,1555 636,1508 640,1508 621,1510 612,1520 597,1520 544,1519 544,1508 515,1508 510,1518 493,1518 482,1508 454,1508 447,1511 443,1517 432,1517 424,1511 412,1514 407,1509 388,1509 387,1512 381,1514 376,1509"/>
+          <Coords points="365,1509 366,1557 637,1555 640,1508 621,1510 612,1520 544,1519 544,1508 515,1508 510,1518 493,1518 482,1508 454,1508 443,1517 407,1509 381,1514"/>
           <TextEquiv>
             <Unicode>Α΄γαλλιάομαι,</Unicode>
           </TextEquiv>
@@ -1596,7 +1612,7 @@ Conſule Bezam in locum.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0034_word0004" custom="readingOrder {index:4;}">
-          <Coords points="927,2353 1037,2352 1036,2303 1023,2303 1010,2306 998,2300 948,2300 932,2290 926,2292"/>
+          <Coords points="1037,2352 1036,2303 1023,2303 1010,2306 998,2300 948,2300 932,2290 926,2292 926,2346 928,2350 969,2349 976,2333 974,2345 979,2350 997,2352"/>
           <TextEquiv>
             <Unicode>זרﬥ</Unicode>
           </TextEquiv>
@@ -1625,26 +1641,26 @@ Conſule Bezam in locum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γαλλιάομαι, Exulto, geſtio,tripudio.&#13;
-Significat vox ſummam lætitiam, &amp; qui-&#13;
-dem talem, quæ corporis geſtibus &amp; ſi-&#13;
-gnis externis exprimitur, veluti ſaltandó&#13;
-vel tripudiando, ut David 2 Sam. 6, 14. 16.&#13;
-Chemnit. in Matth. 5, 12. Vox ità uſur-&#13;
-patur Luc. 1, 47. ubi Maria exprimit læti-&#13;
-tiam, quâ perfundebatur, quod deſigna-&#13;
-ta ſit Mater Jeſu; &amp; 10, 21. Joh. 5,35.&#13;
-&amp;8, 56. Act. 2,26. &amp; 16, 34. 1Petr. 1, 8.&#13;
-&amp; 4, 13. Apoc. 19, 7. Eadem vox ſigni-&#13;
-ficat ſaltatorios motus dare juxta regulas&#13;
-artis. Ab ἄγαν ἅλλομαι, valdè ſalio,Mat-&#13;
-thæus dicit: Gaudete &amp; exultate 5, I2.&#13;
-Lucas ait: Geſtite &amp; ſubſultate 6, 23.&#13;
-potius derivandum ab Hebraico זרﬥ&#13;
+        <Unicode>Α΄γαλλιάομαι, Exulto, geſtio,tripudio.
+Significat vox ſummam lætitiam, &amp; qui-
+dem talem, quæ corporis geſtibus &amp; ſi-
+gnis externis exprimitur, veluti ſaltandó
+vel tripudiando, ut David 2 Sam. 6, 14. 16.
+Chemnit. in Matth. 5, 12. Vox ità uſur-
+patur Luc. 1, 47. ubi Maria exprimit læti-
+tiam, quâ perfundebatur, quod deſigna-
+ta ſit Mater Jeſu; &amp; 10, 21. Joh. 5,35.
+&amp;8, 56. Act. 2,26. &amp; 16, 34. 1Petr. 1, 8.
+&amp; 4, 13. Apoc. 19, 7. Eadem vox ſigni-
+ficat ſaltatorios motus dare juxta regulas
+artis. Ab ἄγαν ἅλλομαι, valdè ſalio,Mat-
+thæus dicit: Gaudete &amp; exultate 5, I2.
+Lucas ait: Geſtite &amp; ſubſultate 6, 23.
+potius derivandum ab Hebraico זרﬥ
 inquit Avenarius.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654756260867_634" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1654756260867_634" custom="readingOrder {index:4;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="292,2381 905,2381 1039,2383 1041,2447 1041,2502 1041,2562 290,2562 290,2481"/>
       <TextLine id="line_1654756236727_627" custom="readingOrder {index:0;}">
         <Coords points="393,2381 412,2381 520,2384 688,2392 1038,2413 1038,2454 1023,2458 997,2459 934,2459 772,2456 578,2447 411,2439 358,2434 322,2424 322,2397 325,2393"/>
@@ -1775,12 +1791,12 @@ inquit Avenarius.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γαλλίασις, Exultatio, Luc. 1, 14. 44.&#13;
-Conveniens cum Hebraico Alaz; utra-&#13;
+        <Unicode>Α΄γαλλίασις, Exultatio, Luc. 1, 14. 44.
+Conveniens cum Hebraico Alaz; utra-
 que vox, tàm Græca quàm Latina, ſigni-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754762176_103" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1654754762176_103" custom="readingOrder {index:5;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,582 1809,582 1809,1262 1044,1262"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1057,583 1051,590 1044,590 1044,633 1304,632 1322,637 1327,642 1332,643 1349,642 1358,635 1397,632 1473,633 1498,636 1505,640 1554,634 1808,637 1808,597 1619,592 1536,592 1521,595 1506,591 1423,591 1420,582 1402,582 1398,591 1347,591 1175,591 1171,582 1147,582 1140,589 1086,590 1083,583"/>
@@ -2105,7 +2121,7 @@ que vox, tàm Græca quàm Latina, ſigni-</Unicode>
         <Coords points="1164,949 1157,957 1045,957 1044,999 1176,1000 1189,1003 1212,1001 1214,1008 1223,1012 1237,1011 1241,1001 1324,1002 1337,1012 1352,1010 1354,1002 1399,1002 1428,1005 1433,1011 1440,1013 1453,1013 1464,1005 1488,1002 1684,1001 1685,1006 1692,1007 1710,1003 1714,999 1808,999 1809,957 1735,960 1733,953 1724,948 1709,951 1702,960 1670,961 1664,952 1650,952 1618,960 1542,960 1537,952 1523,949 1509,951 1501,960 1386,960 1384,953 1378,949 1359,950 1352,959 1338,959 1332,950 1318,951 1313,959 1195,959 1181,958 1176,950"/>
         <Baseline points="1044,989 1435,995 1808,988"/>
         <Word id="region0007_line0008_word0000" custom="readingOrder {index:0;}">
-          <Coords points="1054,953 1054,993 1202,997 1202,959 1195,959 1181,958 1180,957"/>
+          <Coords points="1054,993 1202,997 1202,959 1195,959 1181,958 1180,957 1158,956 1157,957 1054,957"/>
           <TextEquiv>
             <Unicode>lætantis,</Unicode>
           </TextEquiv>
@@ -2311,7 +2327,7 @@ que vox, tàm Græca quàm Latina, ſigni-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0013" custom="readingOrder {index:12;}">
-        <Coords points="1044,1210 1044,1260 1139,1262 1167,1259 1175,1263 1189,1261 1190,1268 1195,1273 1229,1273 1247,1263 1271,1260 1276,1255 1276,1226 1271,1221 1220,1223 1163,1218 1158,1211 1144,1212 1135,1219 1116,1217 1098,1211"/>
+        <Coords points="1044,1260 1139,1262 1167,1259 1173,1262 1182,1262 1189,1261 1189,1262 1255,1262 1271,1260 1276,1255 1276,1226 1271,1221 1220,1223 1163,1218 1158,1211 1144,1212 1135,1219 1116,1217 1098,1211 1044,1210"/>
         <Baseline points="1044,1250 1276,1251"/>
         <Word id="region0007_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="1058,1221 1181,1220 1181,1256 1058,1257"/>
@@ -2330,25 +2346,25 @@ que vox, tàm Græca quàm Latina, ſigni-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ficat ſummum gaudium, cum externo&#13;
-tripudio quaſi cordis &amp; corporis. An-&#13;
-glica verſio habet Jud. 24. exceeding joy,&#13;
-id eſt, ſummum gaudium. Vox ita etiam&#13;
-uſurpatur Act. 2, 46. Hebr. 1, 9. Exulta-&#13;
-tio eſt gaudium geſtuoſum, ab ex &amp; ſalto.&#13;
-Becman. Geſticulationem magis ſonat&#13;
-lætantis, quam ipſum gaudium. Eraſmus&#13;
-&amp; Janſen. Propterea ſenſus poteſt eſſe&#13;
-Luc. I, 44. [inquit Janſenius] Exiliit cum&#13;
-geſticulatione, id eſt, geſtiendô. Signi-&#13;
-ficat, tripudia in gaudio, Chemnit. in&#13;
+        <Unicode>ficat ſummum gaudium, cum externo
+tripudio quaſi cordis &amp; corporis. An-
+glica verſio habet Jud. 24. exceeding joy,
+id eſt, ſummum gaudium. Vox ita etiam
+uſurpatur Act. 2, 46. Hebr. 1, 9. Exulta-
+tio eſt gaudium geſtuoſum, ab ex &amp; ſalto.
+Becman. Geſticulationem magis ſonat
+lætantis, quam ipſum gaudium. Eraſmus
+&amp; Janſen. Propterea ſenſus poteſt eſſe
+Luc. I, 44. [inquit Janſenius] Exiliit cum
+geſticulatione, id eſt, geſtiendô. Signi-
+ficat, tripudia in gaudio, Chemnit. in
 Matth. 5. s.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754769764_112" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1654754769764_112" custom="readingOrder {index:6;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,1262 1809,1262 1809,1569 1044,1569"/>
       <TextLine id="region0007_line0014" custom="readingOrder {index:0;}">
-        <Coords points="1160,1260 1144,1263 1141,1271 1080,1272 1077,1276 1079,1307 1089,1317 1163,1316 1172,1320 1186,1316 1207,1316 1218,1323 1225,1323 1233,1318 1270,1323 1311,1319 1320,1315 1381,1313 1430,1315 1435,1319 1445,1319 1450,1315 1500,1314 1502,1323 1506,1325 1528,1323 1531,1314 1573,1314 1585,1311 1621,1315 1691,1315 1713,1318 1809,1313 1808,1277 1787,1275 1783,1265 1771,1262 1704,1262 1697,1267 1694,1276 1662,1276 1660,1267 1655,1263 1574,1264 1548,1268 1542,1262 1532,1262 1523,1271 1497,1272 1484,1270 1470,1263 1435,1265 1422,1271 1416,1262 1402,1262 1394,1272 1387,1263 1268,1262 1247,1264 1232,1271 1229,1277 1203,1277 1175,1275 1175,1264"/>
+        <Coords points="1144,1263 1141,1271 1080,1272 1077,1276 1079,1307 1089,1317 1163,1316 1172,1320 1186,1316 1207,1316 1218,1323 1225,1323 1233,1318 1270,1323 1311,1319 1320,1315 1381,1313 1430,1315 1435,1319 1445,1319 1450,1315 1500,1314 1502,1323 1506,1325 1528,1323 1531,1314 1573,1314 1585,1311 1621,1315 1691,1315 1713,1318 1809,1313 1808,1277 1787,1275 1783,1265 1771,1262 1704,1262 1697,1267 1694,1276 1662,1276 1660,1267 1655,1263 1574,1264 1548,1268 1542,1262 1532,1262 1523,1271 1497,1272 1484,1270 1470,1263 1435,1265 1422,1271 1416,1262 1402,1262 1394,1272 1387,1263 1268,1262 1247,1264 1232,1271 1229,1277 1203,1277 1175,1275 1175,1264 1167,1262 1149,1262"/>
         <Baseline points="1079,1307 1809,1304"/>
         <Word id="region0007_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="1143,1266 1141,1271 1136,1271 1137,1316 1163,1316 1167,1318 1180,1318 1186,1316 1207,1316 1210,1318 1315,1317 1316,1317 1315,1265 1244,1265 1232,1271 1229,1277 1203,1277 1175,1275 1175,1266"/>
@@ -2605,7 +2621,7 @@ Matth. 5. s.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0019" custom="readingOrder {index:5;}">
-        <Coords points="1392,1513 1384,1519 1385,1528 1321,1528 1314,1523 1296,1524 1287,1520 1278,1520 1272,1527 1262,1528 1189,1528 1172,1524 1130,1525 1122,1516 1111,1516 1105,1524 1045,1524 1044,1564 1186,1566 1188,1573 1196,1577 1213,1576 1217,1566 1320,1565 1394,1568 1487,1568 1489,1576 1508,1579 1516,1576 1518,1568 1591,1566 1599,1565 1604,1560 1604,1535 1599,1530 1548,1528 1544,1520 1534,1519 1522,1520 1516,1527 1508,1529 1469,1529 1462,1521 1418,1520 1408,1527 1396,1529 1397,1514"/>
+        <Coords points="1384,1519 1385,1528 1321,1528 1314,1523 1296,1524 1287,1520 1278,1520 1272,1527 1262,1528 1189,1528 1172,1524 1130,1525 1122,1516 1111,1516 1105,1524 1045,1524 1044,1564 1186,1566 1186,1569 1215,1569 1217,1566 1320,1565 1394,1568 1487,1568 1487,1569 1517,1569 1518,1568 1591,1566 1599,1565 1604,1560 1604,1535 1599,1530 1548,1528 1544,1520 1534,1519 1522,1520 1516,1527 1508,1529 1469,1529 1462,1521 1418,1520 1408,1527 1396,1529 1397,1514 1392,1513"/>
         <Baseline points="1044,1555 1604,1555"/>
         <Word id="region0007_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="1054,1530 1104,1530 1104,1551 1054,1551"/>
@@ -2636,18 +2652,18 @@ Matth. 5. s.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γαμος, Cœlebs, Steph. Viduus, Viduus, Be-&#13;
-za. 1Cor. 7, 8, 11, 32, 34. Α΄γαμος et-&#13;
-iam dicitur, qui,uxore mortuâ, ſit factus&#13;
-cœlebs, Beza in 1Cor. 7, 8, 11. Ex α priva-&#13;
-tivo, &amp; γάμος nuptiæ, cœlebs vel fœmi-&#13;
+        <Unicode>Α΄γαμος, Cœlebs, Steph. Viduus, Viduus, Be-
+za. 1Cor. 7, 8, 11, 32, 34. Α΄γαμος et-
+iam dicitur, qui,uxore mortuâ, ſit factus
+cœlebs, Beza in 1Cor. 7, 8, 11. Ex α priva-
+tivo, &amp; γάμος nuptiæ, cœlebs vel fœmi-
 ma innupta. Homer. Xenoph.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754775742_119" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1654754775742_119" custom="readingOrder {index:7;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,1569 1809,1569 1809,1990 1044,1990"/>
       <TextLine id="region0007_line0020" custom="readingOrder {index:0;}">
-        <Coords points="1156,1566 1149,1573 1081,1573 1076,1578 1076,1607 1103,1616 1113,1612 1132,1612 1137,1617 1164,1614 1169,1617 1267,1617 1274,1618 1279,1624 1291,1624 1298,1618 1335,1617 1343,1620 1350,1614 1365,1617 1385,1614 1418,1616 1426,1624 1433,1619 1452,1624 1459,1615 1466,1614 1500,1617 1510,1615 1520,1617 1601,1622 1614,1629 1623,1629 1640,1619 1654,1619 1660,1622 1672,1619 1808,1621 1808,1583 1795,1582 1793,1570 1782,1566 1727,1566 1719,1569 1714,1579 1620,1583 1620,1570 1614,1564 1587,1567 1582,1571 1580,1579 1571,1579 1570,1571 1565,1567 1549,1567 1545,1569 1543,1578 1507,1580 1491,1577 1443,1577 1438,1569 1426,1568 1403,1569 1399,1578 1384,1578 1379,1568 1369,1567 1361,1578 1330,1580 1324,1579 1324,1569 1320,1566 1279,1566 1270,1572 1268,1578 1261,1579 1196,1578 1177,1575 1169,1566"/>
+        <Coords points="1149,1573 1081,1573 1076,1578 1076,1607 1103,1616 1113,1612 1132,1612 1137,1617 1164,1614 1169,1617 1267,1617 1274,1618 1279,1624 1291,1624 1298,1618 1335,1617 1343,1620 1350,1614 1365,1617 1385,1614 1418,1616 1426,1624 1433,1619 1452,1624 1459,1615 1466,1614 1500,1617 1510,1615 1520,1617 1601,1622 1614,1629 1623,1629 1640,1619 1654,1619 1660,1622 1672,1619 1808,1621 1808,1583 1795,1582 1793,1570 1790,1569 1719,1569 1714,1579 1620,1583 1620,1570 1619,1569 1584,1569 1582,1571 1580,1579 1571,1579 1570,1571 1567,1569 1545,1569 1543,1578 1507,1580 1491,1577 1443,1577 1438,1569 1403,1569 1399,1578 1384,1578 1379,1569 1367,1569 1361,1578 1330,1580 1324,1579 1324,1569 1274,1569 1270,1572 1268,1578 1261,1579 1196,1578 1177,1575 1171,1569 1153,1569"/>
         <Baseline points="1076,1605 1808,1611"/>
         <Word id="region0007_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="1149,1573 1149,1573 1138,1573 1138,1617 1164,1614 1169,1617 1349,1615 1350,1614 1350,1579 1330,1580 1324,1579 1324,1571 1270,1572 1270,1572 1268,1578 1261,1579 1196,1578 1177,1575 1175,1573"/>
@@ -2924,7 +2940,7 @@ ma innupta. Homer. Xenoph.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0027" custom="readingOrder {index:7;}">
-        <Coords points="1070,1931 1065,1935 1063,1943 1044,1943 1044,1985 1164,1985 1166,1995 1188,1993 1194,1986 1307,1989 1509,1986 1619,1989 1631,1993 1658,1995 1723,1986 1808,1989 1808,1946 1732,1947 1721,1939 1712,1941 1701,1937 1690,1938 1686,1941 1638,1941 1632,1936 1621,1936 1611,1945 1595,1945 1572,1944 1570,1937 1567,1936 1548,1936 1541,1943 1519,1942 1513,1938 1504,1937 1487,1944 1471,1936 1464,1936 1449,1944 1369,1946 1368,1938 1364,1935 1347,1936 1343,1945 1325,1946 1320,1937 1308,1936 1301,1946 1257,1946 1251,1944 1250,1936 1247,1934 1230,1934 1226,1938 1221,1934 1210,1934 1204,1943 1123,1945 1089,1943 1084,1931"/>
+        <Coords points="1065,1935 1063,1943 1044,1943 1044,1985 1164,1985 1165,1990 1190,1990 1194,1986 1307,1989 1509,1986 1619,1989 1622,1990 1694,1990 1723,1986 1808,1989 1808,1946 1732,1947 1721,1939 1712,1941 1701,1937 1690,1938 1686,1941 1638,1941 1632,1936 1621,1936 1611,1945 1595,1945 1572,1944 1570,1937 1567,1936 1548,1936 1541,1943 1519,1942 1513,1938 1504,1937 1487,1944 1471,1936 1464,1936 1449,1944 1369,1946 1368,1938 1364,1935 1347,1936 1343,1945 1325,1946 1320,1937 1308,1936 1301,1946 1257,1946 1251,1944 1250,1936 1247,1934 1230,1934 1226,1938 1221,1934 1210,1934 1204,1943 1123,1945 1089,1943 1084,1931 1070,1931"/>
         <Baseline points="1044,1975 1808,1979"/>
         <Word id="region0007_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="1064,1936 1063,1943 1061,1943 1061,1975 1156,1974 1156,1944 1123,1945 1089,1943 1086,1936"/>
@@ -2973,20 +2989,20 @@ ma innupta. Homer. Xenoph.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Αʹγαναϰτέω, indignor, ab ἂγαν valdè,&#13;
-&amp; ἂχϑομαι,ægrè ferò,indignor,doleo: vel&#13;
-ab ἂγομαι frangor, quia ſolicitudines con-&#13;
-fringunt cor. Gerhard. in Harm. Evangel.&#13;
-Propriè denotat doloris ſenſu affici. Uſur-&#13;
-patur etiam pro indignari, ſtomachari &amp;&#13;
-conqueri: quæ omnes ſignificationes qua-&#13;
+        <Unicode>Αʹγαναϰτέω, indignor, ab ἂγαν valdè,
+&amp; ἂχϑομαι,ægrè ferò,indignor,doleo: vel
+ab ἂγομαι frangor, quia ſolicitudines con-
+fringunt cor. Gerhard. in Harm. Evangel.
+Propriè denotat doloris ſenſu affici. Uſur-
+patur etiam pro indignari, ſtomachari &amp;
+conqueri: quæ omnes ſignificationes qua-
 drant quidem in locumMatth. 26, 8. Marc.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754781473_124" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1654754781473_124" custom="readingOrder {index:8;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,1990 1809,1990 1809,2250 1044,2250"/>
       <TextLine id="region0007_line0028" custom="readingOrder {index:0;}">
-        <Coords points="1198,1987 1184,1995 1134,1998 1111,2003 1099,1998 1044,1997 1044,2041 1080,2039 1084,2041 1089,2050 1103,2042 1127,2044 1134,2049 1141,2049 1148,2041 1179,2042 1192,2038 1233,2041 1374,2041 1377,2050 1385,2052 1403,2050 1404,2040 1436,2040 1437,2045 1452,2048 1456,2052 1466,2049 1467,2039 1583,2043 1653,2042 1669,2044 1681,2052 1697,2051 1706,2043 1808,2041 1808,1999 1788,1998 1783,1990 1765,1988 1743,1990 1723,1987 1715,1989 1712,1997 1632,1998 1628,1992 1619,1990 1563,1988 1547,1988 1543,1998 1533,1998 1520,1997 1509,1987 1485,1988 1477,1998 1303,1999 1264,1998 1261,1989 1258,1988 1242,1988 1238,1998 1222,1998 1214,1988"/>
+        <Coords points="1184,1995 1134,1998 1111,2003 1099,1998 1044,1997 1044,2041 1080,2039 1084,2041 1089,2050 1103,2042 1127,2044 1134,2049 1141,2049 1148,2041 1179,2042 1192,2038 1233,2041 1374,2041 1377,2050 1385,2052 1403,2050 1404,2040 1436,2040 1437,2045 1452,2048 1456,2052 1466,2049 1467,2039 1583,2043 1653,2042 1669,2044 1681,2052 1697,2051 1706,2043 1808,2041 1808,1999 1788,1998 1783,1990 1743,1990 1714,1990 1712,1997 1632,1998 1628,1992 1619,1990 1546,1990 1543,1998 1533,1998 1520,1997 1512,1990 1483,1990 1477,1998 1303,1999 1264,1998 1261,1990 1241,1990 1238,1998 1222,1998 1215,1990 1192,1990"/>
         <Baseline points="1044,2031 1808,2031"/>
         <Word id="region0007_line0028_word0000" custom="readingOrder {index:0;}">
           <Coords points="1113,2042 1113,2006 1062,2006 1062,2040 1080,2039 1084,2041 1084,2042 1103,2042"/>
@@ -3158,7 +3174,7 @@ drant quidem in locumMatth. 26, 8. Marc.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0032" custom="readingOrder {index:4;}">
-        <Coords points="1266,2196 1240,2197 1228,2205 1192,2208 1182,2216 1174,2215 1168,2207 1044,2206 1045,2249 1095,2251 1100,2255 1109,2255 1114,2251 1148,2250 1153,2253 1171,2253 1175,2256 1181,2256 1187,2251 1198,2251 1205,2259 1216,2259 1222,2250 1258,2246 1306,2247 1347,2249 1376,2257 1389,2257 1410,2252 1450,2250 1517,2252 1528,2241 1527,2212 1522,2207 1408,2208 1298,2205 1289,2197"/>
+        <Coords points="1240,2197 1228,2205 1192,2208 1182,2216 1174,2215 1168,2207 1044,2206 1045,2249 1070,2250 1148,2250 1222,2250 1258,2246 1306,2247 1347,2249 1350,2250 1450,2250 1519,2250 1528,2241 1527,2212 1522,2207 1408,2208 1298,2205 1289,2197 1266,2196"/>
         <Baseline points="1045,2240 1528,2241"/>
         <Word id="region0007_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="1062,2212 1111,2212 1112,2242 1063,2242"/>
@@ -3201,17 +3217,17 @@ drant quidem in locumMatth. 26, 8. Marc.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>14, 4. Sed tamen propriè ab Evangeliſtis&#13;
-ibi adhibetur ad exprimendum internum&#13;
-dolorem &amp; indignationem mentis. Ita&#13;
-hæc vox invenitur Matth. 20, 24. Marc.&#13;
+        <Unicode>14, 4. Sed tamen propriè ab Evangeliſtis
+ibi adhibetur ad exprimendum internum
+dolorem &amp; indignationem mentis. Ita
+hæc vox invenitur Matth. 20, 24. Marc.
 10, 14, 41. Luc. 13, 14.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754789058_129" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1654754789058_129" custom="readingOrder {index:9;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,2250 1809,2250 1809,2345 1044,2345"/>
       <TextLine id="region0007_line0033" custom="readingOrder {index:0;}">
-        <Coords points="1258,2247 1252,2250 1247,2263 1184,2261 1177,2260 1171,2254 1153,2254 1146,2260 1087,2262 1082,2267 1082,2296 1098,2305 1165,2305 1176,2310 1212,2303 1273,2303 1287,2311 1295,2310 1301,2304 1308,2309 1316,2309 1321,2305 1352,2304 1358,2308 1372,2302 1395,2303 1413,2299 1458,2300 1463,2309 1480,2311 1491,2309 1497,2299 1517,2298 1578,2300 1593,2305 1606,2303 1612,2310 1625,2311 1635,2301 1653,2299 1809,2299 1809,2258 1765,2259 1763,2250 1758,2246 1738,2248 1733,2259 1669,2259 1662,2258 1657,2250 1649,2248 1610,2248 1601,2252 1599,2260 1577,2259 1572,2249 1562,2248 1554,2257 1544,2258 1482,2259 1476,2252 1450,2251 1443,2259 1427,2258 1422,2253 1410,2253 1380,2262 1308,2263 1307,2254 1301,2248 1281,2248 1274,2254 1271,2248"/>
+        <Coords points="1247,2263 1184,2261 1177,2260 1171,2254 1153,2254 1146,2260 1087,2262 1082,2267 1082,2296 1098,2305 1165,2305 1176,2310 1212,2303 1273,2303 1287,2311 1295,2310 1301,2304 1308,2309 1316,2309 1321,2305 1352,2304 1358,2308 1372,2302 1395,2303 1413,2299 1458,2300 1463,2309 1480,2311 1491,2309 1497,2299 1517,2298 1578,2300 1593,2305 1606,2303 1612,2310 1625,2311 1635,2301 1653,2299 1809,2299 1809,2258 1765,2259 1763,2250 1737,2250 1733,2259 1669,2259 1662,2258 1657,2250 1605,2250 1601,2252 1599,2260 1577,2259 1572,2250 1560,2250 1554,2257 1544,2258 1482,2259 1476,2252 1450,2251 1443,2259 1427,2258 1422,2253 1410,2253 1380,2262 1308,2263 1307,2254 1303,2250 1278,2250 1274,2254 1272,2250 1252,2250"/>
         <Baseline points="1082,2295 1809,2290"/>
         <Word id="region0007_line0033_word0000" custom="readingOrder {index:0;}">
           <Coords points="1253,2249 1252,2250 1247,2263 1184,2261 1177,2260 1171,2254 1153,2254 1146,2260 1140,2260 1140,2302 1383,2300 1383,2261 1380,2262 1308,2263 1307,2254 1301,2248 1280,2248 1274,2254 1271,2248"/>
@@ -3236,7 +3252,7 @@ hæc vox invenitur Matth. 20, 24. Marc.&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0034" custom="readingOrder {index:1;}">
-        <Coords points="1083,2300 1076,2310 1045,2310 1044,2350 1094,2351 1102,2352 1108,2357 1117,2357 1122,2353 1210,2352 1227,2349 1239,2350 1243,2355 1256,2360 1266,2360 1271,2356 1317,2352 1501,2351 1527,2349 1532,2344 1532,2316 1523,2310 1419,2310 1417,2301 1413,2300 1400,2301 1394,2305 1393,2310 1383,2303 1372,2303 1358,2309 1298,2309 1290,2312 1279,2309 1176,2311 1165,2306 1100,2310 1099,2306"/>
+        <Coords points="1076,2310 1045,2310 1044,2345 1531,2345 1532,2344 1532,2316 1523,2310 1419,2310 1417,2301 1413,2300 1400,2301 1394,2305 1393,2310 1383,2303 1372,2303 1358,2309 1298,2309 1290,2312 1279,2309 1176,2311 1165,2306 1100,2310 1099,2306 1083,2300"/>
         <Baseline points="1044,2340 1532,2338"/>
         <Word id="word_1654754789149_132" custom="readingOrder {index:0;}">
           <Coords points="1062,2310 1076,2310 1078,2307 1099,2307 1100,2310 1119,2308 1119,2345 1062,2345"/>
@@ -3279,11 +3295,11 @@ hæc vox invenitur Matth. 20, 24. Marc.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γανάϰτησις, Indignatio, ſtomacha-&#13;
+        <Unicode>Α΄γανάϰτησις, Indignatio, ſtomacha-
 tio, 2 Cor. 7, II. ſolum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3069681" readingDirection="left-to-right" id="TextRegion_1654754798005_138" custom="readingOrder {index:10;}">
+    <TextRegion id="TextRegion_1654754798005_138" custom="readingOrder {index:10;}" orientation="0.3069681" readingDirection="left-to-right">
       <Coords points="1044,2345 1809,2345 1809,2514 1805,2568 1057,2568 1044,2514"/>
       <TextLine id="region0007_line0035" custom="readingOrder {index:0;}">
         <Coords points="1538,2345 1531,2346 1521,2359 1493,2359 1487,2352 1470,2351 1457,2358 1422,2362 1398,2360 1390,2353 1379,2354 1375,2362 1349,2362 1339,2354 1317,2353 1274,2357 1268,2365 1233,2365 1232,2352 1218,2350 1212,2353 1206,2366 1197,2366 1177,2364 1171,2354 1157,2353 1153,2360 1148,2362 1088,2364 1085,2368 1085,2397 1098,2405 1148,2403 1154,2407 1163,2407 1168,2415 1187,2413 1191,2407 1239,2404 1270,2410 1286,2406 1355,2401 1437,2403 1442,2408 1451,2408 1457,2403 1495,2403 1497,2409 1502,2412 1517,2411 1524,2401 1539,2399 1638,2404 1662,2401 1721,2404 1727,2410 1736,2413 1750,2403 1763,2405 1788,2400 1794,2404 1808,2404 1808,2365 1742,2364 1742,2351 1736,2345 1715,2347 1709,2362 1694,2362 1693,2353 1687,2347 1675,2348 1670,2354 1669,2362 1653,2363 1634,2361 1623,2349 1611,2350 1607,2360 1590,2360 1589,2350 1584,2345"/>
@@ -3332,13 +3348,13 @@ tio, 2 Cor. 7, II. ſolum.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0036_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1371,2408 1282,2413 1282,2453 1371,2450"/>
+          <Coords points="1368,2408 1365,2411 1282,2413 1282,2453 1371,2450 1371,2408"/>
           <TextEquiv conf="0.92166513">
             <Unicode>amor</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0036_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1500,2410 1399,2412 1395,2403 1375,2402 1374,2402 1374,2453 1428,2454 1429,2459 1456,2459 1458,2453 1500,2450"/>
+          <Coords points="1395,2403 1375,2402 1374,2402 1374,2453 1428,2454 1429,2459 1456,2459 1458,2453 1500,2450 1500,2412 1399,2412"/>
           <TextEquiv conf="0.92098564">
             <Unicode>ſemper</Unicode>
           </TextEquiv>
@@ -3375,7 +3391,7 @@ tio, 2 Cor. 7, II. ſolum.</Unicode>
         <Coords points="1542,2451 1521,2453 1517,2464 1452,2465 1440,2461 1431,2465 1345,2465 1322,2470 1312,2468 1312,2458 1307,2454 1283,2455 1278,2461 1277,2468 1246,2468 1240,2456 1236,2454 1221,2455 1220,2468 1045,2466 1044,2514 1094,2514 1099,2508 1106,2507 1191,2509 1323,2508 1328,2512 1338,2511 1344,2507 1381,2503 1494,2503 1543,2503 1550,2513 1597,2513 1608,2504 1638,2502 1721,2503 1809,2500 1809,2452 1789,2453 1785,2456 1784,2463 1628,2464 1624,2454"/>
         <Baseline points="1044,2506 1098,2498 1809,2491"/>
         <Word id="word_1654757294469_1081" custom="readingOrder {index:0;}">
-          <Coords points="1063,2469 1220,2455 1237,2455 1237,2494 1131,2502 1063,2502"/>
+          <Coords points="1063,2469 1063,2502 1131,2502 1237,2494 1237,2455 1221,2455 1220,2468 1090,2466"/>
           <TextEquiv>
             <Unicode>γεινϰατὰ</Unicode>
           </TextEquiv>
@@ -3453,7 +3469,7 @@ tio, 2 Cor. 7, II. ſolum.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0010_line0001_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1564,2551 1719,2550 1719,2511 1657,2512 1655,2504 1650,2500 1627,2504 1621,2513 1564,2513"/>
+          <Coords points="1719,2550 1719,2511 1708,2513 1671,2513 1670,2511 1657,2512 1655,2504 1653,2502 1641,2505 1635,2514 1564,2514 1564,2551"/>
           <TextEquiv conf="0.88606334">
             <Unicode>omnibus</Unicode>
           </TextEquiv>
@@ -3469,9 +3485,9 @@ tio, 2 Cor. 7, II. ſolum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Α΄γάπη,Charitas, ſæpiſſimè; ab ἄγαν&#13;
-ποιε̃ιν, quia amor ſemper efficax eſt: vel ἄ-&#13;
-γεινϰατὰ πᾶν, omni modô ſeſe movere ad&#13;
+        <Unicode>Α΄γάπη,Charitas, ſæpiſſimè; ab ἄγαν
+ποιε̃ιν, quia amor ſemper efficax eſt: vel ἄ-
+γεινϰατὰ πᾶν, omni modô ſeſe movere ad
 rem amatam, quia qui amat, omnibus affe-</Unicode>
       </TextEquiv>
     </TextRegion>

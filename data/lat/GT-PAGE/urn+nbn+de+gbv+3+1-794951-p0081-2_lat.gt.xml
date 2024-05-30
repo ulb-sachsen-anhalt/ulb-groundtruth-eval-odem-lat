@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-284">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:21Z</Created>
     <LastChange>2024-01-19T13:10:21Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a100c393-e64a-43bd-93d8-896b671480e0/00000081.jpg" imageWidth="1533" imageHeight="2269" type="content" primaryLanguage="Latin">
     <Border>
@@ -22,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="TextRegion_1671180611828_2648"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.3098868" type="header" readingDirection="left-to-right" id="TextRegion_1671180551306_2619" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671180551306_2619" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.3098868" type="header" readingDirection="left-to-right">
       <Coords points="146,343 905,343 905,417 146,417"/>
       <TextLine id="line_1671180551344_2622" custom="readingOrder {index:0;}">
         <Coords points="146,343 196,344 219,352 278,355 381,356 397,349 447,348 463,350 476,357 489,359 568,363 654,364 671,355 733,355 775,365 843,368 905,367 905,413 894,412 762,413 647,408 462,407 362,401 146,397"/>
@@ -52,7 +68,7 @@
         <Unicode>SYNGENESIA POLYGAMIA NECESSAR. 365</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" type="page-number" readingDirection="left-to-right" id="TextRegion_1671180551306_2618" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671180551306_2618" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.3098868" type="page-number" readingDirection="left-to-right">
       <Coords points="905,343 1014,343 1014,417 905,417"/>
       <TextLine id="line_1671180551344_2621" custom="readingOrder {index:0;}">
         <Coords points="905,367 961,367 988,364 1013,366 1013,416 943,417 905,413"/>
@@ -70,7 +86,7 @@
         <Unicode>SYNGENESIA POLYGAMIA NECESSAR. 365</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" readingDirection="left-to-right" id="TextRegion_1671180573221_2630" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1671180573221_2630" custom="readingOrder {index:2;}" orientation="-0.3098868" readingDirection="left-to-right">
       <Coords points="150,407 1010,407 1010,939 505,1015 149,1015 149,906"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="204,408 201,413 151,413 151,460 214,456 284,456 290,452 300,452 307,455 351,456 369,454 389,455 396,460 424,464 497,464 514,458 523,459 528,463 564,464 571,460 580,460 586,464 687,463 753,467 760,463 769,463 777,468 837,469 845,475 859,474 862,469 878,468 1010,469 1010,430 997,428 990,418 977,420 973,427 958,427 954,419 942,418 935,422 933,428 913,429 885,428 880,417 868,416 862,420 860,428 814,429 746,425 744,417 740,414 728,413 720,422 611,423 610,415 605,410 565,410 549,412 545,414 543,422 534,422 532,415 527,411 514,413 509,421 507,414 501,410 487,410 476,420 467,420 387,419 351,414 291,415 290,408"/>
@@ -629,7 +645,7 @@ T. inſt. 454.
 Fulcra prim. o.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;}" orientation="-0.3098868" readingDirection="left-to-right">
       <Coords points="150,996 1007,996 1007,1110 150,1110"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="290,998 270,1000 267,1004 266,1017 170,1016 165,1021 165,1036 171,1040 189,1042 199,1048 234,1048 265,1045 270,1036 274,1052 294,1055 396,1054 404,1057 433,1057 440,1053 462,1053 474,1057 481,1049 491,1051 500,1048 516,1057 584,1058 591,1054 609,1054 617,1059 624,1055 636,1055 642,1059 679,1059 686,1055 705,1054 714,1060 870,1064 876,1059 885,1059 892,1064 902,1065 1007,1068 1007,1026 939,1025 934,1014 920,1013 916,1010 854,1009 850,1012 848,1021 760,1019 756,1016 741,1019 739,1012 732,1007 714,1006 705,1018 668,1017 661,1007 649,1008 642,1017 631,1017 629,1010 624,1006 608,1009 603,1017 582,1017 580,1008 570,1004 496,1003 483,1007 479,1014 452,1014 447,1005 437,1004 429,1007 425,1014 407,1015 353,1013 351,1005 342,998"/>
@@ -700,11 +716,11 @@ Fulcra prim. o.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>- - ſecundar. Glandulæ ſetaceæ foliares&#13;
+        <Unicode>- - ſecundar. Glandulæ ſetaceæ foliares
 ſimplices. Acclivibus ſubudis comperitur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;} structure {type:heading;}" orientation="-0.3098868" type="heading" readingDirection="left-to-right">
       <Coords points="375,1147 773,1147 773,1197 375,1197"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="574,1147 375,1147 375,1196 772,1197 772,1150"/>
@@ -722,7 +738,7 @@ Fulcra prim. o.</Unicode>
         <Unicode>MONOGAMIA</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-0.3098868" type="heading" readingDirection="left-to-right">
       <Coords points="276,1231 873,1231 873,1290 276,1290"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="475,1231 276,1231 276,1287 321,1287 365,1283 540,1284 578,1287 703,1289 872,1287 872,1246 816,1244 806,1233 790,1234 783,1239 753,1235 712,1240 708,1240 702,1232 689,1232 684,1235"/>
@@ -752,7 +768,7 @@ Fulcra prim. o.</Unicode>
         <Unicode>JASIONE. la Jaſione.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" readingDirection="left-to-right" id="TextRegion_1671181010880_2659" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1671181010880_2659" custom="readingOrder {index:6;}" orientation="-0.3098868" readingDirection="left-to-right">
       <Coords points="147,1297 1006,1297 1006,1733 1005,1774 852,1777 852,1825 146,1825 146,1704"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="430,1298 407,1306 275,1305 263,1303 257,1298 147,1297 148,1333 155,1333 160,1337 181,1342 187,1347 194,1348 240,1348 257,1343 270,1348 333,1350 435,1352 439,1348 447,1347 457,1353 573,1355 581,1350 590,1350 597,1355 609,1356 734,1356 742,1352 761,1351 769,1356 822,1353 829,1358 852,1362 866,1358 903,1359 921,1367 933,1365 936,1361 1006,1361 1004,1313 999,1308 964,1307 955,1310 950,1306 941,1306 935,1308 930,1317 922,1317 920,1309 915,1305 890,1305 885,1309 883,1316 634,1314 601,1312 599,1304 594,1300 584,1300 574,1310 546,1312 529,1310 527,1303 522,1299 511,1299 503,1309 496,1309 494,1303 487,1299"/>
@@ -997,13 +1013,13 @@ Fulcra prim. o.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671181400651_2773" custom="readingOrder {index:3;}">
-          <Coords points="598,1546 635,1539 718,1536 737,1536 779,1541 779,1581 608,1584 597,1584"/>
+          <Coords points="598,1546 597,1584 608,1584 612,1582 653,1578 661,1583 687,1582 693,1581 695,1582 779,1581 779,1541 742,1541 737,1536 719,1536 716,1539 635,1539"/>
           <TextEquiv>
             <Unicode>5-angular.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671181409761_2779" custom="readingOrder {index:4;}">
-          <Coords points="801,1549 830,1538 848,1538 923,1539 934,1546 934,1575 820,1577 800,1577"/>
+          <Coords points="801,1549 800,1577 820,1577 934,1575 934,1546 931,1546 923,1539 911,1539 906,1545 863,1545 853,1543 848,1538 830,1538 827,1541 822,1541"/>
           <TextEquiv>
             <Unicode>2-locul.</Unicode>
           </TextEquiv>
@@ -1077,7 +1093,7 @@ Fulcra prim. o.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0008_word0004" custom="readingOrder {index:4;}">
-          <Coords points="715,1633 705,1637 603,1630 603,1674 641,1679 664,1677 703,1678 712,1674 722,1674 727,1678 755,1679 818,1680 818,1634 791,1633 787,1636 729,1633"/>
+          <Coords points="614,1630 604,1636 603,1635 603,1674 641,1679 664,1677 703,1678 712,1674 722,1674 727,1678 755,1679 818,1680 818,1634 793,1633 787,1636 717,1633 705,1637 629,1635 628,1631"/>
           <TextEquiv conf="0.7847279">
             <Unicode>(montana)</Unicode>
           </TextEquiv>
@@ -1144,7 +1160,7 @@ Fulcra prim. o.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0009_word0006" custom="readingOrder {index:6;}">
-          <Coords points="681,1713 731,1715 731,1679 707,1677 695,1682 681,1681"/>
+          <Coords points="731,1715 731,1682 728,1682 725,1678 707,1677 695,1682 681,1681 681,1713"/>
           <TextEquiv conf="0.7513335">
             <Unicode>ed</Unicode>
           </TextEquiv>
@@ -1172,7 +1188,7 @@ Fulcra prim. o.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0001" custom="readingOrder {index:9;}">
-        <Coords points="713,1724 715,1715 711,1720 710,1730 670,1730 665,1719 652,1718 646,1722 644,1731 625,1732 582,1730 586,1721 586,1710 581,1705 573,1705 566,1710 563,1716 563,1729 538,1726 537,1720 542,1713 542,1704 518,1704 518,1715 491,1715 490,1704 467,1705 467,1714 450,1716 446,1729 376,1728 364,1721 338,1719 277,1722 263,1717 241,1716 232,1708 222,1708 214,1714 206,1714 203,1705 146,1704 147,1755 185,1756 190,1753 202,1753 218,1764 234,1756 267,1757 274,1758 284,1771 302,1770 310,1762 319,1762 326,1767 366,1765 374,1770 405,1773 532,1773 543,1779 553,1778 558,1774 582,1773 870,1779 894,1776 947,1777 958,1789 963,1789 969,1780 975,1778 1005,1779 1005,1740 989,1740 987,1732 982,1728 969,1729 964,1740 873,1736 870,1725 863,1721 844,1724 838,1735 824,1734 822,1725 816,1721 808,1721 801,1728 795,1721 783,1721 778,1725 777,1732 773,1733 772,1721 767,1716 739,1716 735,1725"/>
+        <Coords points="715,1715 711,1720 710,1730 670,1730 665,1719 652,1718 646,1722 644,1731 625,1732 582,1730 586,1721 586,1710 581,1705 573,1705 566,1710 563,1716 563,1729 538,1726 537,1720 542,1713 542,1704 518,1704 518,1715 491,1715 490,1704 467,1705 467,1714 450,1716 446,1729 376,1728 364,1721 338,1719 277,1722 263,1717 241,1716 232,1708 222,1708 214,1714 206,1714 203,1705 146,1704 147,1755 185,1756 190,1753 202,1753 218,1764 234,1756 267,1757 274,1758 284,1771 302,1770 310,1762 319,1762 326,1767 366,1765 374,1770 405,1773 532,1773 543,1779 553,1778 558,1774 582,1773 852,1778 852,1777 892,1776 894,1776 898,1776 1005,1774 1005,1740 989,1740 987,1732 982,1728 969,1729 964,1740 873,1736 870,1725 863,1721 844,1724 838,1735 824,1734 822,1725 816,1721 808,1721 801,1728 795,1721 783,1721 778,1725 777,1732 773,1733 772,1721 767,1716 739,1716 735,1725 713,1724"/>
         <Baseline points="147,1745 449,1763 1005,1770"/>
         <Word id="region0008_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="153,1710 153,1755 185,1756 190,1753 202,1753 210,1758 228,1758 234,1756 248,1756 248,1716 241,1716 235,1710 218,1710 214,1714 206,1714 204,1710"/>
@@ -1205,7 +1221,7 @@ Fulcra prim. o.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0001_word0005" custom="readingOrder {index:5;}">
-          <Coords points="734,1716 734,1756 884,1756 884,1736 873,1736 870,1725 863,1721 844,1724 838,1735 824,1734 822,1725 816,1721 808,1721 801,1728 795,1721 783,1721 778,1725 777,1732 773,1733 772,1721 767,1716 739,1716"/>
+          <Coords points="734,1756 884,1756 884,1736 873,1736 870,1725 863,1721 844,1724 838,1735 824,1734 822,1725 816,1721 808,1721 801,1728 795,1721 783,1721 778,1725 777,1732 773,1733 772,1721 767,1716 739,1716 735,1725 734,1724"/>
           <TextEquiv>
             <Unicode>ſcabioſæ</Unicode>
           </TextEquiv>
@@ -1265,7 +1281,7 @@ Stirp. 496. n. 1. Rapunculus ſcabioſæ capi-
 tulo T. inſt. 113. Ful-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671181010880_2658" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671181010880_2658" custom="readingOrder {index:7;} structure {type:catch-word;}" orientation="-0.3098868" type="catch-word" readingDirection="left-to-right">
       <Coords points="852,1777 1005,1774 1005,1825 852,1825"/>
       <TextLine id="line_1671181010917_2661" custom="readingOrder {index:0;}">
         <Coords points="852,1780 872,1780 894,1777 947,1778 958,1790 966,1789 968,1782 975,1779 1005,1780 1004,1825 868,1824 866,1818 852,1817"/>
@@ -1284,7 +1300,7 @@ tulo T. inſt. 113. Ful-</Unicode>
         <Unicode>tulo T. inſt. 113. Ful-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.3098868" type="footnote" readingDirection="left-to-right" id="TextRegion_1671180611828_2648" custom="readingOrder {index:8;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1671180611828_2648" custom="readingOrder {index:8;} structure {type:footnote;}" orientation="-0.3098868" type="footnote" readingDirection="left-to-right">
       <Coords points="188,1840 1001,1840 1002,1887 1002,1970 137,1970 137,1887"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="188,1840 188,1894 237,1894 285,1890 298,1891 308,1901 317,1901 328,1893 391,1896 399,1906 406,1908 463,1908 488,1902 513,1901 709,1905 725,1909 730,1913 742,1910 786,1910 797,1913 909,1906 1000,1905 1000,1867 843,1869 834,1860 819,1860 809,1868 805,1861 791,1859 784,1868 778,1868 767,1861 743,1861 738,1857 729,1857 719,1864 712,1857 703,1857 696,1865 531,1862 524,1855 514,1855 507,1862 498,1862 482,1861 477,1856 456,1853 424,1853 406,1847 377,1847 372,1843 347,1844 320,1840"/>
@@ -1383,8 +1399,8 @@ tulo T. inſt. 113. Ful-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(*) Floſculi (floris communis) diſcum occu-&#13;
-pantes, ſæpius abortivi: Stigmate clavato in-&#13;
+        <Unicode>(*) Floſculi (floris communis) diſcum occu-
+pantes, ſæpius abortivi: Stigmate clavato in-
 diviſo.</Unicode>
       </TextEquiv>
     </TextRegion>

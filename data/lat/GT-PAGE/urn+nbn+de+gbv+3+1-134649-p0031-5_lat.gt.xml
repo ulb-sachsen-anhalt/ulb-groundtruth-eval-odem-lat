@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-19">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:13Z</Created>
     <LastChange>2024-01-19T13:07:13Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d2e09bbb-6b2c-4156-bb7e-84d6cae0d372/00000031.jpg" imageWidth="2134" imageHeight="2783" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,18 +34,18 @@
         <RegionRefIndexed index="4" regionRef="region_1676446906777_487"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676446784220_425" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676446784220_425" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="609,519 609,561 1134,580 1134,538"/>
       <TextLine id="line_1676446784331_428" custom="readingOrder {index:0;}">
-        <Coords points="609,519 1140,538 1140,580 609,561"/>
+        <Coords points="1134,579 1134,538 609,519 609,561"/>
         <Word id="word_1676446805326_433" custom="readingOrder {index:0;}">
-          <Coords points="611,519 762,519 762,564 611,564"/>
+          <Coords points="762,564 762,524 611,519 611,561 692,564"/>
           <TextEquiv>
             <Unicode>TRIUM</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676446809044_436" custom="readingOrder {index:1;}">
-          <Coords points="789,531 1132,531 1132,578 789,578"/>
+          <Coords points="789,531 789,567 1084,578 1132,578 1132,537 944,531"/>
           <TextEquiv>
             <Unicode>PERSONARUM.</Unicode>
           </TextEquiv>
@@ -42,7 +58,7 @@
         <Unicode>TRIUM PERSONARUM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676446754624_416" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676446754624_416" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1484,543 1484,593 1536,593 1536,543"/>
       <TextLine id="line_1676446754708_419" custom="readingOrder {index:0;}">
         <Coords points="1484,543 1484,593 1536,593 1536,543"/>
@@ -60,10 +76,10 @@
         <Unicode>23</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.2980212" readingDirection="left-to-right" id="TextRegion_1643271249112_366" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1643271249112_366" custom="readingOrder {index:2;}" orientation="-1.2980212" readingDirection="left-to-right">
       <Coords points="259,561 1544,600 1537,1794 1503,1895 226,1835 208,1783 210,1696"/>
       <TextLine id="region0001_line0002" custom="readingOrder {index:0;}">
-        <Coords points="411,556 402,566 257,558 256,596 256,604 420,614 451,613 475,616 567,620 595,624 918,633 945,637 1157,644 1162,648 1171,648 1188,642 1282,643 1358,648 1540,651 1541,609 1515,608 1508,597 1502,595 1491,596 1487,605 1447,600 1413,603 1339,600 1330,588 1313,589 1303,598 1281,599 1276,599 1270,588 1260,588 1252,590 1248,599 1057,595 1050,585 1036,586 1031,594 999,593 977,592 975,584 971,582 952,582 949,590 879,587 873,579 850,579 844,584 805,583 799,577 783,576 779,583 755,585 610,578 602,576 599,571 592,569 580,570 575,575 528,574 518,572 510,563 498,563 489,572 453,570 442,569 434,559"/>
+        <Coords points="402,566 375,565 259,561 257,604 420,614 451,613 475,616 567,620 595,624 918,633 945,637 1157,644 1162,648 1171,648 1188,642 1282,643 1358,648 1540,651 1541,609 1515,608 1509,599 1490,598 1487,605 1447,600 1413,603 1339,600 1334,594 1309,593 1303,598 1281,599 1276,599 1272,592 1252,591 1248,599 1057,595 1050,585 1050,585 1036,586 1031,594 999,593 977,592 975,584 972,583 952,582 949,590 879,587 873,580 852,579 850,579 844,584 805,583 799,577 782,577 779,583 755,585 610,578 602,576 599,571 579,571 575,575 528,574 518,572 515,569 493,568 489,572 453,570 442,569 440,566 403,565"/>
         <Word id="region0001_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="271,570 341,571 341,599 271,598"/>
           <TextEquiv>
@@ -137,7 +153,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643273557618_798" custom="readingOrder {index:1;}">
-          <Coords points="347,621 391,621 488,623 487,667 408,673 390,673 346,658"/>
+          <Coords points="487,667 488,623 391,621 347,621 346,658 366,664 380,666 381,670 390,673 408,673 410,667 447,666 453,669 479,667"/>
           <TextEquiv>
             <Unicode>depulſi.</Unicode>
           </TextEquiv>
@@ -527,7 +543,7 @@
       <TextLine id="region0001_line0009" custom="readingOrder {index:7;}">
         <Coords points="271,922 266,926 264,939 246,938 245,977 361,986 376,997 381,995 384,988 455,993 462,994 468,999 512,995 627,1001 725,1001 909,1009 981,1009 1063,1014 1067,1017 1078,1017 1083,1014 1110,1013 1116,1016 1141,1017 1143,1025 1152,1029 1167,1027 1170,1018 1197,1019 1213,1020 1233,1032 1239,1031 1244,1022 1275,1021 1349,1022 1354,1032 1369,1035 1378,1031 1380,1023 1529,1024 1530,978 1445,977 1434,975 1426,969 1408,969 1395,975 1361,977 1265,974 1262,967 1245,966 1241,968 1239,975 1106,972 1102,965 1086,966 1081,971 1065,971 1054,969 1052,962 1045,958 1028,959 1019,967 1006,966 1001,957 984,958 980,964 962,963 949,957 912,955 901,957 893,963 810,962 805,959 788,959 780,950 770,950 761,956 757,951 745,949 677,947 667,954 644,953 628,946 611,946 604,947 601,952 584,953 577,946 564,946 559,942 550,942 536,951 526,943 509,941 505,949 479,952 478,943 474,938 448,935 442,943 442,950 437,952 370,943 297,940 292,937 289,924"/>
         <Word id="word_1643271714050_522" custom="readingOrder {index:0;}">
-          <Coords points="267,925 289,925 448,935 469,937 485,952 484,982 469,985 307,981 264,978 264,933 266,926"/>
+          <Coords points="289,925 267,925 266,926 264,939 264,978 307,981 469,985 484,982 485,952 484,951 479,952 478,946 470,937 448,935 442,943 442,950 437,952 370,943 297,940 292,937 289,925"/>
           <TextEquiv>
             <Unicode>ὀιϰονομιϰῶς</Unicode>
           </TextEquiv>
@@ -539,13 +555,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643271429784_480" custom="readingOrder {index:2;}">
-          <Coords points="706,948 745,949 757,951 761,956 761,1005 704,1004"/>
+          <Coords points="706,948 704,1001 725,1001 761,1002 761,956 757,951 745,949"/>
           <TextEquiv>
             <Unicode>Vt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643271429768_479" custom="readingOrder {index:3;}">
-          <Coords points="761,956 770,950 780,950 788,959 806,959 804,1006 761,1005"/>
+          <Coords points="761,956 761,1002 804,1004 805,959 805,959 788,959 780,950 770,950"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -557,7 +573,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0009_word0005" custom="readingOrder {index:5;}">
-          <Coords points="913,955 911,999 1078,1008 1080,976 1072,971 1058,968 1086,966 1081,971 1065,971 1054,969 1052,962 1045,958 1028,959 1019,967 1006,966 1001,957 984,958 980,964 962,963 949,957"/>
+          <Coords points="913,955 911,999 1078,1008 1080,976 1072,971 1058,968 1086,966"/>
           <TextEquiv conf="0.68454164">
             <Unicode>Eccleſia,</Unicode>
           </TextEquiv>
@@ -773,13 +789,13 @@
       <TextLine id="region0001_line0013" custom="readingOrder {index:11;}">
         <Coords points="313,1143 306,1149 240,1147 238,1191 283,1190 307,1197 364,1203 366,1209 382,1213 393,1211 395,1205 422,1203 434,1211 441,1220 456,1220 463,1213 603,1221 606,1224 695,1219 791,1225 792,1230 802,1233 816,1230 819,1225 876,1224 1164,1234 1205,1238 1210,1242 1219,1242 1227,1239 1404,1240 1441,1243 1442,1248 1447,1251 1463,1252 1469,1250 1471,1243 1497,1243 1509,1236 1516,1236 1522,1241 1523,1201 1469,1197 1467,1191 1462,1189 1443,1189 1434,1196 1371,1196 1274,1192 1273,1186 1263,1182 1251,1184 1247,1192 1225,1192 1075,1186 1057,1183 1046,1177 1014,1176 1005,1179 995,1175 950,1174 941,1183 940,1175 935,1172 920,1173 916,1182 914,1174 909,1170 889,1172 881,1180 755,1176 757,1170 745,1162 735,1170 738,1177 698,1176 690,1167 675,1169 672,1175 652,1174 645,1167 631,1167 625,1172 570,1172 558,1169 551,1163 526,1162 520,1168 460,1165 434,1163 429,1157 421,1154 400,1159 349,1153 325,1143"/>
         <Word id="region0001_line0013_word0000" custom="readingOrder {index:0;}">
-          <Coords points="338,1148 307,1147 306,1149 254,1147 254,1190 283,1190 307,1197 351,1201 365,1201 365,1153 421,1154 400,1159 349,1153"/>
+          <Coords points="338,1148 254,1147 254,1190 365,1201 365,1153 421,1154"/>
           <TextEquiv conf="0.3054384">
             <Unicode>audit:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0013_word0001" custom="readingOrder {index:1;}">
-          <Coords points="425,1210 427,1210 428,1163 427,1163 422,1157 414,1154 393,1159 372,1157 371,1208 387,1209 388,1205 415,1203"/>
+          <Coords points="428,1163 427,1163 422,1157 417,1155 400,1159 395,1158 393,1159 372,1157 371,1208 387,1209 388,1205 415,1203 416,1203 422,1203 427,1206"/>
           <TextEquiv conf="0.3054384">
             <Unicode>qui</Unicode>
           </TextEquiv>
@@ -1043,7 +1059,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0017_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1047,1397 793,1396 792,1432 1071,1442"/>
+          <Coords points="952,1396 950,1400 926,1402 897,1396 793,1396 792,1432 1071,1442 1051,1405 984,1403 976,1402 974,1396"/>
           <TextEquiv conf="0.74665177">
             <Unicode>exercendarum</Unicode>
           </TextEquiv>
@@ -1055,13 +1071,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0017_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1208,1400 1205,1439 1249,1440 1252,1405 1242,1388 1218,1386"/>
+          <Coords points="1205,1439 1249,1440 1251,1405 1239,1402 1215,1400 1207,1400"/>
           <TextEquiv>
             <Unicode>ſic</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0017_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1266,1421 1408,1410 1412,1443 1264,1449"/>
+          <Coords points="1266,1421 1264,1449 1412,1443 1408,1412 1380,1412"/>
           <TextEquiv conf="0.9101446">
             <Unicode>munera</Unicode>
           </TextEquiv>
@@ -1097,7 +1113,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0018_word0003" custom="readingOrder {index:3;}">
-          <Coords points="812,1457 815,1481 914,1484 914,1477 913,1477 911,1468 897,1464 909,1442 875,1460"/>
+          <Coords points="815,1481 914,1484 914,1477 913,1477 911,1468 897,1464 907,1444 905,1444 875,1460 812,1457"/>
           <TextEquiv conf="0.9202211">
             <Unicode>cauſa</Unicode>
           </TextEquiv>
@@ -1169,25 +1185,25 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0019_word0005" custom="readingOrder {index:5;}">
-          <Coords points="792,1507 949,1506 954,1538 798,1531"/>
+          <Coords points="792,1507 798,1531 954,1538 949,1508 896,1506"/>
           <TextEquiv conf="0.91582274">
             <Unicode>exereret</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0019_word0006" custom="readingOrder {index:6;}">
-          <Coords points="967,1502 969,1548 1012,1559 1009,1516 981,1501"/>
+          <Coords points="969,1548 1000,1556 1011,1556 1009,1516 1001,1512 995,1512 989,1511 987,1505 981,1501 967,1502"/>
           <TextEquiv conf="0.93271613">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0019_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1031,1513 1030,1560 1214,1564 1215,1507 1211,1514 1184,1514 1179,1508 1167,1507 1160,1514 1130,1516"/>
+          <Coords points="1030,1556 1031,1556 1035,1560 1068,1561 1153,1558 1197,1563 1198,1564 1214,1564 1215,1508 1211,1514 1184,1514 1179,1508 1167,1507 1160,1514 1130,1516 1031,1513"/>
           <TextEquiv conf="0.90233254">
             <Unicode>operando,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0019_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1231,1507 1215,1517 1219,1556 1393,1558 1409,1519 1409,1518 1273,1508 1233,1507"/>
+          <Coords points="1215,1517 1219,1556 1393,1558 1409,1519 1409,1518 1316,1521 1284,1518 1281,1510 1273,1508 1260,1508 1255,1516 1238,1516 1233,1507 1231,1507"/>
           <TextEquiv conf="0.91748726">
             <Unicode>haberetur</Unicode>
           </TextEquiv>
@@ -1301,7 +1317,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0005" custom="readingOrder {index:5;}">
-          <Coords points="917,1610 916,1664 1128,1669 1128,1621 1160,1620 1155,1616 1137,1616 1131,1620 1103,1624 1053,1623 1036,1620 1032,1613 1011,1611 948,1619 947,1610 935,1606 917,1609"/>
+          <Coords points="916,1661 1034,1666 1060,1665 1075,1668 1128,1669 1128,1621 1160,1620 1155,1616 1137,1616 1131,1620 1103,1624 1053,1623 1036,1620 1032,1613 1011,1611 948,1619 947,1610 935,1606 917,1609 917,1610"/>
           <TextEquiv>
             <Unicode>funƈtiones,</Unicode>
           </TextEquiv>
@@ -1319,7 +1335,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1429,1628 1428,1666 1504,1668 1502,1632 1502,1630"/>
+          <Coords points="1428,1666 1504,1668 1502,1632 1499,1632 1428,1630"/>
           <TextEquiv conf="0.9174687">
             <Unicode>cer-</Unicode>
           </TextEquiv>
@@ -1385,7 +1401,7 @@
       <TextLine id="region0002_line0001" custom="readingOrder {index:21;}">
         <Coords points="263,1680 218,1683 217,1728 278,1734 284,1735 290,1741 299,1742 311,1737 458,1752 594,1761 608,1764 612,1774 623,1777 641,1777 643,1767 1071,1781 1072,1790 1097,1791 1102,1782 1504,1787 1505,1775 1505,1746 1424,1740 1417,1732 1402,1732 1392,1739 1379,1741 1375,1741 1368,1733 1357,1733 1349,1741 1312,1740 1304,1730 1294,1730 1287,1737 1275,1737 1265,1729 1255,1727 1241,1727 1229,1731 1225,1736 1187,1738 1014,1731 979,1732 965,1721 933,1723 925,1730 839,1730 833,1723 822,1723 815,1729 770,1728 738,1727 730,1716 720,1716 698,1725 687,1724 637,1717 604,1718 458,1703 449,1701 441,1695 431,1695 424,1689 407,1690 398,1697 386,1697 377,1686 368,1686 357,1693 347,1693 343,1690 320,1691 292,1681"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="308,1686 242,1685 240,1730 264,1732 302,1730 302,1688 347,1693 343,1690 320,1691"/>
+          <Coords points="308,1686 242,1685 240,1730 302,1730 302,1688 347,1693"/>
           <TextEquiv conf="0.9226737">
             <Unicode>eſt,</Unicode>
           </TextEquiv>
@@ -1449,7 +1465,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0001" custom="readingOrder {index:22;}">
-        <Coords points="237,1737 236,1782 317,1791 353,1797 358,1801 392,1799 655,1822 958,1830 965,1832 966,1839 1019,1841 1039,1835 1074,1837 1078,1842 1084,1843 1089,1843 1096,1838 1298,1838 1424,1843 1427,1853 1452,1854 1455,1845 1462,1843 1527,1846 1532,1850 1542,1850 1544,1797 1210,1790 1203,1789 1196,1780 1185,1780 1177,1791 1164,1792 1150,1792 1144,1789 1129,1791 1123,1784 1111,1783 1104,1790 1007,1785 993,1787 987,1779 975,1779 968,1786 858,1785 854,1781 844,1781 840,1784 816,1784 798,1782 790,1770 778,1772 770,1781 664,1773 657,1764 644,1764 637,1773 597,1773 595,1761 591,1755 573,1755 562,1764 541,1763 507,1759 476,1759 475,1752 467,1747 457,1747 450,1757 401,1753 393,1743 382,1743 375,1750 361,1747 354,1740 328,1739 325,1742 319,1742 317,1739"/>
+        <Coords points="236,1782 317,1791 353,1797 358,1801 392,1799 655,1822 958,1830 965,1832 966,1839 1019,1841 1039,1835 1074,1837 1078,1842 1084,1843 1089,1843 1096,1838 1298,1838 1424,1843 1427,1853 1452,1854 1455,1845 1462,1843 1519,1845 1536,1796 1210,1790 1203,1789 1196,1780 1185,1780 1177,1791 1164,1792 1150,1792 1144,1789 1129,1791 1123,1784 1111,1783 1104,1790 1007,1785 993,1787 987,1779 975,1779 968,1786 858,1785 854,1781 844,1781 840,1784 816,1784 798,1782 790,1770 778,1772 770,1781 664,1773 657,1764 644,1764 637,1773 597,1773 595,1761 591,1755 573,1755 562,1764 541,1763 507,1759 476,1759 475,1752 467,1747 457,1747 450,1757 401,1753 393,1743 382,1743 375,1750 361,1747 354,1740 328,1739 325,1742 319,1742 317,1739 237,1737"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="317,1739 242,1738 240,1782 317,1791 353,1797 358,1801 372,1800 373,1749 361,1747 354,1740 327,1739 325,1742 319,1742"/>
           <TextEquiv conf="0.82848257">
@@ -1515,35 +1531,35 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>nec ordinariæ vices eos ad tribunal reducant, vnde fuerant an-&#13;
-tea depulſi. Vsque adeo, vt ſi fingas animo, ſatisfactionem ali-&#13;
-quam tali ſupremæ curiæ præſtandam eſſe, dimidia illius pars, quæ&#13;
-abſtitit per iſtam œconomiam a iure dicendo eam alteri præſta-&#13;
-re poterit, cum tamen ipſa ſibi illam præſtitiſſe dici non posſit.&#13;
-Atque idem animaduertere eſt in omnibus aliis rebus, in quibus&#13;
-auctoritas eſt pluribus ex æquo commiſſa, functiones vero ſunt&#13;
-ὀιϰονομιϰῶς diſtinctæ. Vt in vna Eccleſia, in qua plures paſtores&#13;
-æqualem &amp; indiuiſam auctoritatem ſortiti ſunt, functiones vero&#13;
-per vices diſtributas, ſunt illi ſibi inuicem ſuperiores &amp; inferio-&#13;
-res vicisſim, &amp; dum alter concionatur, alter vero concionantem&#13;
-audit: qui prædicat, habetur pro ſolo Paſtore tum, alter eo reſpe-&#13;
-ctu, quaſi vnus e populo, eorum locum occupat, quorum docen-&#13;
-dorum gratia ſacrum miniſterium eſt inſtitutum. Cuius rei&#13;
-ratio facile reddi poteſt. Scilicet quemadmodum facultates datæ&#13;
-non ſunt, niſi operationum exercendarum ergo; ſic munera fun-&#13;
-ctionum obeundarum modo cauſa demandantur. Vt igitur ſi fa-&#13;
-cultas aliqua ſe ſe nusquam exereret in operando, haberetur pro-&#13;
-pemodum pro nulla; ſic ſi muneris functio ceſſaret, munus ipſum&#13;
-nullo loco cenſeretur. Vbi igitur functiones, &amp; operationes cer-&#13;
-tis quibusdam interuallis ὀιϰονομιϰῶς ceſſant &amp; exercentur, par&#13;
-eſt, vt inſtituta comparatione inter illa tempora ceſſationis &amp; ex-&#13;
+        <Unicode>nec ordinariæ vices eos ad tribunal reducant, vnde fuerant an-
+tea depulſi. Vsque adeo, vt ſi fingas animo, ſatisfactionem ali-
+quam tali ſupremæ curiæ præſtandam eſſe, dimidia illius pars, quæ
+abſtitit per iſtam œconomiam a iure dicendo eam alteri præſta-
+re poterit, cum tamen ipſa ſibi illam præſtitiſſe dici non posſit.
+Atque idem animaduertere eſt in omnibus aliis rebus, in quibus
+auctoritas eſt pluribus ex æquo commiſſa, functiones vero ſunt
+ὀιϰονομιϰῶς diſtinctæ. Vt in vna Eccleſia, in qua plures paſtores
+æqualem &amp; indiuiſam auctoritatem ſortiti ſunt, functiones vero
+per vices diſtributas, ſunt illi ſibi inuicem ſuperiores &amp; inferio-
+res vicisſim, &amp; dum alter concionatur, alter vero concionantem
+audit: qui prædicat, habetur pro ſolo Paſtore tum, alter eo reſpe-
+ctu, quaſi vnus e populo, eorum locum occupat, quorum docen-
+dorum gratia ſacrum miniſterium eſt inſtitutum. Cuius rei
+ratio facile reddi poteſt. Scilicet quemadmodum facultates datæ
+non ſunt, niſi operationum exercendarum ergo; ſic munera fun-
+ctionum obeundarum modo cauſa demandantur. Vt igitur ſi fa-
+cultas aliqua ſe ſe nusquam exereret in operando, haberetur pro-
+pemodum pro nulla; ſic ſi muneris functio ceſſaret, munus ipſum
+nullo loco cenſeretur. Vbi igitur functiones, &amp; operationes cer-
+tis quibusdam interuallis ὀιϰονομιϰῶς ceſſant &amp; exercentur, par
+eſt, vt inſtituta comparatione inter illa tempora ceſſationis &amp; ex-
 ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.2980212" readingDirection="left-to-right" id="TextRegion_1643271236471_360" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1643271236471_360" custom="readingOrder {index:3;}" orientation="-1.2980212" readingDirection="left-to-right">
       <Coords points="236,1843 1499,1902 1500,2193 1492,2484 220,2445 222,2196"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
-        <Coords points="234,1791 233,1795 232,1846 242,1848 294,1842 303,1854 318,1853 325,1850 328,1846 336,1846 487,1856 595,1872 710,1876 732,1880 1015,1886 1043,1884 1048,1879 1049,1847 1044,1842 968,1840 931,1836 922,1836 918,1839 886,1838 879,1828 866,1828 860,1837 855,1831 844,1831 838,1837 813,1836 812,1827 807,1822 777,1821 745,1822 741,1825 739,1834 684,1831 651,1825 642,1815 623,1814 610,1824 596,1823 585,1813 577,1813 567,1820 446,1809 440,1799 428,1800 421,1807 416,1807 297,1793"/>
+        <Coords points="297,1842 236,1843 236,1847 299,1848 303,1854 325,1850 487,1856 595,1872 732,1880 1015,1886 1046,1881 426,1852 422,1848 327,1843 323,1847 301,1846"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="389,1803 241,1801 239,1847 242,1848 294,1842 300,1851 321,1851 325,1850 328,1846 336,1846 460,1854 500,1855 500,1813 446,1809 443,1804 423,1804 421,1807 416,1807"/>
           <TextEquiv conf="0.9162419">
@@ -1573,7 +1589,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:1;}">
-        <Coords points="350,1849 298,1856 295,1860 296,1884 301,1889 319,1890 321,1902 334,1906 372,1905 377,1908 469,1910 549,1922 720,1932 737,1931 747,1934 748,1940 753,1943 769,1944 775,1934 816,1938 948,1938 1148,1946 1506,1953 1507,1907 1461,1904 1458,1901 1431,1904 1430,1893 1418,1889 1361,1888 1356,1893 1354,1904 1289,1902 1286,1891 1281,1887 1271,1888 1261,1902 1233,1901 1232,1892 1221,1885 1213,1885 1207,1888 1170,1887 1162,1890 1156,1899 1151,1900 1146,1900 1139,1890 1126,1892 1120,1900 1020,1896 1015,1895 1009,1886 992,1887 989,1895 960,1892 957,1888 946,1885 932,1885 925,1891 900,1893 873,1892 867,1885 852,1885 845,1882 826,1884 820,1891 775,1891 720,1886 716,1879 710,1877 695,1878 691,1885 670,1883 625,1879 592,1871 487,1857"/>
+        <Coords points="298,1856 295,1860 296,1884 301,1889 319,1890 321,1902 334,1906 372,1905 377,1908 469,1910 549,1922 720,1932 737,1931 747,1934 748,1940 753,1943 769,1944 775,1934 816,1938 948,1938 1148,1946 1499,1952 1499,1906 1461,1904 1458,1901 1431,1904 1430,1898 1355,1895 1354,1904 1289,1902 1286,1892 1268,1891 1261,1902 1233,1901 1232,1892 1227,1889 1188,1887 1170,1887 1162,1890 1156,1899 1151,1900 1146,1900 1139,1890 1126,1892 1120,1900 1020,1896 1015,1895 1009,1886 992,1887 989,1895 960,1892 957,1888 946,1885 932,1885 925,1891 900,1893 873,1892 867,1885 852,1885 845,1882 826,1884 820,1891 775,1891 720,1886 716,1879 710,1877 695,1878 691,1885 670,1883 625,1879 592,1871 487,1857 350,1849"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="376,1907 388,1908 389,1863 353,1862 352,1905 372,1905"/>
           <TextEquiv>
@@ -1633,7 +1649,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0003" custom="readingOrder {index:2;}">
-        <Coords points="253,1881 232,1881 230,1920 229,1945 274,1946 287,1955 300,1954 299,1944 303,1940 308,1940 316,1950 359,1951 372,1956 380,1949 389,1949 401,1960 424,1959 439,1964 489,1967 513,1972 516,1977 525,1980 537,1980 543,1974 561,1975 675,1983 697,1981 703,1985 716,1986 823,1992 1044,1995 1087,1997 1092,2001 1103,2001 1111,1997 1130,1998 1131,2005 1141,2009 1151,2004 1156,1996 1215,2001 1504,2006 1506,1958 1436,1958 1431,1952 1417,1951 1412,1957 1396,1957 1385,1950 1373,1950 1366,1957 1295,1956 1234,1953 1228,1948 1214,1948 1204,1954 1136,1954 1110,1948 1089,1948 1081,1943 1030,1949 1028,1943 1024,1940 1005,1942 1002,1948 977,1947 976,1942 972,1939 948,1939 936,1940 927,1948 833,1946 810,1943 798,1935 775,1935 769,1945 753,1944 747,1941 745,1935 737,1932 726,1934 720,1938 706,1938 672,1935 667,1929 653,1929 646,1934 642,1931 624,1932 478,1920 474,1913 469,1911 457,1910 448,1917 378,1910 372,1906 334,1907 302,1902 300,1890 295,1883"/>
+        <Coords points="234,1881 231,1945 274,1946 287,1955 300,1954 299,1944 303,1940 308,1940 316,1950 359,1951 372,1956 380,1949 389,1949 401,1960 424,1959 439,1964 489,1967 513,1972 516,1977 525,1980 537,1980 543,1974 561,1975 675,1983 697,1981 703,1985 716,1986 823,1992 1044,1995 1087,1997 1092,2001 1103,2001 1111,1997 1130,1998 1131,2005 1141,2009 1151,2004 1156,1996 1215,2001 1499,2005 1499,1958 1436,1958 1431,1952 1417,1951 1412,1957 1396,1957 1385,1950 1373,1950 1366,1957 1295,1956 1234,1953 1228,1948 1214,1948 1204,1954 1136,1954 1110,1948 1089,1948 1081,1943 1030,1949 1028,1943 1024,1940 1005,1942 1002,1948 977,1947 976,1942 972,1939 948,1939 936,1940 927,1948 833,1946 810,1943 798,1935 775,1935 769,1945 753,1944 747,1941 745,1935 737,1932 726,1934 720,1938 706,1938 672,1935 667,1929 653,1929 646,1934 642,1931 624,1932 478,1920 474,1913 469,1911 457,1910 448,1917 378,1910 372,1906 334,1907 302,1902 300,1890 295,1883 253,1881"/>
         <Word id="region0004_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="261,1881 241,1881 239,1938 395,1941 396,1911 378,1910 372,1906 334,1907 302,1902 300,1890 295,1883"/>
           <TextEquiv conf="0.95867884">
@@ -1653,7 +1669,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0003" custom="readingOrder {index:3;}">
-          <Coords points="726,1933 726,1973 758,1971 756,1939 745,1935 737,1932"/>
+          <Coords points="726,1973 758,1971 756,1944 753,1944 747,1941 745,1935 737,1932 726,1934"/>
           <TextEquiv conf="0.9284139">
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -1665,7 +1681,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0005" custom="readingOrder {index:5;}">
-          <Coords points="948,1939 936,1940 935,1940 940,1983 1007,1984 1021,1948 1021,1940 972,1939"/>
+          <Coords points="936,1940 935,1940 940,1983 1007,1984 1021,1948 1021,1940 1005,1942 1002,1948 977,1947 976,1942 972,1939 948,1939"/>
           <TextEquiv conf="0.9195059">
             <Unicode>illud</Unicode>
           </TextEquiv>
@@ -1683,7 +1699,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1241,1954 1258,2005 1500,2005 1500,1958 1431,1952 1417,1951 1385,1950"/>
+          <Coords points="1256,2001 1446,2005 1500,2005 1500,1958 1436,1958 1431,1952 1417,1951 1412,1957 1396,1957 1385,1950 1372,1950 1366,1957 1295,1956 1249,1953 1241,1954"/>
           <TextEquiv conf="0.913962">
             <Unicode>committitur</Unicode>
           </TextEquiv>
@@ -1693,7 +1709,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0004" custom="readingOrder {index:3;}">
-        <Coords points="303,1941 300,1944 302,1953 297,1956 284,1955 274,1947 229,1947 228,1990 300,1998 323,1996 334,2004 365,2004 373,2009 436,2019 455,2027 472,2027 479,2022 547,2024 555,2028 644,2035 689,2045 705,2042 715,2048 730,2048 735,2042 741,2041 790,2043 798,2038 806,2039 817,2047 832,2048 835,2052 845,2055 864,2054 871,2049 998,2050 1012,2047 1070,2050 1076,2059 1083,2061 1096,2060 1102,2052 1142,2052 1296,2058 1298,2064 1306,2067 1324,2065 1326,2059 1361,2056 1396,2058 1422,2055 1476,2063 1503,2062 1504,2015 1497,2014 1348,2011 1342,2005 1331,2004 1323,2011 1238,2009 1223,2008 1217,2002 1208,1999 1191,1999 1179,2006 1176,2000 1171,1998 1156,1997 1144,2010 1094,2004 969,2000 954,2003 906,2002 892,1998 888,2001 861,2001 826,1998 820,1991 804,1990 799,1996 731,1995 708,1991 697,1982 685,1983 679,1988 632,1986 542,1979 524,1981 514,1976 438,1970 424,1960 410,1960 406,1965 393,1964 390,1962 396,1959 389,1950 380,1950 372,1957 359,1952 345,1952 338,1956 311,1955 309,1953 314,1950 312,1945 308,1941"/>
+        <Coords points="300,1944 302,1953 297,1956 284,1955 274,1947 231,1947 230,1990 300,1998 323,1996 334,2004 365,2004 373,2009 436,2019 455,2027 472,2027 479,2022 547,2024 555,2028 644,2035 689,2045 705,2042 715,2048 730,2048 735,2042 741,2041 790,2043 798,2038 806,2039 817,2047 832,2048 835,2052 845,2055 864,2054 871,2049 998,2050 1012,2047 1070,2050 1076,2059 1083,2061 1096,2060 1102,2052 1142,2052 1296,2058 1298,2064 1306,2067 1324,2065 1326,2059 1361,2056 1396,2058 1422,2055 1476,2063 1499,2062 1499,2014 1497,2014 1348,2011 1342,2005 1331,2004 1323,2011 1238,2009 1223,2008 1217,2002 1208,1999 1191,1999 1179,2006 1176,2000 1171,1998 1156,1997 1144,2010 1094,2004 969,2000 954,2003 906,2002 892,1998 888,2001 861,2001 826,1998 820,1991 804,1990 799,1996 731,1995 708,1991 697,1982 685,1983 679,1988 632,1986 542,1979 524,1981 514,1976 438,1970 424,1960 410,1960 406,1965 393,1964 390,1962 396,1959 389,1950 380,1950 372,1957 359,1952 345,1952 338,1956 311,1955 309,1953 314,1950 312,1945 308,1941 303,1941"/>
         <Word id="region0004_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="308,1941 302,1941 300,1944 302,1953 297,1956 284,1955 274,1947 237,1947 237,1987 397,1991 397,1964 393,1964 390,1962 396,1959 389,1950 380,1950 372,1957 359,1952 345,1952 338,1956 311,1955 309,1953 314,1950 312,1945"/>
           <TextEquiv conf="0.90116155">
@@ -1747,7 +1763,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0005" custom="readingOrder {index:4;}">
-        <Coords points="241,1996 228,1996 227,2049 254,2052 264,2048 283,2049 398,2065 432,2067 439,2078 445,2079 456,2076 457,2073 471,2073 504,2078 525,2077 531,2080 682,2089 695,2092 724,2091 730,2094 756,2094 773,2092 784,2096 835,2099 857,2096 877,2100 940,2099 950,2112 954,2112 970,2101 1123,2107 1128,2111 1145,2109 1157,2103 1165,2104 1171,2108 1224,2109 1244,2105 1249,2108 1415,2112 1440,2116 1456,2112 1501,2113 1502,2099 1503,2064 1430,2061 1422,2056 1406,2056 1398,2061 1372,2064 1366,2057 1353,2058 1346,2066 1312,2068 1296,2063 1249,2060 1212,2063 1162,2057 1157,2053 1142,2053 1139,2057 1119,2056 1083,2062 1076,2060 1070,2051 1036,2055 1029,2048 1012,2048 1005,2050 1001,2055 986,2056 865,2054 845,2056 831,2052 815,2052 814,2047 803,2039 792,2042 790,2049 780,2051 715,2049 707,2045 625,2040 615,2038 607,2032 596,2032 590,2039 579,2037 554,2033 553,2028 547,2025 534,2024 526,2030 455,2028 439,2022 395,2017 365,2005 335,2006 323,1997 308,1997 301,2000"/>
+        <Coords points="229,1996 227,2049 254,2052 264,2048 283,2049 398,2065 432,2067 439,2078 445,2079 456,2076 457,2073 471,2073 504,2078 525,2077 531,2080 682,2089 695,2092 724,2091 730,2094 756,2094 773,2092 784,2096 835,2099 857,2096 877,2100 940,2099 950,2112 954,2112 970,2101 1123,2107 1128,2111 1145,2109 1157,2103 1165,2104 1171,2108 1224,2109 1244,2105 1249,2108 1415,2112 1440,2116 1456,2112 1499,2112 1499,2063 1430,2061 1422,2056 1406,2056 1398,2061 1372,2064 1366,2057 1353,2058 1346,2066 1312,2068 1296,2063 1249,2060 1212,2063 1162,2057 1157,2053 1142,2053 1139,2057 1119,2056 1083,2062 1076,2060 1070,2051 1036,2055 1029,2048 1012,2048 1005,2050 1001,2055 986,2056 865,2054 845,2056 831,2052 815,2052 814,2047 803,2039 792,2042 790,2049 780,2051 715,2049 707,2045 625,2040 615,2038 607,2032 596,2032 590,2039 579,2037 554,2033 553,2028 547,2025 534,2024 526,2030 455,2028 439,2022 395,2017 365,2005 335,2006 323,1997 308,1997 301,2000 241,1996"/>
         <Word id="region0004_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="263,1997 238,1997 237,2050 254,2052 264,2048 283,2049 352,2058 499,2062 499,2029 455,2028 439,2022 395,2017 365,2005 335,2006 325,1998 305,1998 301,2000"/>
           <TextEquiv>
@@ -1779,7 +1795,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1177,2059 1175,2102 1313,2105 1296,2063 1249,2060"/>
+          <Coords points="1175,2102 1313,2105 1296,2063 1249,2060 1212,2063 1178,2059 1177,2059"/>
           <TextEquiv conf="0.91877455">
             <Unicode>tantum</Unicode>
           </TextEquiv>
@@ -1845,7 +1861,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643272531662_708" custom="readingOrder {index:7;}">
-          <Coords points="1142,2110 1157,2104 1238,2106 1301,2110 1326,2117 1326,2141 1232,2139 1142,2153"/>
+          <Coords points="1142,2153 1232,2139 1326,2141 1326,2117 1310,2117 1301,2110 1266,2108 1252,2111 1238,2106 1222,2110 1217,2117 1209,2117 1204,2109 1189,2109 1185,2114 1173,2115 1172,2109 1165,2105 1157,2104 1142,2110"/>
           <TextEquiv>
             <Unicode>ſatisfaƈtio</Unicode>
           </TextEquiv>
@@ -1881,7 +1897,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643272563022_714" custom="readingOrder {index:3;}">
-          <Coords points="615,2146 640,2141 693,2143 795,2154 798,2191 644,2173 615,2172"/>
+          <Coords points="615,2172 644,2173 798,2191 795,2154 775,2155 729,2151 693,2143 652,2147 649,2143 640,2141 626,2146 615,2146"/>
           <TextEquiv>
             <Unicode>inſtituta</Unicode>
           </TextEquiv>
@@ -1899,7 +1915,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643272619803_728" custom="readingOrder {index:6;}">
-          <Coords points="1036,2164 1090,2164 1090,2205 1036,2205"/>
+          <Coords points="1036,2205 1090,2205 1090,2168 1036,2166"/>
           <TextEquiv>
             <Unicode>eo</Unicode>
           </TextEquiv>
@@ -1911,7 +1927,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0009" custom="readingOrder {index:8;}">
-          <Coords points="1308,2208 1494,2208 1495,2174 1482,2174 1476,2167 1464,2165 1439,2164 1313,2169"/>
+          <Coords points="1494,2208 1494,2174 1482,2174 1476,2167 1464,2165 1439,2164 1433,2167 1429,2175 1422,2176 1384,2174 1354,2176 1312,2173 1308,2208"/>
           <TextEquiv conf="0.9243384">
             <Unicode>nonnullis</Unicode>
           </TextEquiv>
@@ -2001,7 +2017,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="604,2253 603,2301 684,2305 685,2261 686,2257 680,2258 673,2256 662,2248 634,2248 626,2253 611,2254"/>
+          <Coords points="603,2297 627,2298 638,2303 659,2304 665,2304 665,2304 684,2305 685,2261 686,2258 680,2258 673,2256 662,2248 634,2248 626,2253 611,2254 604,2253"/>
           <TextEquiv conf="0.83128065">
             <Unicode>eſſe,</Unicode>
           </TextEquiv>
@@ -2031,13 +2047,13 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1235,2270 1238,2313 1360,2317 1359,2282 1359,2272"/>
+          <Coords points="1238,2313 1360,2317 1359,2282 1359,2272 1357,2272 1347,2275 1342,2282 1303,2278 1289,2279 1277,2277 1271,2272 1250,2271 1235,2270"/>
           <TextEquiv conf="0.9227574">
             <Unicode>Veteri</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0002_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1369,2272 1372,2317 1487,2319 1496,2275 1451,2273"/>
+          <Coords points="1372,2317 1487,2319 1493,2285 1458,2279 1451,2273 1369,2272"/>
           <TextEquiv conf="0.9211027">
             <Unicode>Teſta-</Unicode>
           </TextEquiv>
@@ -2079,19 +2095,19 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1127,2330 1131,2371 1302,2371 1298,2332 1275,2335 1181,2333 1180,2325 1177,2323 1161,2325 1157,2332"/>
+          <Coords points="1131,2371 1302,2371 1298,2335 1275,2335 1181,2333 1180,2325 1177,2323 1161,2325 1157,2332 1127,2330"/>
           <TextEquiv conf="0.91575795">
             <Unicode>quatenus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1328,2324 1312,2327 1311,2328 1322,2368 1419,2370 1414,2333 1370,2326"/>
+          <Coords points="1312,2327 1311,2328 1322,2368 1419,2370 1414,2333 1413,2333 1412,2333 1377,2332 1370,2326 1359,2326 1352,2333 1343,2333 1340,2328 1328,2324"/>
           <TextEquiv conf="0.91795564">
             <Unicode>fedus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1424,2335 1420,2383 1486,2384 1490,2334 1470,2331 1457,2330"/>
+          <Coords points="1420,2380 1486,2381 1490,2334 1470,2331 1457,2330 1424,2335"/>
           <TextEquiv conf="0.9294841">
             <Unicode>eſt,</Unicode>
           </TextEquiv>
@@ -2139,7 +2155,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0004_word0006" custom="readingOrder {index:6;}">
-          <Coords points="703,2404 809,2407 806,2364 780,2364 777,2367 770,2361 760,2360 706,2361"/>
+          <Coords points="809,2407 806,2371 800,2371 795,2364 780,2364 777,2367 770,2361 760,2360 754,2362 749,2369 705,2369 703,2404"/>
           <TextEquiv conf="0.9329527">
             <Unicode>nobis</Unicode>
           </TextEquiv>
@@ -2151,25 +2167,25 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0004_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1028,2381 1024,2386 1045,2424 1272,2430 1263,2391 1262,2389 1247,2388 1044,2381"/>
+          <Coords points="1024,2386 1045,2424 1272,2430 1263,2391 1262,2389 1247,2388 1145,2384 1140,2387 1118,2383 1044,2381 1028,2381"/>
           <TextEquiv>
             <Unicode>obſeruatum,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0004_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1278,2380 1275,2439 1311,2440 1314,2388 1293,2388 1288,2381"/>
+          <Coords points="1275,2435 1276,2434 1311,2433 1314,2388 1293,2388 1288,2381 1278,2380"/>
           <TextEquiv conf="0.9288875">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643272937929_772" custom="readingOrder {index:10;}">
-          <Coords points="1319,2387 1380,2387 1380,2436 1319,2436"/>
+          <Coords points="1380,2388 1363,2389 1319,2388 1319,2432 1357,2431 1369,2435 1380,2434"/>
           <TextEquiv>
             <Unicode>eo,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0004_word0011" custom="readingOrder {index:11;}">
-          <Coords points="1387,2423 1489,2425 1489,2382 1383,2384"/>
+          <Coords points="1489,2425 1489,2382 1441,2388 1383,2388 1387,2423"/>
           <TextEquiv conf="0.9509845">
             <Unicode>quod</Unicode>
           </TextEquiv>
@@ -2179,7 +2195,7 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0005" custom="readingOrder {index:11;}">
-        <Coords points="223,2370 221,2426 225,2429 235,2430 243,2422 294,2427 309,2442 329,2442 334,2434 338,2433 381,2442 387,2449 405,2449 413,2443 476,2448 484,2451 483,2467 495,2478 504,2479 508,2476 508,2464 517,2455 670,2470 740,2471 790,2476 804,2474 817,2479 855,2476 862,2484 872,2483 876,2476 1101,2481 1102,2489 1107,2494 1127,2495 1133,2490 1135,2482 1312,2489 1491,2484 1492,2439 1443,2436 1437,2432 1417,2432 1413,2438 1399,2441 1385,2435 1369,2436 1357,2432 1304,2434 1289,2440 1257,2440 1234,2438 1232,2433 1227,2431 1211,2432 1208,2438 1202,2431 1191,2431 1184,2437 999,2432 998,2425 993,2422 976,2420 970,2422 963,2431 900,2430 883,2432 817,2418 796,2417 791,2420 753,2423 744,2423 738,2415 721,2416 718,2424 710,2422 704,2415 692,2415 687,2420 679,2421 652,2420 647,2419 646,2413 639,2409 609,2408 601,2414 577,2412 504,2402 492,2394 472,2398 398,2386 331,2384 289,2373"/>
+        <Coords points="221,2426 225,2429 235,2430 243,2422 294,2427 309,2442 329,2442 334,2434 338,2433 381,2442 387,2449 405,2449 413,2443 476,2448 484,2451 483,2453 1491,2483 1492,2439 1443,2436 1437,2432 1417,2432 1413,2438 1399,2441 1385,2435 1369,2436 1357,2432 1304,2434 1289,2440 1257,2440 1234,2438 1232,2433 1227,2431 1211,2432 1208,2438 1202,2431 1191,2431 1184,2437 999,2432 998,2425 993,2422 976,2420 970,2422 963,2431 900,2430 883,2432 817,2418 796,2417 791,2420 753,2423 744,2423 738,2415 721,2416 718,2424 710,2422 704,2415 692,2415 687,2420 679,2421 652,2420 647,2419 646,2413 639,2409 609,2408 601,2414 577,2412 504,2402 492,2394 472,2398 398,2386 331,2384 289,2373 223,2370"/>
         <Word id="region0005_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="326,2382 228,2380 227,2429 235,2430 243,2422 294,2427 300,2433 334,2433 338,2433 343,2434 372,2435 372,2385 331,2384"/>
           <TextEquiv>
@@ -2239,21 +2255,21 @@ ercitii, in altero facultas vel munus vigere, in altero vtrumque ,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>propemodum extinctum eſſe videatur.&#13;
-§. XXVII. Secunda quæſtio eſt ab omni difficultate ſoluta.&#13;
-Quando enim peccatum in Patrem illud eſt, quod committitur&#13;
-aduerſus leges naturæ (quæ leges naturæ perfectam pietatem,&#13;
-perfectamque charitatem a creatura poſtulant,) tantum abeſt, vt&#13;
-murum videri debeat, id aboleri ſatisfactione, vt ſatisfactio proprie&#13;
-ad eius abolitionem inſtituta ſit. Atque reſpexiſſe nonnullis eo&#13;
-videtur Apoſtolus, cum in Epiſtola ad Hebræos docuit, Chriſti ſa-&#13;
-crificium oblatum eſſe, vt expiarentur peccata ſub Veteri Teſta-&#13;
-mento commiſſa. Vetus enim Teſtamentum, quatenus fedus eſt,&#13;
-&amp; fedus naturæ, vt eſt a nobis aliquoties obſeruatum, in eo, quod&#13;
+        <Unicode>propemodum extinctum eſſe videatur.
+§. XXVII. Secunda quæſtio eſt ab omni difficultate ſoluta.
+Quando enim peccatum in Patrem illud eſt, quod committitur
+aduerſus leges naturæ (quæ leges naturæ perfectam pietatem,
+perfectamque charitatem a creatura poſtulant,) tantum abeſt, vt
+murum videri debeat, id aboleri ſatisfactione, vt ſatisfactio proprie
+ad eius abolitionem inſtituta ſit. Atque reſpexiſſe nonnullis eo
+videtur Apoſtolus, cum in Epiſtola ad Hebræos docuit, Chriſti ſa-
+crificium oblatum eſſe, vt expiarentur peccata ſub Veteri Teſta-
+mento commiſſa. Vetus enim Teſtamentum, quatenus fedus eſt,
+&amp; fedus naturæ, vt eſt a nobis aliquoties obſeruatum, in eo, quod
 vtrique præcipue eſſentiale eſt, vnum ſunt atque idem. Chriſtus</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676446906777_487" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1676446906777_487" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1356,2496 1356,2534 1489,2534 1489,2496"/>
       <TextLine id="line_1676446906942_490" custom="readingOrder {index:0;}">
         <Coords points="1356,2496 1356,2534 1489,2534 1489,2496"/>

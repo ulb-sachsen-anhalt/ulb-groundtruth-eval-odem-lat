@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-84">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:44Z</Created>
     <LastChange>2024-01-19T13:07:44Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/97de3dfe-7a91-4dc8-a113-ef0ce01905a6/00000021.jpg" imageWidth="2390" imageHeight="2894" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,10 +35,7 @@
         <RegionRefIndexed index="6" regionRef="region_1682499507019_109"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682499472591_101" custom="readingOrder {index:0;}">
-      <Coords points="691,468 990,468 990,511 691,511"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682499455585_86" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682499455585_86" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="824,479 824,513 873,513 873,479"/>
       <TextLine id="line_1682499455689_89" custom="readingOrder {index:0;}">
         <Coords points="824,479 824,513 873,513 873,479"/>
@@ -40,7 +53,7 @@
         <Unicode>19</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.53216094" readingDirection="left-to-right" id="TextRegion_1664521759222_448" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1664521759222_448" custom="readingOrder {index:2;}" orientation="-0.53216094" readingDirection="left-to-right">
       <Coords points="203,518 1459,518 1459,2060 203,2060"/>
       <TextLine id="region0001_line0002" custom="readingOrder {index:0;}">
         <Coords points="388,523 383,526 370,526 365,537 292,538 266,535 258,523 247,524 241,533 203,534 204,579 260,582 266,587 276,587 283,582 313,580 323,593 342,592 344,580 496,581 497,589 502,594 523,593 539,596 546,594 550,583 595,584 600,588 612,588 628,581 640,583 668,581 855,583 862,585 864,592 871,597 889,595 897,585 966,584 996,587 998,594 1023,590 1051,590 1111,596 1120,600 1169,596 1180,606 1193,605 1197,598 1287,597 1296,600 1459,604 1458,556 1394,553 1387,541 1371,543 1365,552 1272,553 1268,551 1268,545 1262,539 1246,540 1240,551 1225,540 1215,541 1210,550 1113,547 1100,544 1095,538 1081,533 1067,534 1063,539 1063,546 1059,547 1057,537 1049,531 1034,532 1020,544 930,543 923,542 921,534 915,529 899,530 886,542 864,542 862,533 857,528 839,529 834,541 802,541 800,534 793,529 783,530 777,541 745,540 722,537 715,527 685,528 675,537 661,538 530,538 529,531 524,525 509,524 504,529 503,539 454,539 449,528 437,527 432,530 430,538 407,539 400,524"/>
@@ -528,7 +541,7 @@
         </Word>
         <Word id="region0001_line0009_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1140,931 1170,931 1169,965 1139,965"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>8.</Unicode>
           </TextEquiv>
         </Word>
@@ -778,7 +791,7 @@
         </Word>
         <Word id="region0001_line0013_word0007" custom="readingOrder {index:7;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1290,1158 1251,1158 1250,1202 1266,1202 1269,1200 1289,1201"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.</Unicode>
           </TextEquiv>
         </Word>
@@ -1606,7 +1619,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0029" custom="readingOrder {index:27;}">
-        <Coords points="631,2003 621,2009 589,2013 505,2012 497,2004 487,2004 479,2011 415,2013 402,2013 399,2005 394,2003 370,2003 301,2008 290,2015 270,2010 263,2018 236,2018 233,2009 228,2007 204,2006 203,2062 347,2065 480,2060 727,2060 757,2058 1131,2066 1144,2057 1145,2025 1140,2020 963,2016 962,2011 957,2008 942,2008 937,2011 936,2016 922,2008 897,2009 892,2016 863,2015 862,2011 856,2007 772,2007 736,2013 707,2013 680,2010 673,2004 660,2004 654,2008"/>
+        <Coords points="621,2009 589,2013 505,2012 497,2004 487,2004 479,2011 415,2013 402,2013 399,2005 394,2003 370,2003 301,2008 290,2015 270,2010 263,2018 236,2018 233,2009 228,2007 204,2006 203,2060 480,2060 727,2060 757,2058 850,2060 1139,2060 1144,2057 1145,2025 1140,2020 963,2016 962,2011 957,2008 942,2008 937,2011 936,2016 922,2008 897,2009 892,2016 863,2015 862,2011 856,2007 772,2007 736,2013 707,2013 680,2010 673,2004 660,2004 654,2008 631,2003"/>
         <Baseline points="203,2052 782,2048 1144,2056"/>
         <Word id="region0001_line0029_word0000" custom="readingOrder {index:0;}">
           <Coords points="215,2011 214,2053 280,2053 280,2012 274,2011 269,2011 263,2018 236,2018 233,2011"/>
@@ -1649,37 +1662,37 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ti, aquila in clypeo, noctua in haſta conſedit; qui locus hoc&#13;
-modo: noctua in clypeo, aquila in haſta, trajiciendus vide-&#13;
-batur RUPERTO, Anim. in Enchirid. Pomp. lib. 2. C. 2. p. m.&#13;
-185. neque de illo OROSII, Hiſtor. lib. 7. C. 5. de Caligula:&#13;
-Hic ſiquidem magno &amp; incredibili apparatu profectus quærere&#13;
-hoſtem viribus otioſis Germaniam Galliamque percurrens in&#13;
-ora Oceani circa proſpectum Britanniæ reſtitit. Quæ verba&#13;
-JOHANNES SARISBERIENSIS in Policratico lib. 8. C. 18. quibus-&#13;
-dam trajectis vocibus ita legi forte debere autumat: Ma-&#13;
-gno &amp; incredibili apparatu profectus eſt hoſtem quærere, otio-&#13;
-ſisque viribus Germaniam Galliamque percurrens in ora Oceani&#13;
-&amp;c. apud Cl. CANNEGIETER Diſſ. de Brittenburgo p. 85. Sed&#13;
-perplacuit mihi ſemper transpoſitio in verbis VALERII&#13;
-MAXIMI lib. 9. C. II. in Ext. §. 6. hiſce:&#13;
-Ochus autem, qui poſtea Darius appellatus eſt, ſanctiſ-&#13;
-ſimo Perſis jurejurando obſtrictus, ne quem ex conjura-&#13;
-tione, quæ ſeptem Magos cum eo oppreſſerant. &amp;c.&#13;
-ut ſcil. legatur:&#13;
-Ochus autem, qui poſtea Darius appellatus eſt, ſanctiſ-&#13;
-ſimo Perſis jurejurando obſtrictus, ne quem ex conjura-&#13;
-tione ſeptem, quæ Magos cum eo oppreſſerat. &amp;c.&#13;
-Utpote cum duo tantum fuerint Magi, non ſeptem, &amp;&#13;
-contra ſeptem Perſæ, qui in eos conſpiraverant, quique&#13;
-Magos oppreſſerant; ita ut SEPTEM elliptice dicatur, quo-&#13;
-modo fere in notiſſimo illo Ciceronis: Diſcebamus enim&#13;
-pueri DUODECIM, ut carmen neceſſarium &amp;c. Qua de re&#13;
-ex profeſſo Vir Celeberrimus, MICHAEL ROSSAL, ſingu-&#13;
+        <Unicode>ti, aquila in clypeo, noctua in haſta conſedit; qui locus hoc
+modo: noctua in clypeo, aquila in haſta, trajiciendus vide-
+batur RUPERTO, Anim. in Enchirid. Pomp. lib. 2. C. 2. p. m.
+185. neque de illo OROSII, Hiſtor. lib. 7. C. 5. de Caligula:
+Hic ſiquidem magno &amp; incredibili apparatu profectus quærere
+hoſtem viribus otioſis Germaniam Galliamque percurrens in
+ora Oceani circa proſpectum Britanniæ reſtitit. Quæ verba
+JOHANNES SARISBERIENSIS in Policratico lib. 8. C. 18. quibus-
+dam trajectis vocibus ita legi forte debere autumat: Ma-
+gno &amp; incredibili apparatu profectus eſt hoſtem quærere, otio-
+ſisque viribus Germaniam Galliamque percurrens in ora Oceani
+&amp;c. apud Cl. CANNEGIETER Diſſ. de Brittenburgo p. 85. Sed
+perplacuit mihi ſemper transpoſitio in verbis VALERII
+MAXIMI lib. 9. C. II. in Ext. §. 6. hiſce:
+Ochus autem, qui poſtea Darius appellatus eſt, ſanctiſ-
+ſimo Perſis jurejurando obſtrictus, ne quem ex conjura-
+tione, quæ ſeptem Magos cum eo oppreſſerant. &amp;c.
+ut ſcil. legatur:
+Ochus autem, qui poſtea Darius appellatus eſt, ſanctiſ-
+ſimo Perſis jurejurando obſtrictus, ne quem ex conjura-
+tione ſeptem, quæ Magos cum eo oppreſſerat. &amp;c.
+Utpote cum duo tantum fuerint Magi, non ſeptem, &amp;
+contra ſeptem Perſæ, qui in eos conſpiraverant, quique
+Magos oppreſſerant; ita ut SEPTEM elliptice dicatur, quo-
+modo fere in notiſſimo illo Ciceronis: Diſcebamus enim
+pueri DUODECIM, ut carmen neceſſarium &amp;c. Qua de re
+ex profeſſo Vir Celeberrimus, MICHAEL ROSSAL, ſingu-
 lari Diſſertatione ad hunc Valerii locum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.53216094" type="heading" readingDirection="left-to-right" id="TextRegion_1664521759221_447" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1664521759221_447" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.53216094" type="heading" readingDirection="left-to-right">
       <Coords points="203,2060 1459,2060 1459,2125 203,2125"/>
       <TextLine id="region0001_line0030" custom="readingOrder {index:0;}">
         <Coords points="757,2059 685,2065 682,2069 683,2103 691,2107 691,2113 695,2118 706,2120 780,2121 884,2115 957,2117 963,2111 963,2088 954,2082 954,2067 949,2063"/>
@@ -1704,10 +1717,10 @@ lari Diſſertatione ad hunc Valerii locum.</Unicode>
         <Unicode>§. XX.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.53216094" readingDirection="left-to-right" id="TextRegion_1664521757975_439" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1664521757975_439" custom="readingOrder {index:4;}" orientation="-0.53216094" readingDirection="left-to-right">
       <Coords points="203,2125 1459,2125 1459,2297 793,2279 203,2297"/>
       <TextLine id="region0001_line0031" custom="readingOrder {index:0;}">
-        <Coords points="572,2110 563,2114 558,2111 546,2111 540,2115 538,2124 508,2125 369,2126 352,2118 338,2116 234,2118 229,2123 228,2155 236,2160 243,2170 282,2174 384,2175 639,2169 1028,2173 1204,2180 1211,2188 1217,2190 1231,2189 1235,2182 1378,2188 1393,2191 1459,2192 1458,2146 1398,2142 1389,2128 1373,2128 1366,2138 1300,2137 1298,2128 1292,2123 1277,2124 1273,2134 1209,2133 1205,2125 1194,2123 1188,2118 1174,2119 1169,2125 1168,2132 1118,2130 1111,2120 1098,2120 1087,2129 919,2125 906,2124 905,2119 900,2116 884,2116 878,2124 763,2124 636,2121 629,2113 617,2113 609,2122 593,2123 588,2112"/>
+        <Coords points="369,2126 366,2125 228,2125 228,2155 236,2160 243,2170 282,2174 384,2175 639,2169 1028,2173 1204,2180 1211,2188 1217,2190 1231,2189 1235,2182 1378,2188 1393,2191 1459,2192 1458,2146 1398,2142 1389,2128 1373,2128 1366,2138 1300,2137 1298,2128 1294,2125 1276,2125 1273,2134 1209,2133 1205,2125 1169,2125 1168,2132 1118,2130 1114,2125 1091,2125 1087,2129 919,2125 508,2125"/>
         <Baseline points="237,2161 1047,2163 1459,2182"/>
         <Word id="region0001_line0031_word0000" custom="readingOrder {index:0;}">
           <Coords points="298,2119 297,2158 491,2160 491,2125 369,2126 355,2119"/>
@@ -1823,7 +1836,7 @@ lari Diſſertatione ad hunc Valerii locum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0034" custom="readingOrder {index:2;}">
-        <Coords points="942,2223 933,2226 925,2235 740,2232 734,2222 729,2222 721,2225 711,2223 702,2233 672,2230 670,2225 655,2223 632,2225 631,2231 627,2233 600,2235 440,2236 433,2228 421,2226 415,2229 413,2235 405,2227 396,2227 387,2237 299,2239 204,2232 203,2282 341,2285 348,2294 362,2295 367,2293 373,2284 754,2283 758,2280 771,2279 820,2278 865,2283 874,2293 887,2293 894,2283 1001,2287 1014,2288 1019,2293 1029,2293 1036,2288 1108,2289 1230,2297 1458,2297 1458,2256 1368,2256 1359,2253 1238,2247 1213,2245 1208,2234 1194,2234 1187,2244 1119,2241 1116,2233 1106,2234 1093,2242 1077,2241 1064,2228 1051,2232 1046,2239 995,2239 987,2229 976,2229 969,2238 963,2237 957,2225"/>
+        <Coords points="933,2226 925,2235 740,2232 734,2222 729,2222 721,2225 711,2223 702,2233 672,2230 670,2225 655,2223 632,2225 631,2231 627,2233 600,2235 440,2236 433,2228 421,2226 415,2229 413,2235 405,2227 396,2227 387,2237 299,2239 204,2232 203,2282 341,2285 347,2293 368,2292 373,2284 653,2283 758,2280 758,2280 771,2279 820,2278 841,2280 1458,2297 1458,2256 1368,2256 1359,2253 1238,2247 1213,2245 1208,2234 1194,2234 1187,2244 1119,2241 1116,2233 1106,2234 1093,2242 1077,2241 1064,2228 1051,2232 1046,2239 995,2239 987,2229 976,2229 969,2238 963,2237 957,2225 942,2223"/>
         <Baseline points="203,2272 830,2270 1458,2292"/>
         <Word id="region0001_line0034_word0000" custom="readingOrder {index:0;}">
           <Coords points="214,2233 213,2268 321,2269 321,2238 299,2239 218,2233"/>
@@ -1884,15 +1897,15 @@ lari Diſſertatione ad hunc Valerii locum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Cæterum adfinitatem cum hac materia aliqualem ha-&#13;
-bet Χιασμος, ut vocatur, ϰατα τον τȣ Στοιχϵιȣ τυπον; Qua-&#13;
+        <Unicode>Cæterum adfinitatem cum hac materia aliqualem ha-
+bet Χιασμος, ut vocatur, ϰατα τον τȣ Στοιχϵιȣ τυπον; Qua-
 tenus quidem non ulla fit transpoſitio, ſed verbum tamen</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682499517015_121" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682499517015_121" custom="readingOrder {index:5;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="787,2288 787,2331 880,2331 880,2288"/>
       <TextLine id="line_1682499517179_124" custom="readingOrder {index:0;}">
-        <Coords points="786,2286 787,2331 882,2332 881,2287"/>
+        <Coords points="787,2331 880,2331 880,2288 787,2288"/>
         <Word id="word_1682499547537_139" custom="readingOrder {index:0;}">
           <Coords points="788,2287 842,2287 842,2331 787,2331"/>
           <TextEquiv>
@@ -1913,7 +1926,7 @@ tenus quidem non ulla fit transpoſitio, ſed verbum tamen</Unicode>
         <Unicode>C 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682499507019_109" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region_1682499507019_109" custom="readingOrder {index:6;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1315,2316 1315,2352 1442,2352 1442,2316"/>
       <TextLine id="line_1682499507167_112" custom="readingOrder {index:0;}">
         <Coords points="1315,2316 1315,2352 1442,2352 1442,2316"/>
@@ -1931,5 +1944,8 @@ tenus quidem non ulla fit transpoſitio, ſed verbum tamen</Unicode>
         <Unicode>unum</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682499472591_101" custom="readingOrder {index:0;}">
+      <Coords points="691,468 990,468 990,511 691,511"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

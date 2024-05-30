@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-11">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:10Z</Created>
     <LastChange>2024-01-19T13:07:10Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/abe8b3a0-a5e3-47e9-b4d9-86ea970b2c83/00000162.jpg" imageWidth="2296" imageHeight="2682" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1642668868833_3783"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.2901036" readingDirection="left-to-right" id="TextRegion_1642668868833_3783" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1642668868833_3783" custom="readingOrder {index:0;}" orientation="-1.2901036" readingDirection="left-to-right">
       <Coords points="852,525 1796,533 2136,1041 2127,2145 819,2134 828,1030"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1466,531 1462,537 1445,538 1419,537 1414,531 1392,530 1387,539 1366,541 1356,541 1347,530 1334,530 1328,535 1285,537 1216,534 1213,529 1186,529 1184,537 1096,535 1064,537 1056,528 1007,526 990,526 958,527 902,536 870,533 852,535 851,542 851,579 865,581 883,577 908,580 954,576 1030,575 1059,571 1090,571 1113,573 1126,580 1137,582 1143,580 1146,573 1160,572 1182,574 1184,578 1193,581 1209,575 1305,577 1333,574 1343,576 1349,583 1361,585 1376,579 1377,576 1393,576 1399,581 1408,581 1414,577 1619,581 1624,577 1624,556 1621,552 1590,550 1588,544 1583,540 1489,538 1485,531"/>
@@ -367,7 +383,7 @@
       <TextLine id="line_1642671501549_114" custom="readingOrder {index:6;}">
         <Coords points="856,792 1638,792 1638,830 856,830"/>
         <Word id="word_1642671521033_118" custom="readingOrder {index:0;}">
-          <Coords points="890,823 849,823 849,799 890,799"/>
+          <Coords points="890,823 890,799 856,799 856,823"/>
           <TextEquiv>
             <Unicode>p.</Unicode>
           </TextEquiv>
@@ -379,7 +395,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1642671526971_124" custom="readingOrder {index:2;}">
-          <Coords points="1031,821 964,821 964,788 1031,788"/>
+          <Coords points="964,821 1031,821 1031,792 964,792"/>
           <TextEquiv>
             <Unicode>lin.</Unicode>
           </TextEquiv>
@@ -499,7 +515,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0011_line0010_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1159,915 1160,873 1138,872 1129,879 1106,877 1105,914 1106,913 1135,911 1158,915"/>
+          <Coords points="1160,873 1153,873 1151,873 1142,880 1129,879 1129,879 1126,879 1106,877 1105,914 1106,913 1135,911 1143,912 1148,912 1159,914"/>
           <TextEquiv conf="0.90903395">
             <Unicode>pro</Unicode>
           </TextEquiv>
@@ -781,7 +797,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0012_line0002_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1142,1118 1144,1118 1145,1086 1061,1084 1091,1084 1090,1115 1113,1117"/>
+          <Coords points="1142,1118 1145,1086 1061,1084 1090,1115"/>
           <TextEquiv conf="0.9308757">
             <Unicode>pro</Unicode>
           </TextEquiv>
@@ -1273,7 +1289,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1026,1419 1025,1455 1074,1456 1075,1418 1061,1421"/>
+          <Coords points="1025,1455 1061,1455 1064,1452 1074,1454 1074,1418 1061,1421 1025,1419"/>
           <TextEquiv>
             <Unicode>37.</Unicode>
           </TextEquiv>
@@ -1543,7 +1559,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1642670419710_4547" custom="readingOrder {index:7;}">
-          <Coords points="1407,1547 1505,1546 1552,1547 1621,1551 1621,1588 1407,1583"/>
+          <Coords points="1621,1588 1621,1551 1557,1551 1552,1547 1540,1547 1536,1550 1514,1550 1505,1546 1496,1549 1407,1547 1407,1583 1476,1584 1481,1581 1496,1581 1505,1585 1523,1582 1584,1587"/>
           <TextEquiv>
             <Unicode>committimus.</Unicode>
           </TextEquiv>
@@ -1909,7 +1925,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0012_line0020_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1032,1828 1025,1828 1021,1828 1015,1833 1008,1832 1004,1835 968,1835 967,1870 974,1866 1041,1872 1050,1873 1042,1873 1043,1834 1055,1832 1047,1837"/>
+          <Coords points="1032,1828 968,1835 967,1870 974,1866 1041,1872 1050,1873 1043,1834 1055,1832"/>
           <TextEquiv conf="0.89187163">
             <Unicode>not.</Unicode>
           </TextEquiv>
@@ -2309,43 +2325,43 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>p. 3. §IV. lin. 2. pro Javonus lege Javolenus.&#13;
-p. 10. not. a) lin. 4. pro עיז lege עיד&#13;
-p. 13. §XI. lin. 11. memoriæ teſtimoniique, adde cauſa.&#13;
-p. 15. pro §. XIl. lege §. XIII.&#13;
-p. 22. lin. 31. pro pertingant lege pertingat.&#13;
-p. 26. lin. 27. pro πογίτας lege πολίτας.&#13;
-p. 28. lin. 16. pro antiquitatis lege antiquitates.&#13;
-p. 28. lin. 19. pro editione lege eruditione.&#13;
-p. 29. lin. 12. pro NEGAS lege AIS.&#13;
-ibid. lin, 27. pro ſint lege ſunt.&#13;
-p. 31. lin. 26. pro ducangius lege du Cangius.&#13;
-p. 33. lin. 7. pro novis lege nobis.&#13;
-p. 34. not. a) lin. 5. lege, offendimus pro OFFENDIMVS.&#13;
-p. 38. lin. 18. pro Habanus lege Hrabanus.&#13;
-p. 39. lin. 13. pro XLI. ſcribe XLII.&#13;
-p. 39. not. a) fin. adde: Nobiſcum eandem L. Salicæ epocham agnoſcit C. S.&#13;
-SCHVRZFLEISCHIVS tom. 2. Epiſt. 294. p. m. 483.&#13;
-p. 41. lin. 10. pro Turginus lege Tunginus.&#13;
-ibid. not. b) lin. 2. pro Atacat lege Atuat.&#13;
-p. 42. not. c) lin. 4. pro idem eſſe lege idem eſt.&#13;
-p. 44. lin. 17. pro TVNCHNVM lege TVNCHINVM.&#13;
-p. 45. lin. 37. pro L. Salic. Tit. 2. leg. 52. lege tit. 52. leg. 2.&#13;
-p. 47. not. a) lin. 14. pro Videus lege Videns.&#13;
-p. 54. not. b) lin. 4. pro 5. 2. lege Sect. 2.&#13;
-p. 69. lin. 20. pro comittimus lege committimus.&#13;
-p. 97. lin. 18. pro Præfecturis lege Præfectis.&#13;
-p. 99. not. d) lin, 7. pro iurisdictionis lege iurisdictiones.&#13;
-p. 112. lin. 19. pro examinetut lege examinetur.&#13;
-p. 113. lin. 14. lege juris Germanici pro Saxonici.&#13;
-p. 115. lin. ult. pro Eandem lege Eadem.&#13;
-p. 116. lin. 12. pro Waſung lege Waſen.&#13;
-p. 119. not. a) lin. 13. pro fit lege ſit.&#13;
-p. 123. lin. 5. pro das lege daß.&#13;
-p. 124. lin. 21. Collega. Excidit nomen, quod adde: VVolffio.&#13;
-p. 126. lin. 2. circa hos ipſos Comit. adde: errant V. ſ.&#13;
-ibid. lin. 6. pro ſie, lege ſive.&#13;
-p. 130. lin. 29. lege, eiusmodi præfecturis.&#13;
+        <Unicode>p. 3. §IV. lin. 2. pro Javonus lege Javolenus.
+p. 10. not. a) lin. 4. pro עיז lege עיד
+p. 13. §XI. lin. 11. memoriæ teſtimoniique, adde cauſa.
+p. 15. pro §. XIl. lege §. XIII.
+p. 22. lin. 31. pro pertingant lege pertingat.
+p. 26. lin. 27. pro πογίτας lege πολίτας.
+p. 28. lin. 16. pro antiquitatis lege antiquitates.
+p. 28. lin. 19. pro editione lege eruditione.
+p. 29. lin. 12. pro NEGAS lege AIS.
+ibid. lin, 27. pro ſint lege ſunt.
+p. 31. lin. 26. pro ducangius lege du Cangius.
+p. 33. lin. 7. pro novis lege nobis.
+p. 34. not. a) lin. 5. lege, offendimus pro OFFENDIMVS.
+p. 38. lin. 18. pro Habanus lege Hrabanus.
+p. 39. lin. 13. pro XLI. ſcribe XLII.
+p. 39. not. a) fin. adde: Nobiſcum eandem L. Salicæ epocham agnoſcit C. S.
+SCHVRZFLEISCHIVS tom. 2. Epiſt. 294. p. m. 483.
+p. 41. lin. 10. pro Turginus lege Tunginus.
+ibid. not. b) lin. 2. pro Atacat lege Atuat.
+p. 42. not. c) lin. 4. pro idem eſſe lege idem eſt.
+p. 44. lin. 17. pro TVNCHNVM lege TVNCHINVM.
+p. 45. lin. 37. pro L. Salic. Tit. 2. leg. 52. lege tit. 52. leg. 2.
+p. 47. not. a) lin. 14. pro Videus lege Videns.
+p. 54. not. b) lin. 4. pro 5. 2. lege Sect. 2.
+p. 69. lin. 20. pro comittimus lege committimus.
+p. 97. lin. 18. pro Præfecturis lege Præfectis.
+p. 99. not. d) lin, 7. pro iurisdictionis lege iurisdictiones.
+p. 112. lin. 19. pro examinetut lege examinetur.
+p. 113. lin. 14. lege juris Germanici pro Saxonici.
+p. 115. lin. ult. pro Eandem lege Eadem.
+p. 116. lin. 12. pro Waſung lege Waſen.
+p. 119. not. a) lin. 13. pro fit lege ſit.
+p. 123. lin. 5. pro das lege daß.
+p. 124. lin. 21. Collega. Excidit nomen, quod adde: VVolffio.
+p. 126. lin. 2. circa hos ipſos Comit. adde: errant V. ſ.
+ibid. lin. 6. pro ſie, lege ſive.
+p. 130. lin. 29. lege, eiusmodi præfecturis.
 p. 136. lin. 23. pro fit lege ſit.</Unicode>
       </TextEquiv>
     </TextRegion>

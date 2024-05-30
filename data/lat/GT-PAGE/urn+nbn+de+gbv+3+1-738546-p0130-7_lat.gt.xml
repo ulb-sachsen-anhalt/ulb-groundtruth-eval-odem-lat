@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-244">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:41Z</Created>
     <LastChange>2024-01-19T13:09:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/7cb69c14-a5c7-4124-86d0-5f1ff5a27f13/00000130.jpg" imageWidth="1934" imageHeight="2853" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="region0014"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.37911844" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:0;}">
+    <TextRegion id="region0014" custom="readingOrder {index:0;}" orientation="-0.37911844" readingDirection="left-to-right">
       <Coords points="641,443 1813,443 1813,2501 641,2501"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="1060,444 1051,455 1013,455 1006,446 996,446 990,450 985,445 970,445 964,453 934,452 930,444 913,444 907,451 867,452 811,451 806,443 791,443 787,451 738,448 704,450 702,444 641,443 642,486 1476,502 1562,505 1592,510 1596,513 1649,506 1813,510 1813,470 1742,469 1740,462 1734,456 1726,456 1718,460 1714,466 1668,466 1666,459 1661,455 1602,456 1597,458 1593,465 1543,464 1532,463 1525,453 1511,454 1505,463 1501,463 1494,453 1480,454 1474,463 1456,463 1455,454 1450,449 1392,449 1386,459 1316,458 1310,450 1292,453 1279,449 1271,457 1241,458 1240,451 1235,446 1202,446 1196,456 1117,455 1113,446 1099,445 1092,449 1090,456 1081,456 1076,445"/>
@@ -687,7 +703,7 @@
         <Coords points="727,1118 723,1121 706,1120 701,1127 641,1125 641,1164 799,1165 822,1167 827,1172 875,1166 947,1166 992,1170 998,1176 1021,1177 1028,1171 1052,1168 1125,1170 1132,1178 1140,1178 1148,1171 1180,1170 1343,1173 1372,1175 1393,1180 1487,1176 1544,1179 1553,1188 1575,1188 1582,1181 1655,1182 1676,1188 1708,1186 1714,1193 1728,1193 1736,1186 1813,1185 1812,1148 1629,1144 1627,1137 1622,1133 1612,1133 1606,1137 1593,1134 1585,1143 1578,1142 1556,1141 1554,1135 1546,1130 1532,1130 1522,1138 1468,1138 1466,1131 1460,1129 1422,1134 1300,1133 1294,1124 1281,1124 1273,1132 1260,1132 1242,1131 1240,1126 1219,1123 1212,1130 1197,1131 1007,1129 1001,1121 978,1120 970,1128 832,1128 746,1126 742,1118"/>
         <Baseline points="641,1154 1813,1174"/>
         <Word id="word_1658131100307_2765" custom="readingOrder {index:0;}">
-          <Coords points="678,1126 703,1124 740,1124 838,1136 838,1163 763,1162 678,1154"/>
+          <Coords points="740,1124 703,1124 701,1127 678,1126 678,1154 763,1162 838,1163 838,1136 758,1126 746,1126 745,1124"/>
           <TextEquiv>
             <Unicode>tridarum,</Unicode>
           </TextEquiv>
@@ -1422,7 +1438,7 @@
         </Word>
         <Word id="region0014_line0028_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="765,1853 764,1894 786,1894 787,1896 842,1896 844,1895 853,1894 868,1894 868,1857 852,1857 849,1853"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Tuſſim</Unicode>
           </TextEquiv>
         </Word>
@@ -2032,7 +2048,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658131582463_2979" custom="readingOrder {index:3;}">
-          <Coords points="1001,2428 1087,2427 1100,2427 1185,2428 1185,2461 1059,2472 1049,2472 1000,2470 1000,2429"/>
+          <Coords points="1002,2428 1000,2429 1000,2470 1022,2471 1049,2471 1049,2472 1059,2472 1185,2461 1185,2428 1179,2428 1179,2428 1179,2428 1156,2428 1150,2435 1104,2432 1100,2427 1087,2427 1087,2427 1081,2432 1048,2435 1028,2433 1026,2428"/>
           <TextEquiv>
             <Unicode>ſingultuoſa</Unicode>
           </TextEquiv>
@@ -2066,44 +2082,44 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>botomiam et bechica ſudorem foetidum effundebant, liberaban-&#13;
-tur; plurimi inedia conſumebantur.&#13;
-Condomi vlceroſa erat angina cum ptyaliſmo et petechiis;&#13;
-diarrhoea vel ſpontanea, vel artificialis, et nitrum ꝑrofuere. Af-&#13;
-finis erat cynanchae malignae Strauſſii, ſeu laqueo Aëtii. Differt&#13;
-haec ſpecies a purpura, quod maculae cutis in amphimerina ſint&#13;
-accidentales, regioni calidiori tribuendae. Vide Purpuram.&#13;
-Germani catarrhalem malignam ſaepe nominant amphime-&#13;
-rinam, in qua ne minimum eſt catarrhi ſymptoma, notante&#13;
-Brendelio; ſaltem ſtillae narium, epiphora, horror a principio&#13;
-diuerſo pendent.&#13;
-Amphimerinae malignae, nec non tritaeophyae, ſunt mor-&#13;
-bi, apud nos minime rari, ſed qui nomine generico ſebrium pu-&#13;
-tridarum, aut malignarum, confunduntur; illae ſiquidem, quae&#13;
-alternis tantum diebus exacerbantur, cum exiguo, aut nullo, fri-&#13;
-gore, praeter initium morbi, ſunt tritaeophyae; quae vero ſingulis&#13;
-diebus exacerbantur paroxyſmis ſubſimilibus ſunt amphimerinae,&#13;
-et paroxyſmis, alternis frigore maiori ſtipatis, ſunt hemitritaei.&#13;
-Legi meretur, quod ſcripſit de hemitritaeis et tritaeophyis Ba-&#13;
-gliuius, lib. I. pag. 59.&#13;
-13. Amphimerina tuſſiculoſa; Fiévre vermineuſe, et catar-&#13;
-rhale des enfans; coqueluche des enfans. A. B.&#13;
-Anno 1751 menſe Junio et anno 1760 menſe Maio, vi-&#13;
-guit epidemice inter infantes haec febris, quotidie exacerbans&#13;
-cum ſputo ſanguinis, tuſſi ferina, in qua fere ſuffocantur, lum-&#13;
-bricos reiiciunt.&#13;
-Curatur eatharticis vermifugis, per alternas dies repetitis.&#13;
-Vide Tuſſim clangoſam.&#13;
-14. Amphimerina ſingultuoſa; febris continua et maligna&#13;
-Riverii cent. I. obſeru. 47. idem obſ. 78. centur. 3; Singultus,&#13;
-febris Iyngodes Walſchmidii; Fiévre maligne avec boquet A. P.&#13;
-Epiſcopus Nemauſenſis anno 1629 quinquagenarius febri&#13;
-illa maligna cum ſingultu et nauſea affectus ſuit; exacerbationes&#13;
-mane quouis adueniebant et ſeptem horas durabant; vrinae&#13;
-erant rubrae et turbidae; feces liquidae, bilioſae; vigiliae per-&#13;
-petuae; ſanguis extractus quaſi pleuriticus; febris quinta die in-&#13;
-uitis duabus phlebotomiis creſcebat cum anxietate, ſudoribus&#13;
-non criticis: ſeptimo ſudor criticus copioſus acceſſit. In altero&#13;
+        <Unicode>botomiam et bechica ſudorem foetidum effundebant, liberaban-
+tur; plurimi inedia conſumebantur.
+Condomi vlceroſa erat angina cum ptyaliſmo et petechiis;
+diarrhoea vel ſpontanea, vel artificialis, et nitrum ꝑrofuere. Af-
+finis erat cynanchae malignae Strauſſii, ſeu laqueo Aëtii. Differt
+haec ſpecies a purpura, quod maculae cutis in amphimerina ſint
+accidentales, regioni calidiori tribuendae. Vide Purpuram.
+Germani catarrhalem malignam ſaepe nominant amphime-
+rinam, in qua ne minimum eſt catarrhi ſymptoma, notante
+Brendelio; ſaltem ſtillae narium, epiphora, horror a principio
+diuerſo pendent.
+Amphimerinae malignae, nec non tritaeophyae, ſunt mor-
+bi, apud nos minime rari, ſed qui nomine generico ſebrium pu-
+tridarum, aut malignarum, confunduntur; illae ſiquidem, quae
+alternis tantum diebus exacerbantur, cum exiguo, aut nullo, fri-
+gore, praeter initium morbi, ſunt tritaeophyae; quae vero ſingulis
+diebus exacerbantur paroxyſmis ſubſimilibus ſunt amphimerinae,
+et paroxyſmis, alternis frigore maiori ſtipatis, ſunt hemitritaei.
+Legi meretur, quod ſcripſit de hemitritaeis et tritaeophyis Ba-
+gliuius, lib. I. pag. 59.
+13. Amphimerina tuſſiculoſa; Fiévre vermineuſe, et catar-
+rhale des enfans; coqueluche des enfans. A. B.
+Anno 1751 menſe Junio et anno 1760 menſe Maio, vi-
+guit epidemice inter infantes haec febris, quotidie exacerbans
+cum ſputo ſanguinis, tuſſi ferina, in qua fere ſuffocantur, lum-
+bricos reiiciunt.
+Curatur eatharticis vermifugis, per alternas dies repetitis.
+Vide Tuſſim clangoſam.
+14. Amphimerina ſingultuoſa; febris continua et maligna
+Riverii cent. I. obſeru. 47. idem obſ. 78. centur. 3; Singultus,
+febris Iyngodes Walſchmidii; Fiévre maligne avec boquet A. P.
+Epiſcopus Nemauſenſis anno 1629 quinquagenarius febri
+illa maligna cum ſingultu et nauſea affectus ſuit; exacerbationes
+mane quouis adueniebant et ſeptem horas durabant; vrinae
+erant rubrae et turbidae; feces liquidae, bilioſae; vigiliae per-
+petuae; ſanguis extractus quaſi pleuriticus; febris quinta die in-
+uitis duabus phlebotomiis creſcebat cum anxietate, ſudoribus
+non criticis: ſeptimo ſudor criticus copioſus acceſſit. In altero
 aegro febre eadem ſingultuoſa laborante poſt plures phleboto-</Unicode>
       </TextEquiv>
     </TextRegion>

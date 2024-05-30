@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-119">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:00Z</Created>
     <LastChange>2024-01-19T13:08:00Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/604d8358-2071-4b1d-9677-794367dcd6ee/00000129.jpg" imageWidth="2152" imageHeight="2785" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,10 +30,10 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1661264526711_2821"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.3111056" readingDirection="left-to-right" id="TextRegion_1661264526711_2821" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1661264526711_2821" custom="readingOrder {index:0;}" orientation="-1.3111056" readingDirection="left-to-right">
       <Coords points="385,607 1659,607 1672,2324 1672,2428 1633,2513 392,2513 385,2361"/>
       <TextLine id="region0001_line0002" custom="readingOrder {index:0;}">
-        <Coords points="627,585 622,590 624,617 564,622 560,615 549,614 538,623 507,625 491,624 485,615 475,614 465,624 392,622 387,627 387,656 400,664 419,665 431,660 437,665 494,667 612,664 751,653 894,656 1054,665 1057,676 1075,679 1082,674 1085,666 1391,669 1658,678 1658,634 1565,631 1564,621 1551,616 1539,615 1532,621 1521,621 1511,630 1332,625 1329,620 1319,619 1314,615 1301,615 1296,619 1290,611 1278,610 1271,615 1269,624 1235,623 1230,611 1220,610 1207,615 1201,624 1178,624 1175,614 1164,610 1156,619 1132,615 1127,617 1124,624 1105,625 1000,618 993,617 987,610 969,610 962,616 863,613 855,604 832,599 823,605 821,611 777,611 775,605 768,600 726,600 715,603 713,613 645,617 645,600 641,589 637,586"/>
+        <Coords points="624,617 564,622 560,615 549,614 538,623 507,625 491,624 485,615 475,614 465,624 392,622 387,627 387,656 400,664 419,665 431,660 437,665 494,667 612,664 751,653 894,656 1054,665 1057,676 1075,679 1082,674 1085,666 1391,669 1658,678 1658,634 1565,631 1564,621 1551,616 1539,615 1532,621 1521,621 1511,630 1332,625 1329,620 1319,619 1314,615 1301,615 1296,619 1290,611 1278,610 1271,615 1269,624 1235,623 1230,611 1220,610 1207,615 1201,624 1178,624 1175,614 1164,610 1156,619 1132,615 1127,617 1124,624 1105,625 1000,618 993,617 987,610 969,610 962,616 863,613 857,607 822,607 821,611 777,611 775,607 714,607 713,613 645,617 645,607 623,607"/>
         <Baseline points="387,655 534,656 768,643 1056,656 1658,669"/>
         <Word id="region0001_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="448,655 537,657 539,622 538,623 507,625 491,624 485,615 475,614 465,624 450,623"/>
@@ -192,7 +208,7 @@
         </Word>
         <Word id="region0001_line0005_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="768,773 794,773 793,795 767,795"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>v.</Unicode>
           </TextEquiv>
         </Word>
@@ -551,7 +567,7 @@
         </Word>
         <Word id="region0001_line0010_word0003" custom="readingOrder {index:3;}">
           <Coords points="700,1070 842,1073 842,1037 834,1037 826,1028 810,1027 801,1026 794,1035 782,1037 711,1032 700,1030"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>procella</Unicode>
           </TextEquiv>
         </Word>
@@ -569,13 +585,13 @@
         </Word>
         <Word id="region0001_line0010_word0006" custom="readingOrder {index:6;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1137,1067 1157,1068 1157,1049 1137,1047"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>v.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0010_word0007" custom="readingOrder {index:7;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1171,1079 1212,1080 1212,1044 1184,1049 1171,1049"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>56.</Unicode>
           </TextEquiv>
         </Word>
@@ -851,7 +867,7 @@
         </Word>
         <Word id="region0001_line0017_word0004" custom="readingOrder {index:4;}">
           <Coords points="955,1390 1046,1392 1046,1348 1035,1348 1029,1358 1017,1359 955,1357"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quod</Unicode>
           </TextEquiv>
         </Word>
@@ -1462,7 +1478,7 @@
         </Word>
         <Word id="region0001_line0029_word0011" custom="readingOrder {index:11;}">
           <Coords points="1584,1949 1628,1950 1628,1979 1584,1978"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ex</Unicode>
           </TextEquiv>
         </Word>
@@ -1822,7 +1838,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0036_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1292,2341 1414,2346 1414,2306 1430,2304 1400,2313 1372,2312 1345,2308 1292,2307"/>
+          <Coords points="1292,2341 1414,2346 1414,2306 1430,2304 1292,2307"/>
           <TextEquiv conf="0.8852305">
             <Unicode>expers</Unicode>
           </TextEquiv>
@@ -2003,41 +2019,41 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>xiam matrem diſcordis moeſtam puellæ ſecubitu caros miſſuram&#13;
-ſperare nepotes, v. 379. ſeqq.&#13;
-§. 46: Ex parte ſpeciali Metaphyſices, ad Deum quidem ſpectat&#13;
-Numen divinum, v. 134. Per hoc enim gentiles intellexerunt ſum-&#13;
-mam majeſtatem, quam concipere debet, qui ideam ſibi Dei, tanquam&#13;
-ſummî entis, ſumere cupit. Sed creaturæ ſunt, mundus, ſidera,&#13;
-terra &amp; oceanus. v. 205. turbo 107. montes v. 126. platani, lauri, ar-&#13;
-bores, aurum, atque argentum. v. 38. 39. 40. ſeqq. Ex creaturis&#13;
-porrò arena &amp; procella nominanda eſt. v. 56. ſeqq.&#13;
-Utpote fallaci, quæ tum primum excita ſomno&#13;
-Deſertamin ſola miſeram ſe cernit arena,&#13;
-Immemor at juvenis fugiens pellit vada remis,&#13;
-Irrita ventoſæ linquens promiſſa procellæ.&#13;
-Subſtantiæ ſunt, fagi, lauri, platani, populi. Accidentia verò,&#13;
-quod fagi ferantur radicitus, quod platani nutent, &amp; quod populi&#13;
-lentæ ſint, quæ omnia continentur. v. 288. ſeqq.&#13;
-Namque ille tulit radicitus altas&#13;
-Fagos, ac recto proceras ſtipite laurus,&#13;
-Non ſine nutanti platano, lentaque ſorore&#13;
-Flammati Phaethontis, &amp; aeria cupreſſu.&#13;
-Nec minus in v.78.79.80. exempla ſunt ſubſtantiarum &amp; accidentium.&#13;
-Sed neque tum mitræ neque tum fluitantis amictus,&#13;
-Illa vicem curans, toto ex Te pectore, Theſeu,&#13;
-Toto animo, tota pendebat perdita mente.&#13;
-Nam ſubſtantia animus eſt &amp; mens, utpote pars altera hominis. Ac-&#13;
-cidens verò eſt, quod Ariadna toto animo &amp; tota mente pendebat ex&#13;
-Theſeo. Aliud exemplum eſt. v. 348. 349.&#13;
-Illius egregias virtutes, claraque facta&#13;
-Sæpe fatebuntur gnatorum in funere matres.&#13;
-Subſtantias enim voco perſonas, quæ matres appellantur, &amp; acci-&#13;
-dentia, quod in funeribus gnatorum ſuorum exſtinctorum ſcilicet&#13;
-&amp; interfectorum ab Achillle fatebantur egregias virtutes &amp; clara fa-&#13;
-Achilles. v. cta Achillis. Ita naſciturus prædicitur terroris expers&#13;
-accidente, quod 338. Sed ſic Achillem pro ſubſtantia accipe &amp; pro&#13;
-animus fortis in eo exiſtebat.&#13;
+        <Unicode>xiam matrem diſcordis moeſtam puellæ ſecubitu caros miſſuram
+ſperare nepotes, v. 379. ſeqq.
+§. 46: Ex parte ſpeciali Metaphyſices, ad Deum quidem ſpectat
+Numen divinum, v. 134. Per hoc enim gentiles intellexerunt ſum-
+mam majeſtatem, quam concipere debet, qui ideam ſibi Dei, tanquam
+ſummî entis, ſumere cupit. Sed creaturæ ſunt, mundus, ſidera,
+terra &amp; oceanus. v. 205. turbo 107. montes v. 126. platani, lauri, ar-
+bores, aurum, atque argentum. v. 38. 39. 40. ſeqq. Ex creaturis
+porrò arena &amp; procella nominanda eſt. v. 56. ſeqq.
+Utpote fallaci, quæ tum primum excita ſomno
+Deſertamin ſola miſeram ſe cernit arena,
+Immemor at juvenis fugiens pellit vada remis,
+Irrita ventoſæ linquens promiſſa procellæ.
+Subſtantiæ ſunt, fagi, lauri, platani, populi. Accidentia verò,
+quod fagi ferantur radicitus, quod platani nutent, &amp; quod populi
+lentæ ſint, quæ omnia continentur. v. 288. ſeqq.
+Namque ille tulit radicitus altas
+Fagos, ac recto proceras ſtipite laurus,
+Non ſine nutanti platano, lentaque ſorore
+Flammati Phaethontis, &amp; aeria cupreſſu.
+Nec minus in v.78.79.80. exempla ſunt ſubſtantiarum &amp; accidentium.
+Sed neque tum mitræ neque tum fluitantis amictus,
+Illa vicem curans, toto ex Te pectore, Theſeu,
+Toto animo, tota pendebat perdita mente.
+Nam ſubſtantia animus eſt &amp; mens, utpote pars altera hominis. Ac-
+cidens verò eſt, quod Ariadna toto animo &amp; tota mente pendebat ex
+Theſeo. Aliud exemplum eſt. v. 348. 349.
+Illius egregias virtutes, claraque facta
+Sæpe fatebuntur gnatorum in funere matres.
+Subſtantias enim voco perſonas, quæ matres appellantur, &amp; acci-
+dentia, quod in funeribus gnatorum ſuorum exſtinctorum ſcilicet
+&amp; interfectorum ab Achillle fatebantur egregias virtutes &amp; clara fa-
+Achilles. v. cta Achillis. Ita naſciturus prædicitur terroris expers
+accidente, quod 338. Sed ſic Achillem pro ſubſtantia accipe &amp; pro
+animus fortis in eo exiſtebat.
 De pluribus dicere ulterius non opus eſt.</Unicode>
       </TextEquiv>
     </TextRegion>

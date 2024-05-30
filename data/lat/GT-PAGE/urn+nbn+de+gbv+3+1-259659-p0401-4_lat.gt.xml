@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-114">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:58Z</Created>
     <LastChange>2024-01-19T13:07:58Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/f492f1a2-c5ad-4b6c-adc5-450804a7e192/00000401.jpg" imageWidth="1296" imageHeight="2074" type="content" primaryLanguage="Latin">
     <Border>
@@ -24,7 +40,7 @@
         <RegionRefIndexed index="10" regionRef="region_1682586473011_736"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1682586390739_652" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1682586390739_652" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="295,375 295,418 690,418 690,375"/>
       <TextLine id="line_1682586390948_655" custom="readingOrder {index:0;}">
         <Coords points="295,375 295,418 690,418 690,375"/>
@@ -48,7 +64,7 @@
         <Unicode>CHRISTIANI XI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682586406370_662" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682586406370_662" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="783,394 783,428 848,428 848,394"/>
       <TextLine id="line_1682586406620_665" custom="readingOrder {index:0;}">
         <Coords points="783,394 783,428 848,428 848,394"/>
@@ -66,10 +82,10 @@
         <Unicode>117</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" readingDirection="left-to-right" id="TextRegion_1666256631663_3473" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1666256631663_3473" custom="readingOrder {index:2;}" orientation="-0.40253448" readingDirection="left-to-right">
       <Coords points="113,419 861,435 860,795 113,795"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
-        <Coords points="263,419 226,420 219,426 188,426 183,422 163,426 159,419 139,419 136,426 114,426 114,468 262,471 339,479 360,478 366,482 401,481 418,485 508,490 575,490 589,487 689,490 694,496 704,496 712,489 721,487 817,488 860,491 860,447 808,448 807,440 801,434 786,434 780,437 774,446 688,447 684,440 671,438 664,448 660,448 655,436 643,434 634,437 626,448 585,449 580,440 566,436 542,438 535,446 505,444 503,437 496,432 483,432 472,443 425,442 409,441 407,433 403,430 390,430 385,434 378,429 370,429 362,438 356,437 350,436 348,428 340,424"/>
+        <Coords points="219,426 188,426 183,422 163,426 159,419 138,419 136,426 114,426 114,468 262,471 339,479 360,478 366,482 401,481 418,485 508,490 575,490 589,487 689,490 694,496 704,496 712,489 721,487 817,488 860,491 860,447 808,448 807,440 801,434 786,434 780,437 774,446 688,447 684,440 671,438 664,448 660,448 655,436 643,434 634,437 626,448 585,449 580,440 566,436 542,438 535,446 505,444 503,437 496,432 483,432 472,443 425,442 409,441 407,433 403,430 390,430 385,434 378,429 370,429 362,438 356,437 350,436 348,428 340,424 336,423 224,421"/>
         <Baseline points="114,458 258,460 498,478 860,480"/>
         <Word id="region0001_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="125,427 207,427 207,461 125,461"/>
@@ -250,7 +266,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0005_word0001" custom="readingOrder {index:1;}">
-          <Coords points="235,625 233,632 225,629 224,668 364,672 365,632 343,636 288,634 282,633 280,625 259,625 258,625"/>
+          <Coords points="233,632 224,631 224,668 364,672 365,632 343,636 288,634 282,633 280,625 259,625 258,625 235,625"/>
           <TextEquiv conf="0.82332605">
             <Unicode>abbates,</Unicode>
           </TextEquiv>
@@ -297,7 +313,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0007" custom="readingOrder {index:6;}">
-        <Coords points="114,721 114,771 124,771 126,778 133,783 144,782 149,773 160,773 255,783 348,785 365,791 375,788 425,789 434,795 449,795 456,790 475,790 627,798 711,797 716,792 717,763 712,758 617,756 614,747 598,745 581,747 578,755 471,750 442,747 403,737 362,745 331,744 322,742 322,733 306,730 302,726 294,726 287,730 287,740 255,738 253,730 246,727 236,727 231,735 213,732 212,725 208,722 191,723 187,731 172,731 170,724 166,722"/>
+        <Coords points="114,771 124,771 126,778 133,783 144,782 149,773 160,773 255,783 348,785 365,791 375,788 425,789 434,795 449,795 456,790 475,790 570,795 713,795 716,792 717,763 712,758 617,756 614,747 598,745 581,747 578,755 471,750 442,747 403,737 362,745 331,744 322,742 322,733 306,730 302,726 294,726 287,730 287,740 255,738 253,730 246,727 236,727 231,735 213,732 212,725 208,722 191,723 187,731 172,731 170,724 166,722 114,721"/>
         <Baseline points="114,762 716,787"/>
         <Word id="region0001_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="373,776 373,742 362,745 331,744 322,742 322,733 306,730 302,726 294,726 287,730 287,740 255,738 253,730 246,727 236,727 231,735 213,732 212,725 208,722 191,723 187,731 172,731 170,724 166,722 126,721 126,774 148,774 149,773 160,773 173,774"/>
@@ -328,19 +344,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>riata eſt. Occidens ſterilior fuit, nec fere&#13;
-quemquam habuit, qui ſcribendo ade-&#13;
-ptus nomen ſit, præter annalium rudi ſti-&#13;
-lo conditores Reginonem &amp; Frodoar-&#13;
-dum, abbates, Luithprandum, diaconum&#13;
-Ticinenſem, Wittichindum monachum&#13;
+        <Unicode>riata eſt. Occidens ſterilior fuit, nec fere
+quemquam habuit, qui ſcribendo ade-
+ptus nomen ſit, præter annalium rudi ſti-
+lo conditores Reginonem &amp; Frodoar-
+dum, abbates, Luithprandum, diaconum
+Ticinenſem, Wittichindum monachum
 Corbeienſem, &amp; paucos alios.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" type="heading" readingDirection="left-to-right" id="TextRegion_1666256631663_3472" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1666256631663_3472" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.40253448" type="heading" readingDirection="left-to-right">
       <Coords points="113,795 860,795 860,894 113,863"/>
       <TextLine id="region0001_line0008" custom="readingOrder {index:0;}">
-        <Coords points="228,788 222,794 223,826 253,834 374,840 447,839 517,846 580,845 690,852 716,850 721,848 723,841 734,841 739,836 739,806 734,801 574,798 555,797 549,794 475,791 456,791 449,796 434,796 425,790 404,789 375,789 367,792 357,788"/>
+        <Coords points="223,826 253,834 374,840 447,839 517,846 580,845 690,852 716,850 721,848 723,841 734,841 739,836 739,806 734,801 574,798 555,797 551,795 450,795 449,796 434,796 432,795 222,795"/>
         <Baseline points="223,821 722,843"/>
         <Word id="region0001_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="582,807 224,805 224,826 253,834 374,840 447,839 517,846 580,845 582,845"/>
@@ -372,14 +388,14 @@ Corbeienſem, &amp; paucos alios.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>SAECVLVM XI.&#13;
+        <Unicode>SAECVLVM XI.
 CHRISTIANORVM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1666256665441_3544" custom="readingOrder {index:4;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1666256665441_3544" custom="readingOrder {index:4;} structure {type:drop-capital;}" orientation="-0.40253448" type="drop-capital" readingDirection="left-to-right">
       <Coords points="113,863 165,865 165,973 110,973"/>
       <TextLine id="line_1666256825464_3595" custom="readingOrder {index:0;}">
-        <Coords points="131,850 144,852 165,864 165,922 165,970 159,970 140,966 113,948 114,867"/>
+        <Coords points="165,865 117,863 114,867 113,948 140,966 159,970 165,970 165,922"/>
         <Baseline points="114,908 165,909 153,955 165,955"/>
         <Word id="word_1666256828798_3601" custom="readingOrder {index:0;}">
           <Coords points="131,850 144,852 165,864 165,924 165,960 136,960 121,948 121,924 122,866 125,856"/>
@@ -395,10 +411,10 @@ CHRISTIANORVM.</Unicode>
         <Unicode>S</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" readingDirection="left-to-right" id="TextRegion_1666256665440_3543" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1666256665440_3543" custom="readingOrder {index:5;}" orientation="-0.40253448" readingDirection="left-to-right">
       <Coords points="165,865 467,877 467,973 165,973"/>
       <TextLine id="line_1666256665485_3546" custom="readingOrder {index:0;}">
-        <Coords points="178,856 186,856 192,871 207,872 222,880 238,882 253,882 258,877 266,877 277,880 278,883 344,883 352,877 368,877 377,887 422,887 427,881 437,880 444,882 448,887 461,888 467,888 467,929 439,928 432,933 424,933 416,929 331,925 316,922 274,926 221,923 219,930 207,931 200,925 188,922 166,921 165,921 165,864"/>
+        <Coords points="461,888 448,887 444,882 437,880 427,881 422,887 377,887 368,877 352,877 344,883 278,883 277,880 266,877 258,877 253,882 238,882 222,880 207,872 192,871 189,865 165,865 165,921 166,921 188,922 200,925 207,931 219,930 221,923 274,926 316,922 331,925 416,929 424,933 432,933 439,928 467,929 467,888"/>
         <Baseline points="165,909 467,918"/>
         <Word id="word_1666256665486_3548" custom="readingOrder {index:0;}">
           <Coords points="178,856 186,856 192,871 207,872 222,880 238,882 253,882 258,877 266,877 277,880 278,883 333,883 333,909 165,908 165,864"/>
@@ -417,7 +433,7 @@ CHRISTIANORVM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666256665486_3550" custom="readingOrder {index:1;}">
-        <Coords points="165,922 167,922 184,929 188,923 200,926 207,932 281,932 291,924 316,923 323,927 325,934 375,936 379,929 392,928 398,930 400,937 413,938 432,937 439,929 449,929 455,933 467,933 467,974 465,975 452,973 447,978 439,979 424,977 399,980 367,977 352,981 337,981 326,977 203,973 193,964 181,971 165,970"/>
+        <Coords points="455,933 449,929 439,929 432,937 413,938 400,937 398,930 392,928 379,929 375,936 325,934 323,927 316,923 291,924 281,932 207,932 200,926 188,923 184,929 167,922 165,922 165,970 181,971 193,964 203,973 452,973 467,973 467,933"/>
         <Baseline points="165,955 342,968 436,968 467,962"/>
         <Word id="word_1666256665487_3552" custom="readingOrder {index:0;}">
           <Coords points="165,924 172,924 184,929 187,924 193,924 200,926 207,932 276,932 276,961 165,960"/>
@@ -442,14 +458,14 @@ CHRISTIANORVM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Vperiore ſæculo&#13;
+        <Unicode>Vperiore ſæculo
 virtus Græcis vi-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" readingDirection="left-to-right" id="TextRegion_1666256662041_3539" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1666256662041_3539" custom="readingOrder {index:6;}" orientation="-0.40253448" readingDirection="left-to-right">
       <Coords points="110,973 467,973 467,1694 104,1694 104,1280"/>
       <TextLine id="line_1666256654611_3497" custom="readingOrder {index:0;}">
-        <Coords points="132,967 145,969 150,982 155,981 159,971 171,970 178,972 179,981 183,982 181,972 193,965 202,972 195,983 356,987 358,979 367,978 404,982 424,978 447,979 452,974 465,976 467,975 467,1025 451,1027 444,1034 347,1031 332,1030 325,1026 216,1027 114,1024 114,982 120,982 123,972"/>
+        <Coords points="155,981 150,982 146,973 122,973 120,982 114,982 114,1024 216,1027 325,1026 332,1030 347,1031 444,1034 451,1027 467,1025 467,975 465,976 452,974 447,979 424,978 404,982 367,978 358,979 356,987 195,983 201,973 181,973 183,982 179,981 178,973 158,973"/>
         <Baseline points="462,1003 467,1003"/>
         <Word id="region0001_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="121,1005 259,1006 259,984 195,983 202,972 193,965 181,972 183,982 179,981 178,972 171,970 159,971 155,981 150,982 145,969 132,967 123,972 121,978"/>
@@ -570,7 +586,7 @@ virtus Græcis vi-</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0001" custom="readingOrder {index:1;}">
-          <Coords points="330,1246 463,1252 462,1285 329,1279"/>
+          <Coords points="330,1246 329,1279 462,1285 463,1252 420,1250 419,1251 407,1251 405,1249"/>
           <TextEquiv conf="0.82783127">
             <Unicode>CON-</Unicode>
           </TextEquiv>
@@ -749,7 +765,7 @@ virtus Græcis vi-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666256654624_3529" custom="readingOrder {index:13;}">
-        <Coords points="134,1635 147,1636 151,1645 168,1646 181,1646 187,1636 201,1637 207,1646 296,1646 360,1650 365,1642 378,1642 383,1645 385,1652 436,1654 463,1649 467,1649 467,1697 305,1691 300,1703 279,1705 273,1699 272,1690 172,1691 104,1687 104,1644 126,1644 128,1638"/>
+        <Coords points="463,1649 436,1654 385,1652 383,1645 378,1642 365,1642 360,1650 296,1646 207,1646 201,1637 187,1636 181,1646 168,1646 151,1645 147,1636 134,1635 128,1638 126,1644 104,1644 104,1687 172,1691 272,1690 272,1694 303,1694 305,1691 386,1694 467,1694 467,1649"/>
         <Baseline points="104,1677 405,1687 449,1687 467,1680"/>
         <Word id="region0003_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="127,1638 126,1644 112,1644 112,1677 233,1678 233,1646 207,1646 202,1638 185,1638 181,1646 168,1646 151,1645 148,1638"/>
@@ -774,23 +790,23 @@ virtus Græcis vi-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>debatur rediiſſe: Vll. Romanus Argyro-&#13;
-nunc rurſus igna-&#13;
-uiaperduntur, quæ- laphates, Conſtantinus&#13;
-cunque tot præliis&#13;
-&amp; periculis recepta&#13;
-fuerant. CON- runt) Michael vi, Stra-&#13;
-STANTINVS,&#13;
-Baſilii Porphyro- Ducas, Romanus Dioge-&#13;
-genneti frater &amp; in ?e⸗, Michael Duct, Ni-&#13;
-imperio collega, cephorus Botoniates, A-&#13;
-dum ſolus nunc re- perdunt quod multis&#13;
-rum potior, a Pazi-&#13;
-nacas &amp; Saracenos&#13;
+        <Unicode>debatur rediiſſe: Vll. Romanus Argyro-
+nunc rurſus igna-
+uiaperduntur, quæ- laphates, Conſtantinus
+cunque tot præliis
+&amp; periculis recepta
+fuerant. CON- runt) Michael vi, Stra-
+STANTINVS,
+Baſilii Porphyro- Ducas, Romanus Dioge-
+genneti frater &amp; in ?e⸗, Michael Duct, Ni-
+imperio collega, cephorus Botoniates, A-
+dum ſolus nunc re- perdunt quod multis
+rum potior, a Pazi-
+nacas &amp; Saracenos
 vincit: at proximus mis Turcorum potentia.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" readingDirection="left-to-right" id="TextRegion_1666256654569_3485" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1666256654569_3485" custom="readingOrder {index:7;}" orientation="-0.40253448" readingDirection="left-to-right">
       <Coords points="467,877 860,894 860,1092 859,1320 855,1694 467,1694"/>
       <TextLine id="line_1666256654608_3488" custom="readingOrder {index:0;}">
         <Coords points="467,888 517,890 523,887 537,887 555,891 610,890 623,894 721,895 813,902 823,902 830,894 840,894 847,902 860,902 859,935 850,931 839,936 825,933 816,939 804,930 796,937 782,937 730,932 649,933 645,939 632,940 624,938 621,931 570,931 564,928 532,934 467,929"/>
@@ -814,7 +830,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0010_word0005" custom="readingOrder {index:3;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="853,933 853,905 795,902 784,930"/>
+          <Coords points="853,905 795,902 784,930 803,930 804,930 805,930 846,932 850,931 853,932"/>
           <TextEquiv>
             <Unicode>ori-</Unicode>
           </TextEquiv>
@@ -847,7 +863,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Baseline points="467,1003 860,1011"/>
         <Word id="region0001_line0012_word0002" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="483,972 547,973 547,1003 483,1002"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Vll.</Unicode>
           </TextEquiv>
         </Word>
@@ -903,7 +919,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Baseline points="467,1089 859,1097"/>
         <Word id="word_1666256654616_3512" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="467,1062 534,1062 537,1066 589,1065 589,1104 538,1103 534,1099 502,1100 489,1097 481,1103 470,1098 467,1097"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>phlago,</Unicode>
           </TextEquiv>
         </Word>
@@ -939,8 +955,8 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0003" custom="readingOrder {index:1;} textStyle {offset:0; length:12;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="655,1142 850,1143 851,1113 811,1114 800,1109 777,1109 771,1112 740,1112 738,1107 733,1105 714,1107 710,1112 695,1112 678,1107 656,1107"/>
-          <TextEquiv conf="0.0">
+          <Coords points="845,1142 850,1140 850,1113 811,1114 800,1109 777,1109 771,1112 740,1112 738,1107 733,1105 714,1107 710,1112 695,1112 678,1107 656,1107 655,1142"/>
+          <TextEquiv conf="0.">
             <Unicode>Conſtantinus</Unicode>
           </TextEquiv>
         </Word>
@@ -958,7 +974,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0003_word0004" custom="readingOrder {index:1;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="599,1153 676,1153 676,1186 599,1186"/>
+          <Coords points="599,1153 599,1186 676,1186 676,1153 674,1153 668,1156 635,1155 628,1153"/>
           <TextEquiv>
             <Unicode>(cui</Unicode>
           </TextEquiv>
@@ -1009,7 +1025,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Baseline points="467,1262 858,1266"/>
         <Word id="region0002_line0005_word0002" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="480,1242 559,1243 558,1269 479,1268"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>runt)</Unicode>
           </TextEquiv>
         </Word>
@@ -1036,7 +1052,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666256654624_3530" custom="readingOrder {index:9;}">
-        <Coords points="465,1274 702,1274 854,1283 854,1314 623,1312 612,1306 607,1306 599,1313 590,1310 532,1311 492,1307 467,1297"/>
+        <Coords points="492,1307 532,1311 590,1310 599,1313 607,1306 612,1306 623,1312 854,1314 854,1283 702,1274 467,1274 467,1297"/>
         <Baseline points="467,1297 854,1306"/>
         <Word id="word_1667807371662_157" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="480,1281 606,1288 606,1306 603,1309 536,1309 480,1297"/>
@@ -1045,7 +1061,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0002" custom="readingOrder {index:1;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="610,1276 721,1274 720,1306 609,1308"/>
+          <Coords points="610,1276 609,1306 612,1306 615,1307 720,1306 720,1275 706,1274"/>
           <TextEquiv>
             <Unicode>Iſaacus</Unicode>
           </TextEquiv>
@@ -1145,7 +1161,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Coords points="467,1434 472,1435 521,1432 528,1428 542,1434 608,1434 619,1430 633,1430 653,1437 669,1435 685,1439 691,1433 699,1433 704,1436 720,1434 726,1440 732,1441 799,1444 816,1443 827,1436 839,1436 843,1443 854,1444 854,1478 793,1481 786,1487 779,1486 771,1480 748,1476 645,1474 617,1470 612,1464 602,1464 596,1470 522,1469 519,1475 499,1477 487,1461 478,1459 473,1464 482,1470 488,1469 487,1482 467,1482"/>
         <Baseline points="467,1459 477,1460 480,1460 854,1469"/>
         <Word id="region0003_line0005_word0002" custom="readingOrder {index:0;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="487,1434 477,1434 477,1480 487,1480 596,1470 606,1464 606,1435"/>
+          <Coords points="519,1475 522,1469 596,1470 602,1464 606,1464 606,1435 488,1434 477,1435 477,1460 478,1459 487,1461 489,1463 486,1466 485,1469 482,1470 477,1467 477,1480 487,1480 488,1472 490,1472 494,1470 499,1477"/>
           <TextEquiv conf="0.48005334">
             <Unicode>cephorus</Unicode>
           </TextEquiv>
@@ -1170,7 +1186,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Coords points="478,1460 487,1462 499,1478 523,1476 529,1470 542,1470 546,1477 567,1476 579,1471 596,1471 602,1465 612,1465 617,1471 639,1473 641,1481 758,1484 785,1489 832,1488 837,1481 849,1479 854,1483 853,1525 817,1525 815,1531 800,1534 791,1531 789,1526 776,1527 744,1520 680,1516 580,1515 546,1510 512,1512 506,1507 491,1506 486,1511 477,1511 470,1503 467,1502 467,1483 487,1483 489,1469 477,1467 474,1464"/>
         <Baseline points="467,1499 853,1515"/>
         <Word id="region0003_line0006_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="473,1473 473,1476 485,1478 483,1492 473,1492 473,1502 566,1503 566,1483 563,1485 542,1486 538,1479 525,1479 519,1485 495,1487 484,1473"/>
+          <Coords points="483,1492 473,1492 473,1502 566,1503 566,1483 563,1485 542,1486 538,1479 525,1479 519,1485 495,1487 487,1477 487,1483 484,1483"/>
           <TextEquiv conf="0.8814612">
             <Unicode>lexius</Unicode>
           </TextEquiv>
@@ -1226,19 +1242,19 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Coords points="467,1557 468,1559 476,1561 503,1559 536,1562 540,1556 556,1555 562,1563 563,1556 575,1551 585,1558 586,1564 598,1564 605,1568 734,1569 747,1573 780,1574 783,1571 797,1573 809,1570 811,1576 853,1577 854,1608 819,1611 812,1605 801,1602 795,1607 789,1607 779,1617 773,1616 768,1610 756,1609 690,1609 660,1605 655,1609 644,1610 639,1605 626,1603 562,1599 557,1594 545,1593 537,1594 532,1599 496,1597 485,1590 467,1590"/>
         <Baseline points="467,1582 722,1600 854,1600"/>
         <Word id="region0003_line0008_word0004" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="472,1593 573,1594 577,1552 575,1551 563,1556 562,1563 556,1555 540,1556 536,1562 503,1559 476,1561"/>
+          <Coords points="539,1593 545,1593 554,1593 573,1594 576,1552 575,1551 563,1556 562,1563 556,1555 540,1556 536,1562 503,1559 476,1561 472,1590 485,1590 489,1593"/>
           <TextEquiv conf="0.11618057">
             <Unicode>riculis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667807443696_180" custom="readingOrder {index:1;} textStyle {offset:0; length:11;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="588,1564 598,1564 605,1568 734,1569 747,1573 780,1574 780,1606 588,1605"/>
+          <Coords points="588,1564 588,1601 626,1603 639,1605 639,1605 660,1605 660,1605 663,1605 780,1606 780,1574 747,1573 734,1569 605,1568 598,1564"/>
           <TextEquiv>
             <Unicode>recuperatum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667807443696_179" custom="readingOrder {index:2;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="783,1571 797,1573 809,1570 811,1576 845,1576 845,1607 780,1606 780,1574"/>
+          <Coords points="783,1571 780,1574 780,1606 795,1606 801,1602 812,1605 813,1606 845,1607 845,1576 811,1576 809,1570 797,1573"/>
           <TextEquiv>
             <Unicode>fue-</Unicode>
           </TextEquiv>
@@ -1279,7 +1295,7 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666256654624_3528" custom="readingOrder {index:18;}">
-        <Coords points="467,1649 500,1650 507,1644 513,1644 520,1649 534,1646 566,1646 585,1651 592,1644 599,1644 608,1649 609,1655 626,1657 679,1660 738,1659 742,1656 751,1656 755,1659 778,1659 786,1663 797,1660 799,1650 807,1648 821,1654 823,1661 853,1662 853,1700 806,1697 795,1691 785,1691 774,1694 715,1695 710,1705 698,1706 692,1702 690,1695 518,1691 484,1687 480,1696 473,1698 467,1697"/>
+        <Coords points="853,1662 823,1661 821,1654 807,1648 799,1650 797,1660 786,1663 778,1659 755,1659 751,1656 742,1656 738,1659 679,1660 626,1657 609,1655 608,1649 599,1644 592,1644 585,1651 566,1646 534,1646 520,1649 513,1644 507,1644 500,1650 467,1649 467,1694 480,1694 484,1687 518,1691 647,1694 774,1694 785,1691 795,1691 800,1694 853,1694"/>
         <Baseline points="467,1680 475,1678 853,1689"/>
         <Word id="region0003_line0010_word0003" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="506,1644 500,1650 474,1649 474,1673 528,1674 528,1647 520,1649 514,1644"/>
@@ -1304,28 +1320,28 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. 1. Imperatores ori-&#13;
-entales, Conſtantinus&#13;
-debatur rediiſſe: Vll. Romanus Argyro-&#13;
-polus, Michael IV. Pa-&#13;
-phlago, Michael V. Ca-&#13;
-uiaperduntur, quæ- laphates, Conſtantinus&#13;
-VIIII. (cui Turci &amp;&#13;
-&amp; perjeulis recepta Nordmanni graues fue-&#13;
-runt) Michael VI. Stra-&#13;
-tioticus, Iſaacus Comne-&#13;
-nus, Conſtantinus  X.&#13;
-Baſilii Porphyro- Ducas, Romanus Dioge-&#13;
-nes, Michael Ducæ, Ni-&#13;
-imperio collega, cephorus Botoniates, A-&#13;
-lexius Comnenus, qui&#13;
-pe- multis perdunt quod&#13;
-riculis recuperatum fue-&#13;
-nacas &amp; Saracènos rat; inualeſcente in pri-&#13;
+        <Unicode>§. 1. Imperatores ori-
+entales, Conſtantinus
+debatur rediiſſe: Vll. Romanus Argyro-
+polus, Michael IV. Pa-
+phlago, Michael V. Ca-
+uiaperduntur, quæ- laphates, Conſtantinus
+VIIII. (cui Turci &amp;
+&amp; perjeulis recepta Nordmanni graues fue-
+runt) Michael VI. Stra-
+tioticus, Iſaacus Comne-
+nus, Conſtantinus  X.
+Baſilii Porphyro- Ducas, Romanus Dioge-
+nes, Michael Ducæ, Ni-
+imperio collega, cephorus Botoniates, A-
+lexius Comnenus, qui
+pe- multis perdunt quod
+riculis recuperatum fue-
+nacas &amp; Saracènos rat; inualeſcente in pri-
 vincit: at proximus mis Turcorum potentia.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" type="catch-word" readingDirection="left-to-right" id="TextRegion_1666256591000_3447" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1666256591000_3447" custom="readingOrder {index:8;} structure {type:catch-word;}" orientation="-0.40253448" type="catch-word" readingDirection="left-to-right">
       <Coords points="104,1694 855,1694 854,1745 850,1745 104,1729"/>
       <TextLine id="line_1666256591036_3456" custom="readingOrder {index:0;}">
         <Coords points="731,1701 770,1701 773,1695 777,1694 800,1694 804,1704 853,1706 854,1742 839,1744 725,1742 724,1741 723,1712"/>
@@ -1344,10 +1360,10 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         <Unicode>ſuc-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.40253448" type="footnote" readingDirection="left-to-right" id="TextRegion_1666256591000_3446" custom="readingOrder {index:9;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1666256591000_3446" custom="readingOrder {index:9;} structure {type:footnote;}" orientation="-0.40253448" type="footnote" readingDirection="left-to-right">
       <Coords points="104,1729 850,1745 854,1745 855,1836 105,1836"/>
       <TextLine id="region0003_line0012" custom="readingOrder {index:0;}">
-        <Coords points="426,1720 421,1725 420,1744 344,1739 342,1733 335,1728 322,1731 317,1726 303,1728 298,1737 241,1738 177,1737 169,1726 143,1725 136,1735 105,1736 105,1769 139,1773 195,1773 202,1780 214,1784 230,1778 320,1779 336,1776 351,1782 414,1785 415,1789 422,1792 436,1792 444,1787 481,1785 492,1785 502,1790 522,1787 586,1787 605,1792 645,1793 668,1789 731,1791 789,1787 795,1790 802,1789 808,1795 817,1796 833,1787 853,1786 854,1754 801,1751 795,1745 774,1744 768,1749 632,1752 625,1742 614,1742 607,1751 588,1741 530,1741 524,1750 508,1750 502,1740 481,1738 474,1748 466,1748 440,1745 439,1724 434,1720"/>
+        <Coords points="420,1744 344,1739 342,1734 300,1733 298,1737 241,1738 177,1737 172,1730 139,1729 136,1735 105,1736 105,1769 139,1773 195,1773 202,1780 214,1784 230,1778 320,1779 336,1776 351,1782 414,1785 415,1789 422,1792 436,1792 444,1787 481,1785 492,1785 502,1790 522,1787 586,1787 605,1792 645,1793 668,1789 731,1791 789,1787 795,1790 802,1789 808,1795 817,1796 833,1787 853,1786 854,1754 801,1751 795,1745 774,1744 768,1749 632,1752 625,1742 614,1742 607,1751 588,1741 530,1741 524,1750 508,1750 502,1740 481,1738 474,1748 466,1748 440,1745 439,1736 420,1735"/>
         <Baseline points="105,1760 625,1782 854,1778"/>
         <Word id="region0003_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="115,1764 136,1764 135,1735 114,1735"/>
@@ -1427,11 +1443,11 @@ vincit: at proximus mis Turcorum potentia.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a Frequens his temporibus, Pazinacarum, Sey-&#13;
+        <Unicode>a Frequens his temporibus, Pazinacarum, Sey-
 thicæ gentis, mentio. Trans Danubium</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682586473011_736" custom="readingOrder {index:10;} structure {type:catch-word;}">
+    <TextRegion id="region_1682586473011_736" custom="readingOrder {index:10;} structure {type:catch-word;}" type="catch-word">
       <Coords points="752,1842 752,1872 845,1872 845,1842"/>
       <TextLine id="line_1682586473094_739" custom="readingOrder {index:0;}">
         <Coords points="752,1842 752,1872 845,1872 845,1842"/>

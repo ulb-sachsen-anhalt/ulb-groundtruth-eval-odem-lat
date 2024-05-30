@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-42">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:21Z</Created>
     <LastChange>2024-01-19T13:07:21Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/49522cff-c6f2-4072-9534-31f312267476/00000148.jpg" imageWidth="1752" imageHeight="2624" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="region0012"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.060343087" type="page-number" readingDirection="left-to-right" id="TextRegion_1670829968343_56" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1670829968343_56" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.060343087" type="page-number" readingDirection="left-to-right">
       <Coords points="500,300 650,300 650,377 500,377"/>
       <TextLine id="line_1670829968397_59" custom="readingOrder {index:0;}">
         <Coords points="500,329 561,327 575,318 587,318 593,325 650,322 650,374 500,376"/>
@@ -39,7 +55,7 @@
         <Unicode>106</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" type="header" readingDirection="left-to-right" id="TextRegion_1670829968327_55" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1670829968327_55" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.060343087" type="header" readingDirection="left-to-right">
       <Coords points="650,300 1366,300 1366,377 650,377"/>
       <TextLine id="line_1670829968397_58" custom="readingOrder {index:0;}">
         <Coords points="650,322 661,322 666,326 785,322 891,323 917,321 1138,322 1151,320 1164,311 1173,309 1175,301 1195,301 1198,308 1365,307 1365,374 1139,372 1105,373 1102,377 1066,377 1064,373 854,374 802,371 669,371 665,374 650,374"/>
@@ -63,7 +79,7 @@
         <Unicode>PSALMVS XXIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="marginalia" id="region_1670830137705_147" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="region_1670830137705_147" custom="readingOrder {index:2;} structure {type:marginalia;}" type="marginalia">
       <Coords points="431,435 431,486 467,486 467,435"/>
       <TextLine id="line_1670830137885_150" custom="readingOrder {index:0;}">
         <Coords points="431,435 431,486 467,486 467,435"/>
@@ -81,7 +97,7 @@
         <Unicode>6</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" readingDirection="left-to-right" id="TextRegion_1670829984204_65" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1670829984204_65" custom="readingOrder {index:3;}" orientation="-0.060343087" readingDirection="left-to-right">
       <Coords points="498,422 1590,422 1599,483 1599,604 881,671 493,671 493,608"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="990,422 981,425 972,433 911,437 826,437 824,429 819,425 804,427 799,436 734,435 574,440 567,432 542,431 536,436 534,443 498,443 498,481 1029,481 1088,477 1589,477 1589,432 1578,432 1574,423 1554,423 1551,432 1538,432 1535,423 1490,423 1485,433 1401,432 1352,435 1332,434 1330,427 1325,423 1310,424 1305,435 1257,432 1253,423 1236,423 1229,432 1155,434 1150,423 1132,423 1127,427 1125,435 1115,434 1114,427 1109,422"/>
@@ -195,7 +211,7 @@
         <Coords points="1593,529 1584,540 1584,548 1544,548 1540,540 1524,537 1509,538 1504,549 1466,549 1461,540 1450,539 1439,550 1395,551 1378,551 1376,543 1371,539 1355,542 1351,550 1312,550 1310,543 1305,539 1292,540 1287,550 1273,550 1271,544 1264,539 1254,540 1247,550 1235,550 1232,543 1226,539 1215,540 1209,550 1170,550 1166,540 1155,537 1095,536 1090,541 1089,549 1014,549 1006,539 992,539 988,542 986,550 939,554 935,554 929,544 915,545 911,554 894,554 864,552 851,544 846,545 841,552 820,552 813,543 799,544 794,553 788,544 775,543 767,553 747,550 741,543 729,543 721,550 630,554 611,558 498,559 498,603 627,603 668,599 832,600 1052,594 1270,595 1274,598 1288,599 1300,599 1305,595 1393,595 1411,597 1415,604 1449,604 1454,598 1475,596 1598,594 1598,533"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="504,579 625,579 625,555 611,558 504,558"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>meae,</Unicode>
           </TextEquiv>
         </Word>
@@ -264,12 +280,12 @@ meae, et habitabo in domo Domini in longitudine
 dierum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" type="heading" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0008" custom="readingOrder {index:4;} structure {type:heading;}" orientation="-0.060343087" type="heading" readingDirection="left-to-right">
       <Coords points="768,706 1310,706 1310,777 768,777"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1059,707 1055,717 1012,715 969,718 962,711 954,711 948,718 898,720 865,718 834,708 768,707 768,770 924,767 990,769 993,777 1022,777 1023,770 1030,768 1115,765 1198,768 1206,776 1219,776 1230,768 1309,764 1309,714 1265,714 1261,713 1258,707 1224,707 1221,714 1214,715 1119,718 1085,717 1082,707"/>
         <Word id="word_1670830126352_142" custom="readingOrder {index:0;} textStyle {offset:0; length:12;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="774,725 1000,719 1306,719 1306,764 1219,776 1022,777 1000,777 774,768"/>
+          <Coords points="1306,764 1306,719 1000,719 774,725 774,768 805,769 924,767 990,769 992,776 1000,777 1022,777 1023,770 1030,768 1115,765 1198,768 1206,776 1219,776 1230,768 1304,764"/>
           <TextEquiv>
             <Unicode>Paraphraſis.</Unicode>
           </TextEquiv>
@@ -282,7 +298,7 @@ dierum.</Unicode>
         <Unicode>Paraphraſis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" readingDirection="left-to-right" id="TextRegion_1670829999727_76" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1670829999727_76" custom="readingOrder {index:5;}" orientation="-0.060343087" readingDirection="left-to-right">
       <Coords points="495,784 1591,784 1604,1564 1604,1629 499,1629 495,1571"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="1573,785 1567,800 1531,800 1525,799 1517,792 1471,792 1456,801 1438,802 1431,792 1418,792 1414,795 1409,791 1387,791 1381,794 1377,801 1259,805 1188,804 1182,798 1169,796 1158,796 1153,799 1148,796 1124,796 1116,805 877,807 870,805 863,798 853,798 845,803 840,800 826,800 817,806 714,807 709,799 696,797 687,807 676,807 661,805 641,797 549,796 544,801 544,829 551,835 551,846 556,851 751,849 775,850 793,857 797,857 801,850 817,849 950,850 958,857 969,853 998,855 1016,849 1033,848 1230,847 1242,848 1249,855 1260,855 1267,848 1304,846 1591,843 1591,785"/>
@@ -961,7 +977,7 @@ dierum.</Unicode>
         </Word>
         <Word id="region0009_line0013_word0001" custom="readingOrder {index:1;}">
           <Coords points="595,1449 697,1449 697,1421 696,1431 667,1422 660,1413 646,1414 637,1423 595,1423"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>meis,</Unicode>
           </TextEquiv>
         </Word>
@@ -1200,7 +1216,7 @@ id omne aſſigno intemperantiae meae; ſiquid autem recte
 cogitatum eſt, ſi quid honeſte adminiſtratum, totum id re-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" type="catch-word" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region0011" custom="readingOrder {index:6;} structure {type:catch-word;}" orientation="-0.060343087" type="catch-word" readingDirection="left-to-right">
       <Coords points="1503,1616 1585,1616 1585,1661 1503,1661"/>
       <TextLine id="region0011_line" custom="readingOrder {index:0;}">
         <Coords points="1503,1616 1585,1616 1585,1661 1503,1661"/>
@@ -1218,7 +1234,7 @@ cogitatum eſt, ſi quid honeſte adminiſtratum, totum id re-</Unicode>
         <Unicode>fero</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.060343087" type="footnote" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:7;} structure {type:footnote;}">
+    <TextRegion id="region0012" custom="readingOrder {index:7;} structure {type:footnote;}" orientation="-0.060343087" type="footnote" readingDirection="left-to-right">
       <Coords points="598,1715 1589,1715 1589,2358 598,2358"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1059,1715 1017,1720 1012,1716 1003,1716 993,1724 985,1725 977,1725 971,1718 953,1717 947,1727 852,1727 833,1719 773,1719 767,1723 765,1730 747,1729 743,1723 727,1719 675,1719 667,1721 662,1729 649,1728 641,1720 632,1720 623,1730 599,1730 599,1775 616,1776 659,1769 721,1770 782,1767 855,1768 867,1772 878,1768 909,1766 921,1761 930,1761 938,1765 983,1762 1052,1766 1058,1762 1068,1762 1074,1766 1098,1766 1107,1758 1119,1761 1125,1768 1143,1762 1157,1766 1216,1764 1227,1760 1245,1764 1288,1764 1293,1761 1363,1763 1368,1760 1384,1760 1389,1763 1452,1763 1469,1762 1474,1759 1485,1759 1489,1762 1589,1761 1589,1722 1581,1722 1579,1716 1557,1716 1554,1722 1548,1722 1546,1716 1513,1716 1510,1722 1407,1724 1343,1724 1338,1716 1322,1716 1318,1723 1285,1725 1277,1716 1240,1716 1233,1724 1200,1725 1188,1725 1182,1716 1148,1716 1140,1726 1113,1726 1107,1715"/>
@@ -1243,7 +1259,7 @@ cogitatum eſt, ſi quid honeſte adminiſtratum, totum id re-</Unicode>
         </Word>
         <Word id="region0012_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="810,1724 810,1762 909,1762 909,1727 852,1727 844,1724"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Itaque</Unicode>
           </TextEquiv>
         </Word>

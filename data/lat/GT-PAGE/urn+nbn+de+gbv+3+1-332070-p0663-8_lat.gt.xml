@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-140">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:13Z</Created>
     <LastChange>2024-01-19T13:08:13Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/3596d706-865f-489d-9b4c-47f0c287b1af/00000663.jpg" imageWidth="2523" imageHeight="2886" type="content" primaryLanguage="Latin">
     <Border>
@@ -23,7 +39,7 @@
         <RegionRefIndexed index="9" regionRef="region_1676629584622_5896"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676629374674_5795" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676629374674_5795" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="765,433 765,480 1133,480 1133,433"/>
       <TextLine id="line_1676629374802_5798" custom="readingOrder {index:0;}">
         <Coords points="765,433 765,480 1133,480 1133,433"/>
@@ -47,7 +63,7 @@
         <Unicode>DE DOLORIBVS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676629390078_5809" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676629390078_5809" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1511,439 1511,486 1596,486 1596,439"/>
       <TextLine id="line_1676629390199_5812" custom="readingOrder {index:0;}">
         <Coords points="1511,439 1511,486 1596,486 1596,439"/>
@@ -65,7 +81,7 @@
         <Unicode>641</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-1.1703386" readingDirection="left-to-right">
       <Coords points="304,504 1592,538 1587,707 300,673"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="400,508 395,513 394,543 397,547 406,549 406,558 412,564 791,569 801,571 803,578 813,583 830,581 831,574 915,578 1101,582 1193,581 1291,585 1306,582 1363,583 1413,590 1423,585 1590,589 1590,547 1580,547 1577,538 1560,537 1556,537 1554,546 1532,545 1529,537 1510,537 1507,544 1499,544 1499,536 1442,535 1439,544 1395,544 1391,543 1388,535 1376,534 1367,544 1329,543 1323,542 1318,532 1302,531 1295,541 1220,542 1206,541 1203,533 1190,532 1181,542 1136,541 1135,534 1129,529 1114,528 1109,532 1106,539 1085,538 1071,530 1054,527 964,524 906,524 880,533 840,532 755,526 715,527 711,515 690,515 682,526 659,525 656,514 631,514 624,524 573,523 568,512 555,511 549,516 547,523 520,522 509,520 501,513 489,511"/>
@@ -277,7 +293,7 @@ tati: quod exprimunt, es ſeye, wie gantz rohe, wie rohe Fleiſch, brenne
 und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" readingDirection="left-to-right" id="TextRegion_1647254892496_1501" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1647254892496_1501" custom="readingOrder {index:3;}" orientation="-1.1703386" readingDirection="left-to-right">
       <Coords points="296,713 1589,747 1589,1761 1309,1790 278,1763 270,1706"/>
       <TextLine id="line_1647254892561_1504" custom="readingOrder {index:0;}">
         <Coords points="426,717 445,717 683,724 686,737 690,737 698,730 708,730 715,738 772,740 800,741 809,732 819,732 825,742 861,742 865,739 876,741 882,734 892,734 899,743 915,743 916,735 922,731 997,732 1001,737 1002,745 1047,747 1056,747 1058,740 1063,736 1087,737 1092,741 1094,748 1233,751 1244,738 1262,738 1267,748 1277,740 1285,740 1290,744 1292,752 1367,754 1381,742 1398,744 1402,754 1423,754 1428,746 1438,743 1441,743 1466,745 1471,750 1480,752 1508,753 1511,746 1546,746 1550,754 1576,754 1589,748 1589,792 1538,795 1406,793 1387,795 1379,802 1363,806 1343,797 1326,795 1184,792 1182,800 1173,804 1164,801 1160,791 1028,788 1024,797 1009,797 1003,787 988,785 946,784 922,790 873,783 814,782 792,779 627,777 534,772 510,772 501,776 422,774 417,769 419,723"/>
@@ -450,7 +466,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647255005068_1648" custom="readingOrder {index:6;}">
-          <Coords points="1375,871 1389,860 1525,850 1581,850 1580,891 1515,895 1375,892"/>
+          <Coords points="1389,860 1375,871 1375,892 1515,895 1580,891 1581,850 1580,850 1525,850 1523,850 1517,854 1515,860 1470,862 1458,862 1457,855 1435,857 1433,861 1400,860 1400,859"/>
           <TextEquiv>
             <Unicode>οςεόϰοπος</Unicode>
           </TextEquiv>
@@ -468,7 +484,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647255013665_1652" custom="readingOrder {index:1;}">
-          <Coords points="348,879 376,879 468,880 510,887 510,926 449,925 348,917"/>
+          <Coords points="348,879 348,917 449,925 510,926 510,887 472,887 468,880 468,880 425,880 422,887 386,888 376,879"/>
           <TextEquiv>
             <Unicode>ἑλϰώδης.</Unicode>
           </TextEquiv>
@@ -486,7 +502,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647255031908_1661" custom="readingOrder {index:4;}">
-          <Coords points="791,888 885,887 905,889 956,903 956,934 885,933 791,926"/>
+          <Coords points="792,887 791,890 791,926 885,933 956,934 956,903 910,902 905,889 885,887 870,889 865,901 846,901 824,898 814,887"/>
           <TextEquiv>
             <Unicode>ἑλϰώδης,</Unicode>
           </TextEquiv>
@@ -499,7 +515,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
         </Word>
         <Word id="region0002_line0004_word0007" custom="readingOrder {index:6;}">
           <Coords points="1065,906 1032,905 1031,939 1184,942 1185,908 1166,908 1165,908"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>tanquam</Unicode>
           </TextEquiv>
         </Word>
@@ -936,7 +952,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647255075448_1671" custom="readingOrder {index:5;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="874,1258 944,1251 956,1251 1016,1261 1035,1275 1033,1301 1016,1294 874,1291"/>
+          <Coords points="944,1251 936,1254 931,1260 874,1258 874,1291 1016,1294 1033,1301 1035,1275 1016,1261 990,1260 963,1262 956,1251"/>
           <TextEquiv>
             <Unicode>conſueto,</Unicode>
           </TextEquiv>
@@ -1290,7 +1306,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1647255122769_1685" custom="readingOrder {index:8;}">
-          <Coords points="1125,1511 1195,1512 1306,1514 1331,1515 1392,1521 1414,1545 1414,1567 1378,1567 1270,1565 1124,1562"/>
+          <Coords points="1125,1511 1124,1562 1245,1564 1246,1564 1292,1565 1377,1567 1385,1563 1396,1563 1398,1567 1414,1567 1414,1545 1392,1521 1391,1521 1391,1521 1365,1521 1358,1524 1334,1520 1331,1515 1306,1514 1304,1520 1269,1518 1264,1513 1224,1513 1221,1515 1203,1515 1194,1512"/>
           <TextEquiv>
             <Unicode>Blutſchwaͤren,</Unicode>
           </TextEquiv>
@@ -1530,7 +1546,7 @@ und beiſſe und nage wie ein offener Schade ꝛc.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="582,1708 587,1707 586,1755 665,1760 696,1763 730,1764 730,1717 725,1718 656,1715 654,1710 612,1709 611,1711 585,1711"/>
+          <Coords points="582,1708 586,1755 730,1764 730,1717"/>
           <TextEquiv conf="0.9128091">
             <Unicode>aſſerto,</Unicode>
           </TextEquiv>
@@ -1598,7 +1614,7 @@ aƈtiorem deſcriptionem ſpeciei ſenſationis exhibere poſſint, tamen ge-
 nerali nomine &amp; aſſerto, es thue ihnen eben alles wehe.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" readingDirection="left-to-right" id="TextRegion_1647254904264_1545" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1647254904264_1545" custom="readingOrder {index:4;}" orientation="-1.1703386" readingDirection="left-to-right">
       <Coords points="277,1799 1570,1832 1570,2412 262,2378"/>
       <TextLine id="line_1647254904337_1548" custom="readingOrder {index:0;}">
         <Coords points="383,1803 391,1802 400,1802 595,1807 597,1814 616,1815 621,1809 638,1809 642,1817 668,1822 682,1810 697,1810 701,1824 740,1822 756,1815 777,1814 822,1816 829,1820 831,1826 943,1828 955,1821 1014,1823 1025,1826 1030,1835 1039,1835 1044,1827 1051,1824 1063,1825 1071,1836 1076,1836 1078,1830 1086,1825 1100,1824 1107,1837 1152,1838 1154,1830 1163,1823 1176,1824 1180,1829 1181,1838 1186,1828 1194,1825 1206,1827 1212,1838 1347,1840 1349,1834 1355,1829 1368,1830 1374,1840 1529,1841 1549,1840 1569,1833 1570,1833 1570,1883 1487,1883 1485,1892 1480,1895 1463,1886 1461,1882 1387,1883 1359,1886 1349,1891 1344,1879 1334,1876 1324,1884 1012,1878 959,1875 936,1870 855,1868 818,1865 808,1871 758,1870 749,1868 745,1862 735,1862 727,1858 683,1862 672,1858 659,1857 647,1862 623,1858 568,1856 401,1856 396,1851 395,1842 382,1842 377,1837 378,1808"/>
@@ -2279,20 +2295,20 @@ nerali nomine &amp; aſſerto, es thue ihnen eben alles wehe.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. III. O’ςεόϰοπος autem ille dolor ſolum magis tanquam&#13;
-intimæ fatigationis ſenſum exprimit, grauitati, tanquam ponderis,&#13;
-&amp; tenſioni propinquiorem. Nomen autem, vt ab oſſe deſumtum, tue-&#13;
-tur illo, quod patientes eiusmodi re vera expreſſione tali vti ſoleant, vt&#13;
-intimam quandam laſſitudinem enuncient, tanquam ad medullam, ſeu&#13;
-intimam non ſolum membrorum, ſed omnino oſſium profunditatem,&#13;
-penetrantem. Eſt huius comes inquietudo veluti perpetua patientium,&#13;
-vt ſitum vnum non diu quieti ſeruare valeant, ſed qualicunque motita-&#13;
-tione veras illas tenſiones moleſtas in partibus tantisper expedire labo-&#13;
-rent, donee iterum ſeruata aliquandiu mora tenſio illa, denuo velut obri-&#13;
+        <Unicode>§. III. O’ςεόϰοπος autem ille dolor ſolum magis tanquam
+intimæ fatigationis ſenſum exprimit, grauitati, tanquam ponderis,
+&amp; tenſioni propinquiorem. Nomen autem, vt ab oſſe deſumtum, tue-
+tur illo, quod patientes eiusmodi re vera expreſſione tali vti ſoleant, vt
+intimam quandam laſſitudinem enuncient, tanquam ad medullam, ſeu
+intimam non ſolum membrorum, ſed omnino oſſium profunditatem,
+penetrantem. Eſt huius comes inquietudo veluti perpetua patientium,
+vt ſitum vnum non diu quieti ſeruare valeant, ſed qualicunque motita-
+tione veras illas tenſiones moleſtas in partibus tantisper expedire labo-
+rent, donee iterum ſeruata aliquandiu mora tenſio illa, denuo velut obri-
 geſcens. nouum eiusmodi motum ad iſtam alterandam ſuadeat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" type="marginalia" readingDirection="left-to-right" id="TextRegion_1647256949725_2249" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1647256949725_2249" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="-1.1703386" type="marginalia" readingDirection="left-to-right">
       <Coords points="1589,747 1777,752 1773,876 1589,876"/>
       <TextLine id="line_1647254892560_1503" custom="readingOrder {index:0;}">
         <Coords points="1589,748 1593,747 1598,747 1625,749 1663,756 1694,756 1698,750 1715,751 1719,757 1747,757 1758,752 1775,752 1775,797 1609,791 1589,792"/>
@@ -2319,14 +2335,14 @@ geſcens. nouum eiusmodi motum ad iſtam alterandam ſuadeat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Innominati&#13;
+        <Unicode>Innominati
 notatis magis quam notis, ſunt fine dubio præeipui due ll), quorum tam dolores.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" type="marginalia" readingDirection="left-to-right" id="TextRegion_1647256949723_2248" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1647256949723_2248" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="-1.1703386" type="marginalia" readingDirection="left-to-right">
       <Coords points="1589,876 1773,876 1751,949 1589,965"/>
       <TextLine id="line_1647254892568_1509" custom="readingOrder {index:0;}">
-        <Coords points="1589,906 1650,908 1659,913 1689,914 1695,907 1708,907 1714,915 1772,916 1772,932 1771,960 1589,953"/>
+        <Coords points="1714,915 1708,907 1695,907 1689,914 1659,913 1650,908 1589,906 1589,953 1676,956 1751,949 1761,915"/>
         <Word id="region0002_line0004_word0012" custom="readingOrder {index:0;}">
           <Coords points="1651,909 1597,908 1596,941 1745,944 1745,915 1714,915 1710,910 1692,909 1689,914 1659,913"/>
           <TextEquiv conf="0.8543747">
@@ -2341,10 +2357,10 @@ notatis magis quam notis, ſunt fine dubio præeipui due ll), quorum tam dolores
         <Unicode>&amp; Auw Ing Hicquidem Auw ng, vu tanquam medio loco eſſe poteſt Helcodes.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.1703386" type="marginalia" readingDirection="left-to-right" id="TextRegion_1647254904264_1544" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1647254904264_1544" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="-1.1703386" type="marginalia" readingDirection="left-to-right">
       <Coords points="1570,1832 1767,1838 1757,1893 1576,1888"/>
       <TextLine id="line_1647254904337_1547" custom="readingOrder {index:0;}">
-        <Coords points="1570,1833 1642,1836 1652,1843 1766,1845 1765,1887 1719,1885 1717,1892 1711,1896 1696,1895 1689,1885 1570,1883"/>
+        <Coords points="1652,1843 1642,1836 1570,1833 1575,1883 1689,1885 1693,1891 1717,1891 1719,1885 1758,1886 1765,1844"/>
         <Word id="region0004_line0001_word0010" custom="readingOrder {index:0;}">
           <Coords points="1644,1837 1577,1836 1576,1880 1760,1884 1760,1844 1652,1843"/>
           <TextEquiv conf="0.5720284">
@@ -2359,7 +2375,7 @@ notatis magis quam notis, ſunt fine dubio præeipui due ll), quorum tam dolores
         <Unicode>$. TIT, OSe3xox Zu autem ille dolor ſolum magis tanquam Oſteocopos.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676629580660_5887" custom="readingOrder {index:8;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676629580660_5887" custom="readingOrder {index:8;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="909,2436 909,2488 1090,2488 1090,2436"/>
       <TextLine id="line_1676629581055_5890" custom="readingOrder {index:0;}">
         <Coords points="909,2436 909,2488 1090,2488 1090,2436"/>
@@ -2377,7 +2393,7 @@ notatis magis quam notis, ſunt fine dubio præeipui due ll), quorum tam dolores
         <Unicode>Mmmm</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676629584622_5896" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="region_1676629584622_5896" custom="readingOrder {index:9;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1443,2448 1443,2492 1564,2492 1564,2448"/>
       <TextLine id="line_1676629584808_5899" custom="readingOrder {index:0;}">
         <Coords points="1443,2448 1443,2492 1564,2492 1564,2448"/>

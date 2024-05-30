@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-229">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:23Z</Created>
     <LastChange>2024-01-19T13:09:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6f2e8688-3862-4f04-b668-1ea530c45f22/00000119.jpg" imageWidth="1746" imageHeight="2626" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1683096162118_625"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683096090086_565" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683096090086_565" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="503,367 503,417 908,417 908,367"/>
       <TextLine id="line_1683096090184_568" custom="readingOrder {index:0;}">
         <Coords points="503,367 503,417 908,417 908,367"/>
@@ -48,7 +64,7 @@
         <Unicode>DE SCRIPURA S.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683096093583_574" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683096093583_574" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1160,377 1160,431 1219,431 1219,377"/>
       <TextLine id="line_1683096093680_577" custom="readingOrder {index:0;}">
         <Coords points="1160,377 1160,431 1219,431 1219,377"/>
@@ -66,13 +82,13 @@
         <Unicode>93</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38466886" readingDirection="left-to-right" id="TextRegion_1668768411571_5131" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1668768411571_5131" custom="readingOrder {index:2;}" orientation="-0.38466886" readingDirection="left-to-right">
       <Coords points="211,451 1222,451 1222,994 1221,1037 210,1037 210,976"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="358,451 289,454 284,458 282,466 212,465 212,506 656,511 764,517 766,522 779,528 790,518 817,517 871,519 877,528 890,529 914,519 1020,518 1024,520 1027,529 1037,530 1046,526 1050,519 1193,521 1222,517 1222,481 1051,478 1049,469 1043,465 1028,468 1024,478 995,477 990,467 973,464 961,465 955,475 919,476 914,467 901,465 895,470 893,477 804,476 799,465 784,463 770,464 765,474 722,474 718,462 706,460 653,460 639,466 632,460 623,460 615,469 608,460 598,459 589,462 585,469 529,469 506,468 502,455 490,452 484,457 482,468 461,468 394,464 389,456 379,451"/>
         <Baseline points="212,496 643,500 781,508 1222,508"/>
         <Word id="region0001_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="210,470 276,470 276,495 210,495"/>
+          <Coords points="276,495 276,470 212,470 212,495"/>
           <TextEquiv>
             <Unicode>tot.</Unicode>
           </TextEquiv>
@@ -298,7 +314,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1668768575674_5197" custom="readingOrder {index:1;}">
-          <Coords points="409,701 672,701 684,702 684,731 549,730 409,729"/>
+          <Coords points="409,701 409,729 549,730 684,731 684,702 672,701 670,704 503,702 502,701 480,701 480,702 467,702 451,701"/>
           <TextEquiv>
             <Unicode>(RAMBACHII</Unicode>
           </TextEquiv>
@@ -588,19 +604,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tot. Et tamen multis Cocceji magis alicujus exem-&#13;
-plum, quam lex haec, .S .S ita honorifica probatur.&#13;
-Adeo humanum ſuo eſt, indulgere in concinnanda reli-&#13;
-gione ingenio, quam obſequi divinae auctoritati ſim-&#13;
-pliciter! (RAMBACHII Inſtit. Hermen. S. p. 78 ſſ.&#13;
-PFAFF de recta conformat. theol. typicae.) Ab his,&#13;
-quae breviter ſtrictimque monuimus, ſeparanda ea&#13;
-ſunt, quae de allegatione per accommodationem, ex&#13;
-V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
+        <Unicode>tot. Et tamen multis Cocceji magis alicujus exem-
+plum, quam lex haec, .S .S ita honorifica probatur.
+Adeo humanum ſuo eſt, indulgere in concinnanda reli-
+gione ingenio, quam obſequi divinae auctoritati ſim-
+pliciter! (RAMBACHII Inſtit. Hermen. S. p. 78 ſſ.
+PFAFF de recta conformat. theol. typicae.) Ab his,
+quae breviter ſtrictimque monuimus, ſeparanda ea
+ſunt, quae de allegatione per accommodationem, ex
+V. T. in N. facta, accurate Glaſſius noſter d. l. p.
 582 ſſ. monet.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38466886" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;}" orientation="-0.38466886" readingDirection="left-to-right">
       <Coords points="166,1095 1229,1095 1229,2274 166,2274"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="485,1095 462,1101 391,1100 389,1095 280,1096 277,1100 277,1127 281,1132 288,1134 288,1146 294,1152 449,1153 452,1149 452,1134 457,1133 467,1145 501,1149 515,1158 530,1156 538,1161 555,1158 576,1163 581,1158 582,1150 871,1157 1044,1157 1051,1159 1051,1168 1055,1173 1089,1173 1095,1168 1096,1158 1109,1160 1118,1171 1134,1170 1145,1163 1161,1162 1229,1162 1229,1120 1160,1120 1158,1113 1153,1108 1141,1108 1134,1118 1127,1118 1083,1116 1075,1108 1065,1105 972,1104 961,1106 952,1114 918,1116 916,1104 906,1100 891,1103 883,1113 727,1112 589,1108 587,1101 581,1096 572,1096 566,1100 555,1095"/>
@@ -697,7 +713,7 @@ V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1171,1213 1166,1169 1166,1170 1218,1170 1213,1214"/>
+          <Coords points="1171,1213 1166,1169 1218,1170 1213,1214"/>
           <TextEquiv conf="0.88721174">
             <Unicode>hi-</Unicode>
           </TextEquiv>
@@ -968,7 +984,7 @@ V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
         </Word>
         <Word id="region0004_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="422,1501 413,1502 413,1549 656,1550 656,1516 617,1515 616,1508 605,1505 590,1505 583,1515 543,1513 539,1503 536,1502 512,1501 503,1513 480,1513 479,1505 475,1501 456,1501 445,1512 429,1512 427,1505 422,1501"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>inſructuoſam</Unicode>
           </TextEquiv>
         </Word>
@@ -1188,7 +1204,7 @@ V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
         </Word>
         <Word id="region0004_line0012_word0002" custom="readingOrder {index:2;}">
           <Coords points="604,1780 691,1780 691,1758 678,1757 604,1754"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>vero</Unicode>
           </TextEquiv>
         </Word>
@@ -1606,7 +1622,7 @@ V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0020" custom="readingOrder {index:19;}">
-        <Coords points="191,2204 167,2205 166,2273 183,2273 199,2293 209,2293 213,2290 213,2278 218,2272 240,2269 336,2271 365,2280 391,2279 415,2272 491,2271 533,2278 537,2275 612,2272 614,2281 624,2287 640,2287 645,2283 646,2275 653,2274 699,2277 708,2289 724,2289 730,2287 737,2279 943,2279 961,2281 970,2288 985,2288 992,2285 1051,2285 1057,2283 1063,2274 1228,2275 1227,2232 1175,2232 1173,2224 1169,2221 1153,2222 1148,2231 1057,2232 1053,2224 1040,2223 1035,2227 1033,2234 961,2238 749,2236 742,2226 730,2227 725,2236 701,2234 692,2233 690,2225 681,2220 667,2222 663,2231 651,2231 616,2230 610,2227 445,2229 440,2219 427,2218 422,2222 420,2230 405,2230 350,2229 347,2220 342,2216 321,2216 314,2221 313,2229 309,2230 241,2226 239,2210 218,2208 209,2204"/>
+        <Coords points="167,2205 166,2273 183,2273 183,2274 216,2274 218,2272 240,2269 336,2271 345,2274 408,2274 415,2272 491,2271 509,2274 562,2274 612,2272 612,2274 653,2274 1063,2274 1227,2274 1227,2232 1175,2232 1173,2224 1169,2221 1153,2222 1148,2231 1057,2232 1053,2224 1040,2223 1035,2227 1033,2234 961,2238 749,2236 742,2226 730,2227 725,2236 701,2234 692,2233 690,2225 681,2220 667,2222 663,2231 651,2231 616,2230 610,2227 445,2229 440,2219 427,2218 422,2222 420,2230 405,2230 350,2229 347,2220 342,2216 321,2216 314,2221 313,2229 309,2230 241,2226 239,2210 218,2208 209,2204 191,2204"/>
         <Baseline points="166,2261 1017,2274 1088,2263 1228,2265"/>
         <Word id="region0004_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="187,2204 169,2205 168,2272 218,2272 218,2272 240,2269 278,2270 279,2228 241,2226 239,2210 218,2208 210,2204"/>
@@ -1649,29 +1665,29 @@ V. T. in N. facta, accurate Glaſſius noſter d. l. p.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. 97. Qui contra omnes fere S. S. paginas&#13;
-ſolent abditis ſublimibusque ſenſibus, ipſamque hi-&#13;
-ſtoriam S. et doctrinas ethicas involvere, incerta red-&#13;
-dunt omnia, eorum lasciviam in graviore re imitati,&#13;
-qui in Homero olim omnium eruditionis partium&#13;
-ſemina latere, temere leviſſimeque putabant. Hi&#13;
-vero male fidi interpretes non perpendunt, nullam&#13;
-veritatem inſructuoſam eſſe; ſingularum vero S. S.&#13;
-ſententiarum has proxime, alias propius, alias vi-&#13;
-ciſſim remote tantum ac mediate, ad fidem ac pieta-&#13;
-tem chriſtianam ex divino nos conſilio manu quaſi&#13;
-adducere. Immo vero graviora docet nos ſenſus&#13;
-litteralis, quam ille illatus et affictus. Sic, ut hoc&#13;
-utar, magis lectorum intereſt, moneri eos ad Matth.&#13;
-21, 2. ſſ. de impletione vaticiniorum meditanda,&#13;
-quam de ſubjiciendo Servatori vetere Adamo, aut&#13;
-de vocatione Judaeorum ac gentium ad eccleſiam.&#13;
-Quae cum ita ſint, non eſt promiscue cum Patribus&#13;
-nonnullis aut Romanenſibus omnis pars S. S. ad ſen&#13;
+        <Unicode>§. 97. Qui contra omnes fere S. S. paginas
+ſolent abditis ſublimibusque ſenſibus, ipſamque hi-
+ſtoriam S. et doctrinas ethicas involvere, incerta red-
+dunt omnia, eorum lasciviam in graviore re imitati,
+qui in Homero olim omnium eruditionis partium
+ſemina latere, temere leviſſimeque putabant. Hi
+vero male fidi interpretes non perpendunt, nullam
+veritatem inſructuoſam eſſe; ſingularum vero S. S.
+ſententiarum has proxime, alias propius, alias vi-
+ciſſim remote tantum ac mediate, ad fidem ac pieta-
+tem chriſtianam ex divino nos conſilio manu quaſi
+adducere. Immo vero graviora docet nos ſenſus
+litteralis, quam ille illatus et affictus. Sic, ut hoc
+utar, magis lectorum intereſt, moneri eos ad Matth.
+21, 2. ſſ. de impletione vaticiniorum meditanda,
+quam de ſubjiciendo Servatori vetere Adamo, aut
+de vocatione Judaeorum ac gentium ad eccleſiam.
+Quae cum ita ſint, non eſt promiscue cum Patribus
+nonnullis aut Romanenſibus omnis pars S. S. ad ſen
 ſum allegoricum, tropologicum et anagogicum de</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683096162118_625" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1683096162118_625" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1127,2297 1127,2334 1215,2334 1215,2297"/>
       <TextLine id="line_1683096162185_628" custom="readingOrder {index:0;}">
         <Coords points="1127,2297 1127,2334 1215,2334 1215,2297"/>

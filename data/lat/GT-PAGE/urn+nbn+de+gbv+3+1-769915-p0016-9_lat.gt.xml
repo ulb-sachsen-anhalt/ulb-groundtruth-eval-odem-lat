@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-265">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:10Z</Created>
     <LastChange>2024-01-19T13:10:10Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/b4af5efd-f925-4c7b-96a5-64daba30d2c6/00000016.jpg" imageWidth="2205" imageHeight="2769" type="content" primaryLanguage="Latin">
     <Border>
@@ -16,13 +32,10 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1683627703641_145"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1683627679868_136" custom="readingOrder {index:0;}">
-      <Coords points="1317,430 1632,430 1632,472 1317,472"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.1755759" type="page-number" readingDirection="left-to-right" id="TextRegion_1671789113541_3397" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671789113541_3397" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.1755759" type="page-number" readingDirection="left-to-right">
       <Coords points="972,430 1049,430 1049,481 972,481"/>
       <TextLine id="line_1671789124980_3404" custom="readingOrder {index:0;}">
-        <Coords points="983,441 983,484 1017,484 1017,441"/>
+        <Coords points="983,481 1017,481 1017,441 983,441"/>
         <Word id="word_1671789125069_3407" custom="readingOrder {index:0;}">
           <Coords points="983,441 1017,441 1017,484 983,484"/>
           <TextEquiv>
@@ -37,14 +50,14 @@
         <Unicode>10</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.1755759" readingDirection="left-to-right" id="TextRegion_1683627694922_141" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1683627694922_141" custom="readingOrder {index:2;}" orientation="0.1755759" readingDirection="left-to-right">
       <Coords points="967,502 1998,502 1998,2207 1987,2250 972,2269 967,2207"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1801,512 1789,526 1786,526 1779,517 1765,517 1755,525 1732,519 1700,518 1661,521 1655,526 1644,527 1616,527 1611,519 1598,517 1588,528 1564,529 1560,520 1546,518 1538,521 1535,528 1530,530 1442,532 1419,531 1410,521 1396,522 1391,531 1382,531 1377,527 1368,527 1363,531 1335,531 1327,522 1317,521 1311,523 1307,531 1180,533 1176,530 1166,530 1153,534 1040,533 1035,525 1021,523 1015,527 1012,534 967,535 967,577 1072,577 1101,579 1106,584 1118,584 1124,579 1160,576 1286,575 1408,575 1426,576 1431,580 1440,580 1445,576 1466,575 1469,579 1477,580 1488,579 1494,573 1508,572 1642,572 1664,573 1670,578 1681,578 1687,573 1761,570 1884,569 1891,574 1902,574 1910,568 1928,566 1939,569 1997,568 1997,528 1885,524 1877,513 1864,514 1854,525 1819,525 1814,513"/>
         <Baseline points="967,567 1997,557"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="973,566 1119,566 1119,533 1040,533 1035,525 1021,523 1015,527 1012,534 973,534"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>animos,</Unicode>
           </TextEquiv>
         </Word>
@@ -295,7 +308,7 @@
         </Word>
         <Word id="region0004_line0006_word0001" custom="readingOrder {index:1;}">
           <Coords points="1122,862 1311,861 1311,830 1256,830 1175,833 1169,826 1156,825 1150,831 1143,831 1138,835 1122,836"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>etiamnum</Unicode>
           </TextEquiv>
         </Word>
@@ -417,7 +430,7 @@
         </Word>
         <Word id="region0004_line0008_word0005" custom="readingOrder {index:5;}">
           <Coords points="1722,950 1806,949 1806,977 1722,978"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>erat.</Unicode>
           </TextEquiv>
         </Word>
@@ -828,7 +841,7 @@
         </Word>
         <Word id="region0004_line0017_word0004" custom="readingOrder {index:4;}">
           <Coords points="1345,1509 1544,1508 1544,1481 1489,1483 1450,1484 1444,1477 1428,1478 1422,1484 1409,1484 1401,1483 1393,1476 1380,1475 1373,1481 1351,1479 1345,1480"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſcholarum</Unicode>
           </TextEquiv>
         </Word>
@@ -1328,7 +1341,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0001" custom="readingOrder {index:28;}">
-        <Coords points="1881,2193 1869,2199 1811,2204 1802,2195 1792,2195 1775,2199 1769,2206 1754,2208 1749,2208 1740,2199 1729,2200 1722,2208 1696,2206 1676,2209 1624,2209 1606,2200 1595,2200 1589,2204 1587,2210 1411,2212 1388,2213 1373,2217 1287,2216 1275,2204 1263,2206 1257,2203 1187,2206 1174,2211 1152,2208 1088,2217 1085,2217 1080,2209 1068,2207 1059,2218 975,2221 975,2275 1014,2274 1021,2264 1087,2259 1335,2258 1357,2262 1366,2268 1378,2268 1382,2265 1408,2265 1421,2255 1486,2256 1522,2264 1537,2264 1542,2260 1576,2255 1764,2250 1799,2251 1809,2256 1822,2256 1830,2251 1859,2243 1974,2241 1974,2201 1906,2199 1903,2193"/>
+        <Coords points="1869,2199 1811,2204 1802,2195 1792,2195 1775,2199 1769,2206 1754,2208 1749,2208 1740,2199 1729,2200 1722,2208 1696,2206 1676,2209 1624,2209 1606,2200 1595,2200 1589,2204 1587,2210 1411,2212 1388,2213 1373,2217 1287,2216 1275,2204 1263,2206 1257,2203 1187,2206 1174,2211 1152,2208 1088,2217 1085,2217 1080,2209 1068,2207 1059,2218 975,2221 975,2268 1018,2268 1021,2264 1087,2259 1335,2258 1355,2261 1413,2260 1421,2255 1486,2256 1500,2259 1555,2258 1576,2255 1764,2250 1799,2251 1803,2253 1826,2252 1830,2251 1859,2243 1974,2241 1974,2201 1906,2199 1903,2193 1881,2193"/>
         <Word id="region0005_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="981,2252 1120,2252 1120,2212 1088,2217 1085,2217 1080,2209 1068,2207 1059,2218 981,2220"/>
           <TextEquiv>
@@ -1376,38 +1389,38 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>animos, et cum vix tria, quod aiunt, Steſichori per-&#13;
-ceperint, e carceribus ſcholaſticis ſe proripere et&#13;
-evolare geſtiunt ad ampliora Academiae ſpatia.&#13;
-Miraris hunc feſtinatum et praepoſterum puerorum&#13;
-in Academiam disceſſum, quippe quos tres qua-&#13;
-tuorve etiamnum annos haerere in ſubſelliis ſcho-&#13;
-laſticis et ignorantiae tenebras menti ſuae offuſas&#13;
-ſolidioris doctrinae luce discutere par erat. Mira-&#13;
-ris parentum ſocordiam et pravam indulgentiam,&#13;
-quod perverſo iſti et pernicioſo filiorum ſtudio dis-&#13;
-ceſſum in Academiam non maturandi, ſed antici-&#13;
-pandi, velificandum ſibi ſatisfaciendumque putent.&#13;
-Mirari noli. Cauſam tantae perverſitatis non eſt,&#13;
-quod longe repetas. Vicina Academia hac quoque&#13;
-clade afflixit peſſumdeditque rem ſcholaſticam.&#13;
-Nonne enim pueros et adolescentulos, paulum ſe-&#13;
-veriori lege in his ſcholarum umbraculis proficien-&#13;
-tes, quotiescunque adultiores iuvenes in propinqua&#13;
-Academia liberrime evagantes, ludendo, equitan-&#13;
-do, vel comeſſando, ne quid turpius dicam, genio&#13;
-ſuo obſequentes, et nullis, niſi quos ipſi ſibimet&#13;
-circumdederint, limitibus circumſcriptos conſpiciant,&#13;
-ardentiſſima prodeambulandi in puluerem ac ſolem&#13;
-Academicum cupiditate inflammari oportet? Non-&#13;
-ne, dum imperia, quibus parent, adſtricta ex illo-&#13;
-rum licentia metiuntur, intolerabili ſervitute ſeſe&#13;
-oppreſſos eſſe, et dum fructuoſiſſima leniſſimaque&#13;
-magiſtrorum disciplina continentur, onus Aetna&#13;
+        <Unicode>animos, et cum vix tria, quod aiunt, Steſichori per-
+ceperint, e carceribus ſcholaſticis ſe proripere et
+evolare geſtiunt ad ampliora Academiae ſpatia.
+Miraris hunc feſtinatum et praepoſterum puerorum
+in Academiam disceſſum, quippe quos tres qua-
+tuorve etiamnum annos haerere in ſubſelliis ſcho-
+laſticis et ignorantiae tenebras menti ſuae offuſas
+ſolidioris doctrinae luce discutere par erat. Mira-
+ris parentum ſocordiam et pravam indulgentiam,
+quod perverſo iſti et pernicioſo filiorum ſtudio dis-
+ceſſum in Academiam non maturandi, ſed antici-
+pandi, velificandum ſibi ſatisfaciendumque putent.
+Mirari noli. Cauſam tantae perverſitatis non eſt,
+quod longe repetas. Vicina Academia hac quoque
+clade afflixit peſſumdeditque rem ſcholaſticam.
+Nonne enim pueros et adolescentulos, paulum ſe-
+veriori lege in his ſcholarum umbraculis proficien-
+tes, quotiescunque adultiores iuvenes in propinqua
+Academia liberrime evagantes, ludendo, equitan-
+do, vel comeſſando, ne quid turpius dicam, genio
+ſuo obſequentes, et nullis, niſi quos ipſi ſibimet
+circumdederint, limitibus circumſcriptos conſpiciant,
+ardentiſſima prodeambulandi in puluerem ac ſolem
+Academicum cupiditate inflammari oportet? Non-
+ne, dum imperia, quibus parent, adſtricta ex illo-
+rum licentia metiuntur, intolerabili ſervitute ſeſe
+oppreſſos eſſe, et dum fructuoſiſſima leniſſimaque
+magiſtrorum disciplina continentur, onus Aetna
 gravius ſe ſuſtinere, cum gemitu et indignatione</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.1755759" type="catch-word" readingDirection="left-to-right" id="TextRegion_1683627703641_145" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1683627703641_145" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.1755759" type="catch-word" readingDirection="left-to-right">
       <Coords points="1856,2252 1987,2250 1975,2299 1856,2299"/>
       <TextLine id="line_1683627703663_148" custom="readingOrder {index:0;}">
         <Coords points="1856,2258 1938,2260 1944,2252 1958,2252 1965,2262 1974,2264 1974,2298 1856,2297"/>
@@ -1426,5 +1439,8 @@ gravius ſe ſuſtinere, cum gemitu et indignatione</Unicode>
         <Unicode>voci-</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683627679868_136" custom="readingOrder {index:0;}">
+      <Coords points="1317,430 1632,430 1632,472 1317,472"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

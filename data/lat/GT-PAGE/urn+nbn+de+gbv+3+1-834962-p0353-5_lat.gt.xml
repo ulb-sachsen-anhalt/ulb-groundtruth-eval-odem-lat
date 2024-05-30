@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-314">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:57Z</Created>
     <LastChange>2024-01-19T13:10:57Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9afbe091-3e2d-450d-95b4-a8dd1d508328/00000353.jpg" imageWidth="1850" imageHeight="2414" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1657695696869_1532"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.17858876" readingDirection="left-to-right" id="TextRegion_1657695681215_1506" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1657695681215_1506" custom="readingOrder {index:0;}" orientation="-0.17858876" readingDirection="left-to-right">
       <Coords points="198,346 1191,346 1191,463 198,463"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="198,346 199,406 297,405 339,408 349,414 361,413 368,408 393,407 758,415 811,419 817,426 837,426 844,418 870,416 1191,421 1191,376 1155,376 1148,366 1138,366 1130,375 961,371 950,370 943,361 932,361 926,367 922,367 914,360 901,361 896,370 867,370 865,362 861,359 846,360 839,370 730,369 725,361 710,358 696,357 689,366 677,366 673,363 664,363 660,366 622,366 614,356 603,356 597,361 585,353 528,353 519,356 513,362 503,364 422,364 393,363 384,346 369,346 364,361 339,361 337,354 328,348 315,349 304,360 289,360 281,346"/>
@@ -55,7 +71,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0002" custom="readingOrder {index:1;}">
-        <Coords points="250,406 246,409 199,409 199,464 242,464 251,455 303,455 337,457 374,465 424,466 464,458 551,458 556,453 556,420 546,414 393,408 368,409 361,414 349,415 340,410 307,409 297,406"/>
+        <Coords points="246,409 199,409 199,463 243,463 251,455 303,455 337,457 364,463 439,463 464,458 551,458 556,453 556,420 546,414 393,408 368,409 361,414 349,415 340,410 307,409 297,406 250,406"/>
         <Baseline points="199,450 556,449"/>
         <Word id="word_1657695681264_1509" custom="readingOrder {index:0;}">
           <Coords points="204,422 301,422 301,455 251,455 243,463 204,463"/>
@@ -86,14 +102,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Philoſophorum Orientalium placitis convenire&#13;
+        <Unicode>Philoſophorum Orientalium placitis convenire
 patet ex §. 62.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" type="heading" readingDirection="left-to-right" id="TextRegion_1657695681215_1505" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657695681215_1505" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.17858876" type="heading" readingDirection="left-to-right">
       <Coords points="198,463 1191,463 1191,520 198,520"/>
       <TextLine id="region0001_line0003" custom="readingOrder {index:0;}">
-        <Coords points="613,457 537,461 534,465 534,498 539,503 548,504 547,518 710,520 790,515 795,510 797,501 807,501 812,496 812,463 807,458"/>
+        <Coords points="534,465 534,498 539,503 548,504 547,518 710,520 790,515 795,510 797,501 807,501 812,496 812,463 535,463"/>
         <Baseline points="547,512 796,505"/>
         <Word id="region0001_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="644,481 611,481 610,518 643,519"/>
@@ -115,7 +131,7 @@ patet ex §. 62.</Unicode>
         <Unicode>§. CV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="-0.17858876" readingDirection="left-to-right">
       <Coords points="194,516 1192,516 1192,1014 194,1014"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="781,517 731,520 725,522 719,531 459,527 452,518 439,518 433,526 419,526 408,525 403,517 211,516 209,550 218,565 266,565 271,569 279,569 284,565 319,570 366,570 374,566 395,567 406,572 427,573 447,573 451,570 478,573 497,568 516,571 543,568 550,572 593,569 627,581 638,581 646,575 748,577 758,573 785,579 919,580 926,576 937,576 944,581 973,578 985,583 1011,584 1016,581 1027,581 1044,587 1119,587 1126,583 1134,583 1141,587 1192,584 1192,528 1014,525 998,527 985,534 972,535 947,534 943,531 916,533 912,524 896,523 889,528 884,524 874,524 866,533 842,533 841,524 836,519"/>
@@ -590,22 +606,22 @@ patet ex §. 62.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>β. Ulterius vero proceſſiſſe videtur SIMON&#13;
-quam reliqui ſeductores, dum perhibuit: Aut&#13;
-ſe eſſe unam ex naturis illis quæ immediate à&#13;
-ſupremo Numine progeneratæ &amp; divinæ naturæ&#13;
-propiores fuere, ex quibus aliæ deinceps fuere&#13;
-productæ, quæ hujus Mundi Fabricatores exti-&#13;
-tere, aut ſe omnium rerum Principium eſſe at-&#13;
-que Patrem: Conjugem ſuam Helenam vero pri-&#13;
-mam ſuam emanationem eſſe, per cujus agnitio-&#13;
+        <Unicode>β. Ulterius vero proceſſiſſe videtur SIMON
+quam reliqui ſeductores, dum perhibuit: Aut
+ſe eſſe unam ex naturis illis quæ immediate à
+ſupremo Numine progeneratæ &amp; divinæ naturæ
+propiores fuere, ex quibus aliæ deinceps fuere
+productæ, quæ hujus Mundi Fabricatores exti-
+tere, aut ſe omnium rerum Principium eſſe at-
+que Patrem: Conjugem ſuam Helenam vero pri-
+mam ſuam emanationem eſſe, per cujus agnitio-
 nem ipſe hominibus Salutem det.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" type="heading" readingDirection="left-to-right" id="TextRegion_1657695687378_1516" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657695687378_1516" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.17858876" type="heading" readingDirection="left-to-right">
       <Coords points="194,1027 1189,1027 1189,1084 194,1084"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
-        <Coords points="637,1027 541,1031 536,1036 536,1065 541,1070 560,1072 561,1082 567,1086 585,1085 593,1090 639,1090 666,1086 806,1088 811,1083 811,1069 821,1063 821,1032 818,1028"/>
+        <Coords points="541,1031 536,1036 536,1065 541,1070 560,1072 561,1082 564,1084 810,1084 811,1083 811,1069 821,1063 821,1032 818,1028 637,1027"/>
         <Baseline points="561,1074 811,1078"/>
         <Word id="word_1657695687415_1519" custom="readingOrder {index:0;}">
           <Coords points="606,1053 640,1053 640,1084 606,1084"/>
@@ -627,10 +643,10 @@ nem ipſe hominibus Salutem det.</Unicode>
         <Unicode>§. 5. CVI CVI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" readingDirection="left-to-right" id="TextRegion_1657695687378_1515" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1657695687378_1515" custom="readingOrder {index:4;}" orientation="-0.17858876" readingDirection="left-to-right">
       <Coords points="194,1084 1189,1084 1189,1248 194,1248"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
-        <Coords points="331,1075 327,1078 207,1077 202,1082 202,1106 207,1111 234,1111 235,1126 257,1135 289,1138 394,1140 404,1136 417,1136 425,1140 442,1139 481,1148 541,1142 790,1149 807,1146 812,1150 839,1153 850,1150 883,1150 888,1147 911,1147 917,1150 977,1147 1003,1149 1008,1152 1009,1158 1021,1161 1032,1159 1034,1154 1151,1156 1156,1153 1167,1153 1173,1156 1189,1156 1189,1109 1179,1106 1143,1110 1091,1108 1087,1105 1075,1108 1021,1107 1006,1106 996,1096 982,1096 971,1105 891,1105 887,1091 871,1089 787,1090 775,1093 769,1101 731,1100 719,1090 701,1090 694,1097 685,1097 676,1087 661,1088 651,1097 602,1096 595,1095 585,1086 564,1085 543,1086 536,1095 526,1096 382,1092 377,1088 351,1092 343,1076"/>
+        <Coords points="202,1106 207,1111 234,1111 235,1126 257,1135 289,1138 394,1140 404,1136 417,1136 425,1140 442,1139 481,1148 541,1142 790,1149 807,1146 812,1150 839,1153 850,1150 883,1150 888,1147 911,1147 917,1150 977,1147 1003,1149 1008,1152 1009,1158 1021,1161 1032,1159 1034,1154 1151,1156 1156,1153 1167,1153 1173,1156 1189,1156 1189,1109 1179,1106 1143,1110 1091,1108 1087,1105 1075,1108 1021,1107 1006,1106 996,1096 982,1096 971,1105 891,1105 887,1091 871,1089 787,1090 775,1093 769,1101 731,1100 719,1090 701,1090 694,1097 685,1097 676,1087 661,1088 651,1097 602,1096 595,1095 585,1086 564,1085 543,1086 536,1095 526,1096 382,1092 377,1088 351,1092 347,1084 202,1084"/>
         <Baseline points="235,1121 479,1133 1189,1146"/>
         <Word id="word_1657695687416_1522" custom="readingOrder {index:0;}">
           <Coords points="271,1084 346,1084 351,1092 377,1088 382,1092 425,1093 425,1129 271,1128"/>
@@ -657,7 +673,7 @@ nem ipſe hominibus Salutem det.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0002_word0004" custom="readingOrder {index:4;}">
-          <Coords points="699,1132 844,1137 844,1093 826,1086 787,1090 775,1093 769,1101 731,1100 719,1090 701,1090 699,1092"/>
+          <Coords points="844,1137 844,1093 834,1089 787,1090 775,1093 769,1101 731,1100 719,1090 701,1090 699,1092 699,1132"/>
           <TextEquiv conf="0.777145">
             <Unicode>finxiſſe,</Unicode>
           </TextEquiv>
@@ -783,12 +799,12 @@ nem ipſe hominibus Salutem det.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Videtur ergo illum ſe finxiſſe, ſi non ſupremum&#13;
-Numen, ſaltem unam ex primariis illis naturis&#13;
+        <Unicode>Videtur ergo illum ſe finxiſſe, ſi non ſupremum
+Numen, ſaltem unam ex primariis illis naturis
 quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" readingDirection="left-to-right" id="TextRegion_1657695692226_1528" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1657695692226_1528" custom="readingOrder {index:5;}" orientation="-0.17858876" readingDirection="left-to-right">
       <Coords points="192,1234 1190,1234 1190,1286 192,1286"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="211,1234 193,1236 193,1284 400,1287 406,1279 412,1278 415,1274 415,1243 410,1238 266,1239"/>
@@ -807,10 +823,10 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
         <Unicode>titerunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" type="heading" readingDirection="left-to-right" id="TextRegion_1657695696869_1533" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657695696869_1533" custom="readingOrder {index:6;} structure {type:heading;}" orientation="-0.17858876" type="heading" readingDirection="left-to-right">
       <Coords points="192,1286 1190,1286 1190,1342 192,1342"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
-        <Coords points="613,1277 607,1282 540,1285 537,1289 538,1320 542,1323 577,1323 578,1338 587,1341 822,1346 827,1341 827,1324 835,1322 838,1318 838,1287 833,1282 771,1283 767,1280 755,1280 751,1283 637,1282 628,1277"/>
+        <Coords points="537,1289 538,1320 542,1323 577,1323 578,1338 587,1341 634,1342 826,1342 827,1341 827,1324 835,1322 838,1318 838,1287 837,1286 539,1286"/>
         <Baseline points="538,1312 838,1308"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="642,1299 607,1299 607,1341 642,1342"/>
@@ -832,10 +848,10 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
         <Unicode>§. CVII. CVII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17858876" readingDirection="left-to-right" id="TextRegion_1657695696869_1532" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1657695696869_1532" custom="readingOrder {index:7;}" orientation="-0.17858876" readingDirection="left-to-right">
       <Coords points="192,1342 1190,1342 1190,2030 192,2030"/>
       <TextLine id="region0004_line0003" custom="readingOrder {index:0;}">
-        <Coords points="211,1339 206,1334 206,1365 211,1370 219,1371 220,1385 229,1389 238,1389 244,1385 252,1385 264,1391 297,1391 304,1387 313,1387 320,1391 365,1388 376,1392 469,1393 474,1390 486,1390 502,1391 508,1395 546,1396 574,1392 580,1396 720,1399 728,1406 740,1407 750,1404 752,1400 800,1400 806,1397 821,1401 929,1401 946,1398 980,1404 1149,1408 1164,1404 1170,1407 1189,1407 1190,1358 1159,1352 1152,1344 1137,1345 1133,1350 1132,1359 1103,1359 1090,1356 1066,1359 1061,1347 1056,1343 1046,1343 1040,1350 1026,1346 1020,1341 1012,1341 1006,1346 971,1346 950,1355 930,1356 917,1355 909,1346 885,1345 879,1338 870,1338 848,1354 816,1356 803,1355 801,1349 796,1346 782,1347 778,1354 770,1345 752,1347 749,1354 723,1354 720,1347 714,1344 697,1343 687,1351 678,1351 671,1350 666,1343 587,1342 579,1339 564,1339 553,1346 539,1348 438,1347 430,1346 423,1336 408,1337 401,1344 362,1342 326,1345 323,1338 310,1339"/>
+        <Coords points="206,1365 211,1370 219,1371 220,1385 229,1389 238,1389 244,1385 252,1385 264,1391 297,1391 304,1387 313,1387 320,1391 365,1388 376,1392 469,1393 474,1390 486,1390 502,1391 508,1395 546,1396 574,1392 580,1396 720,1399 728,1406 740,1407 750,1404 752,1400 800,1400 806,1397 821,1401 929,1401 946,1398 980,1404 1149,1408 1164,1404 1170,1407 1189,1407 1190,1358 1159,1352 1152,1344 1137,1345 1133,1350 1132,1359 1103,1359 1090,1356 1066,1359 1061,1347 1056,1343 1046,1343 1040,1350 1026,1346 1021,1342 1010,1342 1006,1346 971,1346 950,1355 930,1356 917,1355 909,1346 885,1345 882,1342 864,1342 848,1354 816,1356 803,1355 801,1349 796,1346 782,1347 778,1354 770,1345 752,1347 749,1354 723,1354 720,1347 714,1344 697,1343 687,1351 678,1351 671,1350 666,1343 587,1342 559,1342 553,1346 539,1348 438,1347 430,1346 427,1342 403,1342 401,1344 362,1342 326,1345 324,1342 206,1342"/>
         <Baseline points="219,1379 1189,1397"/>
         <Word id="region0004_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="274,1341 274,1380 377,1380 377,1342 362,1342 326,1345 324,1341"/>
@@ -942,7 +958,7 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657696108017_1653" custom="readingOrder {index:3;}">
-          <Coords points="582,1444 655,1444 882,1446 985,1450 1026,1455 1026,1495 956,1497 597,1495 582,1490"/>
+          <Coords points="582,1444 582,1490 583,1490 594,1492 597,1495 619,1495 621,1494 662,1494 680,1495 681,1495 709,1495 718,1491 931,1494 956,1497 1026,1495 1026,1455 992,1455 985,1450 972,1450 967,1455 948,1455 919,1453 914,1450 902,1451 882,1446 847,1446 823,1449 811,1456 800,1456 794,1453 715,1451 709,1447 696,1446 692,1449 659,1447 654,1444 632,1444 629,1445 622,1451 611,1451 604,1448 602,1444"/>
           <TextEquiv>
             <Unicode>Pythagoræo - Platonica</Unicode>
           </TextEquiv>
@@ -1169,7 +1185,7 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657696358647_1722" custom="readingOrder {index:3;}">
-          <Coords points="737,1685 760,1685 1183,1690 1182,1738 930,1743 919,1743 799,1742 766,1741 746,1740 737,1737"/>
+          <Coords points="737,1685 737,1737 737,1737 741,1737 746,1740 766,1741 789,1738 799,1742 886,1742 891,1739 903,1739 908,1742 920,1743 930,1743 1182,1738 1183,1690 1175,1690 1160,1695 1116,1694 1112,1699 1105,1699 1100,1692 945,1690 932,1694 922,1690 901,1688 820,1687 807,1692 801,1686 760,1685"/>
           <TextEquiv>
             <Unicode>PSEUDO-ORIGENES</Unicode>
           </TextEquiv>
@@ -1285,7 +1301,7 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0012_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1118,1841 1182,1841 1182,1801 1172,1801 1161,1797 1134,1803 1118,1802"/>
+          <Coords points="1140,1841 1182,1839 1182,1801 1172,1801 1161,1797 1134,1803 1118,1802 1118,1841"/>
           <TextEquiv>
             <Unicode>γεν-</Unicode>
           </TextEquiv>
@@ -1467,19 +1483,19 @@ quæ πληϱωμα efficiunt, &amp; aliarum Autores ex-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Licet hæc ex Philoſophiæ illius Orientalis&#13;
-principiis explicari queant, ejusmodi tamen eti-&#13;
-am in Philoſophia Pythagoræo - Platonica reperi-&#13;
-mus; notum enim ex DIOGENE LAERTIO&#13;
-Lib. VIII. Pythagoram ejusque diſcipulos ſta-&#13;
-tuiſſe: Άρχην των ἁπαντων, Principium omnium re-&#13;
-rum eſſe μοναδα ſive Unitatem maſculam; omnis per-&#13;
-fectionis Originem, unde PSEUDO-ORIGENES&#13;
-Philoſophum. Cap. II. Των ἀϱιϑμων ἀϱχη γεγονε ϰαϑ΄&#13;
-ὑποϑεσιν ἡ ϖϱωτη μονας, ἡτις εϛιν μονας ἀϱσην, γεν-&#13;
-νωσα πατϱιϰως παντας τους ἀλλουσ ἀριϑμους. Nume-&#13;
-rorum Principium per ſuppoſitionem fuit prima Uni-&#13;
-tas, quæ Unitas maſcula patrio more procreat om-&#13;
+        <Unicode>Licet hæc ex Philoſophiæ illius Orientalis
+principiis explicari queant, ejusmodi tamen eti-
+am in Philoſophia Pythagoræo - Platonica reperi-
+mus; notum enim ex DIOGENE LAERTIO
+Lib. VIII. Pythagoram ejusque diſcipulos ſta-
+tuiſſe: Άρχην των ἁπαντων, Principium omnium re-
+rum eſſe μοναδα ſive Unitatem maſculam; omnis per-
+fectionis Originem, unde PSEUDO-ORIGENES
+Philoſophum. Cap. II. Των ἀϱιϑμων ἀϱχη γεγονε ϰαϑ΄
+ὑποϑεσιν ἡ ϖϱωτη μονας, ἡτις εϛιν μονας ἀϱσην, γεν-
+νωσα πατϱιϰως παντας τους ἀλλουσ ἀριϑμους. Nume-
+rorum Principium per ſuppoſitionem fuit prima Uni-
+tas, quæ Unitas maſcula patrio more procreat om-
 nes reliquos.</Unicode>
       </TextEquiv>
     </TextRegion>

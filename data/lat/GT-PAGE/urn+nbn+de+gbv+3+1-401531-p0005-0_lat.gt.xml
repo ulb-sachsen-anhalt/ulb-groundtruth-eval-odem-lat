@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-151">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:20Z</Created>
     <LastChange>2024-01-19T13:08:20Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/57c57c78-9ab1-4736-922b-3c4aca764fc4/00000005.jpg" imageWidth="2443" imageHeight="2969" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="region0007"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.38056353" type="heading" readingDirection="left-to-right" id="TextRegion_1651743426683_5637" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1651743426683_5637" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.38056353" type="heading" readingDirection="left-to-right">
       <Coords points="371,999 1595,1007 1594,1159 1561,1310 402,1302 370,1151"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="876,1003 876,1045 882,1051 966,1056 976,1049 988,1048 999,1055 1003,1052 1008,1055 1019,1055 1024,1051 1100,1046 1108,1040 1108,1004"/>
@@ -90,18 +106,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>AN&#13;
-DEFECTVS VIRGINITATIS&#13;
-DECLARATIONI NVLLITATIS&#13;
+        <Unicode>AN
+DEFECTVS VIRGINITATIS
+DECLARATIONI NVLLITATIS
 MATRIMONII CONCEDAT LOCVM?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.38056353" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:1;}">
+    <TextRegion id="region0007" custom="readingOrder {index:1;}" orientation="0.38056353" readingDirection="left-to-right">
       <Coords points="374,1824 596,1825 530,1558 1605,1555 1601,2181 374,2173"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
-        <Coords points="675,1549 673,1559 642,1557 527,1562 522,1567 522,1597 527,1602 551,1605 859,1604 907,1607 1013,1605 1108,1610 1243,1609 1290,1612 1298,1618 1308,1618 1315,1613 1375,1611 1472,1612 1503,1614 1509,1620 1517,1620 1525,1615 1604,1614 1604,1566 1336,1567 1224,1562 1070,1562 1064,1551 1057,1551 1049,1552 1044,1563 942,1561 938,1551 928,1550 907,1550 904,1560 898,1560 895,1551 877,1551 873,1560 750,1559 748,1550"/>
+        <Coords points="673,1559 652,1557 625,1557 530,1561 541,1603 551,1605 859,1604 907,1607 1013,1605 1108,1610 1243,1609 1290,1612 1298,1618 1308,1618 1315,1613 1375,1611 1472,1612 1503,1614 1509,1620 1517,1620 1525,1615 1604,1614 1604,1566 1336,1567 1224,1562 1070,1562 1067,1556 1046,1556 1044,1563 942,1561 940,1556 904,1556 904,1560 898,1560 896,1556 874,1557 873,1560 750,1559 749,1557 673,1557"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="749,1555 673,1556 673,1559 642,1557 536,1559 536,1596 819,1594 819,1559 750,1559"/>
+          <Coords points="673,1555 673,1559 642,1557 536,1561 536,1596 819,1594 819,1559 750,1559 749,1555"/>
           <TextEquiv>
             <Unicode>Contraƈtuum</Unicode>
           </TextEquiv>
@@ -273,7 +289,7 @@ MATRIMONII CONCEDAT LOCVM?</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0006" custom="readingOrder {index:4;}">
-        <Coords points="564,1772 547,1781 547,1805 554,1812 555,1821 560,1826 752,1827 764,1831 771,1828 807,1827 823,1829 829,1835 838,1835 857,1828 919,1828 948,1830 953,1837 959,1838 985,1829 1068,1831 1076,1832 1082,1838 1091,1838 1101,1832 1218,1830 1352,1835 1361,1835 1366,1842 1375,1844 1386,1843 1393,1835 1400,1833 1491,1836 1603,1833 1602,1798 1575,1791 1528,1791 1526,1784 1521,1780 1507,1780 1503,1791 1375,1790 1365,1789 1358,1779 1339,1780 1329,1788 1187,1789 1143,1788 1140,1779 1132,1776 1116,1777 1107,1786 1062,1785 1054,1776 1042,1778 1035,1785 1024,1785 1021,1777 1012,1775 998,1776 993,1785 868,1785 835,1783 833,1775 827,1772 813,1773 809,1782 725,1785 693,1783 690,1774 686,1772 665,1773 657,1782 652,1782 641,1781 636,1774 625,1771"/>
+        <Coords points="560,1826 752,1827 764,1831 771,1828 807,1827 823,1829 829,1835 838,1835 857,1828 919,1828 948,1830 953,1837 959,1838 985,1829 1068,1831 1076,1832 1082,1838 1091,1838 1101,1832 1218,1830 1352,1835 1361,1835 1366,1842 1375,1844 1386,1843 1393,1835 1400,1833 1491,1836 1603,1833 1602,1798 1575,1791 1528,1791 1526,1784 1521,1780 1507,1780 1503,1791 1375,1790 1365,1789 1358,1779 1339,1780 1329,1788 1187,1789 1143,1788 1140,1779 1132,1776 1116,1777 1107,1786 1062,1785 1054,1776 1042,1778 1035,1785 1024,1785 1021,1777 1012,1775 998,1776 993,1785 868,1785 835,1783 833,1775 827,1772 813,1773 809,1782 725,1785 693,1783 690,1774 686,1772 665,1773 657,1782 652,1782 641,1781 636,1774 625,1771 582,1771 596,1825 558,1824"/>
         <Word id="region0007_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="639,1778 613,1779 614,1823 766,1822 765,1783 725,1785 693,1783 691,1778 659,1778 657,1782 652,1782 641,1781"/>
           <TextEquiv conf="0.8885843">
@@ -395,7 +411,7 @@ MATRIMONII CONCEDAT LOCVM?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651743658333_5704" custom="readingOrder {index:3;}">
-          <Coords points="845,1891 918,1890 1021,1889 1052,1889 1138,1898 1138,1944 1131,1944 1122,1944 845,1939"/>
+          <Coords points="845,1891 845,1939 900,1940 955,1940 1087,1942 1104,1943 1122,1944 1131,1944 1138,1944 1138,1898 1062,1896 1057,1895 1051,1889 1022,1889 1020,1896 970,1895 968,1889 949,1889 941,1895 927,1895 921,1894 918,1890"/>
           <TextEquiv>
             <Unicode>diſcedentibus,</Unicode>
           </TextEquiv>
@@ -665,10 +681,10 @@ LXXIV. c. IV. vbi illud, nuptiarum contraƈtus venit nomi-</Unicode>
       </TextEquiv>
     </TextRegion>
     <GraphicRegion id="Graphic_1651743413342_5629" custom="readingOrder {index:2;}">
-      <Coords points="375,296 1532,296 1532,869 375,869"/>
+      <Coords points="375,869 1532,869 1532,322 375,322"/>
     </GraphicRegion>
     <GraphicRegion id="Graphic_1651743417236_5632" custom="readingOrder {index:3;}">
-      <Coords points="322,1443 606,1443 606,1815 322,1815"/>
+      <Coords points="606,1815 606,1443 363,1443 363,1815"/>
     </GraphicRegion>
   </Page>
 </PcGts>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-97">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:52Z</Created>
     <LastChange>2024-01-19T13:07:52Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/8c653ad9-d33e-41fa-90aa-17de3b6b47da/00000101.jpg" imageWidth="1538" imageHeight="2318" type="content" primaryLanguage="Latin">
     <Border>
@@ -22,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="TextRegion_1672739719010_3355"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.16200675" type="header" readingDirection="left-to-right" id="TextRegion_1672739765165_3402" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1672739765165_3402" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.16200675" type="header" readingDirection="left-to-right">
       <Coords points="182,329 846,329 846,396 182,396"/>
       <TextLine id="line_1672739765213_3405" custom="readingOrder {index:0;}">
         <Coords points="182,329 328,329 359,337 387,340 403,330 545,330 587,335 616,335 648,344 846,346 846,396 770,396 761,392 730,390 496,382 288,383 190,380 182,379"/>
@@ -76,7 +92,7 @@
         <Unicode>C. T. SESS. XIII. DE EVCH. C.4.5.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" type="page-number" readingDirection="left-to-right" id="TextRegion_1672739765165_3401" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1672739765165_3401" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.16200675" type="page-number" readingDirection="left-to-right">
       <Coords points="846,329 901,329 901,396 846,396"/>
       <TextLine id="line_1672739765212_3404" custom="readingOrder {index:0;}">
         <Coords points="846,346 899,347 900,396 846,396"/>
@@ -94,7 +110,7 @@
         <Unicode>97</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-0.16200675" readingDirection="left-to-right">
       <Coords points="131,406 895,406 895,671 131,671"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="147,406 144,410 132,410 132,448 151,446 159,450 195,453 211,459 230,452 258,455 368,451 467,451 494,457 520,456 528,451 543,451 549,455 565,456 605,456 613,452 628,452 649,464 661,464 669,459 756,456 804,459 823,455 870,455 895,460 895,423 836,423 829,415 817,415 811,423 803,424 650,423 587,420 576,412 565,412 559,418 516,419 505,415 443,413 435,407 392,407 384,416 330,416 325,411 313,411 307,416 289,418 243,418 169,412 167,406"/>
@@ -446,16 +462,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ties panem benedictum, etiam quatenus editur:&#13;
-δϵιϰτιϰῶς panem vocat, τȣ̃τον ἄϱτον I. Cor. XI,&#13;
-26. 27. Ad id, quod dicunt Deo eſſe poſſibile,&#13;
-monemus, non tam hic de Dei potentia, quam&#13;
-potius de teſtatoris voluntate totam quæſtionem&#13;
-eſſe. Quod ad c. i. ſimul reſpondiſſe nunc, quan-&#13;
+        <Unicode>ties panem benedictum, etiam quatenus editur:
+δϵιϰτιϰῶς panem vocat, τȣ̃τον ἄϱτον I. Cor. XI,
+26. 27. Ad id, quod dicunt Deo eſſe poſſibile,
+monemus, non tam hic de Dei potentia, quam
+potius de teſtatoris voluntate totam quæſtionem
+eſſe. Quod ad c. i. ſimul reſpondiſſe nunc, quan-
 tum ad nos, ſufficiat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;}" orientation="-0.16200675" readingDirection="left-to-right">
       <Coords points="181,704 891,704 891,856 181,856"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="181,704 181,756 239,755 248,758 261,753 267,756 282,756 284,760 294,763 302,762 313,753 321,753 332,757 384,757 396,762 422,763 486,763 515,758 523,761 629,762 822,764 837,761 845,765 867,763 872,766 890,766 890,720 870,720 868,714 861,710 850,710 842,719 816,719 810,710 795,710 788,719 718,719 713,710 699,708 691,718 671,718 569,717 526,711 521,707 505,707 499,711 465,717 452,716 446,708 432,708 425,715 391,715 359,713 354,704 334,704 329,713 238,714 236,704"/>
@@ -544,12 +560,12 @@ tum ad nos, ſufficiat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Cap. 5. de cultu &amp; veneratione huic&#13;
-ſanctisſimo Sacramento exhi-&#13;
+        <Unicode>Cap. 5. de cultu &amp; veneratione huic
+ſanctisſimo Sacramento exhi-
 benda.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" readingDirection="left-to-right" id="TextRegion_1672739714992_3347" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1672739714992_3347" custom="readingOrder {index:4;}" orientation="-0.16200675" readingDirection="left-to-right">
       <Coords points="96,895 887,895 887,1906 96,1906"/>
       <TextLine id="line_1672739709356_3294" custom="readingOrder {index:0;}">
         <Coords points="117,895 259,896 273,903 302,905 309,904 316,896 326,896 332,902 341,904 384,904 433,902 436,895 457,895 461,902 468,902 475,895 488,895 493,899 499,895 508,895 517,904 568,906 573,897 587,896 598,898 605,904 620,904 630,899 638,899 650,907 706,910 756,909 760,903 769,900 790,901 799,911 850,911 857,903 871,904 877,914 887,914 887,955 840,955 836,958 821,958 816,954 640,949 619,948 613,945 562,948 515,947 488,942 381,941 361,951 354,947 353,943 130,943 125,938 125,930 117,924"/>
@@ -677,7 +693,7 @@ benda.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1672740114806_3598" custom="readingOrder {index:6;}">
-          <Coords points="703,1010 887,1010 887,1040 703,1040"/>
+          <Coords points="703,1010 703,1040 887,1040 887,1010 837,1011 811,1010 745,1010 724,1013 723,1010"/>
           <TextEquiv>
             <Unicode>LATRIAE</Unicode>
           </TextEquiv>
@@ -1423,7 +1439,7 @@ benda.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1672739709374_3340" custom="readingOrder {index:19;}">
-        <Coords points="96,1854 141,1852 160,1854 164,1862 209,1865 217,1863 223,1855 238,1856 243,1864 247,1865 333,1865 406,1863 410,1855 417,1853 425,1853 430,1858 436,1854 461,1854 466,1863 492,1863 499,1856 514,1856 523,1860 525,1867 570,1867 698,1875 743,1875 749,1868 776,1868 780,1876 830,1876 840,1867 850,1867 857,1877 862,1878 887,1880 887,1918 826,1920 814,1916 806,1922 796,1923 751,1918 619,1915 587,1911 577,1905 565,1903 515,1908 340,1907 335,1910 326,1910 322,1907 241,1908 234,1918 223,1917 218,1907 96,1904"/>
+        <Coords points="862,1878 857,1877 850,1867 840,1867 830,1876 780,1876 776,1868 749,1868 743,1875 698,1875 570,1867 525,1867 523,1860 514,1856 499,1856 492,1863 466,1863 461,1854 436,1854 430,1858 425,1853 417,1853 410,1855 406,1863 333,1865 247,1865 243,1864 238,1856 223,1855 217,1863 209,1865 164,1862 160,1854 141,1852 96,1854 96,1904 177,1906 535,1906 565,1903 577,1905 578,1906 887,1906 887,1880"/>
         <Baseline points="96,1895 821,1906"/>
         <Word id="region0004_line0021_word0000" custom="readingOrder {index:0;}">
           <Coords points="136,1858 136,1894 204,1895 204,1864 164,1862 162,1858"/>
@@ -1460,29 +1476,29 @@ benda.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Nullus itaque dubitandi locus relinqui-&#13;
-mo- tur, quin omnes Chriſti fideles, pro mo-&#13;
-LATRIAE re in C. E. ſemper recepto, LATRIAE&#13;
-cultum, qui vero Deo debetur, huic ſan- ſq. can, 6.&#13;
-ctiſſimo Sacramento in veneratione adhi-&#13;
-beant. Neque enim ideo minus eſt, ado-&#13;
-randum, quod fuerit a Domino, ut ſu-&#13;
-matur, inſtitutum. Nam illum eundem&#13;
-DEum præſentem in eo adeſſe credimus, te uſume.&#13;
-quem Pater æternus introducens in orbem 3. ut ſume-&#13;
-terrarum, dicit: &amp; adorent eum omnes an-&#13;
-geli Dei. Quem magi procidentes adora-&#13;
-verunt: quem denique in Galilæa ab Apo-&#13;
-ſtolis adoratum fuiſſe, ſcriptura teſtatur&#13;
-(Luther. Tom. 2. Jenen. G. fol. 201. 205. ſeq.&#13;
-258.) Declarat præterea S. Synodus, pie&#13;
-&amp; religioſe admodum in Dei eccleſia indu-&#13;
-ctum fuiſſe hunc morem, ut ſingulis an-&#13;
-nis peculiari quodam &amp; feſto die præcel-&#13;
+        <Unicode>Nullus itaque dubitandi locus relinqui-
+mo- tur, quin omnes Chriſti fideles, pro mo-
+LATRIAE re in C. E. ſemper recepto, LATRIAE
+cultum, qui vero Deo debetur, huic ſan- ſq. can, 6.
+ctiſſimo Sacramento in veneratione adhi-
+beant. Neque enim ideo minus eſt, ado-
+randum, quod fuerit a Domino, ut ſu-
+matur, inſtitutum. Nam illum eundem
+DEum præſentem in eo adeſſe credimus, te uſume.
+quem Pater æternus introducens in orbem 3. ut ſume-
+terrarum, dicit: &amp; adorent eum omnes an-
+geli Dei. Quem magi procidentes adora-
+verunt: quem denique in Galilæa ab Apo-
+ſtolis adoratum fuiſſe, ſcriptura teſtatur
+(Luther. Tom. 2. Jenen. G. fol. 201. 205. ſeq.
+258.) Declarat præterea S. Synodus, pie
+&amp; religioſe admodum in Dei eccleſia indu-
+ctum fuiſſe hunc morem, ut ſingulis an-
+nis peculiari quodam &amp; feſto die præcel-
 ſum hoc venerabile ſacramentum ſingula-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" type="marginalia" readingDirection="left-to-right" id="TextRegion_1672739737153_3390" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1672739737153_3390" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="-0.16200675" type="marginalia" readingDirection="left-to-right">
       <Coords points="887,1058 1043,1058 1043,1120 887,1120"/>
       <TextLine id="line_1672739709359_3303" custom="readingOrder {index:0;}">
         <Coords points="887,1061 913,1062 923,1065 928,1072 938,1073 1002,1074 1043,1071 1042,1117 933,1113 927,1119 920,1119 906,1116 900,1111 887,1108"/>
@@ -1513,7 +1529,7 @@ nis peculiari quodam &amp; feſto die præcel-&#13;
         <Unicode>ſq. can. 6.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" type="marginalia" readingDirection="left-to-right" id="TextRegion_1672739727731_3378" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1672739727731_3378" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="-0.16200675" type="marginalia" readingDirection="left-to-right">
       <Coords points="887,1289 1043,1289 1043,1490 887,1490"/>
       <TextLine id="line_1672739726139_3371" custom="readingOrder {index:0;}">
         <Coords points="887,1289 918,1289 919,1292 991,1297 1043,1297 1043,1335 969,1334 960,1327 946,1330 894,1329 887,1327"/>
@@ -1622,14 +1638,14 @@ nis peculiari quodam &amp; feſto die præcel-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>can. 4.an-&#13;
-te uſum c.&#13;
-quem Pater æternus introducens in orbem 3. ut ſume-&#13;
-c.1.8. 22.&#13;
+        <Unicode>can. 4.an-
+te uſum c.
+quem Pater æternus introducens in orbem 3. ut ſume-
+c.1.8. 22.
 rent ſeſſ.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1672739719010_3356" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1672739719010_3356" custom="readingOrder {index:7;} structure {type:signature-mark;}" orientation="-0.16200675" type="signature-mark" readingDirection="left-to-right">
       <Coords points="96,1906 648,1906 648,1961 96,1961"/>
       <TextLine id="line_1672739715050_3351" custom="readingOrder {index:0;}">
         <Coords points="494,1910 537,1906 572,1906 579,1907 584,1911 585,1917 629,1918 632,1922 631,1948 627,1951 517,1951 497,1949 492,1945 491,1914"/>
@@ -1648,7 +1664,7 @@ rent ſeſſ.</Unicode>
         <Unicode>G</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.16200675" type="catch-word" readingDirection="left-to-right" id="TextRegion_1672739719010_3355" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1672739719010_3355" custom="readingOrder {index:8;} structure {type:catch-word;}" orientation="-0.16200675" type="catch-word" readingDirection="left-to-right">
       <Coords points="648,1906 887,1906 887,1961 648,1961"/>
       <TextLine id="line_1672739709375_3342" custom="readingOrder {index:0;}">
         <Coords points="738,1922 782,1921 798,1924 806,1923 814,1917 826,1921 863,1921 887,1923 887,1960 736,1960 733,1956 733,1927"/>

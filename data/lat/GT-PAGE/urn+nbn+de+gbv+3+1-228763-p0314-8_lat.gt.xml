@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-93">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:49Z</Created>
     <LastChange>2024-01-19T13:07:49Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/eef111a7-2c90-4f04-9708-e60e6e960272/00000314.jpg" imageWidth="1728" imageHeight="2706" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region0019"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.78632194" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:0;}">
+    <TextRegion id="region0010" custom="readingOrder {index:0;}" orientation="0.78632194" readingDirection="left-to-right">
       <Coords points="517,527 1105,527 1105,1020 517,1020"/>
       <TextLine id="line_1657704632455_3679" custom="readingOrder {index:0;}">
         <Coords points="517,528 586,527 981,528 1034,539 1038,543 1038,572 1029,586 1024,591 964,593 584,594 518,593"/>
@@ -61,7 +77,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0010_line0003_word0002" custom="readingOrder {index:2;}">
-          <Coords points="934,597 914,597 884,598 837,601 838,645 934,642 935,642"/>
+          <Coords points="914,597 884,598 845,605 837,604 838,642 856,637 875,637 876,644 934,642 934,642 935,642 934,597"/>
           <TextEquiv>
             <Unicode>—gr.</Unicode>
           </TextEquiv>
@@ -233,17 +249,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Ʒ — drachma — ℈iij.&#13;
-℈ — scrupulus —gr. xx.&#13;
-gr granum.&#13;
-gt — gutta.&#13;
-β — semis.&#13;
-ââ. seu ana, id est totidem.&#13;
-Mens. seu mensura habet ℔iv.&#13;
+        <Unicode>Ʒ — drachma — ℈iij.
+℈ — scrupulus —gr. xx.
+gr granum.
+gt — gutta.
+β — semis.
+ââ. seu ana, id est totidem.
+Mens. seu mensura habet ℔iv.
 Manip.— manipulus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.78632194" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:1;}">
+    <TextRegion id="region0013" custom="readingOrder {index:1;}" orientation="0.78632194" readingDirection="left-to-right">
       <Coords points="534,1192 1489,1192 1489,1255 534,1255"/>
       <TextLine id="region0013_line0001" custom="readingOrder {index:0;}">
         <Coords points="534,1193 535,1250 699,1255 1155,1253 1310,1250 1460,1250 1462,1254 1485,1254 1489,1250 1488,1192 680,1192 600,1195 598,1192"/>
@@ -268,7 +284,7 @@ Manip.— manipulus.</Unicode>
         <Unicode>MATERIA MEDICA,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.78632194" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:2;}">
+    <TextRegion id="region0015" custom="readingOrder {index:2;}" orientation="0.78632194" readingDirection="left-to-right">
       <Coords points="575,1297 575,1543 1423,1543 1423,1297 1172,1297 1172,1290 790,1290 790,1297"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="869,1291 867,1297 843,1297 839,1300 838,1334 841,1338 1045,1338 1052,1333 1061,1333 1066,1337 1106,1337 1143,1335 1148,1330 1148,1297 1143,1292 889,1297 888,1291"/>
@@ -287,7 +303,7 @@ Manip.— manipulus.</Unicode>
         <Coords points="1095,1340 1086,1351 1087,1363 1044,1364 1042,1351 1037,1346 1026,1347 1023,1363 1015,1365 953,1367 906,1360 787,1362 682,1369 677,1374 677,1417 692,1425 838,1429 1056,1425 1130,1428 1307,1424 1311,1421 1312,1415 1322,1409 1322,1377 1329,1375 1332,1367 1340,1361 1338,1350 1330,1344 1284,1344 1279,1349 1278,1361 1248,1362 1243,1347 1231,1346 1226,1351 1220,1344 1209,1343 1182,1344 1176,1349 1174,1362 1112,1362 1109,1344 1103,1340"/>
         <Baseline points="677,1417 1312,1415"/>
         <Word id="word_1657704667993_3702" custom="readingOrder {index:0;}">
-          <Coords points="782,1375 920,1374 1085,1361 1102,1373 1331,1378 1331,1369 1322,1409 1311,1421 1124,1423 782,1418"/>
+          <Coords points="782,1375 1085,1361 1102,1373 1331,1369 1311,1421 782,1418"/>
           <TextEquiv>
             <Unicode>CLASSES</Unicode>
           </TextEquiv>
@@ -316,12 +332,12 @@ Manip.— manipulus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>S SEU&#13;
-CLASSES&#13;
+        <Unicode>S SEU
+CLASSES
 MEDICAMENTORUM INTERNORUM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.78632194" readingDirection="left-to-right" id="region0018" custom="readingOrder {index:3;}">
+    <TextRegion id="region0018" custom="readingOrder {index:3;}" orientation="0.78632194" readingDirection="left-to-right">
       <Coords points="682,1647 1344,1647 1344,1707 682,1707"/>
       <TextLine id="region0018_line0001" custom="readingOrder {index:0;}">
         <Coords points="682,1656 682,1707 1344,1706 1343,1659 1339,1656 1330,1656 1326,1659 1312,1657 1308,1647 1287,1648 1285,1653 1275,1652 1271,1655 1262,1652 1221,1652 1215,1656 1077,1660 1028,1666 999,1666 955,1658 884,1655"/>
@@ -352,7 +368,7 @@ MEDICAMENTORUM INTERNORUM.</Unicode>
         <Unicode>VOMITORIA SEU EMETICA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.78632194" readingDirection="left-to-right" id="region0019" custom="readingOrder {index:4;}">
+    <TextRegion id="region0019" custom="readingOrder {index:4;}" orientation="0.78632194" readingDirection="left-to-right">
       <Coords points="503,1726 1490,1726 1490,2255 503,2255"/>
       <TextLine id="line_1657704685045_3706" custom="readingOrder {index:0;}">
         <Coords points="503,1727 626,1728 1465,1763 1489,1773 1490,1801 1489,1813 1261,1824 940,1825 569,1815 503,1806 503,1777"/>
@@ -753,13 +769,13 @@ MEDICAMENTORUM INTERNORUM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>D ANTUR si bilis corrupta, vel cibi currupti in ventri-&#13;
-culo sunt. Quod noscitur ex nausea et lingua amara.&#13;
-Pulvis radicis Ipecacuanhae gr. xv.&#13;
-Tartarus emeticus gr. ij.&#13;
-Potio emetica. Ex 4. gr. tartari emetici et 4. unciis&#13;
-aquae constat, et cochleatim datur.&#13;
-Vomitoria nocent gravidis, herniosis, et qui sanguinem&#13;
+        <Unicode>D ANTUR si bilis corrupta, vel cibi currupti in ventri-
+culo sunt. Quod noscitur ex nausea et lingua amara.
+Pulvis radicis Ipecacuanhae gr. xv.
+Tartarus emeticus gr. ij.
+Potio emetica. Ex 4. gr. tartari emetici et 4. unciis
+aquae constat, et cochleatim datur.
+Vomitoria nocent gravidis, herniosis, et qui sanguinem
 vomunt vel spuunt. His debet purgans dari.</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-55">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:31Z</Created>
     <LastChange>2024-01-19T13:07:31Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d0faa499-512c-468b-a20e-71c2ae6ea34f/00000366.jpg" imageWidth="1485" imageHeight="2173" type="content" primaryLanguage="Latin">
     <Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region_1682412762076_518"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682412744332_500" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682412744332_500" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="546,439 546,495 661,495 661,439"/>
       <TextLine id="line_1682412744407_503" custom="readingOrder {index:0;}">
         <Coords points="546,439 546,495 661,495 661,439"/>
@@ -34,7 +50,7 @@
         <Unicode>284</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.25093755" readingDirection="left-to-right" id="TextRegion_1663333964563_2322" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1663333964563_2322" custom="readingOrder {index:1;}" orientation="0.25093755" readingDirection="left-to-right">
       <Coords points="554,515 1289,515 1291,1686 1293,1746 562,1746 554,1702"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="940,515 933,519 931,527 903,529 848,527 820,530 762,527 739,529 726,522 691,519 640,520 636,523 634,531 625,523 614,523 607,530 554,530 554,570 616,571 622,579 642,579 645,572 827,571 859,575 879,573 886,580 904,577 910,566 1062,566 1063,570 1069,573 1087,572 1092,566 1183,562 1262,569 1288,568 1288,525 1283,524 1229,523 1224,515 1207,515 1203,522 1197,522 1194,515 1173,515 1170,522 963,526 957,524 951,515"/>
@@ -255,7 +271,7 @@
         </Word>
         <Word id="region0001_line0005_word0004" custom="readingOrder {index:4;}">
           <Coords points="1177,717 1177,761 1222,761 1243,760 1245,761 1277,761 1277,720 1271,720 1267,719 1265,717 1235,717 1234,718 1227,717"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Panſa,</Unicode>
           </TextEquiv>
         </Word>
@@ -1123,7 +1139,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0001" custom="readingOrder {index:24;}">
-        <Coords points="984,1687 976,1698 964,1698 957,1690 947,1690 937,1699 931,1698 923,1690 912,1690 896,1700 832,1704 824,1696 815,1696 803,1705 777,1706 730,1706 723,1698 710,1698 703,1707 633,1709 625,1702 617,1702 604,1705 598,1714 593,1714 586,1705 576,1705 569,1707 565,1715 560,1717 560,1756 624,1757 706,1748 803,1748 987,1739 1125,1740 1131,1746 1149,1745 1156,1737 1165,1735 1290,1730 1290,1696 1279,1690 1267,1693 1265,1686 1179,1686 1173,1691 1166,1692 1105,1697 1016,1696 1009,1687"/>
+        <Coords points="976,1698 964,1698 957,1690 947,1690 937,1699 931,1698 923,1690 912,1690 896,1700 832,1704 824,1696 815,1696 803,1705 777,1706 730,1706 723,1698 710,1698 703,1707 633,1709 625,1702 617,1702 604,1705 598,1714 593,1714 586,1705 576,1705 569,1707 565,1715 560,1717 560,1735 562,1746 843,1746 987,1739 1125,1740 1131,1746 1149,1745 1156,1737 1165,1735 1290,1730 1290,1696 1279,1690 1267,1693 1265,1686 1179,1686 1173,1691 1166,1692 1105,1697 1016,1696 1009,1687 984,1687"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="566,1735 699,1734 699,1707 633,1709 625,1702 617,1702 604,1705 598,1714 593,1714 586,1705 576,1705 569,1707 566,1713"/>
           <TextEquiv conf="0.901689">
@@ -1156,7 +1172,7 @@
         </Word>
         <Word id="region0002_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="979,1695 979,1732 1122,1732 1122,1695 1105,1697 1016,1696 1015,1695"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>diuturna</Unicode>
           </TextEquiv>
         </Word>
@@ -1171,34 +1187,34 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>et ipſe Poeta, et, poetarum patrocinium&#13;
-mihi ſorte delatum, ſuſcepi. Sed pergit,&#13;
-Iupiter, quomodo Tu Poeta et ipſe factus&#13;
-es, et quid Tibi cum Poetis intercedit ne-&#13;
-ceſſitudinis? Ego vero repoſuit Panſa,&#13;
-puto verſuum numerum, quem iam im-&#13;
-pleui ſcribendo, mihi ad Poetae nomen&#13;
-ſufficere poſſe. Igitur, Tu inquit deus,&#13;
-numero verſuum putes Poetae merita me-&#13;
-tienda, aut Te, me inuito, Poetam fa-&#13;
-ctum eſſe. Sed, o Deus, Panſa dixit, ad-&#13;
-ſunt ſcilicet huius facultatis teſtes ipſi ver-&#13;
-ſus noſtri: Apage cum Tuis verſibus, ira&#13;
-paullulum excitatus Iupiter reſpondit, iſtis&#13;
-nihil apud me proficies, In natalibus Tuis&#13;
-rhedarii ſortem tibi adſignaui, iſtam cor-&#13;
-pori tuo moleſtam cum velles effugere, ver-&#13;
-ſus compoſuiſti multos, ſed inſanos et nul-&#13;
-lius pretii, Igitur tibi tam expeditum iter&#13;
-ad Poeſin patuiſſe putes? vt, quae natura&#13;
-negauerat, potueris impudentia Tua con-&#13;
-ſequi? Obmutuit pauliſper, Panſa, ſed&#13;
-confirmato deinceps animo ſic allocutus eſt&#13;
-Iouem. Quare vis me, Omnipotens pater,&#13;
+        <Unicode>et ipſe Poeta, et, poetarum patrocinium
+mihi ſorte delatum, ſuſcepi. Sed pergit,
+Iupiter, quomodo Tu Poeta et ipſe factus
+es, et quid Tibi cum Poetis intercedit ne-
+ceſſitudinis? Ego vero repoſuit Panſa,
+puto verſuum numerum, quem iam im-
+pleui ſcribendo, mihi ad Poetae nomen
+ſufficere poſſe. Igitur, Tu inquit deus,
+numero verſuum putes Poetae merita me-
+tienda, aut Te, me inuito, Poetam fa-
+ctum eſſe. Sed, o Deus, Panſa dixit, ad-
+ſunt ſcilicet huius facultatis teſtes ipſi ver-
+ſus noſtri: Apage cum Tuis verſibus, ira
+paullulum excitatus Iupiter reſpondit, iſtis
+nihil apud me proficies, In natalibus Tuis
+rhedarii ſortem tibi adſignaui, iſtam cor-
+pori tuo moleſtam cum velles effugere, ver-
+ſus compoſuiſti multos, ſed inſanos et nul-
+lius pretii, Igitur tibi tam expeditum iter
+ad Poeſin patuiſſe putes? vt, quae natura
+negauerat, potueris impudentia Tua con-
+ſequi? Obmutuit pauliſper, Panſa, ſed
+confirmato deinceps animo ſic allocutus eſt
+Iouem. Quare vis me, Omnipotens pater,
 deiicere de merita et ſatis diuturna poſſeſſio-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682412762076_518" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="region_1682412762076_518" custom="readingOrder {index:2;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1240,1751 1240,1777 1282,1777 1282,1751"/>
       <TextLine id="line_1682412762133_521" custom="readingOrder {index:0;}">
         <Coords points="1240,1751 1240,1777 1282,1777 1282,1751"/>

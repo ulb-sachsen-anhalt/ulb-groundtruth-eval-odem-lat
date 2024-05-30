@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-51">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:27Z</Created>
     <LastChange>2024-01-19T13:07:27Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/315927bd-7e12-4608-87c7-c75076bc88f2/00000013.jpg" imageWidth="2510" imageHeight="3040" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region0007"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="362,670 1665,670 1665,782 362,782"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="559,670 553,688 531,691 526,696 518,683 505,674 483,689 471,674 465,672 371,673 366,678 366,702 371,708 372,715 377,719 462,721 500,725 613,719 874,725 1181,715 1300,715 1311,718 1357,717 1439,722 1456,719 1479,726 1664,723 1663,683 1466,684 1370,677 1244,676 1239,671 1142,671 1140,675 1100,678 1097,677 1097,671 1026,671 1017,677 986,679 965,679 952,671 943,671 916,673 910,683 906,682 906,676 901,672 868,672 863,677 862,685 822,685 773,683 769,680 759,680 755,683 648,680 641,670 591,670 587,673 585,681 578,681 573,672"/>
@@ -133,7 +149,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1661261852231_1484" custom="readingOrder {index:8;}">
-          <Coords points="1260,725 1311,724 1420,730 1420,756 1311,765 1260,766"/>
+          <Coords points="1311,724 1260,725 1260,766 1311,765 1420,756 1420,730 1391,728 1332,729 1331,725"/>
           <TextEquiv>
             <Unicode>teſtament.</Unicode>
           </TextEquiv>
@@ -155,11 +171,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Conf. de hac controverſia literatiſſimns ICtus B. EVERHARDVS OTTO&#13;
+        <Unicode>Conf. de hac controverſia literatiſſimns ICtus B. EVERHARDVS OTTO
 in Commentario ad Inſtitutiones, ad princ. Tit. de teſtament. num (5)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:1;}">
+    <TextRegion id="region0003" custom="readingOrder {index:1;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="329,810 1665,810 1665,916 329,916"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="689,811 681,822 658,822 653,818 644,818 639,822 606,825 556,825 548,816 534,816 524,825 509,826 505,823 480,826 473,818 463,818 457,824 439,819 329,818 329,876 421,878 434,875 442,880 462,880 467,875 468,867 568,866 704,859 862,864 974,863 1235,856 1293,859 1299,864 1308,864 1314,859 1340,857 1434,858 1450,860 1456,866 1469,868 1490,866 1500,861 1664,863 1664,827 1587,826 1586,816 1581,811 1540,812 1526,819 1494,820 1414,818 1410,811 1391,811 1388,817 1367,817 1366,811 1324,810 1323,818 1312,821 1307,816 1284,814 1237,817 1235,810 1213,811 1211,818 1156,815 1081,820 1076,812 1065,811 1056,821 1044,822 1040,813 1026,811 1014,822 969,823 962,814 948,814 941,824 882,825 827,823 822,819 812,819 807,823 760,821 751,811 739,813 734,821 710,821 704,812"/>
@@ -242,11 +258,11 @@ in Commentario ad Inſtitutiones, ad princ. Tit. de teſtament. num (5)</Unicode
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(b) Qui teſtamenta iuri naturae adverſari contendunt, duabus rotiſſimum&#13;
+        <Unicode>(b) Qui teſtamenta iuri naturae adverſari contendunt, duabus rotiſſimum
 rationibus utuntur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="361,945 1667,945 1667,1311 361,1311"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="653,945 643,946 637,954 632,955 550,959 543,952 532,953 524,960 509,963 470,963 462,953 364,953 361,955 361,985 366,989 366,999 371,1004 523,1003 669,995 691,1000 697,996 717,993 766,991 868,994 876,995 882,1001 893,1001 898,996 938,999 942,994 1215,990 1231,991 1237,1000 1254,999 1260,991 1666,997 1666,955 1499,954 1495,946 1473,946 1467,953 1452,953 1408,951 1403,947 1394,947 1390,950 1335,951 1324,950 1323,945 1267,945 1261,950 1175,950 1171,947 1161,947 1157,950 1123,951 1096,951 1094,946 1034,946 1031,950 1008,951 1003,945 985,945 978,954 886,955 746,950 741,946 696,952 689,946"/>
@@ -648,7 +664,7 @@ rationibus utuntur.</Unicode>
         </Word>
         <Word id="region0004_line0006_word0007" custom="readingOrder {index:7;}">
           <Coords points="1388,1232 1508,1232 1508,1213 1454,1212 1447,1211 1440,1204 1430,1204 1425,1209 1417,1204 1409,1204 1399,1214 1388,1213"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>obitum</Unicode>
           </TextEquiv>
         </Word>
@@ -694,16 +710,16 @@ rationibus utuntur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Prima haec eſt, ut ex eo, quod teſtamentum poſt mortem demum te&#13;
-ſtatoris valere debeat, inferant, ipſum teſtatorem non vivum, ſed iam mor-&#13;
-tuum, de bonis ſuis diſponere, quo nihil inconvenientius cogitari poſſe&#13;
-clamant. Aſt fallunt et falluntur, qui hoc ratiocinio ſententiae ſuae&#13;
-ſpeciem aliquam conciliare putant, ipſum nempe actum teſtandi, a vi-&#13;
-vo teſtatore celebratum, et effectum teſtamenti, poſt obitum demum&#13;
+        <Unicode>Prima haec eſt, ut ex eo, quod teſtamentum poſt mortem demum te
+ſtatoris valere debeat, inferant, ipſum teſtatorem non vivum, ſed iam mor-
+tuum, de bonis ſuis diſponere, quo nihil inconvenientius cogitari poſſe
+clamant. Aſt fallunt et falluntur, qui hoc ratiocinio ſententiae ſuae
+ſpeciem aliquam conciliare putant, ipſum nempe actum teſtandi, a vi-
+vo teſtatore celebratum, et effectum teſtamenti, poſt obitum demum
 teſtatoris ſecuturum, aperte confundentes.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="355,1332 1672,1332 1672,1661 355,1661"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="686,1333 680,1337 679,1343 674,1345 663,1345 658,1337 645,1336 637,1346 606,1347 600,1339 589,1338 571,1348 509,1353 463,1353 452,1351 446,1346 437,1346 433,1349 360,1346 355,1351 356,1390 361,1395 413,1395 708,1384 718,1390 756,1391 766,1389 770,1380 844,1379 894,1382 918,1388 929,1386 971,1391 980,1390 988,1382 1286,1389 1671,1389 1671,1350 1627,1349 1614,1342 1602,1342 1595,1350 1517,1351 1490,1347 1478,1339 1428,1339 1424,1342 1422,1350 1394,1350 1384,1338 1297,1337 1293,1340 1291,1349 1272,1349 1190,1348 1182,1337 1169,1338 1164,1348 1156,1347 1149,1337 1138,1337 1130,1346 1098,1345 1095,1333 1028,1333 1024,1341 1011,1341 936,1340 934,1332 860,1333 855,1338 846,1339 819,1338 808,1333 788,1333 786,1336 768,1339 705,1342 698,1333"/>
@@ -1054,15 +1070,15 @@ teſtatoris ſecuturum, aperte confundentes.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Altera ratio inde petita eſt, quod dominium ad dies ſaltem vitae&#13;
-poſſeſſoris duret, morte autem illius penitus exſpiret, et omnia&#13;
-defuncti bona res nullius evadant, adeoque primo occupanti cedant.&#13;
-Hoc ipſum autem eſt, quod manifeſtiſſimam principii, ut aiunt, petitio-&#13;
-nem involvit, et ſine maximo generis humani incommodo aſſeri nun-&#13;
+        <Unicode>Altera ratio inde petita eſt, quod dominium ad dies ſaltem vitae
+poſſeſſoris duret, morte autem illius penitus exſpiret, et omnia
+defuncti bona res nullius evadant, adeoque primo occupanti cedant.
+Hoc ipſum autem eſt, quod manifeſtiſſimam principii, ut aiunt, petitio-
+nem involvit, et ſine maximo generis humani incommodo aſſeri nun-
 quam poterit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:4;}">
+    <TextRegion id="region0006" custom="readingOrder {index:4;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="357,1685 1675,1685 1675,1935 357,1935"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="469,1686 455,1690 433,1687 359,1687 357,1723 362,1725 362,1731 367,1736 601,1733 608,1743 620,1743 628,1733 741,1732 1065,1735 1262,1740 1674,1739 1674,1700 1658,1700 1656,1693 1650,1689 1636,1691 1632,1700 1621,1700 1619,1694 1614,1690 1598,1692 1594,1701 1578,1701 1576,1695 1569,1690 1555,1691 1549,1699 1467,1699 1459,1690 1448,1690 1432,1698 1367,1700 1365,1694 1357,1689 1343,1689 1337,1699 1247,1700 1184,1697 1180,1694 1148,1698 1120,1695 1057,1695 1051,1686 1036,1686 1029,1694 1006,1694 850,1692 837,1691 833,1688 823,1688 819,1691 764,1692 733,1686 674,1688 648,1692 582,1693 568,1685 555,1685 546,1694 509,1696 500,1687"/>
@@ -1370,14 +1386,14 @@ quam poterit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Rectius itaque teſtamentorum cum iure naturae conſonantia ex indole&#13;
-diſpoſitionis conditionatae adſtruitur: teſtamentaria enim diſpoſitio tum&#13;
-demum vires ſuas accipit, ſi teſtator voluntatem ſuam non mutaverit,&#13;
-ſi mors eiusdem ſecuta fuerit, et ſi heres, vel alius quicunque, cui&#13;
+        <Unicode>Rectius itaque teſtamentorum cum iure naturae conſonantia ex indole
+diſpoſitionis conditionatae adſtruitur: teſtamentaria enim diſpoſitio tum
+demum vires ſuas accipit, ſi teſtator voluntatem ſuam non mutaverit,
+ſi mors eiusdem ſecuta fuerit, et ſi heres, vel alius quicunque, cui
 teſtator aliquid reliquit, hanc liberalem voluntatem acceptaverit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15866007" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:5;}">
+    <TextRegion id="region0007" custom="readingOrder {index:5;}" orientation="0.15866007" readingDirection="left-to-right">
       <Coords points="358,1967 1671,1967 1671,2498 358,2498"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="530,1968 519,1978 456,1979 430,1974 362,1976 358,1978 359,2012 369,2024 421,2034 462,2032 466,2029 467,2019 521,2019 549,2014 654,2011 744,2011 758,2020 762,2020 768,2012 956,2013 972,2016 976,2021 984,2023 1040,2015 1198,2017 1211,2018 1215,2025 1221,2026 1232,2025 1238,2018 1275,2015 1315,2015 1337,2018 1341,2021 1384,2016 1448,2016 1455,2017 1457,2024 1464,2028 1477,2026 1482,2018 1547,2018 1614,2025 1671,2023 1670,1989 1626,1981 1617,1974 1609,1974 1601,1982 1587,1982 1422,1977 1415,1968 1403,1968 1395,1977 1356,1979 1345,1976 1322,1976 1309,1969 1298,1969 1291,1976 1284,1969 1272,1969 1261,1978 1112,1979 1108,1968 1059,1968 1035,1977 1018,1977 966,1975 959,1967 947,1967 938,1975 899,1972 866,1975 807,1973 802,1968 744,1972 665,1972 663,1967 643,1967 630,1973 593,1973 581,1970 576,1974 555,1974 549,1967"/>
@@ -1615,7 +1631,7 @@ teſtator aliquid reliquit, hanc liberalem voluntatem acceptaverit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661262389881_1737" custom="readingOrder {index:1;} textStyle {offset:0; length:27;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="561,2177 610,2174 777,2172 894,2171 977,2171 1000,2180 1000,2213 931,2217 859,2218 756,2218 593,2216 561,2221 559,2179"/>
+          <Coords points="610,2174 602,2186 579,2186 572,2177 561,2177 559,2180 561,2221 593,2216 712,2217 731,2216 746,2217 746,2218 756,2218 772,2218 772,2217 820,2215 824,2215 826,2218 852,2218 854,2216 858,2216 859,2218 887,2218 887,2216 911,2215 912,2217 931,2217 932,2217 937,2215 996,2213 999,2213 1000,2213 1000,2180 999,2180 998,2180 978,2177 976,2171 956,2171 953,2176 950,2171 895,2171 891,2177 864,2177 860,2171 846,2171 840,2178 832,2178 830,2172 777,2172 777,2172 775,2178 739,2178 729,2185 716,2182 711,2174 708,2173"/>
           <TextEquiv>
             <Unicode>iuriſtiſch - philoſophiſch-</Unicode>
           </TextEquiv>
@@ -1731,7 +1747,7 @@ teſtator aliquid reliquit, hanc liberalem voluntatem acceptaverit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661262493852_1811" custom="readingOrder {index:2;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="580,2280 641,2280 715,2281 715,2313 697,2313 580,2312"/>
+          <Coords points="580,2280 580,2312 697,2313 714,2313 715,2313 715,2281 676,2280 673,2284 652,2285 643,2285 642,2280 641,2280 618,2280 617,2286 602,2286 599,2280"/>
           <TextEquiv>
             <Unicode>haben?</Unicode>
           </TextEquiv>
@@ -1917,7 +1933,7 @@ teſtator aliquid reliquit, hanc liberalem voluntatem acceptaverit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0012" custom="readingOrder {index:9;}">
-        <Coords points="1176,2425 1163,2435 1143,2436 1130,2432 1108,2432 1092,2436 1086,2432 1069,2432 1067,2438 1048,2438 1044,2441 1038,2435 997,2436 992,2432 980,2432 966,2437 957,2428 946,2430 942,2438 840,2441 835,2435 820,2434 814,2428 800,2429 795,2435 794,2442 789,2441 786,2430 769,2428 708,2430 688,2436 659,2434 643,2438 636,2438 632,2431 623,2429 614,2431 611,2441 605,2443 560,2442 536,2437 532,2437 528,2443 513,2444 506,2437 496,2437 489,2448 434,2451 408,2450 399,2442 387,2442 380,2447 359,2448 359,2493 421,2492 428,2502 495,2502 500,2497 501,2488 647,2480 663,2480 668,2484 677,2484 681,2481 826,2480 828,2488 832,2491 881,2492 889,2490 893,2480 991,2478 1024,2482 1033,2486 1044,2482 1085,2479 1087,2486 1094,2492 1117,2494 1163,2494 1170,2492 1176,2485 1237,2491 1287,2491 1288,2501 1293,2506 1347,2505 1352,2503 1356,2496 1361,2495 1550,2500 1671,2496 1671,2465 1638,2462 1625,2454 1603,2454 1602,2449 1594,2445 1582,2447 1579,2454 1569,2457 1567,2464 1492,2459 1436,2459 1414,2463 1409,2460 1409,2449 1405,2444 1392,2443 1387,2448 1384,2462 1378,2464 1377,2446 1374,2442 1239,2442 1233,2450 1228,2438 1220,2438 1213,2439 1209,2448 1201,2448 1198,2436 1187,2434"/>
+        <Coords points="1163,2435 1143,2436 1130,2432 1108,2432 1092,2436 1086,2432 1069,2432 1067,2438 1048,2438 1044,2441 1038,2435 997,2436 992,2432 980,2432 966,2437 957,2428 946,2430 942,2438 840,2441 835,2435 820,2434 814,2428 800,2429 795,2435 794,2442 789,2441 786,2430 769,2428 708,2430 688,2436 659,2434 643,2438 636,2438 632,2431 623,2429 614,2431 611,2441 605,2443 560,2442 536,2437 532,2437 528,2443 513,2444 506,2437 496,2437 489,2448 434,2451 408,2450 399,2442 387,2442 380,2447 359,2448 359,2493 421,2492 425,2498 499,2498 500,2497 501,2488 647,2480 663,2480 668,2484 677,2484 681,2481 826,2480 828,2488 832,2491 881,2492 889,2490 893,2480 991,2478 1024,2482 1033,2486 1044,2482 1085,2479 1087,2486 1094,2492 1117,2494 1163,2494 1170,2492 1176,2485 1237,2491 1287,2491 1287,2498 1354,2498 1356,2496 1361,2495 1474,2498 1610,2498 1671,2496 1671,2465 1638,2462 1625,2454 1603,2454 1602,2449 1594,2445 1582,2447 1579,2454 1569,2457 1567,2464 1492,2459 1436,2459 1414,2463 1409,2460 1409,2449 1405,2444 1392,2443 1387,2448 1384,2462 1378,2464 1377,2446 1374,2442 1239,2442 1233,2450 1228,2438 1220,2438 1213,2439 1209,2448 1201,2448 1198,2436 1187,2434 1176,2425"/>
         <Baseline points="478,2481 649,2470 921,2468 1101,2470 1286,2491 1287,2491 1312,2494 1352,2486 1671,2487"/>
         <Word id="region0007_line0012_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="365,2473 437,2473 437,2450 434,2451 408,2450 399,2442 387,2442 380,2447 365,2447"/>

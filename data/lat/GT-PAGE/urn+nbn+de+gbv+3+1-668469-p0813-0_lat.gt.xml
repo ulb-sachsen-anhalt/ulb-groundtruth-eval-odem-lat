@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-205">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:08Z</Created>
     <LastChange>2024-01-19T13:09:08Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/9674d577-baa5-4582-ad7a-990caa1913cc/00000813.jpg" imageWidth="1953" imageHeight="2703" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0008"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.4438032" readingDirection="left-to-right" id="TextRegion_1653991138044_6995" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1653991138044_6995" custom="readingOrder {index:0;}" orientation="-0.4438032" readingDirection="left-to-right">
       <Coords points="293,349 1462,372 1438,1577 268,1577"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="293,350 292,366 292,398 381,403 443,402 467,405 534,406 569,402 582,406 640,406 644,412 653,414 698,415 710,409 748,407 837,411 1030,412 1074,417 1080,421 1152,414 1460,423 1460,379 1412,378 1411,371 1385,371 1379,377 1271,376 1269,368 1258,368 1248,368 1244,376 1205,376 1204,367 1162,366 1110,365 1103,371 1069,373 1066,368 1057,366 763,366 758,358 750,358 714,358 712,366 679,366 647,360 593,361 567,358 388,358 383,351 381,350 371,350 368,351 363,360 338,361 335,350"/>
@@ -94,7 +110,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653991206975_7024" custom="readingOrder {index:3;}">
-          <Coords points="600,418 765,416 783,416 783,456 765,456 664,454 600,451"/>
+          <Coords points="600,418 600,451 609,451 656,450 664,454 744,455 745,455 765,456 783,456 783,416 764,416"/>
           <TextEquiv>
             <Unicode>errorum,</Unicode>
           </TextEquiv>
@@ -1262,7 +1278,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0024" custom="readingOrder {index:23;}">
-        <Coords points="388,1516 382,1526 320,1528 271,1525 269,1582 331,1582 338,1577 339,1566 497,1568 501,1565 503,1556 571,1555 576,1550 577,1527 572,1522 505,1519 478,1521 454,1527 407,1527 402,1518"/>
+        <Coords points="382,1526 320,1528 271,1525 269,1577 338,1577 339,1566 497,1568 501,1565 503,1556 571,1555 576,1550 577,1527 572,1522 505,1519 478,1521 454,1527 407,1527 402,1518 388,1516"/>
         <Word id="region0006_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="404,1522 384,1522 382,1526 320,1528 306,1527 306,1569 338,1569 339,1566 497,1568 501,1565 503,1556 519,1555 520,1523 470,1522 454,1527 407,1527"/>
           <TextEquiv>
@@ -1274,36 +1290,36 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>loci MDCLVI. 12. gallice MDCXXXIX. 4. Eiusdem exſtat&#13;
-liber de cauſſis errorum, vna cum tractatu de religione Iaici&#13;
-et adpendice ad ſacerdotes, qui cum memorato ſcripto de&#13;
-veritate, tamquam poſterior illius pars, coniunctim pro-&#13;
-diit, Londin. MDCXLV. 4. MDCLVI. 12. ſine indicio loci,&#13;
-ac de religione gentilium errorumque apud eos cauſſis, cuius&#13;
-operis prima pars lucem vidit Londin. MDCXLV. 8. et&#13;
-Amſtelod. MDCLVI. 4. integrum autem illud exiit Amſte-&#13;
-lod. MDCLXIII. 4. ibidem MDCC. 8. cura Iſaac. Voſſii et&#13;
-anglice Londin. MDCCVIII. 8. Quæ iam enarrata ingenii&#13;
-monimenta luculenter teſtantur, Herbertum principem&#13;
-eſſe naturaliſtarum. Aperte ea ſtatuit, quæ ad ſcripturam&#13;
-ſacram ac religionem chriſtianam euertendam; ad natura-&#13;
-lem vero vnice ſuſtinendam comparata ſunt, conſenſum&#13;
-videlicet vniuerſalem in rebus neceſlariis ſolam eſſe ve-&#13;
-ritatis normam: quidquid neque per inſtinctum natura-&#13;
-lem, ſenſum internum, ſenſum externum; neque diſcur-&#13;
-ſum innoteſcat, tamquam verum, proprie dictum, nullo&#13;
-modo probandum eſſe: de reuelatione neminem certum&#13;
-eſſe poſſe, niſi cui ea facta ſit immediate, et quæ ſunt&#13;
-his ſimilia alia. Quam præſcribit, ratio, æternam ſalutem&#13;
-conſequendi, in cultu diuino ponitur, ita inſtituendo, vt&#13;
-quis virtutibus operam det eumque malarum actionum&#13;
+        <Unicode>loci MDCLVI. 12. gallice MDCXXXIX. 4. Eiusdem exſtat
+liber de cauſſis errorum, vna cum tractatu de religione Iaici
+et adpendice ad ſacerdotes, qui cum memorato ſcripto de
+veritate, tamquam poſterior illius pars, coniunctim pro-
+diit, Londin. MDCXLV. 4. MDCLVI. 12. ſine indicio loci,
+ac de religione gentilium errorumque apud eos cauſſis, cuius
+operis prima pars lucem vidit Londin. MDCXLV. 8. et
+Amſtelod. MDCLVI. 4. integrum autem illud exiit Amſte-
+lod. MDCLXIII. 4. ibidem MDCC. 8. cura Iſaac. Voſſii et
+anglice Londin. MDCCVIII. 8. Quæ iam enarrata ingenii
+monimenta luculenter teſtantur, Herbertum principem
+eſſe naturaliſtarum. Aperte ea ſtatuit, quæ ad ſcripturam
+ſacram ac religionem chriſtianam euertendam; ad natura-
+lem vero vnice ſuſtinendam comparata ſunt, conſenſum
+videlicet vniuerſalem in rebus neceſlariis ſolam eſſe ve-
+ritatis normam: quidquid neque per inſtinctum natura-
+lem, ſenſum internum, ſenſum externum; neque diſcur-
+ſum innoteſcat, tamquam verum, proprie dictum, nullo
+modo probandum eſſe: de reuelatione neminem certum
+eſſe poſſe, niſi cui ea facta ſit immediate, et quæ ſunt
+his ſimilia alia. Quam præſcribit, ratio, æternam ſalutem
+conſequendi, in cultu diuino ponitur, ita inſtituendo, vt
+quis virtutibus operam det eumque malarum actionum
 pœniteat:*</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.4438032" readingDirection="left-to-right" id="TextRegion_1653991138044_6994" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1653991138044_6994" custom="readingOrder {index:1;}" orientation="-0.4438032" readingDirection="left-to-right">
       <Coords points="268,1577 1438,1577 1435,1748 266,1725"/>
       <TextLine id="region0006_line0025" custom="readingOrder {index:0;}">
-        <Coords points="866,1572 861,1576 859,1586 344,1577 331,1583 331,1610 340,1616 461,1616 467,1619 513,1621 669,1622 721,1626 764,1626 768,1623 788,1627 859,1625 861,1632 865,1634 879,1633 885,1625 1253,1631 1261,1632 1263,1639 1268,1643 1279,1643 1289,1633 1310,1634 1312,1644 1319,1647 1333,1645 1340,1636 1349,1635 1437,1638 1437,1598 1362,1597 1361,1588 1355,1582 1343,1582 1333,1588 1327,1581 1279,1580 1269,1582 1265,1592 1247,1592 1243,1580 1230,1579 1223,1583 1221,1592 1185,1592 1184,1585 1179,1579 1168,1577 1162,1582 1161,1590 1155,1591 1108,1590 1103,1583 1090,1578 1077,1578 1073,1581 1071,1589 1065,1589 1060,1587 1059,1579 1052,1575 1044,1575 1034,1585 1022,1587 960,1586 953,1578 942,1578 936,1584 907,1585 906,1577 901,1572"/>
+        <Coords points="859,1586 344,1577 331,1583 331,1610 340,1616 461,1616 467,1619 513,1621 669,1622 721,1626 764,1626 768,1623 788,1627 859,1625 861,1632 865,1634 879,1633 885,1625 1253,1631 1261,1632 1263,1639 1268,1643 1279,1643 1289,1633 1310,1634 1312,1644 1319,1647 1333,1645 1340,1636 1349,1635 1436,1637 1437,1634 1437,1598 1362,1597 1361,1588 1355,1582 1343,1582 1333,1588 1327,1581 1279,1580 1269,1582 1265,1592 1247,1592 1243,1580 1230,1579 1223,1583 1221,1592 1185,1592 1184,1585 1179,1579 1168,1577 1162,1582 1161,1590 1155,1591 1108,1590 1103,1583 1090,1578 1077,1578 1073,1581 1071,1589 1065,1589 1060,1587 1059,1579 1055,1577 1042,1577 1034,1585 1022,1587 960,1586 953,1578 942,1578 936,1584 907,1585 906,1577 860,1577"/>
         <Word id="region0006_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="387,1584 620,1586 620,1610 387,1608"/>
           <TextEquiv conf="0.6851703">
@@ -1389,7 +1405,7 @@ pœniteat:*</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653991691924_7232" custom="readingOrder {index:6;}">
-          <Coords points="1065,1630 1077,1630 1196,1631 1234,1643 1252,1656 1251,1674 1250,1674 1060,1662 1060,1636"/>
+          <Coords points="1065,1630 1060,1636 1060,1662 1250,1674 1251,1674 1252,1656 1234,1643 1202,1643 1201,1635 1196,1631 1181,1632 1176,1642 1151,1641 1145,1633 1134,1633 1127,1641 1083,1641 1081,1632 1077,1630"/>
           <TextEquiv>
             <Unicode>hominibus,</Unicode>
           </TextEquiv>
@@ -1459,12 +1475,12 @@ pœniteat:*</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>FRANCISCI PVCCII adſertio adſertio catholica catholica de chriſti ſerua-&#13;
-toris efficacitate in omnibus et ſingulis hominibus, quatenus&#13;
+        <Unicode>FRANCISCI PVCCII adſertio adſertio catholica catholica de chriſti ſerua-
+toris efficacitate in omnibus et ſingulis hominibus, quatenus
 homines ſunt, Goud. MDXCII. 8. qua adfirmat, mortales</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.4438032" type="catch-word" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="region0007" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.4438032" type="catch-word" readingDirection="left-to-right">
       <Coords points="1383,1741 1433,1742 1432,1787 1382,1786"/>
       <TextLine id="region0007_line" custom="readingOrder {index:0;}">
         <Coords points="1383,1741 1433,1742 1432,1787 1382,1786"/>
@@ -1482,7 +1498,7 @@ homines ſunt, Goud. MDXCII. 8. qua adfirmat, mortales</Unicode>
         <Unicode>ad</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.4438032" type="footnote" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="region0008" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.4438032" type="footnote" readingDirection="left-to-right">
       <Coords points="291,1796 1442,1819 1431,2412 279,2390"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="300,1797 291,1799 290,1805 290,1832 296,1833 296,1850 301,1855 321,1855 368,1843 539,1846 544,1843 553,1843 560,1847 606,1847 623,1844 629,1849 706,1848 716,1851 725,1851 727,1846 741,1846 746,1850 770,1847 795,1851 854,1851 866,1848 888,1854 933,1851 943,1855 973,1851 985,1856 1005,1857 1015,1862 1063,1853 1085,1858 1116,1855 1123,1863 1147,1864 1159,1856 1167,1860 1179,1860 1186,1856 1201,1860 1220,1860 1234,1856 1241,1860 1310,1858 1326,1862 1362,1860 1441,1864 1441,1827 1358,1826 1276,1821 1240,1822 1220,1820 1217,1815 1197,1814 1194,1814 1186,1815 1182,1821 1162,1821 1119,1819 1118,1814 1113,1812 1091,1812 1087,1818 1064,1818 1061,1812 1044,1812 1040,1818 1020,1818 1016,1811 1003,1810 999,1810 995,1817 989,1817 987,1810 961,1810 957,1816 937,1816 933,1809 917,1809 913,1815 673,1811 670,1804 652,1804 647,1811 639,1811 563,1808 554,1807 553,1802 537,1801 533,1801 528,1807 520,1807 519,1801 458,1800 450,1804 447,1799 441,1799 428,1799 424,1805 393,1806 364,1804 361,1797 343,1797 340,1801"/>
@@ -2093,7 +2109,7 @@ homines ſunt, Goud. MDXCII. 8. qua adfirmat, mortales</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653991986351_7402" custom="readingOrder {index:9;}">
-          <Coords points="1237,2197 1290,2192 1303,2192 1361,2193 1429,2201 1429,2231 1416,2231 1237,2222"/>
+          <Coords points="1290,2192 1282,2198 1239,2198 1237,2197 1237,2222 1416,2231 1429,2231 1429,2201 1367,2199 1361,2193 1351,2193 1342,2199 1325,2202 1308,2198 1303,2192"/>
           <TextEquiv>
             <Unicode>nachrichten,</Unicode>
           </TextEquiv>
@@ -2361,19 +2377,19 @@ homines ſunt, Goud. MDXCII. 8. qua adfirmat, mortales</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>* plura de Herberto eiusque memoratis ſcriptis ſuppeditant: GRVN-&#13;
-DICHIVS in den geſchichten der deiſten, ſonderlich des Cherbury,&#13;
-Cothen. MDCCXLVIII. WOOD Athen. oxonienſ. vol. 11. p. 117.&#13;
-NICERONIVS memoir. tom. XVIII.p. 178. POPEBLOVNTIVS cen-&#13;
-ſur. celebr. auctor. p.996. KORTHOLTVS de tribus impoſtorib. magnis,&#13;
-ſection. 1. P. 4. REIMMANNVS catalog. biblioth. theolog. p. 1033. et&#13;
-hiſtor. atheiſmi p. 441. MASCHIVS in dem verzeichnis der frei-&#13;
-geiſteriſchen ſchriften, addito eiusdem beſchlus der abhandlung von&#13;
-der religion der heiden vnd chriſten, p. 79. BVDDEVS theſib. de&#13;
-atheiſm. et ſuperſtition. cap. 1. p. 182. die unſchuld. nachrichten,&#13;
-1702. p. 901. FREYTAGIVS in analectis de libris rariorib. p.&#13;
-238. LILIENTHALIVS in der theolog. biblioth. tom. 1. p. 215.&#13;
-LELANDVS in dem abris der vornehmſten deiſtiſchen ſchriften part.&#13;
+        <Unicode>* plura de Herberto eiusque memoratis ſcriptis ſuppeditant: GRVN-
+DICHIVS in den geſchichten der deiſten, ſonderlich des Cherbury,
+Cothen. MDCCXLVIII. WOOD Athen. oxonienſ. vol. 11. p. 117.
+NICERONIVS memoir. tom. XVIII.p. 178. POPEBLOVNTIVS cen-
+ſur. celebr. auctor. p.996. KORTHOLTVS de tribus impoſtorib. magnis,
+ſection. 1. P. 4. REIMMANNVS catalog. biblioth. theolog. p. 1033. et
+hiſtor. atheiſmi p. 441. MASCHIVS in dem verzeichnis der frei-
+geiſteriſchen ſchriften, addito eiusdem beſchlus der abhandlung von
+der religion der heiden vnd chriſten, p. 79. BVDDEVS theſib. de
+atheiſm. et ſuperſtition. cap. 1. p. 182. die unſchuld. nachrichten,
+1702. p. 901. FREYTAGIVS in analectis de libris rariorib. p.
+238. LILIENTHALIVS in der theolog. biblioth. tom. 1. p. 215.
+LELANDVS in dem abris der vornehmſten deiſtiſchen ſchriften part.
 1. p. 1. ſqq. auctor des vnpartheyiſchen bibliothecar. p. 987.</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-41">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:19Z</Created>
     <LastChange>2024-01-19T13:07:19Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4b1708ad-1587-4da6-94c7-7da5ce6a2333/00000256.jpg" imageWidth="1509" imageHeight="2336" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="7" regionRef="region_1676536164858_2130"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676536110159_2096" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676536110159_2096" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="563,306 563,336 643,336 643,306"/>
       <TextLine id="line_1676536110259_2099" custom="readingOrder {index:0;}">
         <Coords points="563,306 563,336 643,336 643,306"/>
@@ -38,7 +54,7 @@
         <Unicode>220</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676536123618_2105" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676536123618_2105" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="709,298 709,347 1289,347 1289,298"/>
       <TextLine id="line_1676536123713_2108" custom="readingOrder {index:0;}">
         <Coords points="709,298 1289,298 1289,347 709,347"/>
@@ -86,13 +102,10 @@
         <Unicode>F. Balduini de Legibus Conſt. M.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <SeparatorRegion id="region0008" custom="readingOrder {index:2;}">
-      <Coords points="619,356 1401,353 1401,376 619,379"/>
-    </SeparatorRegion>
-    <TextRegion orientation="-0.10255563" type="marginalia" readingDirection="left-to-right" id="TextRegion_1644403599481_791" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1644403599481_791" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="-0.10255563" type="marginalia" readingDirection="left-to-right">
       <Coords points="372,1526 551,1525 550,1674 377,1675"/>
       <TextLine id="line_1644403599622_826" custom="readingOrder {index:0;}">
-        <Coords points="382,1528 388,1527 435,1533 458,1528 508,1527 537,1534 544,1540 556,1540 556,1595 555,1596 540,1594 536,1580 521,1576 477,1574 455,1579 435,1576 430,1579 382,1579"/>
+        <Coords points="544,1540 537,1534 508,1527 458,1528 435,1533 388,1527 382,1528 382,1579 430,1579 435,1576 455,1579 477,1574 521,1576 536,1580 540,1594 550,1595 550,1540"/>
         <Word id="region0009_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="386,1537 410,1537 410,1571 386,1571"/>
           <TextEquiv>
@@ -134,11 +147,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>l. 1. C. de&#13;
+        <Unicode>l. 1. C. de
 eurioſ.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10255563" type="marginalia" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:4;} structure {type:marginalia;}">
+    <TextRegion id="region0012" custom="readingOrder {index:4;} structure {type:marginalia;}" orientation="-0.10255563" type="marginalia" readingDirection="left-to-right">
       <Coords points="381,1901 558,1901 559,2036 382,2036"/>
       <TextLine id="line_1644404154956_1058" custom="readingOrder {index:0;}">
         <Coords points="381,1901 539,1901 556,1910 558,1951 535,1951 382,1949"/>
@@ -195,12 +208,12 @@ eurioſ.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>l. divus. de&#13;
-cuſtod. &amp;&#13;
+        <Unicode>l. divus. de
+cuſtod. &amp;
 exhibit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10255563" type="paragraph" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:5;} structure {type:paragraph;}">
+    <TextRegion id="region0007" custom="readingOrder {index:5;} structure {type:paragraph;}" orientation="-0.10255563" type="paragraph" readingDirection="left-to-right">
       <Coords points="562,374 1401,371 1402,650 563,653"/>
       <TextLine id="region0007_line0002" custom="readingOrder {index:0;}">
         <Coords points="1252,372 568,382 564,395 563,404 563,432 1401,430 1401,387 1268,373"/>
@@ -211,13 +224,13 @@ exhibit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="747,378 738,378 738,414 767,414 767,378 756,378 752,383"/>
+          <Coords points="738,414 767,414 767,379 754,379 752,383 748,379 738,379"/>
           <TextEquiv conf="0.9329458">
             <Unicode>id</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="864,375 848,375 836,387 779,386 779,428 842,428 911,426 927,426 927,384 910,384 904,375 878,375 874,385 869,384"/>
+          <Coords points="836,387 779,386 779,428 842,428 911,426 927,426 927,384 910,384 905,377 877,377 874,385 869,384 865,377 845,377"/>
           <TextEquiv conf="0.915314">
             <Unicode>profecto</Unicode>
           </TextEquiv>
@@ -235,7 +248,7 @@ exhibit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1219,379 1169,379 1169,423 1394,424 1394,387 1348,387 1342,379 1327,379 1323,385 1274,384 1271,379 1244,379 1240,384 1224,385"/>
+          <Coords points="1169,379 1169,423 1394,424 1394,387 1348,387 1343,380 1326,379 1323,385 1274,384 1271,379 1244,379 1240,384 1224,385 1219,379"/>
           <TextEquiv conf="0.9052276">
             <Unicode>Conſtantino,</Unicode>
           </TextEquiv>
@@ -425,14 +438,14 @@ exhibit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Tamque id profecto valde placuit Conſtantino,&#13;
-ut ipſum etiam magiſtratum puniri velit, ſi ca-&#13;
-pitali ſtatim ſupplicio non affecerit cuſtodes&#13;
-carceris, eorumve miniſtros infelicem reum aut&#13;
+        <Unicode>Tamque id profecto valde placuit Conſtantino,
+ut ipſum etiam magiſtratum puniri velit, ſi ca-
+pitali ſtatim ſupplicio non affecerit cuſtodes
+carceris, eorumve miniſtros infelicem reum aut
 inedia torquentes, aut alio cruciatu affligentes.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10255563" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644403659716_868" custom="readingOrder {index:6;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1644403659716_868" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="-0.10255563" type="paragraph" readingDirection="left-to-right">
       <Coords points="556,692 1401,689 1407,1973 1387,2017 558,2034 556,1976"/>
       <TextLine id="line_1644403599559_793" custom="readingOrder {index:0;}">
         <Coords points="556,698 558,697 582,695 637,694 700,704 705,692 709,691 719,691 724,695 726,704 752,704 756,693 767,691 771,691 777,697 777,703 781,704 823,704 828,692 844,692 856,696 861,704 931,704 941,695 964,692 977,692 1011,701 1019,701 1025,691 1052,691 1054,701 1170,701 1174,692 1186,690 1192,694 1195,701 1213,701 1218,691 1226,689 1233,689 1246,693 1252,702 1306,701 1314,689 1318,689 1326,690 1332,700 1351,701 1354,690 1381,692 1390,702 1401,702 1401,743 1181,743 1171,744 1169,754 1164,756 1155,756 1142,744 1096,743 1014,746 686,745 684,758 661,761 606,759 592,752 580,757 571,756 567,751 567,737 558,736 556,734"/>
@@ -563,7 +576,7 @@ inedia torquentes, aut alio cruciatu affligentes.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0003_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1160,806 1160,839 1275,842 1275,803 1222,800 1221,807 1206,810"/>
+          <Coords points="1160,839 1275,842 1275,806 1269,807 1259,807 1254,801 1222,800 1221,807 1206,810 1160,806"/>
           <TextEquiv conf="0.8849719">
             <Unicode>cordi,</Unicode>
           </TextEquiv>
@@ -1151,7 +1164,7 @@ inedia torquentes, aut alio cruciatu affligentes.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1644404064648_1041" custom="readingOrder {index:3;}">
-          <Coords points="997,1438 1026,1438 1179,1438 1197,1453 1197,1476 997,1476"/>
+          <Coords points="997,1438 997,1438 997,1476 1197,1476 1197,1453 1179,1438 1168,1438 1164,1444 1143,1445 1133,1445 1127,1438 1113,1438 1110,1444 1060,1444 1029,1442 1026,1438"/>
           <TextEquiv>
             <Unicode>&amp;convinci:</Unicode>
           </TextEquiv>
@@ -1545,7 +1558,7 @@ inedia torquentes, aut alio cruciatu affligentes.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0010_line0001" custom="readingOrder {index:24;}">
-        <Coords points="1194,1964 1183,1965 1172,1977 1080,1976 1076,1965 1068,1965 1027,1966 1020,1975 943,1975 940,1966 919,1966 918,1975 908,1977 887,1977 882,1967 867,1967 862,1977 795,1978 787,1977 786,1967 734,1967 727,1982 714,1981 710,1973 697,1972 691,1982 684,1982 682,1975 677,1971 665,1972 660,1982 654,1982 650,1973 638,1971 630,1981 558,1980 558,2033 583,2033 584,2028 590,2026 738,2024 775,2025 788,2030 797,2030 803,2026 822,2026 829,2033 833,2033 846,2032 852,2028 854,2020 891,2019 947,2019 951,2032 974,2032 981,2018 1214,2021 1313,2017 1383,2008 1383,1971 1350,1969 1268,1974 1261,1973 1258,1964"/>
+        <Coords points="1183,1965 1172,1977 1080,1976 1076,1965 1068,1965 1027,1966 1020,1975 943,1975 940,1966 919,1966 918,1975 908,1977 887,1977 882,1967 867,1967 862,1977 795,1978 787,1977 786,1967 734,1967 727,1982 714,1981 710,1973 697,1972 691,1982 684,1982 682,1975 677,1971 665,1972 660,1982 654,1982 650,1973 638,1971 630,1981 558,1980 558,2033 583,2033 584,2028 590,2026 738,2024 775,2025 786,2029 798,2029 803,2026 822,2026 824,2028 852,2027 854,2020 891,2019 947,2019 949,2025 977,2025 981,2018 1200,2020 1236,2020 1313,2017 1383,2008 1383,1971 1350,1969 1268,1974 1261,1973 1258,1964 1194,1964"/>
         <Word id="region0010_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="650,1973 636,1973 630,1981 564,1980 564,2021 676,2021 676,1973 664,1973 660,1982 654,1982"/>
           <TextEquiv conf="0.92602676">
@@ -1593,34 +1606,34 @@ inedia torquentes, aut alio cruciatu affligentes.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quod ad ordinem &amp; uſum capitalium iudi-&#13;
-ciorum attinet, Conſtantinus in primis ſibi&#13;
-utrumque valde eſſe &amp; curæ &amp; cordi, reipſa&#13;
-oſtendit. Nam &amp; ſeverus erat criminum, præci-&#13;
-pue atrociorum, vindex, &amp; impunitatem ſciebat&#13;
-humanæ ſocietatis eſſe perniciem: &amp; vero, qua&#13;
-lege &amp; in quos uſus ab ipſo Deo ius gladii acce-&#13;
-piſſet, non neſciebat. Audiebat, quid is iam inde&#13;
-ab ipſius Noah temporibus edixiſſet: &amp; Delpho-&#13;
-rum etiam exemplo permoveri poterat, apud&#13;
-quos moris fuiſſe accepimus, ut quo gladio pe-&#13;
-cudes ad ſacrificium mactabantur, ſontium ca-&#13;
-pita etiam ferirentur. Quid igitur? In primis&#13;
-neceſle fuit, delicta &amp; maleficia, quæ ſi lateant,&#13;
-impunita erunt,&amp; quæri &amp;convinci: ſicuti &amp;ve-&#13;
-teres ſæpe monuerunt, Reip. intereſſe, multos&#13;
-eſſe accuſatores criminum. Conſtantinus ita-&#13;
-que ſuos habuit Curioſos &amp; Stationarios (ſic&#13;
-enim appellabantur) quibus edita etiam lege&#13;
-præcepit, ut crimina inveſtigarent, iudicibus-&#13;
-que nunciarent. Sed præcepit etiam diligenter&#13;
-(quod non minus erat neceſſe) ne quid negotii&#13;
-inſontibus per calumniam faceſſerent. Certe &amp;&#13;
-olim Antonin9 PiusImp. improbumIrenarcham&#13;
+        <Unicode>Quod ad ordinem &amp; uſum capitalium iudi-
+ciorum attinet, Conſtantinus in primis ſibi
+utrumque valde eſſe &amp; curæ &amp; cordi, reipſa
+oſtendit. Nam &amp; ſeverus erat criminum, præci-
+pue atrociorum, vindex, &amp; impunitatem ſciebat
+humanæ ſocietatis eſſe perniciem: &amp; vero, qua
+lege &amp; in quos uſus ab ipſo Deo ius gladii acce-
+piſſet, non neſciebat. Audiebat, quid is iam inde
+ab ipſius Noah temporibus edixiſſet: &amp; Delpho-
+rum etiam exemplo permoveri poterat, apud
+quos moris fuiſſe accepimus, ut quo gladio pe-
+cudes ad ſacrificium mactabantur, ſontium ca-
+pita etiam ferirentur. Quid igitur? In primis
+neceſle fuit, delicta &amp; maleficia, quæ ſi lateant,
+impunita erunt,&amp; quæri &amp;convinci: ſicuti &amp;ve-
+teres ſæpe monuerunt, Reip. intereſſe, multos
+eſſe accuſatores criminum. Conſtantinus ita-
+que ſuos habuit Curioſos &amp; Stationarios (ſic
+enim appellabantur) quibus edita etiam lege
+præcepit, ut crimina inveſtigarent, iudicibus-
+que nunciarent. Sed præcepit etiam diligenter
+(quod non minus erat neceſſe) ne quid negotii
+inſontibus per calumniam faceſſerent. Certe &amp;
+olim Antonin9 PiusImp. improbumIrenarcham
 puniri iuſſit, qui ad præſidem miſiſſet noto-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676536164858_2130" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="region_1676536164858_2130" custom="readingOrder {index:7;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1329,2024 1329,2057 1379,2057 1379,2024"/>
       <TextLine id="line_1676536164973_2133" custom="readingOrder {index:0;}">
         <Coords points="1329,2024 1329,2057 1379,2057 1379,2024"/>
@@ -1638,5 +1651,8 @@ puniri iuſſit, qui ad præſidem miſiſſet noto-</Unicode>
         <Unicode>ria</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="region0008" custom="readingOrder {index:2;}">
+      <Coords points="619,356 1401,353 1401,376 619,379"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

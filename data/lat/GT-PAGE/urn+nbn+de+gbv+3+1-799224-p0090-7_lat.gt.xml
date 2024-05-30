@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-288">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:23Z</Created>
     <LastChange>2024-01-19T13:10:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ab7822af-ba5e-41d7-8450-025f3ad5eafe/00000090.jpg" imageWidth="1544" imageHeight="2184" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1662552852401_1029"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.749029" type="marginalia" readingDirection="left-to-right" id="TextRegion_1662552843604_994" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1662552843604_994" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="0.749029" type="marginalia" readingDirection="left-to-right">
       <Coords points="474,312 579,312 579,958 474,958"/>
       <TextLine id="line_1662552843658_997" custom="readingOrder {index:0;}">
         <Coords points="474,326 512,326 579,319 579,367 474,368"/>
@@ -125,17 +141,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>2101&#13;
-2 Sinceri G&amp;nd⸗ &amp;dyretben an einen &amp;dĩſd́en&#13;
-3&#13;
-4 Chiiſtoph. Wolle de Ponrifice Chriſtianotum Maxi-&#13;
-5 Vitæ Theologorum Alioifinorum a condita Acade-&#13;
-r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
-7 Seiit de Senatoni Florentini, Fioranza 722. c. fig.&#13;
+        <Unicode>2101
+2 Sinceri G&amp;nd⸗ &amp;dyretben an einen &amp;dĩſd́en
+3
+4 Chiiſtoph. Wolle de Ponrifice Chriſtianotum Maxi-
+5 Vitæ Theologorum Alioifinorum a condita Acade-
+r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-
+7 Seiit de Senatoni Florentini, Fioranza 722. c. fig.
 8</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.749029" readingDirection="left-to-right" id="TextRegion_1662552843604_993" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1662552843604_993" custom="readingOrder {index:1;}" orientation="0.749029" readingDirection="left-to-right">
       <Coords points="579,312 1347,312 1347,493 1346,958 579,958"/>
       <TextLine id="line_1662552843658_996" custom="readingOrder {index:0;}">
         <Coords points="579,319 606,317 622,324 638,324 650,323 662,314 672,313 678,317 734,314 753,321 769,323 773,323 780,314 801,315 806,319 811,314 833,315 844,312 854,312 859,316 863,313 884,313 891,321 907,320 914,312 925,312 931,320 982,319 987,315 1002,314 1009,319 1024,319 1030,313 1041,313 1047,319 1054,320 1076,320 1083,315 1091,315 1096,320 1116,321 1146,318 1156,313 1169,312 1177,312 1183,317 1219,312 1226,318 1233,312 1253,312 1256,315 1266,312 1298,312 1308,317 1346,319 1346,357 1061,357 1057,362 1045,363 1034,358 1022,356 974,358 943,356 887,359 826,356 603,362 580,367 579,367"/>
@@ -233,7 +249,7 @@ r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1662553065167_1245" custom="readingOrder {index:1;}">
-          <Coords points="724,408 834,399 858,398 943,399 985,405 985,445 905,447 839,447 724,441"/>
+          <Coords points="724,408 724,441 823,446 834,444 839,447 905,447 907,446 940,445 946,442 976,445 985,445 985,405 949,404 943,399 918,404 853,398 834,399 824,399 795,405 791,403 778,408 763,404"/>
           <TextEquiv>
             <Unicode>Send ⸗ Schreiben</Unicode>
           </TextEquiv>
@@ -320,7 +336,7 @@ r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
         <Coords points="579,531 597,531 637,539 681,535 692,529 719,526 761,525 765,523 765,512 771,506 784,506 789,511 789,521 782,527 786,534 807,531 815,523 881,527 885,523 900,522 909,530 913,530 920,523 928,523 937,532 981,524 1015,528 1020,523 1032,522 1038,529 1051,529 1059,522 1068,522 1079,523 1085,530 1094,531 1103,530 1116,522 1167,522 1174,526 1176,531 1183,531 1191,520 1205,521 1209,529 1223,529 1285,524 1305,516 1345,514 1346,566 1320,565 1309,570 1289,572 1279,568 1268,571 1253,569 1226,574 1202,567 1109,570 1105,567 981,569 895,566 834,570 804,568 741,568 656,574 653,571 639,574 614,570 579,573"/>
         <Baseline points="579,562 586,562 1346,556"/>
         <Word id="word_1662553145413_1339" custom="readingOrder {index:0;}">
-          <Coords points="591,539 702,535 703,562 648,563 592,554"/>
+          <Coords points="591,539 592,554 648,563 703,562 702,535 667,536 637,539 629,537"/>
           <TextEquiv>
             <Unicode>Benigni</Unicode>
           </TextEquiv>
@@ -565,7 +581,7 @@ r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
         </Word>
         <Word id="region0006_line0009_word0008" custom="readingOrder {index:8;}">
           <Coords points="1273,692 1272,693 1272,731 1319,731 1319,697 1297,698 1290,692"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>fig.</Unicode>
           </TextEquiv>
         </Word>
@@ -724,7 +740,7 @@ r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1662553395274_1502" custom="readingOrder {index:2;}">
-          <Coords points="713,870 756,869 818,874 818,894 779,895 713,895"/>
+          <Coords points="756,869 713,870 713,895 779,895 818,894 818,874 778,871 758,871 756,869"/>
           <TextEquiv>
             <Unicode>Tacitus</Unicode>
           </TextEquiv>
@@ -789,24 +805,24 @@ r 6 Geih. Meuſchenii Vitæ ſummoium in republica lir-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Gottfr. Olearii Bibliotheca Scriptorum Eccleſiaſtico-&#13;
-rum, cum præf Buddæi, Jen. 7 I&#13;
-Sinceri Send ⸗ Schreiben an einen Saͤchſiſchen&#13;
-Theologen von dem wahren lebendigen Glauben,&#13;
-699&#13;
-Benigni Boſſueti Doctrina Catholica, Gotting. 736&#13;
-Chriſtoph. Wolle de Pontifice Chriſtianorum Maxi-&#13;
-mo ſedente ad Hebr. VIII. v. I. 2. Lipſ 746&#13;
-Vitæ Theologorum Altoifinorum a condita Acade-&#13;
-mia a Georg. Zeltnero deſcriptæ, Norib. 722. c. fig.&#13;
-Gerh. Meuſchenii Vitæ ſummorum in republica lit-&#13;
-teraria Virorum, Cob. 735&#13;
-Serie de' Senatori Florentini, Fioranza 722. c. fig.&#13;
-C Corn. Tacitus de moribus Germanorum ex recenſ.&#13;
+        <Unicode>Gottfr. Olearii Bibliotheca Scriptorum Eccleſiaſtico-
+rum, cum præf Buddæi, Jen. 7 I
+Sinceri Send ⸗ Schreiben an einen Saͤchſiſchen
+Theologen von dem wahren lebendigen Glauben,
+699
+Benigni Boſſueti Doctrina Catholica, Gotting. 736
+Chriſtoph. Wolle de Pontifice Chriſtianorum Maxi-
+mo ſedente ad Hebr. VIII. v. I. 2. Lipſ 746
+Vitæ Theologorum Altoifinorum a condita Acade-
+mia a Georg. Zeltnero deſcriptæ, Norib. 722. c. fig.
+Gerh. Meuſchenii Vitæ ſummorum in republica lit-
+teraria Virorum, Cob. 735
+Serie de' Senatori Florentini, Fioranza 722. c. fig.
+C Corn. Tacitus de moribus Germanorum ex recenſ.
 Conringii, Helmſt. 652</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.749029" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.749029" type="heading" readingDirection="left-to-right">
       <Coords points="754,951 1090,951 1090,1029 754,1029"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="872,977 754,982 754,1029 1026,1028 1090,1026 1089,976"/>
@@ -831,7 +847,7 @@ Conringii, Helmſt. 652</Unicode>
         <Unicode>IN OCTAVO.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.749029" type="marginalia" readingDirection="left-to-right" id="TextRegion_1662552856448_1075" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1662552856448_1075" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="0.749029" type="marginalia" readingDirection="left-to-right">
       <Coords points="467,1036 572,1036 572,1894 467,1894"/>
       <TextLine id="line_1662552852469_1033" custom="readingOrder {index:0;}">
         <Coords points="485,1051 547,1048 572,1041 572,1088 565,1089 556,1098 541,1098 536,1094 534,1087 485,1086 480,1081 480,1056"/>
@@ -1001,22 +1017,22 @@ Conringii, Helmſt. 652</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>9 Hiftoſre du Grand Tameslan par de Cioix; Delfe. 728-&#13;
-2110&#13;
-11 Boſſuet Apocaliſe overo la Rivelation dell Apoſtolo&#13;
-12&#13;
-il 13 Diſcours ſur harmonie, a Pasis 737&#13;
-14&#13;
-15&#13;
-16&#13;
-17&#13;
-18&#13;
-19&#13;
-i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
+        <Unicode>9 Hiftoſre du Grand Tameslan par de Cioix; Delfe. 728-
+2110
+11 Boſſuet Apocaliſe overo la Rivelation dell Apoſtolo
+12
+il 13 Diſcours ſur harmonie, a Pasis 737
+14
+15
+16
+17
+18
+19
+i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736
 ſ 21 Dicteici Iuſtitutiones Catecheiicæ, Nonb, 651</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.749029" readingDirection="left-to-right" id="TextRegion_1662552852401_1029" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1662552852401_1029" custom="readingOrder {index:4;}" orientation="0.749029" readingDirection="left-to-right">
       <Coords points="572,1036 1343,1036 1344,1285 1344,1894 572,1894"/>
       <TextLine id="line_1662552852469_1032" custom="readingOrder {index:0;}">
         <Coords points="572,1041 635,1040 647,1047 655,1041 668,1040 683,1048 700,1048 704,1036 720,1037 726,1044 753,1039 778,1041 785,1050 809,1048 827,1038 880,1040 900,1047 933,1047 940,1038 950,1038 958,1047 983,1047 1045,1044 1049,1036 1063,1036 1069,1040 1106,1037 1129,1043 1135,1036 1151,1036 1157,1042 1165,1036 1256,1036 1267,1040 1342,1036 1343,1085 1287,1085 1280,1090 1271,1090 1265,1086 1242,1081 1208,1081 1181,1083 1174,1090 1164,1090 1158,1083 1031,1083 1014,1084 1008,1094 992,1094 985,1084 969,1083 833,1087 636,1085 572,1088"/>
@@ -1126,7 +1142,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1662554119002_1660" custom="readingOrder {index:4;}">
-          <Coords points="949,1121 967,1120 1084,1127 1084,1153 975,1154 949,1154"/>
+          <Coords points="967,1120 949,1121 949,1154 975,1154 1084,1153 1084,1127 1082,1128 1009,1130 1002,1129 993,1121"/>
           <TextEquiv>
             <Unicode>I'homme</Unicode>
           </TextEquiv>
@@ -1175,7 +1191,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
           </TextEquiv>
         </Word>
         <Word id="region0008_line0004_word0002" custom="readingOrder {index:2;}">
-          <Coords points="856,1169 856,1172 857,1199 869,1199 868,1172"/>
+          <Coords points="856,1170 855,1170 852,1174 852,1175 856,1178 857,1199 869,1199 868,1172 860,1173 857,1171 857,1170"/>
           <TextEquiv conf="0.91423166">
             <Unicode>a</Unicode>
           </TextEquiv>
@@ -1201,7 +1217,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
         <Baseline points="572,1250 1342,1237"/>
         <Word id="region0008_line0005_word0001" custom="readingOrder {index:0;}">
           <Coords points="578,1217 578,1247 683,1245 683,1216 672,1218 649,1219 645,1215"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Boſſuet</Unicode>
           </TextEquiv>
         </Word>
@@ -1389,7 +1405,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
           </TextEquiv>
         </Word>
         <Word id="region0012_line0005_word0007" custom="readingOrder {index:5;}">
-          <Coords points="1042,1417 1107,1416 1106,1377 1049,1376 1041,1377"/>
+          <Coords points="1082,1416 1086,1414 1089,1416 1106,1416 1106,1414 1106,1377 1049,1376 1041,1377 1042,1417"/>
           <TextEquiv conf="0.2522712">
             <Unicode>737</Unicode>
           </TextEquiv>
@@ -1456,7 +1472,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
           </TextEquiv>
         </Word>
         <Word id="region0012_line0006_word0010" custom="readingOrder {index:9;}">
-          <Coords points="1217,1402 1216,1402 1216,1442 1278,1441 1278,1416"/>
+          <Coords points="1217,1402 1213,1409 1216,1442 1278,1441 1278,1416 1239,1417 1231,1410 1216,1408"/>
           <TextEquiv conf="0.7347809">
             <Unicode>675</Unicode>
           </TextEquiv>
@@ -1822,7 +1838,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1662554417750_1799" custom="readingOrder {index:3;}">
-          <Coords points="882,1720 1029,1717 1135,1715 1135,1758 1096,1759 882,1762"/>
+          <Coords points="1135,1758 1135,1715 1029,1717 882,1720 882,1762 932,1761 932,1761 947,1760 981,1759 983,1761 1003,1760 1005,1759 1095,1758 1096,1759 1115,1759 1116,1758 1122,1758"/>
           <TextEquiv>
             <Unicode>Sprach ⸗ Kunſt,</Unicode>
           </TextEquiv>
@@ -1861,7 +1877,7 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
         </Word>
         <Word id="region0012_line0019_word0003" custom="readingOrder {index:1;}">
           <Coords points="739,1803 739,1841 743,1840 749,1839 753,1840 768,1840 770,1839 776,1839 786,1840 826,1839 827,1839 858,1838 858,1801 822,1801 821,1803 779,1802"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Synopſis</Unicode>
           </TextEquiv>
         </Word>
@@ -1931,25 +1947,25 @@ i 2120 Hollbesgii Synopſis Hiſtoriæ Vniverſalis, Lipſ 736&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Hiſtoire du Grand Tamerlan par de Croix; Delft. 728.&#13;
-4. Voll.&#13;
-Pufendorff le Devoirs de I'homme &amp; du citoyens, c.&#13;
-notis Barbeyracii, a Amſterd. 708&#13;
-Boſſuet Apocaliſe overo la Rivelation dell' Apoſtolo&#13;
-St. Gionani, in Venetia 723&#13;
-La morte du Cæſare Tragaedia du Madmſ. Barbiere,&#13;
-Bolog. 724&#13;
-Diſcours ſur l'harmonie, a Paris 737&#13;
-Mathode de raiſon par le Pete Graſſet, a Par. 675&#13;
-Traite des forces mouvantes pour la Pratique des Arts&#13;
-&amp; Metiers par Monſ. de Camus. a Paris 724&#13;
-Noſtradamus Propheties, avec la Vie de I'Auteur.&#13;
-X7 Erasme c. difeſa del Decreto du Mons. Carlo Tomma-&#13;
-ſo de Tournon, Patriarcha Antiochia, Rom. 729&#13;
-La Rivelatione dell' Apoſtolo S. Giovanni, Venet. 723&#13;
-Ge. Schotti deutſche Sprach ⸗ Kunſt, Braunſchw.&#13;
-1651&#13;
-Hollbergii Synopſis Hiſtoriæ Vniverſalis, Lipſ. 736&#13;
+        <Unicode>Hiſtoire du Grand Tamerlan par de Croix; Delft. 728.
+4. Voll.
+Pufendorff le Devoirs de I'homme &amp; du citoyens, c.
+notis Barbeyracii, a Amſterd. 708
+Boſſuet Apocaliſe overo la Rivelation dell' Apoſtolo
+St. Gionani, in Venetia 723
+La morte du Cæſare Tragaedia du Madmſ. Barbiere,
+Bolog. 724
+Diſcours ſur l'harmonie, a Paris 737
+Mathode de raiſon par le Pete Graſſet, a Par. 675
+Traite des forces mouvantes pour la Pratique des Arts
+&amp; Metiers par Monſ. de Camus. a Paris 724
+Noſtradamus Propheties, avec la Vie de I'Auteur.
+X7 Erasme c. difeſa del Decreto du Mons. Carlo Tomma-
+ſo de Tournon, Patriarcha Antiochia, Rom. 729
+La Rivelatione dell' Apoſtolo S. Giovanni, Venet. 723
+Ge. Schotti deutſche Sprach ⸗ Kunſt, Braunſchw.
+1651
+Hollbergii Synopſis Hiſtoriæ Vniverſalis, Lipſ. 736
 Dieterici Inſtitutiones Catecheticæ, Norib. 651</Unicode>
       </TextEquiv>
     </TextRegion>

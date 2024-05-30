@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-59">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:33Z</Created>
     <LastChange>2024-01-19T13:07:33Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/793c4633-0182-414f-9e49-8e4a6c3964c6/00000056.jpg" imageWidth="2806" imageHeight="3263" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1651732828213_400"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.43626952" readingDirection="left-to-right" id="region0009" custom="readingOrder {index:0;}">
+    <TextRegion id="region0009" custom="readingOrder {index:0;}" orientation="-0.43626952" readingDirection="left-to-right">
       <Coords points="1186,683 2503,703 2493,1348 1176,1328"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="1240,686 1234,691 1232,698 1186,698 1186,740 1191,741 1191,748 1195,753 1214,754 1219,750 1221,742 1277,742 1278,750 1283,755 1301,754 1305,744 1397,744 1399,754 1407,757 1425,757 1430,745 1700,748 1919,752 1920,759 1925,764 1945,764 1950,760 1951,752 2047,750 2075,755 2079,752 2103,753 2132,748 2269,755 2290,763 2334,758 2502,763 2502,720 2408,718 2406,711 2400,706 2386,706 2378,715 2376,707 2372,704 2354,705 2349,709 2347,718 2339,717 2308,713 2299,703 2286,704 2282,713 2270,713 2268,706 2262,701 2238,699 2225,700 2218,709 2135,706 2131,698 2110,698 2107,707 2076,708 2075,696 2042,696 1999,696 1997,710 1918,710 1916,702 1909,697 1894,698 1886,709 1800,708 1769,706 1764,702 1754,702 1749,706 1733,706 1731,697 1726,693 1711,696 1707,706 1700,707 1696,695 1682,693 1673,699 1671,706 1667,706 1627,705 1625,697 1619,693 1607,694 1602,705 1575,704 1573,696 1567,692 1558,692 1550,699 1544,699 1539,703 1523,703 1516,690 1501,689 1491,697 1489,703 1473,703 1468,699 1458,699 1453,703 1414,702 1280,698 1279,691 1274,686 1255,690 1250,686"/>
@@ -629,19 +645,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>quidquam poteſtatis in debitorem ſupereſſe, iam alii s) obſerua-&#13;
-verunt. Quando vero obligatio debitoris tam incerta eſt, vt de&#13;
-ipſo legati iure dubitetur, etſi cum herede agi poteſt, tamen actio&#13;
-legatario non recte ceditur, ſed heres, vt ipſe ex ſua perſona ſo-&#13;
-luſque cum debitore experiatur, compellitur. Quod auxilium&#13;
-apte vocauit Iulianus t) incerti actionem, quia ſine plus petitionis&#13;
-inuidia non poteſt agi a legatario, ad definitam rem vocato, con-&#13;
-tra debitorem difiunctim et indefinite obligatum: ſed omnis ſpes&#13;
-in heredis actione poſita eſt, a cuius euentu legati ipſius fortuna&#13;
+        <Unicode>quidquam poteſtatis in debitorem ſupereſſe, iam alii s) obſerua-
+verunt. Quando vero obligatio debitoris tam incerta eſt, vt de
+ipſo legati iure dubitetur, etſi cum herede agi poteſt, tamen actio
+legatario non recte ceditur, ſed heres, vt ipſe ex ſua perſona ſo-
+luſque cum debitore experiatur, compellitur. Quod auxilium
+apte vocauit Iulianus t) incerti actionem, quia ſine plus petitionis
+inuidia non poteſt agi a legatario, ad definitam rem vocato, con-
+tra debitorem difiunctim et indefinite obligatum: ſed omnis ſpes
+in heredis actione poſita eſt, a cuius euentu legati ipſius fortuna
 pendet.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" readingDirection="left-to-right" id="TextRegion_1651732300598_228" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1651732300598_228" custom="readingOrder {index:1;}" orientation="-0.43626952" readingDirection="left-to-right">
       <Coords points="1182,1394 2492,1414 2507,1859 2506,1928 2481,2323 1171,2303 1178,1656"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="1498,1401 1489,1408 1487,1414 1405,1413 1391,1412 1386,1408 1377,1408 1372,1412 1354,1412 1346,1411 1342,1405 1334,1402 1264,1401 1239,1404 1232,1410 1232,1438 1252,1452 1286,1459 1337,1459 1363,1455 1562,1454 1851,1455 1873,1457 1883,1463 1928,1456 2050,1463 2118,1464 2130,1465 2131,1473 2136,1478 2157,1478 2161,1475 2163,1467 2239,1469 2245,1475 2255,1475 2261,1470 2491,1475 2491,1418 2439,1417 2434,1422 2433,1430 2347,1428 2342,1424 2315,1428 2309,1418 2295,1414 2278,1416 2272,1427 2260,1426 2259,1416 2254,1411 2181,1411 2173,1415 2171,1422 2118,1422 2116,1415 2111,1411 2099,1411 2091,1421 2084,1421 2080,1419 2077,1411 2071,1408 2061,1408 2053,1417 1948,1413 1935,1407 1927,1407 1922,1411 1867,1412 1865,1405 1841,1405 1838,1413 1784,1413 1778,1403 1771,1403 1761,1403 1758,1413 1752,1412 1749,1403 1731,1403 1726,1413 1666,1412 1660,1404 1648,1403 1642,1412 1516,1414 1511,1402"/>
@@ -1508,23 +1524,23 @@ pendet.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quatenus heres conueniri ex legato nominis poſſit, dictum eſt.&#13;
-Sed licet legatario, etiam ſine heredis adiumento ſtatim actione&#13;
-vtili, aduerſus ipſum debitorem experiri. Quum enim ſaepenume-&#13;
-ro eueniſſet, vt iis, ad quos commodum actionis ſpectare debere&#13;
-ipſa ratio et aequitas ſuaderent, non ſatis eſſet conſultum, veluti,&#13;
-ſi actiones non fuiſſent mandatae, ſi creditor concurreret cum ces-&#13;
-ſionario etiam poſt mandatas actiones, ſi ipſe mandans repelli&#13;
-poſſet exceptione ſummi iuris, ſi mandans ſine herede defunctus&#13;
-eſſet, vt ex eius perſona actio locum non haberet v), et in aliis&#13;
-cauſſis eiusdem generis, quum vel deficerent, vel non ſufficerent&#13;
-directae actiones: primus Diuus Pius x) emtoribus hereditatum hoc&#13;
-indulſit, vt, praeter directas actiones, a venditoribus mandandas,&#13;
-vti quoque poſſent vtilibus, ſine ceſſione aduerſus ipſum debito-&#13;
+        <Unicode>Quatenus heres conueniri ex legato nominis poſſit, dictum eſt.
+Sed licet legatario, etiam ſine heredis adiumento ſtatim actione
+vtili, aduerſus ipſum debitorem experiri. Quum enim ſaepenume-
+ro eueniſſet, vt iis, ad quos commodum actionis ſpectare debere
+ipſa ratio et aequitas ſuaderent, non ſatis eſſet conſultum, veluti,
+ſi actiones non fuiſſent mandatae, ſi creditor concurreret cum ces-
+ſionario etiam poſt mandatas actiones, ſi ipſe mandans repelli
+poſſet exceptione ſummi iuris, ſi mandans ſine herede defunctus
+eſſet, vt ex eius perſona actio locum non haberet v), et in aliis
+cauſſis eiusdem generis, quum vel deficerent, vel non ſufficerent
+directae actiones: primus Diuus Pius x) emtoribus hereditatum hoc
+indulſit, vt, praeter directas actiones, a venditoribus mandandas,
+vti quoque poſſent vtilibus, ſine ceſſione aduerſus ipſum debito-
 rem in iudicium deducendis. Quae venia, non interpretatione</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" type="catch-word" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="region0015" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.43626952" type="catch-word" readingDirection="left-to-right">
       <Coords points="2295,2325 2463,2327 2462,2387 2294,2385"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="2371,2326 2369,2332 2364,2334 2295,2334 2294,2385 2323,2385 2324,2379 2330,2377 2461,2377 2462,2334 2396,2334 2394,2327"/>
@@ -1542,7 +1558,7 @@ rem in iudicium deducendis. Quae venia, non interpretatione</Unicode>
         <Unicode>pruden-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" type="footnote" readingDirection="left-to-right" id="TextRegion_1651732823538_395" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1651732823538_395" custom="readingOrder {index:3;}" orientation="-0.43626952" type="footnote" readingDirection="left-to-right">
       <Coords points="1169,2452 1822,2461 1822,2557 1167,2557"/>
       <TextLine id="line_1651732725494_359" custom="readingOrder {index:0;}">
         <Coords points="1169,2463 1219,2461 1228,2453 1280,2453 1288,2460 1303,2462 1315,2461 1327,2455 1374,2455 1381,2465 1436,2467 1451,2467 1467,2458 1511,2457 1522,2457 1537,2460 1541,2468 1714,2471 1716,2461 1804,2461 1822,2462 1822,2506 1802,2509 1702,2512 1685,2518 1667,2519 1651,2516 1647,2509 1640,2507 1332,2505 1285,2500 1246,2504 1234,2499 1169,2496"/>
@@ -1587,7 +1603,7 @@ rem in iudicium deducendis. Quae venia, non interpretatione</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1651732725501_361" custom="readingOrder {index:1;}">
-        <Coords points="1182,2500 1197,2500 1203,2504 1205,2510 1221,2510 1225,2500 1234,2500 1245,2504 1247,2510 1266,2510 1271,2503 1298,2501 1302,2512 1348,2515 1359,2515 1367,2506 1378,2506 1383,2510 1385,2517 1468,2518 1475,2511 1485,2511 1492,2518 1562,2521 1591,2517 1656,2517 1667,2520 1730,2519 1741,2521 1745,2532 1822,2532 1822,2557 1739,2557 1728,2562 1623,2562 1619,2566 1606,2566 1600,2560 1562,2557 1523,2558 1521,2564 1501,2564 1498,2558 1476,2557 1440,2557 1436,2563 1407,2562 1404,2554 1336,2553 1285,2548 1271,2547 1261,2558 1245,2559 1237,2554 1236,2546 1169,2546 1169,2511 1176,2511 1178,2503"/>
+        <Coords points="1745,2532 1741,2521 1730,2519 1667,2520 1656,2517 1591,2517 1562,2521 1492,2518 1485,2511 1475,2511 1468,2518 1385,2517 1383,2510 1378,2506 1367,2506 1359,2515 1348,2515 1302,2512 1298,2501 1271,2503 1266,2510 1247,2510 1245,2504 1234,2500 1225,2500 1221,2510 1205,2510 1203,2504 1197,2500 1182,2500 1178,2503 1176,2511 1169,2511 1169,2546 1236,2546 1237,2554 1241,2557 1261,2557 1271,2547 1285,2548 1336,2553 1404,2554 1405,2557 1440,2557 1476,2557 1562,2557 1739,2557 1822,2557 1822,2532"/>
         <Word id="region0016_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1174,2511 1208,2511 1208,2541 1174,2541"/>
           <TextEquiv conf="0.93225443">
@@ -1629,11 +1645,11 @@ rem in iudicium deducendis. Quae venia, non interpretatione</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>s) v. Sim. a Groenewegen Tr.&#13;
+        <Unicode>s) v. Sim. a Groenewegen Tr.
 de legibus abrogatis p. m. 712.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" type="footnote" readingDirection="left-to-right" id="TextRegion_1651732823538_394" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1651732823538_394" custom="readingOrder {index:4;}" orientation="-0.43626952" type="footnote" readingDirection="left-to-right">
       <Coords points="1167,2557 1822,2557 1822,2624 1751,2629 1214,2620 1167,2560"/>
       <TextLine id="region0017_line0001" custom="readingOrder {index:0;}">
         <Coords points="1234,2559 1215,2563 1215,2608 1233,2609 1238,2615 1247,2615 1254,2610 1300,2609 1319,2616 1336,2618 1580,2618 1642,2621 1667,2627 1679,2627 1718,2627 1751,2622 1751,2568 1707,2569 1687,2578 1657,2570 1584,2567 1509,2567 1495,2571 1491,2568 1477,2568 1471,2575 1465,2575 1452,2568 1432,2564 1355,2565 1322,2560"/>
@@ -1699,10 +1715,10 @@ de legibus abrogatis p. m. 712.</Unicode>
         <Unicode>t) L. 75. §. vlt. D. de Leg. I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" type="footnote" readingDirection="left-to-right" id="TextRegion_1651732828213_401" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1651732828213_401" custom="readingOrder {index:5;}" orientation="-0.43626952" type="footnote" readingDirection="left-to-right">
       <Coords points="1822,2461 2294,2469 2348,2519 1822,2519"/>
       <TextLine id="line_1651732725494_358" custom="readingOrder {index:0;}">
-        <Coords points="1822,2462 1830,2463 1832,2471 1864,2474 1902,2474 1905,2463 1946,2463 2014,2465 2026,2468 2035,2465 2048,2465 2209,2469 2214,2477 2239,2477 2272,2470 2293,2470 2293,2498 2292,2518 2234,2518 2177,2513 2063,2513 2020,2517 1931,2517 1921,2521 1916,2521 1910,2516 1889,2513 1835,2512 1826,2506 1822,2506"/>
+        <Coords points="1905,2463 1902,2474 1864,2474 1832,2471 1830,2463 1822,2462 1822,2506 1826,2506 1835,2512 1889,2513 1910,2516 1913,2519 1926,2519 1931,2517 2020,2517 2063,2513 2177,2513 2234,2518 2292,2518 2293,2498 2293,2470 2272,2470 2239,2477 2214,2477 2209,2469 2048,2465 2035,2465 2026,2468 2014,2465 1954,2463 1940,2463"/>
         <Word id="region0016_line0001_word0006" custom="readingOrder {index:0;}">
           <Coords points="1894,2474 1894,2509 1933,2509 1933,2465 1904,2465 1902,2474"/>
           <TextEquiv conf="0.80550385">
@@ -1753,7 +1769,7 @@ de legibus abrogatis p. m. 712.</Unicode>
         <Unicode>5) v. Sim. a Groenewegen Tr. v) L. 1.C de O. et A.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.43626952" type="footnote" readingDirection="left-to-right" id="TextRegion_1651732828213_400" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1651732828213_400" custom="readingOrder {index:6;}" orientation="-0.43626952" type="footnote" readingDirection="left-to-right">
       <Coords points="1822,2519 2348,2519 2361,2530 2360,2588 1822,2624"/>
       <TextLine id="line_1651732725501_360" custom="readingOrder {index:0;}">
         <Coords points="1822,2532 1905,2532 1910,2530 1913,2524 1927,2520 2014,2524 2028,2527 2045,2527 2069,2522 2095,2533 2130,2533 2132,2526 2137,2522 2207,2523 2223,2525 2229,2529 2234,2526 2292,2525 2292,2528 2292,2529 2322,2529 2328,2534 2360,2536 2359,2579 2115,2574 2108,2584 2096,2584 2085,2576 2029,2574 1966,2576 1959,2577 1955,2582 1905,2581 1903,2571 1887,2571 1887,2570 1851,2570 1834,2569 1831,2558 1822,2557"/>

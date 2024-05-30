@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-269">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:11Z</Created>
     <LastChange>2024-01-19T13:10:11Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4f392752-4bf0-4e61-81db-ab7342ed5abe/00000249.jpg" imageWidth="1260" imageHeight="1764" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1653387077765_5121"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.4136537" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:0;}">
+    <TextRegion id="region0008" custom="readingOrder {index:0;}" orientation="0.4136537" readingDirection="left-to-right">
       <Coords points="65,592 877,583 881,973 69,982"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="607,586 597,587 595,592 527,592 521,591 518,587 494,588 489,594 478,594 476,588 429,588 425,594 389,595 373,596 369,589 341,589 337,598 320,595 318,590 293,590 289,595 272,599 262,597 257,590 245,590 235,590 229,599 183,599 178,591 155,591 152,591 147,599 135,599 132,591 65,592 66,640 170,637 184,634 214,636 221,641 260,634 275,635 278,639 287,641 302,639 304,635 423,631 425,637 448,639 459,633 494,638 502,632 583,627 633,628 638,631 660,631 668,635 680,628 695,628 703,632 762,629 785,634 801,630 807,635 823,636 835,629 877,629 877,591 798,592 787,589 767,591 716,586 663,588 655,585 644,585 637,586 631,591 628,586"/>
@@ -451,7 +467,7 @@ virtutem opibus &amp; honoribus poſtponentium,
 curantium, reprehendit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4136537" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1653387082199_5130" custom="readingOrder {index:1;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1653387082199_5130" custom="readingOrder {index:1;} structure {type:drop-capital;}" orientation="0.4136537" type="drop-capital" readingDirection="left-to-right">
       <Coords points="58,997 120,996 120,1083 58,1083"/>
       <TextLine id="line_1653387082229_5133" custom="readingOrder {index:0;}">
         <Coords points="58,997 120,996 120,1044 102,1047 109,1075 68,1069 76,1050 59,1050"/>
@@ -469,7 +485,7 @@ curantium, reprehendit.</Unicode>
         <Unicode>P</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4136537" readingDirection="left-to-right" id="TextRegion_1653387082199_5129" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1653387082199_5129" custom="readingOrder {index:2;}" orientation="0.4136537" readingDirection="left-to-right">
       <Coords points="120,996 879,988 879,1083 120,1083"/>
       <TextLine id="line_1653387082228_5132" custom="readingOrder {index:0;}">
         <Coords points="120,996 145,996 153,1006 202,1006 207,1005 214,996 236,996 240,998 244,995 255,995 264,998 268,1003 298,1004 322,1003 327,995 332,994 351,994 357,999 362,994 373,994 380,1003 387,1004 402,1002 408,993 434,993 437,1001 529,1001 536,992 561,992 568,1000 617,999 623,991 639,991 645,999 822,998 833,1008 862,1010 865,1014 865,1035 860,1039 852,1035 841,1035 836,1039 806,1040 786,1037 736,1037 732,1034 652,1038 609,1034 603,1038 486,1039 481,1036 455,1038 425,1035 381,1044 365,1038 346,1042 338,1037 327,1037 308,1042 226,1043 220,1040 205,1040 197,1044 166,1044 160,1041 145,1041 120,1044"/>
@@ -514,7 +530,7 @@ curantium, reprehendit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1653387060517_5112" custom="readingOrder {index:1;}">
-        <Coords points="137,1043 145,1042 160,1042 172,1048 195,1046 205,1041 220,1041 241,1045 313,1045 327,1038 338,1038 346,1043 365,1039 384,1045 401,1039 425,1036 455,1039 481,1037 487,1042 602,1041 609,1035 620,1035 627,1040 710,1039 716,1035 732,1035 737,1039 798,1038 806,1041 836,1040 841,1036 852,1036 857,1040 879,1039 879,1080 863,1083 854,1079 792,1077 786,1082 776,1083 771,1082 763,1074 757,1074 746,1081 724,1075 661,1077 657,1074 645,1075 638,1078 618,1078 613,1075 600,1075 582,1079 553,1076 547,1079 428,1081 416,1077 397,1084 372,1082 259,1083 245,1080 235,1085 182,1084 176,1090 160,1090 153,1085 137,1085"/>
+        <Coords points="857,1040 852,1036 841,1036 836,1040 806,1041 798,1038 737,1039 732,1035 716,1035 710,1039 627,1040 620,1035 609,1035 602,1041 487,1042 481,1037 455,1039 425,1036 401,1039 384,1045 365,1039 346,1043 338,1038 327,1038 313,1045 241,1045 220,1041 205,1041 195,1046 172,1048 160,1042 145,1042 137,1043 137,1083 239,1083 245,1080 259,1083 372,1082 384,1083 399,1083 416,1077 428,1081 547,1079 553,1076 582,1079 600,1075 613,1075 618,1078 638,1078 645,1075 657,1074 661,1077 724,1075 746,1081 757,1074 763,1074 771,1082 776,1083 786,1082 792,1077 854,1079 863,1083 879,1080 879,1039"/>
         <Word id="region0009_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="163,1043 141,1044 141,1084 238,1083 245,1080 259,1083 305,1082 305,1045 241,1045 232,1043 199,1043 195,1046 172,1048"/>
           <TextEquiv>
@@ -566,10 +582,10 @@ curantium, reprehendit.</Unicode>
 Speƈtatum ſatis, &amp; donatum iam rude, quæris,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4136537" readingDirection="left-to-right" id="TextRegion_1653387077765_5121" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1653387077765_5121" custom="readingOrder {index:3;}" orientation="0.4136537" readingDirection="left-to-right">
       <Coords points="58,1083 879,1083 884,1490 63,1499"/>
       <TextLine id="region0009_line0003" custom="readingOrder {index:0;}">
-        <Coords points="59,1080 59,1097 59,1125 121,1127 197,1127 201,1124 217,1124 223,1130 230,1131 240,1126 286,1125 304,1121 310,1124 422,1121 429,1126 442,1127 450,1124 451,1121 496,1120 817,1118 829,1116 834,1111 834,1086 831,1082 789,1081 776,1084 771,1083 763,1075 757,1075 746,1082 730,1081 724,1076 711,1076 705,1080 662,1081 657,1075 641,1077 636,1082 619,1082 613,1076 600,1076 594,1082 570,1082 563,1077 553,1077 546,1082 429,1083 422,1078 416,1078 397,1085 262,1086 253,1081 245,1081 237,1088 176,1091 126,1088 98,1081"/>
+        <Coords points="59,1097 59,1125 121,1127 197,1127 201,1124 217,1124 223,1130 230,1131 240,1126 286,1125 304,1121 310,1124 422,1121 429,1126 442,1127 450,1124 451,1121 496,1120 817,1118 829,1116 834,1111 834,1086 831,1083 780,1083 776,1084 771,1083 429,1083 402,1083 397,1085 262,1086 256,1083 242,1083 237,1088 176,1091 126,1088 106,1083 59,1083"/>
         <Word id="region0009_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="116,1085 75,1086 75,1116 218,1115 218,1088 176,1091 126,1088"/>
           <TextEquiv conf="0.9065844">
@@ -649,7 +665,7 @@ Speƈtatum ſatis, &amp; donatum iam rude, quæris,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653386943553_5081" custom="readingOrder {index:6;}">
-          <Coords points="616,1118 715,1118 730,1118 775,1124 776,1158 617,1159"/>
+          <Coords points="716,1118 711,1123 685,1123 679,1118 616,1118 617,1159 627,1158 632,1158 636,1158 776,1158 775,1124 735,1123 730,1118"/>
           <TextEquiv>
             <Unicode>Veianius,</Unicode>
           </TextEquiv>
@@ -1037,15 +1053,15 @@ Speƈtatum ſatis, &amp; donatum iam rude, quæris,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Mæcenas, iterum antiquo me includere ludo.&#13;
-Non eadem eſt ætas, non mens. Veianius, armis&#13;
-Herculis ad poſtem fixis, latet abditus agro,&#13;
-Ne populum extrema toties exoret arena.&#13;
-Eſt mihi purgatam cerebro qui perſonet aurem,&#13;
-Solue ſeneſcentem mature ſanus equum, ne&#13;
-Peccet ad extremum ridendus, &amp; ilia ducat.&#13;
-Nunc itaque &amp; verſus &amp; cætera ludicra pono:&#13;
-Quid verum, atque decens, curo, &amp; rogo, &amp; o-&#13;
+        <Unicode>Mæcenas, iterum antiquo me includere ludo.
+Non eadem eſt ætas, non mens. Veianius, armis
+Herculis ad poſtem fixis, latet abditus agro,
+Ne populum extrema toties exoret arena.
+Eſt mihi purgatam cerebro qui perſonet aurem,
+Solue ſeneſcentem mature ſanus equum, ne
+Peccet ad extremum ridendus, &amp; ilia ducat.
+Nunc itaque &amp; verſus &amp; cætera ludicra pono:
+Quid verum, atque decens, curo, &amp; rogo, &amp; o-
 mnis in hoc ſum:</Unicode>
       </TextEquiv>
     </TextRegion>

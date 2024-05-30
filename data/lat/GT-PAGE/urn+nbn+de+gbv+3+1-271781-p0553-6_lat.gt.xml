@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-117">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:59Z</Created>
     <LastChange>2024-01-19T13:07:59Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/2518e1f5-4c59-4ab2-b255-3e532ef346aa/00000553.jpg" imageWidth="1450" imageHeight="2070" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1657705664226_4150"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.059152234" readingDirection="left-to-right" id="TextRegion_1657705644431_4051" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1657705644431_4051" custom="readingOrder {index:0;}" orientation="-0.059152234" readingDirection="left-to-right">
       <Coords points="163,341 859,341 859,1895 166,1895 163,794"/>
       <TextLine id="line_1657705644472_4054" custom="readingOrder {index:0;}">
         <Coords points="163,342 182,341 216,341 221,346 222,356 231,356 236,349 250,345 288,345 292,348 294,356 314,356 323,347 339,347 346,344 399,351 437,351 444,341 455,341 464,350 481,348 487,341 512,341 517,347 527,348 613,347 619,350 651,352 658,344 669,344 677,352 687,352 692,351 699,342 716,342 721,351 737,351 749,350 753,342 774,342 777,349 859,349 859,389 769,393 639,394 586,390 529,389 412,392 402,389 384,394 278,399 163,397"/>
@@ -1093,7 +1109,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657705644500_4138" custom="readingOrder {index:30;}">
-        <Coords points="184,1853 200,1853 204,1860 214,1861 260,1861 261,1852 265,1850 287,1848 328,1849 334,1852 335,1859 353,1859 359,1852 380,1849 395,1849 401,1859 434,1857 439,1852 454,1850 472,1850 478,1857 503,1856 507,1853 531,1856 540,1846 559,1842 576,1845 579,1854 607,1845 623,1845 627,1848 645,1848 683,1855 859,1855 859,1895 602,1895 490,1901 338,1900 261,1905 166,1902 166,1859 178,1858"/>
+        <Coords points="683,1855 645,1848 627,1848 623,1845 607,1845 579,1854 576,1845 559,1842 540,1846 531,1856 507,1853 503,1856 478,1857 472,1850 454,1850 439,1852 434,1857 401,1859 395,1849 380,1849 359,1852 353,1859 335,1859 334,1852 328,1849 287,1848 265,1850 261,1852 260,1861 214,1861 204,1860 200,1853 184,1853 178,1858 166,1859 166,1895 602,1895 859,1895 859,1855"/>
         <Baseline points="166,1892 859,1886"/>
         <Word id="region0005_line0015_word0000" custom="readingOrder {index:0;}">
           <Coords points="184,1853 178,1858 171,1858 171,1890 264,1890 264,1853 260,1853 260,1861 214,1861 204,1860 200,1853"/>
@@ -1142,43 +1158,43 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſi victæ &amp; reuinctæ catenis barbaro-&#13;
-rum, tam ſæuæ gentis imperium &amp;&#13;
-tyrannidem ſubire fatali quadam le-&#13;
-factum, ge coactæ ſunt. Exinde&#13;
-vt longos illæ annos duris conclu-&#13;
-ſæ carceribus nullibi comparerent,&#13;
-nec muſarum nomen, niſi vbi non ęꝶe, cuius&#13;
-audiretur Arabum feritas, vllo lo- iuſſu Al-&#13;
-co exaudiretur. Sed vbi tandem mageſtum&#13;
-aliquando laſſata eorum crudelitas Ptolemæi&#13;
-ſcientiarum dulcedine ac ſuauitate&#13;
-leniri atque emolliri ſeſe paſſa eſt:&#13;
-exolutæ vinculis muſæ &amp; in liberta- circa an.&#13;
-tem aſſertæ ſeſe denuo toto quidem&#13;
-orbe conſpiciendas amplexandasque Arabes&#13;
-præbuerunt, ſed heu! quæ pluri-&#13;
-mum de priſtina dignitate, venu-&#13;
-ſtate, elegantia depoſuiſſent. Si-&#13;
-quidem barbari, puritatem Græci guam tra-&#13;
-latinique ſermonis exoſi, idioma*te ſrag. 95.]&#13;
-Arabico loquentes Muſas induxe-&#13;
-runt, &amp; collectos vndique omnium Geſn. in&#13;
-priſcorum libros in Arabicum ſermo-&#13;
-nem conuerſos orbi litterario re-&#13;
-ſtituerunt. Ab eo tempore in Ara-&#13;
-bum dogmata, eorumque barbariem,&#13;
-ſtudioſi omnes, neſcio quo fato,&#13;
-deſcenderant &amp; iurauerant, poſtha-&#13;
-bitis Græcis auctoribus, quos in&#13;
-ſuam vel inuitos trahebant ſenten-&#13;
+        <Unicode>ſi victæ &amp; reuinctæ catenis barbaro-
+rum, tam ſæuæ gentis imperium &amp;
+tyrannidem ſubire fatali quadam le-
+factum, ge coactæ ſunt. Exinde
+vt longos illæ annos duris conclu-
+ſæ carceribus nullibi comparerent,
+nec muſarum nomen, niſi vbi non ęꝶe, cuius
+audiretur Arabum feritas, vllo lo- iuſſu Al-
+co exaudiretur. Sed vbi tandem mageſtum
+aliquando laſſata eorum crudelitas Ptolemæi
+ſcientiarum dulcedine ac ſuauitate
+leniri atque emolliri ſeſe paſſa eſt:
+exolutæ vinculis muſæ &amp; in liberta- circa an.
+tem aſſertæ ſeſe denuo toto quidem
+orbe conſpiciendas amplexandasque Arabes
+præbuerunt, ſed heu! quæ pluri-
+mum de priſtina dignitate, venu-
+ſtate, elegantia depoſuiſſent. Si-
+quidem barbari, puritatem Græci guam tra-
+latinique ſermonis exoſi, idioma*te ſrag. 95.]
+Arabico loquentes Muſas induxe-
+runt, &amp; collectos vndique omnium Geſn. in
+priſcorum libros in Arabicum ſermo-
+nem conuerſos orbi litterario re-
+ſtituerunt. Ab eo tempore in Ara-
+bum dogmata, eorumque barbariem,
+ſtudioſi omnes, neſcio quo fato,
+deſcenderant &amp; iurauerant, poſtha-
+bitis Græcis auctoribus, quos in
+ſuam vel inuitos trahebant ſenten-
 tiam, ſi eſſet fortaſſe &amp; eorum au-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.059152234" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657705664226_4150" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657705664226_4150" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.059152234" type="marginalia" readingDirection="left-to-right">
       <Coords points="859,489 1051,489 1054,783 1054,1188 1054,1495 859,1495"/>
       <TextLine id="line_1657705644474_4059" custom="readingOrder {index:0;}">
-        <Coords points="859,489 906,489 914,495 955,495 957,489 964,484 974,484 978,487 984,483 997,483 1003,492 1049,492 1049,532 996,530 991,533 901,537 859,543"/>
+        <Coords points="859,489 859,543 901,537 991,533 996,530 1049,532 1049,492 1003,492 1001,489 957,489 955,495 914,495 906,489"/>
         <Word id="word_1657705664274_4153" custom="readingOrder {index:0;}">
           <Coords points="869,489 906,489 914,495 924,495 924,535 901,537 869,541"/>
           <TextEquiv conf="0.73123413">
@@ -1234,7 +1250,7 @@ tiam, ſi eſſet fortaſſe &amp; eorum au-</Unicode>
       <TextLine id="line_1657706057482_4316" custom="readingOrder {index:3;}">
         <Coords points="859,618 1005,618 1049,619 1049,657 1011,658 998,655 980,660 937,661 925,667 910,661 877,661 871,655 859,653"/>
         <Word id="word_1657706057537_4319" custom="readingOrder {index:0;}">
-          <Coords points="873,618 1037,615 1037,657 937,661 877,661 873,657"/>
+          <Coords points="1037,657 1037,618 1005,618 873,618 873,657 877,661 910,661 937,661 983,659 998,655 1011,658 1013,657"/>
           <TextEquiv>
             <Unicode>Maymone</Unicode>
           </TextEquiv>
@@ -1264,7 +1280,7 @@ tiam, ſi eſſet fortaſſe &amp; eorum au-</Unicode>
       <TextLine id="line_1657705644477_4069" custom="readingOrder {index:5;}">
         <Coords points="859,700 869,699 897,707 923,699 942,704 959,699 990,698 1001,701 1003,707 1049,707 1049,738 961,738 936,743 859,743"/>
         <Word id="region0001_line0008_word0005" custom="readingOrder {index:0;}">
-          <Coords points="867,700 867,731 951,733 951,709 947,708 935,701 924,704 955,700 942,704 926,700 919,700 897,707 872,700"/>
+          <Coords points="867,700 867,731 951,733 951,709 924,704 955,700 897,707"/>
           <TextEquiv conf="0.78887635">
             <Unicode>iuſſu</Unicode>
           </TextEquiv>
@@ -1567,7 +1583,7 @@ tiam, ſi eſſet fortaſſe &amp; eorum au-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657705644491_4113" custom="readingOrder {index:23;}">
-        <Coords points="859,1455 879,1459 891,1454 917,1459 951,1453 1052,1454 1054,1492 1049,1497 889,1500 861,1498 859,1497"/>
+        <Coords points="1052,1454 951,1453 917,1459 891,1454 879,1459 859,1455 859,1495 1051,1495 1054,1492"/>
         <Baseline points="859,1485 903,1490 1053,1488"/>
         <Word id="region0005_line0007_word0005" custom="readingOrder {index:0;}">
           <Coords points="886,1456 879,1459 869,1457 869,1487 933,1487 933,1456 917,1459 901,1456"/>
@@ -1586,29 +1602,29 @@ tiam, ſi eſſet fortaſſe &amp; eorum au-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>g coactæ ſunt. Exinde factum, Hoc vide-&#13;
-vt longos illæ annos duris conelu. tur conti-&#13;
-giſſe ſub&#13;
-Maymone&#13;
-rege, cuius&#13;
-audiretur Arabum feritas, vllo lo- iuſſu Al-&#13;
-co exaudiretur. Sed vbi tandem mageſtum&#13;
-aliquando laſſata eorum crudelitas Ptolemæi&#13;
-græco in e&#13;
-Arab. con-&#13;
-uerſum eſt&#13;
-exolutæ vinculis muſæ &amp; in liberta- circa an.&#13;
-327. Scalig. quidem&#13;
-orbe conſpiciendas amplexandasque Arabes&#13;
-claſſicos&#13;
-auctores&#13;
-mum de priſlina dignitate, venu- Græcos in&#13;
-ſiate, elegoptindẽpoſulſſent. Si- ſuam lin-&#13;
-quidem barbari, puritatem Græci guam tra-&#13;
-[pag. 95.] idioma*te&#13;
-Arabico loguentes Muſas induxe. ducunt &amp;&#13;
-ipſum Gal.&#13;
-runt, &amp; collectos vndique omnium Geſn. in&#13;
+        <Unicode>g coactæ ſunt. Exinde factum, Hoc vide-
+vt longos illæ annos duris conelu. tur conti-
+giſſe ſub
+Maymone
+rege, cuius
+audiretur Arabum feritas, vllo lo- iuſſu Al-
+co exaudiretur. Sed vbi tandem mageſtum
+aliquando laſſata eorum crudelitas Ptolemæi
+græco in e
+Arab. con-
+uerſum eſt
+exolutæ vinculis muſæ &amp; in liberta- circa an.
+327. Scalig. quidem
+orbe conſpiciendas amplexandasque Arabes
+claſſicos
+auctores
+mum de priſlina dignitate, venu- Græcos in
+ſiate, elegoptindẽpoſulſſent. Si- ſuam lin-
+quidem barbari, puritatem Græci guam tra-
+[pag. 95.] idioma*te
+Arabico loguentes Muſas induxe. ducunt &amp;
+ipſum Gal.
+runt, &amp; collectos vndique omnium Geſn. in
 priſcorum libros in Arabicum ſermo. vita Gal.</Unicode>
       </TextEquiv>
     </TextRegion>

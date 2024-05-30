@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-136">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:08Z</Created>
     <LastChange>2024-01-19T13:08:08Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d39b955a-baf0-4a73-a414-675ad9f2e892/00000390.jpg" imageWidth="1611" imageHeight="2425" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1658391870448_1987"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.15763758" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="0.15763758" readingDirection="left-to-right">
       <Coords points="532,400 1410,400 1410,515 532,515"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="645,401 642,412 614,408 532,407 532,445 712,453 887,453 899,458 908,458 912,455 916,462 931,465 939,462 941,453 1047,454 1049,462 1053,465 1069,464 1074,454 1263,453 1271,465 1285,465 1296,454 1409,453 1409,414 1402,414 1400,408 1394,404 1385,404 1380,408 1372,401 1357,403 1353,414 1343,413 1337,404 1325,405 1320,414 1306,414 1304,406 1299,402 1270,402 1264,410 1233,405 1194,406 1174,411 1131,413 1104,413 1099,403 1087,402 1082,406 1080,413 1057,414 1055,406 1048,402 1036,404 1032,415 1009,415 910,413 903,403 890,404 885,414 868,414 866,406 859,401 847,403 842,411 836,405 827,405 820,414 787,414 786,406 780,400 736,403 697,411 669,411 667,401"/>
@@ -70,7 +86,7 @@
       <TextLine id="region0002_line0002" custom="readingOrder {index:1;}">
         <Coords points="618,449 613,453 611,462 532,461 532,500 535,509 551,513 559,508 561,502 673,503 745,506 755,507 763,512 773,512 779,509 928,503 962,506 1037,506 1039,515 1065,515 1067,506 1198,505 1212,496 1212,468 1209,464 1147,464 1140,454 1129,455 1124,465 1094,466 1029,467 1025,459 1016,458 1011,454 989,454 984,459 983,467 869,465 866,456 861,453 845,457 819,455 783,458 752,464 642,463 637,461 634,450"/>
         <Word id="word_1658391938989_2055" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="538,461 614,452 634,452 678,463 678,499 678,503 673,503 637,502 538,499"/>
+          <Coords points="634,452 614,452 613,453 611,462 538,461 538,499 637,502 673,503 678,503 678,499 678,463 642,463 637,461 635,452"/>
           <TextEquiv>
             <Unicode>quædam</Unicode>
           </TextEquiv>
@@ -110,17 +126,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>rum obitu Schneideri, quem deplorat. Subjicit his&#13;
+        <Unicode>rum obitu Schneideri, quem deplorat. Subjicit his
 quædam nova, &amp; de nonnullis quærit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15763758" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1658391873695_1992" custom="readingOrder {index:1;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1658391873695_1992" custom="readingOrder {index:1;} structure {type:drop-capital;}" orientation="0.15763758" type="drop-capital" readingDirection="left-to-right">
       <Coords points="475,513 578,513 578,619 475,619"/>
       <TextLine id="line_1658391882731_2011" custom="readingOrder {index:0;}">
         <Coords points="531,514 578,514 578,578 578,616 533,605 484,589 480,544"/>
         <Baseline points="529,554 567,555 576,555 578,555 538,606 578,606"/>
         <Word id="word_1658391891924_2019" custom="readingOrder {index:0;}">
-          <Coords points="490,520 564,526 578,562 578,577 578,621 543,621 488,609 485,563"/>
+          <Coords points="564,526 517,522 487,539 485,563 486,589 533,605 578,616 578,578 578,577 578,562"/>
           <TextEquiv>
             <Unicode>Q</Unicode>
           </TextEquiv>
@@ -133,7 +149,7 @@ quædam nova, &amp; de nonnullis quærit.</Unicode>
         <Unicode>Q</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15763758" readingDirection="left-to-right" id="TextRegion_1658391873694_1991" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658391873694_1991" custom="readingOrder {index:2;}" orientation="0.15763758" readingDirection="left-to-right">
       <Coords points="578,513 1418,513 1418,619 578,619"/>
       <TextLine id="line_1658391873739_1994" custom="readingOrder {index:0;}">
         <Coords points="578,514 629,514 637,520 649,521 655,514 671,513 675,522 680,522 685,513 701,513 706,524 732,524 736,517 749,515 756,525 774,526 787,526 796,515 807,516 813,524 858,524 893,523 899,514 982,514 989,525 1015,525 1017,518 1022,513 1037,513 1041,524 1101,524 1108,514 1120,515 1126,524 1132,524 1138,514 1155,514 1159,524 1173,524 1177,514 1197,514 1200,524 1380,521 1417,524 1418,561 1326,565 1288,563 1267,567 1258,564 1155,565 1117,568 1112,573 1052,566 872,565 773,568 769,578 759,579 744,576 742,568 703,566 695,563 586,564 578,557"/>
@@ -191,7 +207,7 @@ quædam nova, &amp; de nonnullis quærit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1658391873741_2000" custom="readingOrder {index:1;}">
-        <Coords points="578,578 592,564 615,566 622,573 663,574 670,574 681,564 695,564 702,568 716,567 723,576 759,580 885,575 891,566 903,566 910,574 916,575 1078,577 1082,571 1126,577 1133,568 1145,568 1149,571 1155,566 1181,566 1189,576 1229,576 1235,567 1258,565 1267,568 1275,565 1309,564 1314,567 1315,575 1418,573 1418,616 1306,615 1284,618 1055,618 1024,619 1022,627 1008,631 996,628 994,620 983,619 972,624 966,617 958,616 935,618 919,615 849,615 830,619 763,622 706,617 579,617 578,616"/>
+        <Coords points="1315,575 1314,567 1309,564 1275,565 1267,568 1258,565 1235,567 1229,576 1189,576 1181,566 1155,566 1149,571 1145,568 1133,568 1126,577 1082,571 1078,577 916,575 910,574 903,566 891,566 885,575 759,580 723,576 716,567 702,568 695,564 681,564 670,574 663,574 622,573 615,566 592,564 578,578 578,616 579,617 706,617 728,619 830,619 849,615 919,615 935,618 958,616 966,617 967,619 983,619 1024,619 1055,618 1284,618 1306,615 1418,616 1418,573"/>
         <Baseline points="578,606 1418,606"/>
         <Word id="word_1658391873741_2002" custom="readingOrder {index:0;}">
           <Coords points="578,577 586,569 618,569 622,573 663,574 663,606 578,606"/>
@@ -246,14 +262,14 @@ quædam nova, &amp; de nonnullis quærit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Uas hôc ipsô menſe Hamburgi dederas, eas tra-&#13;
+        <Unicode>Uas hôc ipsô menſe Hamburgi dederas, eas tra-
 ditas ſcias; non item, quas Leidâ miſiſſe cum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15763758" readingDirection="left-to-right" id="TextRegion_1658391870448_1987" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1658391870448_1987" custom="readingOrder {index:3;}" orientation="0.15763758" readingDirection="left-to-right">
       <Coords points="475,619 1418,619 1418,2139 475,2139"/>
       <TextLine id="line_1658392083445_2103" custom="readingOrder {index:0;}">
-        <Coords points="476,624 527,623 526,620 513,619 508,611 557,611 572,614 577,626 728,629 779,621 833,623 836,619 855,616 862,618 865,628 892,627 899,617 919,616 925,619 927,627 936,627 942,619 958,617 966,618 972,625 987,620 995,629 1008,632 1048,620 1110,620 1134,627 1170,629 1176,620 1190,619 1196,628 1254,628 1260,619 1287,620 1306,616 1323,618 1325,627 1328,628 1333,618 1347,617 1351,619 1353,627 1418,625 1418,669 1145,670 1143,678 1136,682 1092,682 1024,669 878,668 742,672 656,668 641,669 639,677 634,679 628,674 612,673 611,668 599,667 476,668"/>
+        <Coords points="526,620 527,623 476,624 476,668 599,667 611,668 612,673 628,674 634,679 639,677 641,669 656,668 742,672 878,668 1024,669 1092,682 1136,682 1143,678 1145,670 1418,669 1418,625 1353,627 1351,619 1332,619 1328,628 1325,627 1323,619 1292,619 1287,620 1260,619 1254,628 1196,628 1190,619 1176,620 1170,629 1134,627 1110,620 1048,620 1008,632 995,629 987,620 972,625 967,619 942,619 936,627 927,627 925,619 898,619 892,627 865,628 862,619 836,619 833,623 779,621 728,629 577,626 574,619 513,619"/>
         <Baseline points="476,657 927,658 1086,667 1187,659 1418,659"/>
         <Word id="word_1658392090616_2109" custom="readingOrder {index:0;}">
           <Coords points="482,632 592,632 592,663 482,663"/>
@@ -268,13 +284,13 @@ ditas ſcias; non item, quas Leidâ miſiſſe cum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658392092330_2112" custom="readingOrder {index:2;}">
-          <Coords points="777,623 880,623 880,660 777,660"/>
+          <Coords points="777,623 777,660 880,660 880,627 865,628 863,623 833,623"/>
           <TextEquiv>
             <Unicode>Maſio</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658392094014_2115" custom="readingOrder {index:3;}">
-          <Coords points="894,627 1019,627 1019,664 894,664"/>
+          <Coords points="894,627 894,664 1019,664 1019,628 1008,632 995,629 993,627 936,627 927,627"/>
           <TextEquiv>
             <Unicode>ſcribis.</Unicode>
           </TextEquiv>
@@ -506,7 +522,7 @@ ditas ſcias; non item, quas Leidâ miſiſſe cum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0008_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1306,825 1297,827 1295,834 1289,834 1283,827 1272,827 1265,835 1256,836 1208,835 1208,877 1243,876 1311,876 1315,876 1351,876 1369,876 1349,879 1349,835 1324,837 1310,825"/>
+          <Coords points="1306,825 1208,835 1208,877 1243,876 1311,876 1315,876 1351,876 1369,876"/>
           <TextEquiv>
             <Unicode>penitùs,</Unicode>
           </TextEquiv>
@@ -1727,7 +1743,7 @@ ditas ſcias; non item, quas Leidâ miſiſſe cum</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0032" custom="readingOrder {index:28;}">
-        <Coords points="513,2074 501,2086 476,2085 476,2128 637,2133 640,2142 646,2147 665,2146 670,2142 672,2135 849,2137 892,2133 1000,2133 1004,2145 1015,2149 1030,2146 1034,2135 1070,2136 1076,2142 1090,2142 1096,2136 1199,2135 1204,2146 1224,2148 1228,2145 1231,2135 1272,2135 1274,2143 1293,2144 1300,2142 1303,2134 1392,2128 1418,2130 1418,2089 1402,2089 1396,2082 1382,2080 1366,2082 1363,2091 1335,2091 1332,2082 1319,2080 1311,2089 1301,2094 1287,2093 1280,2083 1271,2083 1265,2087 1263,2093 1189,2092 1183,2083 1168,2083 1163,2091 1161,2083 1157,2081 1140,2083 1137,2091 1053,2091 1045,2082 1032,2082 1027,2090 944,2087 782,2090 775,2082 765,2082 759,2091 749,2093 739,2087 734,2087 729,2092 723,2087 705,2092 585,2086 577,2078 564,2078 559,2084 524,2084 521,2075"/>
+        <Coords points="501,2086 476,2085 476,2128 637,2133 639,2139 670,2139 672,2135 849,2137 892,2133 1000,2133 1002,2139 1032,2139 1034,2135 1070,2136 1073,2139 1093,2139 1096,2136 1199,2135 1200,2139 1229,2139 1231,2135 1272,2135 1273,2139 1301,2139 1303,2134 1392,2128 1418,2130 1418,2089 1402,2089 1396,2082 1382,2080 1366,2082 1363,2091 1335,2091 1332,2082 1319,2080 1311,2089 1301,2094 1287,2093 1280,2083 1271,2083 1265,2087 1263,2093 1189,2092 1183,2083 1168,2083 1163,2091 1161,2083 1157,2081 1140,2083 1137,2091 1053,2091 1045,2082 1032,2082 1027,2090 944,2087 782,2090 775,2082 765,2082 759,2091 749,2093 739,2087 734,2087 729,2092 723,2087 705,2092 585,2086 577,2078 564,2078 559,2084 524,2084 521,2075 513,2074"/>
         <Baseline points="476,2119 1061,2127 1418,2120"/>
         <Word id="region0003_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="508,2079 501,2086 484,2085 484,2119 636,2119 636,2088 585,2086 578,2079 563,2079 559,2084 524,2084 522,2079"/>
@@ -1776,34 +1792,34 @@ ditas ſcias; non item, quas Leidâ miſiſſe cum</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>neſcio quonam Maſio ſcribis. Quas interiiſſe hoc&#13;
-magis doleo, quod iis Gronovii atque Fabricii noſtri&#13;
-Poëmata adjuncta fuiſſe ſignificas. Nihil enim hu-&#13;
-jusmodi deliciarum hactenus ad nos venit: &amp; quic-&#13;
-quid Belgæ &amp; Batavi edunt, aut ignoratur penitùs, aut&#13;
-de Catalogo ſcitur tantùm. Librorum aliquid indè&#13;
-nihil infertur. Quô ſit, ut in ſolitudine aliqua pro-&#13;
-pè, aut in barbarie agere videamur. Quare ſi quid&#13;
-iſtius ad nos mitteres, magnô profectò, quin potius&#13;
-ingente nos beneficiô ornares. Heinſii tamen Re-&#13;
-ſponſionem ad Balſaci Epiſtolam, &amp; magni Salmaſii&#13;
-de uſuris ſemel aſpicere licuit: ſi quam rationem ini-&#13;
-re poſſis, ut ipſi libri ad me perveniant, plurimum te&#13;
-amarem: de ſumma, ut par eſt, ſatisfacturus. Aca-&#13;
-demiæ ſtatus longè afflictiſſimus eſt. Nam belli de-&#13;
-functos diſcrimine annonæ gravitas miſerrimum in&#13;
-modum afflixit: adeò, ut invitis mortalibus fame&#13;
-pereundum fuerit. Quare multis hinc diſcedendum&#13;
-fuit: Unde ſtudioſorum numerus ad miram paucita-&#13;
-tem redactus. Interim tamen ſunt nobiſcum adhuc&#13;
-nonnulli boni ac docti. Ac nos, quantumvis nihil&#13;
-omninò ſtipendii ſolvitur, quô nunc in quartum ca-&#13;
-remus annum, tamen &amp; publicè privatimque obimus&#13;
-partes. Neque enim negligendi &amp; contemnendi ſunt,&#13;
-qui cum magno ſumtu hîc vivunt. Commodiore&#13;
-annonâ nos fore uſuros deinceps, ſpes anni, &amp; quæ&#13;
-pulcherrimè hactenus provenerunt ſegetes, videntur&#13;
-ſpondere. Quod ſi erit, &amp; Academia noſtra, opinor,&#13;
+        <Unicode>neſcio quonam Maſio ſcribis. Quas interiiſſe hoc
+magis doleo, quod iis Gronovii atque Fabricii noſtri
+Poëmata adjuncta fuiſſe ſignificas. Nihil enim hu-
+jusmodi deliciarum hactenus ad nos venit: &amp; quic-
+quid Belgæ &amp; Batavi edunt, aut ignoratur penitùs, aut
+de Catalogo ſcitur tantùm. Librorum aliquid indè
+nihil infertur. Quô ſit, ut in ſolitudine aliqua pro-
+pè, aut in barbarie agere videamur. Quare ſi quid
+iſtius ad nos mitteres, magnô profectò, quin potius
+ingente nos beneficiô ornares. Heinſii tamen Re-
+ſponſionem ad Balſaci Epiſtolam, &amp; magni Salmaſii
+de uſuris ſemel aſpicere licuit: ſi quam rationem ini-
+re poſſis, ut ipſi libri ad me perveniant, plurimum te
+amarem: de ſumma, ut par eſt, ſatisfacturus. Aca-
+demiæ ſtatus longè afflictiſſimus eſt. Nam belli de-
+functos diſcrimine annonæ gravitas miſerrimum in
+modum afflixit: adeò, ut invitis mortalibus fame
+pereundum fuerit. Quare multis hinc diſcedendum
+fuit: Unde ſtudioſorum numerus ad miram paucita-
+tem redactus. Interim tamen ſunt nobiſcum adhuc
+nonnulli boni ac docti. Ac nos, quantumvis nihil
+omninò ſtipendii ſolvitur, quô nunc in quartum ca-
+remus annum, tamen &amp; publicè privatimque obimus
+partes. Neque enim negligendi &amp; contemnendi ſunt,
+qui cum magno ſumtu hîc vivunt. Commodiore
+annonâ nos fore uſuros deinceps, ſpes anni, &amp; quæ
+pulcherrimè hactenus provenerunt ſegetes, videntur
+ſpondere. Quod ſi erit, &amp; Academia noſtra, opinor,
 uberiora paulò incrementa capiet, nobisque ipſis ali-</Unicode>
       </TextEquiv>
     </TextRegion>

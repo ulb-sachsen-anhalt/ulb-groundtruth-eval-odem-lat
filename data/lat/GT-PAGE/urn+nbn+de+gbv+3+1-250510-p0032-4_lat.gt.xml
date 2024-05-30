@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-105">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:56Z</Created>
     <LastChange>2024-01-19T13:07:56Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/79527860-fa01-4e1e-b911-110dd8bc2eb0/00000032.jpg" imageWidth="2229" imageHeight="2881" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.8487304" readingDirection="left-to-right" id="TextRegion_1651220509080_3300" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1651220509080_3300" custom="readingOrder {index:0;}" orientation="-0.8487304" readingDirection="left-to-right">
       <Coords points="652,689 1918,703 1909,1523 643,1523"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1666,700 1659,703 1652,713 1642,713 1638,701 1614,700 1605,711 1493,710 1487,699 1473,698 1471,698 1467,709 1451,709 1446,699 1431,698 1425,709 1355,709 1348,709 1344,697 1317,697 1310,706 1134,701 1089,704 1072,703 1068,694 1051,694 1046,704 1023,704 1018,695 1005,693 998,703 993,704 989,693 968,693 959,705 928,705 896,705 888,694 875,695 870,703 819,704 734,698 727,690 708,690 700,698 678,699 674,690 658,689 656,689 653,698 653,743 807,750 907,749 938,754 981,752 989,747 1005,749 1016,747 1043,751 1168,750 1173,746 1188,746 1192,749 1347,755 1363,751 1370,753 1374,760 1384,763 1407,757 1429,757 1436,752 1444,751 1453,755 1518,757 1533,754 1538,765 1548,765 1551,761 1551,754 1559,751 1566,758 1587,755 1595,759 1732,761 1737,758 1748,758 1755,768 1763,767 1769,761 1784,760 1917,765 1917,734 1917,718 1690,713 1686,703 1668,700"/>
@@ -812,7 +828,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0016" custom="readingOrder {index:15;}">
-        <Coords points="1376,1474 1368,1481 1337,1483 1272,1478 1113,1477 1105,1472 1094,1472 1087,1478 877,1475 870,1480 854,1476 683,1477 677,1469 664,1467 658,1470 657,1476 645,1477 644,1522 766,1525 773,1534 788,1534 794,1532 799,1523 813,1523 896,1524 921,1530 971,1534 977,1532 981,1525 989,1523 1139,1525 1142,1531 1155,1533 1165,1531 1174,1523 1204,1521 1234,1526 1242,1535 1259,1536 1270,1523 1332,1522 1384,1527 1420,1527 1422,1533 1429,1538 1444,1538 1451,1533 1453,1527 1705,1534 1710,1529 1710,1506 1707,1502 1672,1500 1671,1490 1666,1485 1568,1482 1532,1488 1522,1483 1505,1482 1394,1480 1388,1474"/>
+        <Coords points="1368,1481 1337,1483 1272,1478 1113,1477 1105,1472 1094,1472 1087,1478 877,1475 870,1480 854,1476 683,1477 677,1469 664,1467 658,1470 657,1476 645,1477 644,1522 684,1523 799,1523 813,1523 989,1523 1174,1523 1204,1521 1216,1523 1270,1523 1332,1522 1342,1523 1710,1523 1710,1506 1707,1502 1672,1500 1671,1490 1666,1485 1568,1482 1532,1488 1522,1483 1505,1482 1394,1480 1388,1474 1376,1474"/>
         <Word id="region0004_line0016_word0000" custom="readingOrder {index:0;}">
           <Coords points="677,1469 659,1469 658,1470 657,1476 650,1476 650,1510 752,1512 752,1476 683,1477"/>
           <TextEquiv conf="0.92003214">
@@ -848,28 +864,28 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>inflammatio, febris et noua ſanguinis profuſio praeca-&#13;
-uentur. Quodſi vero haemorrhagia nimia contingeret,&#13;
-optime eam ſiſtet liquor ſtypticus Dippelii vel Rectif.&#13;
-aut ſolus, aut cum ♁e ſtyptico remixtus et cum lintea-&#13;
-minibus carptis bene multis adplicatus, ſuperimpoſitis&#13;
-aliquot ſpleniis crasſis, ſenſim amplioribus et faſcia ſatis&#13;
-longa ſimul adhibita. Ante tertium diem prima deliga-&#13;
-tio non eſt ſoluenda, nihilque nec tum vi auellendum,&#13;
-ſed exſpectandum, donec ſponte decidat. Caeterum&#13;
-quo rarius et cautius deligatio renouatur, eo melius&#13;
-ſuccedit conſolidatio. At, ſi forte ſuppuratio nimis&#13;
-larga contingeret, frequentius deligandum vulnus venit.&#13;
-Ne etiam aeger ab hac debilitetur, digeſtiua illico re-&#13;
-mouenda ſunt, et horum loco lintea carpta vel ſicca,&#13;
-vel eſſ. myrrh. aut ſuccin. vel prioris liquamine, in ouo&#13;
+        <Unicode>inflammatio, febris et noua ſanguinis profuſio praeca-
+uentur. Quodſi vero haemorrhagia nimia contingeret,
+optime eam ſiſtet liquor ſtypticus Dippelii vel Rectif.
+aut ſolus, aut cum ♁e ſtyptico remixtus et cum lintea-
+minibus carptis bene multis adplicatus, ſuperimpoſitis
+aliquot ſpleniis crasſis, ſenſim amplioribus et faſcia ſatis
+longa ſimul adhibita. Ante tertium diem prima deliga-
+tio non eſt ſoluenda, nihilque nec tum vi auellendum,
+ſed exſpectandum, donec ſponte decidat. Caeterum
+quo rarius et cautius deligatio renouatur, eo melius
+ſuccedit conſolidatio. At, ſi forte ſuppuratio nimis
+larga contingeret, frequentius deligandum vulnus venit.
+Ne etiam aeger ab hac debilitetur, digeſtiua illico re-
+mouenda ſunt, et horum loco lintea carpta vel ſicca,
+vel eſſ. myrrh. aut ſuccin. vel prioris liquamine, in ouo
 duro parato, parce impraegnata imponantur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.8487304" type="heading" readingDirection="left-to-right" id="TextRegion_1651220514627_3307" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1651220514627_3307" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.8487304" type="heading" readingDirection="left-to-right">
       <Coords points="643,1523 1909,1523 1908,1575 642,1575"/>
       <TextLine id="region0004_line0017" custom="readingOrder {index:0;}">
-        <Coords points="1306,1523 1270,1524 1263,1534 1265,1544 1226,1532 1221,1526 1204,1522 1188,1522 1155,1534 1136,1532 1132,1535 1130,1544 1129,1575 1132,1579 1138,1581 1224,1582 1263,1577 1390,1578 1394,1575 1396,1542 1387,1536 1386,1528"/>
+        <Coords points="1270,1524 1263,1534 1265,1544 1226,1532 1221,1526 1208,1523 1185,1523 1155,1534 1136,1532 1132,1535 1130,1544 1129,1575 1394,1575 1396,1542 1387,1536 1386,1528 1306,1523"/>
         <Word id="word_1651220514671_3310" custom="readingOrder {index:0;}">
           <Coords points="1185,1543 1216,1544 1215,1575 1184,1575"/>
           <TextEquiv>
@@ -890,10 +906,10 @@ duro parato, parce impraegnata imponantur.</Unicode>
         <Unicode>§. LII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.8487304" readingDirection="left-to-right" id="TextRegion_1651220514627_3306" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1651220514627_3306" custom="readingOrder {index:2;}" orientation="-0.8487304" readingDirection="left-to-right">
       <Coords points="642,1575 1908,1575 1899,2482 633,2468"/>
       <TextLine id="region0004_line0018" custom="readingOrder {index:0;}">
-        <Coords points="1020,1567 1015,1571 1013,1580 941,1576 839,1580 831,1578 823,1569 711,1568 706,1573 706,1604 711,1609 718,1609 721,1619 737,1625 803,1624 809,1627 893,1628 915,1627 922,1623 934,1622 948,1626 1086,1626 1097,1631 1125,1634 1192,1629 1198,1626 1285,1630 1301,1626 1318,1632 1351,1633 1351,1637 1360,1641 1372,1640 1376,1638 1378,1633 1398,1632 1643,1637 1667,1633 1685,1637 1693,1633 1701,1633 1725,1642 1779,1639 1782,1645 1790,1648 1799,1648 1811,1636 1862,1637 1868,1641 1893,1639 1907,1643 1908,1595 1905,1594 1695,1590 1687,1578 1674,1578 1668,1590 1624,1589 1619,1579 1605,1576 1596,1585 1586,1585 1582,1588 1277,1582 1130,1580 1117,1583 1040,1580 1036,1568"/>
+        <Coords points="1013,1580 941,1576 839,1580 831,1578 828,1575 706,1575 706,1604 711,1609 718,1609 721,1619 737,1625 803,1624 809,1627 893,1628 915,1627 922,1623 934,1622 948,1626 1086,1626 1097,1631 1125,1634 1192,1629 1198,1626 1285,1630 1301,1626 1318,1632 1351,1633 1351,1637 1360,1641 1372,1640 1376,1638 1378,1633 1398,1632 1643,1637 1667,1633 1685,1637 1693,1633 1701,1633 1725,1642 1779,1639 1782,1645 1790,1648 1799,1648 1811,1636 1862,1637 1868,1641 1893,1639 1907,1643 1907,1613 1907,1594 1905,1594 1695,1590 1687,1578 1674,1578 1668,1590 1624,1589 1619,1579 1605,1576 1596,1585 1586,1585 1582,1588 1277,1582 1130,1580 1117,1583 1040,1580 1038,1575 1014,1575"/>
         <Word id="word_1651220514671_3313" custom="readingOrder {index:0;}">
           <Coords points="774,1575 828,1575 831,1578 839,1580 913,1577 913,1615 774,1613"/>
           <TextEquiv conf="0.9072261">
@@ -1621,7 +1637,7 @@ duro parato, parce impraegnata imponantur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651220468602_3276" custom="readingOrder {index:3;}">
-          <Coords points="1139,2357 1149,2353 1186,2353 1313,2355 1427,2366 1443,2369 1443,2416 1427,2416 1139,2399"/>
+          <Coords points="1149,2353 1146,2357 1139,2357 1139,2399 1201,2402 1224,2402 1228,2404 1359,2412 1381,2412 1389,2408 1398,2408 1420,2415 1427,2416 1443,2416 1443,2369 1439,2370 1430,2367 1322,2363 1320,2358 1313,2355 1302,2356 1296,2362 1235,2362 1220,2357 1187,2357 1186,2353"/>
           <TextEquiv>
             <Unicode>diuturniores;</Unicode>
           </TextEquiv>
@@ -1685,29 +1701,29 @@ duro parato, parce impraegnata imponantur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Diaeta tandem, tam tempore curationis, quam&#13;
-poſt illam, ſit exacta. Aër ſit temperate calidus. Cibi&#13;
-ſint molles et facile reſolubiles, omni acrimonia caren-&#13;
-tes. Inprimis tempore curationis, ad vires amiſſas re-&#13;
-ſtaurandas, conueniunt iuſcula carnium, gelatinae, oua&#13;
-mollia, carnes animalium iuniorum et alia huius notae&#13;
-alimenta; emulſiones quoque confortantes et gratae&#13;
-aegris ſunt commendandae. Potus ſit purus, ſpirituo-&#13;
-ſus nimis vel acidus vitetur. Motus inſtituatur mode-&#13;
-ratus; quies non excedat modum. Somnus et vigiliae&#13;
-pari ratione ſe habeant.&#13;
-Egeſta reſpondeant ingeſtis. Haemorrhoides vel&#13;
-menſes ſuppresſi aut inordinati reſtituantur, vel in ordi-&#13;
-nem redigantur. Fugiantur animi pathemata grauio-&#13;
-raet vehementiora, ira, terror, moeror, metus,&#13;
-curae grauiores et diuturniores; contra mens ſit&#13;
+        <Unicode>Diaeta tandem, tam tempore curationis, quam
+poſt illam, ſit exacta. Aër ſit temperate calidus. Cibi
+ſint molles et facile reſolubiles, omni acrimonia caren-
+tes. Inprimis tempore curationis, ad vires amiſſas re-
+ſtaurandas, conueniunt iuſcula carnium, gelatinae, oua
+mollia, carnes animalium iuniorum et alia huius notae
+alimenta; emulſiones quoque confortantes et gratae
+aegris ſunt commendandae. Potus ſit purus, ſpirituo-
+ſus nimis vel acidus vitetur. Motus inſtituatur mode-
+ratus; quies non excedat modum. Somnus et vigiliae
+pari ratione ſe habeant.
+Egeſta reſpondeant ingeſtis. Haemorrhoides vel
+menſes ſuppresſi aut inordinati reſtituantur, vel in ordi-
+nem redigantur. Fugiantur animi pathemata grauio-
+raet vehementiora, ira, terror, moeror, metus,
+curae grauiores et diuturniores; contra mens ſit
 tranquilla et rebus gratis occupata.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.8487304" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;}" orientation="-0.8487304" readingDirection="left-to-right">
       <Coords points="1028,2465 1502,2471 1507,2542 1033,2536"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1037,2465 1029,2469 1028,2538 1265,2535 1501,2543 1501,2498 1501,2485 1463,2485 1460,2475 1455,2471 1441,2472 1435,2484 1396,2482 1381,2470 1306,2470 1271,2479 1243,2478 1207,2467 1128,2466 1099,2466 1095,2469 1093,2476 1072,2471 1065,2465"/>
+        <Coords points="1029,2469 1028,2477 1033,2536 1109,2536 1265,2535 1450,2541 1501,2541 1501,2498 1501,2485 1463,2485 1460,2475 1455,2471 1441,2472 1435,2484 1396,2482 1381,2470 1306,2470 1271,2479 1243,2478 1207,2467 1107,2466 1099,2466 1095,2469 1093,2476 1072,2471 1065,2465 1036,2465"/>
         <Word id="region0005_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="1133,2536 1134,2487 1034,2486 1033,2537"/>
           <TextEquiv conf="0.96662176">

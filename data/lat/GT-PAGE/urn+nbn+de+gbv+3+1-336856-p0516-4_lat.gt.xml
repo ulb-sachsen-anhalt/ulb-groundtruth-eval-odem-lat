@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-142">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:15Z</Created>
     <LastChange>2024-01-19T13:08:15Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d00de9d7-de21-4df8-b524-5d61559201dd/00000516.jpg" imageWidth="1679" imageHeight="2404" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1650976474845_3681"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.0144238155" type="marginalia" readingDirection="left-to-right" id="TextRegion_1650976499887_3759" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1650976499887_3759" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="0.0144238155" type="marginalia" readingDirection="left-to-right">
       <Coords points="525,1688 706,1688 706,1802 526,1802"/>
       <TextLine id="line_1650976474896_3737" custom="readingOrder {index:0;}">
         <Coords points="526,1699 619,1696 627,1693 705,1706 706,1707 706,1760 687,1758 676,1750 657,1746 607,1746 596,1752 585,1752 573,1746 555,1747 544,1751 527,1749"/>
@@ -42,7 +58,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1650976474897_3739" custom="readingOrder {index:1;}">
-        <Coords points="527,1750 544,1752 564,1747 577,1748 585,1753 610,1750 623,1756 631,1756 636,1761 637,1775 706,1773 706,1814 647,1814 642,1809 641,1797 527,1796"/>
+        <Coords points="637,1775 636,1761 631,1756 623,1756 610,1750 585,1753 577,1748 564,1747 544,1752 527,1750 527,1796 641,1797 641,1802 706,1802 706,1773"/>
         <Word id="region0005_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="585,1796 585,1753 577,1748 564,1747 544,1752 536,1751 536,1796"/>
           <TextEquiv conf="0.92432165">
@@ -54,11 +70,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(a) Joh. I,&#13;
+        <Unicode>(a) Joh. I,
 18. in mundum: quam lucem hoc ipſum ef</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0144238155" readingDirection="left-to-right" id="TextRegion_1650976474845_3681" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1650976474845_3681" custom="readingOrder {index:1;}" orientation="0.0144238155" readingDirection="left-to-right">
       <Coords points="706,451 1556,444 1559,853 1556,2035 1550,2068 716,2075 706,2073"/>
       <TextLine id="line_1650976474881_3684" custom="readingOrder {index:0;}">
         <Coords points="706,464 712,460 726,460 734,470 740,470 816,462 818,455 823,451 840,451 847,460 885,460 916,458 922,452 939,451 946,459 992,463 998,463 1000,456 1005,452 1017,452 1023,456 1025,464 1069,465 1184,462 1204,459 1220,450 1280,452 1287,447 1296,447 1306,455 1327,458 1531,454 1536,459 1536,491 1530,497 1512,500 1464,500 1446,504 1356,501 1334,505 1330,513 1323,515 1310,514 1304,507 1295,512 1287,512 1280,507 1266,505 1014,510 973,506 909,508 872,505 852,509 791,512 769,510 749,515 706,516"/>
@@ -117,7 +133,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1650976589364_3800" custom="readingOrder {index:2;}">
-          <Coords points="950,509 954,507 973,507 1111,510 1111,558 1094,558 947,548 947,515"/>
+          <Coords points="950,509 949,516 947,515 947,548 1094,558 1111,558 1111,510 1098,509 1089,509 1085,512 1048,517 990,516 988,510 973,507 954,507"/>
           <TextEquiv>
             <Unicode>dicunt)</Unicode>
           </TextEquiv>
@@ -219,7 +235,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0009" custom="readingOrder {index:10;}">
-          <Coords points="1441,564 1441,606 1514,607 1514,556 1459,555 1446,564"/>
+          <Coords points="1441,606 1510,606 1511,594 1514,593 1514,556 1459,555 1446,564 1441,564"/>
           <TextEquiv>
             <Unicode>effe-</Unicode>
           </TextEquiv>
@@ -333,7 +349,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0006_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1073,721 1027,721 1027,765 1111,762 1111,718 1148,721 1133,724 1129,721 1104,721 1104,724 1101,721 1078,721 1077,722"/>
+          <Coords points="1073,721 1027,721 1027,765 1148,721"/>
           <TextEquiv conf="0.9664473">
             <Unicode>Dei</Unicode>
           </TextEquiv>
@@ -351,7 +367,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0006_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1383,723 1380,723 1380,771 1399,771 1402,766 1508,762 1508,723"/>
+          <Coords points="1380,723 1380,771 1394,771 1397,766 1508,761 1508,723 1383,723"/>
           <TextEquiv>
             <Unicode>paſſive</Unicode>
           </TextEquiv>
@@ -525,7 +541,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0010_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1516,956 1516,922 1428,933 1428,971 1448,971 1449,970 1454,968"/>
+          <Coords points="1516,928 1449,930 1428,933 1428,971 1448,971 1449,970 1454,968 1516,956"/>
           <TextEquiv>
             <Unicode>quod</Unicode>
           </TextEquiv>
@@ -585,7 +601,7 @@
       <TextLine id="line_1650976474887_3706" custom="readingOrder {index:11;}">
         <Coords points="706,1041 817,1040 819,1030 824,1025 837,1026 841,1041 900,1036 902,1029 908,1025 933,1025 939,1028 941,1036 994,1038 1002,1035 1054,1032 1061,1022 1077,1022 1081,1031 1098,1031 1102,1022 1113,1020 1121,1021 1125,1031 1195,1032 1211,1035 1225,1032 1227,1022 1235,1019 1250,1020 1253,1030 1274,1028 1285,1019 1300,1019 1308,1028 1325,1029 1545,1032 1550,1037 1550,1068 1545,1073 1525,1074 1368,1075 1366,1082 1355,1085 1338,1083 1336,1075 1267,1078 1248,1081 1240,1086 1226,1086 1221,1081 1193,1077 1177,1078 1171,1075 1131,1079 1076,1076 1065,1080 1034,1078 1028,1081 989,1081 973,1091 962,1088 961,1082 924,1082 920,1079 881,1080 863,1089 855,1089 848,1082 781,1081 728,1084 726,1095 713,1099 706,1099"/>
         <Word id="word_1650976807235_3936" custom="readingOrder {index:0;}">
-          <Coords points="708,1041 823,1026 837,1026 874,1040 874,1074 851,1084 708,1084"/>
+          <Coords points="708,1041 708,1084 728,1084 781,1081 848,1082 850,1084 851,1084 874,1074 874,1040 870,1039 841,1041 837,1026 823,1026 819,1030 817,1040 708,1041"/>
           <TextEquiv>
             <Unicode>ponenda;</Unicode>
           </TextEquiv>
@@ -801,7 +817,7 @@
       <TextLine id="line_1650976474891_3718" custom="readingOrder {index:16;}">
         <Coords points="706,1300 712,1300 726,1294 739,1294 747,1300 763,1300 770,1291 781,1292 786,1299 1044,1297 1055,1296 1063,1291 1074,1291 1077,1296 1254,1293 1410,1296 1427,1293 1430,1287 1440,1284 1455,1286 1457,1291 1557,1290 1557,1332 1551,1332 1546,1336 1467,1339 1256,1336 1146,1338 1134,1335 1126,1347 1120,1348 1107,1345 1105,1339 1024,1339 1019,1336 1005,1336 995,1340 956,1337 950,1340 929,1338 910,1341 903,1338 880,1346 861,1344 852,1347 838,1342 778,1343 763,1344 754,1348 745,1344 706,1344"/>
         <Word id="word_1650976474891_3720" custom="readingOrder {index:0;}">
-          <Coords points="709,1338 855,1343 863,1297 782,1294 706,1294"/>
+          <Coords points="830,1342 838,1342 839,1342 855,1343 863,1298 786,1299 782,1294 782,1294 768,1294 763,1300 747,1300 739,1294 726,1294 712,1300 706,1300 709,1338"/>
           <TextEquiv>
             <Unicode>tinent;</Unicode>
           </TextEquiv>
@@ -1257,7 +1273,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0005_line0027_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1500,1860 1500,1806 1481,1801 1467,1811 1466,1817 1416,1819 1414,1813 1409,1811 1393,1810 1383,1813 1378,1820 1359,1820 1356,1812 1341,1810 1334,1822 1305,1819 1303,1814 1298,1812 1286,1812 1286,1864 1364,1864 1372,1861 1448,1864 1462,1858 1473,1861 1480,1858"/>
+          <Coords points="1500,1806 1492,1807 1481,1801 1467,1811 1466,1817 1416,1819 1414,1813 1409,1811 1393,1810 1383,1813 1378,1820 1359,1820 1356,1812 1341,1810 1334,1822 1305,1819 1303,1814 1298,1812 1286,1812 1286,1864 1364,1864 1372,1861 1448,1864 1462,1858 1473,1861 1480,1858 1500,1860"/>
           <TextEquiv>
             <Unicode>hujuſmodi</Unicode>
           </TextEquiv>
@@ -1387,7 +1403,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1650976474903_3748" custom="readingOrder {index:30;}">
-        <Coords points="725,2023 740,2025 746,2034 761,2034 797,2030 805,2020 828,2019 835,2024 837,2031 921,2036 933,2035 935,2027 942,2022 967,2022 973,2026 975,2035 986,2035 989,2027 995,2023 1009,2025 1013,2033 1028,2032 1030,2026 1037,2022 1046,2022 1055,2027 1069,2022 1085,2022 1091,2027 1138,2031 1260,2030 1268,2019 1281,2019 1288,2031 1297,2031 1383,2029 1385,2022 1392,2017 1408,2017 1421,2021 1425,2026 1440,2026 1445,2025 1453,2015 1464,2016 1470,2024 1539,2023 1539,2067 1460,2067 1433,2075 1341,2077 1325,2088 1308,2088 1301,2078 1244,2076 1198,2077 1193,2087 1185,2090 1167,2089 1162,2077 1058,2082 971,2081 891,2084 887,2081 844,2080 760,2084 706,2083 706,2035 716,2035 718,2028"/>
+        <Coords points="1460,2067 1539,2067 1539,2023 1470,2024 1464,2016 1453,2015 1445,2025 1440,2026 1425,2026 1421,2021 1408,2017 1392,2017 1385,2022 1383,2029 1297,2031 1288,2031 1281,2019 1268,2019 1260,2030 1138,2031 1091,2027 1085,2022 1069,2022 1055,2027 1046,2022 1037,2022 1030,2026 1028,2032 1013,2033 1009,2025 995,2023 989,2027 986,2035 975,2035 973,2026 967,2022 942,2022 935,2027 933,2035 921,2036 837,2031 835,2024 828,2019 805,2020 797,2030 761,2034 746,2034 740,2025 725,2023 718,2028 716,2035 706,2035 706,2073 716,2075 1453,2068"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="830,2021 804,2021 797,2030 761,2034 746,2034 740,2025 725,2023 718,2028 716,2035 711,2035 711,2069 906,2069 906,2035 837,2031 835,2024"/>
           <TextEquiv conf="0.8767651">
@@ -1417,36 +1433,36 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>in eadem lumina nonnulla (quæ natu-&#13;
-ralia vulgo dicunt) v. g. impoſſibile eſt i-&#13;
-dem eſſe &amp; non eſſe; non poteſt eſſe plus in effe-&#13;
-ctu quam in cauſa, &amp; ſimilia theoretica,&#13;
-quæ dubium nullum admittunt; idque&#13;
-ideo, quod ſint Dei in Ratione, paſſive&#13;
-tunc ſe habente, impreſſi actus: veluti&#13;
-etiam in practicis ea ſunt quæ principia&#13;
-moralia vel ſyntereſeos dicuntur; Aman-&#13;
-dum eſſe Deum; nemini faciendum quam quod&#13;
-tibi fieri velles; permanentia perituris eſſe ante-&#13;
-ponenda; aliaque de bono juſtoque non&#13;
-tantum ſcita &amp; dictamina, verum etiam&#13;
-inſtinctus ac ſtimuli &amp; impulſus, qui a-&#13;
-pud omnes (niſi quis ſtudio ſeſe in a-&#13;
-theum monſtrum transformaverit) ob-&#13;
-tinent; quæ tamen quatenus nos ad æ-&#13;
-terna &amp; ſolida bona impellunt ac præ-&#13;
-parant, malim ego ad lumen Divinum&#13;
-præveniens, inque facultatibus ſupe-&#13;
-rioribus lucens &amp; agens (quod idem eſt&#13;
-ac lumen fidei,) revocate, quam ad fa-&#13;
-cultatem ſuperficiariam Rationis. Me-&#13;
-minit etiam Scriptura (a) Verbi Dei, lucis&#13;
-veræ illuminantis omnem hominem venientem&#13;
-in mundum: quam lucem hoc ipſum eſ-&#13;
-ſe, cuivis facile pateret qui hujuſmodi&#13;
-impulſibus atque dictaminibus eſſet ob-&#13;
-temperaturus: namque ex illis ſeſe a-&#13;
-perientibus, ac veluti in latum expan-&#13;
+        <Unicode>in eadem lumina nonnulla (quæ natu-
+ralia vulgo dicunt) v. g. impoſſibile eſt i-
+dem eſſe &amp; non eſſe; non poteſt eſſe plus in effe-
+ctu quam in cauſa, &amp; ſimilia theoretica,
+quæ dubium nullum admittunt; idque
+ideo, quod ſint Dei in Ratione, paſſive
+tunc ſe habente, impreſſi actus: veluti
+etiam in practicis ea ſunt quæ principia
+moralia vel ſyntereſeos dicuntur; Aman-
+dum eſſe Deum; nemini faciendum quam quod
+tibi fieri velles; permanentia perituris eſſe ante-
+ponenda; aliaque de bono juſtoque non
+tantum ſcita &amp; dictamina, verum etiam
+inſtinctus ac ſtimuli &amp; impulſus, qui a-
+pud omnes (niſi quis ſtudio ſeſe in a-
+theum monſtrum transformaverit) ob-
+tinent; quæ tamen quatenus nos ad æ-
+terna &amp; ſolida bona impellunt ac præ-
+parant, malim ego ad lumen Divinum
+præveniens, inque facultatibus ſupe-
+rioribus lucens &amp; agens (quod idem eſt
+ac lumen fidei,) revocate, quam ad fa-
+cultatem ſuperficiariam Rationis. Me-
+minit etiam Scriptura (a) Verbi Dei, lucis
+veræ illuminantis omnem hominem venientem
+in mundum: quam lucem hoc ipſum eſ-
+ſe, cuivis facile pateret qui hujuſmodi
+impulſibus atque dictaminibus eſſet ob-
+temperaturus: namque ex illis ſeſe a-
+perientibus, ac veluti in latum expan-
 dentibus, diviniſſima quævis prodirent</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-318">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:59Z</Created>
     <LastChange>2024-01-19T13:10:59Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/c00285ae-c7c7-4b60-84e1-5adbccfb80a7/00001073.jpg" imageWidth="2776" imageHeight="3072" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,12 +36,12 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1671185104169_4762"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.26861987" type="header" readingDirection="left-to-right" id="TextRegion_1671184949862_4672" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671184949862_4672" custom="readingOrder {index:0;} structure {type:header;}" orientation="-0.26861987" type="header" readingDirection="left-to-right">
       <Coords points="496,602 1389,602 1389,653 496,653"/>
       <TextLine id="line_1671184949951_4675" custom="readingOrder {index:0;}">
         <Coords points="496,608 569,609 775,602 1364,602 1389,602 1389,635 1364,637 1358,638 1352,644 1335,645 1330,642 1325,646 1306,644 1252,646 1019,645 952,650 783,649 698,653 627,653 621,645 615,647 613,652 592,652 586,646 545,652 496,652"/>
         <Word id="word_1671186947242_5151" custom="readingOrder {index:0;} unclear {offset:0; length:7;}">
-          <Coords points="502,620 540,616 705,616 705,648 540,648 502,647"/>
+          <Coords points="705,648 705,616 540,616 502,620 502,647 540,648 572,648 586,646 588,648 614,648 615,647 621,645 623,648"/>
           <TextEquiv>
             <Unicode>TRPORIS</Unicode>
           </TextEquiv>
@@ -56,7 +72,7 @@
         <Unicode>TRPORIS IN RELIGIONE PRÆTEXTV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" type="page-number" readingDirection="left-to-right" id="TextRegion_1671184949862_4671" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671184949862_4671" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-0.26861987" type="page-number" readingDirection="left-to-right">
       <Coords points="1389,602 1581,602 1581,653 1389,653"/>
       <TextLine id="line_1671184949951_4674" custom="readingOrder {index:0;}">
         <Coords points="1389,602 1580,603 1580,653 1514,653 1493,649 1432,647 1423,643 1419,635 1408,635 1389,635"/>
@@ -74,7 +90,7 @@
         <Unicode>1033</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" readingDirection="left-to-right" id="TextRegion_1671185025991_4711" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1671185025991_4711" custom="readingOrder {index:2;}" orientation="-0.26861987" readingDirection="left-to-right">
       <Coords points="264,690 829,682 1576,682 1576,777 264,800"/>
       <TextLine id="line_1671186315786_4959" custom="readingOrder {index:0;}">
         <Coords points="265,702 274,700 1029,683 1303,683 1328,683 1576,693 1576,725 692,747 682,757 402,751 265,747"/>
@@ -116,7 +132,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0008_line0001_word0004" custom="readingOrder {index:6;}">
-          <Coords points="1394,700 1572,701 1572,729 1394,728"/>
+          <Coords points="1572,701 1394,700 1394,728 1444,728 1572,725"/>
           <TextEquiv>
             <Unicode>extrema,</Unicode>
           </TextEquiv>
@@ -126,10 +142,10 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1671186332682_4963" custom="readingOrder {index:1;}">
-        <Coords points="265,755 352,752 1242,740 1454,731 1489,732 1576,738 1576,777 509,813 469,814 452,814 264,800"/>
+        <Coords points="1489,732 1454,731 1242,740 352,752 265,755 264,800 1576,777 1576,738"/>
         <Baseline points="586,765 587,765 617,794 870,786 830,786 1049,783 1075,776 1322,776 1345,781"/>
         <Word id="region0005_line0003_word0000" custom="readingOrder {index:0;}">
-          <Coords points="270,788 448,789 448,762 363,762 364,752 352,743 343,751 337,751 335,760 270,755"/>
+          <Coords points="448,789 448,762 363,762 364,752 364,752 352,752 337,753 335,760 270,755 270,788"/>
           <TextEquiv>
             <Unicode>medium,</Unicode>
           </TextEquiv>
@@ -153,7 +169,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0001" custom="readingOrder {index:4;}">
-          <Coords points="875,785 969,785 969,748 941,748 934,752 932,760 924,758 925,747 919,743 905,743 901,756 899,743 886,741 875,744"/>
+          <Coords points="969,785 969,748 941,748 934,752 932,760 924,758 925,747 920,744 904,744 901,756 899,744 875,744 875,785"/>
           <TextEquiv>
             <Unicode>ſolet,</Unicode>
           </TextEquiv>
@@ -181,11 +197,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>temperamentum aliquod inſinuat,ut ſemper inter duo extrema,&#13;
+        <Unicode>temperamentum aliquod inſinuat,ut ſemper inter duo extrema,
 medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1683099001387_2306" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1683099001387_2306" custom="readingOrder {index:4;} structure {type:signature-mark;}" orientation="-0.26861987" type="signature-mark" readingDirection="left-to-right">
       <Coords points="816,789 1137,784 1137,859 829,859 816,857"/>
       <TextLine id="line_1671185031274_4725" custom="readingOrder {index:0;}">
         <Coords points="829,796 881,797 902,804 1062,799 1136,800 1137,801 1137,834 1127,844 1042,841 1041,850 1036,855 1018,854 1014,839 1003,836 996,844 983,841 962,847 923,847 921,859 843,859 841,851 829,851"/>
@@ -216,7 +232,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Unicode>2 Ppp ppp</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671185031188_4721" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671185031188_4721" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="-0.26861987" type="catch-word" readingDirection="left-to-right">
       <Coords points="1137,784 1576,777 1576,859 1137,859"/>
       <TextLine id="region0008_line0004" custom="readingOrder {index:0;}">
         <Coords points="1547,780 1540,788 1523,790 1519,790 1518,786 1512,783 1432,784 1428,786 1426,832 1431,837 1515,838 1574,833 1576,781"/>
@@ -235,13 +251,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Unicode>Latii</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" readingDirection="left-to-right" id="TextRegion_1671185098234_4750" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1671185098234_4750" custom="readingOrder {index:6;}" orientation="-0.26861987" readingDirection="left-to-right">
       <Coords points="383,871 1582,871 1582,1550 1570,2587 1069,2604 792,2620 348,2620 345,2616 345,2532"/>
       <TextLine id="line_1671186246709_4920" custom="readingOrder {index:0;}">
         <Coords points="387,898 1237,880 1383,871 1582,872 1582,914 1051,928 758,936 501,946 407,943 384,941"/>
         <Baseline points="384,931 520,936 755,928 793,936 812,934 838,931 1037,907 1144,913 656,911 736,910 1145,912 1582,904"/>
         <Word id="region0012_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="394,936 494,937 492,907 487,908 463,908 457,898 445,901 440,897 392,896"/>
+          <Coords points="494,937 492,907 487,908 463,908 457,898 445,901 440,897 437,896 392,897 394,936"/>
           <TextEquiv>
             <Unicode>Gallos</Unicode>
           </TextEquiv>
@@ -295,7 +311,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0003_word0000" custom="readingOrder {index:9;}">
-          <Coords points="1137,880 1238,880 1238,913 1137,913"/>
+          <Coords points="1137,913 1238,913 1238,880 1237,880 1137,882"/>
           <TextEquiv>
             <Unicode>inſerto.</Unicode>
           </TextEquiv>
@@ -320,13 +336,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="384,943 391,950 1371,923 1555,912 1573,912 1579,915 1582,922 1579,948 639,983 599,987 383,981"/>
         <Baseline points="384,977 611,977 714,964 774,970 1118,954 1119,955 1119,951 1206,951 1208,949 1582,945"/>
         <Word id="word_1671187302051_5461" custom="readingOrder {index:0;}">
-          <Coords points="389,941 403,944 406,952 409,943 412,943 431,942 431,981 389,981"/>
+          <Coords points="406,952 405,949 391,950 389,948 389,981 431,981 431,948 406,949"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187302051_5460" custom="readingOrder {index:1;}">
-          <Coords points="431,942 484,942 499,945 502,951 524,951 535,949 535,982 431,981"/>
+          <Coords points="431,981 535,982 535,949 524,951 502,951 499,946 431,948"/>
           <TextEquiv>
             <Unicode>libro,</Unicode>
           </TextEquiv>
@@ -350,25 +366,25 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187369693_5530" custom="readingOrder {index:5;}">
-          <Coords points="914,940 955,930 1032,930 1032,958 914,959"/>
+          <Coords points="914,940 914,959 1032,958 1032,932 934,935"/>
           <TextEquiv>
             <Unicode>eccleſiæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187373550_5534" custom="readingOrder {index:6;}">
-          <Coords points="1032,930 1070,930 1133,931 1137,946 1137,959 1068,958 1032,958"/>
+          <Coords points="1032,958 1068,958 1137,959 1137,946 1133,931 1099,930 1032,932"/>
           <TextEquiv>
             <Unicode>Amſt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187391256_5538" custom="readingOrder {index:7;}">
-          <Coords points="1141,922 1221,922 1221,961 1141,961"/>
+          <Coords points="1141,961 1221,961 1221,927 1141,929"/>
           <TextEquiv>
             <Unicode>1635</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187433154_5581" custom="readingOrder {index:8;}">
-          <Coords points="1238,925 1274,926 1274,954 1241,954 1238,947"/>
+          <Coords points="1238,947 1241,954 1274,954 1274,926 1268,925 1238,926"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -380,13 +396,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0006_word0001" custom="readingOrder {index:10;}">
-          <Coords points="1413,921 1321,921 1321,958 1336,958 1350,957 1384,958 1388,955 1409,957 1413,956"/>
-          <TextEquiv conf="0.0">
+          <Coords points="1404,921 1371,923 1321,924 1321,958 1388,955 1388,955 1389,955 1413,954 1413,921"/>
+          <TextEquiv conf="0.">
             <Unicode>edito,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0006_word0002" custom="readingOrder {index:11;}">
-          <Coords points="1578,954 1578,924 1437,923 1437,953 1443,953 1443,953 1543,954"/>
+          <Coords points="1578,924 1437,923 1437,953 1443,953 1444,953 1578,948"/>
           <TextEquiv>
             <Unicode>HVLSE-</Unicode>
           </TextEquiv>
@@ -399,7 +415,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="381,994 1260,965 1443,954 1576,955 1582,964 1581,992 1561,997 741,1020 455,1022 383,1027"/>
         <Baseline points="383,1020 568,1010 808,1012 935,1000 939,999 1129,1000 1176,992 1581,983"/>
         <Word id="word_1671187467697_5615" custom="readingOrder {index:0;}">
-          <Coords points="391,986 462,986 467,989 468,997 479,997 486,990 527,990 540,985 573,985 584,987 584,1016 391,1015"/>
+          <Coords points="479,997 468,997 467,991 391,993 391,1015 584,1016 584,987 529,989 527,990 502,990 485,990"/>
           <TextEquiv>
             <Unicode>MANNVS</Unicode>
           </TextEquiv>
@@ -423,7 +439,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0002" custom="readingOrder {index:4;}">
-          <Coords points="721,982 724,1026 797,1025 795,992 792,988 787,981"/>
+          <Coords points="723,1020 741,1020 796,1018 795,992 792,988 787,981 764,981 721,982"/>
           <TextEquiv>
             <Unicode>Jure</Unicode>
           </TextEquiv>
@@ -435,7 +451,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0004" custom="readingOrder {index:6;}">
-          <Coords points="848,977 1037,968 1036,1001 847,1010"/>
+          <Coords points="847,1010 1036,1001 1036,972 847,978"/>
           <TextEquiv>
             <Unicode>moderatioue</Unicode>
           </TextEquiv>
@@ -447,14 +463,14 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0008_word0001" custom="readingOrder {index:8;}">
-          <Coords points="1258,961 1250,962 1249,997 1295,996 1397,997 1401,997 1402,962 1311,961 1296,963 1280,963 1277,961"/>
+          <Coords points="1249,997 1295,996 1397,997 1401,997 1402,962 1324,961 1298,962 1296,963 1293,963 1260,965 1249,965"/>
           <TextEquiv>
             <Unicode>fraternæ,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0008_word0002" custom="readingOrder {index:9;}">
           <Coords points="1576,967 1416,963 1415,990 1548,993 1557,995 1562,995 1568,993 1575,992"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>HOORN-</Unicode>
           </TextEquiv>
         </Word>
@@ -465,7 +481,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
       <TextLine id="line_1671185644496_4897" custom="readingOrder {index:3;}">
         <Coords points="383,1028 1034,1010 1549,1001 1581,1000 1581,1037 944,1056 893,1067 393,1063 383,1051"/>
         <Word id="region0012_line0012_word0000" custom="readingOrder {index:0;}">
-          <Coords points="393,1065 561,1064 558,1026 390,1028"/>
+          <Coords points="561,1064 558,1026 390,1028 393,1063 393,1063 536,1064"/>
           <TextEquiv>
             <Unicode>BECKIVS</Unicode>
           </TextEquiv>
@@ -495,7 +511,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0011_word0000" custom="readingOrder {index:5;}">
-          <Coords points="1023,1043 1168,1037 1165,1004 1060,1012 1057,1018 1040,1016 1023,1016"/>
+          <Coords points="1168,1037 1165,1007 1101,1008 1060,1012 1057,1018 1040,1016 1023,1016 1023,1043"/>
           <TextEquiv>
             <Unicode>IIl.C.X.</Unicode>
           </TextEquiv>
@@ -531,43 +547,43 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0016_word0001" custom="readingOrder {index:1;}">
-          <Coords points="633,1076 489,1074 489,1115 544,1116 547,1111 588,1111 596,1104 606,1104 610,1101 633,1102"/>
+          <Coords points="489,1074 489,1110 509,1109 594,1105 596,1104 606,1104 610,1101 633,1102 633,1076"/>
           <TextEquiv>
             <Unicode>Epiſcopis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0016_word0002" custom="readingOrder {index:2;}">
-          <Coords points="654,1066 681,1066 683,1104 656,1104"/>
+          <Coords points="681,1067 654,1068 655,1102 682,1101"/>
           <TextEquiv>
             <Unicode>L.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187789532_5867" custom="readingOrder {index:3;}">
-          <Coords points="695,1065 756,1065 756,1100 695,1100"/>
+          <Coords points="756,1065 695,1067 695,1100 714,1100 756,1098"/>
           <TextEquiv>
             <Unicode>IV.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0016_word0003" custom="readingOrder {index:4;}">
-          <Coords points="804,1063 772,1063 772,1103 804,1103"/>
+          <Coords points="772,1097 804,1096 804,1064 772,1065"/>
           <TextEquiv>
             <Unicode>C.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0016_word0004" custom="readingOrder {index:5;}">
-          <Coords points="851,1067 828,1066 830,1103 853,1103"/>
+          <Coords points="828,1066 829,1094 852,1093 851,1067"/>
           <TextEquiv>
             <Unicode>X.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0015_word0002" custom="readingOrder {index:6;}">
-          <Coords points="877,1094 958,1093 961,1053 944,1057 880,1057"/>
+          <Coords points="960,1059 879,1062 877,1092 958,1089"/>
           <TextEquiv>
             <Unicode>SAM.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187807732_5876" custom="readingOrder {index:7;}">
-          <Coords points="997,1049 998,1051 1071,1051 1081,1048 1112,1049 1120,1046 1181,1044 1192,1044 1198,1050 1226,1049 1226,1073 999,1091"/>
+          <Coords points="1226,1073 1226,1049 997,1058 998,1087 1083,1084"/>
           <TextEquiv>
             <Unicode>POMARIVS,</Unicode>
           </TextEquiv>
@@ -579,13 +595,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0015_word0004" custom="readingOrder {index:9;}">
-          <Coords points="1289,1068 1352,1068 1352,1044 1349,1045 1338,1045 1328,1039 1316,1039 1306,1048 1289,1047"/>
+          <Coords points="1352,1068 1352,1044 1351,1044 1349,1045 1338,1045 1338,1045 1308,1046 1306,1048 1289,1047 1289,1068"/>
           <TextEquiv>
             <Unicode>octo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0015_word0005" custom="readingOrder {index:10;}">
-          <Coords points="1495,1036 1483,1042 1443,1042 1435,1038 1382,1037 1376,1042 1375,1042 1375,1068 1570,1069 1570,1044 1565,1044 1561,1036 1547,1036 1541,1041 1512,1041 1507,1037 1503,1036"/>
+          <Coords points="1483,1042 1443,1042 1440,1040 1375,1043 1375,1068 1488,1068 1570,1065 1570,1044 1565,1044 1561,1036 1546,1036 1541,1041 1512,1041 1508,1038 1489,1038"/>
           <TextEquiv>
             <Unicode>diſſertationi-</Unicode>
           </TextEquiv>
@@ -616,7 +632,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671187943032_6034" custom="readingOrder {index:3;}">
-          <Coords points="790,1108 858,1108 894,1109 985,1116 985,1141 925,1141 790,1139"/>
+          <Coords points="925,1141 985,1141 985,1139 881,1137 868,1140"/>
           <TextEquiv>
             <Unicode>Theologica</Unicode>
           </TextEquiv>
@@ -671,13 +687,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0018_word0004" custom="readingOrder {index:4;}">
-          <Coords points="912,1136 906,1142 901,1142 901,1174 935,1174 935,1143 927,1143 917,1136"/>
+          <Coords points="908,1139 921,1138 917,1136 912,1136"/>
           <TextEquiv>
             <Unicode>de</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0018_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1120,1134 957,1133 958,1174 1057,1174 1059,1172 1063,1174 1084,1174 1088,1172 1118,1171 1121,1163"/>
+          <Coords points="1011,1133 957,1133 957,1138 983,1137 1011,1134 1015,1137 1029,1137 1033,1134 1043,1134 1099,1135 1101,1134 1033,1133 1029,1129 1015,1129"/>
           <TextEquiv>
             <Unicode>Theologo</Unicode>
           </TextEquiv>
@@ -695,7 +711,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0017_word0006" custom="readingOrder {index:8;}">
-          <Coords points="1438,1156 1569,1157 1569,1129 1560,1128 1558,1123 1547,1120 1514,1121 1506,1126 1500,1122 1467,1123 1461,1129 1438,1129"/>
+          <Coords points="1475,1123 1466,1124 1476,1123 1479,1127 1498,1126 1501,1123 1503,1124 1498,1118 1479,1119"/>
           <TextEquiv conf="0.8872353">
             <Unicode>miſcella-</Unicode>
           </TextEquiv>
@@ -708,25 +724,25 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="383,1206 488,1199 1091,1180 1519,1169 1531,1164 1556,1165 1577,1171 1582,1180 1581,1203 845,1226 494,1232 383,1240"/>
         <Baseline points="383,1227 853,1230 1143,1193 1151,1210 1581,1200"/>
         <Word id="region0012_line0020_word0000" custom="readingOrder {index:0;}">
-          <Coords points="391,1202 450,1204 454,1232 396,1233"/>
+          <Coords points="396,1233 454,1232 450,1204 425,1203 391,1205"/>
           <TextEquiv>
             <Unicode>neis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188185700_6245" custom="readingOrder {index:1;}">
-          <Coords points="482,1195 488,1195 516,1198 520,1203 571,1203 571,1235 484,1235"/>
+          <Coords points="571,1203 520,1203 516,1198 488,1199 482,1199 483,1232 494,1232 571,1230"/>
           <TextEquiv>
             <Unicode>ſacris</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188188689_6250" custom="readingOrder {index:2;}">
-          <Coords points="583,1196 604,1196 611,1203 643,1204 695,1201 695,1235 571,1235 571,1203 576,1203"/>
+          <Coords points="695,1201 643,1204 611,1203 604,1196 583,1196 583,1196 576,1203 571,1203 571,1231 695,1229"/>
           <TextEquiv>
             <Unicode>Tomo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188188689_6249" custom="readingOrder {index:3;}">
-          <Coords points="695,1201 705,1201 709,1194 714,1192 747,1191 749,1236 695,1235"/>
+          <Coords points="747,1191 714,1192 709,1194 705,1201 695,1201 695,1228 748,1227"/>
           <TextEquiv>
             <Unicode>II.</Unicode>
           </TextEquiv>
@@ -738,19 +754,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188248009_6310" custom="readingOrder {index:5;}">
-          <Coords points="856,1195 870,1195 875,1199 877,1206 883,1194 893,1192 894,1190 903,1186 1000,1184 1000,1224 856,1223"/>
+          <Coords points="1000,1184 903,1186 894,1190 893,1192 883,1194 877,1206 875,1199 870,1195 856,1195 856,1223 925,1223 1000,1221"/>
           <TextEquiv>
             <Unicode>FRID.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188266829_6327" custom="readingOrder {index:6;}">
-          <Coords points="1000,1184 1153,1175 1262,1175 1271,1178 1271,1207 1035,1225 1000,1224"/>
+          <Coords points="1000,1184 1000,1221 1144,1216 1271,1207 1271,1178 1263,1175 1091,1180 1041,1181"/>
           <TextEquiv>
             <Unicode>SPANIIEMIVS</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188309292_6356" custom="readingOrder {index:7;}">
-          <Coords points="1291,1173 1297,1173 1303,1176 1326,1176 1326,1205 1290,1205"/>
+          <Coords points="1290,1205 1326,1205 1326,1176 1303,1176 1300,1174 1290,1174"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -768,7 +784,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0019_word0003" custom="readingOrder {index:10;}">
-          <Coords points="1449,1204 1566,1205 1567,1171 1453,1170 1452,1173 1449,1173"/>
+          <Coords points="1527,1204 1566,1203 1567,1171 1473,1170 1452,1170 1452,1173 1449,1173 1449,1204"/>
           <TextEquiv conf="0.8404123">
             <Unicode>diſſidiis</Unicode>
           </TextEquiv>
@@ -781,7 +797,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1468,1209 1460,1215 1431,1215 1424,1210 1413,1210 1408,1216 1384,1216 1379,1211 1314,1212 1304,1215 1301,1220 1262,1220 1252,1222 1241,1222 1238,1216 1226,1215 1219,1217 1216,1222 1160,1227 1140,1227 1135,1223 1111,1220 1107,1223 1082,1224 1075,1230 1065,1231 1026,1230 1017,1222 1000,1224 993,1228 978,1226 971,1233 953,1234 949,1241 947,1233 938,1230 904,1232 879,1239 841,1243 791,1240 776,1243 553,1245 519,1251 510,1256 496,1255 490,1245 451,1245 441,1239 419,1238 413,1241 383,1241 383,1283 438,1285 442,1282 453,1284 460,1281 469,1284 517,1284 523,1291 532,1291 539,1283 576,1279 610,1282 618,1279 639,1282 662,1279 770,1279 775,1275 853,1276 858,1272 899,1269 928,1274 935,1269 1029,1270 1045,1267 1086,1268 1093,1261 1098,1264 1153,1265 1166,1269 1177,1263 1233,1260 1243,1255 1256,1255 1261,1259 1314,1258 1319,1253 1334,1252 1400,1255 1442,1251 1451,1255 1469,1252 1507,1255 1522,1252 1581,1252 1581,1212 1489,1214 1484,1217 1478,1210"/>
         <Baseline points="383,1273 643,1274 1581,1242"/>
         <Word id="region0012_line0021_word0000" custom="readingOrder {index:0;}">
-          <Coords points="419,1238 388,1241 388,1282 493,1282 654,1276 657,1244"/>
+          <Coords points="388,1282 442,1282 457,1282 460,1281 463,1282 493,1282 654,1276 656,1244 553,1245 519,1251 510,1256 496,1255 490,1245 451,1245 441,1239 419,1238 413,1241 388,1241"/>
           <TextEquiv>
             <Unicode>Theologorum,</Unicode>
           </TextEquiv>
@@ -793,7 +809,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0021_word0002" custom="readingOrder {index:2;}">
-          <Coords points="855,1271 962,1271 960,1233 953,1234 949,1241 947,1233 938,1230 904,1232 879,1239 853,1241"/>
+          <Coords points="871,1271 899,1269 910,1271 932,1271 935,1269 961,1269 960,1233 953,1234 949,1241 947,1233 938,1230 904,1232 879,1239 853,1241 855,1271"/>
           <TextEquiv>
             <Unicode>cauſis;</Unicode>
           </TextEquiv>
@@ -842,7 +858,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188398567_6396" custom="readingOrder {index:1;}">
-          <Coords points="484,1282 525,1282 525,1318 484,1318"/>
+          <Coords points="484,1318 525,1318 525,1283 484,1285"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -896,7 +912,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0023_word0005" custom="readingOrder {index:10;}">
-          <Coords points="1568,1265 1498,1265 1498,1292 1506,1291 1509,1295 1564,1295 1568,1295"/>
+          <Coords points="1498,1265 1498,1292 1506,1291 1507,1292 1552,1291 1568,1293 1568,1265"/>
           <TextEquiv conf="0.8361603">
             <Unicode>opp.</Unicode>
           </TextEquiv>
@@ -909,7 +925,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1498,1292 1491,1297 1427,1297 1384,1293 1355,1294 1348,1299 1291,1297 1284,1302 1265,1303 1259,1302 1252,1297 1225,1298 1218,1306 1162,1305 1106,1312 1051,1312 1033,1306 989,1308 981,1311 978,1319 974,1316 965,1316 960,1320 946,1311 934,1311 929,1317 909,1311 868,1312 854,1316 840,1314 835,1320 829,1316 785,1318 754,1326 677,1322 546,1325 506,1323 497,1328 477,1328 471,1333 470,1340 462,1332 452,1332 445,1340 444,1329 433,1323 423,1326 384,1326 384,1366 428,1371 454,1368 536,1368 543,1364 554,1367 612,1367 626,1367 630,1364 664,1367 690,1365 701,1359 792,1359 797,1355 806,1354 867,1355 871,1358 880,1358 889,1354 902,1358 930,1355 941,1349 952,1352 964,1348 973,1351 1004,1351 1095,1342 1122,1342 1128,1341 1133,1335 1139,1336 1143,1341 1178,1342 1198,1348 1204,1340 1230,1337 1279,1338 1321,1334 1352,1336 1399,1332 1433,1342 1443,1339 1445,1335 1457,1335 1463,1331 1506,1332 1514,1337 1527,1336 1536,1330 1582,1333 1581,1296 1564,1296 1553,1300 1512,1300 1506,1292"/>
         <Baseline points="384,1356 659,1357 1145,1332 1582,1323"/>
         <Word id="word_1671188437559_6422" custom="readingOrder {index:0;}">
-          <Coords points="391,1326 433,1323 637,1322 677,1322 697,1323 697,1328 697,1364 598,1365 392,1364"/>
+          <Coords points="697,1328 697,1323 677,1322 546,1325 506,1323 497,1328 477,1328 471,1333 470,1340 462,1332 452,1332 445,1340 444,1329 433,1323 423,1326 391,1326 392,1364 541,1364 543,1364 545,1364 598,1365 629,1364 630,1364 636,1364 691,1364 697,1361"/>
           <TextEquiv>
             <Unicode>C.X.FECHTIVS</Unicode>
           </TextEquiv>
@@ -921,7 +937,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0026_word0003" custom="readingOrder {index:2;}">
-          <Coords points="815,1355 809,1319 753,1321 758,1358"/>
+          <Coords points="809,1319 777,1320 754,1326 754,1326 758,1358 796,1356 797,1355 806,1354 815,1354"/>
           <TextEquiv>
             <Unicode>diſſ.</Unicode>
           </TextEquiv>
@@ -933,13 +949,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0026_word0005" custom="readingOrder {index:4;}">
-          <Coords points="883,1350 978,1350 974,1322 973,1322 970,1316 960,1314 945,1317 933,1317 928,1323 908,1317 881,1317"/>
+          <Coords points="939,1350 941,1349 944,1350 958,1350 964,1348 970,1350 978,1350 974,1322 973,1322 970,1316 965,1316 960,1320 952,1315 945,1317 933,1317 928,1323 908,1317 881,1317 883,1350"/>
           <TextEquiv>
             <Unicode>ſtudia</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188474937_6430" custom="readingOrder {index:5;}">
-          <Coords points="999,1307 1033,1306 1171,1306 1175,1335 1115,1340 999,1339"/>
+          <Coords points="1175,1335 1171,1306 1154,1306 1106,1312 1051,1312 1033,1306 999,1307 999,1339 1115,1340 1129,1338 1133,1335 1139,1336 1140,1337"/>
           <TextEquiv>
             <Unicode>Theologiæ</Unicode>
           </TextEquiv>
@@ -970,19 +986,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1536,1331 1528,1339 1514,1338 1506,1333 1463,1332 1456,1338 1445,1338 1433,1343 1399,1333 1352,1337 1321,1335 1279,1339 1230,1338 1204,1341 1198,1349 1178,1343 1143,1342 1139,1337 1133,1336 1128,1342 1122,1343 1039,1347 1030,1350 1029,1354 975,1354 967,1349 952,1353 941,1350 931,1355 930,1362 899,1359 889,1355 873,1361 867,1356 806,1355 795,1357 791,1365 773,1365 767,1358 756,1358 748,1365 740,1365 732,1359 701,1360 694,1367 646,1369 641,1365 630,1365 625,1373 615,1378 594,1373 516,1372 499,1376 457,1375 448,1384 407,1375 406,1371 399,1367 386,1367 383,1408 412,1410 421,1414 448,1414 481,1420 507,1418 510,1407 529,1407 535,1410 606,1409 643,1408 658,1403 670,1403 676,1409 686,1412 697,1409 701,1403 767,1402 774,1398 825,1399 849,1395 892,1398 923,1393 969,1393 979,1387 1012,1386 1017,1376 1027,1385 1096,1390 1113,1383 1236,1384 1297,1382 1311,1376 1327,1380 1333,1375 1380,1375 1384,1378 1467,1378 1476,1375 1582,1377 1582,1338 1556,1338 1552,1332"/>
         <Baseline points="498,1403 1007,1376 1582,1368"/>
         <Word id="word_1671188503643_6438" custom="readingOrder {index:0;}">
-          <Coords points="389,1372 431,1370 431,1411 389,1411"/>
+          <Coords points="389,1372 389,1408 412,1410 414,1411 431,1411 431,1380 407,1375 406,1371"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188505716_6443" custom="readingOrder {index:1;}">
-          <Coords points="431,1370 588,1366 588,1411 431,1411"/>
+          <Coords points="588,1372 516,1372 499,1376 457,1375 448,1384 431,1380 431,1411 508,1411 510,1407 529,1407 535,1410 588,1409"/>
           <TextEquiv>
             <Unicode>apparatu</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188505716_6442" custom="readingOrder {index:2;}">
-          <Coords points="588,1366 634,1365 641,1369 642,1411 588,1411"/>
+          <Coords points="629,1365 625,1373 615,1378 594,1373 588,1372 588,1409 606,1409 641,1408 641,1369 634,1365"/>
           <TextEquiv>
             <Unicode>ad</Unicode>
           </TextEquiv>
@@ -994,7 +1010,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0027_word0002" custom="readingOrder {index:4;}">
-          <Coords points="822,1384 1035,1385 1035,1348 1030,1350 1029,1354 975,1354 967,1349 952,1353 941,1350 931,1355 930,1362 899,1359 889,1355 873,1361 867,1356 822,1355"/>
+          <Coords points="1012,1384 1017,1376 1026,1384 1035,1385 1035,1348 1030,1350 1029,1354 975,1354 967,1349 952,1353 941,1350 931,1355 930,1362 899,1359 889,1355 873,1361 867,1356 822,1355 822,1384"/>
           <TextEquiv>
             <Unicode>Marbachianas</Unicode>
           </TextEquiv>
@@ -1043,13 +1059,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1476,1376 1466,1381 1394,1382 1385,1382 1380,1376 1333,1376 1326,1385 1323,1379 1311,1377 1295,1385 1171,1389 1146,1389 1140,1384 1113,1384 1099,1390 1097,1395 1075,1394 1071,1391 1058,1394 1057,1390 1051,1387 1027,1386 1017,1377 1012,1387 979,1388 972,1395 923,1394 876,1401 869,1401 862,1396 849,1396 829,1403 822,1403 814,1398 774,1399 765,1405 708,1407 686,1413 674,1409 670,1404 658,1404 643,1409 572,1414 536,1413 529,1408 510,1408 507,1419 489,1421 456,1417 417,1417 412,1411 383,1409 383,1450 566,1449 571,1453 590,1455 626,1454 630,1447 741,1445 748,1440 756,1440 763,1444 813,1443 823,1448 834,1447 835,1442 842,1437 863,1440 869,1437 913,1436 926,1441 941,1442 950,1440 958,1434 972,1437 977,1433 1023,1428 1070,1431 1076,1428 1105,1426 1151,1429 1162,1426 1171,1430 1179,1424 1186,1423 1195,1431 1200,1431 1213,1421 1251,1422 1257,1425 1324,1424 1335,1428 1354,1419 1364,1418 1440,1420 1459,1416 1581,1418 1582,1381 1535,1380 1529,1376"/>
         <Baseline points="383,1439 448,1436 609,1444 633,1436 959,1428 1027,1420 1581,1409"/>
         <Word id="word_1671188549784_6479" custom="readingOrder {index:0;}">
-          <Coords points="391,1417 510,1408 521,1408 572,1414 571,1447 518,1447 388,1445"/>
+          <Coords points="391,1417 388,1445 518,1447 571,1447 572,1414 536,1413 530,1409 521,1408 510,1408 507,1419 489,1421 456,1417 417,1417 415,1415"/>
           <TextEquiv>
             <Unicode>beatitudine</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188557476_6483" custom="readingOrder {index:1;}">
-          <Coords points="593,1412 658,1404 769,1402 769,1441 587,1446 593,1417"/>
+          <Coords points="769,1441 769,1402 765,1405 708,1407 686,1413 674,1409 670,1404 658,1404 643,1409 593,1412 593,1417 587,1446 745,1441 748,1440 756,1440 758,1441"/>
           <TextEquiv>
             <Unicode>pacificorum</Unicode>
           </TextEquiv>
@@ -1110,49 +1126,49 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="385,1458 1215,1429 1364,1419 1508,1417 1563,1417 1581,1427 1580,1459 1571,1454 621,1481 591,1485 384,1489 383,1473 383,1472"/>
         <Baseline points="383,1465 454,1468 383,1487 458,1485 460,1485 544,1482 591,1484 663,1470 773,1473 1581,1448"/>
         <Word id="word_1671188584527_6494" custom="readingOrder {index:0;}">
-          <Coords points="388,1462 469,1450 543,1451 541,1487 450,1493 388,1493"/>
+          <Coords points="388,1462 388,1488 541,1485 542,1452 424,1456"/>
           <TextEquiv>
             <Unicode>PRÆSES</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188614121_6504" custom="readingOrder {index:1;}">
-          <Coords points="553,1447 598,1445 598,1485 547,1485"/>
+          <Coords points="598,1450 552,1452 547,1485 591,1485 598,1484"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188614121_6503" custom="readingOrder {index:2;}">
-          <Coords points="598,1445 748,1441 756,1441 797,1444 816,1446 813,1475 731,1485 598,1485"/>
+          <Coords points="813,1475 816,1446 797,1444 793,1443 598,1450 598,1484 621,1481 807,1475"/>
           <TextEquiv>
             <Unicode>programmate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0031_word0002" custom="readingOrder {index:3;}">
-          <Coords points="833,1470 869,1471 869,1438 864,1440 862,1445 858,1445 852,1438 842,1438 833,1446"/>
+          <Coords points="869,1471 869,1441 863,1441 862,1445 858,1445 855,1441 837,1442 833,1446 833,1470"/>
           <TextEquiv conf="0.90574694">
             <Unicode>de</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188623099_6510" custom="readingOrder {index:4;}">
-          <Coords points="884,1437 913,1437 926,1442 941,1443 950,1441 958,1435 972,1438 977,1434 990,1432 990,1470 885,1470"/>
+          <Coords points="950,1441 941,1443 926,1442 919,1439 884,1441 885,1470 990,1470 990,1437 973,1437 972,1438 970,1438 954,1438"/>
           <TextEquiv>
             <Unicode>Cand.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188623099_6509" custom="readingOrder {index:5;}">
-          <Coords points="990,1432 1023,1429 1042,1429 1049,1438 1069,1437 1070,1432 1076,1429 1093,1427 1094,1471 990,1470"/>
+          <Coords points="1069,1437 1049,1438 1046,1434 990,1436 990,1470 1003,1470 1093,1467 1093,1433 1069,1434"/>
           <TextEquiv>
             <Unicode>Theol.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0031_word0004" custom="readingOrder {index:6;}">
-          <Coords points="1112,1456 1211,1456 1211,1424 1209,1424 1208,1425 1206,1431 1200,1432 1195,1432 1186,1424 1177,1426 1173,1432 1162,1427 1153,1430 1112,1427"/>
+          <Coords points="1211,1456 1211,1429 1206,1429 1206,1431 1200,1432 1195,1432 1192,1429 1174,1430 1173,1432 1169,1430 1112,1432 1112,1456"/>
           <TextEquiv conf="0.66566104">
             <Unicode>Celeb.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0031_word0005" custom="readingOrder {index:7;}">
-          <Coords points="1226,1425 1226,1462 1364,1463 1364,1426 1341,1425 1335,1429 1326,1426 1258,1428 1254,1425"/>
+          <Coords points="1226,1462 1276,1462 1364,1459 1364,1426 1341,1425 1335,1429 1326,1426 1258,1428 1255,1426 1226,1428"/>
           <TextEquiv conf="0.8934159">
             <Unicode>Reutero,</Unicode>
           </TextEquiv>
@@ -1164,7 +1180,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0031_word0007" custom="readingOrder {index:9;}">
-          <Coords points="1469,1426 1469,1457 1572,1458 1572,1427 1568,1427 1568,1427"/>
+          <Coords points="1469,1457 1571,1454 1572,1455 1572,1427 1568,1427 1469,1426"/>
           <TextEquiv conf="0.86548567">
             <Unicode>MVL-</Unicode>
           </TextEquiv>
@@ -1177,19 +1193,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1468,1459 1455,1463 1401,1462 1395,1467 1358,1470 1343,1467 1172,1473 1143,1469 1137,1472 1117,1473 1109,1468 1102,1468 1092,1474 1059,1476 1024,1472 1018,1476 985,1479 982,1475 972,1474 961,1478 931,1474 919,1479 855,1485 845,1491 825,1488 824,1482 817,1479 802,1482 800,1488 794,1487 789,1481 719,1482 714,1484 712,1489 684,1488 677,1492 663,1488 634,1493 622,1486 391,1491 386,1532 578,1532 888,1517 916,1513 1154,1510 1159,1507 1212,1505 1251,1506 1260,1512 1304,1508 1309,1512 1320,1513 1342,1502 1398,1504 1431,1500 1490,1501 1496,1498 1509,1505 1516,1501 1533,1499 1581,1499 1581,1465 1500,1466 1492,1461 1480,1463"/>
         <Baseline points="743,1516 804,1511 1581,1492"/>
         <Word id="word_1671188639837_6519" custom="readingOrder {index:0;}">
-          <Coords points="387,1491 534,1491 534,1527 516,1527 502,1532 457,1532 453,1535 387,1535"/>
+          <Coords points="516,1527 534,1527 534,1491 391,1491 387,1523 387,1532 457,1532 502,1532"/>
           <TextEquiv>
             <Unicode>LERVS,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0033_word0000" custom="readingOrder {index:1;}">
-          <Coords points="720,1482 719,1482 663,1488 551,1489 556,1524 721,1523"/>
+          <Coords points="719,1482 714,1484 712,1489 684,1488 677,1492 663,1488 634,1493 625,1488 551,1489 556,1524 721,1523 720,1482"/>
           <TextEquiv>
             <Unicode>Præpoſitus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0033_word0001" custom="readingOrder {index:2;}">
-          <Coords points="737,1517 957,1518 955,1477 931,1474 919,1479 855,1485 845,1491 825,1488 824,1482 817,1479 802,1482 800,1488 794,1487 789,1481 735,1481"/>
+          <Coords points="875,1517 888,1517 916,1513 956,1512 955,1477 931,1474 919,1479 855,1485 845,1491 825,1488 824,1482 817,1479 802,1482 800,1488 794,1487 789,1481 735,1481 737,1517"/>
           <TextEquiv>
             <Unicode>Kembergenſis</Unicode>
           </TextEquiv>
@@ -1261,7 +1277,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188694279_6550" custom="readingOrder {index:3;}">
-          <Coords points="821,1528 867,1523 901,1523 901,1554 850,1560 823,1556 823,1543"/>
+          <Coords points="901,1554 901,1523 867,1523 821,1528 823,1543 823,1556 830,1557 895,1554"/>
           <TextEquiv>
             <Unicode>15.16.</Unicode>
           </TextEquiv>
@@ -1273,19 +1289,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188699716_6554" custom="readingOrder {index:5;}">
-          <Coords points="979,1519 1030,1516 1182,1517 1182,1546 979,1545"/>
+          <Coords points="1182,1517 1030,1516 979,1519 979,1545 1126,1545 1182,1543"/>
           <TextEquiv>
             <Unicode>moderamine</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188706656_6559" custom="readingOrder {index:6;}">
-          <Coords points="1199,1511 1224,1512 1368,1507 1365,1541 1321,1546 1228,1546 1200,1541 1199,1528"/>
+          <Coords points="1368,1507 1224,1512 1199,1511 1199,1528 1200,1541 1208,1542 1365,1536"/>
           <TextEquiv>
             <Unicode>Venerandi</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0035_word0003" custom="readingOrder {index:7;}">
-          <Coords points="1413,1503 1398,1505 1381,1504 1381,1544 1482,1544 1564,1543 1564,1504 1512,1503 1509,1506 1504,1503"/>
+          <Coords points="1398,1505 1381,1504 1381,1535 1564,1528 1564,1504 1512,1503 1509,1506 1504,1503 1413,1503"/>
           <TextEquiv>
             <Unicode>PRÆSIDIS</Unicode>
           </TextEquiv>
@@ -1298,13 +1314,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="380,1581 467,1573 677,1561 1401,1541 1489,1539 1501,1539 1570,1545 1570,1584 1077,1591 720,1599 436,1616 381,1613"/>
         <Baseline points="381,1605 636,1598 730,1602 432,1587 506,1587 900,1579 1054,1586 1570,1574"/>
         <Word id="region0014_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="389,1576 454,1577 454,1611 389,1610"/>
+          <Coords points="389,1610 454,1611 454,1577 427,1576 389,1580"/>
           <TextEquiv>
             <Unicode>mei</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188730553_6575" custom="readingOrder {index:1;}">
-          <Coords points="472,1575 506,1579 602,1575 600,1606 594,1609 475,1609 472,1586"/>
+          <Coords points="600,1606 602,1575 506,1579 472,1575 472,1586 475,1609 553,1609 600,1606"/>
           <TextEquiv>
             <Unicode>Wittenb.</Unicode>
           </TextEquiv>
@@ -1316,7 +1332,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188759000_6588" custom="readingOrder {index:3;}">
-          <Coords points="730,1562 744,1565 750,1561 796,1561 802,1565 839,1565 841,1598 724,1600 724,1565"/>
+          <Coords points="839,1565 802,1565 796,1561 750,1561 744,1565 730,1562 724,1565 724,1598 840,1596"/>
           <TextEquiv>
             <Unicode>habita</Unicode>
           </TextEquiv>
@@ -1365,7 +1381,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1448,1581 1446,1587 1360,1588 1358,1582 1338,1582 1336,1588 1214,1593 1204,1593 1197,1585 1119,1585 981,1591 981,1581 978,1581 934,1582 935,1592 926,1593 925,1582 904,1582 903,1593 815,1595 801,1599 742,1599 727,1609 713,1613 673,1612 666,1607 657,1607 648,1612 617,1615 611,1607 598,1607 592,1614 558,1614 538,1619 509,1614 502,1610 434,1619 425,1616 381,1614 381,1668 419,1669 429,1661 456,1661 471,1656 652,1652 658,1648 680,1648 692,1656 711,1656 722,1654 732,1648 746,1650 794,1645 834,1646 841,1637 855,1646 907,1640 924,1642 941,1638 1060,1636 1205,1627 1331,1624 1383,1624 1389,1627 1528,1627 1536,1622 1575,1625 1575,1587 1542,1587 1540,1582 1520,1582 1518,1586 1513,1587 1473,1588 1470,1582"/>
         <Baseline points="381,1635 416,1653 474,1644 711,1645 761,1637 1166,1621 1575,1615"/>
         <Word id="word_1671188782947_6600" custom="readingOrder {index:0;}">
-          <Coords points="387,1614 502,1610 555,1614 562,1653 450,1661 386,1660"/>
+          <Coords points="562,1653 555,1614 538,1619 509,1614 502,1610 434,1619 425,1616 386,1614 386,1660 450,1661 457,1660 471,1656 541,1654"/>
           <TextEquiv>
             <Unicode>Jenenſium</Unicode>
           </TextEquiv>
@@ -1377,13 +1393,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0002_word0004" custom="readingOrder {index:2;}">
-          <Coords points="766,1640 880,1641 880,1593 815,1595 801,1599 766,1599"/>
+          <Coords points="838,1640 841,1637 846,1640 880,1641 880,1593 815,1595 801,1599 766,1599 766,1640"/>
           <TextEquiv conf="0.343033">
             <Unicode>MICH.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0002_word0005" custom="readingOrder {index:3;}">
-          <Coords points="896,1631 1171,1632 1171,1590 1119,1590 981,1596 981,1586 978,1586 934,1587 935,1597 926,1598 925,1587 904,1587 903,1598 896,1598"/>
+          <Coords points="1127,1632 1171,1629 1171,1590 1119,1590 981,1596 981,1591 981,1586 978,1586 934,1587 935,1592 935,1592 935,1597 926,1598 925,1587 904,1587 903,1598 896,1598 896,1631"/>
           <TextEquiv>
             <Unicode>FOERTSCHIVS</Unicode>
           </TextEquiv>
@@ -1432,14 +1448,14 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0003_word0001" custom="readingOrder {index:2;}">
-          <Coords points="502,1692 698,1693 699,1657 692,1657 680,1649 658,1649 651,1654 638,1655 630,1661 506,1657 503,1658"/>
+          <Coords points="528,1692 531,1688 546,1692 679,1692 685,1689 693,1689 695,1692 698,1693 699,1657 692,1657 680,1649 658,1649 651,1654 638,1655 630,1661 506,1657 502,1658 502,1692"/>
           <TextEquiv>
             <Unicode>controverſiis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0003_word0002" custom="readingOrder {index:3;}">
           <Coords points="723,1683 799,1683 799,1649 754,1652 732,1649 723,1654"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Jenæ</Unicode>
           </TextEquiv>
         </Word>
@@ -1499,13 +1515,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1515,1667 1492,1669 1487,1672 1482,1670 1476,1674 1462,1668 1430,1669 1420,1674 1409,1670 1361,1669 1355,1672 1354,1676 1255,1679 1250,1679 1243,1673 1232,1673 1225,1679 1197,1679 1195,1676 1182,1674 1172,1680 1156,1681 1149,1681 1142,1675 1118,1675 1072,1678 1064,1685 1046,1680 1035,1685 961,1687 947,1691 942,1690 943,1680 937,1679 927,1688 861,1690 855,1695 822,1693 815,1688 809,1688 803,1693 784,1693 773,1687 762,1687 746,1692 739,1699 720,1702 699,1701 695,1691 685,1690 678,1695 677,1700 645,1701 631,1695 623,1695 616,1700 528,1702 518,1708 492,1707 490,1699 486,1697 472,1700 469,1706 460,1706 452,1701 380,1701 380,1742 465,1742 527,1747 554,1743 558,1739 570,1737 577,1748 600,1748 607,1746 612,1739 625,1737 722,1735 755,1730 849,1728 861,1731 877,1727 940,1725 960,1729 1028,1720 1088,1720 1094,1724 1114,1724 1183,1720 1202,1716 1209,1724 1230,1725 1257,1716 1271,1720 1344,1716 1348,1713 1374,1716 1384,1711 1399,1711 1406,1715 1418,1711 1506,1716 1568,1712 1574,1715 1575,1667"/>
         <Baseline points="380,1735 522,1737 1309,1706 1574,1705"/>
         <Word id="region0014_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="384,1742 569,1743 570,1701 528,1702 518,1708 492,1707 490,1699 486,1697 472,1700 469,1706 460,1706 452,1701 385,1701"/>
+          <Coords points="554,1742 558,1739 569,1737 569,1701 528,1702 518,1708 492,1707 490,1699 486,1697 472,1700 469,1706 460,1706 452,1701 385,1701 384,1742 465,1742 470,1742"/>
           <TextEquiv>
             <Unicode>Theologiæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0004_word0002" custom="readingOrder {index:1;}">
-          <Coords points="585,1735 733,1736 733,1699 720,1702 699,1701 695,1691 685,1690 678,1695 677,1700 645,1701 631,1695 623,1695 616,1700 585,1700"/>
+          <Coords points="688,1735 722,1735 733,1733 733,1699 720,1702 699,1701 695,1691 685,1690 678,1695 677,1700 645,1701 631,1695 623,1695 616,1700 585,1700 585,1735"/>
           <TextEquiv conf="0.7685997">
             <Unicode>polemicæ</Unicode>
           </TextEquiv>
@@ -1572,19 +1588,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1384,1712 1372,1719 1366,1719 1360,1714 1348,1714 1343,1719 1285,1722 1272,1722 1267,1718 1257,1717 1230,1726 1209,1725 1206,1719 1195,1717 1188,1719 1186,1724 1095,1726 1088,1721 1075,1721 1006,1722 995,1727 966,1731 940,1726 877,1728 861,1732 856,1729 755,1731 722,1736 625,1738 600,1749 577,1749 570,1738 558,1740 554,1744 527,1748 465,1743 380,1743 380,1783 447,1783 451,1775 461,1775 470,1785 503,1783 510,1787 518,1787 523,1783 533,1782 540,1786 546,1781 557,1781 569,1790 586,1791 641,1788 653,1783 667,1787 677,1780 842,1776 851,1775 859,1770 973,1772 1008,1768 1051,1769 1058,1765 1076,1767 1082,1763 1105,1762 1115,1763 1128,1770 1143,1759 1155,1763 1204,1762 1213,1758 1240,1762 1261,1762 1273,1756 1285,1756 1294,1761 1342,1759 1347,1756 1364,1757 1372,1754 1384,1758 1457,1757 1471,1755 1490,1763 1507,1759 1517,1753 1522,1753 1527,1760 1540,1752 1574,1752 1574,1718 1568,1713 1555,1713 1549,1717 1493,1718 1454,1717 1446,1712 1418,1712 1407,1718 1399,1712"/>
         <Baseline points="380,1761 467,1769 488,1777 634,1781 669,1771 893,1760 1574,1746"/>
         <Word id="region0014_line0005_word0000" custom="readingOrder {index:0;}">
-          <Coords points="389,1785 532,1786 532,1747 527,1748 465,1743 389,1743"/>
+          <Coords points="519,1785 523,1783 532,1782 532,1747 527,1748 465,1743 389,1743 389,1783 447,1783 451,1775 461,1775 470,1785 503,1783 507,1785"/>
           <TextEquiv>
             <Unicode>II.§.32.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0005_word0001" custom="readingOrder {index:1;}">
-          <Coords points="556,1784 619,1785 621,1739 600,1749 577,1749 570,1738 558,1740"/>
+          <Coords points="619,1785 621,1740 600,1749 577,1749 570,1738 558,1740 556,1781 557,1781 561,1784"/>
           <TextEquiv>
             <Unicode>ſqq.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0005_word0002" custom="readingOrder {index:2;}">
-          <Coords points="647,1782 702,1782 702,1736 647,1737"/>
+          <Coords points="674,1782 677,1780 702,1779 702,1736 647,1737 647,1782"/>
           <TextEquiv conf="0.7954094">
             <Unicode>JO.</Unicode>
           </TextEquiv>
@@ -1639,13 +1655,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="380,1784 452,1785 1144,1769 1273,1757 1372,1755 1540,1753 1574,1753 1574,1789 614,1813 490,1823 380,1825"/>
         <Baseline points="380,1814 507,1816 966,1805 1139,1794 1574,1789"/>
         <Word id="region0014_line0006_word0000" custom="readingOrder {index:0;}">
-          <Coords points="504,1788 388,1787 388,1825 429,1826 492,1826 513,1822 513,1799"/>
+          <Coords points="388,1787 388,1824 490,1823 513,1821 513,1799 504,1788"/>
           <TextEquiv>
             <Unicode>Vedelii</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0000" custom="readingOrder {index:1;}">
-          <Coords points="528,1816 619,1817 618,1790 586,1792 569,1791 562,1789 561,1784 557,1782 546,1782 540,1787 529,1783 527,1784"/>
+          <Coords points="570,1816 614,1813 618,1812 618,1790 586,1792 569,1791 562,1789 561,1784 558,1782 544,1782 540,1787 529,1783 528,1783 527,1784 528,1816"/>
           <TextEquiv>
             <Unicode>libro,</Unicode>
           </TextEquiv>
@@ -1657,13 +1673,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0002" custom="readingOrder {index:3;}">
-          <Coords points="745,1785 761,1785 760,1813 744,1814"/>
+          <Coords points="761,1785 745,1785 744,1809 760,1809"/>
           <TextEquiv conf="0.89962244">
             <Unicode>a</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0003" custom="readingOrder {index:4;}">
-          <Coords points="774,1810 825,1811 825,1786 815,1787 774,1788"/>
+          <Coords points="825,1786 815,1787 774,1788 774,1809 825,1807"/>
           <TextEquiv>
             <Unicode>me</Unicode>
           </TextEquiv>
@@ -1681,19 +1697,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0006" custom="readingOrder {index:7;}">
-          <Coords points="1040,1789 1113,1790 1113,1763 1105,1763 1082,1764 1075,1770 1069,1766 1058,1766 1050,1771 1040,1771"/>
+          <Coords points="1113,1790 1113,1769 1040,1771 1040,1789"/>
           <TextEquiv conf="0.55741996">
             <Unicode>virili</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0007" custom="readingOrder {index:8;}">
-          <Coords points="1129,1789 1175,1789 1175,1766 1171,1767 1156,1767 1153,1762 1143,1760 1129,1770"/>
+          <Coords points="1175,1789 1175,1766 1174,1766 1171,1767 1166,1767 1144,1769 1130,1769 1129,1770 1129,1789"/>
           <TextEquiv conf="0.11850647">
             <Unicode>ſua</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0008" custom="readingOrder {index:9;}">
-          <Coords points="1190,1790 1230,1790 1230,1761 1213,1759 1203,1764 1190,1765"/>
+          <Coords points="1230,1790 1230,1761 1204,1763 1203,1764 1190,1765 1190,1790"/>
           <TextEquiv conf="0.9250894">
             <Unicode>eſt</Unicode>
           </TextEquiv>
@@ -1705,7 +1721,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0010" custom="readingOrder {index:11;}">
-          <Coords points="1349,1758 1349,1795 1444,1795 1444,1760 1385,1760 1379,1758 1364,1758"/>
+          <Coords points="1349,1794 1444,1792 1444,1760 1385,1760 1379,1758 1364,1758 1349,1758"/>
           <TextEquiv conf="0.8828076">
             <Unicode>idem,</Unicode>
           </TextEquiv>
@@ -1717,7 +1733,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0007_word0012" custom="readingOrder {index:13;}">
-          <Coords points="1507,1760 1507,1792 1568,1792 1568,1760 1528,1760 1527,1761 1526,1760"/>
+          <Coords points="1507,1790 1568,1789 1568,1760 1528,1760 1527,1761 1526,1760 1507,1760"/>
           <TextEquiv conf="0.7245691">
             <Unicode>diſſ.</Unicode>
           </TextEquiv>
@@ -1736,7 +1752,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188885950_6637" custom="readingOrder {index:1;}">
-          <Coords points="442,1827 508,1822 581,1822 641,1827 645,1864 446,1864"/>
+          <Coords points="446,1864 645,1864 641,1827 588,1827 581,1822 570,1823 565,1827 536,1823 532,1826 531,1832 517,1832 516,1826 508,1822 499,1824 494,1830 442,1827"/>
           <TextEquiv>
             <Unicode>moderatione</Unicode>
           </TextEquiv>
@@ -1797,7 +1813,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="616,1860 610,1867 566,1869 566,1901 676,1901 680,1901 731,1901 740,1901 746,1898 759,1896 759,1861 707,1862 688,1860 677,1860 655,1865 643,1865 641,1860"/>
+          <Coords points="610,1867 566,1869 566,1901 623,1901 669,1897 759,1894 759,1861 707,1862 691,1860 672,1861 655,1865 643,1865 641,1862 619,1863 613,1863"/>
           <TextEquiv>
             <Unicode>perſequitur,</Unicode>
           </TextEquiv>
@@ -1809,19 +1825,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="910,1870 848,1870 848,1893 890,1895 910,1893"/>
+          <Coords points="848,1870 848,1891 910,1889 910,1870"/>
           <TextEquiv conf="0.86484605">
             <Unicode>non</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671453115418_1081" custom="readingOrder {index:4;}">
-          <Coords points="923,1855 962,1855 962,1890 925,1890"/>
+          <Coords points="962,1855 923,1855 924,1889 962,1888"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0009_word0000" custom="readingOrder {index:5;}">
-          <Coords points="971,1874 1030,1874 1030,1845 981,1847 971,1848"/>
+          <Coords points="1030,1874 1030,1848 971,1850 971,1874"/>
           <TextEquiv>
             <Unicode>diſſ.</Unicode>
           </TextEquiv>
@@ -1839,13 +1855,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0009_word0003" custom="readingOrder {index:8;}">
-          <Coords points="1222,1843 1222,1879 1382,1880 1392,1878 1423,1879 1423,1845 1377,1844"/>
+          <Coords points="1222,1879 1256,1879 1423,1874 1423,1845 1377,1844 1222,1843"/>
           <TextEquiv>
             <Unicode>Theologica,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0009_word0004" custom="readingOrder {index:9;}">
-          <Coords points="1567,1843 1440,1842 1440,1877 1507,1878 1509,1880 1532,1880 1536,1878 1567,1878"/>
+          <Coords points="1440,1842 1440,1873 1528,1871 1567,1876 1567,1843"/>
           <TextEquiv conf="0.83584595">
             <Unicode>denique</Unicode>
           </TextEquiv>
@@ -1858,61 +1874,61 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="389,1925 1130,1884 1453,1875 1519,1877 1569,1882 1569,1915 1540,1907 435,1946 379,1953 379,1918"/>
         <Baseline points="379,1946 950,1921 724,1928 1326,1907 1569,1906"/>
         <Word id="region0018_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="386,1936 420,1937 420,1917 413,1918 404,1918 397,1909 386,1909"/>
+          <Coords points="420,1937 420,1923 389,1925 386,1922 386,1936"/>
           <TextEquiv conf="0.83007675">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="436,1935 484,1935 484,1912 458,1914 452,1909 444,1909 437,1915 436,1915"/>
+          <Coords points="484,1935 484,1919 436,1922 436,1935"/>
           <TextEquiv>
             <Unicode>diſſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0001_word0002" custom="readingOrder {index:2;}">
-          <Coords points="511,1936 550,1936 550,1909 527,1909 527,1910 521,1911 511,1911"/>
+          <Coords points="550,1936 550,1916 511,1918 511,1936"/>
           <TextEquiv>
             <Unicode>de</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="564,1909 726,1903 726,1932 564,1938"/>
+          <Coords points="564,1938 726,1932 726,1906 564,1915"/>
           <TextEquiv>
             <Unicode>Theologia</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671453206552_1142" custom="readingOrder {index:4;}">
-          <Coords points="771,1896 779,1895 799,1893 825,1893 886,1902 886,1912 887,1914 882,1925 870,1934 828,1930 795,1932 791,1936 734,1934 734,1914"/>
+          <Coords points="882,1925 887,1914 886,1912 886,1902 863,1898 752,1904 734,1914 734,1934 754,1934 793,1933 795,1932 828,1930 844,1931 874,1930"/>
           <TextEquiv>
             <Unicode>eclectica,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0003_word0002" custom="readingOrder {index:5;}">
-          <Coords points="904,1912 968,1912 968,1891 904,1895"/>
+          <Coords points="968,1912 968,1892 904,1896 904,1912"/>
           <TextEquiv conf="0.7187458">
             <Unicode>quæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0003_word0003" custom="readingOrder {index:6;}">
-          <Coords points="981,1911 1103,1912 1103,1886 1065,1888 1056,1881 1047,1880 1028,1889 997,1890 982,1887 981,1887"/>
+          <Coords points="1103,1912 1103,1886 1065,1888 1065,1888 981,1892 981,1911"/>
           <TextEquiv>
             <Unicode>junctim</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0003_word0004" custom="readingOrder {index:7;}">
-          <Coords points="1119,1903 1150,1903 1150,1870 1127,1868 1120,1877 1119,1877"/>
+          <Coords points="1150,1903 1150,1883 1130,1884 1119,1884 1119,1903"/>
           <TextEquiv conf="0.8971288">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0003_word0005" custom="readingOrder {index:8;}">
-          <Coords points="1165,1911 1224,1911 1224,1883 1196,1883 1189,1875 1179,1875 1172,1884 1165,1884"/>
+          <Coords points="1224,1911 1224,1883 1196,1883 1195,1882 1172,1882 1172,1884 1165,1884 1165,1911"/>
           <TextEquiv conf="0.8971288">
             <Unicode>ejus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0003_word0006" custom="readingOrder {index:9;}">
-          <Coords points="1331,1875 1327,1879 1245,1883 1240,1883 1240,1904 1450,1905 1450,1876 1442,1875 1436,1881 1409,1881 1401,1875 1380,1875 1379,1877 1352,1878 1349,1875"/>
+          <Coords points="1327,1879 1245,1883 1240,1883 1240,1904 1450,1905 1450,1876 1444,1875 1442,1875 1436,1881 1409,1881 1403,1876 1372,1877 1352,1878 1352,1878 1328,1878"/>
           <TextEquiv conf="0.027169418">
             <Unicode>amœnitatibus</Unicode>
           </TextEquiv>
@@ -1931,13 +1947,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1527,1908 1221,1911 1199,1913 1190,1922 1157,1923 1147,1916 1100,1916 1095,1918 1091,1925 1081,1927 1053,1929 1045,1921 1034,1920 1027,1929 907,1935 880,1932 872,1937 861,1932 841,1932 830,1938 797,1940 789,1944 737,1942 725,1939 717,1944 701,1944 689,1948 675,1942 664,1947 631,1942 599,1949 593,1949 585,1944 506,1947 493,1950 490,1960 486,1960 484,1952 479,1950 465,1952 462,1960 458,1960 457,1956 452,1954 441,1954 434,1961 417,1960 406,1955 379,1954 379,1999 387,1995 396,1995 404,2001 429,2006 451,1998 462,2004 473,2002 485,1996 488,1991 494,1992 500,1998 509,1998 519,1989 551,1991 572,1984 584,1988 607,1987 615,1984 649,1988 725,1983 731,1979 780,1983 786,1977 806,1980 883,1976 896,1975 902,1970 917,1976 946,1973 953,1982 957,1982 961,1978 970,1978 978,1970 1056,1970 1063,1973 1082,1966 1120,1961 1152,1963 1174,1958 1180,1962 1195,1962 1201,1956 1215,1954 1258,1957 1264,1961 1293,1961 1301,1956 1311,1955 1322,1959 1341,1958 1346,1955 1408,1958 1426,1954 1450,1958 1518,1959 1524,1955 1571,1957 1571,1908"/>
         <Baseline points="379,1990 463,1993 494,1982 1213,1947 1571,1947"/>
         <Word id="region0018_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="509,1946 506,1947 388,1954 389,1992 464,1989 511,1990"/>
+          <Coords points="389,1992 464,1989 511,1990 509,1946 506,1947 493,1950 490,1960 486,1960 484,1952 479,1950 465,1952 462,1960 458,1960 457,1956 452,1954 441,1954 434,1961 417,1960 406,1955 388,1954"/>
           <TextEquiv>
             <Unicode>logicis,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="634,1949 528,1949 530,1983 585,1977 684,1978 716,1973 712,1941 676,1944"/>
+          <Coords points="599,1949 593,1949 528,1949 530,1983 585,1977 684,1978 716,1973 712,1944 701,1944 689,1948 679,1943 676,1944 668,1944 664,1947 658,1946 634,1949"/>
           <TextEquiv>
             <Unicode>Helmſtadri</Unicode>
           </TextEquiv>
@@ -1949,7 +1965,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="765,1982 795,1982 798,1939 797,1940 789,1944 768,1943"/>
+          <Coords points="781,1982 786,1977 795,1978 798,1940 797,1940 789,1944 768,1943 765,1982 768,1982"/>
           <TextEquiv conf="0.91364944">
             <Unicode>4.</Unicode>
           </TextEquiv>
@@ -1998,31 +2014,31 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0003_word0001" custom="readingOrder {index:1;}">
-          <Coords points="452,2042 499,2028 491,1997 459,2005 454,2000 446,1999 439,2005 435,2005 435,2042"/>
+          <Coords points="499,2028 491,1997 459,2005 454,2000 446,1999 439,2005 435,2005 435,2035 448,2031 494,2029"/>
           <TextEquiv>
             <Unicode>diſſ.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188962507_6670" custom="readingOrder {index:2;}">
-          <Coords points="516,1991 550,1991 550,2023 514,2023"/>
+          <Coords points="514,2023 550,2023 550,1991 515,1992"/>
           <TextEquiv>
             <Unicode>de</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671188962507_6669" custom="readingOrder {index:3;}">
-          <Coords points="550,1991 551,1992 572,1985 579,1986 585,1991 596,1992 606,1991 615,1985 633,1986 640,1990 654,1989 656,2024 550,2023"/>
+          <Coords points="551,1992 551,1992 550,1992 550,2023 638,2024 656,2023 654,1989 640,1990 637,1988 608,1989 606,1991 596,1992 585,1991 584,1991 574,1991 552,1992"/>
           <TextEquiv>
             <Unicode>ſtudio</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0001" custom="readingOrder {index:4;}">
-          <Coords points="667,2017 806,2011 806,1981 786,1978 780,1984 731,1980 724,1985 669,1988"/>
+          <Coords points="806,2011 806,1981 801,1980 782,1981 780,1984 759,1982 725,1983 724,1985 669,1988 667,2017"/>
           <TextEquiv conf="0.9173038">
             <Unicode>æquitatis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0002" custom="readingOrder {index:5;}">
-          <Coords points="821,2013 938,2007 936,1975 917,1977 902,1971 896,1976 859,1979 822,1980"/>
+          <Coords points="938,2007 936,1975 917,1977 913,1975 896,1976 896,1976 859,1979 822,1980 821,2013"/>
           <TextEquiv conf="0.91062903">
             <Unicode>tuendæ</Unicode>
           </TextEquiv>
@@ -2034,19 +2050,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0004" custom="readingOrder {index:7;}">
-          <Coords points="1053,1993 1098,1993 1098,1964 1082,1967 1063,1974 1056,1971 1053,1971"/>
+          <Coords points="1098,1993 1098,1966 1081,1967 1063,1974 1056,1971 1053,1971 1053,1993"/>
           <TextEquiv conf="0.86202276">
             <Unicode>cit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0005" custom="readingOrder {index:8;}">
-          <Coords points="1113,1963 1113,1994 1140,1994 1140,1963 1136,1963"/>
+          <Coords points="1113,1994 1140,1994 1140,1964 1113,1965"/>
           <TextEquiv conf="0.9265417">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0006" custom="readingOrder {index:9;}">
-          <Coords points="1157,1962 1156,1962 1156,1994 1192,1994 1192,1964 1181,1964 1178,1962"/>
+          <Coords points="1156,1994 1192,1994 1192,1964 1181,1964 1179,1962 1156,1963"/>
           <TextEquiv conf="0.92494386">
             <Unicode>de</Unicode>
           </TextEquiv>
@@ -2058,7 +2074,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0004_word0008" custom="readingOrder {index:11;}">
-          <Coords points="1405,2002 1405,1963 1297,1963 1297,2002 1301,2002 1305,1999 1322,2002 1346,1999 1351,2002 1385,1998 1390,2002"/>
+          <Coords points="1405,1963 1297,1963 1297,1998 1401,1995 1405,1995"/>
           <TextEquiv conf="0.77854264">
             <Unicode>ſtudio,</Unicode>
           </TextEquiv>
@@ -2083,13 +2099,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1542,1999 1513,2003 1511,2015 1509,2003 1502,2000 1486,2000 1470,2006 1405,2007 1395,2007 1385,1999 1370,2000 1362,2006 1352,2006 1346,2000 1335,2000 1329,2006 1323,2006 1320,2001 1305,2000 1298,2006 1282,2007 1189,2005 1144,2008 1136,2003 1126,2003 1112,2010 1092,2007 1083,2012 1056,2013 1051,2009 1040,2009 1032,2013 1002,2013 989,2020 974,2016 881,2019 826,2024 819,2023 814,2019 801,2019 794,2024 747,2027 727,2022 706,2033 693,2029 677,2030 659,2026 648,2032 597,2037 551,2037 546,2032 535,2031 528,2034 527,2038 501,2035 498,2033 486,2039 483,2033 480,2037 452,2043 419,2045 402,2038 378,2038 378,2078 620,2080 664,2071 708,2070 728,2064 742,2065 746,2069 758,2065 808,2069 816,2065 870,2063 877,2058 900,2061 1062,2054 1077,2053 1083,2048 1115,2050 1127,2044 1145,2048 1157,2044 1170,2044 1176,2047 1201,2047 1209,2050 1236,2048 1251,2052 1262,2047 1295,2046 1304,2041 1318,2042 1333,2049 1342,2049 1352,2042 1387,2045 1413,2044 1422,2040 1436,2044 1508,2049 1520,2044 1543,2042 1570,2045 1571,2000"/>
         <Baseline points="378,2070 612,2068 1130,2037 1570,2035"/>
         <Word id="word_1671188979198_6675" custom="readingOrder {index:0;}">
-          <Coords points="382,2041 425,2041 425,2076 382,2076"/>
+          <Coords points="382,2041 382,2076 425,2076 425,2044 419,2045 409,2041"/>
           <TextEquiv>
             <Unicode>ſia</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0005_word0002" custom="readingOrder {index:1;}">
-          <Coords points="470,2016 469,2020 473,2028 472,2038 476,2044 473,2048 435,2048 438,2073 619,2074 616,2045 590,2048 544,2048 539,2043 528,2042 521,2045 520,2049 494,2046 494,2027 484,2022 484,2016"/>
+          <Coords points="476,2044 473,2048 435,2048 438,2073 619,2074 616,2045 590,2048 544,2048 539,2043 528,2042 521,2045 520,2049 494,2046 494,2035 486,2039 483,2033 480,2037 472,2038"/>
           <TextEquiv>
             <Unicode>orthodoxa,</Unicode>
           </TextEquiv>
@@ -2156,13 +2172,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1422,2041 1414,2044 1412,2049 1380,2049 1374,2043 1352,2043 1342,2050 1333,2050 1318,2043 1304,2042 1295,2047 1266,2048 1251,2053 1236,2049 1177,2049 1170,2045 1157,2045 1152,2050 1146,2050 1139,2046 1127,2045 1115,2051 1083,2049 1077,2054 1050,2057 926,2062 892,2062 877,2059 870,2064 814,2067 808,2070 777,2069 770,2066 746,2070 742,2066 728,2065 702,2073 625,2078 620,2081 590,2078 511,2082 505,2078 494,2078 487,2084 469,2086 444,2086 442,2082 431,2080 378,2079 379,2123 480,2125 489,2124 497,2119 511,2122 523,2119 571,2120 578,2114 589,2115 596,2120 606,2120 679,2116 692,2111 715,2114 726,2109 774,2105 828,2104 837,2107 849,2103 937,2098 951,2098 961,2102 968,2096 1103,2089 1208,2089 1224,2083 1316,2084 1323,2088 1364,2085 1375,2089 1399,2089 1404,2086 1415,2086 1420,2089 1470,2089 1476,2086 1494,2089 1500,2085 1514,2084 1570,2085 1570,2053 1560,2052 1559,2046 1553,2043 1520,2045 1508,2050 1439,2048 1432,2042"/>
         <Baseline points="379,2114 589,2110 1237,2076 1570,2076"/>
         <Word id="word_1671453420294_1270" custom="readingOrder {index:0;}">
-          <Coords points="380,2080 465,2080 465,2121 380,2121"/>
+          <Coords points="380,2080 380,2121 465,2121 465,2086 444,2086 442,2082 431,2080"/>
           <TextEquiv>
             <Unicode>factu</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0006_word0001" custom="readingOrder {index:1;}">
-          <Coords points="627,2077 484,2081 478,2119 625,2117"/>
+          <Coords points="588,2078 511,2082 508,2080 490,2080 487,2084 483,2084 478,2119 573,2117 578,2114 589,2115 592,2117 625,2117 626,2077 625,2078 620,2081 590,2078"/>
           <TextEquiv>
             <Unicode>vitatuque</Unicode>
           </TextEquiv>
@@ -2211,7 +2227,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1514,2085 1500,2086 1494,2090 1476,2087 1465,2092 1421,2091 1415,2087 1404,2087 1394,2092 1375,2092 1364,2086 1324,2091 1316,2085 1224,2084 1213,2090 1187,2092 1165,2088 1158,2092 1103,2090 1040,2093 968,2097 961,2103 951,2099 937,2099 849,2104 837,2108 828,2105 774,2106 726,2110 714,2116 692,2112 685,2117 651,2120 596,2121 592,2117 578,2115 571,2121 554,2121 552,2131 548,2128 512,2128 511,2123 504,2120 497,2120 486,2127 415,2129 407,2124 386,2123 379,2124 379,2164 466,2167 473,2164 480,2166 598,2157 641,2158 714,2150 728,2151 735,2148 743,2154 753,2155 768,2148 791,2146 1019,2136 1046,2141 1061,2140 1069,2134 1108,2131 1133,2132 1140,2136 1149,2130 1167,2134 1221,2130 1360,2131 1368,2128 1397,2127 1424,2131 1451,2131 1458,2128 1471,2132 1570,2130 1570,2086"/>
         <Baseline points="379,2157 556,2154 732,2139 1096,2124 1570,2120"/>
         <Word id="word_1671453450824_1278" custom="readingOrder {index:0;}">
-          <Coords points="382,2124 439,2124 439,2167 382,2167"/>
+          <Coords points="382,2124 382,2164 439,2166 439,2128 415,2129 407,2124"/>
           <TextEquiv>
             <Unicode>liæ</Unicode>
           </TextEquiv>
@@ -2223,13 +2239,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0007_word0002" custom="readingOrder {index:2;}">
-          <Coords points="572,2155 575,2121 537,2124 534,2158"/>
+          <Coords points="575,2121 553,2122 552,2131 548,2128 536,2128 534,2158 572,2155"/>
           <TextEquiv>
             <Unicode>ed</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0007_word0003" custom="readingOrder {index:3;}">
-          <Coords points="581,2153 728,2154 726,2110 714,2116 692,2112 685,2117 651,2120 596,2121 592,2117 579,2115"/>
+          <Coords points="680,2153 714,2150 727,2150 726,2110 714,2116 692,2112 685,2117 651,2120 596,2121 592,2117 579,2115 581,2153"/>
           <TextEquiv>
             <Unicode>annexis.</Unicode>
           </TextEquiv>
@@ -2290,7 +2306,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1397,2128 1368,2129 1352,2133 1197,2132 1167,2135 1149,2131 1140,2137 1133,2133 1108,2132 1069,2135 1061,2141 1046,2142 1019,2137 791,2147 768,2149 753,2156 743,2155 735,2149 728,2152 714,2151 641,2159 598,2158 480,2167 473,2165 466,2168 379,2165 379,2211 395,2211 399,2209 414,2209 419,2212 476,2209 480,2212 489,2206 513,2209 518,2205 562,2206 568,2203 607,2203 611,2201 634,2204 662,2201 720,2204 753,2201 760,2195 826,2194 833,2190 862,2193 873,2191 883,2184 995,2180 1004,2185 1010,2180 1032,2183 1133,2178 1155,2170 1215,2179 1300,2173 1314,2168 1323,2168 1330,2172 1355,2173 1379,2173 1385,2169 1396,2169 1402,2173 1439,2173 1443,2170 1457,2170 1492,2182 1526,2177 1537,2171 1553,2172 1557,2179 1571,2177 1570,2135 1473,2136 1468,2131 1458,2129 1449,2135 1434,2136 1426,2135 1417,2129"/>
         <Baseline points="379,2201 651,2191 720,2195 750,2186 933,2172 1149,2164 1571,2167"/>
         <Word id="word_1671455381860_1391" custom="readingOrder {index:0;}">
-          <Coords points="386,2165 708,2159 711,2198 552,2203 386,2202"/>
+          <Coords points="711,2198 708,2159 545,2162 480,2167 473,2165 466,2168 386,2165 386,2202 552,2203 611,2201 611,2201 612,2201"/>
           <TextEquiv>
             <Unicode>LANCHTHONIS,</Unicode>
           </TextEquiv>
@@ -2332,7 +2348,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0008_word0008" custom="readingOrder {index:7;}">
-          <Coords points="1565,2139 1370,2135 1370,2168 1402,2173 1439,2173 1443,2170 1457,2170 1487,2180 1501,2180 1526,2177 1537,2171 1553,2172 1557,2179 1565,2177"/>
+          <Coords points="1370,2135 1370,2168 1383,2170 1385,2169 1396,2169 1402,2173 1439,2173 1443,2170 1457,2170 1487,2180 1501,2180 1526,2177 1537,2171 1553,2172 1557,2179 1565,2177 1565,2139"/>
           <TextEquiv>
             <Unicode>Theologico,</Unicode>
           </TextEquiv>
@@ -2351,7 +2367,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455448928_1431" custom="readingOrder {index:1;}">
-          <Coords points="428,2210 542,2210 542,2245 428,2245"/>
+          <Coords points="485,2210 480,2214 428,2213 428,2245 542,2245 542,2210 513,2210 512,2217 505,2216 503,2210"/>
           <TextEquiv>
             <Unicode>invidia</Unicode>
           </TextEquiv>
@@ -2369,13 +2385,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455471482_1438" custom="readingOrder {index:4;}">
-          <Coords points="760,2197 821,2195 821,2230 759,2230 757,2199"/>
+          <Coords points="821,2230 821,2195 760,2197 757,2199 759,2230 781,2230 787,2227 789,2230"/>
           <TextEquiv>
             <Unicode>non</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455471482_1437" custom="readingOrder {index:5;}">
-          <Coords points="821,2195 826,2195 833,2191 864,2193 866,2231 821,2230"/>
+          <Coords points="826,2195 821,2195 821,2230 846,2230 857,2229 865,2228 864,2193 833,2191"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -2424,13 +2440,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1330,2212 1325,2217 1315,2217 1311,2213 1228,2213 1220,2220 1212,2222 1205,2222 1199,2218 1168,2219 1156,2215 1112,2216 1091,2218 1079,2225 1070,2226 1042,2221 956,2226 937,2231 896,2228 857,2230 844,2232 836,2237 796,2240 787,2228 767,2241 678,2245 660,2249 651,2242 646,2242 636,2248 611,2252 602,2251 597,2245 555,2245 549,2250 547,2261 533,2257 517,2257 516,2252 509,2249 498,2250 494,2256 478,2257 432,2256 416,2251 406,2256 378,2255 379,2290 447,2292 546,2288 608,2290 647,2287 694,2287 733,2282 744,2284 753,2278 765,2277 796,2283 815,2280 832,2271 837,2271 844,2277 864,2277 890,2268 916,2272 934,2271 944,2266 956,2269 997,2267 1006,2266 1011,2262 1024,2262 1030,2266 1083,2266 1111,2263 1116,2260 1184,2259 1202,2253 1212,2257 1234,2257 1240,2254 1254,2258 1290,2258 1295,2255 1307,2255 1316,2258 1321,2255 1332,2255 1337,2258 1508,2261 1537,2255 1570,2254 1571,2223 1565,2223 1564,2218 1558,2215"/>
         <Baseline points="379,2282 675,2277 1116,2249 1501,2251 1570,2245"/>
         <Word id="region0018_line0010_word0001" custom="readingOrder {index:0;}">
-          <Coords points="388,2294 538,2293 535,2245 388,2246"/>
+          <Coords points="535,2257 533,2257 517,2257 516,2252 509,2249 498,2250 494,2256 478,2257 432,2256 416,2251 406,2256 388,2255 388,2290 447,2292 537,2288"/>
           <TextEquiv>
             <Unicode>calumniis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0010_word0002" custom="readingOrder {index:1;}">
-          <Coords points="561,2283 803,2278 801,2239 796,2240 787,2228 767,2241 678,2245 660,2249 651,2242 646,2242 636,2248 559,2254"/>
+          <Coords points="751,2279 753,2278 765,2277 773,2279 803,2278 801,2240 796,2240 787,2228 767,2241 678,2245 660,2249 651,2242 646,2242 636,2248 611,2252 602,2251 602,2251 559,2254 561,2283"/>
           <TextEquiv>
             <Unicode>Theologorum,</Unicode>
           </TextEquiv>
@@ -2485,13 +2501,13 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1546,2255 1488,2264 1356,2262 1338,2261 1332,2256 1321,2256 1314,2260 1307,2256 1295,2256 1289,2261 1256,2261 1248,2255 1240,2255 1233,2260 1223,2260 1202,2254 1186,2260 1157,2263 1061,2268 1030,2267 1024,2263 1011,2263 1006,2267 980,2271 957,2271 944,2267 933,2273 911,2276 906,2276 900,2270 890,2269 877,2272 871,2279 845,2279 839,2273 832,2272 815,2281 796,2284 765,2278 753,2279 744,2285 628,2292 546,2289 447,2293 379,2291 379,2333 511,2336 521,2331 547,2334 570,2331 583,2336 623,2336 632,2333 636,2328 674,2327 688,2321 703,2324 803,2314 826,2318 833,2314 898,2313 909,2310 913,2310 918,2318 923,2320 934,2318 942,2307 974,2310 981,2306 989,2306 998,2313 1048,2308 1054,2303 1078,2307 1123,2304 1127,2301 1156,2303 1248,2298 1258,2295 1271,2296 1275,2299 1288,2299 1293,2296 1309,2299 1349,2299 1363,2296 1376,2297 1381,2301 1402,2302 1489,2303 1510,2297 1521,2302 1557,2306 1570,2304 1570,2255"/>
         <Baseline points="379,2325 597,2325 759,2310 1231,2287 1570,2294"/>
         <Word id="region0018_line0011_word0000" custom="readingOrder {index:0;}">
-          <Coords points="387,2332 593,2333 592,2290 546,2289 447,2293 386,2291"/>
+          <Coords points="517,2332 521,2331 535,2332 556,2332 570,2331 574,2332 593,2333 592,2290 546,2289 447,2293 386,2291 387,2332"/>
           <TextEquiv>
             <Unicode>BVRGIVM,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455673888_1560" custom="readingOrder {index:1;}">
-          <Coords points="605,2291 728,2286 728,2313 670,2331 605,2330"/>
+          <Coords points="728,2313 728,2286 726,2286 628,2292 605,2291 605,2330 634,2330 636,2328 674,2327 688,2321 696,2322"/>
           <TextEquiv>
             <Unicode>quarum</Unicode>
           </TextEquiv>
@@ -2564,7 +2580,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0012_word0001" custom="readingOrder {index:1;}">
-          <Coords points="444,2377 604,2374 601,2334 441,2335"/>
+          <Coords points="494,2376 494,2376 497,2376 519,2376 531,2371 594,2369 604,2371 601,2337 583,2337 576,2334 555,2334 531,2338 441,2336 444,2377"/>
           <TextEquiv>
             <Unicode>germanice</Unicode>
           </TextEquiv>
@@ -2619,7 +2635,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="1333,2338 1321,2344 1306,2344 1299,2339 1291,2339 1280,2344 1260,2345 1238,2339 1222,2339 1193,2344 1176,2341 1169,2346 1052,2346 1041,2348 1037,2354 996,2353 991,2348 983,2347 974,2348 963,2356 952,2359 943,2356 882,2360 856,2357 848,2361 844,2358 821,2357 814,2362 787,2361 767,2366 758,2358 751,2358 743,2368 727,2368 719,2363 710,2363 699,2369 618,2374 594,2370 531,2372 523,2373 517,2378 492,2378 477,2383 433,2383 420,2381 413,2376 381,2375 379,2418 550,2417 616,2413 638,2413 645,2418 653,2418 659,2413 686,2413 724,2406 754,2405 760,2411 770,2411 776,2405 837,2401 872,2401 890,2407 930,2408 935,2403 936,2394 1048,2392 1080,2384 1128,2384 1147,2381 1196,2381 1209,2384 1249,2383 1266,2379 1402,2381 1420,2385 1490,2383 1500,2388 1513,2382 1570,2382 1570,2346 1444,2346 1433,2350 1424,2346 1402,2345 1393,2340 1382,2341 1378,2345 1356,2345 1350,2340"/>
         <Baseline points="379,2408 907,2392 931,2384 1153,2373 1570,2373"/>
         <Word id="word_1671455801670_1639" custom="readingOrder {index:0;}">
-          <Coords points="382,2375 525,2375 525,2421 382,2421"/>
+          <Coords points="525,2375 520,2375 517,2378 492,2378 477,2383 433,2383 420,2381 413,2376 382,2375 382,2417 525,2417"/>
           <TextEquiv>
             <Unicode>idiomate</Unicode>
           </TextEquiv>
@@ -2698,7 +2714,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="384,2422 1080,2385 1147,2382 1266,2380 1570,2383 1572,2409 528,2452 386,2450"/>
         <Baseline points="525,2442 631,2443 1154,2414 1458,2415 1017,2419 1570,2417"/>
         <Word id="word_1671455853111_1689" custom="readingOrder {index:0;}">
-          <Coords points="385,2416 438,2417 439,2417 446,2417 446,2457 385,2457"/>
+          <Coords points="446,2418 385,2421 385,2436 386,2450 446,2450"/>
           <TextEquiv>
             <Unicode>ſecs</Unicode>
           </TextEquiv>
@@ -2740,7 +2756,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0018_line0014_word0000" custom="readingOrder {index:7;}">
-          <Coords points="1242,2386 1070,2394 1070,2427 1123,2427 1132,2426 1205,2426 1209,2423 1242,2417"/>
+          <Coords points="1070,2394 1070,2427 1123,2427 1132,2426 1159,2426 1207,2424 1209,2423 1242,2417 1242,2386"/>
           <TextEquiv>
             <Unicode>d'hiſtoire,</Unicode>
           </TextEquiv>
@@ -2752,19 +2768,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455925302_1728" custom="readingOrder {index:9;}">
-          <Coords points="1312,2385 1356,2391 1419,2389 1419,2418 1355,2426 1311,2419"/>
+          <Coords points="1419,2389 1356,2391 1312,2385 1311,2419 1314,2419 1419,2415"/>
           <TextEquiv>
             <Unicode>Morale</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455936662_1733" custom="readingOrder {index:10;}">
-          <Coords points="1445,2386 1475,2386 1475,2417 1445,2417"/>
+          <Coords points="1475,2386 1445,2386 1445,2414 1475,2412"/>
           <TextEquiv>
             <Unicode>&amp;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671455936662_1732" custom="readingOrder {index:11;}">
-          <Coords points="1475,2386 1563,2387 1563,2416 1513,2417 1475,2417"/>
+          <Coords points="1563,2387 1475,2386 1475,2412 1563,2409"/>
           <TextEquiv>
             <Unicode>Poli-</Unicode>
           </TextEquiv>
@@ -2777,79 +2793,79 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="639,2449 1420,2427 1568,2429 1568,2468 1082,2463 428,2498 379,2497 379,2460"/>
         <Baseline points="573,2484 1141,2458 1568,2459"/>
         <Word id="region0022_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="387,2462 387,2497 404,2497 415,2501 437,2501 438,2500 469,2499 469,2463 420,2463 417,2462"/>
+          <Coords points="387,2497 404,2497 405,2497 428,2498 469,2495 469,2463 420,2463 417,2462 387,2462"/>
           <TextEquiv>
             <Unicode>tique</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671456020151_1836" custom="readingOrder {index:1;}">
-          <Coords points="501,2467 545,2467 600,2469 600,2488 551,2493 501,2492"/>
+          <Coords points="600,2488 600,2469 545,2467 501,2467 501,2492 529,2492 583,2489"/>
           <TextEquiv>
             <Unicode>Tomo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0001" custom="readingOrder {index:2;}">
-          <Coords points="626,2483 649,2483 646,2445 623,2446"/>
+          <Coords points="649,2483 646,2448 639,2449 623,2449 626,2483"/>
           <TextEquiv>
             <Unicode>II.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0002" custom="readingOrder {index:3;}">
-          <Coords points="683,2482 737,2482 734,2443 732,2444 680,2445"/>
+          <Coords points="726,2482 736,2481 734,2446 680,2447 683,2482"/>
           <TextEquiv>
             <Unicode>Art.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0003" custom="readingOrder {index:4;}">
-          <Coords points="761,2477 782,2474 780,2441 759,2444"/>
+          <Coords points="782,2474 780,2445 759,2445 761,2477"/>
           <TextEquiv>
             <Unicode>I.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0004" custom="readingOrder {index:5;}">
-          <Coords points="807,2479 829,2480 831,2438 809,2439"/>
+          <Coords points="830,2443 808,2444 807,2477 829,2476"/>
           <TextEquiv conf="0.06492653">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0005" custom="readingOrder {index:6;}">
-          <Coords points="861,2476 888,2476 885,2435 858,2437"/>
+          <Coords points="885,2442 858,2442 860,2474 887,2473"/>
           <TextEquiv>
             <Unicode>V.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0006" custom="readingOrder {index:7;}">
-          <Coords points="903,2460 1029,2460 1029,2435 1013,2440 976,2437 969,2433 962,2433 954,2438 928,2438 921,2434 908,2434 903,2434"/>
+          <Coords points="1029,2460 1029,2438 1018,2438 1013,2440 998,2438 903,2441 903,2460"/>
           <TextEquiv conf="0.9084718">
             <Unicode>denique</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0007" custom="readingOrder {index:8;}">
-          <Coords points="1049,2451 1079,2451 1079,2432 1078,2433 1049,2430"/>
+          <Coords points="1079,2451 1079,2436 1049,2437 1049,2451"/>
           <TextEquiv conf="0.919898">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0008" custom="readingOrder {index:9;}">
-          <Coords points="1093,2451 1162,2451 1162,2425 1158,2428 1115,2429 1101,2426 1093,2428"/>
+          <Coords points="1162,2451 1162,2434 1093,2436 1093,2451"/>
           <TextEquiv conf="0.88268065">
             <Unicode>Arte</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0009" custom="readingOrder {index:10;}">
-          <Coords points="1179,2453 1282,2454 1282,2422 1276,2423 1265,2429 1243,2423 1237,2429 1228,2423 1179,2422"/>
+          <Coords points="1282,2454 1282,2430 1179,2433 1179,2453"/>
           <TextEquiv conf="0.83386093">
             <Unicode>Critiea</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0010" custom="readingOrder {index:11;}">
-          <Coords points="1298,2423 1298,2452 1399,2452 1399,2423 1397,2423 1390,2428 1349,2428 1348,2424 1345,2423"/>
+          <Coords points="1298,2452 1399,2452 1399,2428 1390,2428 1390,2428 1384,2428 1298,2430"/>
           <TextEquiv conf="0.84433883">
             <Unicode>Tomo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0011" custom="readingOrder {index:12;}">
-          <Coords points="1417,2451 1437,2451 1437,2423 1417,2423"/>
+          <Coords points="1437,2451 1437,2427 1420,2427 1417,2427 1417,2451"/>
           <TextEquiv>
             <Unicode>I.</Unicode>
           </TextEquiv>
@@ -2861,7 +2877,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0019_line0004_word0013" custom="readingOrder {index:14;}">
-          <Coords points="1506,2458 1565,2458 1565,2429 1549,2429 1542,2423 1509,2432 1506,2431"/>
+          <Coords points="1565,2458 1565,2429 1549,2429 1549,2429 1522,2428 1509,2432 1506,2431 1506,2458"/>
           <TextEquiv conf="0.39495078">
             <Unicode>461.</Unicode>
           </TextEquiv>
@@ -2874,7 +2890,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="379,2498 655,2488 734,2483 773,2477 1376,2477 1411,2462 1535,2463 1564,2470 1564,2508 1443,2507 470,2537 417,2547 379,2541"/>
         <Baseline points="551,2527 1117,2501 1564,2498"/>
         <Word id="region0022_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="385,2506 385,2541 415,2543 415,2544 446,2544 446,2506 434,2506 428,2507 422,2506"/>
+          <Coords points="385,2541 415,2543 415,2544 432,2544 446,2541 446,2506 434,2506 428,2507 422,2506 385,2506"/>
           <TextEquiv>
             <Unicode>ſqq.</Unicode>
           </TextEquiv>
@@ -2886,43 +2902,43 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0001" custom="readingOrder {index:2;}">
-          <Coords points="650,2521 832,2522 833,2488 822,2489 819,2476 797,2475 797,2488 793,2487 791,2475 773,2475 769,2489 751,2491 745,2477 734,2476 727,2483 726,2493 683,2498 666,2498 664,2485 655,2481 651,2485"/>
+          <Coords points="832,2522 833,2488 822,2489 819,2477 797,2477 797,2488 793,2487 791,2477 773,2477 772,2477 769,2489 751,2491 747,2481 734,2483 727,2483 726,2493 683,2498 666,2498 664,2487 655,2488 651,2488 650,2521"/>
           <TextEquiv conf="0.8493424">
             <Unicode>SMITHVS</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0002" custom="readingOrder {index:3;}">
-          <Coords points="850,2503 880,2503 880,2481 868,2483 864,2483 856,2475 850,2475"/>
+          <Coords points="880,2503 880,2481 868,2483 864,2483 858,2477 850,2477 850,2503"/>
           <TextEquiv conf="0.92190635">
             <Unicode>in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0003" custom="readingOrder {index:4;}">
-          <Coords points="981,2472 979,2476 929,2480 911,2480 905,2473 896,2473 896,2509 1048,2510 1048,2476 1002,2476 999,2472"/>
+          <Coords points="929,2480 911,2480 908,2477 896,2477 896,2509 1048,2510 1048,2477 966,2477"/>
           <TextEquiv conf="0.9153631">
             <Unicode>henotico,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0004" custom="readingOrder {index:5;}">
-          <Coords points="1061,2470 1061,2502 1116,2502 1116,2472 1102,2474 1090,2474 1086,2470"/>
+          <Coords points="1061,2502 1116,2502 1116,2477 1061,2477"/>
           <TextEquiv conf="0.9050824">
             <Unicode>ſive</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0005" custom="readingOrder {index:6;}">
-          <Coords points="1132,2471 1167,2471 1167,2501 1132,2501"/>
+          <Coords points="1132,2501 1167,2501 1167,2477 1132,2477"/>
           <TextEquiv conf="0.9232665">
             <Unicode>de</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0006" custom="readingOrder {index:7;}">
-          <Coords points="1229,2469 1229,2469 1183,2470 1183,2501 1268,2502 1268,2472 1263,2471 1262,2469"/>
+          <Coords points="1183,2501 1268,2502 1268,2477 1183,2477"/>
           <TextEquiv conf="0.8990276">
             <Unicode>cauſis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0020_line0002_word0007" custom="readingOrder {index:8;} unclear {offset:0; length:11;}">
-          <Coords points="1291,2469 1291,2509 1407,2509 1427,2510 1428,2512 1452,2512 1454,2510 1485,2509 1485,2473 1450,2469"/>
+          <Coords points="1291,2509 1378,2509 1443,2507 1485,2507 1485,2473 1450,2469 1394,2469 1376,2477 1291,2477"/>
           <TextEquiv>
             <Unicode>remediisque</Unicode>
           </TextEquiv>
@@ -2941,43 +2957,43 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         <Coords points="356,2548 1134,2518 1422,2505 1539,2506 1567,2512 1564,2542 531,2572 345,2582 345,2536"/>
         <Baseline points="828,2552 1567,2539 655,2563 778,2563"/>
         <Word id="region0023_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="351,2574 540,2575 540,2544 483,2546 442,2546 437,2538 425,2537 422,2533 351,2534"/>
+          <Coords points="481,2574 531,2572 540,2571 540,2544 483,2546 442,2546 441,2544 356,2548 351,2542 351,2574"/>
           <TextEquiv>
             <Unicode>ſidiorum,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0023_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="556,2546 621,2547 621,2571 556,2570"/>
+          <Coords points="621,2547 556,2546 556,2570 584,2570 621,2569"/>
           <TextEquiv>
             <Unicode>quæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671454049363_1286" custom="readingOrder {index:2;}">
-          <Coords points="634,2537 730,2532 826,2541 826,2554 734,2566 706,2566 634,2570"/>
+          <Coords points="706,2566 734,2566 826,2554 826,2541 741,2533 634,2537 634,2569 671,2567"/>
           <TextEquiv>
             <Unicode>Chriſtianum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671454064638_1290" custom="readingOrder {index:3;}">
-          <Coords points="875,2523 890,2523 941,2529 941,2548 881,2552 840,2553 840,2539"/>
+          <Coords points="840,2539 840,2553 881,2552 941,2548 941,2529 918,2526 863,2528"/>
           <TextEquiv>
             <Unicode>orbem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0021_line0002_word0002" custom="readingOrder {index:4;}">
-          <Coords points="960,2511 960,2543 1050,2544 1050,2517 1039,2518 1034,2511 1003,2511 1002,2519 976,2517 970,2511"/>
+          <Coords points="960,2543 1050,2544 1050,2521 960,2524"/>
           <TextEquiv conf="0.6088427">
             <Unicode>hodie</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0021_line0002_word0003" custom="readingOrder {index:5;}">
-          <Coords points="1072,2510 1071,2515 1065,2516 1065,2543 1201,2543 1201,2513 1132,2514 1129,2510"/>
+          <Coords points="1065,2543 1201,2543 1201,2514 1134,2518 1065,2520"/>
           <TextEquiv>
             <Unicode>affligunt,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0021_line0002_word0004" custom="readingOrder {index:6;}">
-          <Coords points="1246,2510 1245,2513 1229,2513 1229,2542 1328,2543 1328,2515 1309,2515 1302,2510"/>
+          <Coords points="1245,2513 1245,2513 1229,2514 1229,2542 1328,2543 1328,2515 1309,2515 1303,2510 1245,2513"/>
           <TextEquiv conf="0.57967085">
             <Unicode>addito</Unicode>
           </TextEquiv>
@@ -2989,7 +3005,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0021_line0002_word0006" custom="readingOrder {index:8;}">
-          <Coords points="1428,2514 1564,2515 1564,2545 1428,2544"/>
+          <Coords points="1564,2515 1428,2514 1428,2544 1481,2544 1564,2542"/>
           <TextEquiv conf="0.89067924">
             <Unicode>Collecta-</Unicode>
           </TextEquiv>
@@ -2999,7 +3015,7 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1671185129000_4773" custom="readingOrder {index:40;}">
-        <Coords points="378,2584 422,2589 1202,2543 1222,2532 1563,2541 1569,2584 1567,2586 1335,2590 378,2627"/>
+        <Coords points="1335,2590 1567,2586 1569,2584 1563,2541 1222,2532 1202,2543 422,2589 378,2584 378,2620 559,2620"/>
         <Baseline points="1321,2627 1569,2624 664,2607 1148,2587 1306,2590 1463,2579 1563,2581"/>
         <Word id="word_1671185098331_4753" custom="readingOrder {index:0;}">
           <Coords points="384,2587 448,2588 448,2620 384,2620"/>
@@ -3014,19 +3030,19 @@ medium, quod optimum eſſe ſolet, teneatur. Ita elegantiſſimus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671185098331_4757" custom="readingOrder {index:2;}">
-          <Coords points="530,2578 704,2579 704,2610 684,2611 530,2611"/>
+          <Coords points="530,2611 684,2611 704,2610 704,2579 601,2578 530,2582"/>
           <TextEquiv conf="0.88657326">
             <Unicode>CYRILLO</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0023_line0003_word0000" custom="readingOrder {index:3;}">
-          <Coords points="729,2604 878,2596 878,2560 865,2560 729,2576"/>
+          <Coords points="878,2596 878,2562 816,2565 729,2576 729,2604"/>
           <TextEquiv conf="0.9252729">
             <Unicode>LVCARI</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0023_line0003_word0001" custom="readingOrder {index:4;}">
-          <Coords points="905,2589 1036,2590 1036,2553 1033,2551 1024,2550 1014,2561 1008,2561 1007,2557 1001,2555 982,2555 975,2563 905,2561"/>
+          <Coords points="1036,2590 1036,2553 1036,2553 1021,2554 1014,2561 1008,2561 1007,2557 1001,2555 999,2555 981,2556 975,2563 905,2561 905,2589"/>
           <TextEquiv conf="0.85730916">
             <Unicode>Londini</Unicode>
           </TextEquiv>
@@ -3103,10 +3119,10 @@ tique Tomo II. Art. I. &amp; V. denique in Arte Critiea Tomo I. p. 461.
 neis de CYRILLO LVCARI Londini 1707. ll editis LAMINDVS TANIVS. PRI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.26861987" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671185104169_4762" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671185104169_4762" custom="readingOrder {index:7;} structure {type:catch-word;}" orientation="-0.26861987" type="catch-word" readingDirection="left-to-right">
       <Coords points="1361,2594 1570,2587 1570,2657 1361,2657"/>
       <TextLine id="line_1671456363432_2048" custom="readingOrder {index:0;}">
-        <Coords points="1390,2632 1566,2632 1566,2590 1390,2590"/>
+        <Coords points="1566,2632 1566,2590 1480,2590 1390,2593 1390,2632"/>
         <Word id="region0024_line0001_word0004" custom="readingOrder {index:0;}">
           <Coords points="1396,2593 1566,2594 1566,2628 1396,2627"/>
           <TextEquiv>

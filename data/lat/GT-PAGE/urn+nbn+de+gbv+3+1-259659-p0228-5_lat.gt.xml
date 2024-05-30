@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-113">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:58Z</Created>
     <LastChange>2024-01-19T13:07:58Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/7fcd6893-bebc-48cc-a088-ce0782f0e243/00000228.jpg" imageWidth="1296" imageHeight="2074" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0003"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.88864577" readingDirection="left-to-right" id="TextRegion_1655285047210_1732" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1655285047210_1732" custom="readingOrder {index:0;}" orientation="-0.88864577" readingDirection="left-to-right">
       <Coords points="396,476 1196,476 1196,689 396,689"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="690,476 684,487 647,487 639,478 628,478 622,487 608,488 605,478 596,476 585,477 584,487 580,488 514,487 506,478 495,478 488,487 398,486 396,524 406,527 466,529 551,528 557,532 568,529 637,528 648,536 674,538 690,535 694,526 771,526 796,530 800,539 809,541 820,539 823,531 916,536 1011,536 1060,538 1062,548 1070,550 1083,548 1086,538 1195,539 1196,498 1150,497 1141,485 1128,485 1114,498 1040,497 1035,488 1022,486 1015,496 940,496 915,494 913,488 907,484 899,483 891,491 820,489 797,486 722,487 708,476"/>
@@ -35,7 +51,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655285142596_1750" custom="readingOrder {index:2;}">
-          <Coords points="668,487 687,480 702,480 786,489 785,518 693,528 668,528"/>
+          <Coords points="702,480 688,480 684,487 668,487 668,528 693,528 693,528 694,526 711,526 785,518 786,489 762,486 722,487 715,481"/>
           <TextEquiv>
             <Unicode>γλωτιέ</Unicode>
           </TextEquiv>
@@ -149,7 +165,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0004" custom="readingOrder {index:3;}">
-        <Coords points="552,628 545,633 511,635 397,636 396,675 542,677 543,684 553,688 587,688 591,686 592,677 851,684 857,695 872,696 885,683 904,682 912,689 920,689 930,680 958,678 963,673 963,652 958,647 878,646 868,635 837,643 742,638 626,638 620,630 612,630 604,637 593,637 570,633 564,628"/>
+        <Coords points="545,633 511,635 397,636 396,675 542,677 543,684 553,688 587,688 591,686 592,677 851,684 853,689 879,689 885,683 904,682 912,689 920,689 930,680 958,678 963,673 963,652 958,647 878,646 868,635 837,643 742,638 626,638 620,630 612,630 604,637 593,637 570,633 564,628 552,628"/>
         <Baseline points="396,667 872,675 963,670"/>
         <Word id="region0001_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="452,643 513,644 513,669 452,668"/>
@@ -180,16 +196,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mine, ἐπὶ γλωτιέ per iocum impoſito,&#13;
-quod Selenen vxorem duxit, quæ patri&#13;
-antea Cyziceno &amp; Grypo patruo nupſe-&#13;
+        <Unicode>mine, ἐπὶ γλωτιέ per iocum impoſito,
+quod Selenen vxorem duxit, quæ patri
+antea Cyziceno &amp; Grypo patruo nupſe-
 rat. Appian. extrem. Syr.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.88864577" readingDirection="left-to-right" id="TextRegion_1655285047210_1731" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1655285047210_1731" custom="readingOrder {index:1;}" orientation="-0.88864577" readingDirection="left-to-right">
       <Coords points="396,689 1196,689 1196,956 396,956"/>
       <TextLine id="region0001_line0005" custom="readingOrder {index:0;}">
-        <Coords points="502,685 473,688 452,693 397,691 396,742 454,743 513,737 629,742 690,743 718,741 743,744 825,743 835,747 883,748 890,755 901,755 906,753 923,756 934,749 947,752 957,748 1002,750 1023,754 1070,755 1083,763 1091,758 1108,762 1117,756 1196,757 1195,715 1140,714 1133,703 1120,705 1114,715 1089,714 1085,703 1074,701 1008,700 999,703 992,711 978,711 958,709 951,699 940,699 932,707 920,707 892,705 879,697 821,693 681,688 590,687 582,689 553,689 545,686"/>
+        <Coords points="452,693 397,691 396,742 454,743 513,737 629,742 690,743 718,741 743,744 825,743 835,747 883,748 890,755 901,755 906,753 923,756 934,749 947,752 957,748 1002,750 1023,754 1070,755 1083,763 1091,758 1108,762 1117,756 1196,757 1195,715 1140,714 1133,703 1120,705 1114,715 1089,714 1085,703 1074,701 1008,700 999,703 992,711 978,711 958,709 951,699 940,699 932,707 920,707 892,705 879,697 821,693 709,689 582,689 553,689 468,689"/>
         <Baseline points="396,732 736,732 1196,746"/>
         <Word id="region0001_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="401,705 450,705 450,737 401,737"/>
@@ -368,14 +384,14 @@ rat. Appian. extrem. Syr.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>12 ANTIOCHVS XI. Grypi ex Tryphæ-&#13;
-na filius, gemellus frater Philippi. Epi-&#13;
-phanis&amp; Philadelphi ſibi cognomina im-&#13;
-ponit, Victus a Pio patruele Ioſeph.&#13;
+        <Unicode>12 ANTIOCHVS XI. Grypi ex Tryphæ-
+na filius, gemellus frater Philippi. Epi-
+phanis&amp; Philadelphi ſibi cognomina im-
+ponit, Victus a Pio patruele Ioſeph.
 13.21.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.88864577" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="-0.88864577" readingDirection="left-to-right">
       <Coords points="390,988 1188,988 1188,1368 390,1368"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="670,988 391,989 390,1042 409,1042 420,1047 433,1047 441,1043 487,1039 653,1042 684,1043 690,1048 699,1048 707,1044 748,1044 753,1041 802,1046 1188,1053 1188,1012 1166,1011 1164,1005 1158,1001 1000,997 990,1005 964,1007 953,998 942,998 935,1005 898,1004 892,997 880,997 874,1003 775,1003 763,1001 761,994 756,990"/>
@@ -637,16 +653,16 @@ ponit, Victus a Pio patruele Ioſeph.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>13 PHILIPPVS, frater Antiochi XI, in&#13;
-parte Syriæ cum ſratre Eucæro regnans,&#13;
-Pio alteram partem tenente, tandem to-&#13;
-ta Syria potitus, Ioſeph. 13. 21. 22.Num-&#13;
-mus inſcriptus ΒΑΣΙΛΕΩΣ ΦΙΛΙΠ-&#13;
-ΠΟϒ ΕΠΙΦΑΝΟϒΣ ΦΙΛΑΔΕΛΦϽϒ&#13;
+        <Unicode>13 PHILIPPVS, frater Antiochi XI, in
+parte Syriæ cum ſratre Eucæro regnans,
+Pio alteram partem tenente, tandem to-
+ta Syria potitus, Ioſeph. 13. 21. 22.Num-
+mus inſcriptus ΒΑΣΙΛΕΩΣ ΦΙΛΙΠ-
+ΠΟϒ ΕΠΙΦΑΝΟϒΣ ΦΙΛΑΔΕΛΦϽϒ
 Vaill. p. 390.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.88864577" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;}" orientation="-0.88864577" readingDirection="left-to-right">
       <Coords points="381,1402 1180,1402 1183,1829 384,1829"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="759,1402 425,1402 422,1407 415,1408 410,1414 382,1414 381,1460 424,1462 444,1454 487,1452 791,1458 885,1465 929,1465 935,1462 968,1461 989,1464 992,1471 1007,1466 1011,1460 1022,1464 1179,1467 1180,1425 1081,1422 1072,1413 1061,1414 1056,1422 997,1422 995,1413 983,1407 899,1409"/>
@@ -840,7 +856,7 @@ Vaill. p. 390.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0006" custom="readingOrder {index:5;}">
-        <Coords points="548,1658 536,1661 531,1669 524,1660 510,1661 504,1669 484,1668 475,1662 460,1660 382,1658 381,1706 382,1709 444,1710 448,1713 672,1712 677,1715 712,1715 717,1718 764,1722 837,1724 839,1731 848,1734 863,1733 868,1730 869,1724 926,1726 1009,1723 1138,1727 1179,1725 1180,1691 1107,1685 1041,1684 1039,1678 1021,1674 1006,1674 1002,1683 974,1685 907,1683 905,1677 900,1674 886,1674 882,1681 786,1682 773,1678 733,1675 732,1667 724,1664 679,1664 671,1673 561,1670 559,1660"/>
+        <Coords points="536,1661 531,1669 524,1660 510,1661 504,1669 484,1668 475,1662 460,1660 382,1658 383,1709 444,1710 448,1713 672,1712 677,1715 712,1715 717,1718 764,1722 837,1724 839,1731 848,1734 863,1733 868,1730 869,1724 926,1726 1009,1723 1138,1727 1179,1725 1180,1691 1107,1685 1041,1684 1039,1678 1021,1674 1006,1674 1002,1683 974,1685 907,1683 905,1677 900,1674 886,1674 882,1681 786,1682 773,1678 733,1675 732,1667 724,1664 679,1664 671,1673 561,1670 559,1660 548,1658"/>
         <Baseline points="381,1700 648,1703 826,1715 1179,1716"/>
         <Word id="region0003_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="432,1660 431,1701 603,1704 603,1671 561,1670 559,1662 535,1661 531,1669 525,1661 509,1661 504,1669 484,1668 475,1662 464,1660"/>
@@ -877,7 +893,7 @@ Vaill. p. 390.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0007" custom="readingOrder {index:6;}">
-        <Coords points="660,1713 570,1715 567,1719 566,1732 552,1731 546,1721 476,1720 470,1713 454,1714 450,1720 444,1711 382,1710 381,1761 479,1763 484,1767 491,1767 498,1763 534,1764 538,1761 552,1760 557,1764 573,1766 627,1765 629,1775 635,1778 652,1776 657,1766 660,1776 676,1779 686,1777 689,1766 713,1767 717,1770 748,1773 761,1780 789,1783 828,1783 851,1779 932,1779 950,1772 1016,1778 1113,1779 1114,1787 1122,1790 1139,1790 1145,1784 1179,1784 1179,1737 1065,1736 1062,1727 1032,1725 927,1726 905,1732 868,1731 859,1735 848,1735 828,1730 720,1725 719,1720 712,1716 698,1718 695,1725 680,1723 678,1716"/>
+        <Coords points="570,1715 567,1719 566,1732 552,1731 546,1721 476,1720 470,1713 454,1714 450,1720 444,1711 383,1710 383,1761 479,1763 484,1767 491,1767 498,1763 534,1764 538,1761 552,1760 557,1764 573,1766 627,1765 629,1775 635,1778 652,1776 657,1766 660,1776 676,1779 686,1777 689,1766 713,1767 717,1770 748,1773 761,1780 789,1783 828,1783 851,1779 932,1779 950,1772 1016,1778 1113,1779 1114,1787 1122,1790 1139,1790 1145,1784 1179,1784 1179,1737 1065,1736 1062,1727 1032,1725 927,1726 905,1732 868,1731 859,1735 848,1735 828,1730 720,1725 719,1720 712,1716 698,1718 695,1725 680,1723 678,1716 660,1713"/>
         <Baseline points="382,1751 716,1757 786,1769 908,1770 948,1763 1179,1775"/>
         <Word id="region0003_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="431,1717 430,1762 479,1763 484,1767 491,1767 494,1765 494,1720 476,1720 474,1717 451,1717 450,1720 448,1717"/>
@@ -904,7 +920,7 @@ Vaill. p. 390.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0007_word0004" custom="readingOrder {index:4;}">
-          <Coords points="962,1731 961,1773 1016,1778 1113,1779 1113,1782 1118,1780 1118,1733 1065,1736 1063,1732"/>
+          <Coords points="961,1773 1016,1778 1113,1779 1113,1781 1118,1780 1118,1736 1065,1736 1063,1732 962,1731"/>
           <TextEquiv conf="0.82342535">
             <Unicode>Vaillant</Unicode>
           </TextEquiv>
@@ -920,7 +936,7 @@ Vaill. p. 390.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0008" custom="readingOrder {index:7;}">
-        <Coords points="557,1765 524,1766 516,1769 492,1767 485,1770 381,1767 381,1828 453,1830 573,1820 897,1829 902,1832 914,1829 1011,1829 1059,1825 1076,1825 1083,1830 1099,1828 1107,1831 1179,1832 1179,1790 1122,1791 1105,1787 1016,1784 1010,1777 998,1777 991,1785 970,1785 965,1783 964,1776 960,1774 936,1777 929,1783 866,1784 789,1784 758,1780 676,1780 662,1777 635,1779 628,1776 622,1767 607,1767 602,1777 578,1777 575,1767"/>
+        <Coords points="524,1766 516,1769 492,1767 485,1770 383,1767 383,1828 417,1829 465,1829 573,1820 897,1829 914,1829 1011,1829 1059,1825 1076,1825 1081,1829 1091,1829 1099,1828 1101,1829 1179,1829 1179,1790 1122,1791 1105,1787 1016,1784 1010,1777 998,1777 991,1785 970,1785 965,1783 964,1776 960,1774 936,1777 929,1783 866,1784 789,1784 758,1780 676,1780 662,1777 635,1779 628,1776 622,1767 607,1767 602,1777 578,1777 575,1767 557,1765"/>
         <Baseline points="381,1818 563,1810 1179,1822"/>
         <Word id="region0003_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="432,1773 523,1775 523,1821 432,1819"/>
@@ -957,13 +973,13 @@ Vaill. p. 390.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>14 DEMETRIVS III. ſuperiorum&#13;
-frater, vulgo EVCAERVS (ἔυϰαιρσς&#13;
-Ioſepho c. I.) a Pt. Lathuro contra&#13;
-Euſeben excitatus: victus a fratre,&#13;
-Arabum &amp; Parthorum auxilio, &amp; in&#13;
-Parthiam miſſus, captiuus diem o-&#13;
-bit. Ioſeph. 13. 22. Vaillant p.&#13;
+        <Unicode>14 DEMETRIVS III. ſuperiorum
+frater, vulgo EVCAERVS (ἔυϰαιρσς
+Ioſepho c. I.) a Pt. Lathuro contra
+Euſeben excitatus: victus a fratre,
+Arabum &amp; Parthorum auxilio, &amp; in
+Parthiam miſſus, captiuus diem o-
+bit. Ioſeph. 13. 22. Vaillant p.
 378. huic nummum tribuit cum</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-240">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:36Z</Created>
     <LastChange>2024-01-19T13:09:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/340aa674-76ec-455f-ad28-5c0b9d10e855/00000425.jpg" imageWidth="1548" imageHeight="2489" type="content" primaryLanguage="Latin">
     <Border>
@@ -23,7 +39,7 @@
         <RegionRefIndexed index="9" regionRef="region_1682501989971_2339"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1682501898164_2228" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1682501898164_2228" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="204,468 204,514 906,514 906,468"/>
       <TextLine id="line_1682501898257_2231" custom="readingOrder {index:0;}">
         <Coords points="204,468 204,514 906,514 906,468"/>
@@ -65,7 +81,7 @@
         <Unicode>DE VSVR. ET FRVCTIB. &amp;c.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682501901828_2237" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682501901828_2237" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="919,471 919,514 992,514 992,471"/>
       <TextLine id="line_1682501901912_2240" custom="readingOrder {index:0;}">
         <Coords points="919,471 919,514 992,514 992,471"/>
@@ -83,7 +99,7 @@
         <Unicode>129</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.016894767" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.016894767" type="heading" readingDirection="left-to-right">
       <Coords points="173,581 955,581 955,720 173,720"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="563,581 375,586 225,583 220,588 220,629 223,633 229,634 235,644 448,644 511,641 610,642 715,637 749,632 797,633 801,636 810,636 814,633 873,633 885,626 885,585 882,581"/>
@@ -141,14 +157,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>DISTINCTIO VI.&#13;
+        <Unicode>DISTINCTIO VI.
 Inter Fructus pendentes &amp; perceptos.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.016894767" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1666081682877_68" custom="readingOrder {index:3;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1666081682877_68" custom="readingOrder {index:3;} structure {type:drop-capital;}" orientation="-0.016894767" type="drop-capital" readingDirection="left-to-right">
       <Coords points="122,731 205,731 205,850 122,850"/>
       <TextLine id="line_1666081721385_91" custom="readingOrder {index:0;}">
-        <Coords points="122,743 144,743 205,744 205,812 205,853 122,852 122,814"/>
+        <Coords points="144,743 122,743 122,814 122,850 205,850 205,812 205,744"/>
         <Baseline points="169,799 205,796"/>
         <Word id="word_1666081724105_97" custom="readingOrder {index:0;}">
           <Coords points="143,743 144,743 202,744 205,812 205,842 140,842 140,807 140,790"/>
@@ -164,7 +180,7 @@ Inter Fructus pendentes &amp; perceptos.</Unicode>
         <Unicode>R</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.016894767" readingDirection="left-to-right" id="TextRegion_1666081682877_67" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1666081682877_67" custom="readingOrder {index:4;}" orientation="-0.016894767" readingDirection="left-to-right">
       <Coords points="205,731 1007,731 1007,850 205,850"/>
       <TextLine id="line_1666081682919_70" custom="readingOrder {index:0;}">
         <Coords points="205,744 241,746 273,756 355,755 357,746 361,743 378,743 383,747 385,754 395,753 396,744 401,739 419,742 424,752 430,743 435,741 445,742 450,752 513,750 517,741 524,739 540,741 544,750 776,745 782,743 782,731 803,731 809,735 811,743 861,741 865,731 886,731 891,741 897,737 905,737 912,742 927,743 1006,743 1006,787 906,787 904,792 894,796 881,794 875,784 817,789 799,786 785,791 752,793 695,790 668,795 653,794 643,798 616,798 607,803 577,797 450,797 440,794 423,798 287,798 270,800 255,810 237,801 231,805 205,810"/>
@@ -201,7 +217,7 @@ Inter Fructus pendentes &amp; perceptos.</Unicode>
         </Word>
         <Word id="region0005_line0001_word0006" custom="readingOrder {index:5;}">
           <Coords points="840,776 884,776 884,737 862,737 861,741 840,741"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
@@ -216,7 +232,7 @@ Inter Fructus pendentes &amp; perceptos.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666081682922_72" custom="readingOrder {index:1;}">
-        <Coords points="237,802 255,811 270,801 287,799 299,804 314,804 322,798 355,800 361,797 382,797 390,802 418,803 426,797 440,795 451,798 452,803 567,801 607,804 613,801 643,799 653,795 661,796 663,800 671,800 677,793 695,791 715,791 722,794 724,799 729,799 781,795 789,789 799,787 812,790 813,794 841,793 850,786 875,785 881,795 894,797 903,793 919,794 924,789 934,789 946,795 1006,796 1006,839 872,839 777,844 760,841 738,845 672,843 655,846 583,847 551,847 536,843 523,848 388,850 371,846 354,851 274,854 270,859 258,862 250,862 243,854 232,851 215,854 205,853 205,812 231,810 232,805"/>
+        <Coords points="523,848 536,843 551,847 583,847 655,846 672,843 738,845 760,841 777,844 872,839 1006,839 1006,796 946,795 934,789 924,789 919,794 903,793 894,797 881,795 875,785 850,786 841,793 813,794 812,790 799,787 789,789 781,795 729,799 724,799 722,794 715,791 695,791 677,793 671,800 663,800 661,796 653,795 643,799 613,801 607,804 567,801 452,803 451,798 440,795 426,797 418,803 390,802 382,797 361,797 355,800 322,798 314,804 299,804 287,799 270,801 255,811 237,802 232,805 231,810 205,812 205,850 357,850 371,846 388,850"/>
         <Word id="word_1666081678888_61" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="237,802 255,811 268,802 294,802 299,804 299,850 222,850 222,810 231,810 232,805"/>
           <TextEquiv conf="0.6692352">
@@ -258,14 +274,14 @@ Inter Fructus pendentes &amp; perceptos.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Epetenda hic eadem, quæ modo ad præc.&#13;
+        <Unicode>Epetenda hic eadem, quæ modo ad præc.
 diſt. dicta fuerunt. Scilicet fructus na-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.016894767" readingDirection="left-to-right" id="TextRegion_1666081678849_57" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1666081678849_57" custom="readingOrder {index:5;}" orientation="-0.016894767" readingDirection="left-to-right">
       <Coords points="122,850 1007,850 1007,1087 122,1111"/>
       <TextLine id="region0005_line0003" custom="readingOrder {index:0;}">
-        <Coords points="760,842 753,845 752,849 691,850 685,844 672,844 661,851 558,852 553,852 547,845 536,844 528,846 522,853 504,854 386,855 384,850 371,847 359,849 356,856 271,859 258,863 240,861 238,855 232,852 218,853 213,859 122,857 122,903 156,905 162,909 171,909 176,904 186,906 193,902 201,905 228,905 234,901 250,901 269,903 278,911 286,911 300,900 325,901 340,897 367,900 379,891 389,894 399,890 405,896 430,899 526,894 533,898 545,898 550,904 562,906 574,904 581,897 606,897 612,893 623,892 629,904 634,905 649,901 650,896 755,894 765,891 824,893 845,899 857,895 878,898 887,896 889,890 898,882 903,882 909,887 1006,885 1006,843 864,844 777,848 773,843"/>
+        <Coords points="661,851 558,852 553,852 551,850 524,850 522,853 504,854 386,855 384,850 358,850 356,856 271,859 258,863 240,861 238,855 232,852 218,853 213,859 122,857 122,903 156,905 162,909 171,909 176,904 186,906 193,902 201,905 228,905 234,901 250,901 269,903 278,911 286,911 300,900 325,901 340,897 367,900 379,891 389,894 399,890 405,896 430,899 526,894 533,898 545,898 550,904 562,906 574,904 581,897 606,897 612,893 623,892 629,904 634,905 649,901 650,896 755,894 765,891 824,893 845,899 857,895 878,898 887,896 889,890 898,882 903,882 909,887 1006,885 1006,850 691,850 662,850"/>
         <Word id="region0005_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="281,904 281,858 271,859 258,863 240,861 238,855 232,852 218,853 213,859 142,857 142,904 176,904 189,904 193,902 198,904 229,904 234,901 250,901 269,903 270,904"/>
           <TextEquiv conf="0.6004896">
@@ -427,7 +443,7 @@ diſt. dicta fuerunt. Scilicet fructus na-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0007" custom="readingOrder {index:4;}">
-        <Coords points="160,1051 122,1053 122,1104 165,1107 181,1119 197,1120 204,1116 241,1114 266,1099 273,1105 283,1107 324,1104 342,1099 358,1107 363,1107 366,1103 371,1107 439,1107 447,1095 444,1081 448,1065 443,1060 404,1060 392,1057 388,1060 371,1060 362,1065 357,1061 347,1062 341,1056 324,1056 318,1065 258,1065 242,1062 225,1053 198,1055 181,1052 176,1055"/>
+        <Coords points="122,1053 122,1104 165,1107 168,1109 251,1107 266,1099 273,1105 281,1106 290,1106 324,1104 342,1099 353,1104 364,1104 366,1103 367,1104 442,1102 447,1095 444,1081 448,1065 443,1060 404,1060 392,1057 388,1060 371,1060 362,1065 357,1061 347,1062 341,1056 324,1056 318,1065 258,1065 242,1062 225,1053 198,1055 181,1052 176,1055 160,1051"/>
         <Baseline points="268,1100 315,1096 339,1084 445,1084"/>
         <Word id="region0005_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="440,1069 138,1069 138,1105 165,1107 181,1119 197,1120 204,1116 241,1114 266,1099 273,1105 283,1107 324,1104 342,1099 358,1107 363,1107 366,1103 371,1107 439,1107 440,1105"/>
@@ -440,20 +456,20 @@ diſt. dicta fuerunt. Scilicet fructus na-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>turales pendentes pendentes ad ad proprietarium, perce-&#13;
-pti ad vſufructuarii heredes pertinent. Aliud&#13;
-iure Saxonico, vbi eo reſpicitur, an ſemen&#13;
-raſtro ſubactum fuerit, vid. Finckelth.&#13;
+        <Unicode>turales pendentes pendentes ad ad proprietarium, perce-
+pti ad vſufructuarii heredes pertinent. Aliud
+iure Saxonico, vbi eo reſpicitur, an ſemen
+raſtro ſubactum fuerit, vid. Finckelth.
 Obſ.54.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.016894767" readingDirection="left-to-right" id="TextRegion_1666081663489_46" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1666081663489_46" custom="readingOrder {index:6;}" orientation="-0.016894767" readingDirection="left-to-right">
       <Coords points="122,1111 1007,1087 1008,2128 123,2128"/>
       <TextLine id="region0005_line0008" custom="readingOrder {index:0;}">
-        <Coords points="572,1061 565,1067 567,1081 564,1085 564,1096 569,1101 558,1105 525,1106 523,1099 509,1090 500,1090 496,1093 494,1107 358,1108 342,1100 327,1103 321,1108 286,1110 280,1106 273,1106 266,1100 241,1115 200,1119 199,1152 204,1157 213,1158 310,1157 320,1160 333,1157 344,1162 373,1157 393,1148 400,1153 409,1148 411,1155 419,1153 424,1159 433,1162 440,1158 434,1150 437,1147 449,1147 456,1154 509,1153 517,1148 581,1154 585,1151 674,1149 688,1144 718,1148 765,1143 849,1147 882,1152 890,1156 905,1153 916,1157 923,1164 935,1165 940,1161 941,1153 945,1151 967,1147 1006,1146 1006,1098 820,1100 818,1093 813,1089 799,1087 794,1091 792,1100 689,1102 684,1093 666,1087 663,1075 652,1074 644,1084 644,1092 650,1098 657,1099 657,1102 579,1105 570,1102 583,1101 588,1097 590,1070 584,1063"/>
+        <Coords points="569,1101 558,1105 525,1106 523,1100 494,1100 494,1107 358,1108 351,1104 323,1105 321,1108 286,1110 281,1106 253,1107 241,1115 200,1119 199,1152 204,1157 213,1158 310,1157 320,1160 333,1157 344,1162 373,1157 393,1148 400,1153 409,1148 411,1155 419,1153 424,1159 433,1162 440,1158 434,1150 437,1147 449,1147 456,1154 509,1153 517,1148 581,1154 585,1151 674,1149 688,1144 718,1148 765,1143 849,1147 882,1152 890,1156 905,1153 916,1157 923,1164 935,1165 940,1161 941,1153 945,1151 967,1147 1006,1146 1006,1098 820,1100 818,1093 816,1092 793,1092 792,1100 689,1102 685,1095 648,1096 650,1098 657,1099 657,1102 579,1105 570,1102 583,1101 586,1098 566,1098"/>
         <Baseline points="265,1100 266,1100"/>
         <Word id="region0005_line0008_word0000" custom="readingOrder {index:0;}">
-          <Coords points="248,1150 405,1150 404,1107 358,1108 342,1100 327,1103 321,1108 286,1110 280,1106 273,1106 266,1100 247,1111"/>
+          <Coords points="388,1150 393,1148 395,1150 405,1150 404,1107 358,1108 342,1100 327,1103 321,1108 286,1110 280,1106 273,1106 266,1100 247,1111 248,1150"/>
           <TextEquiv conf="0.84656096">
             <Unicode>Fructus</Unicode>
           </TextEquiv>
@@ -677,7 +693,7 @@ Obſ.54.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1666081996974_275" custom="readingOrder {index:3;}">
-          <Coords points="480,1354 495,1352 530,1351 562,1351 794,1358 794,1402 755,1409 742,1409 480,1405"/>
+          <Coords points="794,1358 583,1360 571,1358 570,1354 562,1351 544,1354 530,1351 519,1360 509,1352 495,1352 480,1354 480,1405 612,1407 615,1405 623,1407 630,1407 648,1404 674,1408 674,1408 679,1407 683,1401 693,1398 705,1402 732,1399 743,1409 755,1409 765,1403 794,1402"/>
           <TextEquiv>
             <Unicode>Obſ.23.num.13.</Unicode>
           </TextEquiv>
@@ -810,7 +826,7 @@ Obſ.54.</Unicode>
         </Word>
         <Word id="region0005_line0016_word0003" custom="readingOrder {index:3;}">
           <Coords points="722,1516 742,1516 742,1545 722,1545"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>a</Unicode>
           </TextEquiv>
         </Word>
@@ -1254,7 +1270,7 @@ Obſ.54.</Unicode>
         <Coords points="752,2012 740,2016 737,2020 729,2014 721,2013 710,2014 699,2021 691,2022 605,2025 603,2019 591,2017 557,2020 550,2028 540,2029 480,2030 473,2023 463,2023 448,2031 421,2032 417,2027 403,2025 389,2034 352,2035 252,2036 211,2033 199,2026 187,2026 177,2030 139,2025 135,2028 122,2028 122,2071 135,2072 141,2068 149,2068 163,2075 194,2074 205,2079 239,2082 241,2086 250,2089 262,2083 284,2083 290,2088 310,2089 322,2082 375,2081 403,2075 412,2078 440,2078 470,2077 477,2074 607,2074 804,2067 815,2063 843,2067 936,2067 961,2062 1006,2065 1006,2020 999,2020 998,2015 993,2012 978,2012 972,2015 971,2020 967,2013 951,2012 936,2022 930,2022 924,2013 910,2012 896,2014 894,2020 840,2019 824,2017 820,2012 805,2014 799,2019 771,2020 770,2015 766,2013"/>
         <Word id="region0005_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="260,2073 260,2035 252,2036 211,2033 199,2026 187,2026 177,2030 141,2025 141,2068 149,2068 159,2073"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>enim,</Unicode>
           </TextEquiv>
         </Word>
@@ -1293,7 +1309,7 @@ Obſ.54.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0027" custom="readingOrder {index:19;}">
-        <Coords points="961,2063 948,2068 892,2073 832,2073 831,2067 815,2064 805,2067 803,2073 779,2073 774,2069 765,2069 760,2073 746,2074 510,2083 495,2083 489,2075 477,2075 469,2078 467,2084 414,2084 411,2078 403,2076 386,2080 384,2086 310,2090 270,2087 266,2084 250,2090 240,2086 206,2083 203,2078 194,2075 183,2076 178,2080 164,2078 158,2072 141,2069 134,2076 122,2076 122,2125 273,2128 315,2136 321,2144 331,2145 339,2143 344,2136 400,2133 407,2132 413,2127 424,2127 430,2132 520,2131 590,2128 608,2122 627,2122 639,2125 733,2125 742,2132 752,2132 762,2130 766,2123 787,2121 904,2121 915,2126 931,2121 1006,2117 1006,2068"/>
+        <Coords points="948,2068 892,2073 832,2073 831,2067 815,2064 805,2067 803,2073 779,2073 774,2069 765,2069 760,2073 746,2074 510,2083 495,2083 489,2075 477,2075 469,2078 467,2084 414,2084 411,2078 403,2076 386,2080 384,2086 310,2090 270,2087 266,2084 250,2090 240,2086 206,2083 203,2078 194,2075 183,2076 178,2080 164,2078 158,2072 141,2069 134,2076 122,2076 122,2125 273,2128 411,2128 413,2127 424,2127 425,2128 590,2128 608,2122 627,2122 639,2125 733,2125 736,2128 763,2128 766,2123 787,2121 904,2121 915,2126 931,2121 1006,2117 1006,2068 961,2063"/>
         <Word id="region0005_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="128,2125 337,2125 337,2088 310,2090 270,2087 266,2084 250,2090 240,2086 206,2083 203,2078 194,2075 183,2076 178,2080 164,2078 158,2072 141,2069 134,2076 128,2076"/>
           <TextEquiv conf="0.7418202">
@@ -1335,29 +1351,29 @@ Obſ.54.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Fructus pendentes ad emtorem, per-&#13;
-cepti autem ad venditorem ſpectant-&#13;
-Colono, ob damnum in fructibus pen-&#13;
-dentibus perpeſſum, aliquid de penſione re-&#13;
-mittitur, non vero, ſi fructus iam percepti&#13;
-fuerunt. Gail. 2. Obſ.23.num.13. Sed quan-&#13;
-do hic dicuntur percepti? Nonnulli, alle-&#13;
-gatia Lauterbachio ad tit. Locat. Cond. re-&#13;
-quirunt, præter ſeparationem a fundo, etiam&#13;
-collationem in horreis, v. Carpzou. P. 2. C.&#13;
-37. Def, 20. n.8.9. quos ſequitur Dn. Beyer.&#13;
-Poſ. ff. Locat.poſ.53. ſeqq. ſed in eorum ca-&#13;
-ſtra transire non poſſumus, ob §.36. I. de&#13;
-R.D. ibi: eadem fere&amp; de colono dicuntur,&#13;
-vbi antecedentia aperte monſtrant, quod&#13;
-colonus &amp; vſufructuarius in hoc tertio&#13;
-comparentur, quod ſcilicet vterque fru-&#13;
-ctuum dominus eodem modo fiat, reliqua&#13;
-enim, quæ de heredibus vſufructuarii ibi&#13;
+        <Unicode>Fructus pendentes ad emtorem, per-
+cepti autem ad venditorem ſpectant-
+Colono, ob damnum in fructibus pen-
+dentibus perpeſſum, aliquid de penſione re-
+mittitur, non vero, ſi fructus iam percepti
+fuerunt. Gail. 2. Obſ.23.num.13. Sed quan-
+do hic dicuntur percepti? Nonnulli, alle-
+gatia Lauterbachio ad tit. Locat. Cond. re-
+quirunt, præter ſeparationem a fundo, etiam
+collationem in horreis, v. Carpzou. P. 2. C.
+37. Def, 20. n.8.9. quos ſequitur Dn. Beyer.
+Poſ. ff. Locat.poſ.53. ſeqq. ſed in eorum ca-
+ſtra transire non poſſumus, ob §.36. I. de
+R.D. ibi: eadem fere&amp; de colono dicuntur,
+vbi antecedentia aperte monſtrant, quod
+colonus &amp; vſufructuarius in hoc tertio
+comparentur, quod ſcilicet vterque fru-
+ctuum dominus eodem modo fiat, reliqua
+enim, quæ de heredibus vſufructuarii ibi
 habentur, ad colonum non quadrant, &amp;</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="footer" id="region_1682501983080_2321" custom="readingOrder {index:7;} structure {type:footer;}">
+    <TextRegion id="region_1682501983080_2321" custom="readingOrder {index:7;} structure {type:footer;}" type="footer">
       <Coords points="186,2139 186,2175 289,2175 289,2139"/>
       <TextLine id="line_1682501983225_2324" custom="readingOrder {index:0;}">
         <Coords points="186,2139 186,2175 289,2175 289,2139"/>
@@ -1375,7 +1391,7 @@ habentur, ad colonum non quadrant, &amp;</Unicode>
         <Unicode>P.II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682501986463_2330" custom="readingOrder {index:8;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682501986463_2330" custom="readingOrder {index:8;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="595,2134 595,2178 627,2178 627,2134"/>
       <TextLine id="line_1682501986592_2333" custom="readingOrder {index:0;}">
         <Coords points="595,2134 595,2178 627,2178 627,2134"/>
@@ -1393,7 +1409,7 @@ habentur, ad colonum non quadrant, &amp;</Unicode>
         <Unicode>I</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682501989971_2339" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="region_1682501989971_2339" custom="readingOrder {index:9;} structure {type:catch-word;}" type="catch-word">
       <Coords points="895,2136 895,2178 996,2178 996,2136"/>
       <TextLine id="line_1682501990036_2342" custom="readingOrder {index:0;}">
         <Coords points="895,2136 895,2178 996,2178 996,2136"/>

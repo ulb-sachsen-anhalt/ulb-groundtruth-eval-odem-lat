@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-201">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:07Z</Created>
     <LastChange>2024-01-19T13:09:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/1438ae5a-2000-4e63-b9e8-6e2ffdf4666a/00000050.jpg" imageWidth="1553" imageHeight="2283" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.1078125" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:0;}">
+    <TextRegion id="region0006" custom="readingOrder {index:0;}" orientation="-1.1078125" readingDirection="left-to-right">
       <Coords points="460,368 1401,385 1373,1958 431,1942"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="929,376 921,383 811,380 809,375 787,375 785,380 737,382 734,382 729,374 707,373 699,383 622,384 582,382 575,372 564,371 556,380 499,379 495,369 477,369 467,377 460,376 460,417 585,423 687,425 735,423 743,424 751,430 762,430 775,424 796,422 848,422 963,429 972,437 982,438 1006,429 1307,435 1400,434 1400,413 1400,393 1365,393 1360,385 1330,384 1327,391 1318,391 1315,384 1296,384 1292,388 1288,383 1246,383 1240,390 1177,389 1171,388 1168,381 1148,381 1145,388 1048,389 1044,388 1040,379 1013,378 1007,387 960,387 955,387 950,377 945,376"/>
@@ -649,7 +665,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0006_line0014_word0006" custom="readingOrder {index:7;}">
-          <Coords points="1219,1043 1189,1042 1187,1049 1120,1048 1092,1046 1092,1084 1242,1089 1242,1050 1223,1049"/>
+          <Coords points="1189,1042 1187,1049 1120,1048 1092,1047 1092,1084 1242,1089 1242,1050 1223,1049 1218,1042"/>
           <TextEquiv conf="0.92093503">
             <Unicode>querelis,</Unicode>
           </TextEquiv>
@@ -727,7 +743,7 @@
       <TextLine id="region0006_line0016" custom="readingOrder {index:15;}">
         <Coords points="765,1132 753,1141 674,1139 672,1134 667,1132 650,1131 637,1138 573,1140 569,1131 557,1129 550,1131 547,1139 508,1139 500,1131 488,1131 481,1140 447,1139 446,1180 520,1179 572,1185 625,1181 875,1188 881,1182 889,1182 896,1188 928,1189 934,1185 943,1185 949,1189 1059,1192 1084,1190 1095,1193 1123,1193 1128,1201 1138,1203 1144,1194 1182,1192 1383,1197 1387,1194 1387,1156 1153,1154 1145,1144 1129,1149 1118,1143 1095,1143 1080,1144 1070,1149 1031,1149 1001,1147 994,1138 983,1138 977,1145 954,1145 947,1136 932,1137 928,1145 876,1146 849,1144 847,1139 802,1142 800,1136 795,1133 782,1133 778,1138 774,1133"/>
         <Word id="word_1651043411936_1997" custom="readingOrder {index:0;}">
-          <Coords points="454,1139 485,1134 570,1134 587,1139 587,1177 526,1176 454,1167"/>
+          <Coords points="486,1134 481,1140 454,1139 454,1167 526,1176 587,1177 587,1140 573,1140 570,1134 570,1134 549,1134 547,1139 508,1139 503,1134"/>
           <TextEquiv>
             <Unicode>minati,</Unicode>
           </TextEquiv>
@@ -931,7 +947,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651043507002_2039" custom="readingOrder {index:5;}">
-          <Coords points="1035,1349 1049,1347 1072,1347 1119,1353 1141,1374 1141,1389 1132,1389 1035,1384"/>
+          <Coords points="1072,1347 1050,1347 1049,1350 1035,1349 1035,1384 1132,1389 1141,1389 1141,1374 1119,1353 1074,1351 1072,1347"/>
           <TextEquiv>
             <Unicode>viam,</Unicode>
           </TextEquiv>
@@ -1009,7 +1025,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651043547392_2066" custom="readingOrder {index:2;}">
-          <Coords points="863,1451 905,1445 947,1446 999,1453 1028,1476 1028,1489 999,1493 863,1490"/>
+          <Coords points="906,1445 900,1452 863,1451 863,1490 999,1493 1028,1489 1028,1476 1000,1453 951,1452 947,1446 930,1445 927,1450 923,1445"/>
           <TextEquiv>
             <Unicode>quidem,</Unicode>
           </TextEquiv>
@@ -1415,7 +1431,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0031" custom="readingOrder {index:30;}">
-        <Coords points="1222,1904 1190,1907 1187,1922 1160,1915 1120,1914 1115,1907 1099,1906 1083,1909 1081,1913 1076,1914 1030,1914 1027,1906 1009,1903 998,1913 987,1913 985,1907 979,1904 965,1904 961,1910 952,1910 945,1903 933,1903 927,1911 902,1910 834,1908 830,1901 816,1899 802,1899 798,1907 726,1905 724,1898 720,1896 704,1896 701,1904 676,1906 433,1904 432,1948 627,1952 674,1950 679,1954 690,1954 696,1950 728,1948 982,1961 1065,1958 1100,1959 1104,1962 1115,1962 1119,1959 1210,1958 1327,1963 1373,1962 1372,1925 1303,1918 1299,1909 1287,1909 1282,1918 1269,1917 1268,1908 1263,1905"/>
+        <Coords points="1190,1907 1187,1922 1160,1915 1120,1914 1115,1907 1099,1906 1083,1909 1081,1913 1076,1914 1030,1914 1027,1906 1009,1903 998,1913 987,1913 985,1907 979,1904 965,1904 961,1910 952,1910 945,1903 933,1903 927,1911 902,1910 834,1908 830,1901 816,1899 802,1899 798,1907 726,1905 724,1898 720,1896 704,1896 701,1904 676,1906 433,1904 432,1942 1372,1957 1372,1925 1303,1918 1299,1909 1287,1909 1282,1918 1269,1917 1268,1908 1263,1905 1222,1904"/>
         <Word id="region0006_line0031_word0000" custom="readingOrder {index:0;}">
           <Coords points="441,1905 549,1907 548,1934 440,1932"/>
           <TextEquiv conf="0.9080525">
@@ -1451,36 +1467,36 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſertationum ſingularum ſingulis credere ſcidulis&#13;
-formae oƈtauae; quas deinde ad ordinem ele-&#13;
-mentorum litterarum diſponebat. Huic nego-&#13;
-tio neptis aliquoties operam commodauit ſuam.&#13;
-Seruo adhuc memoriae cauſa complura folia, hoc&#13;
-inſcripta modo manu puellari. Sic ſuos inſtituit&#13;
-Gesnerus, cuius vita laboribus diſtriƈta fuit gra-&#13;
-uiſſimis et perpetuis. Quid tandem efficere pot-&#13;
-erant patres, qui a litteris non debebant eſſe&#13;
-deſtituti, quorum animus marcet otio, illi in-&#13;
-primis, qui - - Perhorreſco reuerentiam&#13;
-muneris. Quorum filii eſſe debebant generis&#13;
-humani ſpecimina, qui vero ſunt plerumque -&#13;
-- - ſed malo me reprimere, et querelis, iuſtiſ-&#13;
-ſimis licet, ne haec pagina habeat quid male. o-&#13;
-minati, aditum hic intercludere. Gesnerus ve-&#13;
-ro ſine Grammaticae miniſterio, ſolo vſu et con-&#13;
-ſuetudine praeſtitit haec omnia. Subtiliſſimam&#13;
-enim verborum philoſophiam hanc, malam pue-&#13;
-rilis ſtudii, quae non expediat viam, ſed impe-&#13;
-diat, iudicabat comitem. lgitur auƈtor erat,&#13;
-rem praeſtantiſſimam quidem, ſed pueris no-&#13;
-xiam, vsque eo differre; quoad illis maior et&#13;
-linguae et rationis vſus contigiſſet. Cauſas rei&#13;
-ipſe expoſuit luculenter in praefatione gramma-&#13;
-ticae Cellerianae. Qui ab eo contemtam eſſe&#13;
-hanc litteraturae partem clamant, non minus&#13;
-ſunt ridiculi, quam ſi quis virum bonum, accu-&#13;
-ſare vellet, eum odio habere ſexum muliebrem,&#13;
-quoniam amicitiam cum eo contrahere ante&#13;
+        <Unicode>ſertationum ſingularum ſingulis credere ſcidulis
+formae oƈtauae; quas deinde ad ordinem ele-
+mentorum litterarum diſponebat. Huic nego-
+tio neptis aliquoties operam commodauit ſuam.
+Seruo adhuc memoriae cauſa complura folia, hoc
+inſcripta modo manu puellari. Sic ſuos inſtituit
+Gesnerus, cuius vita laboribus diſtriƈta fuit gra-
+uiſſimis et perpetuis. Quid tandem efficere pot-
+erant patres, qui a litteris non debebant eſſe
+deſtituti, quorum animus marcet otio, illi in-
+primis, qui - - Perhorreſco reuerentiam
+muneris. Quorum filii eſſe debebant generis
+humani ſpecimina, qui vero ſunt plerumque -
+- - ſed malo me reprimere, et querelis, iuſtiſ-
+ſimis licet, ne haec pagina habeat quid male. o-
+minati, aditum hic intercludere. Gesnerus ve-
+ro ſine Grammaticae miniſterio, ſolo vſu et con-
+ſuetudine praeſtitit haec omnia. Subtiliſſimam
+enim verborum philoſophiam hanc, malam pue-
+rilis ſtudii, quae non expediat viam, ſed impe-
+diat, iudicabat comitem. lgitur auƈtor erat,
+rem praeſtantiſſimam quidem, ſed pueris no-
+xiam, vsque eo differre; quoad illis maior et
+linguae et rationis vſus contigiſſet. Cauſas rei
+ipſe expoſuit luculenter in praefatione gramma-
+ticae Cellerianae. Qui ab eo contemtam eſſe
+hanc litteraturae partem clamant, non minus
+ſunt ridiculi, quam ſi quis virum bonum, accu-
+ſare vellet, eum odio habere ſexum muliebrem,
+quoniam amicitiam cum eo contrahere ante
 certos annos, interdicat adoleſcentibus. Gram-</Unicode>
       </TextEquiv>
     </TextRegion>

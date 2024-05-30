@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-302">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:42Z</Created>
     <LastChange>2024-01-19T13:10:42Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/0ae0ca60-41e6-40ed-925a-1fd6b58353e3/00000038.jpg" imageWidth="1530" imageHeight="2263" type="content" primaryLanguage="Latin">
     <Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1653466493845_2294"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.5896115" readingDirection="left-to-right" id="TextRegion_1653466509294_2303" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1653466509294_2303" custom="readingOrder {index:0;}" orientation="1.5896115" readingDirection="left-to-right">
       <Coords points="435,329 1364,296 1397,1260 469,1292"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1232,301 1222,311 1216,312 1184,312 1177,303 1164,305 1158,314 1153,304 1138,304 1136,304 1130,315 1119,315 1114,305 1110,305 1097,305 1093,307 1088,317 1080,318 1045,318 1040,308 1025,309 1019,319 966,320 964,311 934,312 930,320 817,321 772,326 771,318 721,318 710,319 709,327 667,327 665,322 645,322 640,328 610,330 606,323 589,324 584,332 581,324 575,324 566,324 558,326 555,333 545,334 437,339 438,382 524,380 592,375 986,364 990,367 1001,366 1015,359 1036,362 1213,357 1219,354 1236,357 1365,353 1364,307 1360,305 1249,310 1243,302"/>
@@ -87,7 +103,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653466905736_2335" custom="readingOrder {index:3;}">
-          <Coords points="1115,366 1215,359 1237,359 1361,359 1364,360 1365,405 1130,411 1116,411"/>
+          <Coords points="1115,366 1116,411 1130,411 1133,407 1162,409 1162,410 1192,409 1192,408 1203,408 1211,403 1235,407 1362,405 1365,405 1364,360 1361,359 1239,363 1237,359 1237,359 1215,359 1215,359 1213,364 1121,366"/>
           <TextEquiv>
             <Unicode>popularem;</Unicode>
           </TextEquiv>
@@ -507,7 +523,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653467204144_2374" custom="readingOrder {index:1;}">
-          <Coords points="668,886 821,871 853,889 854,915 669,916"/>
+          <Coords points="668,886 669,916 854,915 853,889 840,882 828,882 827,874 821,871 808,874 805,883 680,887 669,885"/>
           <TextEquiv>
             <Unicode>SEVERVS,</Unicode>
           </TextEquiv>
@@ -591,7 +607,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653467263533_2424" custom="readingOrder {index:2;}">
-          <Coords points="845,990 1009,985 1039,1001 1040,1015 1032,1016 846,1025"/>
+          <Coords points="1032,1016 1040,1015 1039,1001 1009,985 845,990 846,1025 863,1024 864,1023 902,1019 1023,1016 1024,1016"/>
           <TextEquiv>
             <Unicode>primum,</Unicode>
           </TextEquiv>
@@ -793,7 +809,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0019" custom="readingOrder {index:18;}">
-        <Coords points="574,1226 560,1244 523,1245 516,1237 500,1237 495,1241 494,1246 469,1247 470,1285 511,1287 531,1291 538,1299 557,1299 564,1289 595,1286 743,1279 748,1289 759,1289 768,1277 851,1277 857,1283 873,1283 883,1275 914,1272 917,1285 921,1288 930,1288 935,1283 939,1270 981,1272 982,1279 987,1284 1004,1282 1008,1284 1017,1284 1025,1280 1027,1272 1042,1271 1044,1277 1050,1281 1063,1281 1068,1277 1070,1268 1396,1255 1395,1217 1358,1213 1120,1222 1114,1217 1091,1216 1086,1213 1057,1217 989,1215 962,1218 949,1224 942,1218 928,1219 924,1221 923,1227 840,1229 838,1222 816,1221 808,1224 804,1231 656,1237 649,1229 632,1230 624,1233 620,1239 597,1241 596,1235"/>
+        <Coords points="560,1244 523,1245 516,1237 500,1237 495,1241 494,1246 469,1247 470,1285 511,1287 526,1290 568,1289 595,1286 743,1279 745,1282 764,1282 768,1277 851,1277 853,1279 879,1278 883,1275 914,1272 915,1277 937,1276 939,1270 981,1272 981,1274 1027,1273 1027,1272 1042,1271 1042,1272 1069,1271 1070,1268 1396,1255 1395,1217 1358,1213 1120,1222 1114,1217 1091,1216 1086,1213 1057,1217 989,1215 962,1218 949,1224 942,1218 928,1219 924,1221 923,1227 840,1229 838,1222 816,1221 808,1224 804,1231 656,1237 649,1229 632,1230 624,1233 620,1239 597,1241 596,1235 574,1226"/>
         <Word id="region0005_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="576,1227 573,1227 560,1244 523,1245 516,1237 500,1237 495,1241 494,1246 479,1247 480,1285 511,1287 526,1290 564,1289 564,1289 595,1286 607,1285 605,1240 597,1241 596,1235"/>
           <TextEquiv conf="0.9123349">
@@ -868,7 +884,7 @@ et alia honoris monumenta. Poſthac, le-
 elapſo fere menſe junio *) A. CXCIII. con-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.5896115" type="catch-word" readingDirection="left-to-right" id="TextRegion_1653466509294_2302" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1653466509294_2302" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="1.5896115" type="catch-word" readingDirection="left-to-right">
       <Coords points="469,1292 1397,1260 1399,1304 471,1336"/>
       <TextLine id="line_1653466509339_2313" custom="readingOrder {index:0;}">
         <Coords points="1266,1270 1273,1264 1296,1263 1397,1263 1398,1304 1276,1307 1267,1299"/>
@@ -886,7 +902,7 @@ elapſo fere menſe junio *) A. CXCIII. con-</Unicode>
         <Unicode>tra</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.5896115" type="footnote" readingDirection="left-to-right" id="TextRegion_1653466493845_2294" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1653466493845_2294" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="1.5896115" type="footnote" readingDirection="left-to-right">
       <Coords points="518,1341 1393,1311 1414,1892 1414,1913 608,1942 538,1923"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1279,1315 1274,1325 1137,1328 1125,1322 1102,1321 1071,1324 1052,1331 1037,1332 1033,1324 1015,1324 1011,1332 984,1333 979,1325 954,1326 945,1327 942,1335 867,1337 862,1329 853,1329 845,1330 841,1339 832,1339 823,1331 812,1331 805,1339 777,1340 773,1333 755,1333 750,1342 724,1345 636,1348 629,1341 614,1339 519,1344 521,1410 535,1410 545,1398 621,1387 649,1387 668,1384 675,1384 680,1390 696,1389 707,1383 760,1379 820,1378 825,1383 836,1383 845,1381 848,1377 921,1374 933,1369 937,1368 942,1377 956,1379 975,1378 987,1372 1067,1369 1075,1365 1111,1370 1394,1359 1393,1322 1374,1322 1368,1314 1361,1313"/>
@@ -1561,7 +1577,7 @@ elapſo fere menſe junio *) A. CXCIII. con-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0001" custom="readingOrder {index:14;}">
-        <Coords points="1072,1887 1069,1894 854,1901 849,1895 823,1896 820,1902 759,1904 756,1898 743,1898 735,1898 711,1900 709,1906 671,1907 655,1906 650,1902 632,1902 628,1902 627,1905 624,1902 607,1902 606,1903 607,1949 672,1946 677,1955 691,1955 701,1952 706,1944 1148,1933 1198,1925 1412,1918 1411,1881 1205,1885 1096,1892 1093,1886"/>
+        <Coords points="1069,1894 854,1901 849,1895 823,1896 820,1902 759,1904 756,1898 743,1898 735,1898 711,1900 709,1906 671,1907 655,1906 650,1902 632,1902 628,1902 627,1905 624,1902 607,1902 606,1903 606,1941 608,1942 1411,1913 1411,1881 1205,1885 1096,1892 1093,1886 1072,1887"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="625,1903 611,1904 612,1935 649,1934 648,1903 627,1903 627,1905"/>
           <TextEquiv conf="0.9330075">
@@ -1609,20 +1625,20 @@ elapſo fere menſe junio *) A. CXCIII. con-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>*) Namque incipiente Junio A. CXCIII. Ro-&#13;
-' mam SEVERVS venit; quod patet tum, cum&#13;
-dies LXVI, quos imperio DIDII IVLIANI DIO&#13;
-(lib. LXXIII. c. vlt. p. 1240.), aut II men-&#13;
-ſes ac 5. dies, quos ei SPARTIANVS (in&#13;
-Iuliano. c. 9.) tribuit, numeremus, inci-&#13;
-piendo a V. Calend. Aprilis h. e. XXVIII.&#13;
-Martii, quo die interfectum esſe Pertina-&#13;
-cem IVLIVS CAPITOLINVS (in vita Pertina-&#13;
-cis. c. 15.) refert. Apparet, inde non mi-&#13;
-nus, SEVERVM fere die Iunii 2. ſummi im-&#13;
-perii clauum ſumſisſe, ex quo die deducen-&#13;
-dos ſimul esſe Tribunitiae Poteſtatis termi-&#13;
-nos non demonſtrabo pluribus, quoniam&#13;
+        <Unicode>*) Namque incipiente Junio A. CXCIII. Ro-
+' mam SEVERVS venit; quod patet tum, cum
+dies LXVI, quos imperio DIDII IVLIANI DIO
+(lib. LXXIII. c. vlt. p. 1240.), aut II men-
+ſes ac 5. dies, quos ei SPARTIANVS (in
+Iuliano. c. 9.) tribuit, numeremus, inci-
+piendo a V. Calend. Aprilis h. e. XXVIII.
+Martii, quo die interfectum esſe Pertina-
+cem IVLIVS CAPITOLINVS (in vita Pertina-
+cis. c. 15.) refert. Apparet, inde non mi-
+nus, SEVERVM fere die Iunii 2. ſummi im-
+perii clauum ſumſisſe, ex quo die deducen-
+dos ſimul esſe Tribunitiae Poteſtatis termi-
+nos non demonſtrabo pluribus, quoniam
 id quidem facere memini c. 6. SCHWAR-</Unicode>
       </TextEquiv>
     </TextRegion>

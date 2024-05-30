@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-245">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:43Z</Created>
     <LastChange>2024-01-19T13:09:43Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6b15c476-078a-48f7-9087-9df76c137310/00000234.jpg" imageWidth="1703" imageHeight="2553" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1682415542163_3077"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682415480485_2987" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682415480485_2987" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="565,473 565,505 655,505 655,473"/>
       <TextLine id="line_1682415480564_2990" custom="readingOrder {index:0;}">
         <Coords points="565,473 565,505 655,505 655,473"/>
@@ -36,7 +52,7 @@
         <Unicode>226</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682415484754_2996" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682415484754_2996" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="750,477 750,525 1324,525 1324,477"/>
       <TextLine id="line_1682415484825_2999" custom="readingOrder {index:0;}">
         <Coords points="750,477 750,525 1324,525 1324,477"/>
@@ -72,7 +88,7 @@
         <Unicode>SEB. RAVII Exerc. philol.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.51146704" readingDirection="left-to-right" id="TextRegion_1663828702308_524" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1663828702308_524" custom="readingOrder {index:2;}" orientation="0.51146704" readingDirection="left-to-right">
       <Coords points="549,554 1505,554 1505,1502 549,1502"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="651,557 646,561 644,568 549,570 549,612 872,610 956,606 1037,611 1151,612 1365,609 1395,611 1400,618 1412,621 1417,621 1431,610 1504,606 1504,565 1432,565 1426,561 1417,561 1412,565 1349,564 1346,555 1326,555 1323,564 1310,564 1306,555 1292,554 1286,556 1284,564 1218,565 1211,555 1197,556 1190,565 1145,566 1012,563 1010,555 986,555 983,562 938,562 934,559 924,559 920,562 879,565 846,565 841,561 832,561 827,566 781,568 767,566 760,556 749,556 742,564 728,562 724,565 693,567 669,567 664,558"/>
@@ -768,7 +784,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0016" custom="readingOrder {index:15;}">
-        <Coords points="595,1447 591,1451 586,1448 550,1448 549,1503 716,1501 739,1503 745,1509 785,1512 793,1507 806,1505 806,1501 810,1499 1129,1499 1166,1501 1172,1506 1182,1506 1190,1500 1212,1497 1297,1495 1318,1497 1324,1506 1335,1507 1347,1498 1411,1496 1416,1491 1416,1484 1423,1478 1422,1445 1401,1441 1349,1441 1337,1451 1327,1453 1262,1451 1258,1448 1214,1452 1209,1444 1192,1443 1179,1455 1152,1455 1146,1446 1133,1446 1128,1454 1122,1457 1116,1457 1114,1454 1090,1457 1034,1458 1030,1445 1010,1445 1006,1450 1006,1456 1002,1457 909,1456 908,1448 904,1444 888,1446 881,1456 860,1456 857,1451 842,1446 835,1447 833,1456 735,1455 728,1446 718,1447 708,1457 697,1457 692,1449 685,1448 677,1450 671,1457 613,1458 609,1448"/>
+        <Coords points="591,1451 586,1448 550,1448 549,1502 632,1502 716,1501 727,1502 806,1502 806,1501 810,1499 1129,1499 1166,1501 1167,1502 1187,1502 1190,1500 1212,1497 1297,1495 1318,1497 1321,1502 1341,1502 1347,1498 1411,1496 1416,1491 1416,1484 1423,1478 1422,1445 1401,1441 1349,1441 1337,1451 1327,1453 1262,1451 1258,1448 1214,1452 1209,1444 1192,1443 1179,1455 1152,1455 1146,1446 1133,1446 1128,1454 1122,1457 1116,1457 1114,1454 1090,1457 1034,1458 1030,1445 1010,1445 1006,1450 1006,1456 1002,1457 909,1456 908,1448 904,1444 888,1446 881,1456 860,1456 857,1451 842,1446 835,1447 833,1456 735,1455 728,1446 718,1447 708,1457 697,1457 692,1449 685,1448 677,1450 671,1457 613,1458 609,1448 595,1447"/>
         <Baseline points="549,1493 1416,1484"/>
         <Word id="region0001_line0016_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="590,1454 590,1501 760,1499 760,1455 735,1455 732,1452 712,1452 708,1457 697,1457 694,1452 674,1453 671,1457 613,1458 611,1453"/>
@@ -811,25 +827,25 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>coniunctio et ante de manu hominis, per&#13;
-imprudentiam addita. Nam, cum Scriba&#13;
-legeret, et de manu hominis, facile credi-&#13;
-derit id, quod anteceſſit, non de homine fuiſſe&#13;
-dictum, ſed de beſtiis, ſcripſeritque adeo&#13;
-חיה beſtiae, cum tamen legeret חי vi-&#13;
-uentis. Sed iſtud et, ex quo is error, vel&#13;
-ſimilis alius, naſcebatur, omittunt Sama-&#13;
-ritani, neque id legebat Syrus. Quorum&#13;
-ſcriptionem cum ſequaris, ſententia haec pla-&#13;
-na exoritur, requiram illum (ſanguinem)&#13;
-de manu omnis viuentis. Deinde, vt ex-&#13;
-plicetur, quid ſit viuens, continuo ſubditur,&#13;
-de manu hominis, de manu viri fratris&#13;
-eius; hoc eſt, ab homine ſanguinem quaeram&#13;
+        <Unicode>coniunctio et ante de manu hominis, per
+imprudentiam addita. Nam, cum Scriba
+legeret, et de manu hominis, facile credi-
+derit id, quod anteceſſit, non de homine fuiſſe
+dictum, ſed de beſtiis, ſcripſeritque adeo
+חיה beſtiae, cum tamen legeret חי vi-
+uentis. Sed iſtud et, ex quo is error, vel
+ſimilis alius, naſcebatur, omittunt Sama-
+ritani, neque id legebat Syrus. Quorum
+ſcriptionem cum ſequaris, ſententia haec pla-
+na exoritur, requiram illum (ſanguinem)
+de manu omnis viuentis. Deinde, vt ex-
+plicetur, quid ſit viuens, continuo ſubditur,
+de manu hominis, de manu viri fratris
+eius; hoc eſt, ab homine ſanguinem quaeram
 hominis, quia homo hominis frater eſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.51146704" readingDirection="left-to-right" id="TextRegion_1663828702308_523" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1663828702308_523" custom="readingOrder {index:3;}" orientation="0.51146704" readingDirection="left-to-right">
       <Coords points="549,1502 1505,1502 1505,2079 549,2079"/>
       <TextLine id="region0001_line0017" custom="readingOrder {index:0;}">
         <Coords points="644,1505 609,1508 604,1514 605,1544 615,1549 616,1556 621,1560 652,1565 702,1566 752,1560 1021,1560 1174,1553 1223,1560 1287,1556 1307,1571 1320,1567 1324,1559 1505,1559 1504,1513 1493,1513 1488,1504 1472,1501 1368,1502 1358,1505 1344,1502 1335,1508 1334,1513 1248,1515 1242,1508 1106,1510 1033,1516 871,1515 850,1511 818,1512 807,1506 793,1508 780,1514 744,1515 722,1513 700,1505"/>
@@ -1243,7 +1259,7 @@ hominis, quia homo hominis frater eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0026" custom="readingOrder {index:9;}">
-        <Coords points="1076,2010 1068,2016 1068,2024 993,2022 988,2018 959,2022 954,2014 948,2013 936,2016 931,2024 925,2024 918,2015 907,2015 900,2026 863,2027 859,2018 848,2018 841,2020 837,2027 813,2034 749,2033 747,2026 742,2022 716,2024 709,2034 661,2034 654,2025 638,2026 635,2034 549,2035 549,2081 857,2078 883,2083 903,2083 936,2074 1009,2070 1033,2072 1034,2080 1040,2085 1090,2084 1103,2077 1112,2077 1123,2086 1144,2088 1170,2086 1189,2079 1341,2079 1504,2074 1504,2038 1481,2033 1442,2031 1430,2022 1415,2022 1406,2028 1391,2031 1381,2031 1372,2025 1362,2024 1348,2033 1262,2031 1239,2022 1211,2023 1204,2031 1199,2032 1137,2031 1088,2027 1088,2016"/>
+        <Coords points="1068,2016 1068,2024 993,2022 988,2018 959,2022 954,2014 948,2013 936,2016 931,2024 925,2024 918,2015 907,2015 900,2026 863,2027 859,2018 848,2018 841,2020 837,2027 813,2034 749,2033 747,2026 742,2022 716,2024 709,2034 661,2034 654,2025 638,2026 635,2034 549,2035 549,2079 754,2079 857,2078 862,2079 917,2079 936,2074 1009,2070 1033,2072 1033,2079 1099,2079 1103,2077 1112,2077 1114,2079 1189,2079 1341,2079 1504,2074 1504,2038 1481,2033 1442,2031 1430,2022 1415,2022 1406,2028 1391,2031 1381,2031 1372,2025 1362,2024 1348,2033 1262,2031 1239,2022 1211,2023 1204,2031 1199,2032 1137,2031 1088,2027 1088,2016 1076,2010"/>
         <Baseline points="549,2072 897,2069 1033,2061 1138,2072 1504,2065"/>
         <Word id="region0001_line0026_word0000" custom="readingOrder {index:0;}">
           <Coords points="717,2023 716,2024 709,2034 661,2034 654,2025 638,2026 635,2034 594,2034 594,2067 810,2065 810,2033 749,2033 747,2026 744,2023"/>
@@ -1280,19 +1296,19 @@ hominis, quia homo hominis frater eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quaerit HVBIGANTIVS, quid ſibi&#13;
-velit, de manu beſtiae requiram ſanguinem.&#13;
-Reſpondeo, Deum Opt. Max. hominibus&#13;
-ex arca egreſſis, id priuilegii conceſſiſſe,&#13;
-vt ius et ampliſſimam poteſtatem haberent&#13;
-in omnia animantia v. 2. quare, ſi vellent,&#13;
-conuerterent ea in cibum v. 3. ſed hac lege,&#13;
-ne carnem cum ſanguine comederent, quia&#13;
-ſanguis ſit anima eius v. 4. A ſanguine&#13;
+        <Unicode>Quaerit HVBIGANTIVS, quid ſibi
+velit, de manu beſtiae requiram ſanguinem.
+Reſpondeo, Deum Opt. Max. hominibus
+ex arca egreſſis, id priuilegii conceſſiſſe,
+vt ius et ampliſſimam poteſtatem haberent
+in omnia animantia v. 2. quare, ſi vellent,
+conuerterent ea in cibum v. 3. ſed hac lege,
+ne carnem cum ſanguine comederent, quia
+ſanguis ſit anima eius v. 4. A ſanguine
 animalium legislator progreditur ad ſan-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682415542163_3077" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1682415542163_3077" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1310,2089 1310,2140 1503,2140 1503,2089"/>
       <TextLine id="line_1682415542219_3080" custom="readingOrder {index:0;}">
         <Coords points="1310,2089 1310,2140 1503,2140 1503,2089"/>

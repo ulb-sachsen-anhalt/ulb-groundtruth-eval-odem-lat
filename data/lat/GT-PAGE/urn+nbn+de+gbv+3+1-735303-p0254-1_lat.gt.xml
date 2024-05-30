@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-241">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:36Z</Created>
     <LastChange>2024-01-19T13:09:36Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/94044752-db22-4fcf-9bc7-1b3f6ec30beb/00000254.jpg" imageWidth="3082" imageHeight="4290" type="content" primaryLanguage="Latin">
     <Border>
@@ -34,7 +50,7 @@
         <RegionRefIndexed index="21" regionRef="TextRegion_1673861146228_2586"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.21527821" type="marginalia" readingDirection="left-to-right" id="TextRegion_1673945587194_146" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1673945587194_146" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.21527821" type="marginalia" readingDirection="left-to-right">
       <Coords points="866,1078 927,1056 927,1144 865,1144 866,1136"/>
       <TextLine id="line_1673861655989_2765" custom="readingOrder {index:0;}">
         <Coords points="866,1091 897,1090 902,1088 916,1091 927,1090 927,1135 866,1135"/>
@@ -52,7 +68,7 @@
         <Unicode>☞</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="marginalia" readingDirection="left-to-right" id="TextRegion_1673945576856_138" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1673945576856_138" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.21527821" type="marginalia" readingDirection="left-to-right">
       <Coords points="862,1885 930,1885 930,1954 862,1954"/>
       <TextLine id="line_1673865907222_4662" custom="readingOrder {index:0;}">
         <Coords points="869,1889 869,1940 928,1940 928,1889"/>
@@ -70,7 +86,7 @@
         <Unicode>☞</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="marginalia" id="region_1673861132861_2565" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="region_1673861132861_2565" custom="readingOrder {index:3;} structure {type:marginalia;}" type="marginalia">
       <Coords points="850,2949 850,2981 920,2981 920,2949"/>
       <TextLine id="line_1673861133201_2568" custom="readingOrder {index:0;}">
         <Coords points="850,2949 850,2981 920,2981 920,2949"/>
@@ -88,7 +104,7 @@
         <Unicode>☞</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="page-number" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:4;} structure {type:page-number;}">
+    <TextRegion id="region0013" custom="readingOrder {index:4;} structure {type:page-number;}" orientation="-0.21527821" type="page-number" readingDirection="left-to-right">
       <Coords points="930,481 1006,481 1006,530 930,530"/>
       <TextLine id="region0013_line" custom="readingOrder {index:0;}">
         <Coords points="930,481 1006,481 1006,530 930,530"/>
@@ -106,7 +122,7 @@
         <Unicode>188</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="header" readingDirection="left-to-right" id="region0019" custom="readingOrder {index:5;} structure {type:header;}">
+    <TextRegion id="region0019" custom="readingOrder {index:5;} structure {type:header;}" orientation="-0.21527821" type="header" readingDirection="left-to-right">
       <Coords points="1185,458 2532,458 2532,524 1185,524"/>
       <TextLine id="region0019_line0001" custom="readingOrder {index:0;}">
         <Coords points="2263,458 1185,461 1185,521 1357,519 1362,523 1372,523 1377,519 1578,520 1754,519 1791,516 1953,519 1955,524 1981,524 1983,519 2253,517 2351,521 2531,521 2531,459"/>
@@ -136,10 +152,10 @@
         <Unicode>DE VERBORVM SIGNIFICAT.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="heading" readingDirection="left-to-right" id="TextRegion_1673861036263_2512" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1673861036263_2512" custom="readingOrder {index:6;} structure {type:heading;}" orientation="-0.21527821" type="heading" readingDirection="left-to-right">
       <Coords points="924,565 1833,565 1833,611 924,611"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1530,565 1233,565 1231,596 1246,609 1286,612 1402,613 1409,609 1421,612 1539,612 1542,600 1549,594 1549,566"/>
+        <Coords points="1233,565 1231,596 1246,609 1272,611 1405,611 1409,609 1417,611 1539,611 1542,600 1549,594 1549,566 1530,565"/>
         <Baseline points="1233,598 1541,603"/>
         <Word id="word_1673861036405_2517" custom="readingOrder {index:0;}">
           <Coords points="1292,576 1390,576 1390,603 1292,603"/>
@@ -161,10 +177,10 @@
         <Unicode>CHE. CHI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861036263_2511" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1673861036263_2511" custom="readingOrder {index:7;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="924,611 1833,611 1833,916 924,916"/>
       <TextLine id="region0014_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1702,606 1660,608 1656,611 1654,619 1621,618 1616,611 1604,609 1595,619 1544,620 1540,613 1523,613 1520,614 1518,621 1490,625 1424,622 1423,614 1415,610 1401,614 1397,622 1282,621 1277,612 1260,611 1256,614 1254,623 1244,624 1155,621 1153,615 1146,611 1132,613 1128,622 1113,623 1108,616 1092,612 987,610 982,614 980,623 956,621 947,614 925,616 925,664 1026,662 1045,663 1048,668 1054,669 1088,660 1253,663 1323,659 1325,667 1331,670 1389,670 1397,666 1426,663 1429,669 1438,672 1446,670 1449,664 1489,665 1501,668 1506,665 1552,661 1560,661 1562,668 1570,670 1587,669 1591,661 1615,661 1635,665 1660,659 1684,659 1690,668 1696,669 1708,668 1714,660 1833,662 1833,619 1776,619 1775,611 1770,606"/>
+        <Coords points="1654,619 1621,618 1616,611 1602,611 1595,619 1544,620 1540,613 1523,613 1520,614 1518,621 1490,625 1424,622 1423,614 1417,611 1411,611 1401,614 1397,622 1282,621 1277,612 1260,611 1256,614 1254,623 1244,624 1155,621 1153,615 1146,611 1132,613 1128,622 1113,623 1108,616 1092,612 1039,611 985,611 982,614 980,623 956,621 947,614 925,616 925,664 1026,662 1045,663 1048,668 1054,669 1088,660 1253,663 1323,659 1325,667 1331,670 1389,670 1397,666 1426,663 1429,669 1438,672 1446,670 1449,664 1489,665 1501,668 1506,665 1552,661 1560,661 1562,668 1570,670 1587,669 1591,661 1615,661 1635,665 1660,659 1684,659 1690,668 1696,669 1708,668 1714,660 1833,662 1833,619 1776,619 1775,611 1656,611"/>
         <Baseline points="925,654 1339,650 1370,659 1833,651"/>
         <Word id="region0014_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="938,615 938,647 995,647 995,615 981,615 980,623 956,621 948,615"/>
@@ -494,15 +510,15 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ba: Diſcindere caelum: χάσμα, inquit, difactum,&#13;
-id eſt, ſubitam aeris diruptionem, et quemdam receſ-&#13;
-ſum; per quod vult videri in CHASMA ſe Irim rece-&#13;
-piſſe. Et mox: Sane CHASMA eſt, vt Plinius vo-&#13;
-cat, diruptio, et quidam caeli receſſus. Quibus ver-&#13;
+        <Unicode>ba: Diſcindere caelum: χάσμα, inquit, difactum,
+id eſt, ſubitam aeris diruptionem, et quemdam receſ-
+ſum; per quod vult videri in CHASMA ſe Irim rece-
+piſſe. Et mox: Sane CHASMA eſt, vt Plinius vo-
+cat, diruptio, et quidam caeli receſſus. Quibus ver-
 bis illum Plinianum locum, quem attigimus, deſignat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="heading" readingDirection="left-to-right" id="TextRegion_1673861046188_2524" custom="readingOrder {index:8;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1673861046188_2524" custom="readingOrder {index:8;} structure {type:heading;}" orientation="-0.21527821" type="heading" readingDirection="left-to-right">
       <Coords points="1028,962 1835,962 1835,1021 1028,1021"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="1297,962 1256,964 1255,1000 1258,1004 1268,1007 1312,1009 1478,1012 1482,1009 1485,998 1484,963"/>
@@ -521,7 +537,7 @@ bis illum Plinianum locum, quem attigimus, deſignat.</Unicode>
         <Unicode>CHE.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861655846_2761" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1673861655846_2761" custom="readingOrder {index:9;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="927,1056 1028,1021 1835,1021 1835,1080 1834,1717 927,1717"/>
       <TextLine id="region0015_line0002" custom="readingOrder {index:0;}">
         <Coords points="1454,1025 1416,1030 1330,1032 1028,1028 1028,1079 1674,1079 1737,1075 1834,1074 1834,1032 1760,1035 1706,1026 1660,1025 1636,1029 1611,1025 1554,1025 1521,1032 1507,1026"/>
@@ -794,7 +810,7 @@ bis illum Plinianum locum, quem attigimus, deſignat.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0004_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1114,1283 1190,1284 1191,1313 1115,1312"/>
+          <Coords points="1115,1312 1191,1313 1190,1286 1114,1286"/>
           <TextEquiv>
             <Unicode>naui</Unicode>
           </TextEquiv>
@@ -1207,7 +1223,7 @@ bis illum Plinianum locum, quem attigimus, deſignat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0017_line0012" custom="readingOrder {index:13;}">
-        <Coords points="1372,1660 1361,1669 1362,1677 1341,1678 1195,1679 1189,1671 1174,1672 1170,1679 971,1677 966,1670 949,1670 945,1678 932,1678 932,1719 999,1719 1052,1714 1392,1714 1404,1717 1504,1718 1508,1725 1512,1725 1527,1722 1530,1718 1764,1718 1775,1709 1775,1683 1766,1678 1455,1679 1453,1673 1448,1670 1423,1669 1419,1677 1400,1677 1395,1669 1390,1669 1378,1660"/>
+        <Coords points="1361,1669 1362,1677 1341,1678 1195,1679 1189,1671 1174,1672 1170,1679 971,1677 966,1670 949,1670 945,1678 932,1678 932,1717 1020,1717 1052,1714 1392,1714 1404,1717 1765,1717 1775,1709 1775,1683 1766,1678 1455,1679 1453,1673 1448,1670 1423,1669 1419,1677 1400,1677 1395,1669 1390,1669 1378,1660 1372,1660"/>
         <Baseline points="932,1709 1775,1708"/>
         <Word id="region0017_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="939,1697 1016,1697 1016,1677 971,1677 966,1670 949,1670 945,1678 939,1678"/>
@@ -1250,23 +1266,23 @@ bis illum Plinianum locum, quem attigimus, deſignat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ΧΕΙΡΕΜΒΟΛΟΝ, I. 1. §. 3. D. naut.&#13;
-caupon. ſtabul. Plura non addidit, cui hic articulus&#13;
-debetur, Tabor. Eſt ex vocabulis ἅπαξ λεγομέ-&#13;
-νοις, quod tamen ſamiliare nautis fuiſſe, ex loco&#13;
-Vlpiani paullo ante adſcripto patet. Significari illo&#13;
-actum res naui inferendi, cum vocabuli origo, tum&#13;
-ipſa legis verba innuunt, qualis vero fuerit, ignora-&#13;
-re ſe fatetur, qui alioquin horum nihil ignorare&#13;
-ſolet, Corn. van Bynkersh. Obſeru. II, 14. Si ta-&#13;
-men diuinare licet, χϵιϱέμβολον dixerim modum&#13;
-illum onerandi exonerandique naues, quo homines,&#13;
-aequis diſpoſiti ſtationibus, res alii aliis in manus&#13;
-immittunt. Tale enim quid ſieri ipſe vidi, et pa-&#13;
+        <Unicode>ΧΕΙΡΕΜΒΟΛΟΝ, I. 1. §. 3. D. naut.
+caupon. ſtabul. Plura non addidit, cui hic articulus
+debetur, Tabor. Eſt ex vocabulis ἅπαξ λεγομέ-
+νοις, quod tamen ſamiliare nautis fuiſſe, ex loco
+Vlpiani paullo ante adſcripto patet. Significari illo
+actum res naui inferendi, cum vocabuli origo, tum
+ipſa legis verba innuunt, qualis vero fuerit, ignora-
+re ſe fatetur, qui alioquin horum nihil ignorare
+ſolet, Corn. van Bynkersh. Obſeru. II, 14. Si ta-
+men diuinare licet, χϵιϱέμβολον dixerim modum
+illum onerandi exonerandique naues, quo homines,
+aequis diſpoſiti ſtationibus, res alii aliis in manus
+immittunt. Tale enim quid ſieri ipſe vidi, et pa-
 titur eam notionem vocabuli etymon. HEIN.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673862086445_2916" custom="readingOrder {index:10;}">
+    <TextRegion id="TextRegion_1673862086445_2916" custom="readingOrder {index:10;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="930,1717 1834,1717 1833,2607 930,2609"/>
       <TextLine id="line_1673861076281_2536" custom="readingOrder {index:0;}">
         <Coords points="1000,1719 1026,1717 1403,1717 1405,1718 1406,1733 1411,1724 1422,1723 1431,1733 1455,1734 1457,1726 1461,1723 1473,1723 1482,1733 1508,1732 1510,1726 1524,1723 1528,1723 1533,1730 1553,1723 1610,1723 1620,1731 1627,1721 1686,1721 1709,1725 1725,1723 1732,1733 1792,1732 1796,1720 1809,1718 1818,1723 1820,1733 1833,1734 1833,1766 1803,1771 1770,1772 1768,1779 1763,1782 1745,1782 1738,1772 1629,1773 1625,1780 1617,1782 1566,1779 1552,1774 1534,1777 1527,1773 1404,1772 1376,1777 1346,1771 1180,1774 1174,1771 1129,1770 1123,1773 1066,1773 1007,1766 995,1749 995,1723"/>
@@ -2121,7 +2137,7 @@ titur eam notionem vocabuli etymon. HEIN.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0017_line0028_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1359,2464 1324,2466 1296,2465 1295,2461 1282,2459 1267,2461 1235,2461 1227,2461 1220,2461 1214,2467 1214,2505 1270,2505 1275,2504 1329,2504 1330,2505 1351,2505 1359,2502"/>
+          <Coords points="1296,2465 1295,2461 1282,2459 1266,2467 1234,2467 1227,2461 1220,2461 1214,2467 1214,2505 1270,2505 1275,2504 1329,2504 1330,2505 1351,2505 1359,2502 1359,2464 1324,2466"/>
           <TextEquiv>
             <Unicode>ὀςϱάϰοις.</Unicode>
           </TextEquiv>
@@ -2235,27 +2251,27 @@ titur eam notionem vocabuli etymon. HEIN.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CHELYNIAE, in l. ult. §. 7. D. de pub-&#13;
-lican. et vectig. quid ſignificet, obſcurum eſt, niſi&#13;
-cheloniam, gemmam, intelligamus, quam oculum&#13;
-eſſe Indicae teſtudinis, Plin. Lib. XXXVII. Cap. 10. tra-&#13;
-dit. Ita fere et Pancirol. Var. Lect. Lib. Il. Cap. 110.&#13;
-Tom. II. Iurispr. Rom. et Attic. p. 1223. In vulga-&#13;
-tis legitur cylindrus, quam gemmam viridem ipſam&#13;
-quoque in India naſci, eiusque ſummam commenda-&#13;
-tionem in longitudine eſſe, ſcribit Plin. Lib. XXXVlII.&#13;
-Cap. 5. et 8. CHELONIA tamen magis placet: et ſcri-&#13;
-pturae Florentinae propius eſt id vocabulum, quam&#13;
-cylindrus. Meminit huius gemmae et Arrian. in&#13;
-Peripl. mar. Erythr. p. 144. vbi de Ptolemaide vrbe,&#13;
-quae et Theron: Έχϵι δὲ τὸ ἐμπόϱιον χελώνην&#13;
-ἀληϑινὴν, ϰαϳ χεϱσαίαν ὀλίγην, ϰαί λευϰὴν μι-&#13;
-ϰϱοτέϱαν τοἴς ὀςϱάϰοις. Habet emporium illud&#13;
-CHELONIAM veram, et cherſeam exiguam, et candi-&#13;
+        <Unicode>CHELYNIAE, in l. ult. §. 7. D. de pub-
+lican. et vectig. quid ſignificet, obſcurum eſt, niſi
+cheloniam, gemmam, intelligamus, quam oculum
+eſſe Indicae teſtudinis, Plin. Lib. XXXVII. Cap. 10. tra-
+dit. Ita fere et Pancirol. Var. Lect. Lib. Il. Cap. 110.
+Tom. II. Iurispr. Rom. et Attic. p. 1223. In vulga-
+tis legitur cylindrus, quam gemmam viridem ipſam
+quoque in India naſci, eiusque ſummam commenda-
+tionem in longitudine eſſe, ſcribit Plin. Lib. XXXVlII.
+Cap. 5. et 8. CHELONIA tamen magis placet: et ſcri-
+pturae Florentinae propius eſt id vocabulum, quam
+cylindrus. Meminit huius gemmae et Arrian. in
+Peripl. mar. Erythr. p. 144. vbi de Ptolemaide vrbe,
+quae et Theron: Έχϵι δὲ τὸ ἐμπόϱιον χελώνην
+ἀληϑινὴν, ϰαϳ χεϱσαίαν ὀλίγην, ϰαί λευϰὴν μι-
+ϰϱοτέϱαν τοἴς ὀςϱάϰοις. Habet emporium illud
+CHELONIAM veram, et cherſeam exiguam, et candi-
 dam, minoribus teſtis praeditam. HEIN.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="heading" readingDirection="left-to-right" id="TextRegion_1673861102883_2541" custom="readingOrder {index:11;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1673861102883_2541" custom="readingOrder {index:11;} structure {type:heading;}" orientation="-0.21527821" type="heading" readingDirection="left-to-right">
       <Coords points="921,2652 1825,2652 1825,2699 921,2699"/>
       <TextLine id="line_1673861103034_2544" custom="readingOrder {index:0;}">
         <Coords points="1272,2652 1453,2653 1454,2680 1450,2685 1443,2687 1443,2695 1439,2699 1398,2699 1279,2696 1267,2684 1267,2657"/>
@@ -2274,7 +2290,7 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
         <Unicode>CHI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861115024_2548" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1673861115024_2548" custom="readingOrder {index:12;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="921,2699 1825,2699 1825,3346 921,3346"/>
       <TextLine id="region0018_line0002" custom="readingOrder {index:0;}">
         <Coords points="1247,2701 1030,2702 987,2707 979,2713 979,2740 988,2746 988,2754 995,2760 1044,2764 1292,2761 1374,2764 1677,2764 1736,2769 1746,2765 1759,2765 1773,2773 1788,2774 1793,2773 1797,2766 1825,2766 1825,2719 1821,2716 1810,2716 1802,2725 1740,2727 1733,2727 1731,2721 1724,2716 1704,2717 1697,2726 1515,2723 1514,2708 1509,2703 1403,2704 1353,2701"/>
@@ -2702,7 +2718,7 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673863368293_3466" custom="readingOrder {index:1;} textStyle {offset:0; length:16;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1029,3113 1074,3108 1086,3108 1266,3109 1304,3111 1304,3145 1138,3150 1029,3150"/>
+          <Coords points="1086,3108 1074,3108 1068,3113 1029,3114 1029,3150 1138,3150 1304,3145 1304,3112 1268,3112 1265,3109 1249,3109 1246,3113 1091,3113 1087,3108"/>
           <TextEquiv>
             <Unicode>quingentenarius,</Unicode>
           </TextEquiv>
@@ -2739,7 +2755,7 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1673863406715_3494" custom="readingOrder {index:1;} textStyle {offset:0; length:11;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1014,3164 1162,3155 1173,3155 1207,3162 1214,3168 1214,3191 1120,3190 1014,3183"/>
+          <Coords points="1163,3155 1157,3162 1149,3164 1014,3164 1014,3183 1120,3190 1214,3191 1214,3168 1213,3168 1207,3162 1179,3163 1172,3155"/>
           <TextEquiv>
             <Unicode>numerarius,</Unicode>
           </TextEquiv>
@@ -2871,7 +2887,7 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0018_line0014" custom="readingOrder {index:12;}">
-        <Coords points="1037,3294 1020,3295 1016,3299 1005,3301 993,3296 922,3298 921,3345 973,3345 1045,3339 1181,3340 1232,3342 1239,3346 1283,3342 1353,3347 1444,3348 1483,3346 1488,3341 1489,3317 1486,3313 1477,3311 1355,3306 1334,3303 1329,3299 1317,3299 1309,3304 1241,3305 1235,3299 1225,3298 1189,3299 1170,3305 1132,3306 1123,3305 1122,3298 1118,3295"/>
+        <Coords points="1020,3295 1016,3299 1005,3301 993,3296 922,3298 921,3345 973,3345 1045,3339 1181,3340 1232,3342 1239,3346 1283,3342 1339,3346 1483,3346 1488,3341 1489,3317 1486,3313 1477,3311 1355,3306 1334,3303 1329,3299 1317,3299 1309,3304 1241,3305 1235,3299 1225,3298 1189,3299 1170,3305 1132,3306 1123,3305 1122,3298 1118,3295 1037,3294"/>
         <Baseline points="921,3335 1488,3337"/>
         <Word id="region0018_line0014_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="940,3304 1000,3304 999,3337 939,3337"/>
@@ -2893,7 +2909,7 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
         </Word>
         <Word id="region0018_line0014_word0003" custom="readingOrder {index:3;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1269,3343 1270,3306 1202,3306 1201,3340 1232,3342 1233,3343"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Cap.</Unicode>
           </TextEquiv>
         </Word>
@@ -2914,25 +2930,25 @@ dam, minoribus teſtis praeditam. HEIN.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CHILIARCHAE et centenarii, qui&#13;
-ſibi plebis diſtributionem vſurpare dicuntur. I. 20.&#13;
-C. Theod. de pagan. et ſacrif. Alias CHILIAR-&#13;
-CHAE, ait Ifidor. Etymol. Lib. IX. Cap. 3. ſunt,&#13;
-qui mille praeſunt militibus, quos nos Millenarios ad-&#13;
-pellamus. Nos, inquit lſidorus, id eſt, Gothi.&#13;
-Hinc lex Wiſigothica Lib. Il. tit. I. §. 26. Ideo Dux,&#13;
-Comes, vicarius, pacis adſertor, tyuphadus, millena-&#13;
-rius, quingentenarius, centenarius, decanus, defen-&#13;
-ſor, numerarius, -- iudicis nomine cenſeantur ex&#13;
-lege. Et ſub regibus Oſtrogothorum MILLENA-&#13;
-RII prouinciae Piceni et Samnii meminit Caſſiodor,&#13;
+        <Unicode>CHILIARCHAE et centenarii, qui
+ſibi plebis diſtributionem vſurpare dicuntur. I. 20.
+C. Theod. de pagan. et ſacrif. Alias CHILIAR-
+CHAE, ait Ifidor. Etymol. Lib. IX. Cap. 3. ſunt,
+qui mille praeſunt militibus, quos nos Millenarios ad-
+pellamus. Nos, inquit lſidorus, id eſt, Gothi.
+Hinc lex Wiſigothica Lib. Il. tit. I. §. 26. Ideo Dux,
+Comes, vicarius, pacis adſertor, tyuphadus, millena-
+rius, quingentenarius, centenarius, decanus, defen-
+ſor, numerarius, -- iudicis nomine cenſeantur ex
+lege. Et ſub regibus Oſtrogothorum MILLENA-
+RII prouinciae Piceni et Samnii meminit Caſſiodor,
 Lib. V. Variar. Cap. 26. HEIN.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861119869_2553" custom="readingOrder {index:13;}">
+    <TextRegion id="TextRegion_1673861119869_2553" custom="readingOrder {index:13;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="921,3346 1825,3346 1825,3391 921,3391"/>
       <TextLine id="line_1673861120006_2556" custom="readingOrder {index:0;}">
-        <Coords points="989,3345 1045,3340 1181,3341 1232,3343 1239,3347 1250,3347 1253,3344 1278,3345 1283,3349 1285,3357 1291,3358 1305,3358 1312,3349 1321,3349 1328,3355 1334,3349 1344,3349 1351,3359 1365,3359 1372,3350 1383,3350 1390,3359 1401,3359 1414,3349 1428,3351 1433,3360 1447,3360 1459,3352 1474,3350 1646,3353 1654,3359 1654,3386 1649,3391 1003,3391 998,3390 995,3382 987,3378 986,3349"/>
+        <Coords points="1250,3347 1239,3347 1237,3346 988,3346 986,3349 987,3378 995,3382 998,3390 1003,3391 1649,3391 1654,3386 1654,3359 1646,3353 1474,3350 1459,3352 1447,3360 1433,3360 1428,3351 1414,3349 1401,3359 1390,3359 1383,3350 1372,3350 1365,3359 1351,3359 1344,3349 1334,3349 1328,3355 1321,3349 1312,3349 1305,3358 1291,3358 1285,3357 1283,3349 1279,3346 1251,3346"/>
         <Baseline points="993,3381 1651,3389"/>
         <Word id="word_1673861120006_2558" custom="readingOrder {index:0;}">
           <Coords points="1044,3354 1263,3355 1263,3391 1044,3391"/>
@@ -2966,7 +2982,7 @@ Lib. V. Variar. Cap. 26. HEIN.</Unicode>
         <Unicode>CHILO, vid. infra CILO.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861119869_2552" custom="readingOrder {index:14;}">
+    <TextRegion id="TextRegion_1673861119869_2552" custom="readingOrder {index:14;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="921,3391 1825,3391 1825,3893 921,3893"/>
       <TextLine id="region0018_line0016" custom="readingOrder {index:0;}">
         <Coords points="1007,3393 985,3399 984,3428 993,3434 996,3446 1019,3450 1114,3451 1188,3449 1701,3456 1717,3457 1724,3462 1732,3461 1739,3456 1751,3456 1767,3461 1781,3461 1791,3455 1825,3456 1825,3416 1817,3406 1802,3408 1798,3416 1651,3416 1636,3415 1630,3407 1607,3406 1600,3415 1581,3416 1549,3415 1548,3403 1541,3400"/>
@@ -3525,19 +3541,19 @@ Lib. V. Variar. Cap. 26. HEIN.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CHIROGRAPHARII creditores, qui&#13;
-ſolo chirographo debitoris nituntur. I. 38. §. vlt. D.&#13;
-de reb. auct. iud. poſſ. l 4.l. 6 C. eod. tit. l. 10. C. qui&#13;
-pot. in pign. Paull. Sentent. Lib. V. tit. 26 §. 4.&#13;
-CHIROGRAPHARIVS autem creditor ad diſſe-&#13;
-entiam hypothecarii, de quo in I. 1. §. 5. D. de ſe-&#13;
-parat. Sic et CHIROGRAPHARIVS debitor, in&#13;
-l 7. C. de nouat. ſolo chirogtapho obligatus. Et&#13;
-CHIROGRAPHARIA pecunia: rubr. C. etiam ob&#13;
+        <Unicode>CHIROGRAPHARII creditores, qui
+ſolo chirographo debitoris nituntur. I. 38. §. vlt. D.
+de reb. auct. iud. poſſ. l 4.l. 6 C. eod. tit. l. 10. C. qui
+pot. in pign. Paull. Sentent. Lib. V. tit. 26 §. 4.
+CHIROGRAPHARIVS autem creditor ad diſſe-
+entiam hypothecarii, de quo in I. 1. §. 5. D. de ſe-
+parat. Sic et CHIROGRAPHARIVS debitor, in
+l 7. C. de nouat. ſolo chirogtapho obligatus. Et
+CHIROGRAPHARIA pecunia: rubr. C. etiam ob
 chirograph. pec. pign. CHIROGRAPHARIVM debi-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="heading" readingDirection="left-to-right" id="TextRegion_1673861177559_2594" custom="readingOrder {index:15;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1673861177559_2594" custom="readingOrder {index:15;} structure {type:heading;}" orientation="-0.21527821" type="heading" readingDirection="left-to-right">
       <Coords points="1873,561 2781,561 2781,607 1873,607"/>
       <TextLine id="line_1673861177704_2597" custom="readingOrder {index:0;}">
         <Coords points="2205,565 2208,561 2440,562 2442,598 2437,603 2387,607 2347,607 2210,602 2205,597"/>
@@ -3556,10 +3572,10 @@ chirograph. pec. pign. CHIROGRAPHARIVM debi-</Unicode>
         <Unicode>CHI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861177559_2593" custom="readingOrder {index:16;}">
+    <TextRegion id="TextRegion_1673861177559_2593" custom="readingOrder {index:16;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="1873,607 2781,607 2781,716 1873,716"/>
       <TextLine id="region0020_line0002" custom="readingOrder {index:0;}">
-        <Coords points="2549,605 2375,609 2248,608 2221,612 2200,610 2195,614 2182,615 2166,615 2159,608 2147,608 2139,616 2130,617 2085,608 2003,611 1997,606 1981,606 1975,612 1949,617 1874,617 1874,661 2199,657 2260,660 2781,660 2781,618 2777,617 2727,614 2719,606 2707,606 2698,613 2686,612 2678,606"/>
+        <Coords points="2375,609 2248,608 2221,612 2200,610 2195,614 2182,615 2166,615 2159,608 2147,608 2139,616 2130,617 2085,608 2003,611 1998,607 1980,607 1975,612 1949,617 1874,617 1874,661 2199,657 2260,660 2781,660 2781,618 2777,617 2727,614 2720,607 2705,607 2698,613 2686,612 2679,607 2462,607"/>
         <Baseline points="1874,651 2781,651"/>
         <Word id="region0020_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1877,624 1964,625 1964,648 1877,647"/>
@@ -3663,11 +3679,11 @@ chirograph. pec. pign. CHIROGRAPHARIVM debi-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tum. I. 1. C. eod. tit. CHIROGRAPHARIA inſtru-&#13;
+        <Unicode>tum. I. 1. C. eod. tit. CHIROGRAPHARIA inſtru-
 menta. l. vlt. C. ſi cert. pet.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861011866_2505" custom="readingOrder {index:17;}">
+    <TextRegion id="TextRegion_1673861011866_2505" custom="readingOrder {index:17;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="1862,778 1986,721 2781,721 2784,778 2784,3640 1862,3640"/>
       <TextLine id="region0021_line0001" custom="readingOrder {index:0;}">
         <Coords points="2265,721 1986,721 1986,780 2293,780 2376,777 2448,780 2459,785 2475,781 2478,786 2503,786 2506,781 2656,780 2700,781 2704,786 2726,786 2730,781 2751,781 2753,786 2770,786 2772,782 2780,781 2780,734 2716,733 2709,727 2698,727 2691,733 2679,733 2671,725 2658,725 2648,733 2542,734 2535,727 2524,727 2519,732 2512,732 2465,722"/>
@@ -5716,7 +5732,7 @@ menta. l. vlt. C. ſi cert. pet.</Unicode>
         </Word>
         <Word id="region0022_line0039_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1913,2667 1955,2667 1955,2689 1913,2689"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>22.</Unicode>
           </TextEquiv>
         </Word>
@@ -6776,68 +6792,68 @@ menta. l. vlt. C. ſi cert. pet.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CHIROGRAPHVM, priuatam ſcriptu-&#13;
-ram, ſeu cautionem, manu cuiusque ſubſcriptam&#13;
-ſubnotatamque, ſignificat, et, vt Heſychius iuterpre-&#13;
-tatur, συμβόλαϳον γϱαμματϵῖον, ſcripturam ſuper&#13;
-contractu: cuius formula proponitur in I. 41. §. vlt.&#13;
-D. de uſur. l. 47. §. vlt. D. de pact. Io. Chryſoſtom.&#13;
-in Epiſt. ad Philippenſ. Homil. VI. χϵιϱόγϱαφόν ἐϛι&#13;
-ὅταν τις ὀφλημάτων ὑπέυϑυνος ϰατέχεταϳ, CHI-&#13;
-ROGRAPHVM eſt, quo quis ad debitum aliquod&#13;
-obligatur. Hoc et ἰδιόχϵιϱον adpellatur, in I. 11. C.&#13;
-qui pot. in pign. Sed et Artemidor. Lib. I. de Somn.&#13;
-Cap. 44. χαιϱόγϱαφα ait χϵῖϱας, manus dici. Inter&#13;
-CHIROGRAPHA autem, et ſyngraphas, quid inter-&#13;
-eſſet, explicat Aſcon. in Verr. III. ¶. 2.&#13;
-CHIROGRAPHVM pro ſcriptura, propria pueri&#13;
-manu facta, dixit et Seneca Epiſt. XIV. ¶.3.&#13;
-Hinc loquutiones: CHIROGRAPHVM acceptae&#13;
-mutuae pecuniae: l. 14. C. de ſolut. CHIROGRA-&#13;
-PHVM ambiguum: l. 9. C. de litigioſ. CHIRO-&#13;
-GRAPHVM magnae pecuniæ: I. 6. D. de bon.&#13;
-damnat. CHIROGRAPHVM Titii, ante multos an-&#13;
-nos conſcriptum, per quod adparuit, fundum alteri&#13;
-obligatum eſſe: l. 30. §. vlt. D. de except. rei iudic.&#13;
-CHIROGRAPHVM manu ſua perſcribere: I. 26.&#13;
-§. l. D. pignor. Seneca de Benef. Lib. II. Cap. 23.&#13;
-Quidam nolunt nomina ſecum fieri, nec interponi&#13;
-pararios, nec ſignatores aduocari, nec CHIROGRA-&#13;
-PHVM dare. Gellius Lib. XIV. Cap. 2. probari&#13;
-pecuniam datam conſuetis modis, veluti CHIRO-&#13;
-GRAPHI exhibitione, ſcribit. CHIROGRAPHO&#13;
-proprio adnotare: l. 30. D. qui teſt. fac. poſſ. Do-&#13;
-meſtica cautione, et CHIROGRAPHO obligare ſe&#13;
-ad praeſtandum: l.3. pr. D. de iur. fiſc. Sic: profe-&#13;
-ratur CHIROGRAPHVM, quo ſe cauiſſet reſtitu-&#13;
-turum. d. l. 3. §. 1. D. de iur. fiſc. Ita et: In CHI-&#13;
-ROGRAPHVM redigi dicitur quantitas: l. 5. C. de&#13;
-non num. pec. CHIROGRAPHVM inane factum&#13;
-per ſolutionem: I. 18. D. ad exhib. inductum et&#13;
-conceliatum: I. 22. C. de ſolut. debitori redditum:&#13;
-l. 22. C. eod. CHIROGRAPHA debitorum: I. 57.&#13;
-D. de adminiſtr. et peric. tut. I. 11. §. 1. D. de ſeru.&#13;
-corrupt. l. 18. §. 2. D. de mort. eauſſ. donat. heredi-&#13;
-bus teſtamenta paene CHIROGRAPHA ſunt: l. 41.&#13;
-D. ad Leg. Aquill. CHIROGRAPHA etiam tribu-&#13;
-torum retro ſolutorum, dixit Scaeuola, in l. 52. D. de&#13;
-act. emt. vend. ¶. 4. Si CHIROGRAPHA&#13;
-legentur, vel veneant: non ipſe tabulae, ſiue cor-&#13;
-pus, ſed debitum et nomen actionesue, quarum&#13;
-probatio tabulis continetur, legari intelliguntur. I.&#13;
-44.§. 5. D. de legat. I. l. 59. D. de legat. III. ¶. 5.&#13;
-CHIROGRAPHA porro in tabulis et in codicibus&#13;
-fieri ſolebant. Sic in l. 27. D. de furt. Si CHIRO-&#13;
-GRAPHA aureorum decem, tabulae erant. Iuue-&#13;
-nal. Sat. vlt.&#13;
-Vana ſuperuacui dicens CHIROGRAPHA&#13;
-ligni.&#13;
-Vlpianus in l. 5. §. §. 8. v. denique D. commod. Si&#13;
-tibi codicem commendauero, et in eo CHIROGRA-&#13;
+        <Unicode>CHIROGRAPHVM, priuatam ſcriptu-
+ram, ſeu cautionem, manu cuiusque ſubſcriptam
+ſubnotatamque, ſignificat, et, vt Heſychius iuterpre-
+tatur, συμβόλαϳον γϱαμματϵῖον, ſcripturam ſuper
+contractu: cuius formula proponitur in I. 41. §. vlt.
+D. de uſur. l. 47. §. vlt. D. de pact. Io. Chryſoſtom.
+in Epiſt. ad Philippenſ. Homil. VI. χϵιϱόγϱαφόν ἐϛι
+ὅταν τις ὀφλημάτων ὑπέυϑυνος ϰατέχεταϳ, CHI-
+ROGRAPHVM eſt, quo quis ad debitum aliquod
+obligatur. Hoc et ἰδιόχϵιϱον adpellatur, in I. 11. C.
+qui pot. in pign. Sed et Artemidor. Lib. I. de Somn.
+Cap. 44. χαιϱόγϱαφα ait χϵῖϱας, manus dici. Inter
+CHIROGRAPHA autem, et ſyngraphas, quid inter-
+eſſet, explicat Aſcon. in Verr. III. ¶. 2.
+CHIROGRAPHVM pro ſcriptura, propria pueri
+manu facta, dixit et Seneca Epiſt. XIV. ¶.3.
+Hinc loquutiones: CHIROGRAPHVM acceptae
+mutuae pecuniae: l. 14. C. de ſolut. CHIROGRA-
+PHVM ambiguum: l. 9. C. de litigioſ. CHIRO-
+GRAPHVM magnae pecuniæ: I. 6. D. de bon.
+damnat. CHIROGRAPHVM Titii, ante multos an-
+nos conſcriptum, per quod adparuit, fundum alteri
+obligatum eſſe: l. 30. §. vlt. D. de except. rei iudic.
+CHIROGRAPHVM manu ſua perſcribere: I. 26.
+§. l. D. pignor. Seneca de Benef. Lib. II. Cap. 23.
+Quidam nolunt nomina ſecum fieri, nec interponi
+pararios, nec ſignatores aduocari, nec CHIROGRA-
+PHVM dare. Gellius Lib. XIV. Cap. 2. probari
+pecuniam datam conſuetis modis, veluti CHIRO-
+GRAPHI exhibitione, ſcribit. CHIROGRAPHO
+proprio adnotare: l. 30. D. qui teſt. fac. poſſ. Do-
+meſtica cautione, et CHIROGRAPHO obligare ſe
+ad praeſtandum: l.3. pr. D. de iur. fiſc. Sic: profe-
+ratur CHIROGRAPHVM, quo ſe cauiſſet reſtitu-
+turum. d. l. 3. §. 1. D. de iur. fiſc. Ita et: In CHI-
+ROGRAPHVM redigi dicitur quantitas: l. 5. C. de
+non num. pec. CHIROGRAPHVM inane factum
+per ſolutionem: I. 18. D. ad exhib. inductum et
+conceliatum: I. 22. C. de ſolut. debitori redditum:
+l. 22. C. eod. CHIROGRAPHA debitorum: I. 57.
+D. de adminiſtr. et peric. tut. I. 11. §. 1. D. de ſeru.
+corrupt. l. 18. §. 2. D. de mort. eauſſ. donat. heredi-
+bus teſtamenta paene CHIROGRAPHA ſunt: l. 41.
+D. ad Leg. Aquill. CHIROGRAPHA etiam tribu-
+torum retro ſolutorum, dixit Scaeuola, in l. 52. D. de
+act. emt. vend. ¶. 4. Si CHIROGRAPHA
+legentur, vel veneant: non ipſe tabulae, ſiue cor-
+pus, ſed debitum et nomen actionesue, quarum
+probatio tabulis continetur, legari intelliguntur. I.
+44.§. 5. D. de legat. I. l. 59. D. de legat. III. ¶. 5.
+CHIROGRAPHA porro in tabulis et in codicibus
+fieri ſolebant. Sic in l. 27. D. de furt. Si CHIRO-
+GRAPHA aureorum decem, tabulae erant. Iuue-
+nal. Sat. vlt.
+Vana ſuperuacui dicens CHIROGRAPHA
+ligni.
+Vlpianus in l. 5. §. §. 8. v. denique D. commod. Si
+tibi codicem commendauero, et in eo CHIROGRA-
 PHVM debitorem tuum cauere feceris. Qnincti-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="region0023" custom="readingOrder {index:18;}">
+    <TextRegion id="region0023" custom="readingOrder {index:18;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="1862,3621 2753,3621 2753,3712 1862,3712"/>
       <TextLine id="region0023_line0001" custom="readingOrder {index:0;}">
         <Coords points="1862,3621 1862,3667 2001,3668 2137,3674 2151,3675 2158,3682 2175,3682 2179,3679 2239,3679 2272,3674 2611,3683 2752,3682 2752,3634 2725,3631 2617,3632 2556,3628 2472,3628 2462,3633 2421,3637 2411,3628 2391,3628 2385,3635 2365,3635 2359,3626 2345,3626 2339,3633 2313,3633 2284,3630 2277,3623 2259,3624 2254,3628 2173,3630 2143,3622 1961,3621 1958,3624 1933,3627 1897,3625 1892,3621"/>
@@ -6912,11 +6928,11 @@ PHVM debitorem tuum cauere feceris. Qnincti-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>lian. Lib. VI. Cap. 3. In tabulis eſt CHIROGRA-&#13;
+        <Unicode>lian. Lib. VI. Cap. 3. In tabulis eſt CHIROGRA-
 PHVS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="heading" readingDirection="left-to-right" id="TextRegion_1673861143259_2576" custom="readingOrder {index:19;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1673861143259_2576" custom="readingOrder {index:19;} structure {type:heading;}" orientation="-0.21527821" type="heading" readingDirection="left-to-right">
       <Coords points="1971,3738 2753,3738 2753,3787 1922,3787"/>
       <TextLine id="line_1673861143402_2581" custom="readingOrder {index:0;}">
         <Coords points="2184,3739 2232,3738 2421,3739 2427,3758 2427,3785 2425,3787 2274,3787 2249,3786 2188,3781 2184,3778"/>
@@ -6935,7 +6951,7 @@ PHVS.</Unicode>
         <Unicode>CHL.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" readingDirection="left-to-right" id="TextRegion_1673861146228_2587" custom="readingOrder {index:20;}">
+    <TextRegion id="TextRegion_1673861146228_2587" custom="readingOrder {index:20;}" orientation="-0.21527821" readingDirection="left-to-right">
       <Coords points="1922,3787 2753,3787 2755,3847 2755,3902 1862,3902 1862,3847"/>
       <TextLine id="line_1673861143402_2578" custom="readingOrder {index:0;}">
         <Coords points="1971,3787 2103,3787 2125,3789 2281,3789 2291,3791 2294,3803 2301,3805 2306,3813 2481,3816 2489,3809 2517,3805 2528,3816 2613,3813 2621,3808 2634,3808 2649,3809 2656,3815 2752,3817 2752,3858 2454,3859 2428,3860 2426,3864 2402,3864 2399,3860 2344,3855 2259,3853 2253,3857 2244,3857 2237,3851 2227,3850 1975,3848 1971,3847"/>
@@ -6968,7 +6984,7 @@ PHVS.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0025_line0001" custom="readingOrder {index:1;}">
-        <Coords points="2050,3847 2048,3853 1862,3851 1862,3892 2083,3894 2109,3903 2158,3907 2213,3907 2232,3901 2352,3904 2474,3904 2475,3913 2480,3918 2570,3917 2619,3912 2643,3905 2754,3905 2754,3865 2728,3864 2721,3855 2711,3855 2703,3863 2688,3856 2623,3855 2613,3855 2601,3864 2570,3865 2565,3855 2554,3854 2546,3859 2544,3866 2392,3867 2359,3865 2351,3854 2336,3857 2318,3851 2249,3850 2224,3858 2217,3848 2177,3848 2142,3856 2123,3856 2121,3848"/>
+        <Coords points="2048,3853 1862,3851 1862,3892 2083,3894 2106,3902 2228,3902 2232,3901 2272,3902 2754,3902 2754,3865 2728,3864 2721,3855 2711,3855 2703,3863 2688,3856 2623,3855 2613,3855 2601,3864 2570,3865 2565,3855 2554,3854 2546,3859 2544,3866 2392,3867 2359,3865 2351,3854 2336,3857 2318,3851 2249,3850 2224,3858 2217,3848 2177,3848 2142,3856 2123,3856 2121,3848 2050,3847"/>
         <Word id="region0025_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="1868,3865 2054,3865 2054,3889 1868,3889"/>
           <TextEquiv conf="0.8953876">
@@ -7040,11 +7056,11 @@ PHVS.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CHLAMYS, inter puerilia veſtimenta&#13;
+        <Unicode>CHLAMYS, inter puerilia veſtimenta
 numeratur. I. 23.§. 1. D. de aur. arg. leg. Et ita</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21527821" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673861146228_2586" custom="readingOrder {index:21;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673861146228_2586" custom="readingOrder {index:21;} structure {type:catch-word;}" orientation="-0.21527821" type="catch-word" readingDirection="left-to-right">
       <Coords points="1862,3902 2755,3902 2755,3955 1862,3955"/>
       <TextLine id="region0025_line0002" custom="readingOrder {index:0;}">
         <Coords points="2705,3905 2697,3913 2666,3913 2664,3908 2659,3906 2643,3906 2619,3913 2574,3916 2563,3923 2563,3950 2566,3954 2699,3952 2754,3955 2754,3913 2722,3913 2719,3906"/>

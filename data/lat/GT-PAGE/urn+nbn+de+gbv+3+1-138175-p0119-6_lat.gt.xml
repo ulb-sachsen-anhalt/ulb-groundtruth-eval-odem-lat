@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-29">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:16Z</Created>
     <LastChange>2024-01-19T13:07:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ffefdcc9-f8aa-43d0-a271-4ba6eb72d1db/00000119.jpg" imageWidth="1655" imageHeight="2357" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,30 +36,30 @@
         <RegionRefIndexed index="6" regionRef="region_1676456618895_3925"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676456586657_3908" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676456586657_3908" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="163,401 163,433 933,417 933,385"/>
       <TextLine id="line_1676456586735_3911" custom="readingOrder {index:0;}">
         <Coords points="163,401 933,386 933,418 163,433"/>
         <Word id="word_1676456641396_3946" custom="readingOrder {index:0;}">
-          <Coords points="163,402 380,402 380,433 163,433"/>
+          <Coords points="380,402 163,402 163,433 380,428"/>
           <TextEquiv>
             <Unicode>P.I.C.II.S.I.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676456643378_3949" custom="readingOrder {index:1;}">
-          <Coords points="384,395 564,395 564,426 384,426"/>
+          <Coords points="564,395 471,395 384,396 384,426 522,426 564,425"/>
           <TextEquiv>
             <Unicode>OFFICIA</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676456645354_3952" custom="readingOrder {index:2;}">
-          <Coords points="584,391 703,391 703,417 584,417"/>
+          <Coords points="584,417 703,417 703,391 676,391 584,392"/>
           <TextEquiv>
             <Unicode>ERGA</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1676456647392_3955" custom="readingOrder {index:3;}">
-          <Coords points="722,389 938,389 938,418 722,418"/>
+          <Coords points="779,389 722,390 722,418 933,418 933,389"/>
           <TextEquiv>
             <Unicode>ANIMAM.</Unicode>
           </TextEquiv>
@@ -56,7 +72,7 @@
         <Unicode>P.I.C.II.S.I. OFFICIA ERGA ANIMAM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676456605900_3916" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676456605900_3916" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="947,389 947,433 1000,433 1000,389"/>
       <TextLine id="line_1676456605972_3919" custom="readingOrder {index:0;}">
         <Coords points="947,389 947,433 1000,433 1000,389"/>
@@ -74,7 +90,7 @@
         <Unicode>99</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8019483" readingDirection="left-to-right" id="TextRegion_1645774250933_428" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1645774250933_428" custom="readingOrder {index:2;}" orientation="0.8019483" readingDirection="left-to-right">
       <Coords points="154,479 1010,460 1020,926 164,926"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="761,465 757,466 753,474 609,476 602,476 599,470 563,470 559,477 552,477 549,470 539,470 527,471 525,479 394,483 352,488 326,488 322,480 316,477 301,479 298,488 240,489 237,483 231,479 212,482 209,478 154,479 156,533 217,535 357,533 370,528 380,532 403,531 458,527 591,523 621,517 671,520 699,514 716,519 792,521 808,525 821,521 855,521 862,513 869,513 876,520 913,520 920,516 930,516 937,521 962,518 969,522 1011,524 1010,477 925,477 923,467 916,463 836,465 825,468 821,475 782,474 778,465"/>
@@ -419,7 +435,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0009" custom="readingOrder {index:8;}">
-        <Coords points="500,873 471,877 425,877 416,883 394,880 383,886 358,889 250,890 249,886 228,884 223,886 222,890 164,890 165,936 243,930 251,933 274,930 280,935 286,935 293,929 300,928 360,924 463,923 472,925 483,921 488,926 496,928 513,921 581,921 587,918 603,918 609,921 661,920 672,919 677,914 676,884 669,878 538,879 527,875"/>
+        <Coords points="471,877 425,877 416,883 394,880 383,886 358,889 250,890 249,886 228,884 223,886 222,890 164,890 164,926 330,926 360,924 463,923 472,925 483,921 488,926 500,926 513,921 581,921 587,918 603,918 609,921 661,920 672,919 677,914 676,884 669,878 538,879 527,875 500,873"/>
         <Word id="region0001_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="243,885 223,886 223,886 222,890 175,890 176,925 264,923 263,890 250,890 249,886"/>
           <TextEquiv conf="0.84931266">
@@ -455,21 +471,21 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſed etiam materialiter noxia, §. 202.&#13;
-Exercendo tamen aſſuefac praeſagitio-&#13;
-nem etiam tuam, 1) pluribus, 2) maiori-&#13;
-bus, 3) rarius, 4) obſcurius, 5) longius an-&#13;
-te tempus praeuidendis, 6) fortiores in-&#13;
-ter heterogeneas perceptiones, 7) clarius&#13;
-tamen praecipiendis, M. §. 615. Quod&#13;
-vt posſis, eſto dominus et huius facul-&#13;
+        <Unicode>ſed etiam materialiter noxia, §. 202.
+Exercendo tamen aſſuefac praeſagitio-
+nem etiam tuam, 1) pluribus, 2) maiori-
+bus, 3) rarius, 4) obſcurius, 5) longius an-
+te tempus praeuidendis, 6) fortiores in-
+ter heterogeneas perceptiones, 7) clarius
+tamen praecipiendis, M. §. 615. Quod
+vt posſis, eſto dominus et huius facul-
 tatis pro virili, §. 200.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8019483" readingDirection="left-to-right" id="TextRegion_1645774256891_441" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1645774256891_441" custom="readingOrder {index:3;}" orientation="0.8019483" readingDirection="left-to-right">
       <Coords points="164,926 1020,926 1035,1577 179,1577"/>
       <TextLine id="region0001_line0010" custom="readingOrder {index:0;}">
-        <Coords points="802,910 797,914 794,921 773,922 611,926 610,921 606,920 587,919 579,922 575,928 561,927 554,920 531,921 513,922 496,929 488,927 483,922 472,926 463,924 360,925 300,929 293,930 286,936 280,936 274,931 251,934 243,931 172,937 165,940 165,974 212,977 215,988 222,991 238,990 246,980 257,976 272,980 282,971 291,981 321,981 328,976 339,976 347,980 514,975 539,971 604,971 613,967 642,970 647,975 657,975 663,970 670,969 725,969 726,974 731,977 739,972 754,968 852,964 872,966 878,963 1021,966 1020,919 1003,919 1001,913 994,909 983,909 975,919 905,920 822,921 817,912"/>
+        <Coords points="575,928 561,927 560,926 503,926 496,929 488,927 487,926 472,926 345,926 300,929 293,930 286,936 280,936 274,931 251,934 243,931 172,937 165,940 165,969 165,974 212,977 215,988 222,991 238,990 246,980 257,976 272,980 282,971 291,981 321,981 328,976 339,976 347,980 514,975 539,971 604,971 613,967 642,970 647,975 657,975 663,970 670,969 725,969 726,974 731,977 739,972 754,968 852,964 872,966 878,963 1020,965 1020,926 611,926 576,926"/>
         <Word id="region0001_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="246,932 222,933 222,983 244,982 246,980 255,976 255,933 251,934"/>
           <TextEquiv>
@@ -949,7 +965,7 @@ tatis pro virili, §. 200.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0022" custom="readingOrder {index:12;}">
-        <Coords points="200,1530 178,1533 179,1595 196,1594 244,1578 312,1575 374,1567 373,1540 368,1535 306,1536 293,1534 285,1529 256,1536 241,1532"/>
+        <Coords points="178,1533 178,1535 179,1577 266,1577 312,1575 374,1567 373,1540 368,1535 306,1536 293,1534 285,1529 256,1536 241,1532 200,1530"/>
         <Word id="word_1645774256935_444" custom="readingOrder {index:0;}">
           <Coords points="186,1544 221,1544 221,1577 186,1577"/>
           <TextEquiv>
@@ -967,25 +983,25 @@ tatis pro virili, §. 200.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. CCXVII. Noſce, experire, meti-&#13;
-re facultatem tuam ſignatricem, §. 202,&#13;
-tam ſenſitiuam, quam intellectualem,&#13;
-M. §. 619. eamque curaturus, diiudica,&#13;
-quae mereantur, 1) ſigna, vt inde ſigna-&#13;
-ta eruantur, 2) ſignanda, vt ipſis ſigna&#13;
-imponantur, et in his exercendo aſſue-&#13;
-fac facultatem tuam characteriſticam,&#13;
-1) pluribus, 2) maioribus ſignis, 3) cum&#13;
-pluribus, 4) cum maioribus ſignatis, 5)&#13;
-fortiores inter heterogeneas perceptio-&#13;
-nes, 6) clarius tamen coniungendis, M.&#13;
+        <Unicode>§. CCXVII. Noſce, experire, meti-
+re facultatem tuam ſignatricem, §. 202,
+tam ſenſitiuam, quam intellectualem,
+M. §. 619. eamque curaturus, diiudica,
+quae mereantur, 1) ſigna, vt inde ſigna-
+ta eruantur, 2) ſignanda, vt ipſis ſigna
+imponantur, et in his exercendo aſſue-
+fac facultatem tuam characteriſticam,
+1) pluribus, 2) maioribus ſignis, 3) cum
+pluribus, 4) cum maioribus ſignatis, 5)
+fortiores inter heterogeneas perceptio-
+nes, 6) clarius tamen coniungendis, M.
 §. 622.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8019483" readingDirection="left-to-right" id="TextRegion_1645774256891_440" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1645774256891_440" custom="readingOrder {index:4;}" orientation="0.8019483" readingDirection="left-to-right">
       <Coords points="179,1577 1035,1577 1043,1905 187,1924"/>
       <TextLine id="region0001_line0023" custom="readingOrder {index:0;}">
-        <Coords points="418,1566 237,1580 195,1595 197,1632 203,1636 246,1639 282,1635 314,1626 333,1628 376,1628 434,1623 440,1620 449,1620 457,1624 484,1624 590,1621 677,1623 899,1620 930,1614 939,1618 1035,1618 1034,1572 911,1573 906,1565 891,1564 884,1568 882,1574 836,1575 834,1568 828,1564 810,1564 799,1575 667,1576 665,1568 661,1565 645,1565 639,1569 637,1576 574,1577 563,1576 556,1566 540,1565"/>
+        <Coords points="237,1580 195,1595 197,1632 203,1636 246,1639 282,1635 314,1626 333,1628 376,1628 434,1623 440,1620 449,1620 457,1624 484,1624 590,1621 677,1623 899,1620 930,1614 939,1618 1035,1618 1034,1577 574,1577 275,1577"/>
         <Word id="region0001_line0023_word0000" custom="readingOrder {index:0;}">
           <Coords points="235,1586 269,1585 270,1633 236,1634"/>
           <TextEquiv>
@@ -1201,7 +1217,7 @@ nes, 6) clarius tamen coniungendis, M.&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0029" custom="readingOrder {index:6;}">
-        <Coords points="994,1861 989,1863 986,1869 978,1868 969,1873 921,1870 805,1875 797,1878 783,1878 767,1868 753,1869 747,1875 725,1876 688,1875 683,1871 673,1870 663,1873 661,1878 598,1880 587,1879 586,1875 579,1871 569,1871 560,1878 559,1874 552,1870 542,1871 535,1881 523,1882 516,1870 501,1871 496,1874 495,1879 469,1880 457,1875 441,1875 435,1881 387,1884 383,1876 363,1875 352,1883 338,1883 334,1876 322,1874 314,1884 272,1885 257,1890 224,1885 222,1879 204,1876 196,1879 194,1885 186,1886 187,1930 468,1927 473,1931 483,1930 489,1925 588,1921 626,1920 634,1923 896,1919 928,1916 946,1911 967,1920 971,1914 1021,1912 1041,1908 1041,1872 1036,1871 1036,1863 1018,1861 1010,1870 1007,1863"/>
+        <Coords points="989,1863 986,1869 978,1868 969,1873 921,1870 805,1875 797,1878 783,1878 767,1868 753,1869 747,1875 725,1876 688,1875 683,1871 673,1870 663,1873 661,1878 598,1880 587,1879 586,1875 579,1871 569,1871 560,1878 559,1874 552,1870 542,1871 535,1881 523,1882 516,1870 501,1871 496,1874 495,1879 469,1880 457,1875 441,1875 435,1881 387,1884 383,1876 363,1875 352,1883 338,1883 334,1876 322,1874 314,1884 272,1885 257,1890 224,1885 222,1879 204,1876 196,1879 194,1885 186,1885 187,1924 1041,1905 1041,1872 1036,1871 1036,1863 1018,1861 1010,1870 1007,1863 994,1861"/>
         <Word id="region0001_line0029_word0000" custom="readingOrder {index:0;}">
           <Coords points="191,1885 192,1919 347,1917 346,1883 338,1883 334,1876 322,1874 314,1884 272,1885 257,1890 224,1885 222,1879 204,1876 196,1879 194,1885"/>
           <TextEquiv conf="0.93097633">
@@ -1237,16 +1253,16 @@ nes, 6) clarius tamen coniungendis, M.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. CCXVIII. Emendaturus facultatem&#13;
-tuam ſignatricem, §.202. noxiorum ſigna-&#13;
-torum ſignis, et ſignis inanibus, aut inuti-&#13;
-liorum, impedientibus cognitionem vti-&#13;
-liorem exonera memoriam, et caue, ne&#13;
-cognitio tua ſymbolica, quaecunque&#13;
+        <Unicode>§. CCXVIII. Emendaturus facultatem
+tuam ſignatricem, §.202. noxiorum ſigna-
+torum ſignis, et ſignis inanibus, aut inuti-
+liorum, impedientibus cognitionem vti-
+liorem exonera memoriam, et caue, ne
+cognitio tua ſymbolica, quaecunque
 demum fuerit, debitam intuituum requi-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676456623154_3934" custom="readingOrder {index:5;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676456623154_3934" custom="readingOrder {index:5;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="587,1929 587,1968 685,1968 685,1929"/>
       <TextLine id="line_1676456623232_3937" custom="readingOrder {index:0;}">
         <Coords points="587,1929 587,1968 685,1968 685,1929"/>
@@ -1270,7 +1286,7 @@ demum fuerit, debitam intuituum requi-</Unicode>
         <Unicode>G 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676456618895_3925" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region_1676456618895_3925" custom="readingOrder {index:6;} structure {type:catch-word;}" type="catch-word">
       <Coords points="934,1923 934,1961 1025,1961 1025,1923"/>
       <TextLine id="line_1676456618947_3928" custom="readingOrder {index:0;}">
         <Coords points="934,1923 934,1961 1025,1961 1025,1923"/>

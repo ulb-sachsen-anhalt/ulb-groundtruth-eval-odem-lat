@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-209">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:09Z</Created>
     <LastChange>2024-01-19T13:09:09Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ac29c290-81a3-4339-b6a8-c8c301caa8ff/00000210.jpg" imageWidth="1338" imageHeight="1960" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.12834111" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660310050789_2311" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660310050789_2311" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="0.12834111" type="marginalia" readingDirection="left-to-right">
       <Coords points="379,734 428,734 428,792 379,792"/>
       <TextLine id="line_1660310047126_2294" custom="readingOrder {index:0;}">
         <Coords points="379,738 397,736 428,735 428,783 379,783"/>
@@ -37,7 +53,7 @@
         <Unicode>6</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.12834111" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660310066385_2324" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660310066385_2324" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="0.12834111" type="marginalia" readingDirection="left-to-right">
       <Coords points="379,952 428,952 428,1006 379,1006"/>
       <TextLine id="line_1660310047131_2304" custom="readingOrder {index:0;}">
         <Coords points="380,957 428,961 428,1005 389,1006 382,998 380,986"/>
@@ -56,7 +72,7 @@
         <Unicode>7</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.12834111" readingDirection="left-to-right" id="TextRegion_1660310040911_2278" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1660310040911_2278" custom="readingOrder {index:2;}" orientation="0.12834111" readingDirection="left-to-right">
       <Coords points="379,295 1207,295 1212,385 1212,734 379,734"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="530,297 526,300 524,308 519,308 511,299 437,299 432,304 433,342 436,346 527,346 532,343 546,346 549,343 587,345 593,339 600,338 605,341 620,343 647,343 653,350 670,350 677,340 794,341 867,337 879,345 894,345 902,338 1027,338 1045,337 1056,329 1056,304 1051,299 920,301 918,296 871,296 868,302 779,301 549,307 545,298"/>
@@ -404,7 +420,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0010" custom="readingOrder {index:9;}">
-        <Coords points="775,688 765,698 729,698 716,691 709,696 693,696 687,690 673,691 669,693 668,698 648,698 642,702 468,699 462,704 445,707 444,734 454,738 486,740 696,735 701,741 729,742 734,737 748,740 751,734 766,731 772,734 808,733 810,738 815,740 834,741 843,738 845,733 855,731 1036,731 1052,725 1067,727 1072,722 1072,698 1067,693 1056,696 1038,693 961,694 946,689 916,688 876,694 821,696 817,690 805,689 798,699 788,700 783,697 780,688"/>
+        <Coords points="765,698 729,698 716,691 709,696 693,696 687,690 673,691 669,693 668,698 648,698 642,702 468,699 462,704 445,707 444,734 751,734 766,731 772,734 808,733 808,734 844,734 845,733 855,731 1036,731 1052,725 1067,727 1072,722 1072,698 1067,693 1056,696 1038,693 961,694 946,689 916,688 876,694 821,696 817,690 805,689 798,699 788,700 783,697 780,688 775,688"/>
         <Baseline points="444,730 1072,715"/>
         <Word id="region0001_line0010_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="484,728 563,728 563,700 484,699"/>
@@ -447,22 +463,22 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Sed, ne tempore non tuo diſertam&#13;
-Pulſes ebria ianuam, videto&#13;
-Totos dat tetricae dies Mineruae,&#13;
-Dum centum ſtudet auribus virorum,&#13;
-Hoc quod ſecula poſterique poſſint&#13;
-Arpinis quoque comparare chartis.&#13;
-Seras tutior ibis ad lucernas,&#13;
-Haec hora eſt tua, quum furit Lyaeus:&#13;
-Quum regnat roſa, quum madent capilli,&#13;
+        <Unicode>Sed, ne tempore non tuo diſertam
+Pulſes ebria ianuam, videto
+Totos dat tetricae dies Mineruae,
+Dum centum ſtudet auribus virorum,
+Hoc quod ſecula poſterique poſſint
+Arpinis quoque comparare chartis.
+Seras tutior ibis ad lucernas,
+Haec hora eſt tua, quum furit Lyaeus:
+Quum regnat roſa, quum madent capilli,
 Tunc me vel rigidi legant Catones.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.12834111" readingDirection="left-to-right" id="TextRegion_1660310047084_2290" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1660310047084_2290" custom="readingOrder {index:3;}" orientation="0.12834111" readingDirection="left-to-right">
       <Coords points="428,734 1212,734 1212,1088 428,1088"/>
       <TextLine id="line_1660310047125_2293" custom="readingOrder {index:0;}">
-        <Coords points="428,735 444,735 454,739 483,739 490,745 499,745 505,740 570,745 671,740 729,743 734,738 748,741 751,735 757,732 766,732 774,739 834,742 849,739 855,732 870,732 876,739 950,739 969,730 983,730 989,737 998,737 1006,730 1015,730 1020,732 1022,737 1033,737 1035,732 1045,728 1060,726 1072,733 1081,725 1105,723 1147,731 1212,732 1211,771 1181,772 1167,768 1153,773 1112,772 1085,775 1075,779 1050,774 1043,769 1031,770 1029,778 1008,775 926,778 759,778 741,775 720,779 711,785 696,785 690,779 683,779 669,785 663,784 657,777 621,777 615,781 589,780 583,783 537,783 520,779 497,784 428,783"/>
+        <Coords points="751,735 748,741 734,738 729,743 671,740 570,745 505,740 499,745 490,745 483,739 454,739 444,735 428,735 428,783 497,784 520,779 537,783 583,783 589,780 615,781 621,777 657,777 663,784 669,785 683,779 690,779 696,785 711,785 720,779 741,775 759,778 926,778 1008,775 1029,778 1031,770 1043,769 1050,774 1075,779 1085,775 1112,772 1153,773 1167,768 1181,772 1211,771 1211,734 1034,734 1033,737 1022,737 1020,734 1001,734 998,737 989,737 986,734 960,734 950,739 876,739 871,734 853,734 849,739 834,742 774,739 768,734 753,734"/>
         <Baseline points="428,772 1212,761"/>
         <Word id="region0001_line0011_word0001" custom="readingOrder {index:0;}">
           <Coords points="434,766 586,766 586,744 570,745 505,740 499,745 490,745 483,739 454,739 444,735 434,735"/>
@@ -556,7 +572,7 @@ Tunc me vel rigidi legant Catones.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1660310310439_2444" custom="readingOrder {index:5;}">
-          <Coords points="928,788 976,777 1030,772 1046,772 1136,778 1136,814 976,815 928,809"/>
+          <Coords points="928,788 928,809 976,815 1136,814 1136,778 1075,780 1051,779 1045,772 1030,772 1029,779 1008,776 1005,781 989,781 985,777 976,777 970,778 966,782 956,781"/>
           <TextEquiv>
             <Unicode>amiciſſimum,</Unicode>
           </TextEquiv>
@@ -872,17 +888,17 @@ Tunc me vel rigidi legant Catones.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Meritone cum, qui haec de me ſcripſit, &amp; tune&#13;
-dimiſi amiciſſime, &amp; nunc, vt amiciſſimum, de-&#13;
-functum eſſe doleo? Dedit enim mihi, quan-&#13;
-tum maxime potuit, daturus amplius, ſi potuiſ-&#13;
-ſet. Tametſi quid homini poteſt dari maius,&#13;
-quam gloria, &amp; laus, &amp; aeternitas? At non&#13;
-erunt aeterna, quae ſcripſit. Non erunt fortaſſe:&#13;
+        <Unicode>Meritone cum, qui haec de me ſcripſit, &amp; tune
+dimiſi amiciſſime, &amp; nunc, vt amiciſſimum, de-
+functum eſſe doleo? Dedit enim mihi, quan-
+tum maxime potuit, daturus amplius, ſi potuiſ-
+ſet. Tametſi quid homini poteſt dari maius,
+quam gloria, &amp; laus, &amp; aeternitas? At non
+erunt aeterna, quae ſcripſit. Non erunt fortaſſe:
 ille tamen ſcripſit tanquam eſſent futura. Vale.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.12834111" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;}" orientation="0.12834111" readingDirection="left-to-right">
       <Coords points="431,1090 1213,1090 1213,1656 431,1656"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="939,1091 934,1097 841,1100 781,1100 753,1092 712,1092 706,1094 702,1100 690,1094 652,1095 646,1103 637,1103 629,1097 596,1096 589,1098 585,1105 573,1105 567,1099 557,1099 551,1106 535,1107 514,1107 508,1099 437,1099 431,1103 431,1130 432,1138 437,1142 499,1142 504,1137 512,1136 518,1145 542,1139 583,1140 590,1135 598,1135 609,1143 614,1143 618,1135 625,1135 631,1139 656,1138 729,1135 744,1131 763,1135 802,1135 828,1134 832,1131 844,1133 852,1130 874,1137 883,1137 891,1130 901,1130 904,1133 934,1133 954,1132 960,1128 974,1128 980,1132 1058,1131 1063,1127 1073,1127 1078,1131 1090,1131 1095,1127 1107,1126 1111,1130 1141,1130 1150,1125 1161,1125 1165,1128 1212,1130 1212,1094 1173,1094 1168,1090 1056,1091 1052,1096 1029,1091"/>
@@ -999,13 +1015,13 @@ ille tamen ſcripſit tanquam eſſent futura. Vale.</Unicode>
         </Word>
         <Word id="region0005_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="663,1206 663,1175 619,1176 619,1206 631,1206"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Iib.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="673,1184 690,1184 690,1204 673,1204"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>I</Unicode>
           </TextEquiv>
         </Word>
@@ -1590,7 +1606,7 @@ ille tamen ſcripſit tanquam eſſent futura. Vale.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0017" custom="readingOrder {index:15;}">
-        <Coords points="583,1621 574,1625 560,1623 552,1628 536,1629 507,1627 493,1631 484,1625 473,1631 432,1629 432,1665 709,1661 715,1668 731,1668 737,1661 932,1658 942,1652 941,1633 937,1630 924,1630 922,1624 913,1622 809,1623 780,1626 753,1620 736,1621 730,1625 632,1627 626,1622 618,1622 612,1629 602,1630 590,1621"/>
+        <Coords points="574,1625 560,1623 552,1628 536,1629 507,1627 493,1631 484,1625 473,1631 432,1629 432,1656 935,1656 942,1652 941,1633 937,1630 924,1630 922,1624 913,1622 809,1623 780,1626 753,1620 736,1621 730,1625 632,1627 626,1622 618,1622 612,1629 602,1630 590,1621 583,1621"/>
         <Baseline points="432,1656 942,1649"/>
         <Word id="region0005_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="482,1626 473,1631 437,1629 437,1655 553,1655 553,1627 552,1628 536,1629 507,1627 493,1631 485,1626"/>
@@ -1633,21 +1649,21 @@ ille tamen ſcripſit tanquam eſſent futura. Vale.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Exquiliis] collis Romae, quem Tullus Hoſtilius&#13;
-augebat, ibique vt loco dignitas fieret, habitabat.&#13;
-Liv. Dec. I. Iib. I cap. 44.&#13;
-tetricae Mineruae] ſeueris Muſis iudicialibus cauſis.&#13;
-Arpinis chartis] Ciceronianis ſcriptis. Arpinas&#13;
-enim Cicero fuit.&#13;
-ibis ad lucernas) tu Muſa aut liber ſero veſpere Pli-&#13;
-nium adeas; quas horas epulae ſibi &amp; pocula vindi-&#13;
-cant. Tum gratior eris, quam inter ſeueras occupa-&#13;
-tiones occurrens.&#13;
-6. quantum maxime) Ita Sichardus: at Barth. ma-&#13;
-ximi: Aldus maximum.&#13;
-7. At non erunt aeterna) Sunt, quamuis Plinius&#13;
-de temporum iniuria metuerat. Sic Statius III. Silv. 3.&#13;
-v. 37. non arſura munera, vbi Barthium videas. Adde&#13;
+        <Unicode>Exquiliis] collis Romae, quem Tullus Hoſtilius
+augebat, ibique vt loco dignitas fieret, habitabat.
+Liv. Dec. I. Iib. I cap. 44.
+tetricae Mineruae] ſeueris Muſis iudicialibus cauſis.
+Arpinis chartis] Ciceronianis ſcriptis. Arpinas
+enim Cicero fuit.
+ibis ad lucernas) tu Muſa aut liber ſero veſpere Pli-
+nium adeas; quas horas epulae ſibi &amp; pocula vindi-
+cant. Tum gratior eris, quam inter ſeueras occupa-
+tiones occurrens.
+6. quantum maxime) Ita Sichardus: at Barth. ma-
+ximi: Aldus maximum.
+7. At non erunt aeterna) Sunt, quamuis Plinius
+de temporum iniuria metuerat. Sic Statius III. Silv. 3.
+v. 37. non arſura munera, vbi Barthium videas. Adde
 noſtrum lib. huius epiſt. 10. extr.</Unicode>
       </TextEquiv>
     </TextRegion>

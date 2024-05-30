@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-325">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:11:04Z</Created>
     <LastChange>2024-01-19T13:11:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/71828ebc-0b7e-4712-9bec-f9357b4ecb15/00000538.jpg" imageWidth="1650" imageHeight="2198" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,10 +33,10 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1657520011385_231"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.3002901" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657519993154_218" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657519993154_218" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-1.3002901" type="marginalia" readingDirection="left-to-right">
       <Coords points="667,797 755,797 753,844 667,844"/>
       <TextLine id="line_1657519983517_198" custom="readingOrder {index:0;}">
-        <Coords points="667,790 756,787 755,838 741,838 738,843 729,845 720,844 717,837 709,844 698,845 692,837 667,835"/>
+        <Coords points="738,843 741,838 753,838 755,797 667,797 667,835 692,837 697,844 709,844 717,837 720,844 733,844"/>
         <Baseline points="667,826 755,827"/>
         <Word id="region0002_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="751,804 673,802 672,835 692,837 693,839 713,840 717,837 718,840 739,840 741,838 750,838"/>
@@ -36,10 +52,10 @@
         <Unicode>1177</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3002901" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657520015366_254" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657520015366_254" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-1.3002901" type="marginalia" readingDirection="left-to-right">
       <Coords points="654,1226 744,1226 744,1275 654,1275"/>
       <TextLine id="line_1657520011421_235" custom="readingOrder {index:0;}">
-        <Coords points="654,1226 744,1226 744,1275 705,1275 698,1282 688,1282 680,1274 655,1272 654,1269"/>
+        <Coords points="654,1226 654,1269 655,1272 680,1274 681,1275 705,1275 744,1275 744,1226"/>
         <Baseline points="654,1263 744,1259"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="660,1227 742,1229 741,1271 659,1269"/>
@@ -55,7 +71,7 @@
         <Unicode>1178</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3002901" readingDirection="left-to-right" id="TextRegion_1657519983445_176" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1657519983445_176" custom="readingOrder {index:2;}" orientation="-1.3002901" readingDirection="left-to-right">
       <Coords points="769,281 1556,281 1556,1217 745,1217"/>
       <TextLine id="line_1657519983482_179" custom="readingOrder {index:0;}">
         <Coords points="769,281 899,282 925,287 976,289 979,281 1023,281 1028,288 1079,285 1161,289 1166,284 1177,284 1188,290 1317,294 1395,292 1400,288 1414,289 1419,293 1556,301 1556,353 1523,352 1517,357 1506,356 1497,359 1484,349 1477,348 1468,357 1460,358 1444,346 1423,355 1405,351 1403,347 1296,345 1243,338 1222,342 1215,337 1196,337 1175,341 1170,336 1158,336 1140,341 1126,337 1112,340 1107,337 1085,338 1078,335 1043,332 814,336 810,332 768,331"/>
@@ -74,7 +90,7 @@
         </Word>
         <Word id="region0002_line0001_word0002" custom="readingOrder {index:2;}">
           <Coords points="1158,302 1078,300 1077,335 1078,335 1083,337 1096,337 1107,337 1108,338 1121,338 1126,337 1131,338 1148,339 1157,336"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>von</Unicode>
           </TextEquiv>
         </Word>
@@ -394,7 +410,7 @@
         </Word>
         <Word id="region0002_line0009_word0004" custom="readingOrder {index:4;}">
           <Coords points="1405,740 1402,743 1393,745 1393,790 1397,791 1397,792 1468,794 1468,746 1429,743 1424,747 1420,740"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>von</Unicode>
           </TextEquiv>
         </Word>
@@ -536,7 +552,7 @@
         </Word>
         <Word id="region0002_line0013_word0003" custom="readingOrder {index:3;}">
           <Coords points="1216,971 1123,969 1122,1012 1128,1012 1134,1019 1166,1019 1180,1011 1185,1011 1190,1017 1215,1017"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>und</Unicode>
           </TextEquiv>
         </Word>
@@ -658,7 +674,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1657520570326_752" custom="readingOrder {index:5;}">
-          <Coords points="1180,1139 1239,1134 1266,1133 1311,1132 1422,1135 1420,1192 1383,1189 1360,1188 1179,1178"/>
+          <Coords points="1180,1139 1179,1178 1360,1188 1383,1189 1420,1192 1422,1135 1326,1132 1266,1133 1254,1138 1236,1134"/>
           <TextEquiv>
             <Unicode>MDCXCI.</Unicode>
           </TextEquiv>
@@ -668,25 +684,25 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>die Guarniſon von dannen ausgezogen&#13;
-ſeyn wird. Jedoch ſoll denen Alliirten&#13;
-inzwiſchen erlaubt ſeyn/ Wachen bey&#13;
-die Magazinen/ ſo wohl von Fruͤchten/&#13;
-Fouragie/ Saltz/ Proviant, als Kriegs⸗&#13;
-Munition zuſtellen. Welche Proviſionen&#13;
-alle getreulich denen Alliirten in die&#13;
-Haͤnde angewieſen werden ſoll/ und&#13;
-darnach ſolle der Auszug von der&#13;
-Guarniſon geſchehen. XI.) Solle dieſe&#13;
-Capitulation von beeden Theilen voll⸗&#13;
-zogen/und von Jhrer Durchlaͤuchtig⸗&#13;
-keit (fuͤr Sich und Dero Waffen/&#13;
-welche Sie commandiren) unterſchrie⸗&#13;
-ben werden. Beſchehen zu Carmagnolo&#13;
+        <Unicode>die Guarniſon von dannen ausgezogen
+ſeyn wird. Jedoch ſoll denen Alliirten
+inzwiſchen erlaubt ſeyn/ Wachen bey
+die Magazinen/ ſo wohl von Fruͤchten/
+Fouragie/ Saltz/ Proviant, als Kriegs⸗
+Munition zuſtellen. Welche Proviſionen
+alle getreulich denen Alliirten in die
+Haͤnde angewieſen werden ſoll/ und
+darnach ſolle der Auszug von der
+Guarniſon geſchehen. XI.) Solle dieſe
+Capitulation von beeden Theilen voll⸗
+zogen/und von Jhrer Durchlaͤuchtig⸗
+keit (fuͤr Sich und Dero Waffen/
+welche Sie commandiren) unterſchrie⸗
+ben werden. Beſchehen zu Carmagnolo
 den 29. Octobr. ſt. n. MDCXCI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.3002901" readingDirection="left-to-right" id="TextRegion_1657520011385_231" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1657520011385_231" custom="readingOrder {index:3;}" orientation="-1.3002901" readingDirection="left-to-right">
       <Coords points="744,1226 1531,1226 1531,1749 744,1749"/>
       <TextLine id="line_1657520011421_234" custom="readingOrder {index:0;}">
         <Coords points="744,1226 1093,1226 1113,1227 1131,1231 1137,1226 1156,1226 1159,1233 1167,1234 1225,1238 1289,1238 1297,1227 1323,1227 1328,1231 1330,1238 1356,1239 1386,1232 1418,1231 1420,1226 1437,1227 1441,1233 1454,1235 1493,1236 1499,1230 1508,1230 1517,1236 1531,1236 1531,1283 1455,1282 1446,1286 1423,1283 1351,1285 1277,1283 1266,1290 1256,1290 1247,1283 1212,1282 1201,1287 1191,1281 1159,1280 1134,1281 1129,1289 1113,1291 1105,1287 1103,1280 1037,1278 1010,1273 901,1278 881,1284 870,1283 865,1276 818,1266 792,1264 774,1274 753,1276 744,1275"/>
@@ -1022,14 +1038,14 @@ den 29. Octobr. ſt. n. MDCXCI.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. IV. Capita, quibus Veurne&#13;
-Gallis Menſe Januariô MDCXCIII. de-&#13;
-dita, ex novellis obſervata. Gleich itzo&#13;
-vernimmt man/ daß der Commen-&#13;
-dant von Veurne den 7. dieſes/ des&#13;
-Abends den Ort folgender Maſſen&#13;
-uͤbergeben. Der Marquis de Bofleurs&#13;
-hat die nachfolgende Capitulation von&#13;
+        <Unicode>§. IV. Capita, quibus Veurne
+Gallis Menſe Januariô MDCXCIII. de-
+dita, ex novellis obſervata. Gleich itzo
+vernimmt man/ daß der Commen-
+dant von Veurne den 7. dieſes/ des
+Abends den Ort folgender Maſſen
+uͤbergeben. Der Marquis de Bofleurs
+hat die nachfolgende Capitulation von
 Veurne uͤberſandt. nẽ</Unicode>
       </TextEquiv>
     </TextRegion>

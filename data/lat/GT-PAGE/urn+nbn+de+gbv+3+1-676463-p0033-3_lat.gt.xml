@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-212">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:11Z</Created>
     <LastChange>2024-01-19T13:09:11Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/019138e9-cf89-4260-97c8-c38d36355ef4/00000033.jpg" imageWidth="2274" imageHeight="2745" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region_1682589529964_2695"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1682589458554_2599" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1682589458554_2599" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="604,555 604,594 1370,594 1370,555"/>
       <TextLine id="line_1682589458672_2602" custom="readingOrder {index:0;}">
         <Coords points="604,555 604,594 1370,594 1370,555"/>
@@ -49,7 +65,7 @@
         <Unicode>CONTRA CELEB. KENNICOTVM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682589472073_2617" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682589472073_2617" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1532,549 1532,589 1632,589 1632,549"/>
       <TextLine id="line_1682589472183_2620" custom="readingOrder {index:0;}">
         <Coords points="1532,549 1532,589 1632,589 1632,549"/>
@@ -67,7 +83,7 @@
         <Unicode>XXV</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17920245" readingDirection="left-to-right" id="TextRegion_1667905220820_3981" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1667905220820_3981" custom="readingOrder {index:2;}" orientation="-0.17920245" readingDirection="left-to-right">
       <Coords points="299,625 1630,625 1630,1634 299,1634"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="790,625 748,627 742,631 740,639 716,637 614,645 610,639 598,634 494,636 490,639 488,648 466,650 443,650 442,643 437,638 300,639 300,703 332,703 342,688 394,689 400,692 472,689 476,698 485,699 502,688 509,687 523,688 535,697 568,696 572,694 574,687 659,680 802,678 830,675 868,687 880,684 884,680 906,676 927,677 930,685 939,688 948,686 952,676 988,676 995,683 1009,681 1011,678 1023,678 1118,685 1176,687 1198,691 1201,695 1207,696 1223,690 1244,688 1488,691 1630,686 1630,648 1581,648 1579,637 1573,633 1558,636 1554,648 1503,648 1496,640 1472,637 1467,640 1465,649 1229,650 1180,648 1170,639 1159,639 1152,646 1144,645 1136,636 1128,636 1120,644 1102,644 1101,637 1096,632 1048,632 1023,638 987,638 942,637 940,626"/>
@@ -390,12 +406,12 @@
         </Word>
         <Word id="region0002_line0005_word0003" custom="readingOrder {index:3;}">
           <Coords points="590,848 627,848 627,869 590,869"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ex</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667905342211_4051" custom="readingOrder {index:4;}">
-          <Coords points="642,847 672,838 748,834 766,834 829,840 829,870 672,870 642,868"/>
+          <Coords points="642,847 642,868 672,870 829,870 829,840 779,839 769,838 767,834 766,834 748,834 746,838 670,838"/>
           <TextEquiv>
             <Unicode>narratione</Unicode>
           </TextEquiv>
@@ -626,13 +642,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0008_word0004" custom="readingOrder {index:4;}">
-          <Coords points="857,993 857,1041 862,1042 863,1044 890,1044 891,1042 950,1040 931,1041 931,1000 931,999 930,993 876,993 876,999 872,999 868,993"/>
+          <Coords points="857,993 857,1041 863,1044 890,1044 950,1040 931,1041 930,993 876,993 876,999 872,999 868,993"/>
           <TextEquiv conf="0.8712815">
             <Unicode>ipſa</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667905627432_4192" custom="readingOrder {index:5;}">
-          <Coords points="948,999 991,993 1040,993 1040,1031 965,1040 948,1040"/>
+          <Coords points="991,993 989,999 948,999 948,1040 950,1040 965,1040 1040,1031 1040,993 1034,993 1032,999 1014,999 1012,993"/>
           <TextEquiv>
             <Unicode>verba</Unicode>
           </TextEquiv>
@@ -1045,7 +1061,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1667979481715_239" custom="readingOrder {index:8;}">
-          <Coords points="1379,1251 1414,1251 1414,1293 1379,1293"/>
+          <Coords points="1379,1251 1379,1290 1382,1290 1392,1280 1404,1289 1414,1288 1414,1251 1399,1251"/>
           <TextEquiv>
             <Unicode>ῳ</Unicode>
           </TextEquiv>
@@ -1505,7 +1521,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0020" custom="readingOrder {index:19;}">
-        <Coords points="1062,1573 1045,1586 1030,1580 1012,1580 1003,1574 996,1579 984,1581 981,1587 975,1579 966,1578 959,1582 956,1588 872,1587 866,1591 850,1588 774,1588 773,1582 766,1579 749,1580 739,1588 732,1589 561,1591 556,1590 554,1584 537,1583 529,1592 441,1598 430,1598 427,1589 415,1588 407,1591 405,1599 299,1602 299,1641 387,1642 446,1635 596,1629 799,1630 883,1627 905,1629 907,1637 921,1640 930,1637 933,1628 967,1629 973,1625 983,1625 989,1629 1027,1630 1102,1630 1106,1627 1119,1626 1166,1629 1180,1621 1180,1594 1174,1588 1078,1588 1077,1583"/>
+        <Coords points="1045,1586 1030,1580 1012,1580 1003,1574 996,1579 984,1581 981,1587 975,1579 966,1578 959,1582 956,1588 872,1587 866,1591 850,1588 774,1588 773,1582 766,1579 749,1580 739,1588 732,1589 561,1591 556,1590 554,1584 537,1583 529,1592 441,1598 430,1598 427,1589 415,1588 407,1591 405,1599 299,1602 299,1634 471,1634 596,1629 799,1630 883,1627 905,1629 906,1634 931,1634 933,1628 967,1629 973,1625 983,1625 989,1629 1027,1630 1102,1630 1106,1627 1119,1626 1166,1629 1180,1621 1180,1594 1174,1588 1078,1588 1077,1583 1062,1573"/>
         <Baseline points="299,1631 624,1619 1180,1617"/>
         <Word id="region0002_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="313,1614 398,1614 398,1599 313,1601"/>
@@ -1570,10 +1586,10 @@ vero magis determinate dicit, altare prope Ebal poſitum fuiſſe; vt adeo
 vnus locus alterum confirmet atque illuſtrer.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17920245" readingDirection="left-to-right" id="TextRegion_1667905220820_3980" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1667905220820_3980" custom="readingOrder {index:3;}" orientation="-0.17920245" readingDirection="left-to-right">
       <Coords points="299,1634 1630,1634 1630,2357 1615,2390 306,2420 299,2357"/>
       <TextLine id="region0002_line0021" custom="readingOrder {index:0;}">
-        <Coords points="1412,1623 1406,1627 1404,1637 1389,1628 1348,1625 1244,1625 1239,1630 1238,1638 1177,1638 1166,1637 1165,1630 1159,1628 1119,1627 1106,1628 1101,1636 1086,1638 989,1637 987,1628 973,1626 967,1630 966,1637 928,1638 921,1641 900,1638 898,1631 892,1628 876,1630 872,1640 853,1639 851,1631 847,1629 824,1628 818,1630 816,1638 780,1639 713,1639 706,1630 507,1632 416,1639 411,1643 411,1670 416,1675 426,1675 433,1683 436,1694 463,1696 474,1696 485,1683 587,1684 646,1679 902,1681 903,1689 908,1692 931,1690 933,1680 1117,1680 1137,1683 1174,1682 1176,1689 1184,1693 1199,1692 1204,1679 1357,1681 1468,1678 1528,1684 1539,1689 1547,1689 1552,1685 1589,1682 1630,1682 1629,1639 1525,1638 1520,1628 1504,1626 1488,1629 1483,1639 1458,1638 1457,1628 1452,1623"/>
+        <Coords points="1404,1637 1399,1634 1238,1634 1238,1638 1177,1638 1166,1637 1165,1634 1102,1634 1101,1636 1086,1638 989,1637 988,1634 966,1634 966,1637 928,1638 921,1641 900,1638 898,1634 874,1634 872,1640 853,1639 851,1634 817,1634 816,1638 780,1639 713,1639 709,1634 481,1634 416,1639 411,1643 411,1670 416,1675 426,1675 433,1683 436,1694 463,1696 474,1696 485,1683 587,1684 646,1679 902,1681 903,1689 908,1692 931,1690 933,1680 1117,1680 1137,1683 1174,1682 1176,1689 1184,1693 1199,1692 1204,1679 1357,1681 1468,1678 1528,1684 1539,1689 1547,1689 1552,1685 1589,1682 1630,1682 1629,1639 1525,1638 1523,1634 1485,1634 1483,1639 1458,1638 1457,1634 1404,1634"/>
         <Baseline points="413,1672 473,1677 646,1668 1629,1672"/>
         <Word id="region0002_line0021_word0000" custom="readingOrder {index:0;}">
           <Coords points="465,1639 490,1639 490,1683 465,1683"/>
@@ -1667,7 +1683,7 @@ vnus locus alterum confirmet atque illuſtrer.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667979866881_444" custom="readingOrder {index:3;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="719,1685 780,1683 830,1683 835,1684 835,1733 790,1737 780,1737 719,1733"/>
+          <Coords points="780,1683 719,1685 719,1733 764,1736 765,1734 770,1734 770,1736 780,1737 790,1737 790,1737 793,1733 832,1733 835,1733 835,1684 833,1684 824,1685 822,1683"/>
           <TextEquiv>
             <Unicode>Ioſephi</Unicode>
           </TextEquiv>
@@ -2234,7 +2250,7 @@ vnus locus alterum confirmet atque illuſtrer.</Unicode>
         </Word>
         <Word id="region0002_line0030_word0007" custom="readingOrder {index:7;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1157,2124 1275,2124 1275,2099 1178,2099 1157,2100"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>montes</Unicode>
           </TextEquiv>
         </Word>
@@ -2559,7 +2575,7 @@ vnus locus alterum confirmet atque illuſtrer.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0001" custom="readingOrder {index:14;}">
-        <Coords points="899,2343 893,2351 851,2353 842,2357 834,2353 825,2352 821,2355 794,2350 789,2346 778,2346 773,2350 707,2351 634,2357 606,2352 601,2343 588,2343 580,2349 565,2349 559,2343 550,2343 544,2346 539,2354 529,2354 525,2343 506,2343 496,2351 483,2348 435,2348 424,2352 418,2361 408,2363 314,2364 314,2423 342,2423 348,2417 349,2408 478,2404 485,2411 494,2411 508,2404 514,2411 529,2413 537,2408 539,2399 545,2398 629,2403 638,2409 648,2409 654,2403 689,2401 782,2408 786,2405 815,2402 834,2406 839,2402 861,2406 867,2401 915,2397 950,2397 955,2407 977,2405 984,2397 1159,2398 1164,2393 1164,2362 1159,2357 1015,2355 1012,2347 1003,2343 988,2344 979,2353 965,2353 958,2343 946,2343 940,2352 927,2352 924,2343"/>
+        <Coords points="893,2351 851,2353 842,2357 834,2353 825,2352 821,2355 794,2350 789,2346 778,2346 773,2350 707,2351 634,2357 606,2352 601,2343 588,2343 580,2349 565,2349 559,2343 550,2343 544,2346 539,2354 529,2354 525,2343 506,2343 496,2351 483,2348 435,2348 424,2352 418,2361 408,2363 314,2364 314,2419 345,2419 348,2417 349,2408 478,2404 485,2411 494,2411 508,2404 514,2411 529,2413 537,2408 539,2399 545,2398 629,2403 638,2409 648,2409 654,2403 689,2401 782,2408 786,2405 815,2402 834,2406 839,2402 861,2406 867,2401 915,2397 950,2397 954,2405 977,2404 984,2397 1159,2398 1164,2393 1164,2362 1159,2357 1015,2355 1012,2347 1003,2343 988,2344 979,2353 965,2353 958,2343 946,2343 940,2352 927,2352 924,2343 899,2343"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="320,2366 382,2366 382,2405 320,2405"/>
           <TextEquiv conf="0.8289283">
@@ -2625,24 +2641,24 @@ vnus locus alterum confirmet atque illuſtrer.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. XXIV. Verum aliud praeterea eſt, eſt, quod quod V. D. offendit, ex&#13;
-quo ſimul concludit, Ioſephi textum a recentiore Iudaeo valde corru-&#13;
-ptum eſſe Illud ſcilicet (p. 64.) quod vaniſſime adfirmetur, Ioſephum&#13;
-tradidiſſe, Leuitas et ſacerdotes in eodem monte ſtetiſſe, qui tamen (p. 73&#13;
-ſqq.) in monte Garizim locum habuerint. Cum vero hi ſacrificiis prae-&#13;
-ſtandis deſtinati, vniceqne miniſtri altaris conſtituti fuerint; ſequi, vt&#13;
-in Garizim, vbi ſtationem habebant, ſacrificauerint, ibidemque altare&#13;
-aedificauerint. At bona res eſt. Fuit omnino tribus Leuitica, textu&#13;
-ſacro praeeunte, monti Garizim in hoc actu addicta, ſed delectus qui-&#13;
-dam Leuitarum numerus in valle inter duos montes conſiſtebat, partim&#13;
-apud arcam Dei, quod ipſe V. D. concedit, partim ad altare, haud pro-&#13;
-cul ab Ebale diſtans. Et hoc eſt, quod h. l. adſeuerat Ioſephus, dicens,&#13;
-Ioſuam conſtituiſſe ad Ebalem aram et generis leuitici et ſaeerdotalis&#13;
-homines, qui ſacris operarentur. Conſentiunt haec cum iis, quae ſu-&#13;
+        <Unicode>§. XXIV. Verum aliud praeterea eſt, eſt, quod quod V. D. offendit, ex
+quo ſimul concludit, Ioſephi textum a recentiore Iudaeo valde corru-
+ptum eſſe Illud ſcilicet (p. 64.) quod vaniſſime adfirmetur, Ioſephum
+tradidiſſe, Leuitas et ſacerdotes in eodem monte ſtetiſſe, qui tamen (p. 73
+ſqq.) in monte Garizim locum habuerint. Cum vero hi ſacrificiis prae-
+ſtandis deſtinati, vniceqne miniſtri altaris conſtituti fuerint; ſequi, vt
+in Garizim, vbi ſtationem habebant, ſacrificauerint, ibidemque altare
+aedificauerint. At bona res eſt. Fuit omnino tribus Leuitica, textu
+ſacro praeeunte, monti Garizim in hoc actu addicta, ſed delectus qui-
+dam Leuitarum numerus in valle inter duos montes conſiſtebat, partim
+apud arcam Dei, quod ipſe V. D. concedit, partim ad altare, haud pro-
+cul ab Ebale diſtans. Et hoc eſt, quod h. l. adſeuerat Ioſephus, dicens,
+Ioſuam conſtituiſſe ad Ebalem aram et generis leuitici et ſaeerdotalis
+homines, qui ſacris operarentur. Conſentiunt haec cum iis, quae ſu-
 pra ad Ioſephi l. 4. c. 8. §. 44. ſcripſimus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682589526399_2686" custom="readingOrder {index:4;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682589526399_2686" custom="readingOrder {index:4;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="1009,2409 1009,2442 1047,2442 1047,2409"/>
       <TextLine id="line_1682589526629_2689" custom="readingOrder {index:0;}">
         <Coords points="1009,2409 1009,2442 1047,2442 1047,2409"/>
@@ -2660,7 +2676,7 @@ pra ad Ioſephi l. 4. c. 8. §. 44. ſcripſimus.</Unicode>
         <Unicode>D</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682589529964_2695" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1682589529964_2695" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1474,2404 1474,2449 1629,2449 1629,2404"/>
       <TextLine id="line_1682589530055_2698" custom="readingOrder {index:0;}">
         <Coords points="1474,2404 1474,2449 1629,2449 1629,2404"/>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-99">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:52Z</Created>
     <LastChange>2024-01-19T13:07:52Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4c2c68bb-653f-467d-b36c-76b23ddfaa33/00000036.jpg" imageWidth="2588" imageHeight="3060" type="content" primaryLanguage="Latin">
     <Border>
@@ -25,7 +41,7 @@
         <RegionRefIndexed index="11" regionRef="TextRegion_1658740094953_2444"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="TextRegion_1658740109318_2459" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658740109318_2459" custom="readingOrder {index:0;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1171,787 2418,787 2418,887 1171,887"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
         <Coords points="1668,796 1663,801 1662,851 1667,856 1676,857 1676,869 1681,875 1902,877 1907,872 1907,860 1917,859 1922,854 1923,804 1918,799"/>
@@ -44,7 +60,7 @@
         <Unicode>I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" readingDirection="left-to-right" id="TextRegion_1658740178806_2504" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1658740178806_2504" custom="readingOrder {index:1;}" orientation="-0.6612111" readingDirection="left-to-right">
       <Coords points="1171,887 2418,887 2477,972 2477,1058 1843,1123 1282,1123 1171,986"/>
       <TextLine id="region0003_line0003" custom="readingOrder {index:0;}">
         <Coords points="2251,900 2244,906 2241,914 2237,911 2225,911 2221,914 1918,913 1721,918 1712,904 1697,905 1691,917 1676,913 1670,917 1607,918 1601,914 1591,913 1586,917 1563,918 1553,918 1549,905 1537,904 1528,910 1525,919 1493,919 1413,915 1406,907 1398,905 1386,905 1374,915 1290,912 1280,911 1273,906 1242,909 1235,905 1227,905 1214,910 1171,913 1171,980 1340,978 1345,986 1349,986 1376,985 1382,978 1787,974 1851,974 1854,986 1872,986 1880,974 1930,971 2165,973 2169,985 2191,985 2195,982 2197,973 2326,973 2388,979 2395,986 2411,986 2413,980 2417,979 2417,917 2268,915 2268,907 2263,901"/>
@@ -133,7 +149,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0001" custom="readingOrder {index:2;}">
-        <Coords points="1521,1059 1283,1061 1282,1135 1336,1134 1363,1122 1382,1120 1560,1118 1578,1111 1580,1065 1577,1061"/>
+        <Coords points="1283,1061 1282,1123 1360,1123 1363,1122 1382,1120 1560,1118 1578,1111 1580,1065 1577,1061 1521,1059"/>
         <Baseline points="1282,1122 1387,1110 1579,1108"/>
         <Word id="word_1658740118034_2468" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1288,1074 1487,1076 1486,1118 1382,1120 1363,1122 1360,1123 1287,1123"/>
@@ -146,15 +162,15 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Actor ſuam intentionem, reus exceptionem,&#13;
-regulariter probat, vtut ſe fundet in ne-&#13;
+        <Unicode>Actor ſuam intentionem, reus exceptionem,
+regulariter probat, vtut ſe fundet in ne-
 gatiua.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="TextRegion_1658740118013_2464" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658740118013_2464" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1282,1123 1843,1123 1843,1182 1282,1182"/>
       <TextLine id="region0005_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1772,1110 1659,1111 1654,1116 1654,1160 1659,1165 1673,1165 1676,1181 1842,1182 1842,1111"/>
+        <Coords points="1654,1160 1659,1165 1673,1165 1676,1181 1842,1182 1842,1123 1654,1123"/>
         <Baseline points="1674,1173 1842,1174"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1839,1145 1760,1144 1759,1181 1838,1181"/>
@@ -170,7 +186,7 @@ gatiua.</Unicode>
         <Unicode>II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" readingDirection="left-to-right" id="TextRegion_1658740171256_2500" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1658740171256_2500" custom="readingOrder {index:3;}" orientation="-0.6612111" readingDirection="left-to-right">
       <Coords points="1172,1199 2471,1199 2471,1373 1848,1433 1289,1433 1172,1373"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="2444,1200 2441,1207 2360,1208 2353,1214 2352,1229 2317,1229 2302,1229 2299,1217 2293,1213 2281,1214 2273,1228 2219,1227 2214,1216 2194,1214 2187,1219 2185,1227 2013,1227 2009,1224 1997,1224 1992,1226 1987,1215 1974,1213 1967,1218 1964,1226 1948,1224 1943,1228 1923,1229 1721,1230 1715,1217 1704,1216 1697,1221 1696,1229 1690,1231 1411,1232 1398,1232 1397,1221 1392,1216 1356,1216 1350,1222 1349,1231 1319,1231 1314,1227 1281,1229 1262,1219 1247,1216 1173,1214 1172,1286 1173,1291 1381,1287 1476,1293 1487,1299 1508,1299 1506,1284 1521,1298 1528,1290 1542,1285 1602,1289 1864,1286 1868,1301 1893,1302 1898,1297 1898,1286 2035,1286 2037,1297 2049,1301 2071,1299 2074,1286 2143,1283 2322,1285 2328,1296 2346,1299 2361,1297 2377,1282 2392,1280 2399,1275 2470,1274 2471,1207 2466,1207 2464,1200"/>
@@ -265,7 +281,7 @@ gatiua.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0001" custom="readingOrder {index:2;}">
-        <Coords points="1426,1363 1423,1374 1290,1373 1290,1446 1330,1445 1357,1433 1380,1431 1595,1433 1616,1432 1621,1428 1631,1429 1637,1423 1638,1380 1633,1375 1502,1373 1498,1370 1485,1370 1475,1374 1455,1373 1453,1363"/>
+        <Coords points="1423,1374 1290,1373 1290,1433 1357,1433 1380,1431 1595,1433 1616,1432 1621,1428 1631,1429 1637,1423 1638,1380 1633,1375 1502,1373 1498,1370 1485,1370 1475,1374 1455,1373 1453,1363 1426,1363"/>
         <Baseline points="1290,1430 1381,1422 1636,1424"/>
         <Word id="word_1658740122462_2477" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1294,1373 1363,1373 1543,1375 1542,1432 1380,1431 1357,1433 1294,1433"/>
@@ -278,15 +294,15 @@ gatiua.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Fratribus germanis competit querela inoffi-&#13;
-cioſi, ſi vel nulla inhoneſta perſona iis ſit&#13;
+        <Unicode>Fratribus germanis competit querela inoffi-
+cioſi, ſi vel nulla inhoneſta perſona iis ſit
 praelata.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="TextRegion_1658740122431_2473" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658740122431_2473" custom="readingOrder {index:4;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1289,1433 1848,1433 1848,1499 1289,1499"/>
       <TextLine id="region0008_line0002" custom="readingOrder {index:0;}">
-        <Coords points="1759,1426 1640,1426 1635,1431 1635,1475 1640,1480 1656,1481 1657,1499 1847,1499 1847,1427"/>
+        <Coords points="1635,1475 1640,1480 1656,1481 1657,1499 1847,1499 1847,1433 1635,1433"/>
         <Baseline points="1657,1490 1847,1491"/>
         <Word id="region0008_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1844,1463 1740,1462 1739,1499 1843,1499"/>
@@ -302,7 +318,7 @@ praelata.</Unicode>
         <Unicode>III.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="TextRegion_1658740084398_2434" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1658740084398_2434" custom="readingOrder {index:5;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1174,1529 2493,1529 2493,1611 2420,1745 1292,1745 1174,1611"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="2336,1529 2332,1540 2284,1543 2261,1542 2256,1529 2230,1529 2181,1529 2178,1541 2128,1541 2132,1530 2086,1529 2081,1541 1975,1542 1972,1533 1966,1529 1951,1530 1946,1536 1945,1544 1864,1547 1859,1534 1841,1531 1829,1536 1827,1548 1825,1538 1818,1532 1804,1535 1800,1548 1629,1546 1623,1534 1611,1533 1604,1539 1602,1546 1596,1548 1576,1547 1575,1536 1568,1530 1554,1532 1549,1546 1506,1546 1490,1541 1476,1541 1472,1544 1420,1544 1419,1535 1414,1530 1401,1530 1396,1543 1321,1541 1316,1538 1301,1541 1277,1540 1272,1539 1262,1529 1174,1529 1174,1595 1633,1600 1644,1610 1654,1609 1659,1600 1693,1601 1724,1602 1727,1610 1759,1611 1760,1604 1765,1602 1907,1601 2066,1595 2145,1598 2163,1601 2172,1608 2202,1610 2215,1602 2250,1597 2392,1596 2425,1593 2461,1586 2492,1584 2493,1543 2404,1540 2400,1537 2368,1540 2366,1530"/>
@@ -428,12 +444,12 @@ praelata.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Fratres vterini ne quidem iure nouiſſimo ha-&#13;
-bent querelam inofficioſi, ſi vel maxime&#13;
+        <Unicode>Fratres vterini ne quidem iure nouiſſimo ha-
+bent querelam inofficioſi, ſi vel maxime
 turpis perſona inſtituta ſit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="region0011" custom="readingOrder {index:6;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1751,1779 1854,1779 1854,1847 1751,1847"/>
       <TextLine id="region0011_line" custom="readingOrder {index:0;}">
         <Coords points="1751,1779 1854,1779 1854,1847 1751,1847"/>
@@ -451,7 +467,7 @@ turpis perſona inſtituta ſit.</Unicode>
         <Unicode>IV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="floating" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:7;}">
+    <TextRegion id="region0012" custom="readingOrder {index:7;}" orientation="-0.6612111" type="floating" readingDirection="left-to-right">
       <Coords points="1169,1876 2435,1876 2435,1971 1169,1971"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="2277,1877 2242,1879 2231,1893 2217,1892 2212,1879 2202,1878 2175,1881 2171,1884 2169,1893 2056,1896 2051,1895 2051,1887 2044,1879 2030,1880 2026,1885 2025,1895 1966,1893 1950,1889 1939,1878 1923,1880 1907,1889 1884,1891 1868,1886 1863,1891 1856,1891 1855,1881 1850,1876 1771,1876 1766,1881 1765,1889 1742,1889 1737,1885 1725,1885 1719,1889 1696,1888 1694,1876 1595,1876 1593,1889 1566,1887 1394,1894 1318,1894 1316,1885 1308,1879 1170,1880 1169,1955 1281,1953 1285,1965 1297,1966 1307,1951 1367,1948 1521,1948 1522,1958 1528,1965 1631,1967 1655,1964 1658,1960 1659,1947 1677,1947 1719,1950 1720,1962 1725,1967 1795,1969 1830,1966 1835,1961 1836,1950 1849,1950 1859,1952 1859,1963 1864,1968 1914,1969 1920,1965 1921,1955 1930,1953 2180,1950 2397,1953 2404,1949 2406,1941 2419,1941 2423,1938 2425,1907 2435,1905 2434,1887 2414,1886 2407,1893 2318,1893 2316,1883 2308,1878"/>
@@ -506,7 +522,7 @@ turpis perſona inſtituta ſit.</Unicode>
         <Unicode>Mulieres non poſſint eſſe teſtes in codicillis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:8;} structure {type:heading;}">
+    <TextRegion id="region0013" custom="readingOrder {index:8;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1764,1991 1839,1991 1839,2058 1764,2058"/>
       <TextLine id="region0013_line" custom="readingOrder {index:0;}">
         <Coords points="1764,1991 1839,1991 1839,2058 1764,2058"/>
@@ -524,7 +540,7 @@ turpis perſona inſtituta ſit.</Unicode>
         <Unicode>V.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" readingDirection="left-to-right" id="TextRegion_1658740166488_2496" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1658740166488_2496" custom="readingOrder {index:9;}" orientation="-0.6612111" readingDirection="left-to-right">
       <Coords points="1167,2088 2478,2088 2478,2183 1845,2263 1292,2263 1167,2183"/>
       <TextLine id="region0014_line0001" custom="readingOrder {index:0;}">
         <Coords points="2391,2088 2379,2089 2372,2100 2359,2100 2354,2104 2279,2108 2273,2108 2271,2100 2265,2095 2243,2095 2237,2101 2236,2110 2223,2111 2113,2109 2107,2097 2091,2095 2071,2096 2065,2108 1955,2108 1950,2095 1940,2094 1924,2096 1919,2108 1904,2108 1865,2108 1860,2104 1847,2104 1842,2108 1789,2108 1783,2096 1770,2095 1760,2106 1656,2105 1652,2107 1571,2106 1570,2098 1564,2091 1551,2092 1544,2103 1517,2101 1505,2090 1493,2089 1477,2099 1452,2099 1446,2091 1434,2090 1424,2094 1418,2102 1380,2107 1371,2107 1364,2092 1353,2091 1345,2097 1342,2108 1275,2105 1225,2094 1168,2092 1167,2170 1434,2165 1439,2167 1440,2174 1445,2178 1469,2180 1483,2166 1560,2165 1629,2168 1631,2176 1636,2180 1656,2182 1662,2178 1663,2170 1668,2168 1844,2172 1872,2169 1935,2170 1940,2183 1953,2183 1968,2182 1973,2170 2151,2169 2214,2172 2467,2164 2477,2160 2478,2103 2465,2102 2465,2089 2447,2089 2443,2103 2404,2103 2400,2102 2397,2088"/>
@@ -589,11 +605,11 @@ turpis perſona inſtituta ſit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>rium regulare.&#13;
+        <Unicode>rium regulare.
 Pecunia luſtrica pertinet ad peculium aduenti-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="heading" readingDirection="left-to-right" id="TextRegion_1658740150081_2487" custom="readingOrder {index:10;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658740150081_2487" custom="readingOrder {index:10;} structure {type:heading;}" orientation="-0.6612111" type="heading" readingDirection="left-to-right">
       <Coords points="1292,2263 1845,2263 1845,2349 1292,2349"/>
       <TextLine id="region0015_line0002" custom="readingOrder {index:0;}">
         <Coords points="1647,2276 1642,2281 1641,2323 1647,2329 1666,2329 1667,2338 1672,2343 1734,2348 1844,2349 1845,2278"/>
@@ -612,7 +628,7 @@ Pecunia luſtrica pertinet ad peculium aduenti-</Unicode>
         <Unicode>VI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6612111" type="floating" readingDirection="left-to-right" id="TextRegion_1658740094953_2444" custom="readingOrder {index:11;}">
+    <TextRegion id="TextRegion_1658740094953_2444" custom="readingOrder {index:11;}" orientation="-0.6612111" type="floating" readingDirection="left-to-right">
       <Coords points="1166,2379 2450,2379 2450,2479 2016,2523 1289,2523 1166,2479"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="2391,2379 2384,2383 2290,2390 2252,2383 2173,2383 2152,2386 2143,2391 2141,2397 2128,2398 2119,2385 2086,2386 2080,2391 2078,2398 2052,2397 2047,2393 2033,2393 2028,2398 2011,2398 2009,2390 2003,2384 1980,2384 1975,2388 1972,2399 1957,2399 1954,2387 1948,2382 1935,2384 1930,2398 1769,2396 1763,2384 1751,2382 1745,2387 1741,2397 1710,2394 1688,2384 1669,2381 1576,2380 1546,2384 1541,2380 1521,2379 1520,2395 1489,2397 1376,2393 1348,2394 1343,2390 1333,2390 1325,2394 1324,2387 1319,2382 1304,2383 1297,2395 1279,2392 1263,2382 1254,2380 1166,2379 1166,2446 1293,2454 1515,2454 1521,2455 1524,2465 1532,2470 1550,2471 1556,2468 1563,2458 1637,2459 1727,2453 1876,2453 2085,2460 2149,2474 2196,2470 2213,2461 2230,2457 2321,2453 2386,2444 2403,2445 2408,2443 2439,2446 2449,2442 2450,2383"/>
@@ -695,7 +711,7 @@ Pecunia luſtrica pertinet ad peculium aduenti-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Maritus non eſt Dominus rei dotalis, ſed vxor,&#13;
+        <Unicode>Maritus non eſt Dominus rei dotalis, ſed vxor,
 etiam durante matrimonio.</Unicode>
       </TextEquiv>
     </TextRegion>

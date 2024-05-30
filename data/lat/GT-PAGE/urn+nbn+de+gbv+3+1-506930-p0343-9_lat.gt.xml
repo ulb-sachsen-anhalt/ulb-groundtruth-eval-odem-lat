@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-178">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:47Z</Created>
     <LastChange>2024-01-19T13:08:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/cfb8284d-49ca-41b6-b828-b5563938065a/00000343.jpg" imageWidth="1756" imageHeight="2366" type="content" primaryLanguage="Latin">
     <Border>
@@ -27,13 +43,7 @@
         <RegionRefIndexed index="15" regionRef="region0008"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1674125245421_5673" custom="readingOrder {index:0;}">
-      <Coords points="168,389 1097,380 1097,445 168,454"/>
-    </GraphicRegion>
-    <GraphicRegion id="Graphic_1674125241009_5670" custom="readingOrder {index:1;}">
-      <Coords points="450,323 803,323 803,374 450,374"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1674125235433_5661" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="region_1674125235433_5661" custom="readingOrder {index:2;} structure {type:page-number;}" type="page-number">
       <Coords points="990,325 990,363 1080,363 1080,325"/>
       <TextLine id="line_1674125235546_5664" custom="readingOrder {index:0;}">
         <Coords points="990,325 990,363 1080,363 1080,325"/>
@@ -51,7 +61,7 @@
         <Unicode>331</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="heading" readingDirection="left-to-right" id="region0000" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0000" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.44707912" type="heading" readingDirection="left-to-right">
       <Coords points="292,460 963,460 961,631 290,631"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
         <Coords points="319,474 313,483 291,485 290,548 396,553 496,552 721,546 756,541 920,542 950,539 954,530 960,530 961,520 960,472 698,472 526,478 334,481 328,474"/>
@@ -86,11 +96,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CLASSIS VII.&#13;
+        <Unicode>CLASSIS VII.
 LEXICOGRAPHI,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:4;} structure {type:heading;}" orientation="0.44707912" type="heading" readingDirection="left-to-right">
       <Coords points="571,652 680,652 680,684 571,684"/>
       <TextLine id="region0001_line" custom="readingOrder {index:0;}">
         <Coords points="571,652 680,652 680,684 571,684"/>
@@ -108,7 +118,7 @@ LEXICOGRAPHI,</Unicode>
         <Unicode>SIVE</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:5;} structure {type:heading;}" orientation="0.44707912" type="heading" readingDirection="left-to-right">
       <Coords points="169,699 1080,699 1080,808 169,808"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="599,700 562,705 426,707 169,706 170,762 302,763 306,766 317,766 321,763 414,758 608,754 644,751 651,746 695,752 762,753 973,751 1080,744 1079,699"/>
@@ -153,7 +163,7 @@ LEXICOGRAPHI,</Unicode>
 LINGVARVM.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:6;} structure {type:heading;}" orientation="0.44707912" type="heading" readingDirection="left-to-right">
       <Coords points="243,864 842,864 842,969 243,969"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="630,884 606,889 600,900 582,898 557,890 496,889 481,891 457,902 434,900 429,905 416,906 305,910 300,915 300,956 305,961 311,960 317,967 483,968 554,960 560,969 573,968 579,958 842,953 841,900 799,900 790,888 778,888 770,893 765,889 729,884"/>
@@ -184,7 +194,7 @@ LINGVARVM.</Unicode>
         <Unicode>a) In Folio.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125325135_5860" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125325135_5860" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,973 282,973 282,1068 170,1068"/>
       <TextLine id="line_1674125303063_5733" custom="readingOrder {index:0;}">
         <Coords points="170,983 208,980 227,974 243,973 255,979 274,980 282,987 282,1017 268,1018 264,1023 251,1026 242,1025 238,1017 210,1026 171,1022"/>
@@ -200,7 +210,7 @@ LINGVARVM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1674125480666_5951" custom="readingOrder {index:1;}">
-        <Coords points="171,1025 210,1027 238,1018 242,1026 273,1025 273,1063 224,1064 211,1070 186,1069 181,1064 171,1063"/>
+        <Coords points="224,1064 273,1063 273,1025 242,1026 238,1018 210,1027 171,1025 171,1063 181,1064 185,1068 215,1068"/>
         <Baseline points="171,1055 273,1052"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="178,1051 264,1050 264,1025 242,1026 238,1018 210,1027 178,1025"/>
@@ -213,11 +223,11 @@ LINGVARVM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>4363-&#13;
+        <Unicode>4363-
 4364 D. AQVINO, Cur. Lexicon Militare. Romae,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125323353_5849" custom="readingOrder {index:8;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125323353_5849" custom="readingOrder {index:8;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,1102 282,1102 282,1152 170,1152"/>
       <TextLine id="line_1674125323403_5854" custom="readingOrder {index:0;}">
         <Coords points="170,1107 219,1105 222,1102 245,1102 247,1105 282,1105 282,1152 178,1152 176,1148 171,1147"/>
@@ -236,7 +246,7 @@ LINGVARVM.</Unicode>
         <Unicode>4365 IERGANTINI, Giampicrro, della Volãure Lio-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125319137_5837" custom="readingOrder {index:9;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125319137_5837" custom="readingOrder {index:9;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,1222 282,1222 282,1265 170,1265"/>
       <TextLine id="line_1674125317436_5833" custom="readingOrder {index:0;}">
         <Coords points="213,1224 227,1222 276,1225 282,1231 282,1265 170,1265 170,1235 206,1232"/>
@@ -255,10 +265,10 @@ LINGVARVM.</Unicode>
         <Unicode>4366 careviNI, Aubr. Diſtionarium Hexaglottum,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125314981_5821" custom="readingOrder {index:10;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125314981_5821" custom="readingOrder {index:10;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,1362 282,1362 282,1396 170,1396"/>
       <TextLine id="line_1674125315032_5824" custom="readingOrder {index:0;}">
-        <Coords points="170,1364 195,1362 282,1362 282,1398 278,1398 262,1395 258,1407 254,1410 245,1410 239,1406 187,1409 181,1402 171,1402"/>
+        <Coords points="170,1364 170,1396 261,1396 262,1395 267,1396 282,1396 282,1362 195,1362"/>
         <Baseline points="237,1381 282,1385"/>
         <Word id="word_1674125315033_5826" custom="readingOrder {index:0;}">
           <Coords points="179,1363 192,1362 264,1362 265,1392 180,1393"/>
@@ -274,7 +284,7 @@ LINGVARVM.</Unicode>
         <Unicode>4367 coNSTANTINI, Roh. lexicon Graeco-Lat mum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125311946_5809" custom="readingOrder {index:11;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125311946_5809" custom="readingOrder {index:11;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,1532 282,1532 282,1573 170,1573"/>
       <TextLine id="line_1674125311992_5812" custom="readingOrder {index:0;}">
         <Coords points="178,1532 282,1532 282,1571 261,1573 182,1573 181,1572 171,1572 171,1533"/>
@@ -293,10 +303,10 @@ LINGVARVM.</Unicode>
         <Unicode>4368- 4370 cvrRIONIS, Cael. See. The ſaurus Linguae</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="marginalia" readingDirection="left-to-right" id="TextRegion_1674125308405_5795" custom="readingOrder {index:12;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1674125308405_5795" custom="readingOrder {index:12;} structure {type:marginalia;}" orientation="0.44707912" type="marginalia" readingDirection="left-to-right">
       <Coords points="170,1663 282,1663 282,1704 170,1704"/>
       <TextLine id="line_1674125307469_5791" custom="readingOrder {index:0;}">
-        <Coords points="171,1658 193,1656 277,1663 282,1662 282,1697 259,1698 253,1699 247,1704 183,1704 180,1698 171,1698"/>
+        <Coords points="282,1663 277,1663 171,1663 171,1698 180,1698 183,1704 247,1704 253,1699 259,1698 282,1697"/>
         <Baseline points="171,1690 224,1698 282,1693"/>
         <Word id="word_1674125308457_5798" custom="readingOrder {index:0;}">
           <Coords points="182,1663 262,1663 262,1683 182,1684"/>
@@ -312,10 +322,10 @@ LINGVARVM.</Unicode>
         <Unicode>4371</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" readingDirection="left-to-right" id="TextRegion_1674125303026_5729" custom="readingOrder {index:13;}">
+    <TextRegion id="TextRegion_1674125303026_5729" custom="readingOrder {index:13;}" orientation="0.44707912" readingDirection="left-to-right">
       <Coords points="282,973 1085,973 1085,1956 282,1956"/>
       <TextLine id="line_1674125480666_5950" custom="readingOrder {index:0;}">
-        <Coords points="277,973 333,974 341,978 353,994 356,1025 518,1019 530,1010 547,1008 599,1008 604,1013 604,1018 608,1019 609,1011 614,1006 667,1005 672,1010 673,1017 690,1017 697,1009 707,1009 714,1016 745,1015 752,1013 757,1006 764,1004 852,1003 866,1009 917,1010 918,1002 923,997 989,997 997,999 1001,1008 1073,1008 1085,1011 1085,1047 1067,1048 1058,1048 1054,1045 975,1046 936,1049 783,1048 615,1053 590,1055 584,1058 542,1058 536,1062 507,1057 449,1061 436,1054 432,1054 427,1061 397,1058 366,1062 273,1063 273,1025 282,1025 283,1018 289,1012 293,1009 302,1009 312,1018 312,1026 322,1026 327,1012 325,996 319,991 309,990 304,997 293,997 274,979"/>
+        <Coords points="1073,1008 1001,1008 997,999 989,997 923,997 918,1002 917,1010 866,1009 852,1003 764,1004 757,1006 752,1013 745,1015 714,1016 707,1009 697,1009 690,1017 673,1017 672,1010 667,1005 614,1006 609,1011 608,1019 604,1018 604,1013 599,1008 547,1008 530,1010 518,1019 356,1025 353,994 341,978 333,974 282,973 282,986 293,997 304,997 309,990 319,991 325,996 327,1012 322,1026 312,1026 312,1018 302,1009 293,1009 289,1012 283,1018 282,1025 282,1062 366,1062 397,1058 427,1061 432,1054 436,1054 449,1061 507,1057 536,1062 542,1058 584,1058 590,1055 615,1053 783,1048 936,1049 975,1046 1054,1045 1058,1048 1067,1048 1085,1047 1085,1011"/>
         <Baseline points="273,1052 282,1052"/>
         <Word id="region0005_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="283,1056 377,1056 376,1025 356,1025 353,994 341,978 333,974 282,973 282,986 293,997 304,997 309,990 319,991 325,996 327,1012 322,1026 312,1026 312,1018 302,1009 293,1009 289,1012 283,1018 282,1020"/>
@@ -704,7 +714,7 @@ LINGVARVM.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1674125889751_6213" custom="readingOrder {index:3;}">
-          <Coords points="811,1348 836,1347 985,1347 1077,1356 1077,1375 1003,1376 812,1377"/>
+          <Coords points="811,1348 812,1377 1003,1376 1077,1375 1077,1356 985,1347 926,1347 926,1351 899,1352 891,1348 838,1349 836,1347"/>
           <TextEquiv>
             <Unicode>Graeco-Latinum.</Unicode>
           </TextEquiv>
@@ -730,7 +740,7 @@ LINGVARVM.</Unicode>
         </Word>
         <Word id="region0005_line0012_word0002" custom="readingOrder {index:2;}">
           <Coords points="442,1402 467,1402 467,1422 442,1422"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>c.</Unicode>
           </TextEquiv>
         </Word>
@@ -900,7 +910,7 @@ LINGVARVM.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1674126006329_6304" custom="readingOrder {index:4;}">
-          <Coords points="784,1515 933,1515 933,1545 834,1547 784,1547"/>
+          <Coords points="784,1515 784,1547 834,1547 933,1545 933,1515 923,1515 923,1517 868,1518 866,1515 840,1515 836,1520 827,1519 824,1515"/>
           <TextEquiv>
             <Unicode>Theſaurus</Unicode>
           </TextEquiv>
@@ -1357,31 +1367,31 @@ LINGVARVM.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>De AQVINO, Car. Lexicon Militare. Romae,&#13;
-1724. Il PARTES, Il Voll. L. P.&#13;
-Elo- BERGANTINI, Giampietro, della Volgare&#13;
-cuzione illuſtrata, ampliata, facilitata. Vol. I. con-&#13;
-tenente A-B. In Venezia, 1740. Ch. maj.&#13;
-CALEPINI, Ambr. Dictionarium Hexaglottum,&#13;
-Lat. Gr. Ital. Gall. Hiſp. Germ. cum Conr. GESNE-&#13;
-RI Onomaſtico. Baſil. ex Offic. Henricpetr. 1568.&#13;
-CONSTANTINI, Roh. Lexicon Graeco-Latinum.&#13;
-Edit. Il. c. Franc. Porti et alior. Addit. Excuſ.&#13;
-per Haeredes Euſtath. Vignon et lac. Stocr, 1592.&#13;
-(Sine Loco.) Ch. maj. L. G.&#13;
-4368- 4370 CVRIONIS, Cael. Sec. Theſaurus Linguae&#13;
-Latinae, ſ. Forum Romanum. Baſil. ex Offic.&#13;
-Froben. 1561. III Voll. L. C.&#13;
-DICTIONAIRE ETYMOLOGIQVE, ou Origines de&#13;
-Ia Langue Françoiſe, par Mr. MENAGE. Nouvelle&#13;
-Edition, revuë et augmentée par I'Auteur. Avec&#13;
-les Origines Françoiſes de Mr. de CASENEVVE;&#13;
-un Diſcours ſur la. Science des Etymologies, par&#13;
-Ie P. BESNIER, et une Liſte des Noms de Saints,&#13;
+        <Unicode>De AQVINO, Car. Lexicon Militare. Romae,
+1724. Il PARTES, Il Voll. L. P.
+Elo- BERGANTINI, Giampietro, della Volgare
+cuzione illuſtrata, ampliata, facilitata. Vol. I. con-
+tenente A-B. In Venezia, 1740. Ch. maj.
+CALEPINI, Ambr. Dictionarium Hexaglottum,
+Lat. Gr. Ital. Gall. Hiſp. Germ. cum Conr. GESNE-
+RI Onomaſtico. Baſil. ex Offic. Henricpetr. 1568.
+CONSTANTINI, Roh. Lexicon Graeco-Latinum.
+Edit. Il. c. Franc. Porti et alior. Addit. Excuſ.
+per Haeredes Euſtath. Vignon et lac. Stocr, 1592.
+(Sine Loco.) Ch. maj. L. G.
+4368- 4370 CVRIONIS, Cael. Sec. Theſaurus Linguae
+Latinae, ſ. Forum Romanum. Baſil. ex Offic.
+Froben. 1561. III Voll. L. C.
+DICTIONAIRE ETYMOLOGIQVE, ou Origines de
+Ia Langue Françoiſe, par Mr. MENAGE. Nouvelle
+Edition, revuë et augmentée par I'Auteur. Avec
+les Origines Françoiſes de Mr. de CASENEVVE;
+un Diſcours ſur la. Science des Etymologies, par
+Ie P. BESNIER, et une Liſte des Noms de Saints,
 etc. par Mr.  l'Abbé CHASTELLAIN. Paris,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:14;}">
+    <TextRegion id="region0006" custom="readingOrder {index:14;}" orientation="0.44707912" readingDirection="left-to-right">
       <Coords points="289,1948 498,1948 498,2001 289,2001"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="318,1949 313,1953 289,1952 289,1997 327,1998 331,2001 376,2000 419,1995 497,1992 497,1948 405,1949 404,1956 399,1957 377,1955 373,1952 346,1954 339,1953 336,1949"/>
@@ -1411,7 +1421,7 @@ etc. par Mr.  l'Abbé CHASTELLAIN. Paris,</Unicode>
         <Unicode>1694. L. G.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.44707912" type="catch-word" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:15;} structure {type:catch-word;}">
+    <TextRegion id="region0008" custom="readingOrder {index:15;} structure {type:catch-word;}" orientation="0.44707912" type="catch-word" readingDirection="left-to-right">
       <Coords points="993,1992 1087,1992 1087,2037 993,2037"/>
       <TextLine id="region0008_line" custom="readingOrder {index:0;}">
         <Coords points="993,1992 1087,1992 1087,2037 993,2037"/>
@@ -1429,5 +1439,11 @@ etc. par Mr.  l'Abbé CHASTELLAIN. Paris,</Unicode>
         <Unicode>4372</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1674125245421_5673" custom="readingOrder {index:0;}">
+      <Coords points="168,389 1097,380 1097,445 168,454"/>
+    </GraphicRegion>
+    <GraphicRegion id="Graphic_1674125241009_5670" custom="readingOrder {index:1;}">
+      <Coords points="450,323 803,323 803,374 450,374"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

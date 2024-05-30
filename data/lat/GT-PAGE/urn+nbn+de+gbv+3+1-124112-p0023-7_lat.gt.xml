@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-9">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:09Z</Created>
     <LastChange>2024-01-19T13:07:09Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6bd92007-6bfa-4236-b08f-ce5f14857525/00000023.jpg" imageWidth="2327" imageHeight="2694" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,10 +31,10 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1645594876811_42"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.22654279" type="heading" readingDirection="left-to-right" id="TextRegion_1645594876811_43" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1645594876811_43" custom="readingOrder {index:0;} structure {type:heading;}" orientation="-0.22654279" type="heading" readingDirection="left-to-right">
       <Coords points="342,375 1643,384 1642,438 341,438"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
-        <Coords points="881,379 878,383 862,387 861,416 866,421 886,423 887,436 892,441 975,440 981,438 987,430 1010,430 1014,437 1020,439 1089,438 1095,432 1095,423 1105,416 1105,389 1100,384 983,387 982,380"/>
+        <Coords points="878,383 862,387 861,416 866,421 886,423 887,436 889,438 981,438 987,430 1010,430 1014,437 1017,438 1089,438 1095,432 1095,423 1105,416 1105,389 1100,384 983,387 982,380 881,379"/>
         <Word id="region0002_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="917,386 949,387 949,434 917,433"/>
           <TextEquiv>
@@ -39,7 +55,7 @@
         <Unicode>§. 15.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.22654279" readingDirection="left-to-right" id="TextRegion_1645594876811_42" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1645594876811_42" custom="readingOrder {index:1;}" orientation="-0.22654279" readingDirection="left-to-right">
       <Coords points="341,438 1642,438 1633,2123 338,2114 331,2049"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="1202,440 1197,445 1195,454 1151,453 1147,441 1134,440 1128,445 1125,454 1018,454 1012,453 1007,446 997,446 989,455 966,456 857,455 852,446 839,442 822,443 818,454 813,456 738,454 731,444 718,445 712,455 677,454 676,446 671,440 654,442 649,453 575,453 567,443 559,443 541,453 520,452 504,444 435,444 409,449 408,478 427,494 498,511 527,511 532,506 533,494 1026,496 1063,503 1067,500 1083,500 1103,494 1118,494 1153,495 1157,506 1167,508 1177,507 1182,495 1479,497 1510,500 1515,504 1524,504 1529,500 1555,499 1641,500 1641,458 1477,455 1467,442 1421,441 1416,446 1414,454 1349,453 1345,450 1334,450 1330,453 1258,454 1258,445 1253,440"/>
@@ -1082,7 +1098,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0019_word0001" custom="readingOrder {index:1;}">
-          <Coords points="406,1516 404,1516 404,1568 650,1570 650,1529 410,1528"/>
+          <Coords points="404,1516 404,1568 513,1569 601,1568 628,1570 650,1570 650,1529 640,1529 640,1529 410,1528 406,1516"/>
           <TextEquiv conf="0.901276">
             <Unicode>comparatum,</Unicode>
           </TextEquiv>
@@ -1662,30 +1678,30 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quoties vel vivo adhuc marito, vel poſt mortem illius, con-&#13;
-curſus creditorum exiſtit, vidua eiusdem ad perceptionem huius por-&#13;
-tionis legalis adſpirare nequit. Eaedem hic obſtant rationes, ob quas&#13;
-lucrum dotis etiam in tali caſu per textum Ordinat. Dicaſterii aul.&#13;
-provincial. P. II. Tit. XLV. verbis: und ſeine Hausfrau der landuͤbli⸗&#13;
-chen Beſſerung nicht zu genieſſen, ſondern allein ihren eingebrachten&#13;
-Brautſchatz zu fodern haben, illi denegatur. Nihil quidem l. c. de&#13;
-hac portione ſtatutaria expreſſe ſancitum legitur, ſed, quum bona&#13;
-mariti non intelligantur, niſi deducto aere alieno, nec non, viduam&#13;
-locupletiorem fieri cum damno creditorum, legibus omnino prohi-&#13;
-bitum ſit, merito legem noſtram ad hunc quoque caſum applicamus.&#13;
-Eatenus conſentit Proiectus noviſſimus Iur. feud. Meckl., quem b.&#13;
-Mantzelio debemus. Ibi enim diſponitur: Auſſer Concurſen folget&#13;
-ihre fraͤuliche Gerechtigkeit aus dem Lehn. Quid vero de illo caſu&#13;
-ſentiendum ſit, ſi maritus quidem tempore mortis ſolvendo adhuc&#13;
-eſt, attamen aere alieno, quod vivus contraxit, atque ſua natura ita&#13;
-eſt comparatum, ut ſucceſſorem feudi ad illud ſolvendum non prima-&#13;
-rio adſtringat, ſed demum ſubſidiarie, obrutus deceſſit, maxime di-&#13;
-verſa eſt opinio doctorum. Alii contendunt, viduam non aliter&#13;
-accipere poſſe dimidiam eius, quod ipſi alias debetur, quam detracto&#13;
-antea aere alieno; turpe enim eſſe, famam ac fidem mariti mortui&#13;
-non liberare ex bonis ſuis, ſed potius viduam locupletare cum damno&#13;
-creditorum; alii vero aequitati ac rationi legis magis convenire affir-&#13;
-mant, hanc dimidiam partem bonorum a defuncto relictorum omni&#13;
+        <Unicode>Quoties vel vivo adhuc marito, vel poſt mortem illius, con-
+curſus creditorum exiſtit, vidua eiusdem ad perceptionem huius por-
+tionis legalis adſpirare nequit. Eaedem hic obſtant rationes, ob quas
+lucrum dotis etiam in tali caſu per textum Ordinat. Dicaſterii aul.
+provincial. P. II. Tit. XLV. verbis: und ſeine Hausfrau der landuͤbli⸗
+chen Beſſerung nicht zu genieſſen, ſondern allein ihren eingebrachten
+Brautſchatz zu fodern haben, illi denegatur. Nihil quidem l. c. de
+hac portione ſtatutaria expreſſe ſancitum legitur, ſed, quum bona
+mariti non intelligantur, niſi deducto aere alieno, nec non, viduam
+locupletiorem fieri cum damno creditorum, legibus omnino prohi-
+bitum ſit, merito legem noſtram ad hunc quoque caſum applicamus.
+Eatenus conſentit Proiectus noviſſimus Iur. feud. Meckl., quem b.
+Mantzelio debemus. Ibi enim diſponitur: Auſſer Concurſen folget
+ihre fraͤuliche Gerechtigkeit aus dem Lehn. Quid vero de illo caſu
+ſentiendum ſit, ſi maritus quidem tempore mortis ſolvendo adhuc
+eſt, attamen aere alieno, quod vivus contraxit, atque ſua natura ita
+eſt comparatum, ut ſucceſſorem feudi ad illud ſolvendum non prima-
+rio adſtringat, ſed demum ſubſidiarie, obrutus deceſſit, maxime di-
+verſa eſt opinio doctorum. Alii contendunt, viduam non aliter
+accipere poſſe dimidiam eius, quod ipſi alias debetur, quam detracto
+antea aere alieno; turpe enim eſſe, famam ac fidem mariti mortui
+non liberare ex bonis ſuis, ſed potius viduam locupletare cum damno
+creditorum; alii vero aequitati ac rationi legis magis convenire affir-
+mant, hanc dimidiam partem bonorum a defuncto relictorum omni
 caſu viduae ſalvam manere, nec detracto aere alieno eam minuen-</Unicode>
       </TextEquiv>
     </TextRegion>

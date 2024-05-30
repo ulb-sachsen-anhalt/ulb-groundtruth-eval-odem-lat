@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-74">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:38Z</Created>
     <LastChange>2024-01-19T13:07:38Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/e235209b-41c5-40d2-b46d-865848dc0189/00000172.jpg" imageWidth="1526" imageHeight="2362" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region0016"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.027926106" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.027926106" type="heading" readingDirection="left-to-right">
       <Coords points="653,370 1255,370 1255,508 653,508"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="720,370 714,376 653,376 653,428 910,423 1254,424 1254,370 1122,370 1085,377 1036,374 1025,370 875,370 831,379 748,378 737,377 731,370"/>
@@ -74,12 +90,12 @@
 PARMENO. BACCHIS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027926106" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:1;}">
+    <TextRegion id="region0003" custom="readingOrder {index:1;}" orientation="0.027926106" readingDirection="left-to-right">
       <Coords points="500,532 1415,532 1415,1035 500,1035"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
         <Coords points="1077,556 1064,558 1060,570 1036,571 890,569 601,573 568,571 561,565 557,556 560,543 551,531 531,542 523,571 507,571 503,574 500,626 578,624 643,618 997,616 1003,613 1016,616 1149,615 1151,622 1162,624 1173,613 1183,615 1285,612 1329,616 1334,623 1354,626 1364,615 1414,613 1414,573 1405,571 1324,568 1322,560 1316,556 1299,557 1295,560 1293,568 1281,569 1128,570 1127,561 1122,556"/>
         <Word id="word_1648126059109_6900" custom="readingOrder {index:0;}">
-          <Coords points="504,576 523,570 549,535 561,565 735,578 735,604 571,613 504,613 502,591"/>
+          <Coords points="504,576 502,591 502,591 504,613 571,613 735,604 735,578 658,572 601,573 568,571 561,565 557,556 557,555 549,535 523,569 523,571 520,571"/>
           <TextEquiv>
             <Unicode>Aᴇᴅᴇᴘᴏʟ</Unicode>
           </TextEquiv>
@@ -376,7 +392,7 @@ quisque venerat,
 5 Acce-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027926106" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.027926106" type="heading" readingDirection="left-to-right">
       <Coords points="839,1059 1067,1059 1067,1102 839,1102"/>
       <TextLine id="region0006_line" custom="readingOrder {index:0;}">
         <Coords points="839,1059 1067,1059 1067,1102 839,1102"/>
@@ -400,7 +416,7 @@ quisque venerat,
         <Unicode>Leƈt. Variet.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027926106" readingDirection="left-to-right" id="TextRegion_1648125996767_6857" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1648125996767_6857" custom="readingOrder {index:3;}" orientation="0.027926106" readingDirection="left-to-right">
       <Coords points="580,1123 1430,1123 1430,1265 713,1310 587,1310 580,1265"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="798,1123 780,1130 755,1132 664,1133 624,1129 580,1129 580,1175 711,1169 839,1170 888,1165 1429,1172 1429,1123"/>
@@ -531,7 +547,7 @@ quisque venerat,
           </TextEquiv>
         </Word>
         <Word id="word_1648126142809_6920" custom="readingOrder {index:7;}">
-          <Coords points="1262,1177 1416,1177 1416,1208 1262,1208"/>
+          <Coords points="1416,1177 1262,1177 1262,1208 1297,1208 1416,1205"/>
           <TextEquiv>
             <Unicode>Calidemi.</Unicode>
           </TextEquiv>
@@ -585,13 +601,13 @@ quisque venerat,
           </TextEquiv>
         </Word>
         <Word id="word_1648126150260_6929" custom="readingOrder {index:7;}">
-          <Coords points="1254,1218 1319,1218 1319,1256 1254,1256"/>
+          <Coords points="1319,1218 1254,1218 1254,1254 1319,1253"/>
           <TextEquiv>
             <Unicode>pro</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1648126152310_6932" custom="readingOrder {index:8;}">
-          <Coords points="1332,1214 1409,1214 1409,1255 1332,1255"/>
+          <Coords points="1409,1214 1332,1214 1332,1253 1409,1252"/>
           <TextEquiv>
             <Unicode>illic.</Unicode>
           </TextEquiv>
@@ -619,13 +635,13 @@ quisque venerat,
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>I. nae meam B. V. IS. E. DH. IR. R. HF. II. ME.&#13;
-reputat FF. 2. Miſit illuc. ME. 3. Calidemi.&#13;
-dem. TM. 4. Vt quisquam. RB. illi pro illic.&#13;
+        <Unicode>I. nae meam B. V. IS. E. DH. IR. R. HF. II. ME.
+reputat FF. 2. Miſit illuc. ME. 3. Calidemi.
+dem. TM. 4. Vt quisquam. RB. illi pro illic.
 Gy. R.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027926106" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:4;}">
+    <TextRegion id="region0013" custom="readingOrder {index:4;}" orientation="0.027926106" readingDirection="left-to-right">
       <Coords points="946,2009 949,2009 949,1342 488,1342 488,2009 499,2009 499,2010 946,2010"/>
       <TextLine id="region0013_line0001" custom="readingOrder {index:0;}">
         <Coords points="564,1342 499,1346 496,1350 497,1378 508,1390 544,1391 598,1390 608,1386 624,1385 641,1390 647,1385 686,1384 708,1389 719,1385 736,1390 753,1390 760,1386 798,1389 948,1389 948,1349 913,1346 908,1342 890,1342 885,1347 873,1348 784,1349 776,1342 764,1342 757,1349 636,1350 630,1342"/>
@@ -1138,24 +1154,24 @@ Gy. R.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>1) deputat, i. e. aeſtu-&#13;
-mat. Wahrhaftig, mein&#13;
-Herr denkt auch, daß alle&#13;
-meine Mühe gar nichts&#13;
-werth iſt. Da ſchickt er&#13;
-mich um nichts nach der&#13;
-Ciradelle, wo ich den gan-&#13;
-zen Tag vergebens geſeſſen,&#13;
-und auf den Gaſtfreund aus&#13;
-Mykon, den Kallidemides&#13;
-gewartet habe. v. 4. Ich&#13;
-ſaß da, wie ein Narr, und&#13;
-ſobald ich Iemanden kommen&#13;
-ſah, ſo gieng ich auf ihn&#13;
+        <Unicode>1) deputat, i. e. aeſtu-
+mat. Wahrhaftig, mein
+Herr denkt auch, daß alle
+meine Mühe gar nichts
+werth iſt. Da ſchickt er
+mich um nichts nach der
+Ciradelle, wo ich den gan-
+zen Tag vergebens geſeſſen,
+und auf den Gaſtfreund aus
+Mykon, den Kallidemides
+gewartet habe. v. 4. Ich
+ſaß da, wie ein Narr, und
+ſobald ich Iemanden kommen
+ſah, ſo gieng ich auf ihn
 zu; hören ſie doch, ſagte</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.027926106" readingDirection="left-to-right" id="region0016" custom="readingOrder {index:5;}">
+    <TextRegion id="region0016" custom="readingOrder {index:5;}" orientation="0.027926106" readingDirection="left-to-right">
       <Coords points="960,1343 1446,1343 1446,2012 960,2012"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="976,1343 970,1352 960,1352 960,1389 1008,1387 1023,1394 1036,1388 1182,1386 1188,1398 1214,1398 1227,1395 1229,1388 1261,1386 1348,1386 1353,1389 1445,1387 1445,1350 1401,1350 1398,1343 1377,1343 1373,1348 1369,1343 1354,1343 1349,1351 1276,1352 1237,1352 1234,1343 1214,1343 1207,1351 1121,1351 1118,1343 1100,1343 1097,1352 1024,1352 1020,1343 999,1343 995,1351 989,1343"/>
@@ -1634,7 +1650,7 @@ zu; hören ſie doch, ſagte</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1648126926810_7282" custom="readingOrder {index:2;}">
-          <Coords points="1167,1965 1187,1965 1251,1965 1275,1968 1275,1999 1167,1999"/>
+          <Coords points="1187,1965 1167,1965 1167,1999 1275,1999 1275,1968 1251,1965 1232,1965 1220,1968 1217,1965 1196,1965 1196,1966 1188,1966 1188,1965"/>
           <TextEquiv>
             <Unicode>haben?</Unicode>
           </TextEquiv>
@@ -1644,20 +1660,20 @@ zu; hören ſie doch, ſagte</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ich, nehmen ſie es nicht&#13;
-übel, ſind ſie aus Mykon?&#13;
-Nein. Heiſſen ſie Kallidemi-&#13;
-des? Nein: haben ſie nicht&#13;
-hier einen Gaſtfreund, der&#13;
-Kallidemides heißt? Nein;&#13;
-So ſagten ſie alle. Ich&#13;
-glaube daß kein Kallidemi-&#13;
-des in der Welt iſt. Endlich »&#13;
-ſchaemte ich mich, und&#13;
-gieng weg. Aber da ſehe&#13;
-ich ia Bacchis von unſerm&#13;
-Schwiegervater herauskom-&#13;
-men. Was muß ſie da zu&#13;
+        <Unicode>ich, nehmen ſie es nicht
+übel, ſind ſie aus Mykon?
+Nein. Heiſſen ſie Kallidemi-
+des? Nein: haben ſie nicht
+hier einen Gaſtfreund, der
+Kallidemides heißt? Nein;
+So ſagten ſie alle. Ich
+glaube daß kein Kallidemi-
+des in der Welt iſt. Endlich »
+ſchaemte ich mich, und
+gieng weg. Aber da ſehe
+ich ia Bacchis von unſerm
+Schwiegervater herauskom-
+men. Was muß ſie da zu
 thun gehabt haben?</Unicode>
       </TextEquiv>
     </TextRegion>

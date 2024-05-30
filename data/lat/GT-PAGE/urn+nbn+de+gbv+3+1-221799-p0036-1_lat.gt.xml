@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-90">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:46Z</Created>
     <LastChange>2024-01-19T13:07:46Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/65a4686f-2034-4deb-868a-b36b26371de4/00000036.jpg" imageWidth="2498" imageHeight="2919" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="region0004"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682499601089_164" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682499601089_164" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="969,582 969,628 1022,628 1022,582"/>
       <TextLine id="line_1682499601188_167" custom="readingOrder {index:0;}">
         <Coords points="969,582 969,628 1022,628 1022,582"/>
@@ -38,7 +54,7 @@
         <Unicode>32</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682499605005_173" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682499605005_173" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="1463,567 1463,613 1697,613 1697,567"/>
       <TextLine id="line_1682499605101_176" custom="readingOrder {index:0;}">
         <Coords points="1463,567 1463,613 1697,613 1697,567"/>
@@ -62,13 +78,13 @@
         <Unicode>De Pediculo</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.083949804" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="0.083949804" readingDirection="left-to-right">
       <Coords points="973,651 2223,651 2223,1287 973,1287"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1638,652 1634,660 1584,661 1578,656 1569,656 1560,661 1542,661 1528,666 1523,665 1520,656 1509,655 1500,657 1495,667 1356,667 1354,659 1349,655 1334,657 1329,667 1328,659 1323,654 1257,658 1242,666 1236,657 1223,656 1214,661 1212,668 1166,668 1164,660 1158,656 1140,659 1135,669 1100,669 1094,659 1076,659 1071,663 1067,660 1054,660 1049,664 1047,671 1012,668 1003,663 993,663 987,666 973,666 973,719 1112,714 1117,725 1127,726 1136,724 1141,714 1163,713 1188,715 1198,725 1212,725 1225,716 1245,714 1389,712 1395,721 1415,722 1420,718 1422,710 1442,710 1447,722 1466,724 1473,720 1475,711 1556,712 1563,716 1575,717 1588,709 1664,707 1686,709 1694,717 1707,718 1716,712 1732,708 1822,702 1953,708 2091,708 2109,709 2113,712 2152,708 2222,708 2222,663 2210,651 2195,653 2191,662 2187,651 2170,651 2162,661 2140,660 2132,651 2068,651 2065,663 1946,661 1927,658 1923,652 1893,652 1890,657 1869,658 1827,658 1825,652 1774,652 1772,659 1742,659 1739,652 1718,652 1713,660 1662,660 1660,652"/>
         <Baseline points="973,708 1709,699 1807,692 2222,698"/>
         <Word id="word_1682499643754_217" custom="readingOrder {index:0;}">
-          <Coords points="980,669 1049,664 1251,664 1251,713 1245,714 1225,716 1047,716 980,707"/>
+          <Coords points="980,669 980,707 1047,716 1056,716 1112,714 1112,716 1140,716 1141,714 1163,713 1188,715 1189,716 1225,716 1245,714 1251,713 1251,664 1245,664 1242,666 1240,664 1213,664 1212,668 1166,668 1165,664 1137,664 1135,669 1100,669 1097,664 1049,664 1047,671 1012,668 1009,666"/>
           <TextEquiv>
             <Unicode>Acridophagis</Unicode>
           </TextEquiv>
@@ -676,20 +692,20 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Acridophagis Libiæ populo (ex largiori locuſtarum eſu) ubi&#13;
-quadrageſimum annum exceſſerint, iis nonſolum viſu varios,&#13;
-ſed ſpecie horridos ac turpes pediculos alatos in corporibus.&#13;
-naſci, qui ventrem primo, tum pedes, deinde totum corpus&#13;
-parvo tempore exedunt. Ita Cel. PAVLLINI t) ſextipedes ni-&#13;
-gros pediculos alatos, magnitudine vulgares porcorum pedi-&#13;
-culos æquantes, cum ſuſurro in aere volitantes in Weſtfalia vi-&#13;
-dit, qui puerum porcis præfectum miſerabiliter excruciabant,&#13;
-referentem: Si porci in fovea iſta uliginoſa ſeſe volutant, ut&#13;
-ſæpe factitant, plerumque hoc examen reportant, a grege,&#13;
+        <Unicode>Acridophagis Libiæ populo (ex largiori locuſtarum eſu) ubi
+quadrageſimum annum exceſſerint, iis nonſolum viſu varios,
+ſed ſpecie horridos ac turpes pediculos alatos in corporibus.
+naſci, qui ventrem primo, tum pedes, deinde totum corpus
+parvo tempore exedunt. Ita Cel. PAVLLINI t) ſextipedes ni-
+gros pediculos alatos, magnitudine vulgares porcorum pedi-
+culos æquantes, cum ſuſurro in aere volitantes in Weſtfalia vi-
+dit, qui puerum porcis præfectum miſerabiliter excruciabant,
+referentem: Si porci in fovea iſta uliginoſa ſeſe volutant, ut
+ſæpe factitant, plerumque hoc examen reportant, a grege,
 quem paſco, myriades accipio u).</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.083949804" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.083949804" type="heading" readingDirection="left-to-right">
       <Coords points="1479,1304 1714,1304 1714,1359 1479,1359"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1490,1304 1479,1306 1481,1358 1713,1354 1713,1304"/>
@@ -714,7 +730,7 @@ quem paſco, myriades accipio u).</Unicode>
         <Unicode>§. XXXV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.083949804" readingDirection="left-to-right" id="TextRegion_1664522603295_870" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1664522603295_870" custom="readingOrder {index:4;}" orientation="0.083949804" readingDirection="left-to-right">
       <Coords points="968,1379 2253,1379 2253,1864 968,1864"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="2065,1379 2062,1391 2010,1388 1983,1391 1964,1396 1918,1396 1913,1392 1898,1395 1862,1395 1854,1385 1840,1385 1834,1389 1832,1395 1773,1396 1765,1384 1737,1382 1720,1385 1715,1396 1676,1396 1674,1388 1668,1384 1651,1386 1646,1396 1533,1396 1531,1389 1526,1385 1510,1385 1506,1388 1504,1396 1494,1397 1461,1396 1459,1388 1455,1385 1440,1385 1435,1389 1433,1396 1419,1397 1415,1396 1414,1390 1409,1386 1368,1386 1363,1390 1361,1398 1327,1397 1325,1389 1321,1386 1305,1388 1300,1398 1282,1399 1240,1399 1235,1388 1223,1387 1214,1391 1212,1400 1206,1401 1179,1401 1177,1394 1171,1390 1144,1390 1137,1400 1130,1395 1118,1393 1016,1392 1011,1397 1011,1429 1014,1433 1023,1435 1023,1446 1028,1451 1423,1443 1583,1444 1601,1445 1606,1450 1616,1450 1622,1445 1668,1443 1844,1442 1850,1452 1866,1453 1875,1449 1878,1441 1901,1441 1952,1445 1960,1450 1970,1450 1976,1446 2010,1444 2109,1447 2116,1457 2137,1458 2144,1446 2252,1443 2252,1396 2167,1397 2161,1387 2148,1386 2139,1398 2134,1387 2116,1385 2108,1390 2103,1399 2090,1399 2083,1379"/>
@@ -787,13 +803,13 @@ quem paſco, myriades accipio u).</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="1121,1455 1117,1458 1114,1465 1094,1466 1078,1466 1073,1456 1059,1455 1051,1460 1049,1467 1048,1467 1048,1499 1205,1505 1205,1468 1189,1466 1166,1462 1145,1464 1139,1463 1132,1455"/>
+          <Coords points="1114,1465 1094,1466 1078,1466 1073,1456 1059,1455 1051,1460 1049,1467 1048,1467 1048,1499 1205,1505 1205,1468 1189,1466 1173,1463 1145,1464 1139,1463 1132,1455 1121,1455 1117,1458"/>
           <TextEquiv conf="0.86926633">
             <Unicode>ducitur,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="1244,1462 1238,1462 1234,1459 1222,1462 1212,1462 1212,1508 1244,1508"/>
+          <Coords points="1238,1462 1236,1460 1231,1462 1212,1462 1212,1508 1213,1508 1244,1508 1244,1462"/>
           <TextEquiv conf="0.86926633">
             <Unicode>ut</Unicode>
           </TextEquiv>
@@ -934,7 +950,7 @@ quem paſco, myriades accipio u).</Unicode>
         </Word>
         <Word id="region0003_line0004_word0007" custom="readingOrder {index:7;}">
           <Coords points="2105,1573 2105,1611 2220,1611 2220,1576 2215,1576 2209,1573 2186,1573 2185,1575 2169,1576 2110,1573"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>mani-</Unicode>
           </TextEquiv>
         </Word>
@@ -1126,7 +1142,7 @@ quem paſco, myriades accipio u).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0008" custom="readingOrder {index:7;}">
-        <Coords points="1784,1802 1765,1803 1753,1813 1737,1813 1729,1806 1709,1806 1703,1813 1694,1815 1609,1818 1557,1816 1552,1806 1535,1807 1531,1814 1426,1814 1423,1808 1407,1806 1402,1809 1401,1815 1380,1818 1313,1815 1292,1818 1279,1810 1263,1810 1258,1815 1225,1819 1157,1820 1130,1819 1125,1811 1112,1810 1106,1812 1102,1820 1084,1820 1078,1811 1067,1810 1056,1820 1046,1821 969,1818 969,1865 1108,1868 1386,1860 1415,1863 1434,1872 1445,1872 1456,1871 1477,1861 1508,1859 1598,1864 1618,1867 1628,1876 1649,1876 1658,1867 1712,1861 1807,1859 2052,1863 2123,1858 2253,1859 2253,1813 2205,1813 2198,1802 2183,1804 2178,1813 2115,1814 2108,1804 2092,1804 2088,1807 2086,1815 2041,1816 2038,1809 2032,1806 2017,1810 2015,1816 1987,1818 1961,1815 1909,1816 1905,1808 1899,1804 1884,1805 1879,1815 1802,1813 1797,1803"/>
+        <Coords points="1765,1803 1753,1813 1737,1813 1729,1806 1709,1806 1703,1813 1694,1815 1609,1818 1557,1816 1552,1806 1535,1807 1531,1814 1426,1814 1423,1808 1407,1806 1402,1809 1401,1815 1380,1818 1313,1815 1292,1818 1279,1810 1263,1810 1258,1815 1225,1819 1157,1820 1130,1819 1125,1811 1112,1810 1106,1812 1102,1820 1084,1820 1078,1811 1067,1810 1056,1820 1046,1821 969,1818 969,1864 1247,1864 1386,1860 1415,1863 1417,1864 1470,1864 1477,1861 1508,1859 1598,1864 1685,1864 1712,1861 1807,1859 2052,1863 2123,1858 2253,1859 2253,1813 2205,1813 2198,1802 2183,1804 2178,1813 2115,1814 2108,1804 2092,1804 2088,1807 2086,1815 2041,1816 2038,1809 2032,1806 2017,1810 2015,1816 1987,1818 1961,1815 1909,1816 1905,1808 1899,1804 1884,1805 1879,1815 1802,1813 1797,1803 1784,1802"/>
         <Baseline points="969,1856 2253,1850"/>
         <Word id="region0003_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="974,1822 1058,1822 1058,1851 974,1851"/>
@@ -1193,20 +1209,20 @@ quem paſco, myriades accipio u).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Pediculus ab aliis laudatur, ab aliis culpatur, &amp; deſpica-&#13;
-tui ducitur, ut contemnendum iſtud animalculum in proverbiis&#13;
-vetuſtate contritis verſetur. Dæn. HEINSIVS v) contra panegy-&#13;
-ricam orationem dixit pediculis, encomium canens; &amp; mani-&#13;
-bus volvo ſcriptum germanicum typis evulgatum w). De pau-&#13;
-peribus in Peruano &amp; Mexicano regnis NIEREMBERG memorat,&#13;
-quod reges ab ipſis pediculos loco tributi ſumerent, quod aliud&#13;
+        <Unicode>Pediculus ab aliis laudatur, ab aliis culpatur, &amp; deſpica-
+tui ducitur, ut contemnendum iſtud animalculum in proverbiis
+vetuſtate contritis verſetur. Dæn. HEINSIVS v) contra panegy-
+ricam orationem dixit pediculis, encomium canens; &amp; mani-
+bus volvo ſcriptum germanicum typis evulgatum w). De pau-
+peribus in Peruano &amp; Mexicano regnis NIEREMBERG memorat,
+quod reges ab ipſis pediculos loco tributi ſumerent, quod aliud
 non haberent. Bancani, gens in regno Indiæ nolunt animal occi-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.083949804" type="catch-word" readingDirection="left-to-right" id="TextRegion_1664522603294_869" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1664522603294_869" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0.083949804" type="catch-word" readingDirection="left-to-right">
       <Coords points="968,1864 2253,1864 2253,1915 968,1915"/>
       <TextLine id="region0003_line0009" custom="readingOrder {index:0;}">
-        <Coords points="2123,1859 2119,1862 2118,1869 2049,1872 2046,1876 2047,1909 2051,1912 2110,1914 2253,1914 2253,1874 2147,1870 2142,1859"/>
+        <Coords points="2118,1869 2049,1872 2046,1876 2047,1909 2051,1912 2110,1914 2253,1914 2253,1874 2147,1870 2144,1864 2118,1864"/>
         <Baseline points="2047,1902 2253,1905"/>
         <Word id="word_1664522603346_874" custom="readingOrder {index:0;}">
           <Coords points="2118,1864 2143,1864 2147,1870 2215,1872 2215,1914 2116,1914 2116,1869 2118,1869"/>
@@ -1222,7 +1238,7 @@ non haberent. Bancani, gens in regno Indiæ nolunt animal occi-</Unicode>
         <Unicode>dere,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.083949804" type="footnote" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0004" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="0.083949804" type="footnote" readingDirection="left-to-right">
       <Coords points="1050,1993 2219,1993 2219,2409 1050,2409"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
         <Coords points="1273,2015 1265,2021 1263,2028 1181,2027 1108,2030 1050,2037 1051,2081 1083,2081 1095,2084 1102,2081 1154,2076 1271,2073 1422,2075 1489,2080 1558,2077 1564,2078 1569,2088 1584,2091 1631,2091 1636,2086 1635,2063 1623,2056 1623,2034 1618,2029 1421,2027 1383,2031 1362,2036 1354,2027 1288,2027 1284,2016"/>
@@ -1573,11 +1589,11 @@ non haberent. Bancani, gens in regno Indiæ nolunt animal occi-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>t) PAULINI faſcie. Obſ XVIII.&#13;
-u) FRISCH l. c. V. Theil Tab. XX fliegende Pferde oder Vieh-Laus.&#13;
-v) Dan HEINISIVS oration XXXV.admirand. rerum admirabilium p.134&#13;
-w) luſtige und zeitverkürtzende Curioſitäten in einer Lobſchrifft der Läuſe&#13;
-denen Soldaten zu eiuem tröſtlichen Neu-Jahr. Geſchenck 1679 in 4.&#13;
+        <Unicode>t) PAULINI faſcie. Obſ XVIII.
+u) FRISCH l. c. V. Theil Tab. XX fliegende Pferde oder Vieh-Laus.
+v) Dan HEINISIVS oration XXXV.admirand. rerum admirabilium p.134
+w) luſtige und zeitverkürtzende Curioſitäten in einer Lobſchrifft der Läuſe
+denen Soldaten zu eiuem tröſtlichen Neu-Jahr. Geſchenck 1679 in 4.
 x) NIEREMBERG. Hiſt. Nat. Lib. VIll.</Unicode>
       </TextEquiv>
     </TextRegion>

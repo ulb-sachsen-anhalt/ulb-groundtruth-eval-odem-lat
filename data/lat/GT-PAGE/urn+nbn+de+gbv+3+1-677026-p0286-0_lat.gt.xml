@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-213">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:11Z</Created>
     <LastChange>2024-01-19T13:09:11Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/3fdc17eb-e29a-41d3-944f-cb1c3ed1bd7d/00000286.jpg" imageWidth="1689" imageHeight="2323" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1660311053784_2761"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.5011459" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660310987226_2720" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660310987226_2720" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.5011459" type="marginalia" readingDirection="left-to-right">
       <Coords points="547,370 600,370 600,432 547,432"/>
       <TextLine id="line_1660310987274_2723" custom="readingOrder {index:0;}">
         <Coords points="548,376 600,377 600,421 585,423 578,429 568,429 563,423 548,421"/>
@@ -39,7 +55,7 @@
         <Unicode>17 iſtius videtur iraſci poſſe, conceſſerit. Quæ eſt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660310990591_2728" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660310990591_2728" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.5011459" type="marginalia" readingDirection="left-to-right">
       <Coords points="546,526 600,526 600,585 546,585"/>
       <TextLine id="line_1660310990642_2731" custom="readingOrder {index:0;}">
         <Coords points="547,532 600,531 600,581 580,583 547,580"/>
@@ -58,7 +74,7 @@
         <Unicode>18 ſperſus. Poſtremo homo eſt valde acutus, &amp; mul-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660310995718_2737" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660310995718_2737" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.5011459" type="marginalia" readingDirection="left-to-right">
       <Coords points="547,886 597,886 597,948 547,948"/>
       <TextLine id="line_1660310995762_2740" custom="readingOrder {index:0;}">
         <Coords points="548,899 597,899 597,941 595,941 585,942 580,947 560,947 560,942 548,942"/>
@@ -77,7 +93,7 @@
         <Unicode>19</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" type="marginalia" readingDirection="left-to-right" id="TextRegion_1660311005052_2746" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1660311005052_2746" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="-0.5011459" type="marginalia" readingDirection="left-to-right">
       <Coords points="541,1252 594,1252 594,1312 541,1312"/>
       <TextLine id="line_1660311005105_2749" custom="readingOrder {index:0;}">
         <Coords points="542,1253 594,1253 594,1301 542,1297"/>
@@ -96,7 +112,7 @@
         <Unicode>20 Pompeium appellat. at in eius perſonam multa</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" readingDirection="left-to-right" id="TextRegion_1660311311867_2839" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1660311311867_2839" custom="readingOrder {index:4;}" orientation="-0.5011459" readingDirection="left-to-right">
       <Coords points="597,266 1525,266 1525,378 1522,898 1519,1259 1515,1457 591,1457 590,1414 590,1301"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1152,267 1143,277 1090,277 873,275 861,274 856,266 829,266 824,274 811,275 630,275 619,266 597,266 598,317 690,318 696,325 703,326 726,316 738,318 792,315 924,317 927,326 946,327 950,325 953,317 999,315 1072,318 1073,326 1080,328 1095,322 1101,316 1242,320 1332,316 1347,317 1375,328 1380,319 1525,321 1525,280 1375,279 1308,271 1271,277 1183,278 1177,277 1172,267"/>
@@ -444,7 +460,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0007_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="775,578 772,586 693,586 693,625 904,624 904,585 820,587 818,579 797,579 795,583 792,579 784,578"/>
+          <Coords points="693,625 904,624 904,587 820,587 818,579 797,579 795,583 792,579 776,578 772,586 693,586"/>
           <TextEquiv conf="0.837074">
             <Unicode>prouidens:</Unicode>
           </TextEquiv>
@@ -1243,7 +1259,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0001" custom="readingOrder {index:22;}">
-        <Coords points="1422,1406 1414,1416 1364,1417 1324,1416 1319,1409 1308,1406 1284,1406 1277,1409 1223,1406 1219,1417 1144,1416 1107,1407 1066,1407 1044,1415 1035,1407 1026,1407 1020,1416 947,1417 945,1408 938,1406 913,1408 906,1418 900,1407 870,1406 860,1417 805,1417 801,1407 686,1407 668,1409 657,1415 646,1417 592,1416 592,1460 654,1459 685,1456 712,1459 926,1459 952,1461 961,1475 981,1477 985,1474 986,1465 991,1460 1009,1459 1053,1460 1058,1465 1067,1465 1075,1460 1122,1459 1343,1458 1344,1467 1348,1470 1367,1471 1373,1466 1374,1458 1487,1457 1499,1463 1515,1460 1515,1414 1487,1414 1480,1407 1470,1407 1464,1415 1448,1415 1442,1406"/>
+        <Coords points="1414,1416 1364,1417 1324,1416 1319,1409 1308,1406 1284,1406 1277,1409 1223,1406 1219,1417 1144,1416 1107,1407 1066,1407 1044,1415 1035,1407 1026,1407 1020,1416 947,1417 945,1408 938,1406 913,1408 906,1418 900,1407 870,1406 860,1417 805,1417 801,1407 686,1407 668,1409 657,1415 646,1417 592,1416 592,1457 674,1457 685,1456 694,1457 1487,1457 1515,1457 1515,1414 1487,1414 1480,1407 1470,1407 1464,1415 1448,1415 1442,1406 1422,1406"/>
         <Baseline points="592,1450 1515,1450"/>
         <Word id="region0012_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="597,1444 683,1445 683,1414 659,1413 657,1415 646,1417 597,1416"/>
@@ -1264,7 +1280,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1660311639222_2900" custom="readingOrder {index:3;}">
-          <Coords points="930,1406 938,1406 1035,1407 1052,1412 1070,1436 1070,1454 1052,1457 930,1457"/>
+          <Coords points="930,1457 1052,1457 1070,1454 1070,1436 1052,1412 1044,1415 1035,1407 1026,1407 1020,1416 947,1417 945,1408 938,1406 930,1406"/>
           <TextEquiv>
             <Unicode>legauit,</Unicode>
           </TextEquiv>
@@ -1292,32 +1308,32 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>hæc igitur adhuc parum profecerunt? quia non&#13;
-putat ſe ſuſtinere cauſſas poſſe multorum, ſi tibi, cui&#13;
-iuſtius videtur iraſci poſſe, conceſſerit. Quæ eſt&#13;
-igitur, inquies, ſpes ab irato? eodem fonte ſe hau-&#13;
-ſturum intelligit laudes ſuas, e quo ſit leuiter ad-&#13;
-18 ſperſus. Poſtremo homo eſt valde acutus, &amp; mul-&#13;
-tum prouidens: intelligit te hominem in parte&#13;
-Italiæ minime contemnenda facile omnium nobi-&#13;
-lisſimum, &amp; in communi repub. cuiuis ſummorum&#13;
-tuæ ætatis, vel ingenio, vel gratia, vel fama popu-&#13;
-li Rom. parem, non poſſe prohiberi repub. diutius.&#13;
-Nolet hoc temporis potius eſſe aliquando benefi-&#13;
-I9 cium, quam ſuum. Dixi de Cæſare: nunc di-&#13;
-cam de temporum, rerumque natura. Nemo eſt&#13;
-tam inimicus ei cauſſæ, quam Pompeius animatus&#13;
-melius, quam paratus ſuſceperat, qui nos malos ci-&#13;
-ves dicere, aut homines improbos audeat. in quo&#13;
-admirari ſoleo grauitatem, &amp; iuſticiam, &amp; ſapien-&#13;
-tiam Cæſaris: nunquam niſi honorificentiſſime&#13;
-20 Pompeium appellat. at in eius perſonam multa&#13;
-fecit aſperius. armorum iſta &amp; victoriæ ſunt facta,&#13;
-non Cæſaris. at nos quemadmodum eſt comple-&#13;
+        <Unicode>hæc igitur adhuc parum profecerunt? quia non
+putat ſe ſuſtinere cauſſas poſſe multorum, ſi tibi, cui
+iuſtius videtur iraſci poſſe, conceſſerit. Quæ eſt
+igitur, inquies, ſpes ab irato? eodem fonte ſe hau-
+ſturum intelligit laudes ſuas, e quo ſit leuiter ad-
+18 ſperſus. Poſtremo homo eſt valde acutus, &amp; mul-
+tum prouidens: intelligit te hominem in parte
+Italiæ minime contemnenda facile omnium nobi-
+lisſimum, &amp; in communi repub. cuiuis ſummorum
+tuæ ætatis, vel ingenio, vel gratia, vel fama popu-
+li Rom. parem, non poſſe prohiberi repub. diutius.
+Nolet hoc temporis potius eſſe aliquando benefi-
+I9 cium, quam ſuum. Dixi de Cæſare: nunc di-
+cam de temporum, rerumque natura. Nemo eſt
+tam inimicus ei cauſſæ, quam Pompeius animatus
+melius, quam paratus ſuſceperat, qui nos malos ci-
+ves dicere, aut homines improbos audeat. in quo
+admirari ſoleo grauitatem, &amp; iuſticiam, &amp; ſapien-
+tiam Cæſaris: nunquam niſi honorificentiſſime
+20 Pompeium appellat. at in eius perſonam multa
+fecit aſperius. armorum iſta &amp; victoriæ ſunt facta,
+non Cæſaris. at nos quemadmodum eſt comple-
 xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660311101237_2786" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660311101237_2786" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="-0.5011459" type="catch-word" readingDirection="left-to-right">
       <Coords points="591,1457 1515,1457 1515,1508 591,1508"/>
       <TextLine id="region0012_line0002" custom="readingOrder {index:0;}">
         <Coords points="1483,1458 1475,1462 1406,1459 1388,1462 1381,1468 1383,1504 1386,1508 1514,1506 1514,1473 1499,1472 1498,1463"/>
@@ -1336,7 +1352,7 @@ xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
         <Unicode>Sul-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.5011459" type="footnote" readingDirection="left-to-right" id="TextRegion_1660311053784_2761" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1660311053784_2761" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.5011459" type="footnote" readingDirection="left-to-right">
       <Coords points="590,1521 1513,1521 1513,1918 1510,1962 595,1962 590,1918"/>
       <TextLine id="region0013_line0001" custom="readingOrder {index:0;}">
         <Coords points="1420,1521 1414,1528 1379,1528 1376,1522 1360,1522 1357,1528 1323,1529 1317,1521 1303,1521 1299,1529 1231,1527 1082,1530 1030,1530 1026,1522 1006,1522 1002,1531 920,1530 918,1522 873,1521 871,1531 859,1529 847,1532 835,1532 830,1522 821,1521 811,1524 803,1532 754,1533 749,1533 743,1524 733,1524 722,1534 594,1533 591,1535 591,1565 621,1568 627,1572 642,1572 648,1576 659,1578 664,1574 692,1569 790,1568 791,1573 796,1575 815,1566 877,1567 878,1572 882,1574 902,1576 909,1573 910,1567 1030,1566 1103,1568 1135,1575 1146,1570 1172,1567 1421,1565 1428,1575 1443,1575 1449,1565 1513,1568 1513,1528 1444,1527 1440,1521"/>
@@ -1538,7 +1554,7 @@ xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
         </Word>
         <Word id="region0013_line0004_word0009" custom="readingOrder {index:9;}">
           <Coords points="1411,1652 1473,1653 1473,1685 1411,1684"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſect.</Unicode>
           </TextEquiv>
         </Word>
@@ -1762,7 +1778,7 @@ xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0001" custom="readingOrder {index:9;}">
-        <Coords points="1435,1908 1431,1912 1411,1913 1369,1912 1361,1909 1307,1908 1303,1913 1211,1914 1207,1908 1189,1908 1185,1915 1003,1917 897,1916 869,1910 805,1910 792,1916 762,1917 727,1917 719,1909 711,1909 703,1916 674,1910 638,1909 627,1912 623,1918 594,1919 594,1956 814,1956 818,1964 832,1965 838,1956 1048,1954 1054,1963 1070,1963 1076,1953 1241,1954 1508,1949 1508,1919 1498,1919 1496,1909"/>
+        <Coords points="1431,1912 1411,1913 1369,1912 1361,1909 1307,1908 1303,1913 1211,1914 1207,1908 1189,1908 1185,1915 1003,1917 897,1916 869,1910 805,1910 792,1916 762,1917 727,1917 719,1909 711,1909 703,1916 674,1910 638,1909 627,1912 623,1918 594,1919 594,1953 594,1956 814,1956 817,1962 834,1962 838,1956 1048,1954 1053,1962 1070,1962 1076,1953 1241,1954 1508,1949 1508,1919 1498,1919 1496,1909 1435,1908"/>
         <Baseline points="594,1947 1508,1939"/>
         <Word id="region0014_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="599,1938 635,1938 635,1917 623,1917 623,1918 599,1918"/>
@@ -1789,7 +1805,7 @@ xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0001_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1187,1911 1185,1915 1157,1915 1157,1951 1266,1951 1266,1911 1239,1915 1248,1912 1211,1914 1209,1911"/>
+          <Coords points="1157,1951 1266,1951 1266,1913 1249,1914 1239,1915 1243,1914 1211,1914 1209,1911 1187,1911 1185,1915 1157,1915"/>
           <TextEquiv conf="0.91897905">
             <Unicode>volunt</Unicode>
           </TextEquiv>
@@ -1817,15 +1833,15 @@ xus? Caſſium ſibi legauit, legauit Brutum Galliæ præfecit,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>17. eodem fonte] ex eodem ingenio tuo laudes ſperat&#13;
-ſuas, ex quo ſenſit criminationem.&#13;
-18. homo eſt valde acutus] Cæſar.&#13;
-20. armorum iſta &amp; victoriæ] Lib. iv. epiſt. ix ſect. 8&#13;
-Multa victori eorum arbitrio, per quos vicit, etiam inuito fa-&#13;
-cienda ſunt.&#13;
-Caſſium ſibi legauit] C. Caſſium legatum ſuum fecit&#13;
-in bello.&#13;
-Brutum Galliæ præfecit] Galliæ Ciſalpinæ. at Marcum&#13;
+        <Unicode>17. eodem fonte] ex eodem ingenio tuo laudes ſperat
+ſuas, ex quo ſenſit criminationem.
+18. homo eſt valde acutus] Cæſar.
+20. armorum iſta &amp; victoriæ] Lib. iv. epiſt. ix ſect. 8
+Multa victori eorum arbitrio, per quos vicit, etiam inuito fa-
+cienda ſunt.
+Caſſium ſibi legauit] C. Caſſium legatum ſuum fecit
+in bello.
+Brutum Galliæ præfecit] Galliæ Ciſalpinæ. at Marcum
 an Decimum? Marcum interpretes volunt ex Oratore Ci-</Unicode>
       </TextEquiv>
     </TextRegion>

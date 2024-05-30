@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-236">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:30Z</Created>
     <LastChange>2024-01-19T13:09:30Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/605216e7-c0fa-4df2-8dbd-ca4570acc7d2/00000421.jpg" imageWidth="1635" imageHeight="2296" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1679301406505_2808"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.67024386" readingDirection="left-to-right" id="TextRegion_1679301406505_2808" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1679301406505_2808" custom="readingOrder {index:1;}" orientation="0.67024386" readingDirection="left-to-right">
       <Coords points="161,337 1117,337 1117,1903 161,1903"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="366,341 360,343 355,352 345,345 334,345 327,353 271,355 266,346 250,343 242,351 227,348 221,355 161,356 162,393 227,390 228,396 237,399 250,396 257,388 300,388 316,393 329,391 338,395 363,388 392,386 410,388 416,392 435,387 440,393 449,395 456,392 461,384 468,384 487,387 587,387 589,391 599,394 612,391 616,385 626,384 674,383 680,388 688,388 693,383 765,384 769,389 782,390 791,387 792,383 817,379 823,382 913,380 919,387 931,387 937,384 938,380 1010,379 1032,386 1048,382 1069,385 1117,384 1116,352 1094,352 1087,340 856,345 850,337 830,337 823,345 776,346 758,344 745,339 698,339 684,348 648,348 641,339 628,343 623,340 611,340 602,348 498,351 492,344 482,343 475,352 451,353 442,341 428,341 419,350 381,350 376,341"/>
@@ -1702,7 +1718,7 @@
         </Word>
         <Word id="region0001_line0032_word0003" custom="readingOrder {index:3;}">
           <Coords points="398,1653 393,1658 385,1658 385,1685 530,1684 530,1653 521,1655 518,1660 505,1660 474,1659 473,1655 466,1653 456,1653 449,1654 440,1660 433,1654 415,1656 404,1653"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>altisſimos</Unicode>
           </TextEquiv>
         </Word>
@@ -1949,7 +1965,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0037" custom="readingOrder {index:36;}">
-        <Coords points="220,1860 211,1866 161,1866 161,1905 475,1909 628,1908 652,1903 962,1901 966,1907 977,1909 988,1906 991,1899 1116,1897 1117,1861 1090,1861 1087,1855 1081,1853 1065,1856 1062,1862 1055,1861 1048,1854 1031,1856 1029,1862 963,1864 922,1863 919,1858 904,1855 896,1859 895,1864 877,1863 871,1858 810,1859 752,1861 743,1867 681,1868 667,1871 650,1869 640,1864 632,1864 625,1870 611,1869 605,1863 593,1863 587,1869 572,1869 565,1862 555,1863 547,1870 451,1870 436,1869 430,1864 418,1864 412,1869 383,1870 376,1869 370,1863 358,1862 344,1863 340,1867 247,1867 245,1862 240,1860"/>
+        <Coords points="211,1866 161,1866 161,1903 652,1903 962,1901 963,1903 989,1903 991,1899 1116,1897 1117,1861 1090,1861 1087,1855 1081,1853 1065,1856 1062,1862 1055,1861 1048,1854 1031,1856 1029,1862 963,1864 922,1863 919,1858 904,1855 896,1859 895,1864 877,1863 871,1858 810,1859 752,1861 743,1867 681,1868 667,1871 650,1869 640,1864 632,1864 625,1870 611,1869 605,1863 593,1863 587,1869 572,1869 565,1862 555,1863 547,1870 451,1870 436,1869 430,1864 418,1864 412,1869 383,1870 376,1869 370,1863 358,1862 344,1863 340,1867 247,1867 245,1862 240,1860 220,1860"/>
         <Baseline points="161,1896 480,1899 1117,1887"/>
         <Word id="region0001_line0037_word0000" custom="readingOrder {index:0;}">
           <Coords points="212,1864 211,1866 191,1866 191,1896 287,1895 287,1867 247,1867 245,1864"/>
@@ -2004,42 +2020,42 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tueri finem, jubet ſequi eorum fidem, Impenſe itaque exigit,&#13;
-ut proborum Eccleſiæ Præconum vitæ curſum non tantum&#13;
-percurramus, &amp; quem vivendi exitum habuerint, ex curioſi-&#13;
-tatis cujusdam prurientis ſtimulis magis, quam ullo noſtro&#13;
-erga ipſos amore, ſuperficiarie expendamus; verum etiam&#13;
-eorundem virtutes, pietatem atque fidem ipſo opere æmulari&#13;
-ſtudeamus. Parum enim frigida iſta ac tranſultoria in ani-&#13;
-mum revocatio profutura eſſet, ſi ad enixiſſimum imitandi&#13;
-propoſitum non accingaris. Ad magis excitandos oblivio-&#13;
-fos præteritorum animos argumentum quoddam &amp; cauſam&#13;
-ad renovandam beatorum Præſulum memoriam moventem&#13;
-ex æquitatis fundamento ſubnectit. Eam ex inde feſſa prædi-&#13;
-cati Sermonis divini opera clarisſime &amp; verisſime ſimul dedu-&#13;
-cit. Utique hoc beneficium tantum eſt, ut eo nomine ad&#13;
-perpetuam recordationem illorum omnino teneamur. Id&#13;
-omne me pariter impellit, ut impræſentiarum Maxime Re-&#13;
-verendi atque Amplisſimi VIRI CONRADI FEVER-&#13;
-LINI, Miniſterii Eccleſiaſtici Norimbergenſis Antiſtitis &amp;&#13;
-Senioris, Reipublicæ Bibliothecarii &amp; ad D. Sebaldi Paſtoris&#13;
-vigilantisſimi decurſum vitæ ſtadium iterum emetiri ſuſtine-&#13;
-am. Meretur id ſane Vir de ſuis hiſce muneribus, imo uni-&#13;
-verſa Chriſti Eccleſia immortaliter meritus. Editus is eſt&#13;
-Svobaei in Franconibus, Onoldinæ ditionis oppido 3 Kal.&#13;
-Dec. MDCXXIX ſummo mane, atque adeo ſub ipſo lucis di-&#13;
-luculo vitalis quoque lucis diluculum exorſus eſt; Paren-&#13;
-tibus uſus non Clarisſimis quidem illis, at honeſtisſimis ta-&#13;
-men; Patre IOHANNE FEVERLINO, Senatore,&#13;
-cereviſiariæ rei opificium profeſſo; Matre VRSVLA, SE-&#13;
-BASTIANO MVLLERO, Cive Norimbergenſi ac&#13;
-Mercatore Ferrario prognata. Eam ſolet DEVS cum tenuis&#13;
-fortunæ, imo infimæ etiam ſortis hominum liberis ingredi&#13;
-viam, ut ad altisſimos Dignitatum ſacrarum pariter atque,&#13;
-ſecularium apices evectos in ſummorum quandoque Regum&#13;
-ſolium, &amp; Principum familiaritatem intromittat. Quis un-&#13;
-quam de FEVERLINO ominatus eſſet, tale ipſum olim.&#13;
-Eccleſiaſtici cœli ſidus futurum, &amp; tamen non obſtante na-&#13;
+        <Unicode>tueri finem, jubet ſequi eorum fidem, Impenſe itaque exigit,
+ut proborum Eccleſiæ Præconum vitæ curſum non tantum
+percurramus, &amp; quem vivendi exitum habuerint, ex curioſi-
+tatis cujusdam prurientis ſtimulis magis, quam ullo noſtro
+erga ipſos amore, ſuperficiarie expendamus; verum etiam
+eorundem virtutes, pietatem atque fidem ipſo opere æmulari
+ſtudeamus. Parum enim frigida iſta ac tranſultoria in ani-
+mum revocatio profutura eſſet, ſi ad enixiſſimum imitandi
+propoſitum non accingaris. Ad magis excitandos oblivio-
+fos præteritorum animos argumentum quoddam &amp; cauſam
+ad renovandam beatorum Præſulum memoriam moventem
+ex æquitatis fundamento ſubnectit. Eam ex inde feſſa prædi-
+cati Sermonis divini opera clarisſime &amp; verisſime ſimul dedu-
+cit. Utique hoc beneficium tantum eſt, ut eo nomine ad
+perpetuam recordationem illorum omnino teneamur. Id
+omne me pariter impellit, ut impræſentiarum Maxime Re-
+verendi atque Amplisſimi VIRI CONRADI FEVER-
+LINI, Miniſterii Eccleſiaſtici Norimbergenſis Antiſtitis &amp;
+Senioris, Reipublicæ Bibliothecarii &amp; ad D. Sebaldi Paſtoris
+vigilantisſimi decurſum vitæ ſtadium iterum emetiri ſuſtine-
+am. Meretur id ſane Vir de ſuis hiſce muneribus, imo uni-
+verſa Chriſti Eccleſia immortaliter meritus. Editus is eſt
+Svobaei in Franconibus, Onoldinæ ditionis oppido 3 Kal.
+Dec. MDCXXIX ſummo mane, atque adeo ſub ipſo lucis di-
+luculo vitalis quoque lucis diluculum exorſus eſt; Paren-
+tibus uſus non Clarisſimis quidem illis, at honeſtisſimis ta-
+men; Patre IOHANNE FEVERLINO, Senatore,
+cereviſiariæ rei opificium profeſſo; Matre VRSVLA, SE-
+BASTIANO MVLLERO, Cive Norimbergenſi ac
+Mercatore Ferrario prognata. Eam ſolet DEVS cum tenuis
+fortunæ, imo infimæ etiam ſortis hominum liberis ingredi
+viam, ut ad altisſimos Dignitatum ſacrarum pariter atque,
+ſecularium apices evectos in ſummorum quandoque Regum
+ſolium, &amp; Principum familiaritatem intromittat. Quis un-
+quam de FEVERLINO ominatus eſſet, tale ipſum olim.
+Eccleſiaſtici cœli ſidus futurum, &amp; tamen non obſtante na-
 talium mediocritate maximis in cœtu DEI rebus prædeiti-</Unicode>
       </TextEquiv>
     </TextRegion>

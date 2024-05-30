@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-207">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:09Z</Created>
     <LastChange>2024-01-19T13:09:09Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/10fcbc3b-c67c-4e36-9f61-47bf71f3ff8a/00000041.jpg" imageWidth="2408" imageHeight="2714" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1653298040339_3091"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.3755369" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:0;}">
+    <TextRegion id="region0004" custom="readingOrder {index:0;}" orientation="0.3755369" readingDirection="left-to-right">
       <Coords points="139,453 1594,434 1598,754 144,773"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1295,437 1286,439 1282,450 1242,449 1240,444 1232,439 1089,441 1082,450 1071,450 1064,441 910,443 908,452 887,452 881,443 866,443 860,447 858,453 820,454 815,445 799,445 795,454 644,454 641,447 617,447 613,455 458,458 452,449 445,449 433,449 430,458 272,462 198,462 193,453 174,453 168,461 162,454 151,454 144,458 143,465 140,466 141,510 196,509 202,519 217,519 224,515 226,507 243,505 387,503 388,510 392,513 409,515 413,512 415,503 540,502 545,512 558,513 566,508 568,501 580,500 846,498 898,500 907,508 919,502 942,502 961,498 1261,497 1313,493 1348,495 1357,505 1374,505 1388,495 1416,493 1594,493 1594,466 1594,448 1508,448 1503,445 1362,448 1360,442 1352,437 1336,437 1325,448 1310,449 1308,440 1304,437"/>
@@ -305,7 +321,7 @@ probatis illinc contentis rationibus decidendi nil ſuperfuit, quod
 deſignatum reum abſolvere poſſit Iudex.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="heading" id="region_1653298051605_3099" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region_1653298051605_3099" custom="readingOrder {index:1;} structure {type:heading;}" type="heading">
       <Coords points="752,817 975,817 975,909 752,909"/>
       <TextLine id="line_1653298055861_3102" custom="readingOrder {index:0;}">
         <Coords points="775,828 775,898 956,898 956,828"/>
@@ -323,7 +339,7 @@ deſignatum reum abſolvere poſſit Iudex.</Unicode>
         <Unicode>§.27.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3755369" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.3755369" type="heading" readingDirection="left-to-right">
       <Coords points="243,950 1494,934 1495,1025 244,1041"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1182,938 1166,941 1152,960 1145,959 1147,943 1144,939 1124,939 1117,960 1034,960 1029,956 1018,956 1011,961 923,963 923,952 919,946 899,944 888,949 877,964 859,964 854,944 837,943 829,950 828,966 696,964 689,960 678,960 672,964 609,968 473,968 469,965 418,968 416,953 410,949 402,949 393,952 389,957 392,971 383,973 379,972 380,960 376,954 360,954 356,959 358,974 346,973 346,959 343,955 328,955 323,950 299,950 297,954 262,954 255,950 245,950 244,1039 313,1040 327,1036 333,1024 457,1022 531,1017 734,1015 852,1015 852,1029 855,1033 881,1032 886,1024 890,1032 931,1032 936,1026 937,1016 944,1014 1105,1010 1127,1010 1126,1025 1129,1029 1155,1029 1162,1022 1164,1009 1442,1009 1454,1006 1459,1010 1474,1010 1483,1004 1494,1003 1494,944 1456,945 1427,957 1376,960 1378,947 1375,941 1369,937 1355,937 1347,944 1348,959 1197,958 1194,944"/>
@@ -365,7 +381,7 @@ deſignatum reum abſolvere poſſit Iudex.</Unicode>
         <Unicode>Quid tum autem deſignato obſervandum?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3755369" readingDirection="left-to-right" id="TextRegion_1653298035364_3085" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1653298035364_3085" custom="readingOrder {index:3;}" orientation="0.3755369" readingDirection="left-to-right">
       <Coords points="87,1061 1593,1042 1603,1805 885,1881 112,1891 97,1824"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1456,1045 1448,1058 1210,1060 1188,1059 1180,1048 1167,1049 1161,1059 1112,1061 1103,1061 1096,1050 1085,1050 1076,1061 1067,1062 1006,1061 1003,1055 997,1051 983,1052 976,1062 950,1063 721,1066 717,1055 701,1054 693,1067 686,1067 681,1057 666,1055 661,1057 655,1066 648,1054 569,1055 565,1066 549,1067 542,1056 529,1056 521,1062 519,1056 498,1056 496,1067 471,1068 457,1067 455,1062 448,1058 433,1060 429,1068 404,1066 390,1059 378,1059 366,1067 349,1071 341,1071 334,1062 322,1062 316,1066 314,1072 302,1072 281,1064 189,1065 184,1070 185,1101 192,1107 192,1115 197,1120 491,1114 497,1122 504,1125 515,1125 521,1121 523,1114 532,1113 627,1112 629,1119 635,1123 651,1123 655,1120 657,1112 763,1110 797,1113 803,1119 814,1119 821,1113 845,1113 852,1121 870,1120 875,1116 877,1109 894,1109 928,1110 932,1118 945,1120 954,1118 958,1110 983,1108 1201,1105 1235,1108 1244,1115 1260,1115 1267,1113 1271,1108 1325,1103 1446,1103 1482,1098 1520,1099 1534,1096 1593,1099 1593,1081 1593,1062 1542,1058 1540,1050 1535,1046 1520,1047 1512,1058 1502,1058 1500,1050 1493,1045 1477,1048 1470,1044"/>
@@ -908,39 +924,39 @@ deſignatum reum abſolvere poſſit Iudex.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0011" custom="readingOrder {index:9;}">
-        <Coords points="416,1615 407,1625 398,1617 384,1621 388,1636 325,1639 332,1630 332,1622 316,1619 307,1623 304,1631 293,1629 285,1634 278,1627 266,1628 258,1633 256,1641 246,1642 240,1631 226,1631 218,1643 203,1644 201,1638 182,1635 177,1645 98,1645 99,1691 328,1685 344,1686 351,1693 373,1693 384,1685 407,1682 552,1678 557,1669 566,1673 567,1646 574,1673 654,1680 732,1682 748,1685 761,1678 787,1684 794,1676 903,1668 1022,1675 1274,1669 1304,1670 1315,1681 1329,1678 1333,1669 1371,1667 1440,1667 1446,1678 1462,1678 1471,1666 1483,1665 1551,1667 1573,1670 1579,1675 1604,1672 1603,1611 1554,1610 1529,1619 1504,1621 1440,1621 1433,1614 1419,1611 1414,1621 1217,1625 1209,1625 1203,1615 1177,1614 1167,1626 1145,1627 1141,1617 1126,1615 1118,1627 1030,1629 1021,1618 998,1619 989,1630 863,1632 833,1633 828,1622 811,1621 802,1633 732,1633 719,1642 707,1633 687,1630 683,1643 658,1643 661,1621 520,1620 504,1615 446,1628 437,1620"/>
+        <Coords points="407,1625 398,1617 384,1621 388,1636 325,1639 332,1630 332,1622 316,1619 307,1623 304,1631 293,1629 285,1634 278,1627 266,1628 258,1633 256,1641 246,1642 240,1631 226,1631 218,1643 203,1644 201,1638 182,1635 177,1645 98,1645 99,1691 328,1685 344,1686 351,1693 373,1693 384,1685 407,1682 552,1678 557,1669 566,1673 567,1646 574,1673 654,1680 732,1682 748,1685 761,1678 787,1684 794,1676 903,1668 1022,1675 1274,1669 1304,1670 1315,1681 1329,1678 1333,1669 1371,1667 1440,1667 1446,1678 1462,1678 1471,1666 1483,1665 1551,1667 1573,1670 1579,1675 1601,1672 1600,1610 1554,1610 1529,1619 1504,1621 1440,1621 1433,1614 1419,1611 1414,1621 1217,1625 1209,1625 1203,1615 1177,1614 1167,1626 1145,1627 1141,1617 1126,1615 1118,1627 1030,1629 1021,1618 998,1619 989,1630 863,1632 833,1633 828,1622 811,1621 802,1633 732,1633 719,1642 707,1633 687,1630 683,1643 658,1643 661,1621 520,1620 504,1615 446,1628 437,1620 416,1615"/>
         <Word id="region0007_line0011_word0000" custom="readingOrder {index:0;}">
-          <Coords points="152,1646 152,1671 196,1671 196,1638 179,1636 174,1646"/>
+          <Coords points="152,1671 196,1671 196,1638 181,1636 177,1645 174,1645 174,1646 152,1646"/>
           <TextEquiv conf="0.9200219">
             <Unicode>ni</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0001" custom="readingOrder {index:1;}">
-          <Coords points="329,1631 329,1623 313,1620 304,1624 301,1632 290,1630 282,1635 275,1628 263,1629 255,1634 253,1642 243,1643 237,1632 223,1632 215,1644 211,1644 211,1670 329,1669 329,1639 322,1640"/>
+          <Coords points="329,1623 314,1620 307,1623 304,1631 302,1631 301,1632 291,1630 285,1634 284,1633 282,1635 275,1628 265,1629 258,1633 256,1641 253,1641 253,1642 243,1643 237,1632 225,1632 218,1643 216,1643 215,1644 211,1644 211,1670 329,1669 329,1639 322,1640 329,1631"/>
           <TextEquiv conf="0.96018004">
             <Unicode>dubio</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0002" custom="readingOrder {index:2;}">
-          <Coords points="414,1616 412,1616 404,1626 395,1618 381,1622 385,1637 348,1638 348,1687 379,1686 381,1686 404,1683 471,1681 471,1622 443,1629 434,1621"/>
-          <TextEquiv conf="0.0">
+          <Coords points="404,1626 395,1618 384,1621 388,1636 385,1636 385,1637 348,1638 348,1687 379,1686 381,1686 383,1686 384,1685 407,1682 471,1680 471,1622 456,1626 443,1629 434,1621 415,1616 407,1625 406,1624"/>
+          <TextEquiv conf="0.">
             <Unicode>gravis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0003" custom="readingOrder {index:3;}">
-          <Coords points="653,1680 653,1627 517,1621 501,1616 492,1618 492,1680 549,1679 554,1670"/>
+          <Coords points="653,1627 517,1621 501,1616 492,1618 492,1679 549,1678 554,1670 556,1670 557,1669 560,1670 566,1671 567,1646 573,1671 646,1679 653,1679"/>
           <TextEquiv>
             <Unicode>dicitur,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1653298992106_3311" custom="readingOrder {index:4;}">
-          <Coords points="677,1638 767,1638 767,1675 677,1675"/>
+          <Coords points="684,1638 683,1643 677,1643 677,1675 767,1675 767,1638 724,1638 719,1642 713,1638"/>
           <TextEquiv>
             <Unicode>quae</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0004" custom="readingOrder {index:5;}">
-          <Coords points="825,1625 805,1625 799,1634 783,1634 779,1649 779,1669 852,1665 852,1633 830,1634"/>
+          <Coords points="808,1625 802,1633 799,1633 799,1634 783,1634 779,1649 779,1669 852,1665 852,1633 830,1634 825,1625"/>
           <TextEquiv>
             <Unicode>vix</Unicode>
           </TextEquiv>
@@ -952,19 +968,19 @@ deſignatum reum abſolvere poſſit Iudex.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0006" custom="readingOrder {index:7;}">
-          <Coords points="1022,1624 991,1624 986,1631 975,1631 975,1663 1045,1662 1045,1629 1027,1630"/>
+          <Coords points="993,1624 989,1630 986,1630 986,1631 975,1631 975,1663 1045,1662 1045,1629 1027,1630 1022,1624"/>
           <TextEquiv conf="0.9303213">
             <Unicode>alia</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0007" custom="readingOrder {index:8;}">
-          <Coords points="1139,1622 1118,1622 1115,1628 1058,1629 1058,1665 1201,1664 1201,1622 1167,1622 1164,1627 1142,1628"/>
+          <Coords points="1121,1622 1118,1627 1115,1627 1115,1628 1058,1629 1058,1665 1201,1664 1201,1622 1170,1622 1167,1626 1164,1626 1164,1627 1142,1628 1139,1622"/>
           <TextEquiv conf="0.9084658">
             <Unicode>verbali</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0011_word0008" custom="readingOrder {index:9;}">
-          <Coords points="1432,1668 1432,1620 1411,1620 1411,1622 1217,1625 1217,1671 1271,1670 1301,1671 1303,1673 1328,1673 1330,1670 1368,1668"/>
+          <Coords points="1432,1620 1414,1620 1414,1621 1411,1621 1411,1622 1217,1625 1217,1670 1274,1669 1304,1670 1307,1673 1328,1673 1330,1670 1333,1670 1333,1669 1371,1667 1432,1667"/>
           <TextEquiv conf="0.9144868">
             <Unicode>comparari</Unicode>
           </TextEquiv>
@@ -1151,7 +1167,7 @@ do fœmina meretricia quadam vir honeſtus vel correus laſciviæ a
 ejusmodi proſtibuli deſignatur. ᵃ)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3755369" type="catch-word" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region0011" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.3755369" type="catch-word" readingDirection="left-to-right">
       <Coords points="1337,1939 1518,1937 1519,2019 1338,2021"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1344,1939 1338,1946 1338,2009 1344,2011 1347,2020 1374,2020 1380,2012 1462,2012 1478,2017 1486,2017 1496,2012 1518,2012 1518,1947 1497,1947 1490,1944 1465,1947 1391,1947 1380,1946 1376,1939"/>
@@ -1175,7 +1191,7 @@ ejusmodi proſtibuli deſignatur. ᵃ)</Unicode>
         <Unicode>§. 28.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.3755369" type="footnote" readingDirection="left-to-right" id="TextRegion_1653298040339_3091" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1653298040339_3091" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="0.3755369" type="footnote" readingDirection="left-to-right">
       <Coords points="155,2106 1600,2087 1601,2189 496,2245 242,2248 156,2208"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1460,2089 1454,2094 1430,2094 1421,2090 1281,2091 1185,2092 1181,2095 1178,2092 1165,2092 1159,2097 1085,2098 1064,2098 1057,2094 1035,2094 956,2096 944,2101 906,2103 873,2100 869,2097 848,2101 824,2098 775,2098 759,2104 743,2099 684,2100 658,2107 603,2109 567,2104 560,2108 543,2111 479,2111 457,2106 404,2106 390,2110 375,2107 325,2107 304,2115 286,2116 260,2116 218,2111 155,2119 155,2158 166,2158 172,2164 183,2164 197,2157 251,2155 261,2158 271,2150 278,2150 285,2153 391,2152 453,2158 483,2156 490,2147 521,2150 533,2148 550,2153 558,2147 636,2146 642,2152 652,2153 664,2145 716,2144 741,2146 748,2151 757,2151 778,2145 805,2143 908,2145 954,2143 971,2139 1001,2142 1048,2136 1096,2141 1142,2133 1186,2133 1210,2142 1238,2140 1248,2133 1257,2132 1402,2134 1419,2131 1487,2129 1503,2132 1540,2132 1545,2136 1556,2136 1560,2133 1565,2136 1578,2132 1599,2133 1599,2099 1578,2094 1563,2096 1515,2091 1512,2088 1490,2088 1488,2091 1482,2091 1480,2088 1464,2088"/>
@@ -1484,8 +1500,8 @@ ejusmodi proſtibuli deſignatur. ᵃ)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ᵃ) Carpzov P. 2 Qu cr. 96. n. 50. P. 4. Conff. 45. def. for. 3. et in J. Conſiſt. L. 2. def. 234.&#13;
-Menoch A. J. Q.L 2. Cent 4. cas. 331. Mascard V. 1. Concl. 350. n. 36. Stryk in akl&#13;
+        <Unicode>ᵃ) Carpzov P. 2 Qu cr. 96. n. 50. P. 4. Conff. 45. def. for. 3. et in J. Conſiſt. L. 2. def. 234.
+Menoch A. J. Q.L 2. Cent 4. cas. 331. Mascard V. 1. Concl. 350. n. 36. Stryk in akl
 Diſs. C. 4. II. 5.</Unicode>
       </TextEquiv>
     </TextRegion>

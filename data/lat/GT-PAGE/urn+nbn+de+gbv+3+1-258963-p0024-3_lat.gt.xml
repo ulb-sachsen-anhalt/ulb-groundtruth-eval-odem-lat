@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-112">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:58Z</Created>
     <LastChange>2024-01-19T13:07:58Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/819e94b0-2001-40a2-a79d-1ee0cb8b5194/00000024.jpg" imageWidth="2394" imageHeight="2847" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.357765" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;} structure {type:heading;}" orientation="-0.357765" type="heading" readingDirection="left-to-right">
       <Coords points="1313,557 1477,556 1477,624 1313,625"/>
       <TextLine id="region0002_line" custom="readingOrder {index:0;}">
         <Coords points="1313,557 1477,556 1477,624 1313,625"/>
@@ -41,7 +57,7 @@
         <Unicode>§. X.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.357765" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:1;}">
+    <TextRegion id="region0003" custom="readingOrder {index:1;}" orientation="-0.357765" readingDirection="left-to-right">
       <Coords points="723,654 2111,644 2113,1128 725,1138"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1981,646 1974,657 1894,658 1875,658 1871,647 1844,647 1839,656 1802,657 1779,656 1774,647 1730,647 1725,657 1685,657 1681,648 1659,648 1650,657 1513,659 1508,650 1495,649 1488,653 1486,659 1403,660 1366,659 1364,650 1343,650 1339,660 1315,661 1311,658 1309,650 1278,650 1261,650 1254,651 1251,657 1233,659 1137,658 1028,663 1005,663 1005,653 967,652 955,652 947,655 941,665 936,663 936,653 861,653 795,653 778,655 777,679 782,684 795,685 795,707 800,712 995,712 1081,708 1083,716 1087,719 1105,719 1111,715 1113,706 1138,705 1162,706 1163,714 1174,720 1190,719 1194,706 1259,705 1365,708 1370,719 1381,720 1395,717 1399,708 1422,706 1438,706 1442,718 1453,719 1467,717 1472,706 2110,703 2111,655 2012,656 2006,646"/>
@@ -232,7 +248,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0004_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1169,869 1169,907 1211,903 1211,870 1210,871 1201,865"/>
+          <Coords points="1169,907 1211,903 1211,870 1210,871 1201,865 1191,866 1182,875 1169,875"/>
           <TextEquiv>
             <Unicode>m)</Unicode>
           </TextEquiv>
@@ -386,15 +402,15 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Nobilibus quoque i) ad proprium et familiac ſuae vſum&#13;
-priuatum ſeu menſalem k) germ. zum Tiſchtrunck, cereuiſiam&#13;
-coquere, leges Saxonicae permittunt. I) Eadem olim cleri-&#13;
-corum erat libertas. m) Sed cum Saxoniae Electores animad-&#13;
-uerterent, nonnullos clericorum illa in peius vti, ad certum&#13;
+        <Unicode>Nobilibus quoque i) ad proprium et familiac ſuae vſum
+priuatum ſeu menſalem k) germ. zum Tiſchtrunck, cereuiſiam
+coquere, leges Saxonicae permittunt. I) Eadem olim cleri-
+corum erat libertas. m) Sed cum Saxoniae Electores animad-
+uerterent, nonnullos clericorum illa in peius vti, ad certum
 doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.357765" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.357765" type="heading" readingDirection="left-to-right">
       <Coords points="737,1151 2079,1142 2064,1205 722,1214"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1169,1084 1117,1085 1108,1090 1049,1094 895,1095 798,1098 760,1098 754,1088 733,1088 722,1098 722,1145 1097,1142 1108,1139 1113,1133 1132,1137 1205,1135 1208,1123 1217,1118 1216,1085"/>
@@ -421,7 +437,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:1;}">
-        <Coords points="1926,1132 1861,1138 1855,1142 1854,1175 1863,1181 1863,1206 1988,1205 1994,1195 2063,1195 2063,1134"/>
+        <Coords points="1854,1175 1863,1181 1863,1206 1988,1205 1994,1195 2063,1195 2063,1142 1854,1143"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1963,1205 1963,1157 1926,1157 1926,1205"/>
           <TextEquiv>
@@ -439,11 +455,11 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſeruare tenentur. o)&#13;
+        <Unicode>ſeruare tenentur. o)
 §. XI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.357765" type="footnote" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.357765" type="footnote" readingDirection="left-to-right">
       <Coords points="753,1215 2081,1207 2089,2473 762,2481"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1845,1208 1834,1211 1756,1210 1754,1216 1691,1210 1621,1210 1606,1216 1602,1211 1587,1211 1582,1218 1541,1219 1508,1217 1503,1211 1483,1211 1474,1218 1372,1219 1351,1222 1345,1222 1343,1217 1336,1213 1300,1212 1269,1214 1259,1223 1174,1222 1169,1215 1158,1213 1144,1213 1135,1223 1057,1222 1049,1214 1037,1215 1032,1223 929,1225 922,1214 851,1215 847,1225 835,1224 828,1218 802,1222 768,1219 761,1225 754,1226 754,1267 786,1273 791,1269 808,1268 924,1264 967,1265 971,1268 982,1268 986,1265 999,1265 1005,1271 1020,1270 1027,1264 1044,1264 1062,1265 1068,1270 1082,1270 1088,1264 1100,1264 1231,1263 1235,1271 1249,1273 1256,1269 1259,1263 1402,1261 1422,1263 1428,1269 1442,1269 1450,1263 1486,1261 1537,1260 1541,1263 1551,1263 1555,1260 1692,1261 1814,1257 1843,1258 1849,1264 1857,1264 1864,1258 1929,1259 1933,1256 1934,1232 1931,1228 1903,1226 1900,1218 1894,1214 1850,1208"/>
@@ -640,7 +656,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
       <TextLine id="region0005_line0004" custom="readingOrder {index:3;}">
         <Coords points="2005,1368 1923,1372 1915,1380 1898,1374 1879,1373 1875,1370 1818,1377 1797,1369 1740,1370 1730,1379 1695,1377 1672,1369 1625,1369 1602,1377 1574,1377 1569,1373 1558,1372 1552,1376 1457,1381 1432,1381 1430,1375 1424,1371 1411,1371 1406,1373 1383,1370 1377,1372 1373,1380 1353,1381 1344,1380 1336,1370 1322,1370 1317,1373 1305,1371 1297,1381 1166,1379 1164,1373 1144,1373 1141,1378 1125,1378 1119,1371 1108,1371 1100,1379 1091,1380 1028,1382 1022,1374 1010,1373 1003,1382 981,1383 941,1382 934,1375 918,1374 911,1378 911,1374 903,1367 897,1367 889,1374 892,1381 883,1384 835,1385 822,1380 757,1378 755,1416 763,1427 833,1428 841,1434 857,1434 866,1428 900,1423 1063,1420 1465,1423 1498,1420 1598,1421 1654,1423 1659,1428 1669,1428 1675,1423 1705,1421 1718,1424 1727,1424 1731,1422 1894,1423 1974,1417 2082,1421 2082,1377 2042,1375 2022,1372 2016,1368"/>
         <Word id="region0005_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="889,1374 813,1379 813,1412 892,1412 892,1374"/>
+          <Coords points="889,1374 891,1378 888,1381 889,1382 883,1384 835,1385 822,1380 813,1380 813,1412 892,1412 892,1385 896,1381 892,1377 892,1374"/>
           <TextEquiv conf="0.917853">
             <Unicode>leges</Unicode>
           </TextEquiv>
@@ -1018,7 +1034,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651222503521_73" custom="readingOrder {index:1;}">
-          <Coords points="832,1656 909,1654 1004,1652 1123,1650 1140,1652 1140,1695 992,1699 974,1699 832,1693"/>
+          <Coords points="832,1693 974,1699 992,1699 1140,1695 1140,1653 1135,1656 1133,1662 1132,1654 1123,1650 1115,1652 1110,1661 1062,1659 1007,1652 952,1661 920,1660 909,1654 900,1655 893,1660 836,1656 832,1656"/>
           <TextEquiv>
             <Unicode>Kirchen⸗Ordnung</Unicode>
           </TextEquiv>
@@ -1042,7 +1058,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651222533296_92" custom="readingOrder {index:5;}">
-          <Coords points="1456,1658 1571,1654 1587,1654 1650,1654 1689,1658 1689,1690 1456,1689"/>
+          <Coords points="1456,1658 1456,1689 1689,1690 1689,1658 1652,1658 1651,1654 1650,1654 1620,1654 1613,1659 1595,1660 1587,1654 1572,1654 1566,1660 1545,1661 1504,1661 1479,1657"/>
           <TextEquiv>
             <Unicode>Immunitatibus</Unicode>
           </TextEquiv>
@@ -1072,7 +1088,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
       <TextLine id="region0005_line0010" custom="readingOrder {index:9;}">
         <Coords points="1523,1706 1430,1707 1415,1711 1393,1706 1320,1706 1307,1710 1302,1716 1253,1716 1237,1712 1232,1707 1211,1705 1154,1706 1131,1714 1124,1713 1116,1707 1066,1705 957,1716 897,1715 891,1709 881,1709 871,1716 830,1710 806,1714 761,1712 757,1713 758,1763 877,1762 882,1766 891,1766 898,1761 999,1758 1100,1761 1105,1766 1115,1766 1121,1760 1136,1760 1141,1757 1168,1761 1281,1760 1313,1764 1317,1761 1391,1757 1407,1757 1413,1766 1423,1767 1430,1757 1458,1754 1554,1755 1589,1765 1600,1765 1612,1760 1625,1763 1711,1764 1740,1760 1783,1760 1789,1752 1797,1752 1802,1747 1802,1718 1797,1713 1601,1715 1578,1708"/>
         <Word id="word_1651221139103_3532" custom="readingOrder {index:0;}">
-          <Coords points="810,1714 1060,1710 1120,1710 1140,1710 1173,1711 1319,1716 1319,1757 1115,1765 1104,1765 810,1754"/>
+          <Coords points="810,1714 810,1754 953,1759 999,1758 1100,1761 1104,1765 1115,1765 1116,1765 1121,1760 1136,1760 1141,1757 1168,1761 1231,1760 1319,1757 1319,1716 1302,1715 1302,1716 1253,1716 1243,1713 1173,1711 1142,1710 1131,1714 1124,1713 1120,1710 1060,1710 1008,1711 957,1716 897,1715 895,1713 875,1713 871,1716 853,1713"/>
           <TextEquiv>
             <Unicode>Kirchen⸗und Schul⸗Diener,</Unicode>
           </TextEquiv>
@@ -1126,7 +1142,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651221179351_3568" custom="readingOrder {index:1;}">
-          <Coords points="823,1767 915,1766 926,1766 1007,1770 1007,1801 887,1800 823,1796"/>
+          <Coords points="915,1766 910,1771 880,1767 823,1767 823,1796 887,1800 1007,1801 1007,1770 940,1774 932,1773 926,1766"/>
           <TextEquiv>
             <Unicode>Erledigung</Unicode>
           </TextEquiv>
@@ -1690,7 +1706,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651222416431_30" custom="readingOrder {index:3;}">
-          <Coords points="1203,2146 1211,2144 1253,2142 1272,2142 1279,2142 1436,2143 1447,2150 1447,2177 1323,2176 1203,2174"/>
+          <Coords points="1255,2142 1253,2143 1251,2149 1240,2149 1225,2149 1220,2144 1211,2144 1207,2147 1203,2147 1203,2174 1323,2176 1447,2177 1447,2150 1441,2150 1436,2143 1436,2143 1422,2143 1418,2148 1367,2145 1358,2143 1358,2142 1280,2142 1276,2146 1271,2142"/>
           <TextEquiv>
             <Unicode>Archi - Diaconis</Unicode>
           </TextEquiv>
@@ -1738,7 +1754,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651222684542_197" custom="readingOrder {index:1;}">
-          <Coords points="954,2202 1039,2200 1102,2201 1148,2208 1148,2239 1003,2238 951,2222 951,2204"/>
+          <Coords points="951,2222 1003,2238 1148,2239 1148,2208 1128,2210 1109,2209 1102,2201 1092,2201 1086,2209 1058,2210 1053,2201 1039,2200 1034,2204 1032,2211 1003,2213 976,2209 965,2202 954,2202 951,2204"/>
           <TextEquiv>
             <Unicode>Sacerdotibus</Unicode>
           </TextEquiv>
@@ -1876,7 +1892,7 @@ doliorum numerum hoc ius reſtrinxerunt, n) quem accurate</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0021_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1267,2303 1267,2356 1498,2357 1498,2312 1465,2312 1454,2311 1445,2304 1433,2304 1424,2311 1369,2312 1357,2309 1353,2312 1338,2312 1329,2311 1324,2307 1278,2302"/>
+          <Coords points="1267,2356 1366,2356 1399,2355 1498,2355 1498,2312 1465,2312 1454,2311 1445,2304 1433,2304 1424,2311 1369,2312 1357,2309 1353,2312 1338,2312 1329,2311 1324,2307 1278,2302 1267,2303"/>
           <TextEquiv>
             <Unicode>Schulmeiſtern</Unicode>
           </TextEquiv>

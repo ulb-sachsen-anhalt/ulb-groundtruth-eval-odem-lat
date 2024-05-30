@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-251">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:51Z</Created>
     <LastChange>2024-01-19T13:09:51Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/913c90d5-e771-4158-806c-be84284efeae/00000349.jpg" imageWidth="1611" imageHeight="2332" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1658302570195_2286"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.030530926" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:0;}">
+    <TextRegion id="region0004" custom="readingOrder {index:0;}" orientation="-0.030530926" readingDirection="left-to-right">
       <Coords points="129,441 960,441 960,1190 129,1190"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="537,441 533,453 508,454 410,450 129,451 129,498 215,497 232,493 251,496 258,491 286,494 291,497 370,497 397,496 403,493 587,494 633,487 690,491 707,488 762,490 763,495 772,501 786,498 791,489 817,489 820,495 830,498 844,495 846,491 959,495 959,455 937,450 909,450 898,441 872,442 866,447 861,441 840,441 828,449 773,450 747,450 743,442 733,441 721,451 601,450 560,453 555,441"/>
@@ -352,7 +368,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658302721411_2441" custom="readingOrder {index:2;}">
-          <Coords points="472,795 529,795 537,795 743,796 743,830 737,834 537,838 472,838"/>
+          <Coords points="737,834 743,830 743,796 537,795 529,795 529,807 503,806 494,796 472,795 472,838 537,838 587,836 607,835 634,836 640,831 652,831 659,835"/>
           <TextEquiv>
             <Unicode>„Hactenus</Unicode>
           </TextEquiv>
@@ -644,27 +660,27 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mens notatur omnibus numeris perfectus,&#13;
-quaſi dicatur homo regius, ſive inter omnes&#13;
-excellentiſſimus. ---- Alia quædam hu-&#13;
-jus generis dabit Kircherus in China illuſtra-&#13;
-ta parte VI.c. 2. 3. Verum plura &amp; cer-&#13;
-tiora peti poſſent ex oculari inſpectione&#13;
-Ilai-pien ſive oceani, id eſt, magni vo-&#13;
-cabularii Sinici. „Hactenus Pfeifferus:&#13;
-Atque ita eſt ſane, qui de ordinechara-&#13;
-cterum ſermonicari ex ſua ſcientia vellet,&#13;
-comparare illos magno numero, &amp; quæ&#13;
-in illis communia deprehenduntur, ſigil-&#13;
-latim annotare deberet: Id vero corum&#13;
-eſt, quibus noſſe characteres &amp; conten-&#13;
+        <Unicode>mens notatur omnibus numeris perfectus,
+quaſi dicatur homo regius, ſive inter omnes
+excellentiſſimus. ---- Alia quædam hu-
+jus generis dabit Kircherus in China illuſtra-
+ta parte VI.c. 2. 3. Verum plura &amp; cer-
+tiora peti poſſent ex oculari inſpectione
+Ilai-pien ſive oceani, id eſt, magni vo-
+cabularii Sinici. „Hactenus Pfeifferus:
+Atque ita eſt ſane, qui de ordinechara-
+cterum ſermonicari ex ſua ſcientia vellet,
+comparare illos magno numero, &amp; quæ
+in illis communia deprehenduntur, ſigil-
+latim annotare deberet: Id vero corum
+eſt, quibus noſſe characteres &amp; conten-
 dere datum eſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.030530926" type="heading" readingDirection="left-to-right" id="TextRegion_1658302576322_2341" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658302576322_2341" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.030530926" type="heading" readingDirection="left-to-right">
       <Coords points="131,1190 963,1190 963,1230 131,1230"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
-        <Coords points="422,1191 419,1195 420,1227 425,1231 441,1231 458,1240 497,1240 509,1237 516,1231 536,1229 545,1229 560,1237 571,1237 595,1226 610,1229 617,1226 632,1226 637,1221 637,1197 632,1192"/>
+        <Coords points="419,1195 420,1227 423,1230 526,1230 536,1229 545,1229 546,1230 586,1230 595,1226 610,1229 617,1226 632,1226 637,1221 637,1197 632,1192 422,1191"/>
         <Baseline points="420,1221 637,1219"/>
         <Word id="word_1658302576372_2344" custom="readingOrder {index:0;}">
           <Coords points="458,1202 519,1202 519,1230 458,1230"/>
@@ -686,10 +702,10 @@ dere datum eſt.</Unicode>
         <Unicode>§. 5- 23. 23.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.030530926" readingDirection="left-to-right" id="TextRegion_1658302576322_2340" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658302576322_2340" custom="readingOrder {index:2;}" orientation="-0.030530926" readingDirection="left-to-right">
       <Coords points="131,1230 963,1230 963,2030 141,2030 131,1453"/>
       <TextLine id="line_1658302570244_2328" custom="readingOrder {index:0;}">
-        <Coords points="131,1230 227,1231 243,1233 252,1239 260,1230 272,1230 280,1241 282,1234 288,1230 299,1230 307,1239 317,1239 321,1231 335,1229 341,1233 343,1239 367,1239 400,1237 407,1230 421,1229 428,1237 444,1237 458,1241 497,1241 509,1238 516,1232 536,1230 548,1231 560,1238 571,1238 581,1236 595,1227 607,1228 610,1235 671,1236 680,1235 687,1227 699,1227 706,1236 776,1237 778,1228 784,1224 798,1224 803,1228 811,1228 818,1237 963,1238 963,1285 912,1283 875,1291 863,1288 857,1283 813,1282 801,1287 791,1278 759,1282 696,1282 689,1278 677,1278 673,1281 643,1282 631,1279 623,1289 611,1287 606,1282 484,1282 470,1279 440,1281 434,1284 410,1284 404,1281 385,1281 379,1284 320,1282 301,1287 287,1286 279,1291 245,1287 188,1288 182,1284 170,1284 165,1287 144,1286 138,1280 138,1272 131,1271"/>
+        <Coords points="252,1239 243,1233 227,1231 131,1230 131,1271 138,1272 138,1280 144,1286 165,1287 170,1284 182,1284 188,1288 245,1287 279,1291 287,1286 301,1287 320,1282 379,1284 385,1281 404,1281 410,1284 434,1284 440,1281 470,1279 484,1282 606,1282 611,1287 623,1289 631,1279 643,1282 673,1281 677,1278 689,1278 696,1282 759,1282 791,1278 801,1287 813,1282 857,1283 863,1288 875,1291 912,1283 963,1285 963,1238 818,1237 812,1230 777,1230 776,1237 706,1236 701,1230 684,1230 680,1235 671,1236 610,1235 607,1230 590,1230 581,1236 571,1238 560,1238 548,1231 536,1230 516,1232 509,1238 497,1241 458,1241 444,1237 428,1237 421,1230 407,1230 400,1237 367,1239 343,1239 341,1233 336,1230 328,1230 321,1231 317,1239 307,1239 299,1230 288,1230 282,1234 280,1241 272,1230 260,1230"/>
         <Baseline points="138,1276 963,1275"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="191,1236 191,1282 317,1282 317,1239 307,1239 304,1236 281,1236 280,1241 276,1236 254,1236 252,1239 247,1236"/>
@@ -1255,7 +1271,7 @@ dere datum eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1658302570240_2318" custom="readingOrder {index:15;}">
-        <Coords points="141,1974 184,1972 192,1979 223,1981 232,1974 248,1973 257,1981 310,1982 311,1977 316,1974 328,1974 333,1976 335,1982 345,1983 403,1977 427,1965 431,1965 441,1977 527,1979 549,1983 568,1982 578,1974 586,1973 597,1979 641,1981 669,1980 679,1975 742,1980 748,1975 770,1974 778,1980 838,1981 847,1985 860,1982 963,1983 963,2026 912,2026 911,2033 896,2036 887,2033 887,2025 876,2017 870,2017 861,2025 789,2028 504,2025 502,2032 495,2038 480,2037 473,2028 454,2028 449,2032 438,2032 433,2028 378,2025 299,2025 245,2029 141,2028"/>
+        <Coords points="860,1982 847,1985 838,1981 778,1980 770,1974 748,1975 742,1980 679,1975 669,1980 641,1981 597,1979 586,1973 578,1974 568,1982 549,1983 527,1979 441,1977 431,1965 427,1965 403,1977 345,1983 335,1982 333,1976 328,1974 316,1974 311,1977 310,1982 257,1981 248,1973 232,1974 223,1981 192,1979 184,1972 141,1974 141,2028 245,2029 299,2025 378,2025 433,2028 435,2030 451,2030 454,2028 473,2028 474,2030 502,2030 504,2025 789,2028 861,2025 870,2017 876,2017 887,2025 887,2030 911,2030 912,2026 963,2026 963,1983"/>
         <Baseline points="426,1965 431,1965"/>
         <Word id="region0007_line0011_word0000" custom="readingOrder {index:0;}">
           <Coords points="150,2018 284,2018 284,1981 257,1981 248,1973 232,1974 223,1981 192,1979 184,1972 150,1973"/>
@@ -1298,25 +1314,25 @@ dere datum eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Nobis hoc loco illud potius adjungere&#13;
-placet: Recteillos, qui characteres Si-&#13;
-loco nicos exiſtimaverint adhiberi poſſe&#13;
-ſcriptura univerſalis; Ceſſat enim hic in-&#13;
-commodum particulariſmi; quod ante&#13;
-allegavimus §. 20. Quemadmodum&#13;
-Ulyſſipone non minus, quam Viennæ &amp;&#13;
-Holmiæ legi, diverſo ſermone, nume-&#13;
-ri ciphris deſignati poſſunt, quoniam non&#13;
-voces, ſed numeros illæ deſignant: ita&#13;
-in ceteris characteribus omnibus fieri&#13;
-idem poteſt, ſi rebus immediate ſignifi-&#13;
-candis adhibeantur. Reales ejusmodi&#13;
-characteres vocant Eruditi: Memineris ta-&#13;
-men, id duplici ſignificatu dici poſſe.&#13;
+        <Unicode>Nobis hoc loco illud potius adjungere
+placet: Recteillos, qui characteres Si-
+loco nicos exiſtimaverint adhiberi poſſe
+ſcriptura univerſalis; Ceſſat enim hic in-
+commodum particulariſmi; quod ante
+allegavimus §. 20. Quemadmodum
+Ulyſſipone non minus, quam Viennæ &amp;
+Holmiæ legi, diverſo ſermone, nume-
+ri ciphris deſignati poſſunt, quoniam non
+voces, ſed numeros illæ deſignant: ita
+in ceteris characteribus omnibus fieri
+idem poteſt, ſi rebus immediate ſignifi-
+candis adhibeantur. Reales ejusmodi
+characteres vocant Eruditi: Memineris ta-
+men, id duplici ſignificatu dici poſſe.
 Senſus alter eſt, quo characteribus oppo-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.030530926" type="marginalia" readingDirection="left-to-right" id="TextRegion_1658302570195_2286" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1658302570195_2286" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="-0.030530926" type="marginalia" readingDirection="left-to-right">
       <Coords points="963,1190 1126,1190 1126,1453 971,2078 963,2078"/>
       <TextLine id="line_1658302570244_2327" custom="readingOrder {index:0;}">
         <Coords points="963,1238 1009,1239 1015,1234 1080,1234 1097,1236 1106,1242 1112,1236 1122,1236 1125,1238 1125,1284 1114,1284 1107,1280 1097,1280 1090,1284 1008,1283 995,1287 963,1285"/>
@@ -1416,11 +1432,11 @@ Senſus alter eſt, quo characteribus oppo-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quid Cha-&#13;
-placet: Recteillos, qui characteres si- racter uni-&#13;
-verſalis,&#13;
-realis, nu-&#13;
-dè ſignifi-&#13;
+        <Unicode>Quid Cha-
+placet: Recteillos, qui characteres si- racter uni-
+verſalis,
+realis, nu-
+dè ſignifi-
 cativus?</Unicode>
       </TextEquiv>
     </TextRegion>

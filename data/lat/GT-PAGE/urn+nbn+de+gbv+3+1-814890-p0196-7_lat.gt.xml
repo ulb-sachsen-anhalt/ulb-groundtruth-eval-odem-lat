@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-299">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:41Z</Created>
     <LastChange>2024-01-19T13:10:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/41c0d956-10b6-43f6-853e-5ff30d03a1a5/00000196.jpg" imageWidth="1854" imageHeight="2816" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,8 +30,8 @@
         <RegionRefIndexed index="1" regionRef="region0007"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.46269608" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:1;}">
-      <Coords points="1736,527 460,519 473,2420 1740,2428 1736,1512"/>
+    <TextRegion id="region0007" custom="readingOrder {index:1;}" orientation="-0.46269608" readingDirection="left-to-right">
+      <Coords points="460,519 473,2420 1728,2428 1736,1513 1736,1512 1736,527"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1002,527 987,530 941,531 927,535 921,530 911,530 901,539 847,540 732,537 725,531 717,531 710,537 592,540 589,528 518,527 512,537 500,537 495,542 492,589 497,595 558,594 574,592 579,581 648,578 670,583 766,583 769,592 786,595 793,591 796,583 801,582 953,581 968,583 983,575 997,579 1158,580 1183,584 1207,594 1263,594 1271,589 1289,586 1344,586 1357,587 1359,596 1364,600 1377,600 1391,597 1398,586 1472,588 1478,584 1482,589 1491,591 1669,593 1681,585 1681,555 1676,550 1595,549 1586,548 1578,539 1564,537 1466,537 1444,544 1420,545 1416,533 1397,531 1363,534 1357,543 1307,545 1160,539 1153,530 1142,530 1134,539 1092,539 1090,531 1086,528"/>
         <Baseline points="492,584 618,569 802,573 977,567 1146,569 1221,580 1473,574 1681,584"/>
@@ -1649,7 +1665,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0031" custom="readingOrder {index:30;}">
-        <Coords points="1490,2358 1483,2365 1489,2379 1468,2381 1464,2373 1454,2372 1445,2382 1435,2383 1401,2382 1393,2371 1380,2372 1374,2382 1266,2380 1262,2367 1249,2366 1241,2371 1239,2379 1084,2378 1079,2369 1067,2368 1049,2369 1039,2378 991,2380 700,2380 688,2377 683,2381 595,2384 481,2383 476,2388 476,2418 490,2429 644,2428 652,2436 667,2437 673,2435 677,2428 687,2427 1074,2427 1176,2424 1189,2431 1230,2433 1249,2425 1424,2428 1501,2423 1655,2427 1660,2422 1660,2399 1655,2394 1629,2393 1622,2385 1616,2383 1566,2380 1554,2375 1545,2375 1541,2377 1533,2369 1523,2369 1518,2373 1509,2370 1504,2362"/>
+        <Coords points="1483,2365 1489,2379 1468,2381 1464,2373 1454,2372 1445,2382 1435,2383 1401,2382 1393,2371 1380,2372 1374,2382 1266,2380 1262,2367 1249,2366 1241,2371 1239,2379 1084,2378 1079,2369 1067,2368 1049,2369 1039,2378 991,2380 700,2380 688,2377 683,2381 595,2384 481,2383 476,2388 476,2418 479,2420 1164,2424 1176,2424 1177,2424 1452,2426 1501,2423 1655,2427 1660,2422 1660,2399 1655,2394 1629,2393 1622,2385 1616,2383 1566,2380 1554,2375 1545,2375 1541,2377 1533,2369 1523,2369 1518,2373 1509,2370 1504,2362 1490,2358"/>
         <Baseline points="477,2419 1660,2418"/>
         <Word id="region0007_line0031_word0000" custom="readingOrder {index:0;}">
           <Coords points="541,2406 835,2409 835,2380 700,2380 688,2377 683,2381 595,2384 541,2383"/>
@@ -1680,36 +1696,36 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſuam. At quomodo? Celerrime, potentiſſime! Hoc&#13;
-reſpicit tot miracula, quae celerius propagandae reli-&#13;
-gionis cauſa patrata eſſe narrantur. Not. 2. Act. II.&#13;
-us que ad XIII. de propagato per apoſtolos euan-&#13;
-gelio ſermo eſt. Cum autem docent, docere ſe di.&#13;
-cunt jubente, juuante Chriſto; cum miracula edunt, ea&#13;
-ſe edere dicunt ἐν ὀνοματι ϰυϱιου, per illum; negant,&#13;
-ſe id praeſtare; quidquid faciant et dicant, id, ipſi&#13;
-profitentur, facere et dicere Chriſtum, qui ſit reuo-&#13;
-catus in vitam et conſtitutus dominus omnium. Huic&#13;
-loco hiſtorico jungendum eſt illud Chriſti dictum&#13;
-Matth. XXVIII. 18. ſqq.: data mihi eſt poteſtas uniuerſi&#13;
-mundi; ergo ite, docete gentes omnes. Quod jubet eos&#13;
-propagare doetrinam ſuam, in hoc nititur jam eo:&#13;
-ich kann durch die ganze Welt würken; proinde et adero&#13;
-ego vobis ſine fine. Cur vero praemittit id, penes me eſt&#13;
-imperium coeli et terrae, niſi quod ſe habere jus et&#13;
-poteſtatem, hoc ſic inſtituendi, declaret? Simul au-&#13;
-tem, quod fortem iis animum inſtillet, ut agant ſic,&#13;
-doceant ubiuis; ſe enim, qui mittat ipſos, imperium&#13;
-coeli terraeque tenere? Eſt ergo id βασιλευειν, eſt&#13;
-praedicatum βασιλευοντος: mittit apoſtolos, qui ubiuis&#13;
-doceant, facto in Palaeſtina initio. Quid ergo agit hic&#13;
-βασιλευων? Incipit propagare doctrinam ſuam. Ita&#13;
-propagatio doctrinae eſt praedicatum regnantis ſ. domini.&#13;
-Haec eſt una pars illius ideae: ϰυϱιος, βασιλευων!&#13;
-Alia pars ea eſt: Paulo poſt per eosdem&#13;
-eorumque collegas, deinde per varios&#13;
-doctores, inter omnes nationes traden.&#13;
-dam curauit, effecta religionum publice&#13;
+        <Unicode>ſuam. At quomodo? Celerrime, potentiſſime! Hoc
+reſpicit tot miracula, quae celerius propagandae reli-
+gionis cauſa patrata eſſe narrantur. Not. 2. Act. II.
+us que ad XIII. de propagato per apoſtolos euan-
+gelio ſermo eſt. Cum autem docent, docere ſe di.
+cunt jubente, juuante Chriſto; cum miracula edunt, ea
+ſe edere dicunt ἐν ὀνοματι ϰυϱιου, per illum; negant,
+ſe id praeſtare; quidquid faciant et dicant, id, ipſi
+profitentur, facere et dicere Chriſtum, qui ſit reuo-
+catus in vitam et conſtitutus dominus omnium. Huic
+loco hiſtorico jungendum eſt illud Chriſti dictum
+Matth. XXVIII. 18. ſqq.: data mihi eſt poteſtas uniuerſi
+mundi; ergo ite, docete gentes omnes. Quod jubet eos
+propagare doetrinam ſuam, in hoc nititur jam eo:
+ich kann durch die ganze Welt würken; proinde et adero
+ego vobis ſine fine. Cur vero praemittit id, penes me eſt
+imperium coeli et terrae, niſi quod ſe habere jus et
+poteſtatem, hoc ſic inſtituendi, declaret? Simul au-
+tem, quod fortem iis animum inſtillet, ut agant ſic,
+doceant ubiuis; ſe enim, qui mittat ipſos, imperium
+coeli terraeque tenere? Eſt ergo id βασιλευειν, eſt
+praedicatum βασιλευοντος: mittit apoſtolos, qui ubiuis
+doceant, facto in Palaeſtina initio. Quid ergo agit hic
+βασιλευων? Incipit propagare doctrinam ſuam. Ita
+propagatio doctrinae eſt praedicatum regnantis ſ. domini.
+Haec eſt una pars illius ideae: ϰυϱιος, βασιλευων!
+Alia pars ea eſt: Paulo poſt per eosdem
+eorumque collegas, deinde per varios
+doctores, inter omnes nationes traden.
+dam curauit, effecta religionum publice
 receptarum conuerſione plane inaudita.</Unicode>
       </TextEquiv>
     </TextRegion>

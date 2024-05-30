@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-80">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:41Z</Created>
     <LastChange>2024-01-19T13:07:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/5b5b9ca8-773f-4d04-800d-8c56e81d3bb6/00000025.jpg" imageWidth="2189" imageHeight="2527" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1658137347223_369"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.30599663" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;}" orientation="-0.30599663" readingDirection="left-to-right">
       <Coords points="373,368 1606,368 1606,1106 373,1106"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1430,368 1426,369 1421,377 1408,378 1316,375 1313,368 1282,368 1279,373 1275,373 1273,368 1254,368 1242,369 1240,373 1235,374 1185,369 1181,376 1139,375 1126,368 1111,368 1106,374 1094,375 999,377 942,376 938,368 911,368 907,376 848,379 805,379 802,369 726,368 715,371 679,369 675,378 560,377 550,372 540,372 535,377 374,375 374,429 392,433 412,423 434,428 440,423 450,421 460,424 576,424 588,422 602,428 641,425 646,422 733,424 760,419 791,424 870,424 878,421 895,424 966,425 1037,424 1055,420 1144,423 1213,419 1372,422 1428,419 1436,423 1469,425 1544,426 1606,422 1606,386 1588,382 1582,372 1563,370 1554,379 1547,379 1530,378 1524,369"/>
@@ -690,7 +706,7 @@
         </Word>
         <Word id="region0001_line0013_word0006" custom="readingOrder {index:6;}">
           <Coords points="1278,996 1329,997 1328,1034 1277,1033"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ita</Unicode>
           </TextEquiv>
         </Word>
@@ -748,23 +764,23 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>premente, validiſſimum hunc excitavit dolorem. Corri-&#13;
-piebatur denique fatali ſopore, in apoplexiam ſeſe termi-&#13;
-nante, qui ſemper auctam cerebri compreſſionem indi-&#13;
-cat z). Simulac enim illæ cauſæ, quæ prægreſſa ſympto-&#13;
-mata fecerant, augebantur, oriebatur ſomnolentia, tan-&#13;
-demque profundiſſimus ſomnus &amp; lethalis, apoplexia.&#13;
-Unde inter illa ſigna, quæ docent, quendam capite peſ-&#13;
-ſime affici, recenſet HIPPOCRATES a) altum ſoporem &amp;&#13;
-tenebricoſam vertiginem. Magna etenim illa aquarum mo-&#13;
-Ies tanta tandem cepit incrementa, ut, cerebro in omni-&#13;
-bus ſuis ſtaminibus vaſculisque validiſſime compreſſo, non&#13;
-ſolum fluidum illud nervoſum, ſed &amp; ceteri omnes hu-&#13;
-mores in ſuo circulo interciperentur, &amp; ita ægroto tan-&#13;
+        <Unicode>premente, validiſſimum hunc excitavit dolorem. Corri-
+piebatur denique fatali ſopore, in apoplexiam ſeſe termi-
+nante, qui ſemper auctam cerebri compreſſionem indi-
+cat z). Simulac enim illæ cauſæ, quæ prægreſſa ſympto-
+mata fecerant, augebantur, oriebatur ſomnolentia, tan-
+demque profundiſſimus ſomnus &amp; lethalis, apoplexia.
+Unde inter illa ſigna, quæ docent, quendam capite peſ-
+ſime affici, recenſet HIPPOCRATES a) altum ſoporem &amp;
+tenebricoſam vertiginem. Magna etenim illa aquarum mo-
+Ies tanta tandem cepit incrementa, ut, cerebro in omni-
+bus ſuis ſtaminibus vaſculisque validiſſime compreſſo, non
+ſolum fluidum illud nervoſum, ſed &amp; ceteri omnes hu-
+mores in ſuo circulo interciperentur, &amp; ita ægroto tan-
 dem fatali neceſſitate pereundum fuerit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.30599663" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.30599663" type="heading" readingDirection="left-to-right">
       <Coords points="899,1120 1068,1120 1068,1189 899,1189"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1040,1121 952,1122 899,1130 899,1185 902,1188 971,1184 1067,1187 1067,1123"/>
@@ -788,7 +804,7 @@ dem fatali neceſſitate pereundum fuerit.</Unicode>
         <Unicode>§. VII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.30599663" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="-0.30599663" readingDirection="left-to-right">
       <Coords points="364,1217 1605,1217 1605,1951 364,1951"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1474,1217 1464,1227 1434,1227 1427,1218 1396,1218 1388,1227 1200,1227 1196,1218 1175,1218 1172,1227 1088,1226 1084,1220 1074,1217 1061,1218 1052,1226 1042,1226 1034,1218 1007,1218 999,1227 938,1228 902,1228 898,1220 886,1218 874,1219 868,1228 849,1227 838,1218 817,1218 811,1226 685,1228 679,1228 674,1218 640,1218 634,1228 554,1226 539,1223 534,1218 405,1218 405,1251 410,1256 419,1256 421,1270 429,1274 548,1276 563,1282 572,1282 583,1273 599,1277 662,1274 667,1271 699,1274 810,1275 831,1271 838,1274 864,1274 865,1279 874,1281 889,1271 904,1274 989,1275 997,1272 1084,1274 1107,1271 1143,1272 1149,1275 1258,1275 1294,1271 1317,1275 1376,1276 1382,1273 1396,1276 1475,1275 1476,1280 1483,1283 1500,1280 1503,1274 1537,1276 1538,1281 1545,1284 1565,1284 1570,1281 1572,1275 1605,1274 1603,1232 1511,1228 1505,1227 1498,1218"/>
@@ -1525,23 +1541,23 @@ dem fatali neceſſitate pereundum fuerit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Prognoſis nunc hujus mali ſecundum recenſita ſymp-&#13;
-tomata admodum infauſta, &amp; triſtis omnino in ægroto&#13;
-affectus. Illud quidem facile Iargior, quod, ſi illud flui-&#13;
-dum Iente tantummodo, nec magna copia excernitur,&#13;
-nullaque acrimonia præditum eſt, nonnunquam non adeo&#13;
-magna incommoda ſequi ſoleant; ſi autem aqua in adeo&#13;
-magna copia accumuletur, ut ad tertium quoque quartum-&#13;
-que ventriculum, imo ad ſpecum usque vertebrarum deſ-&#13;
-cendat, vel in iis morboſe colligatur, tunc ob medullæ&#13;
-oblongatæ inprimis compreſſionem, graviora omnino&#13;
-ſymptomata ſequuntur. Adulti quidem diutius plerumque&#13;
-huic morbo reſiſtunt, tandemvero ſubito Iethargo vel apo-&#13;
-plexia pereunt. Cura etenim hujus morbi difficillima,&#13;
+        <Unicode>Prognoſis nunc hujus mali ſecundum recenſita ſymp-
+tomata admodum infauſta, &amp; triſtis omnino in ægroto
+affectus. Illud quidem facile Iargior, quod, ſi illud flui-
+dum Iente tantummodo, nec magna copia excernitur,
+nullaque acrimonia præditum eſt, nonnunquam non adeo
+magna incommoda ſequi ſoleant; ſi autem aqua in adeo
+magna copia accumuletur, ut ad tertium quoque quartum-
+que ventriculum, imo ad ſpecum usque vertebrarum deſ-
+cendat, vel in iis morboſe colligatur, tunc ob medullæ
+oblongatæ inprimis compreſſionem, graviora omnino
+ſymptomata ſequuntur. Adulti quidem diutius plerumque
+huic morbo reſiſtunt, tandemvero ſubito Iethargo vel apo-
+plexia pereunt. Cura etenim hujus morbi difficillima,
 imo &amp; plane impoſſibilis eſt. HIPPOCRATES quidem b)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.30599663" type="footnote" readingDirection="left-to-right" id="TextRegion_1658137347223_369" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1658137347223_369" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.30599663" type="footnote" readingDirection="left-to-right">
       <Coords points="403,1997 1331,1997 1331,2102 1145,2141 412,2141 403,2102"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="775,1997 530,2002 487,1997 428,1998 420,2004 404,2006 404,2053 424,2052 429,2048 444,2050 482,2042 512,2046 534,2043 581,2045 587,2042 629,2045 662,2041 716,2045 742,2044 755,2040 787,2044 819,2041 832,2047 847,2041 854,2045 874,2046 892,2051 909,2042 921,2043 942,2038 980,2038 985,2033 985,2007 980,2002 866,2004 838,2001 832,1997"/>
@@ -1648,7 +1664,7 @@ imo &amp; plane impoſſibilis eſt. HIPPOCRATES quidem b)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:2;}">
-        <Coords points="588,2086 572,2087 570,2091 560,2092 495,2094 489,2093 485,2087 468,2086 464,2091 436,2092 429,2092 424,2088 411,2088 405,2093 405,2141 440,2146 445,2143 461,2143 499,2136 703,2132 712,2131 717,2126 717,2097 712,2092 598,2090"/>
+        <Coords points="572,2087 570,2091 560,2092 495,2094 489,2093 485,2087 468,2086 464,2091 436,2092 429,2092 424,2088 411,2088 405,2093 405,2110 412,2141 471,2141 499,2136 703,2132 712,2131 717,2126 717,2097 712,2092 598,2090 588,2086"/>
         <Baseline points="405,2131 717,2122"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="410,2095 447,2095 447,2136 410,2136"/>
@@ -1673,8 +1689,8 @@ imo &amp; plane impoſſibilis eſt. HIPPOCRATES quidem b)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>z) SWIETENIUS T I. p. 433.&#13;
-a) De Vulneribus Capitis, Charter T. XII. p. 121.&#13;
+        <Unicode>z) SWIETENIUS T I. p. 433.
+a) De Vulneribus Capitis, Charter T. XII. p. 121.
 b) loco citato.</Unicode>
       </TextEquiv>
     </TextRegion>

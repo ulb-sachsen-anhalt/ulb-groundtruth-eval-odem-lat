@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-18">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:13Z</Created>
     <LastChange>2024-01-19T13:07:13Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/0102276f-c556-4331-aa4c-b5e851044d2e/00000010.jpg" imageWidth="1415" imageHeight="2255" type="content" primaryLanguage="Latin">
     <Border>
@@ -24,8 +40,8 @@
         <RegionRefIndexed index="10" regionRef="region_1676446393447_207"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676446303783_163" custom="readingOrder {index:0;} structure {type:page-number;}">
-      <Coords points="287,210 287,253 323,253 323,210"/>
+    <TextRegion id="region_1676446303783_163" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
+      <Coords points="323,253 323,210 291,210 291,253"/>
       <TextLine id="line_1676446303895_166" custom="readingOrder {index:0;}">
         <Coords points="287,210 287,253 323,253 323,210"/>
         <Word id="word_1676446303975_169" custom="readingOrder {index:0;}">
@@ -42,12 +58,12 @@
         <Unicode>6</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676446309769_172" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676446309769_172" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="569,196 569,238 867,227 867,185"/>
       <TextLine id="line_1676446309868_175" custom="readingOrder {index:0;}">
-        <Coords points="569,196 569,238 864,223 864,181"/>
+        <Coords points="569,238 864,223 864,185 569,196"/>
         <Word id="word_1676446309946_178" custom="readingOrder {index:0;}">
-          <Coords points="569,196 865,185 865,227 569,238"/>
+          <Coords points="569,196 569,238 864,223 864,185"/>
           <TextEquiv>
             <Unicode>RANFFTII</Unicode>
           </TextEquiv>
@@ -60,7 +76,7 @@
         <Unicode>RANFFTII</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" readingDirection="left-to-right" id="TextRegion_1676446447496_233" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1676446447496_233" custom="readingOrder {index:2;}" orientation="2.3808482" readingDirection="left-to-right">
       <Coords points="291,288 1148,245 1194,1499 353,1542 291,308"/>
       <TextLine id="line_1676446447530_237" custom="readingOrder {index:0;}">
         <Coords points="291,288 301,288 303,293 310,288 321,288 332,294 361,293 367,285 377,285 386,293 424,292 526,284 534,283 540,277 551,275 561,275 565,282 602,280 609,273 634,272 637,279 707,276 715,275 719,267 769,265 773,270 781,270 798,268 800,264 813,263 821,262 824,267 942,263 946,256 961,255 966,262 990,261 1005,260 1010,253 1025,253 1033,258 1038,252 1055,251 1060,257 1070,258 1078,250 1092,251 1097,258 1132,258 1149,261 1150,301 1008,303 955,307 946,311 910,309 897,313 876,309 856,310 851,306 813,311 792,307 782,313 723,317 711,323 702,323 695,320 636,322 608,324 602,328 590,330 579,325 567,325 503,327 458,336 451,333 431,335 419,330 390,340 378,340 369,333 347,339 294,341"/>
@@ -1407,7 +1423,7 @@ Vos ubi nunc noƈtes quondam brevitate doloſæ!
 Cum tua colligeret, perfide, membra ſinus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446467689_339" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446467689_339" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1150,350 1206,350 1208,391 1152,391"/>
       <TextLine id="line_1676446467733_342" custom="readingOrder {index:0;}">
         <Coords points="1152,350 1206,350 1208,391 1153,391"/>
@@ -1425,10 +1441,10 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446464430_327" custom="readingOrder {index:4;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446464430_327" custom="readingOrder {index:4;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1158,555 1215,555 1218,606 1160,606"/>
       <TextLine id="line_1676446463410_325" custom="readingOrder {index:0;}">
-        <Coords points="1160,565 1214,562 1218,563 1220,604 1180,606 1160,606"/>
+        <Coords points="1214,562 1160,565 1160,606 1180,606 1217,604 1215,562"/>
         <Word id="region0001_line0008_word0007" custom="readingOrder {index:0;}">
           <Coords points="1170,577 1213,575 1214,600 1171,602"/>
           <TextEquiv conf="0.9321653">
@@ -1443,10 +1459,10 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>10</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446462217_317" custom="readingOrder {index:5;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446462217_317" custom="readingOrder {index:5;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1166,781 1227,781 1230,835 1168,835"/>
       <TextLine id="line_1676446447540_249" custom="readingOrder {index:0;}">
-        <Coords points="1168,785 1229,784 1230,802 1231,833 1170,833"/>
+        <Coords points="1168,785 1170,833 1229,833 1227,784"/>
         <Word id="region0001_line0013_word0008" custom="readingOrder {index:0;}">
           <Coords points="1179,795 1222,793 1223,825 1180,827"/>
           <TextEquiv conf="0.80057544">
@@ -1461,10 +1477,10 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>15</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446459785_305" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446459785_305" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1174,1004 1238,1004 1240,1045 1176,1045"/>
       <TextLine id="line_1676446458700_301" custom="readingOrder {index:0;}">
-        <Coords points="1176,1009 1197,1007 1240,1006 1241,1023 1241,1045 1177,1045"/>
+        <Coords points="1197,1007 1176,1009 1177,1045 1240,1045 1238,1006"/>
         <Word id="word_1676446458700_303" custom="readingOrder {index:0;}">
           <Coords points="1188,1022 1233,1020 1233,1045 1188,1045"/>
           <TextEquiv conf="0.93081975">
@@ -1479,7 +1495,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>20</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446457106_291" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446457106_291" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1183,1231 1250,1231 1253,1274 1185,1274"/>
       <TextLine id="line_1676446457149_294" custom="readingOrder {index:0;}">
         <Coords points="1184,1231 1251,1231 1253,1269 1253,1274 1186,1274"/>
@@ -1497,7 +1513,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>25</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="marginalia" readingDirection="left-to-right" id="TextRegion_1676446454942_279" custom="readingOrder {index:8;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1676446454942_279" custom="readingOrder {index:8;} structure {type:marginalia;}" orientation="2.3808482" type="marginalia" readingDirection="left-to-right">
       <Coords points="1192,1451 1262,1451 1265,1496 1194,1499"/>
       <TextLine id="line_1676446454977_282" custom="readingOrder {index:0;}">
         <Coords points="1192,1451 1261,1451 1264,1492 1201,1499 1194,1499"/>
@@ -1515,7 +1531,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
         <Unicode>30</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="2.3808482" type="footnote" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:9;} structure {type:footnote;}">
+    <TextRegion id="region0002" custom="readingOrder {index:9;} structure {type:footnote;}" orientation="2.3808482" type="footnote" readingDirection="left-to-right">
       <Coords points="343,1559 1256,1513 1273,1851 361,1918"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1142,1519 1116,1521 1112,1525 1075,1527 1073,1523 1045,1524 1042,1528 1019,1529 1016,1526 988,1527 986,1530 980,1531 977,1528 956,1529 954,1532 936,1534 932,1530 918,1530 913,1530 912,1536 907,1537 817,1544 669,1548 667,1544 649,1545 647,1550 610,1551 606,1546 582,1547 578,1552 573,1548 552,1550 548,1554 517,1555 512,1551 495,1552 490,1556 478,1559 467,1559 456,1555 394,1557 387,1563 353,1567 351,1571 351,1590 357,1595 410,1597 451,1595 466,1590 488,1591 498,1587 517,1586 523,1589 567,1584 571,1587 589,1586 602,1580 611,1581 616,1585 659,1582 689,1580 695,1576 708,1575 711,1578 721,1576 726,1579 772,1573 784,1577 840,1577 866,1568 903,1572 912,1564 939,1567 953,1565 959,1561 965,1560 970,1564 1032,1562 1067,1562 1075,1565 1088,1561 1154,1558 1158,1554 1164,1554 1168,1562 1180,1557 1220,1555 1238,1550 1258,1552 1256,1514 1223,1516 1213,1521 1192,1524 1156,1525 1152,1519"/>
@@ -1580,7 +1596,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
       <TextLine id="region0002_line0002" custom="readingOrder {index:1;}">
         <Coords points="959,1562 953,1566 939,1567 912,1565 903,1573 866,1569 840,1578 784,1578 772,1574 726,1580 721,1577 711,1579 708,1576 695,1577 689,1581 620,1586 607,1581 589,1587 572,1588 567,1585 556,1585 552,1589 498,1588 488,1592 466,1591 451,1596 346,1597 347,1629 361,1621 369,1623 375,1621 382,1629 388,1624 403,1624 410,1628 479,1625 491,1620 499,1624 503,1620 531,1621 564,1616 573,1621 586,1621 596,1620 603,1612 611,1614 625,1611 633,1615 676,1609 685,1614 695,1609 721,1611 737,1608 745,1611 838,1603 850,1610 861,1610 871,1601 952,1597 957,1594 970,1593 976,1597 984,1597 989,1592 998,1592 1003,1596 1044,1594 1054,1590 1069,1589 1072,1592 1095,1593 1142,1591 1153,1587 1164,1586 1169,1590 1202,1589 1208,1584 1227,1586 1234,1581 1244,1581 1249,1585 1259,1584 1258,1553 1249,1552 1180,1558 1168,1563 1164,1555 1154,1559 1088,1562 1075,1566 1067,1563 1032,1563 970,1565 965,1561"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="383,1601 357,1603 358,1623 434,1619 434,1601"/>
+          <Coords points="357,1603 357,1622 361,1621 367,1622 371,1622 375,1621 375,1622 434,1619 434,1601 383,1601"/>
           <TextEquiv>
             <Unicode>germ.</Unicode>
           </TextEquiv>
@@ -1676,7 +1692,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643193887708_1708" custom="readingOrder {index:3;}">
-          <Coords points="663,1613 685,1613 685,1633 663,1633"/>
+          <Coords points="663,1613 663,1633 685,1633 685,1615 681,1613"/>
           <TextEquiv>
             <Unicode>⁵</Unicode>
           </TextEquiv>
@@ -2060,7 +2076,7 @@ Cum tua colligeret, perfide, membra ſinus.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643193955090_1782" custom="readingOrder {index:8;}">
-          <Coords points="1170,1771 1188,1771 1188,1746 1170,1746"/>
+          <Coords points="1188,1771 1188,1746 1184,1746 1176,1750 1170,1746 1170,1771"/>
           <TextEquiv>
             <Unicode>⁹</Unicode>
           </TextEquiv>
@@ -2245,7 +2261,7 @@ modo impuri amoris eſt, purus autem atque modicus amor ad
 mortem usque durat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676446393447_207" custom="readingOrder {index:10;} structure {type:catch-word;}">
+    <TextRegion id="region_1676446393447_207" custom="readingOrder {index:10;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1125,1867 1125,1905 1262,1905 1262,1867"/>
       <TextLine id="line_1676446393530_210" custom="readingOrder {index:0;}">
         <Coords points="1125,1867 1125,1905 1262,1905 1262,1867"/>

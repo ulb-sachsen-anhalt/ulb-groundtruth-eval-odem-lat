@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-96">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:52Z</Created>
     <LastChange>2024-01-19T13:07:52Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/c14f275c-86fc-46ba-b598-4c5830585817/00000256.jpg" imageWidth="1350" imageHeight="1963" type="content" primaryLanguage="Latin">
     <Border>
@@ -24,10 +40,7 @@
         <RegionRefIndexed index="11" regionRef="region_1682586148767_493"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1682586140905_490" custom="readingOrder {index:0;}">
-      <Coords points="424,1322 1214,1322 1214,1352 424,1352"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1682586066619_409" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682586066619_409" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="466,326 466,356 536,356 536,326"/>
       <TextLine id="line_1682586066741_412" custom="readingOrder {index:0;}">
         <Coords points="466,326 466,356 536,356 536,326"/>
@@ -45,7 +58,7 @@
         <Unicode>232</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682586070781_418" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1682586070781_418" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="667,321 667,360 1069,360 1069,321"/>
       <TextLine id="line_1682586070894_421" custom="readingOrder {index:0;}">
         <Coords points="667,321 667,360 1069,360 1069,321"/>
@@ -81,7 +94,7 @@
         <Unicode>C. PLINII LIB. IV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" type="marginalia" readingDirection="left-to-right" id="TextRegion_1666255001825_2781" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1666255001825_2781" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="-1.0759268" type="marginalia" readingDirection="left-to-right">
       <Coords points="404,586 444,586 444,631 404,631"/>
       <TextLine id="line_1666255001877_2784" custom="readingOrder {index:0;}">
         <Coords points="404,586 444,586 444,631 405,631 404,627"/>
@@ -100,7 +113,7 @@
         <Unicode>6 contor;uebatur. De eius nequitia ſanguinariis-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" type="marginalia" readingDirection="left-to-right" id="TextRegion_1666254999858_2767" custom="readingOrder {index:4;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1666254999858_2767" custom="readingOrder {index:4;} structure {type:marginalia;}" orientation="-1.0759268" type="marginalia" readingDirection="left-to-right">
       <Coords points="404,795 444,795 444,846 404,846"/>
       <TextLine id="line_1666255115782_2838" custom="readingOrder {index:0;}">
         <Coords points="405,798 432,795 444,795 444,838 444,840 444,846 417,846 412,846 404,846 404,821"/>
@@ -119,7 +132,7 @@
         <Unicode>7</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" readingDirection="left-to-right" id="TextRegion_1666254994366_2717" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1666254994366_2717" custom="readingOrder {index:5;}" orientation="-1.0759268" readingDirection="left-to-right">
       <Coords points="444,366 1257,366 1257,1047 444,1047"/>
       <TextLine id="line_1666254994410_2720" custom="readingOrder {index:0;}">
         <Coords points="444,378 533,382 538,379 550,380 557,386 592,387 602,393 614,394 695,394 703,389 717,393 732,393 741,389 754,393 796,393 806,389 815,390 821,395 830,395 835,390 860,391 865,396 937,398 948,392 956,392 963,397 1052,398 1060,393 1069,393 1077,399 1143,399 1150,393 1159,392 1168,399 1186,399 1193,393 1212,392 1218,397 1257,397 1257,435 1172,437 1151,434 1145,438 1104,442 1060,436 1043,439 1036,432 964,432 946,434 872,432 866,429 853,431 834,428 820,431 803,428 799,431 742,428 727,434 686,428 676,436 666,435 661,430 640,433 634,428 583,428 577,425 563,428 444,425"/>
@@ -321,7 +334,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1666255271580_2912" custom="readingOrder {index:1;}">
-          <Coords points="502,548 621,548 653,549 670,556 670,579 571,584 501,583"/>
+          <Coords points="502,548 501,583 571,584 670,579 670,556 659,556 659,552 652,549 637,548 621,548 615,555 610,555 588,551 518,550 513,548"/>
           <TextEquiv>
             <Unicode>improuida</Unicode>
           </TextEquiv>
@@ -809,7 +822,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666254994423_2752" custom="readingOrder {index:15;}">
-        <Coords points="444,1003 511,1005 531,1001 537,1007 567,1006 580,1001 635,1000 651,1003 656,1007 671,1007 675,1010 684,1006 691,1007 694,1003 702,1003 709,1007 795,1012 802,1007 831,1002 860,1003 867,1007 934,1008 939,1013 938,1039 927,1048 921,1049 797,1044 720,1047 521,1043 517,1049 508,1051 497,1050 491,1043 444,1041"/>
+        <Coords points="938,1039 939,1013 934,1008 867,1007 860,1003 831,1002 802,1007 795,1012 709,1007 702,1003 694,1003 691,1007 684,1006 675,1010 671,1007 656,1007 651,1003 635,1000 580,1001 567,1006 537,1007 531,1001 511,1005 444,1003 444,1041 491,1043 494,1047 518,1047 521,1043 720,1047 797,1044 871,1047 928,1047"/>
         <Baseline points="444,1031 938,1038"/>
         <Word id="word_1666254994423_2754" custom="readingOrder {index:0;}">
           <Coords points="444,1012 461,1012 461,1032 444,1032"/>
@@ -840,25 +853,25 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Meſſallino, qui, luminibus orbatus, ingenio ſae-&#13;
-uo mala coecitatis addiderat. Non verebatur,&#13;
-non erubeſcebat, non miſerebatur. Saepius a&#13;
-Domitiano non ſecus ac tela, quae &amp; ipſa coeca&#13;
-&amp; improuida feruntur, in optimum quemque&#13;
-contorquebatur. De eius nequitia ſanguinariis-&#13;
-que ſententiis in commune onmnes ſuper coenam&#13;
-Ioquebantur: tum ipſe imperator, QVID PV-&#13;
-TAMVS PASSVRVM FVISSE, SI VIVE-&#13;
-RET? &amp; Mauricus, NOBISCVM COENA-&#13;
-RET. Longius abii, libens tamen. Placuit agona&#13;
-tolli, qui mores Viennenſium infecerat, vt noſter&#13;
-hic omnium. Nam Viennenſium vitia intra ipſos&#13;
-reſident, noſtra late vagantur. Vtque in corpo-&#13;
-ribus, ſic in imperio, grauiſſimus eſt morbus, qui&#13;
+        <Unicode>Meſſallino, qui, luminibus orbatus, ingenio ſae-
+uo mala coecitatis addiderat. Non verebatur,
+non erubeſcebat, non miſerebatur. Saepius a
+Domitiano non ſecus ac tela, quae &amp; ipſa coeca
+&amp; improuida feruntur, in optimum quemque
+contorquebatur. De eius nequitia ſanguinariis-
+que ſententiis in commune onmnes ſuper coenam
+Ioquebantur: tum ipſe imperator, QVID PV-
+TAMVS PASSVRVM FVISSE, SI VIVE-
+RET? &amp; Mauricus, NOBISCVM COENA-
+RET. Longius abii, libens tamen. Placuit agona
+tolli, qui mores Viennenſium infecerat, vt noſter
+hic omnium. Nam Viennenſium vitia intra ipſos
+reſident, noſtra late vagantur. Vtque in corpo-
+ribus, ſic in imperio, grauiſſimus eſt morbus, qui
 a capite diffunditur. Vale.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" type="heading" readingDirection="left-to-right" id="TextRegion_1666254980743_2711" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1666254980743_2711" custom="readingOrder {index:6;} structure {type:heading;}" orientation="-1.0759268" type="heading" readingDirection="left-to-right">
       <Coords points="404,1047 1257,1047 1257,1139 404,1139"/>
       <TextLine id="line_1666254972820_2706" custom="readingOrder {index:0;}">
         <Coords points="718,1048 754,1047 842,1047 946,1049 951,1054 951,1080 946,1085 938,1085 936,1091 929,1094 852,1095 736,1091 727,1088 727,1082 721,1082 716,1077"/>
@@ -917,14 +930,14 @@ a capite diffunditur. Vale.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>C. PLINIVS POMPONIO BASSO SVO S.&#13;
+        <Unicode>C. PLINIVS POMPONIO BASSO SVO S.
 XXIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" readingDirection="left-to-right" id="TextRegion_1666254980743_2710" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1666254980743_2710" custom="readingOrder {index:7;}" orientation="-1.0759268" readingDirection="left-to-right">
       <Coords points="404,1139 1257,1139 1257,1208 404,1208"/>
       <TextLine id="region0001_line0022" custom="readingOrder {index:0;}">
-        <Coords points="1171,1141 1159,1147 1107,1146 1098,1140 1090,1140 1073,1141 1054,1146 1043,1146 1039,1141 1022,1141 1013,1147 993,1146 989,1141 978,1141 971,1147 961,1147 958,1142 944,1141 934,1146 843,1145 838,1139 831,1139 814,1145 808,1139 794,1138 768,1139 761,1147 705,1143 700,1138 689,1137 682,1142 643,1142 609,1136 556,1139 536,1136 525,1140 501,1140 497,1134 449,1133 444,1136 443,1161 449,1166 484,1171 488,1174 527,1174 536,1174 544,1169 559,1169 564,1173 574,1173 580,1169 601,1170 606,1174 645,1177 664,1170 678,1170 683,1174 757,1176 775,1179 809,1180 816,1175 824,1178 868,1180 907,1177 992,1179 1002,1181 1008,1187 1017,1188 1024,1183 1060,1180 1133,1181 1144,1182 1150,1188 1165,1188 1171,1183 1257,1182 1256,1148 1190,1148 1187,1142"/>
+        <Coords points="1159,1147 1107,1146 1098,1140 1090,1140 1073,1141 1054,1146 1043,1146 1039,1141 1022,1141 1013,1147 993,1146 989,1141 978,1141 971,1147 961,1147 958,1142 944,1141 934,1146 843,1145 838,1139 831,1139 814,1145 808,1139 768,1139 761,1147 705,1143 701,1139 686,1139 682,1142 643,1142 626,1139 556,1139 527,1139 525,1140 501,1140 500,1139 443,1139 443,1161 449,1166 484,1171 488,1174 527,1174 536,1174 544,1169 559,1169 564,1173 574,1173 580,1169 601,1170 606,1174 645,1177 664,1170 678,1170 683,1174 757,1176 775,1179 809,1180 816,1175 824,1178 868,1180 907,1177 992,1179 1002,1181 1008,1187 1017,1188 1024,1183 1060,1180 1133,1181 1144,1182 1150,1188 1165,1188 1171,1183 1257,1182 1256,1148 1190,1148 1187,1142 1171,1141"/>
         <Baseline points="445,1163 1257,1172"/>
         <Word id="region0001_line0022_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="459,1156 572,1158 572,1138 556,1139 536,1136 525,1140 501,1140 497,1134 459,1133"/>
@@ -973,7 +986,7 @@ XXIII.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0023" custom="readingOrder {index:1;}">
-        <Coords points="406,1161 405,1206 489,1208 503,1204 528,1208 669,1208 675,1213 687,1213 693,1209 718,1207 742,1210 776,1209 783,1215 788,1215 797,1211 878,1210 894,1211 898,1216 906,1218 917,1212 1002,1212 1007,1207 1008,1188 1002,1182 992,1180 907,1178 868,1181 824,1179 816,1176 809,1181 775,1180 757,1177 683,1175 678,1171 664,1171 645,1178 606,1175 601,1171 580,1170 574,1174 544,1170 536,1175 527,1175 488,1175 484,1172 449,1167 443,1162"/>
+        <Coords points="405,1206 489,1208 503,1204 528,1208 669,1208 705,1208 718,1207 726,1208 1006,1208 1007,1207 1008,1188 1002,1182 992,1180 907,1178 868,1181 824,1179 816,1176 809,1181 775,1180 757,1177 683,1175 678,1171 664,1171 645,1178 606,1175 601,1171 580,1170 574,1174 544,1170 536,1175 527,1175 488,1175 484,1172 449,1167 443,1162 406,1161"/>
         <Baseline points="405,1199 1007,1202"/>
         <Word id="region0001_line0023_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="435,1164 434,1197 522,1198 522,1175 488,1175 484,1172 449,1167 445,1164"/>
@@ -1010,11 +1023,11 @@ XXIII.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Laudat Pomponium, ſapienter otio in ſenectute vſum:&#13;
+        <Unicode>Laudat Pomponium, ſapienter otio in ſenectute vſum:
 ſibique ſimilem aliquando quietem optat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1666255026519_2801" custom="readingOrder {index:8;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1666255026519_2801" custom="readingOrder {index:8;} structure {type:drop-capital;}" orientation="-1.0759268" type="drop-capital" readingDirection="left-to-right">
       <Coords points="404,1208 519,1208 519,1309 404,1309"/>
       <TextLine id="line_1666255688639_3090" custom="readingOrder {index:0;}">
         <Coords points="405,1207 478,1207 514,1207 519,1207 519,1257 519,1295 405,1284 404,1255"/>
@@ -1033,7 +1046,7 @@ XXIII.</Unicode>
         <Unicode>M</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" readingDirection="left-to-right" id="TextRegion_1666255026519_2800" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1666255026519_2800" custom="readingOrder {index:9;}" orientation="-1.0759268" readingDirection="left-to-right">
       <Coords points="519,1208 1257,1208 1257,1309 519,1309"/>
       <TextLine id="line_1666255026563_2803" custom="readingOrder {index:0;}">
         <Coords points="519,1207 562,1214 699,1216 702,1210 707,1208 721,1209 724,1215 758,1216 764,1210 776,1210 783,1216 1225,1223 1257,1227 1257,1258 1218,1260 1136,1257 1127,1260 1088,1259 1073,1256 1057,1259 1029,1255 1022,1258 971,1258 962,1264 871,1254 865,1257 819,1256 806,1262 796,1261 791,1255 710,1251 696,1260 680,1253 584,1255 570,1251 550,1259 538,1254 519,1255"/>
@@ -1127,11 +1140,11 @@ XXIII.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>4 Agnam cepi voluptatem, quum ex commu-&#13;
+        <Unicode>4 Agnam cepi voluptatem, quum ex commu-
 IVa nibus amicis cognoui, te, vt ſapientia tua</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.0759268" type="footnote" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:10;} structure {type:footnote;}">
+    <TextRegion id="region0003" custom="readingOrder {index:10;} structure {type:footnote;}" orientation="-1.0759268" type="footnote" readingDirection="left-to-right">
       <Coords points="423,1371 1230,1371 1230,1739 423,1739"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1128,1376 1122,1382 1116,1377 1105,1377 1098,1385 1086,1384 1072,1377 1061,1376 1026,1376 1013,1382 966,1382 954,1381 947,1374 919,1373 907,1376 865,1372 853,1379 825,1378 817,1372 766,1371 739,1377 696,1378 617,1377 610,1376 608,1371 432,1371 427,1376 427,1397 452,1403 461,1403 468,1408 513,1409 530,1408 541,1404 563,1404 578,1412 591,1410 597,1406 624,1408 629,1411 643,1411 649,1407 663,1410 738,1410 761,1413 819,1408 868,1409 873,1413 977,1415 984,1412 1004,1415 1011,1412 1032,1412 1037,1416 1089,1418 1129,1414 1142,1415 1148,1419 1175,1419 1189,1422 1198,1414 1208,1418 1229,1417 1230,1381 1146,1386 1140,1377"/>
@@ -1560,7 +1573,7 @@ IVa nibus amicis cognoui, te, vt ſapientia tua</Unicode>
         </Word>
         <Word id="region0003_line0010_word0003" custom="readingOrder {index:3;}">
           <Coords points="724,1642 723,1670 851,1672 851,1648 801,1645 789,1650 773,1642 761,1642 749,1645 744,1642"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ciuitates,</Unicode>
           </TextEquiv>
         </Word>
@@ -1648,7 +1661,7 @@ IVa nibus amicis cognoui, te, vt ſapientia tua</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1666256062463_3332" custom="readingOrder {index:10;}">
-        <Coords points="424,1704 550,1704 550,1742 424,1742"/>
+        <Coords points="550,1704 424,1704 424,1739 550,1739"/>
         <Word id="word_1666256065933_3335" custom="readingOrder {index:0;}">
           <Coords points="430,1709 527,1709 527,1729 430,1729"/>
           <TextEquiv>
@@ -1660,20 +1673,20 @@ IVa nibus amicis cognoui, te, vt ſapientia tua</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>6. Nobiſcum coenaret) Haec illa libertas Maurici, qua&#13;
-Neruae familiaritatem cum Veientone feſtiue caſtigauit.&#13;
-Veiento enim &amp; Meſſallinus eiusdem fere ingenii erant.&#13;
-Quod etiam Iunenalis Sat. IV. v. 113. oſtendit:&#13;
-Et cum mortifero prudens Veiento Catullo.&#13;
-Prudens, i. e. callidus, aſtute ſeruiens temporibus.&#13;
-7. vt noſter hic) agon gymnicus.&#13;
-noſtra late vagantur) quia ab aula &amp; metropoli ex-&#13;
-emplum perunt aliae ciuitates, quod imitentur. Atque&#13;
-ſic aeque, vel magis etiam, vitia quam virtures diffun-&#13;
+        <Unicode>6. Nobiſcum coenaret) Haec illa libertas Maurici, qua
+Neruae familiaritatem cum Veientone feſtiue caſtigauit.
+Veiento enim &amp; Meſſallinus eiusdem fere ingenii erant.
+Quod etiam Iunenalis Sat. IV. v. 113. oſtendit:
+Et cum mortifero prudens Veiento Catullo.
+Prudens, i. e. callidus, aſtute ſeruiens temporibus.
+7. vt noſter hic) agon gymnicus.
+noſtra late vagantur) quia ab aula &amp; metropoli ex-
+emplum perunt aliae ciuitates, quod imitentur. Atque
+ſic aeque, vel magis etiam, vitia quam virtures diffun-
 duntur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682586148767_493" custom="readingOrder {index:11;} structure {type:catch-word;}">
+    <TextRegion id="region_1682586148767_493" custom="readingOrder {index:11;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1081,1746 1081,1789 1212,1789 1212,1746"/>
       <TextLine id="line_1682586148939_496" custom="readingOrder {index:0;}">
         <Coords points="1081,1746 1081,1789 1212,1789 1212,1746"/>
@@ -1691,5 +1704,8 @@ duntur.</Unicode>
         <Unicode>dignum</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="Separator_1682586140905_490" custom="readingOrder {index:0;}">
+      <Coords points="424,1322 1214,1322 1214,1352 424,1352"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

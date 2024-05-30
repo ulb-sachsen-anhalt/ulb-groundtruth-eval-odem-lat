@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-203">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:07Z</Created>
     <LastChange>2024-01-19T13:09:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ac37e461-65f3-4126-b8c1-62f553350028/00000013.jpg" imageWidth="2490" imageHeight="2981" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1649832135296_626"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.6909342" readingDirection="left-to-right" id="TextRegion_1649832143017_632" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1649832143017_632" custom="readingOrder {index:0;}" orientation="-0.6909342" readingDirection="left-to-right">
       <Coords points="244,624 1543,641 1545,868 1545,989 1529,1796 227,1779 238,963"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="742,631 736,640 483,639 324,645 317,645 315,640 305,633 287,636 280,632 271,632 264,634 260,640 244,644 243,672 243,691 356,692 485,687 490,697 508,698 513,695 515,686 660,686 663,696 678,697 683,696 693,685 734,686 744,679 751,679 757,686 777,687 1057,689 1081,695 1090,690 1126,690 1190,694 1207,692 1219,697 1267,700 1426,701 1541,708 1542,661 1375,656 1366,643 1355,643 1349,648 1347,655 1336,655 1305,652 1299,642 1282,641 1277,645 1275,652 1267,652 1164,644 1030,641 1027,634 1008,634 1007,634 1004,642 917,643 910,633 887,633 879,642 815,641 812,632"/>
@@ -668,7 +684,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1649833032021_882" custom="readingOrder {index:3;}">
-          <Coords points="822,1264 896,1264 902,1264 923,1265 935,1266 1044,1278 1043,1325 903,1331 875,1331 821,1319"/>
+          <Coords points="822,1264 821,1319 824,1320 864,1320 871,1321 873,1329 875,1331 903,1331 905,1331 913,1322 988,1321 1043,1325 1044,1278 953,1276 940,1279 937,1267 936,1266 935,1266 923,1265 903,1264 899,1268 896,1264"/>
           <TextEquiv>
             <Unicode>Gloſſatores</Unicode>
           </TextEquiv>
@@ -812,7 +828,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0007_line0008_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1347,1389 1346,1445 1386,1446 1387,1390 1381,1390 1377,1392 1375,1401 1363,1401 1354,1399 1352,1392 1347,1389"/>
+          <Coords points="1346,1445 1386,1446 1387,1401 1376,1401 1375,1401 1375,1401 1363,1401 1354,1399 1352,1392 1348,1390 1347,1390"/>
           <TextEquiv conf="0.9138137">
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -1174,7 +1190,7 @@ lum tamen dubium eſt, etiam eo tempore Decretiſtarum au-
 ƈtoritatem fuiſſe maiorem, quia a Pontificibus ſuſtinebantur</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1649832179537_649" custom="readingOrder {index:1;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1649832179537_649" custom="readingOrder {index:1;} structure {type:signature-mark;}" orientation="-0.6909342" type="signature-mark" readingDirection="left-to-right">
       <Coords points="231,1773 1217,1785 1217,1836 230,1836"/>
       <TextLine id="line_1649832179588_652" custom="readingOrder {index:0;}">
         <Coords points="929,1783 1049,1785 1052,1791 1119,1793 1123,1796 1217,1796 1217,1831 1119,1831 1113,1836 947,1835 935,1829 935,1817 929,1811"/>
@@ -1198,10 +1214,10 @@ lum tamen dubium eſt, etiam eo tempore Decretiſtarum au-
         <Unicode>B 2 et</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="catch-word" readingDirection="left-to-right" id="TextRegion_1649832179537_648" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1649832179537_648" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.6909342" type="catch-word" readingDirection="left-to-right">
       <Coords points="1217,1785 1526,1790 1525,1836 1217,1836"/>
       <TextLine id="line_1649832179588_651" custom="readingOrder {index:0;}">
-        <Coords points="1217,1796 1434,1799 1518,1795 1525,1797 1524,1843 1432,1842 1419,1834 1217,1831"/>
+        <Coords points="1525,1797 1518,1795 1434,1799 1217,1796 1217,1831 1419,1834 1422,1836 1524,1836"/>
         <Word id="word_1649832175795_642" custom="readingOrder {index:0;}">
           <Coords points="1483,1800 1521,1800 1521,1836 1483,1836"/>
           <TextEquiv conf="0.90706414">
@@ -1216,10 +1232,10 @@ lum tamen dubium eſt, etiam eo tempore Decretiſtarum au-
         <Unicode>B 2 et</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="footnote" readingDirection="left-to-right" id="TextRegion_1649832175743_638" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1649832175743_638" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.6909342" type="footnote" readingDirection="left-to-right">
       <Coords points="230,1836 1525,1836 1524,1943 229,1926"/>
       <TextLine id="region0008_line0002" custom="readingOrder {index:0;}">
-        <Coords points="233,1816 230,1817 230,1831 231,1879 236,1884 245,1885 328,1886 346,1878 453,1880 459,1885 472,1886 479,1878 509,1881 519,1873 528,1874 532,1871 542,1877 561,1876 571,1881 578,1877 594,1876 605,1879 903,1880 936,1883 1044,1884 1056,1885 1061,1889 1081,1886 1090,1892 1105,1891 1110,1886 1126,1885 1524,1891 1524,1851 1323,1849 1313,1839 1305,1839 1298,1843 1290,1837 1276,1837 1267,1846 1075,1844 1071,1837 1055,1837 1050,1844 1016,1843 1012,1837 1000,1836 992,1841 948,1843 947,1836 936,1830 900,1831 894,1841 872,1842 853,1841 846,1832 836,1832 828,1839 803,1841 798,1832 785,1828 776,1835 774,1841 769,1842 664,1841 657,1832 643,1832 635,1841 617,1841 566,1841 548,1834 532,1831 480,1832 466,1839 448,1839 439,1833 424,1836 418,1831 406,1831 398,1838 368,1835 362,1830 343,1831 332,1819 322,1820 318,1829 248,1829 244,1817"/>
+        <Coords points="231,1879 236,1884 245,1885 328,1886 346,1878 453,1880 459,1885 472,1886 479,1878 509,1881 519,1873 528,1874 532,1871 542,1877 561,1876 571,1881 578,1877 594,1876 605,1879 903,1880 936,1883 1044,1884 1056,1885 1061,1889 1081,1886 1090,1892 1105,1891 1110,1886 1126,1885 1524,1891 1524,1851 1323,1849 1313,1839 1305,1839 1298,1843 1290,1837 1276,1837 1267,1846 1075,1844 1071,1837 1055,1837 1050,1844 1016,1843 1012,1837 1000,1836 992,1841 948,1843 947,1836 897,1836 894,1841 872,1842 853,1841 849,1836 831,1836 828,1839 803,1841 800,1836 775,1836 774,1841 769,1842 664,1841 660,1836 639,1836 635,1841 617,1841 566,1841 553,1836 472,1836 466,1839 448,1839 443,1836 424,1836 400,1836 398,1838 378,1836 230,1836"/>
         <Word id="word_1649832625711_763" custom="readingOrder {index:0;}">
           <Coords points="318,1830 328,1829 339,1841 339,1878 280,1878 280,1839 314,1839"/>
           <TextEquiv>
@@ -1345,11 +1361,11 @@ lum tamen dubium eſt, etiam eo tempore Decretiſtarum au-
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(a) Archiep. Tarrac. de emendatione Gratiani, quem cum ſuis et STEPH.&#13;
+        <Unicode>(a) Archiep. Tarrac. de emendatione Gratiani, quem cum ſuis et STEPH.
 BALVZII notis edidit GERHARDVS van MASTRICHT Arnhemiae 1678.8.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="footnote" readingDirection="left-to-right" id="region0009" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="region0009" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="-0.6909342" type="footnote" readingDirection="left-to-right">
       <Coords points="229,1919 1524,1936 1518,2225 222,2243"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="482,1923 478,1926 476,1934 383,1935 376,1926 365,1925 359,1929 351,1925 321,1923 240,1928 233,1930 229,1935 228,1945 228,1966 233,1978 237,1981 284,1981 292,1988 296,1988 311,1977 327,1984 342,1976 425,1976 427,1984 441,1986 456,1983 458,1975 466,1974 494,1974 496,1980 510,1980 516,1984 527,1981 532,1974 565,1975 575,1984 585,1984 593,1982 596,1975 603,1974 714,1973 728,1974 739,1980 754,1971 838,1972 845,1978 864,1973 1002,1974 1064,1979 1307,1981 1395,1984 1403,1988 1416,1985 1425,1988 1522,1990 1521,1943 1361,1941 1352,1940 1348,1934 1318,1934 1315,1940 1244,1939 1241,1933 1221,1933 1218,1939 1179,1938 1176,1932 1156,1932 1153,1938 1146,1939 1084,1938 1080,1936 1079,1931 1052,1931 1048,1936 1003,1936 999,1930 983,1930 979,1935 966,1936 889,1935 886,1929 876,1928 868,1927 863,1927 857,1934 792,1934 788,1927 754,1926 748,1933 741,1933 737,1926 717,1926 714,1933 701,1933 697,1925 686,1925 647,1925 642,1933 630,1934 554,1934 547,1927 537,1927 530,1933 503,1933 496,1923"/>
@@ -1450,7 +1466,7 @@ BALVZII notis edidit GERHARDVS van MASTRICHT Arnhemiae 1678.8.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0002_word0004" custom="readingOrder {index:4;}">
-          <Coords points="766,2024 767,1976 743,1976 735,1980 735,2033 747,2032 754,2024"/>
+          <Coords points="767,1976 747,1976 739,1981 736,1979 735,1980 735,2030 737,2032 743,2032 747,2031 754,2024 759,2024 760,2023 766,2023"/>
           <TextEquiv>
             <Unicode>§.</Unicode>
           </TextEquiv>
@@ -1706,7 +1722,7 @@ BALVZII notis edidit GERHARDVS van MASTRICHT Arnhemiae 1678.8.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0006" custom="readingOrder {index:5;}">
-        <Coords points="551,2182 545,2184 542,2191 522,2193 373,2194 369,2188 352,2187 341,2193 319,2197 225,2200 225,2225 225,2257 255,2256 266,2244 277,2242 332,2242 404,2236 448,2237 471,2242 475,2239 527,2236 678,2233 689,2226 689,2196 685,2191 633,2191 624,2185 617,2184 608,2189 568,2190 562,2182"/>
+        <Coords points="545,2184 542,2191 522,2193 373,2194 369,2188 352,2187 341,2193 319,2197 225,2200 225,2225 225,2243 276,2242 277,2242 294,2242 340,2241 404,2236 448,2237 460,2240 474,2239 475,2239 527,2236 678,2233 689,2226 689,2196 685,2191 633,2191 624,2185 617,2184 608,2189 568,2190 562,2182 551,2182"/>
         <Word id="region0009_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="474,2239 474,2193 373,2194 369,2188 352,2187 341,2193 319,2197 233,2199 233,2238 360,2239 404,2236 448,2237 465,2240 472,2240"/>
           <TextEquiv>
@@ -1724,7 +1740,7 @@ BALVZII notis edidit GERHARDVS van MASTRICHT Arnhemiae 1678.8.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0007" custom="readingOrder {index:6;}">
-        <Coords points="818,2228 812,2234 810,2243 779,2242 774,2231 757,2230 753,2233 751,2242 741,2243 650,2241 467,2246 422,2244 417,2238 404,2237 376,2240 372,2248 353,2247 327,2242 277,2243 266,2245 255,2257 242,2258 238,2261 236,2292 241,2297 252,2297 257,2302 352,2303 355,2291 360,2289 441,2290 476,2287 680,2288 735,2285 786,2288 857,2283 923,2285 930,2296 949,2300 958,2295 964,2285 1018,2284 1105,2287 1106,2295 1112,2301 1134,2300 1139,2288 1291,2300 1418,2302 1421,2312 1426,2316 1518,2318 1519,2262 1406,2261 1405,2251 1398,2245 1274,2239 1262,2241 1258,2252 1241,2252 1233,2250 1233,2241 1228,2236 1213,2236 1200,2241 1195,2246 1086,2242 1058,2244 1053,2236 1041,2235 1033,2244 935,2244 933,2236 928,2232 914,2232 906,2243 893,2242 886,2233 875,2233 867,2242 840,2241 836,2230"/>
+        <Coords points="818,2228 814,2232 812,2231 776,2231 775,2233 774,2231 757,2230 753,2233 752,2232 419,2236 417,2238 404,2237 376,2240 376,2241 415,2240 419,2244 752,2240 756,2236 772,2235 776,2239 812,2239 816,2235 834,2235 838,2238 874,2238 878,2234 883,2234 887,2238 913,2237 917,2233 929,2233 928,2232 916,2232 913,2229 887,2230 883,2233 877,2233 874,2230 838,2230 837,2231 836,2230"/>
         <Word id="region0009_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="283,2254 283,2294 335,2295 335,2255 327,2254"/>
           <TextEquiv>
@@ -1799,7 +1815,7 @@ pertraƈtarunt, excitaui.
 (c) vid. PANCIROLLVS declaris legum interpretibus I. III. cap. 3.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="footnote" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0010" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.6909342" type="footnote" readingDirection="left-to-right">
       <Coords points="235,2240 1517,2252 1518,2419 232,2402"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="394,2300 233,2308 233,2349 395,2347 498,2340 510,2340 518,2345 531,2347 596,2347 607,2344 656,2344 666,2340 670,2335 668,2303"/>
@@ -1916,11 +1932,11 @@ pertraƈtarunt, excitaui.
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>MASTRICHT n. 334.&#13;
+        <Unicode>MASTRICHT n. 334.
 (d) vid. PANCIROLLVS I. II.c. 14. et l. III. c. 2. et GRAVINA de</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="footnote" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0011" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.6909342" type="footnote" readingDirection="left-to-right">
       <Coords points="228,2390 1439,2406 1437,2523 226,2507"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="493,2394 482,2407 276,2404 229,2408 227,2446 227,2447 258,2449 350,2447 358,2456 369,2458 382,2446 401,2446 407,2456 432,2458 490,2457 495,2455 502,2445 626,2441 630,2451 643,2452 655,2450 659,2442 796,2441 801,2436 802,2405 797,2400 620,2399 618,2396 598,2395 596,2399 563,2401 560,2395 544,2395 538,2403 525,2403 521,2394"/>
@@ -2019,11 +2035,11 @@ pertraƈtarunt, excitaui.
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ortu et progreſſu iuris p. 101.&#13;
+        <Unicode>ortu et progreſſu iuris p. 101.
 (e) de quo videatur HOTTOMANNVS Anti-Triboniano c. XIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6909342" type="marginalia" readingDirection="left-to-right" id="TextRegion_1649832135296_626" custom="readingOrder {index:7;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1649832135296_626" custom="readingOrder {index:7;} structure {type:marginalia;}" orientation="-0.6909342" type="marginalia" readingDirection="left-to-right">
       <Coords points="1546,669 1734,671 1731,870 1711,992 1679,1030 1540,1028"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1638,670 1635,679 1546,679 1546,720 1636,720 1637,729 1640,731 1655,729 1661,732 1667,728 1668,720 1733,721 1733,681 1660,680 1657,670 1640,670"/>
@@ -2134,12 +2150,12 @@ pertraƈtarunt, excitaui.
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>can. prae&#13;
-iure iuſti-&#13;
-nian. per&#13;
-decretum&#13;
-bus demonſtrauit INNOCENT. GENTILETTVS (bh); taci Gratiani&#13;
-XII. ſec.&#13;
+        <Unicode>can. prae
+iure iuſti-
+nian. per
+decretum
+bus demonſtrauit INNOCENT. GENTILETTVS (bh); taci Gratiani
+XII. ſec.
 acceſſit.</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-124">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:03Z</Created>
     <LastChange>2024-01-19T13:08:03Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/6530f6e3-c9b0-4b34-aa89-365b28746ee6/00000013.jpg" imageWidth="2410" imageHeight="2823" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="4" regionRef="region_1682413428212_1242"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682413406651_1217" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682413406651_1217" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="1585,541 1585,572 1627,572 1627,541"/>
       <TextLine id="line_1682413406756_1220" custom="readingOrder {index:0;}">
         <Coords points="1585,541 1585,572 1627,572 1627,541"/>
@@ -35,10 +51,7 @@
         <Unicode>11</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1663571732960_1382" custom="readingOrder {index:1;}">
-      <Coords points="1152,577 875,577 875,499 1152,499"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.30815312" readingDirection="left-to-right" id="TextRegion_1663571681025_1378" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1663571681025_1378" custom="readingOrder {index:2;}" orientation="-0.30815312" readingDirection="left-to-right">
       <Coords points="323,609 1638,609 1638,2160 1631,2366 328,2366 323,2160"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1261,610 1252,622 1239,623 1144,622 1142,615 1136,610 1120,611 1113,621 1069,620 1064,610 1049,610 1042,619 1035,619 1032,610 992,610 987,616 880,618 866,618 860,611 844,611 836,621 821,620 815,624 692,628 685,619 672,619 666,628 615,629 597,629 595,621 591,618 580,618 571,628 493,628 484,617 470,619 465,627 452,627 450,620 445,616 431,618 426,625 378,625 367,623 355,615 324,614 324,672 397,670 435,674 505,672 535,675 619,676 625,673 638,673 644,676 677,676 722,671 759,672 770,667 796,670 804,662 816,663 822,669 875,662 895,670 907,671 920,664 956,662 1137,669 1205,667 1339,669 1443,666 1444,670 1448,671 1519,662 1530,665 1638,665 1638,625 1632,622 1450,619 1281,621 1276,611"/>
@@ -544,7 +557,7 @@
         <Coords points="572,1012 554,1014 546,1020 490,1017 457,1026 408,1027 399,1032 388,1032 374,1025 360,1025 354,1030 324,1030 324,1069 343,1072 391,1071 509,1062 532,1066 586,1065 713,1071 719,1076 729,1076 737,1072 794,1071 804,1069 818,1073 830,1070 843,1070 848,1073 892,1073 899,1069 914,1072 1066,1072 1074,1068 1094,1072 1098,1076 1110,1076 1117,1072 1159,1073 1170,1069 1186,1073 1264,1072 1277,1077 1289,1077 1295,1074 1390,1075 1396,1072 1409,1075 1440,1075 1447,1072 1501,1076 1512,1073 1531,1076 1638,1076 1638,1039 1594,1034 1592,1030 1574,1031 1567,1035 1544,1034 1543,1028 1537,1024 1520,1023 1500,1027 1496,1033 1427,1033 1408,1031 1399,1025 1382,1024 1373,1025 1368,1030 1353,1029 1338,1027 1332,1023 1312,1022 1302,1027 1252,1035 1240,1033 1226,1023 1210,1023 1202,1030 1182,1030 1176,1023 1165,1022 1160,1032 1097,1028 962,1027 953,1031 929,1028 922,1017 910,1017 904,1023 904,1028 841,1029 824,1033 784,1025 778,1018 760,1019 756,1027 694,1025 690,1020 677,1020 672,1025 656,1020 647,1027 632,1027 621,1021 595,1023 594,1016 587,1012"/>
         <Baseline points="324,1060 534,1055 1638,1066"/>
         <Word id="region0001_line0009_word0000" custom="readingOrder {index:0;}">
-          <Coords points="336,1056 474,1057 474,1019 483,1018 457,1026 408,1027 399,1032 388,1032 374,1025 360,1025 354,1030 336,1030"/>
+          <Coords points="336,1056 474,1057 474,1019 483,1018 336,1030"/>
           <TextEquiv conf="0.89434916">
             <Unicode>vivam</Unicode>
           </TextEquiv>
@@ -1366,13 +1379,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1663572427990_1589" custom="readingOrder {index:1;}">
-          <Coords points="488,1650 715,1642 715,1678 660,1676 648,1676 488,1675"/>
+          <Coords points="488,1650 488,1675 648,1676 660,1676 715,1678 715,1645 714,1648 574,1649 545,1648 545,1648"/>
           <TextEquiv>
             <Unicode>ERNESTI</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663572427990_1588" custom="readingOrder {index:2;}">
-          <Coords points="715,1642 716,1642 736,1642 760,1647 760,1680 715,1678"/>
+          <Coords points="736,1642 716,1642 715,1645 715,1678 760,1680 760,1647 752,1645 740,1647 736,1642"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -1481,7 +1494,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0022_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1352,1726 1428,1729 1428,1692 1385,1689 1382,1693 1362,1700 1352,1699"/>
+          <Coords points="1428,1729 1428,1694 1426,1694 1402,1694 1399,1690 1386,1689 1382,1693 1362,1700 1352,1699 1352,1726"/>
           <TextEquiv conf="0.88412213">
             <Unicode>eſt:</Unicode>
           </TextEquiv>
@@ -1877,7 +1890,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1663572575891_1651" custom="readingOrder {index:5;}">
-          <Coords points="1057,2014 1252,1999 1313,2007 1338,2012 1338,2035 1313,2037 1057,2036"/>
+          <Coords points="1057,2014 1057,2036 1313,2037 1338,2035 1338,2012 1313,2007 1276,2002 1267,2003 1266,2000 1252,1999 1243,1999 1243,2004 1144,2007 1119,2009 1114,2011 1107,2010"/>
           <TextEquiv>
             <Unicode>accommodata:</Unicode>
           </TextEquiv>
@@ -2216,7 +2229,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0004" custom="readingOrder {index:33;}">
-        <Coords points="798,2308 783,2311 779,2317 762,2317 727,2324 709,2319 667,2322 665,2317 660,2315 643,2315 631,2323 628,2319 610,2318 601,2323 596,2318 585,2317 568,2318 558,2324 556,2321 545,2319 530,2322 525,2328 506,2330 440,2331 439,2326 434,2324 422,2323 416,2326 414,2331 353,2333 349,2327 336,2325 329,2328 329,2379 491,2378 694,2370 713,2371 718,2376 728,2376 735,2371 772,2365 894,2364 959,2359 1048,2370 1234,2367 1236,2373 1242,2377 1260,2376 1266,2366 1272,2365 1393,2366 1395,2373 1401,2377 1419,2376 1426,2367 1565,2370 1604,2373 1612,2377 1631,2374 1631,2325 1569,2324 1562,2323 1553,2316 1537,2316 1530,2321 1490,2321 1489,2317 1482,2313 1471,2313 1466,2316 1465,2321 1287,2319 1286,2313 1282,2311 1269,2311 1262,2314 1260,2320 1226,2320 1218,2319 1212,2314 1187,2314 1170,2316 1161,2322 1092,2323 1085,2317 1075,2317 1071,2320 1044,2317 1037,2322 1028,2322 1017,2321 1007,2316 968,2315 950,2311 934,2312 923,2317 817,2318 815,2311"/>
+        <Coords points="783,2311 779,2317 762,2317 727,2324 709,2319 667,2322 665,2317 660,2315 643,2315 631,2323 628,2319 610,2318 601,2323 596,2318 585,2317 568,2318 558,2324 556,2321 545,2319 530,2322 525,2328 506,2330 440,2331 439,2326 434,2324 422,2323 416,2326 414,2331 353,2333 349,2327 336,2325 329,2328 329,2366 765,2366 772,2365 894,2364 959,2359 1015,2366 1266,2366 1272,2365 1393,2366 1631,2366 1631,2325 1569,2324 1562,2323 1553,2316 1537,2316 1530,2321 1490,2321 1489,2317 1482,2313 1471,2313 1466,2316 1465,2321 1287,2319 1286,2313 1282,2311 1269,2311 1262,2314 1260,2320 1226,2320 1218,2319 1212,2314 1187,2314 1170,2316 1161,2322 1092,2323 1085,2317 1075,2317 1071,2320 1044,2317 1037,2322 1028,2322 1017,2321 1007,2316 968,2315 950,2311 934,2312 923,2317 817,2318 815,2311 798,2308"/>
         <Baseline points="329,2369 924,2352 1071,2360 1631,2363"/>
         <Word id="region0002_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="336,2356 518,2357 518,2328 506,2330 440,2331 439,2326 434,2324 422,2323 416,2326 414,2331 353,2333 349,2327 336,2325"/>
@@ -2283,43 +2296,43 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>hominis varia ratione modoque afficiendum voluntatemque com-&#13;
-movendam valet. Inde enim, prout cognitio rerum &amp; doctrina-&#13;
-rum ſpiritualium ejusmodi vim atque efficacitatem in animo ho-&#13;
-minis vel exſerit, vel non exſerit, alia hiſtorica tantum, otioſa,&#13;
-mortua, alia efficax &amp; viva, eodemque fere modo alia mere lite-&#13;
-ralis, alia ſpiritualis eſſe dicitur. Et in illis quidem rebus, quæ&#13;
-ſenſibus &amp; rationi ſubjectæ ſunt, in diſciplina inprimis morali,&#13;
-duplex illud cognitionis genus (*) Philoſophi agnoſcunt, unamque&#13;
-vivam &amp; efficacem, alteram mortuam, otioſam, ſterilem eſſe do-&#13;
-cent. Cum vero cognitionis, quæ in rebus humanis ſenſuique&#13;
-&amp; rationi ſubjectis verſatur, non eadem prorſus ratio ſit, atque&#13;
-illius, quæ ex S. literis profecta divinas res &amp; ſpitituales ample-&#13;
-ctitur, non ſine cauſa utique nec inutiliter quæritur, num utrum-&#13;
-que illud cognitionis genus in rebus etiam ſacris locum habeat,&#13;
-quæve utriusque, ſi legitima ſit illa diſtinctio, natura ſit &amp; in-&#13;
-doles. Res ipſa etiam, quia non omnes Theologi idem ſentire&#13;
-videntur, digna eſt, quæ paullo plenius &amp; diſtinctius exponatur.&#13;
-(*) Chr. WOLFIUS: Cognitio viva dicitur, quæ fit motivum vo-&#13;
-luntatis vel noluntatis. Aſt mortua vocatur cognitio, quæ non fit mo-&#13;
-tivum Voluntatis vel noluntatis. Ph Pr. Univ. P. II. §. 244. &amp;&#13;
-Ven. ERNESTI in Init. Phil. Mor. c. V. §.63. Cognitio, inquit,&#13;
-boni &amp; mali, qua ad voluntatem refertur, duplex eſt: altera vi-&#13;
-va &amp; efficax, mortua altera &amp; otioſa. Superior ejusmodi eſt,&#13;
-ut habeat voluntatem ſequacem, altera, ut nullam in Voluntatem&#13;
-vim habeat. ldemque porro paucis egregie docet, unde &amp; quo-&#13;
-modo viva fiat cognitio. Viva autem, ait, &amp; efficax multis re-&#13;
-bus fit: primo, ſi certa eſt minimeque dubia, deinde, ſi non&#13;
-generalis ſolum, ſed rei propoſitæ accommodata: porro, fi præ-&#13;
-ſens ſemper in ipſo ad actionem acceſſu: denique, ſi commotio-&#13;
-nes animi non adverſas, ſed adjutrices potius habet. ibid.&#13;
-§. VI. Antiquiores Eccleſiæ noſtræ Theologi duplex illud&#13;
-cognitionis genus in rebus etiam divinis &amp; ſpiritualibus non agno-&#13;
-verunt modo, ſed graviſſime etiam, ut maximi momenti rem,&#13;
+        <Unicode>hominis varia ratione modoque afficiendum voluntatemque com-
+movendam valet. Inde enim, prout cognitio rerum &amp; doctrina-
+rum ſpiritualium ejusmodi vim atque efficacitatem in animo ho-
+minis vel exſerit, vel non exſerit, alia hiſtorica tantum, otioſa,
+mortua, alia efficax &amp; viva, eodemque fere modo alia mere lite-
+ralis, alia ſpiritualis eſſe dicitur. Et in illis quidem rebus, quæ
+ſenſibus &amp; rationi ſubjectæ ſunt, in diſciplina inprimis morali,
+duplex illud cognitionis genus (*) Philoſophi agnoſcunt, unamque
+vivam &amp; efficacem, alteram mortuam, otioſam, ſterilem eſſe do-
+cent. Cum vero cognitionis, quæ in rebus humanis ſenſuique
+&amp; rationi ſubjectis verſatur, non eadem prorſus ratio ſit, atque
+illius, quæ ex S. literis profecta divinas res &amp; ſpitituales ample-
+ctitur, non ſine cauſa utique nec inutiliter quæritur, num utrum-
+que illud cognitionis genus in rebus etiam ſacris locum habeat,
+quæve utriusque, ſi legitima ſit illa diſtinctio, natura ſit &amp; in-
+doles. Res ipſa etiam, quia non omnes Theologi idem ſentire
+videntur, digna eſt, quæ paullo plenius &amp; diſtinctius exponatur.
+(*) Chr. WOLFIUS: Cognitio viva dicitur, quæ fit motivum vo-
+luntatis vel noluntatis. Aſt mortua vocatur cognitio, quæ non fit mo-
+tivum Voluntatis vel noluntatis. Ph Pr. Univ. P. II. §. 244. &amp;
+Ven. ERNESTI in Init. Phil. Mor. c. V. §.63. Cognitio, inquit,
+boni &amp; mali, qua ad voluntatem refertur, duplex eſt: altera vi-
+va &amp; efficax, mortua altera &amp; otioſa. Superior ejusmodi eſt,
+ut habeat voluntatem ſequacem, altera, ut nullam in Voluntatem
+vim habeat. ldemque porro paucis egregie docet, unde &amp; quo-
+modo viva fiat cognitio. Viva autem, ait, &amp; efficax multis re-
+bus fit: primo, ſi certa eſt minimeque dubia, deinde, ſi non
+generalis ſolum, ſed rei propoſitæ accommodata: porro, fi præ-
+ſens ſemper in ipſo ad actionem acceſſu: denique, ſi commotio-
+nes animi non adverſas, ſed adjutrices potius habet. ibid.
+§. VI. Antiquiores Eccleſiæ noſtræ Theologi duplex illud
+cognitionis genus in rebus etiam divinis &amp; ſpiritualibus non agno-
+verunt modo, ſed graviſſime etiam, ut maximi momenti rem,
 inculcare ſoliti ſunt; uſi vero diſtinctione illa plerumque ita ſunt,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682413424949_1233" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682413424949_1233" custom="readingOrder {index:3;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="956,2372 956,2414 1036,2414 1036,2372"/>
       <TextLine id="line_1682413425115_1236" custom="readingOrder {index:0;}">
         <Coords points="956,2372 956,2414 1036,2414 1036,2372"/>
@@ -2343,7 +2356,7 @@ inculcare ſoliti ſunt; uſi vero diſtinctione illa plerumque ita ſunt,</Unic
         <Unicode>B 2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682413428212_1242" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1682413428212_1242" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1574,2387 1574,2423 1632,2423 1632,2387"/>
       <TextLine id="line_1682413428308_1245" custom="readingOrder {index:0;}">
         <Coords points="1574,2387 1574,2423 1632,2423 1632,2387"/>
@@ -2361,5 +2374,8 @@ inculcare ſoliti ſunt; uſi vero diſtinctione illa plerumque ita ſunt,</Unic
         <Unicode>ut</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1663571732960_1382" custom="readingOrder {index:1;}">
+      <Coords points="1152,577 875,577 875,499 1152,499"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

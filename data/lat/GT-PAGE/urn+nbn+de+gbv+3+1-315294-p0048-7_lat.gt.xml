@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-128">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:05Z</Created>
     <LastChange>2024-01-19T13:08:05Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a5bec831-6d3b-493f-99b6-e343d5af947e/00000048.jpg" imageWidth="2659" imageHeight="2941" type="content" primaryLanguage="Latin">
     <Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1654684722842_166"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.47905996" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:0;}">
+    <TextRegion id="region0004" custom="readingOrder {index:0;}" orientation="0.47905996" readingDirection="left-to-right">
       <Coords points="1182,555 2469,555 2469,873 1182,873"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1194,556 1192,566 1182,566 1183,616 1276,617 1305,621 1316,629 1339,628 1346,621 1435,615 1464,617 1470,623 1479,623 1485,616 1553,614 1655,616 1657,625 1667,628 1686,625 1688,616 1706,615 1878,617 1921,617 1934,614 1943,618 2257,615 2317,614 2333,612 2343,608 2386,608 2400,603 2420,605 2469,600 2468,556 2463,555 2369,556 2296,561 2279,556 2212,555 2201,562 2191,565 2134,566 2127,565 2124,558 2117,555 2075,556 2071,565 2066,566 2062,556 2041,556 2038,561 2009,557 1964,557 1926,563 1923,556 1901,556 1898,566 1874,566 1832,566 1826,556 1811,556 1806,565 1770,565 1769,557 1766,555 1746,555 1743,565 1569,564 1563,556 1535,556 1529,564 1304,566 1286,565 1281,555"/>
@@ -235,7 +251,7 @@ meritis aliquanto facilior poſteris ad honores aditus
 panderetur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.47905996" type="heading" readingDirection="left-to-right" id="TextRegion_1654684722842_167" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1654684722842_167" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.47905996" type="heading" readingDirection="left-to-right">
       <Coords points="1189,908 2480,908 2480,982 1189,982"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1655,908 1645,909 1640,914 1640,949 1648,955 1648,974 1653,979 1764,976 1820,969 1998,965 2003,960 2002,937 2023,936 2028,931 2028,909"/>
@@ -260,10 +276,10 @@ panderetur.</Unicode>
         <Unicode>§. XXV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.47905996" readingDirection="left-to-right" id="TextRegion_1654684722842_166" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1654684722842_166" custom="readingOrder {index:2;}" orientation="0.47905996" readingDirection="left-to-right">
       <Coords points="1189,982 2480,982 2481,2306 2469,2360 1189,2394 1189,2329"/>
       <TextLine id="region0006_line0002" custom="readingOrder {index:0;}">
-        <Coords points="2352,973 2347,978 2346,993 2272,995 2265,986 2238,983 2221,986 2216,996 2212,996 2210,988 2200,983 2187,984 2183,997 2081,998 2078,988 2074,985 2057,985 2053,988 2051,996 2029,995 2027,988 2021,984 2005,985 2000,995 1966,995 1964,987 1960,984 1918,987 1910,997 1857,997 1672,993 1394,995 1387,992 1350,993 1333,990 1327,985 1317,985 1313,988 1241,988 1236,993 1236,1043 1245,1049 1424,1045 1425,1052 1431,1055 1448,1049 1454,1043 1592,1044 1622,1047 1628,1054 1645,1056 1654,1054 1661,1045 2033,1049 2277,1047 2296,1044 2330,1045 2375,1043 2412,1032 2480,1026 2480,974"/>
+        <Coords points="2346,993 2272,995 2265,986 2238,983 2221,986 2216,996 2212,996 2210,988 2200,983 2187,984 2183,997 2081,998 2078,988 2074,985 2057,985 2053,988 2051,996 2029,995 2027,988 2021,984 2005,985 2000,995 1966,995 1964,987 1960,984 1918,987 1910,997 1857,997 1672,993 1394,995 1387,992 1350,993 1333,990 1327,985 1317,985 1313,988 1241,988 1236,993 1236,1043 1245,1049 1424,1045 1425,1052 1431,1055 1448,1049 1454,1043 1592,1044 1622,1047 1628,1054 1645,1056 1654,1054 1661,1045 2033,1049 2277,1047 2296,1044 2330,1045 2375,1043 2412,1032 2480,1026 2480,982 2346,982"/>
         <Baseline points="1236,1038 2282,1036 2480,1018"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="1300,994 1300,1047 1424,1045 1424,1050 1445,1049 1448,1049 1454,1043 1554,1043 1554,993 1394,995 1390,993"/>
@@ -791,13 +807,13 @@ panderetur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1654685210948_220" custom="readingOrder {index:7;}">
-          <Coords points="1879,1562 1897,1542 1947,1542 2172,1555 2175,1589 1900,1595 1880,1596"/>
+          <Coords points="1879,1562 1880,1596 1900,1595 2175,1589 2172,1555 1972,1552 1961,1551 1947,1542 1896,1542"/>
           <TextEquiv>
             <Unicode>(Senatorem</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1654685237339_226" custom="readingOrder {index:8;}">
-          <Coords points="2197,1536 2454,1507 2469,1507 2470,1566 2431,1586 2198,1588"/>
+          <Coords points="2454,1507 2440,1515 2439,1532 2371,1538 2367,1529 2361,1529 2350,1534 2345,1543 2287,1550 2256,1550 2254,1542 2248,1536 2197,1536 2198,1588 2431,1586 2470,1566 2469,1507"/>
           <TextEquiv>
             <Unicode>Sicyonium)</Unicode>
           </TextEquiv>
@@ -1097,7 +1113,7 @@ panderetur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1654685401024_279" custom="readingOrder {index:2;}">
-          <Coords points="1490,1944 1507,1941 1713,1941 1749,1972 1749,1996 1727,2008 1490,2008"/>
+          <Coords points="1490,2008 1727,2008 1749,1996 1749,1972 1732,1958 1721,1958 1721,1948 1713,1941 1691,1944 1679,1957 1648,1957 1608,1955 1604,1944 1590,1949 1577,1943 1572,1943 1568,1947 1507,1941 1503,1944 1490,1944"/>
           <TextEquiv>
             <Unicode>Melitenſis,</Unicode>
           </TextEquiv>
@@ -1388,7 +1404,7 @@ panderetur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0001" custom="readingOrder {index:21;}">
-        <Coords points="1386,2306 1382,2312 1383,2326 1345,2323 1338,2313 1309,2313 1303,2323 1292,2324 1193,2324 1193,2373 1206,2373 1208,2384 1213,2389 1278,2388 1286,2384 1286,2376 1289,2375 1407,2376 1439,2381 1650,2380 1868,2384 2237,2382 2285,2376 2369,2372 2433,2361 2449,2352 2480,2352 2480,2309 2462,2306 2434,2307 2348,2318 2340,2318 2334,2311 2320,2312 2315,2316 2313,2323 2305,2316 2294,2316 2286,2327 2251,2330 2238,2330 2234,2321 2220,2319 2213,2324 2211,2331 2171,2333 2169,2324 2161,2319 2145,2319 2139,2322 2132,2332 2098,2332 2089,2322 2075,2324 2070,2332 2053,2331 2042,2321 2025,2322 2015,2331 1929,2333 1871,2331 1869,2322 1864,2318 1838,2321 1833,2325 1831,2332 1728,2329 1534,2329 1520,2327 1515,2318 1502,2316 1492,2317 1484,2323 1433,2323 1412,2326 1412,2314 1408,2306"/>
+        <Coords points="1382,2312 1383,2326 1345,2323 1338,2313 1309,2313 1303,2323 1292,2324 1193,2324 1193,2373 1206,2373 1208,2384 1213,2389 1278,2388 1286,2384 1286,2376 1289,2375 1407,2376 1439,2381 1650,2380 1689,2380 2433,2360 2449,2352 2470,2352 2480,2310 2480,2309 2462,2306 2434,2307 2348,2318 2340,2318 2334,2311 2320,2312 2315,2316 2313,2323 2305,2316 2294,2316 2286,2327 2251,2330 2238,2330 2234,2321 2220,2319 2213,2324 2211,2331 2171,2333 2169,2324 2161,2319 2145,2319 2139,2322 2132,2332 2098,2332 2089,2322 2075,2324 2070,2332 2053,2331 2042,2321 2025,2322 2015,2331 1929,2333 1871,2331 1869,2322 1864,2318 1838,2321 1833,2325 1831,2332 1728,2329 1534,2329 1520,2327 1515,2318 1502,2316 1492,2317 1484,2323 1433,2323 1412,2326 1412,2314 1408,2306 1386,2306"/>
         <Baseline points="1193,2366 2209,2373 2480,2343"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="1386,2306 1382,2312 1383,2326 1345,2323 1338,2313 1309,2313 1303,2323 1292,2324 1198,2324 1198,2373 1206,2373 1207,2376 1289,2375 1289,2375 1298,2375 1414,2374 1414,2326 1412,2326 1412,2314 1408,2306"/>
@@ -1437,27 +1453,27 @@ panderetur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Antequam argumentum illud de nobilitate Ro-&#13;
-mana per ſtatum urbis Democraticum oppreſſa relin-&#13;
-quamus, monenda circa eandem ſequentia ſunt. Pri-&#13;
-mo quidem, quod dignitas illa quoad floruit, mœnia&#13;
-urbis non fuerit egreſſa, aut cum exteris communicari&#13;
-ſolita, adeo ut ne capita quidem aut membra præci-&#13;
-pua alienæ Reipublicæ, eodem fere apud ſuos honoris&#13;
-gradu ornata, nobiles ſine addito appellarentur. Ita&#13;
-Cicero III. Verrina, Ignem inquit ex lignis viridibus atq; humi-&#13;
-dis in loco anguſto fieri juſſit ibi (Senatorem Sicyonium)&#13;
-hominem ingenuum Domi nobilem populi Romani ſocium atq;&#13;
-amicum fumo excruciatum ſemivivum reliquit. Idem Verrin.&#13;
-IV. Heraclius eſt Hieronis Filius Syracuſanus, homo inprimis&#13;
-domi ſuæ nobilis. Verrin. V. Pillenus Herbitenſis homo&#13;
-dicitur diſertus &amp; prudens &amp; domi nobilis, itemque Verrin.&#13;
-VI. Diodorus Melitenſis, homo domi nobilis vocatur, &amp;&#13;
-apud eos quo ſe contulerit ſplendidus. Quorum verborum&#13;
-manifeſtus ſenſus ille eſt, Diodorum hunc in Patria&#13;
-quidem iisdem fere honoribus functum, eodem jure&#13;
-præditum, quod Romæ nobiles habeant, fuiſſe, interim&#13;
-Romæ quantumvis ſplendidum virum nobilem haud&#13;
+        <Unicode>Antequam argumentum illud de nobilitate Ro-
+mana per ſtatum urbis Democraticum oppreſſa relin-
+quamus, monenda circa eandem ſequentia ſunt. Pri-
+mo quidem, quod dignitas illa quoad floruit, mœnia
+urbis non fuerit egreſſa, aut cum exteris communicari
+ſolita, adeo ut ne capita quidem aut membra præci-
+pua alienæ Reipublicæ, eodem fere apud ſuos honoris
+gradu ornata, nobiles ſine addito appellarentur. Ita
+Cicero III. Verrina, Ignem inquit ex lignis viridibus atq; humi-
+dis in loco anguſto fieri juſſit ibi (Senatorem Sicyonium)
+hominem ingenuum Domi nobilem populi Romani ſocium atq;
+amicum fumo excruciatum ſemivivum reliquit. Idem Verrin.
+IV. Heraclius eſt Hieronis Filius Syracuſanus, homo inprimis
+domi ſuæ nobilis. Verrin. V. Pillenus Herbitenſis homo
+dicitur diſertus &amp; prudens &amp; domi nobilis, itemque Verrin.
+VI. Diodorus Melitenſis, homo domi nobilis vocatur, &amp;
+apud eos quo ſe contulerit ſplendidus. Quorum verborum
+manifeſtus ſenſus ille eſt, Diodorum hunc in Patria
+quidem iisdem fere honoribus functum, eodem jure
+præditum, quod Romæ nobiles habeant, fuiſſe, interim
+Romæ quantumvis ſplendidum virum nobilem haud
 appellari. Secus ac moribus noſtris fieri videmus,</Unicode>
       </TextEquiv>
     </TextRegion>

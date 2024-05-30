@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-146">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:18Z</Created>
     <LastChange>2024-01-19T13:08:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/afcc4749-ba9c-44e1-b48c-822cbb8bfea5/00000048.jpg" imageWidth="2179" imageHeight="2823" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1661426365358_333"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.23418088" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.23418088" type="heading" readingDirection="left-to-right">
       <Coords points="575,527 1805,527 1805,744 575,744"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="789,527 781,539 781,598 784,602 793,604 795,643 801,647 821,649 981,649 1052,643 1068,646 1075,642 1143,649 1366,646 1554,653 1707,651 1743,646 1747,641 1746,600 1770,599 1776,593 1776,534 1771,529 1491,531 1312,527 1057,527 964,530 961,527 924,528 920,533 903,534 812,534 808,527"/>
@@ -56,11 +72,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>AVCTORI&#13;
+        <Unicode>AVCTORI
 HVIVS DISSERTATIONIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0005" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.23418088" type="heading" readingDirection="left-to-right">
       <Coords points="817,754 1871,754 1871,884 817,884"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="952,754 947,759 948,800 953,805 963,806 1227,807 1243,804 1248,807 1267,808 1416,806 1422,812 1431,811 1439,804 1515,801 1520,796 1519,758 1516,754"/>
@@ -95,11 +111,11 @@ HVIVS DISSERTATIONIS</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>DOCTISSIMO,&#13;
+        <Unicode>DOCTISSIMO,
 AMICO CANDIDISSIMO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.23418088" type="heading" readingDirection="left-to-right">
       <Coords points="1139,914 1671,914 1671,986 1139,986"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1172,935 1139,936 1139,983 1142,986 1249,979 1281,983 1417,982 1427,980 1432,975 1432,941 1427,936"/>
@@ -129,18 +145,18 @@ AMICO CANDIDISSIMO</Unicode>
         <Unicode>S. P. D.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.23418088" type="heading" readingDirection="left-to-right">
       <Coords points="642,1017 1864,1017 1864,1090 642,1090"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="679,1018 642,1021 642,1085 658,1085 665,1089 679,1086 726,1090 1065,1082 1214,1088 1308,1087 1353,1083 1385,1087 1392,1083 1403,1083 1431,1084 1436,1088 1448,1085 1478,1088 1713,1085 1717,1088 1732,1088 1736,1085 1795,1084 1820,1088 1837,1086 1840,1089 1859,1089 1863,1086 1863,1017 1351,1018 1341,1021 1317,1019 1309,1022 1274,1022 1267,1018 1241,1022 1215,1018 1161,1020 1130,1017 943,1018 940,1021 928,1021 925,1018 906,1018 895,1021 886,1017 779,1017 775,1020 759,1018"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="1037,1019 644,1021 648,1085 658,1085 665,1089 679,1086 726,1090 1041,1082"/>
+          <Coords points="941,1019 940,1021 928,1021 926,1019 899,1019 895,1021 892,1019 644,1021 648,1085 658,1085 665,1089 679,1086 726,1090 1041,1082 1037,1019"/>
           <TextEquiv conf="0.7800865">
             <Unicode>WILHELMVS</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0001_word0001" custom="readingOrder {index:1;}">
-          <Coords points="1497,1018 1075,1019 1075,1082 1214,1088 1308,1087 1353,1083 1385,1087 1392,1083 1403,1083 1431,1084 1436,1088 1448,1085 1478,1088 1497,1087"/>
+          <Coords points="1349,1018 1341,1021 1317,1019 1309,1022 1274,1022 1267,1018 1263,1018 1241,1022 1219,1018 1195,1018 1161,1020 1148,1018 1075,1019 1075,1082 1214,1088 1308,1087 1353,1083 1385,1087 1392,1083 1403,1083 1431,1084 1436,1088 1448,1085 1478,1088 1497,1087 1497,1018"/>
           <TextEquiv conf="0.90889627">
             <Unicode>HERMANNVS</Unicode>
           </TextEquiv>
@@ -159,7 +175,7 @@ AMICO CANDIDISSIMO</Unicode>
         <Unicode>WILHELMVS HERMANNVS BEAUVAIS,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" type="heading" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0008" custom="readingOrder {index:4;} structure {type:heading;}" orientation="0.23418088" type="heading" readingDirection="left-to-right">
       <Coords points="1032,1090 1481,1090 1481,1148 1032,1148"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1260,1091 1260,1103 1032,1098 1032,1147 1480,1147 1480,1104 1440,1104 1435,1100 1427,1100 1421,1104 1288,1104 1285,1102 1284,1091"/>
@@ -183,7 +199,7 @@ AMICO CANDIDISSIMO</Unicode>
         <Unicode>HALLENS. OPPON.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1661426369504_338" custom="readingOrder {index:5;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1661426369504_338" custom="readingOrder {index:5;} structure {type:drop-capital;}" orientation="0.23418088" type="drop-capital" readingDirection="left-to-right">
       <Coords points="572,1229 712,1229 712,1384 572,1384"/>
       <TextLine id="line_1661426380811_356" custom="readingOrder {index:0;}">
         <Coords points="615,1241 683,1236 692,1236 712,1242 712,1329 712,1384 684,1384 611,1377 606,1370 606,1362 606,1263 609,1245"/>
@@ -202,7 +218,7 @@ AMICO CANDIDISSIMO</Unicode>
         <Unicode>E</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" readingDirection="left-to-right" id="TextRegion_1661426369503_337" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1661426369503_337" custom="readingOrder {index:6;}" orientation="0.23418088" readingDirection="left-to-right">
       <Coords points="712,1229 1907,1229 1907,1384 712,1384"/>
       <TextLine id="line_1661426369545_340" custom="readingOrder {index:0;}">
         <Coords points="712,1242 728,1241 733,1233 739,1231 790,1229 811,1231 817,1238 841,1237 862,1240 940,1239 945,1229 972,1231 979,1239 1036,1238 1038,1229 1061,1229 1064,1240 1121,1240 1125,1234 1133,1233 1135,1230 1157,1230 1159,1241 1163,1243 1239,1241 1241,1229 1260,1229 1263,1241 1335,1239 1340,1229 1367,1229 1365,1239 1387,1241 1482,1239 1494,1238 1500,1232 1512,1232 1524,1240 1636,1239 1681,1242 1762,1240 1764,1234 1770,1230 1819,1229 1824,1234 1825,1245 1837,1245 1838,1237 1843,1232 1865,1229 1871,1235 1874,1245 1906,1245 1907,1282 1875,1285 1864,1299 1860,1299 1851,1292 1853,1283 1848,1277 1832,1289 1802,1285 1799,1290 1790,1294 1781,1294 1768,1283 1733,1285 1518,1282 1475,1283 1472,1293 1459,1295 1449,1292 1447,1283 1398,1290 1373,1284 1333,1282 1331,1293 1319,1295 1310,1292 1309,1282 1303,1277 1295,1277 1290,1282 1251,1283 1041,1279 860,1280 715,1284 712,1281"/>
@@ -251,7 +267,7 @@ AMICO CANDIDISSIMO</Unicode>
         </Word>
         <Word id="region0009_line0001_word0007" custom="readingOrder {index:7;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1896,1245 1874,1245 1871,1235 1865,1229 1843,1232 1838,1237 1837,1245 1825,1245 1824,1234 1819,1229 1770,1230 1764,1234 1762,1240 1747,1240 1748,1283 1768,1283 1840,1283 1848,1277 1853,1283 1896,1283 1897,1283"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>teſſeram</Unicode>
           </TextEquiv>
         </Word>
@@ -321,7 +337,7 @@ AMICO CANDIDISSIMO</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1661426369556_346" custom="readingOrder {index:2;}">
-        <Coords points="712,1329 714,1330 721,1337 721,1345 762,1345 768,1337 779,1336 787,1345 855,1346 856,1336 861,1333 941,1333 948,1339 955,1339 964,1332 993,1332 1008,1333 1017,1343 1060,1344 1084,1348 1089,1340 1105,1335 1114,1337 1119,1346 1130,1346 1131,1335 1136,1332 1148,1332 1152,1335 1152,1346 1181,1346 1185,1334 1204,1332 1208,1334 1209,1345 1334,1345 1338,1338 1350,1336 1358,1344 1386,1343 1414,1348 1426,1343 1443,1345 1445,1335 1459,1333 1464,1335 1466,1345 1634,1344 1642,1347 1655,1334 1663,1333 1673,1333 1683,1340 1696,1333 1711,1337 1717,1330 1722,1330 1729,1337 1771,1337 1772,1332 1782,1323 1788,1324 1794,1333 1799,1333 1811,1326 1851,1327 1860,1323 1868,1327 1907,1326 1907,1380 1722,1378 1714,1385 1705,1376 1696,1376 1683,1380 1650,1379 1635,1383 1607,1382 1601,1386 1595,1386 1591,1382 1568,1382 1511,1384 1503,1388 1491,1383 1399,1386 1395,1389 1386,1389 1383,1386 1343,1384 1214,1384 1200,1388 1158,1386 1029,1385 1018,1386 1015,1396 1002,1398 995,1396 993,1387 979,1388 973,1384 776,1386 712,1384"/>
+        <Coords points="1868,1327 1860,1323 1851,1327 1811,1326 1799,1333 1794,1333 1788,1324 1782,1323 1772,1332 1771,1337 1729,1337 1722,1330 1717,1330 1711,1337 1696,1333 1683,1340 1673,1333 1663,1333 1655,1334 1642,1347 1634,1344 1466,1345 1464,1335 1459,1333 1445,1335 1443,1345 1426,1343 1414,1348 1386,1343 1358,1344 1350,1336 1338,1338 1334,1345 1209,1345 1208,1334 1204,1332 1185,1334 1181,1346 1152,1346 1152,1335 1148,1332 1136,1332 1131,1335 1130,1346 1119,1346 1114,1337 1105,1335 1089,1340 1084,1348 1060,1344 1017,1343 1008,1333 993,1332 964,1332 955,1339 948,1339 941,1333 861,1333 856,1336 855,1346 787,1345 779,1336 768,1337 762,1345 721,1345 721,1337 714,1330 712,1329 712,1384 973,1384 1214,1384 1343,1384 1460,1384 1491,1383 1493,1384 1511,1384 1568,1382 1591,1382 1593,1384 1604,1384 1607,1382 1635,1383 1650,1379 1683,1380 1696,1376 1705,1376 1713,1384 1715,1384 1722,1378 1907,1380 1907,1326"/>
         <Baseline points="712,1374 1907,1370"/>
         <Word id="word_1661426547925_425" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="740,1346 828,1346 828,1379 740,1379"/>
@@ -342,7 +358,7 @@ AMICO CANDIDISSIMO</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426561819_434" custom="readingOrder {index:3;} textStyle {offset:0; length:13;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1008,1344 1292,1344 1292,1383 1008,1383"/>
+          <Coords points="1008,1344 1008,1383 1292,1383 1292,1345 1209,1345 1208,1344 1181,1344 1181,1346 1152,1346 1152,1344 1130,1344 1130,1346 1119,1346 1117,1344 1086,1344 1084,1348 1060,1344"/>
           <TextEquiv>
             <Unicode>prædicandarum</Unicode>
           </TextEquiv>
@@ -360,19 +376,19 @@ AMICO CANDIDISSIMO</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426569475_443" custom="readingOrder {index:6;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1623,1344 1661,1344 1661,1374 1623,1374"/>
+          <Coords points="1623,1374 1661,1374 1661,1344 1645,1344 1642,1347 1634,1344 1623,1344"/>
           <TextEquiv>
             <Unicode>ob</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426571417_446" custom="readingOrder {index:7;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1683,1338 1776,1338 1776,1378 1683,1378"/>
+          <Coords points="1776,1378 1776,1338 1686,1338 1683,1340 1683,1378 1689,1378 1696,1376 1705,1376 1707,1378 1722,1378"/>
           <TextEquiv>
             <Unicode>dotes</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426572991_449" custom="readingOrder {index:8;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1805,1328 1898,1328 1898,1381 1805,1381"/>
+          <Coords points="1898,1328 1807,1328 1805,1329 1805,1378 1898,1379"/>
           <TextEquiv>
             <Unicode>TVI</Unicode>
           </TextEquiv>
@@ -382,15 +398,15 @@ AMICO CANDIDISSIMO</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>n! litteras licet brevibus conceptas, optimam tamen teſſeram&#13;
-Amici TE perdiligentis. Non eas paucis concipio, ob penu-&#13;
+        <Unicode>n! litteras licet brevibus conceptas, optimam tamen teſſeram
+Amici TE perdiligentis. Non eas paucis concipio, ob penu-
 riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.23418088" readingDirection="left-to-right" id="TextRegion_1661426365358_333" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1661426365358_333" custom="readingOrder {index:7;}" orientation="0.23418088" readingDirection="left-to-right">
       <Coords points="572,1384 1907,1384 1907,2369 1906,2407 619,2421 572,2369"/>
       <TextLine id="region0009_line0004" custom="readingOrder {index:0;}">
-        <Coords points="1696,1377 1687,1378 1677,1388 1663,1388 1661,1382 1650,1380 1636,1386 1607,1383 1601,1387 1595,1387 1591,1383 1568,1383 1511,1385 1500,1389 1491,1384 1459,1384 1443,1388 1428,1387 1421,1395 1391,1395 1383,1387 1373,1387 1365,1393 1354,1387 1328,1385 1324,1387 1322,1395 1302,1395 1268,1394 1261,1388 1252,1388 1246,1394 1227,1394 1225,1386 1214,1385 1201,1389 1200,1395 1071,1396 1010,1399 985,1396 972,1402 963,1401 958,1405 954,1405 953,1402 945,1404 942,1401 941,1387 930,1388 924,1394 911,1396 877,1397 873,1386 858,1385 845,1387 840,1396 760,1398 754,1398 746,1389 738,1389 724,1390 716,1399 664,1401 639,1401 632,1392 619,1391 611,1400 573,1400 573,1439 590,1439 596,1444 607,1444 612,1439 639,1440 645,1447 665,1448 679,1439 710,1438 725,1433 734,1433 742,1438 919,1436 939,1427 953,1426 961,1435 998,1435 1001,1432 1019,1435 1024,1431 1032,1431 1051,1440 1061,1440 1080,1430 1088,1431 1095,1436 1127,1432 1143,1437 1170,1436 1184,1431 1195,1438 1211,1430 1226,1432 1239,1429 1245,1435 1256,1431 1267,1433 1278,1427 1306,1443 1313,1441 1313,1431 1319,1431 1326,1437 1331,1436 1335,1441 1342,1442 1353,1434 1380,1428 1389,1429 1394,1435 1406,1429 1412,1434 1419,1433 1433,1437 1463,1434 1480,1427 1515,1434 1531,1431 1540,1433 1547,1429 1554,1429 1559,1433 1577,1426 1587,1429 1663,1428 1672,1434 1680,1433 1690,1427 1733,1428 1737,1431 1748,1428 1782,1427 1907,1430 1907,1388 1726,1389 1714,1388 1705,1377"/>
+        <Coords points="1677,1388 1663,1388 1661,1384 1640,1384 1636,1386 1616,1384 1605,1384 1601,1387 1595,1387 1592,1384 1539,1384 1511,1385 1500,1389 1491,1384 1459,1384 1443,1388 1428,1387 1421,1395 1391,1395 1383,1387 1373,1387 1365,1393 1354,1387 1328,1385 1324,1387 1322,1395 1302,1395 1268,1394 1261,1388 1252,1388 1246,1394 1227,1394 1225,1386 1214,1385 1201,1389 1200,1395 1071,1396 1010,1399 985,1396 972,1402 963,1401 958,1405 954,1405 953,1402 945,1404 942,1401 941,1387 930,1388 924,1394 911,1396 877,1397 873,1386 858,1385 845,1387 840,1396 760,1398 754,1398 746,1389 738,1389 724,1390 716,1399 664,1401 639,1401 632,1392 619,1391 611,1400 573,1400 573,1439 590,1439 596,1444 607,1444 612,1439 639,1440 645,1447 665,1448 679,1439 710,1438 725,1433 734,1433 742,1438 919,1436 939,1427 953,1426 961,1435 998,1435 1001,1432 1019,1435 1024,1431 1032,1431 1051,1440 1061,1440 1080,1430 1088,1431 1095,1436 1127,1432 1143,1437 1170,1436 1184,1431 1195,1438 1211,1430 1226,1432 1239,1429 1245,1435 1256,1431 1267,1433 1278,1427 1306,1443 1313,1441 1313,1431 1319,1431 1326,1437 1331,1436 1335,1441 1342,1442 1353,1434 1380,1428 1389,1429 1394,1435 1406,1429 1412,1434 1419,1433 1433,1437 1463,1434 1480,1427 1515,1434 1531,1431 1540,1433 1547,1429 1554,1429 1559,1433 1577,1426 1587,1429 1663,1428 1672,1434 1680,1433 1690,1427 1733,1428 1737,1431 1748,1428 1782,1427 1907,1430 1907,1388 1726,1389 1714,1388 1710,1384 1681,1384"/>
         <Baseline points="573,1429 1907,1420"/>
         <Word id="region0009_line0004_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="737,1389 724,1390 716,1399 664,1401 639,1401 632,1392 619,1391 611,1400 598,1400 598,1433 745,1432 745,1389"/>
@@ -466,7 +482,7 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426773090_598" custom="readingOrder {index:3;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1007,1434 1024,1432 1078,1431 1084,1431 1184,1432 1228,1435 1228,1471 1205,1473 1140,1477 1056,1477 1007,1476"/>
+          <Coords points="1205,1473 1228,1471 1228,1435 1209,1433 1205,1440 1193,1439 1184,1432 1174,1434 1169,1440 1157,1440 1132,1438 1127,1433 1115,1433 1108,1438 1095,1438 1088,1432 1080,1431 1061,1441 1044,1439 1032,1432 1024,1432 1019,1436 1007,1434 1007,1476 1026,1476 1041,1476 1048,1476 1056,1477 1140,1477 1149,1476 1184,1473 1198,1473"/>
           <TextEquiv>
             <Unicode>vulgatum,</Unicode>
           </TextEquiv>
@@ -479,7 +495,7 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
         </Word>
         <Word id="region0009_line0005_word0006" custom="readingOrder {index:5;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1387,1473 1387,1432 1366,1432 1353,1435 1351,1436 1351,1467 1356,1473"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ob</Unicode>
           </TextEquiv>
         </Word>
@@ -747,7 +763,7 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661426925912_657" custom="readingOrder {index:1;} textStyle {offset:0; length:12;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="864,1700 954,1686 1030,1683 1128,1697 1128,1722 1091,1737 864,1738"/>
+          <Coords points="864,1738 1091,1737 1128,1722 1128,1697 1088,1695 1035,1699 1036,1687 1030,1683 1020,1684 1015,1688 1015,1699 999,1699 997,1690 991,1686 976,1687 972,1700 968,1691 954,1686 937,1691 935,1701 864,1700"/>
           <TextEquiv>
             <Unicode>prodiderunt?</Unicode>
           </TextEquiv>
@@ -857,7 +873,7 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
         <Coords points="1111,1786 1102,1794 1101,1799 1080,1797 1078,1792 1067,1790 1052,1793 1050,1798 986,1802 893,1800 864,1802 859,1794 844,1794 838,1800 836,1795 831,1793 816,1794 809,1802 795,1802 793,1791 786,1790 779,1796 779,1804 750,1805 745,1800 735,1800 731,1803 725,1797 704,1796 696,1799 694,1809 647,1809 645,1800 636,1798 622,1812 573,1813 573,1847 590,1847 596,1840 601,1840 607,1847 625,1848 730,1845 736,1848 761,1848 790,1843 793,1851 810,1853 817,1850 820,1842 887,1845 901,1842 909,1836 928,1833 934,1835 941,1843 989,1842 1001,1838 1012,1838 1016,1841 1072,1841 1118,1837 1131,1852 1139,1850 1145,1841 1165,1839 1186,1841 1255,1842 1258,1853 1274,1858 1286,1855 1288,1843 1342,1845 1343,1853 1352,1857 1369,1854 1371,1845 1382,1843 1434,1845 1477,1845 1483,1842 1496,1842 1504,1844 1506,1852 1511,1855 1541,1857 1547,1853 1554,1853 1560,1858 1587,1858 1591,1861 1614,1856 1616,1848 1629,1851 1642,1842 1648,1843 1652,1858 1686,1858 1702,1852 1713,1852 1718,1848 1830,1846 1836,1849 1854,1849 1861,1841 1867,1841 1875,1849 1907,1848 1907,1806 1879,1806 1875,1796 1865,1790 1841,1794 1836,1808 1816,1809 1791,1808 1787,1798 1768,1792 1754,1795 1753,1807 1655,1808 1645,1806 1643,1798 1637,1794 1624,1793 1607,1794 1603,1805 1598,1805 1596,1799 1587,1794 1541,1794 1523,1803 1511,1799 1508,1795 1493,1795 1472,1802 1451,1803 1449,1794 1443,1792 1427,1794 1425,1804 1394,1804 1383,1791 1370,1794 1368,1801 1315,1803 1255,1801 1247,1793 1236,1793 1229,1801 1205,1801 1204,1792 1200,1790 1190,1789 1184,1794 1175,1788 1170,1788 1164,1794 1147,1792 1130,1800 1125,1799 1120,1790"/>
         <Baseline points="573,1839 1106,1829 1529,1834"/>
         <Word id="word_1661426977294_676" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="635,1798 726,1798 745,1800 752,1804 752,1838 748,1848 736,1848 604,1839 604,1812"/>
+          <Coords points="698,1798 696,1799 694,1809 647,1809 645,1800 636,1798 622,1812 604,1812 604,1839 703,1845 730,1845 736,1848 748,1848 752,1838 752,1804 750,1805 745,1800 735,1800 731,1803 726,1798"/>
           <TextEquiv>
             <Unicode>hendi,</Unicode>
           </TextEquiv>
@@ -1052,13 +1068,13 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661427134249_731" custom="readingOrder {index:5;} textStyle {offset:0; length:10;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1340,1948 1349,1946 1536,1948 1552,1949 1552,1998 1511,1999 1422,2001 1335,2001 1334,1955"/>
+          <Coords points="1340,1948 1334,1955 1335,2001 1365,2001 1364,1994 1367,1992 1376,1999 1400,1998 1406,1993 1412,1993 1417,2001 1422,2001 1432,2000 1438,1996 1454,1999 1511,1999 1552,1998 1552,1949 1536,1948 1522,1949 1519,1952 1515,1949 1493,1948 1488,1951 1485,1960 1471,1961 1461,1958 1407,1958 1403,1955 1369,1959 1367,1949 1349,1946"/>
           <TextEquiv>
             <Unicode>ſpargendis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1661427145794_737" custom="readingOrder {index:6;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1557,1951 1676,1950 1676,1984 1659,1985 1557,1984"/>
+          <Coords points="1557,1951 1557,1984 1659,1985 1676,1984 1676,1950 1620,1950 1606,1956 1599,1950 1573,1950 1572,1951 1570,1950"/>
           <TextEquiv>
             <Unicode>TIBI</Unicode>
           </TextEquiv>
@@ -1501,7 +1517,7 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0010_line0001" custom="readingOrder {index:19;}">
-        <Coords points="1085,2355 1076,2368 1005,2368 927,2374 923,2359 907,2358 888,2372 824,2372 818,2365 808,2365 802,2359 793,2359 785,2361 778,2372 767,2373 751,2374 745,2362 731,2361 718,2374 619,2375 619,2417 686,2416 690,2418 690,2425 695,2430 717,2431 739,2429 743,2414 763,2414 768,2427 781,2428 790,2422 793,2414 941,2416 1059,2408 1064,2420 1079,2422 1086,2416 1090,2407 1146,2407 1175,2412 1516,2412 1554,2415 1558,2418 1594,2416 1599,2425 1616,2427 1625,2423 1627,2413 1715,2410 1748,2413 1814,2409 1827,2397 1902,2399 1902,2357 1757,2355 1754,2366 1734,2369 1670,2372 1664,2365 1653,2365 1647,2374 1590,2374 1424,2372 1423,2364 1417,2358 1406,2359 1397,2371 1346,2371 1344,2363 1339,2359 1325,2361 1321,2371 1296,2368 1263,2370 1262,2363 1257,2358 1186,2359 1161,2366 1113,2367 1110,2355"/>
+        <Coords points="1076,2368 1005,2368 927,2374 923,2359 907,2358 888,2372 824,2372 818,2365 808,2365 802,2359 793,2359 785,2361 778,2372 767,2373 751,2374 745,2362 731,2361 718,2374 619,2375 619,2417 686,2416 690,2418 690,2420 741,2419 743,2414 763,2414 765,2419 791,2419 793,2414 941,2416 1059,2408 1062,2416 1086,2415 1090,2407 1146,2407 1175,2412 1446,2412 1815,2407 1827,2397 1902,2399 1902,2357 1757,2355 1754,2366 1734,2369 1670,2372 1664,2365 1653,2365 1647,2374 1590,2374 1424,2372 1423,2364 1417,2358 1406,2359 1397,2371 1346,2371 1344,2363 1339,2359 1325,2361 1321,2371 1296,2368 1263,2370 1262,2363 1257,2358 1186,2359 1161,2366 1113,2367 1110,2355 1085,2355"/>
         <Word id="region0010_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="626,2376 701,2376 701,2402 626,2402"/>
           <TextEquiv conf="0.9093835">
@@ -1561,25 +1577,25 @@ riam de TE prædicandarum virtutum, non ob dotes TVI</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ingenii excellentiſſimas, non ob eruditionis TVÆ theſaurum ac-&#13;
-quiſitum, non ſatis vulgatum, non ob amicitiæ TVÆ valorem,&#13;
-me non ſatis commoventem. Plane non amicorum meorum opti-&#13;
-me! Tanta in TVAM laudem effundere habeo, quæ, litteræ, &amp;&#13;
-ſi eſſent copioſiſſimæ, vix complecterentur. Quot quantaque ſunt,&#13;
-quæ TVAM, haud vulgarem, indefeſſa diligentia comparatam&#13;
-eruditionem prodiderunt? Quoties illius ſpecimina doctiſſima, in&#13;
-ſcholis noſtris a TE edita, admirabundus hauſi. Vbi TE depre-&#13;
-hendi, niſi integrum vitæ ſcelerisque purum? Quale gaudium ex&#13;
-TVA converſatione perſenſerim, verbis exprimere vix poſſum!&#13;
-Haec omnia, TVAM non offenſurus modeſtiam, ſilens prætereo.&#13;
-Exiſtimabis forte me copioſiorem, in ſpargendis TIBI acclamatio-&#13;
-nibus, quibus dies hodiernus abundat. l Eſſem copioſus, multa ſcri-&#13;
-berem Iæta, multis gratulationes declararem verbis, niſi lætitiæ&#13;
-mœſtitia ſe comitem adiungeret. Dum TE cathedram conſcendentem,&#13;
-victoriæ reportandæ certum, lætus aſpicio, ſimul ſortem meam do-&#13;
-leo, TE paucis abhinc dicbus, meis amplexibus ereptum iri. Sed&#13;
-ne nimium his inhæream, quæ mentem turbant, id agam, quod&#13;
-amicitiæ ratio &amp; ius poſtulat. Gratulor TIBI ſtadium academi-&#13;
+        <Unicode>ingenii excellentiſſimas, non ob eruditionis TVÆ theſaurum ac-
+quiſitum, non ſatis vulgatum, non ob amicitiæ TVÆ valorem,
+me non ſatis commoventem. Plane non amicorum meorum opti-
+me! Tanta in TVAM laudem effundere habeo, quæ, litteræ, &amp;
+ſi eſſent copioſiſſimæ, vix complecterentur. Quot quantaque ſunt,
+quæ TVAM, haud vulgarem, indefeſſa diligentia comparatam
+eruditionem prodiderunt? Quoties illius ſpecimina doctiſſima, in
+ſcholis noſtris a TE edita, admirabundus hauſi. Vbi TE depre-
+hendi, niſi integrum vitæ ſcelerisque purum? Quale gaudium ex
+TVA converſatione perſenſerim, verbis exprimere vix poſſum!
+Haec omnia, TVAM non offenſurus modeſtiam, ſilens prætereo.
+Exiſtimabis forte me copioſiorem, in ſpargendis TIBI acclamatio-
+nibus, quibus dies hodiernus abundat. l Eſſem copioſus, multa ſcri-
+berem Iæta, multis gratulationes declararem verbis, niſi lætitiæ
+mœſtitia ſe comitem adiungeret. Dum TE cathedram conſcendentem,
+victoriæ reportandæ certum, lætus aſpicio, ſimul ſortem meam do-
+leo, TE paucis abhinc dicbus, meis amplexibus ereptum iri. Sed
+ne nimium his inhæream, quæ mentem turbant, id agam, quod
+amicitiæ ratio &amp; ius poſtulat. Gratulor TIBI ſtadium academi-
 cum fauſtis avibus emenſum. Gratulor honorem, qui ex diſerta-</Unicode>
       </TextEquiv>
     </TextRegion>

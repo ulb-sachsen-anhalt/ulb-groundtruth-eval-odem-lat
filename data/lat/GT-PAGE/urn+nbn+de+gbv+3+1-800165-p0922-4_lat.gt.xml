@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-291">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:23Z</Created>
     <LastChange>2024-01-19T13:10:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/850b67f2-f0a9-4969-b25b-5315f3ee21b3/00000922.jpg" imageWidth="1589" imageHeight="2352" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,10 +33,7 @@
         <RegionRefIndexed index="4" regionRef="TextRegion_1671181688678_2959"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1671181709561_2964" custom="readingOrder {index:0;}">
-      <Coords points="526,453 590,453 590,913 526,913"/>
-    </GraphicRegion>
-    <TextRegion orientation="-1.083029" type="page-number" readingDirection="left-to-right" id="TextRegion_1671181663094_2952" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671181663094_2952" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="-1.083029" type="page-number" readingDirection="left-to-right">
       <Coords points="564,393 736,393 736,458 564,458"/>
       <TextLine id="line_1671181663142_2955" custom="readingOrder {index:0;}">
         <Coords points="565,404 620,401 716,403 721,408 722,417 736,417 736,443 724,443 720,446 677,445 670,454 663,452 657,441 623,440 615,445 602,446 596,439 564,437"/>
@@ -39,7 +52,7 @@
         <Unicode>914</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.083029" type="header" readingDirection="left-to-right" id="TextRegion_1671181663094_2951" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671181663094_2951" custom="readingOrder {index:2;} structure {type:header;}" orientation="-1.083029" type="header" readingDirection="left-to-right">
       <Coords points="736,393 1522,393 1522,458 736,458"/>
       <TextLine id="line_1671181663142_2954" custom="readingOrder {index:0;}">
         <Coords points="736,417 807,418 805,393 924,394 928,402 941,402 944,393 968,396 992,393 995,402 1010,402 1017,393 1203,393 1298,399 1305,405 1304,427 1299,432 1267,431 1266,442 1261,447 1188,446 1128,449 1051,445 842,446 736,443"/>
@@ -70,7 +83,7 @@
         <Unicode>9L4 Libri in OCTAVO.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.083029" readingDirection="left-to-right" id="TextRegion_1671181688678_2960" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1671181688678_2960" custom="readingOrder {index:3;}" orientation="-1.083029" readingDirection="left-to-right">
       <Coords points="564,458 1522,458 1522,2054 1314,2066 1314,2117 564,2117"/>
       <TextLine id="region0014_line0004" custom="readingOrder {index:0;}">
         <Coords points="1509,466 1456,472 1440,468 1432,473 1417,474 1398,474 1391,470 1380,469 1373,474 1346,474 1342,471 1330,473 1291,473 1282,466 1271,464 1203,463 1186,466 1172,463 1168,466 1166,474 1098,473 1091,469 1071,471 1064,462 1052,462 1048,465 987,463 981,465 977,473 969,473 967,465 963,461 949,463 945,472 929,472 923,462 868,462 864,465 862,473 797,471 791,465 779,465 769,472 729,473 724,472 718,465 709,465 701,470 677,470 666,467 659,472 565,471 564,497 565,511 622,513 634,513 642,508 653,509 658,513 676,513 690,507 708,510 787,508 793,505 848,508 868,514 876,510 942,505 988,509 1146,510 1154,513 1166,506 1180,511 1387,512 1417,520 1452,520 1456,517 1458,509 1490,507 1521,500 1522,466"/>
@@ -314,7 +327,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671181912787_3103" custom="readingOrder {index:5;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1139,635 1167,635 1267,641 1286,659 1286,671 1282,671 1138,660"/>
+          <Coords points="1167,635 1139,635 1138,660 1282,671 1286,671 1286,659 1268,642 1171,638 1167,635"/>
           <TextEquiv>
             <Unicode>Gracian,</Unicode>
           </TextEquiv>
@@ -431,7 +444,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671182033656_3127" custom="readingOrder {index:1;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="703,762 798,760 813,763 833,767 833,780 814,796 704,794"/>
+          <Coords points="704,794 814,796 833,780 833,767 828,766 828,767 798,760 782,763 764,761 747,766 703,762"/>
           <TextEquiv>
             <Unicode>Roſſello,</Unicode>
           </TextEquiv>
@@ -473,7 +486,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0011_word0009" custom="readingOrder {index:8;}">
-          <Coords points="1467,797 1516,784 1516,759 1512,750 1499,749 1494,753 1467,770"/>
+          <Coords points="1516,784 1516,759 1512,750 1499,749 1494,753 1492,762 1477,763 1467,770 1467,797"/>
           <TextEquiv>
             <Unicode>uni-</Unicode>
           </TextEquiv>
@@ -1094,7 +1107,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671182420796_3370" custom="readingOrder {index:4;}">
-          <Coords points="919,1390 936,1388 937,1388 1003,1389 1031,1392 1031,1422 936,1420 919,1418"/>
+          <Coords points="919,1390 919,1418 936,1420 1031,1422 1031,1392 1017,1390 998,1389 966,1394 937,1388 935,1388"/>
           <TextEquiv>
             <Unicode>PIacidii</Unicode>
           </TextEquiv>
@@ -1339,7 +1352,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0031_word0001" custom="readingOrder {index:1;}">
-          <Coords points="680,1649 808,1651 808,1597 788,1595 780,1595 774,1602 774,1608 763,1608 758,1600 745,1600 739,1606 721,1600 680,1599"/>
+          <Coords points="744,1650 749,1650 754,1647 755,1642 789,1646 807,1644 808,1644 808,1611 800,1610 799,1604 788,1595 780,1595 774,1602 774,1608 763,1608 758,1600 745,1600 739,1606 721,1600 680,1599 680,1642 693,1642 699,1649 725,1649"/>
           <TextEquiv>
             <Unicode>Digbæi,</Unicode>
           </TextEquiv>
@@ -1500,7 +1513,7 @@
         <Baseline points="564,1803 1205,1810 1521,1792"/>
         <Word id="region0014_line0035_word0000" custom="readingOrder {index:0;}">
           <Coords points="570,1809 653,1811 653,1772 643,1774 572,1770 570,1770"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>1842</Unicode>
           </TextEquiv>
         </Word>
@@ -1689,7 +1702,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671182721498_3538" custom="readingOrder {index:1;}">
-          <Coords points="756,1949 783,1946 1034,1954 1034,1984 836,1981 741,1977 746,1954"/>
+          <Coords points="783,1946 756,1949 746,1954 741,1977 836,1981 978,1983 984,1982 986,1983 1034,1984 1034,1954 820,1947 816,1950 801,1949 800,1946"/>
           <TextEquiv>
             <Unicode>Aria-Montanum,</Unicode>
           </TextEquiv>
@@ -1784,7 +1797,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0041" custom="readingOrder {index:37;}">
-        <Coords points="1487,2011 1455,2022 1428,2025 1423,2019 1412,2019 1406,2021 1404,2027 1389,2028 1381,2028 1380,2023 1375,2020 1361,2019 1351,2027 1326,2029 1290,2027 1273,2022 1232,2021 1218,2026 1178,2025 1163,2022 1155,2026 1106,2029 1085,2029 1077,2026 1039,2026 1018,2031 967,2033 931,2032 924,2026 912,2027 907,2032 897,2032 891,2025 880,2025 874,2031 821,2028 789,2022 745,2026 737,2017 699,2016 663,2020 579,2020 565,2021 565,2053 700,2056 758,2061 789,2058 807,2063 815,2070 831,2068 833,2064 842,2061 923,2064 956,2070 983,2068 988,2065 1002,2067 1007,2065 1018,2065 1023,2068 1095,2067 1104,2078 1120,2079 1125,2074 1126,2066 1238,2065 1310,2060 1329,2064 1333,2061 1337,2070 1352,2072 1363,2063 1423,2063 1439,2059 1451,2059 1457,2065 1464,2065 1475,2061 1479,2056 1521,2054 1521,2017 1498,2017 1497,2013"/>
+        <Coords points="1455,2022 1428,2025 1423,2019 1412,2019 1406,2021 1404,2027 1389,2028 1381,2028 1380,2023 1375,2020 1361,2019 1351,2027 1326,2029 1290,2027 1273,2022 1232,2021 1218,2026 1178,2025 1163,2022 1155,2026 1106,2029 1085,2029 1077,2026 1039,2026 1018,2031 967,2033 931,2032 924,2026 912,2027 907,2032 897,2032 891,2025 880,2025 874,2031 821,2028 789,2022 745,2026 737,2017 699,2016 663,2020 579,2020 565,2021 565,2053 700,2056 758,2061 789,2058 807,2063 815,2070 831,2068 833,2064 842,2061 923,2064 956,2070 983,2068 988,2065 1002,2067 1007,2065 1018,2065 1023,2068 1095,2067 1104,2078 1120,2079 1125,2074 1126,2066 1238,2065 1310,2060 1329,2064 1333,2061 1335,2065 1363,2063 1363,2063 1366,2063 1479,2057 1479,2056 1521,2054 1521,2017 1498,2017 1497,2013 1487,2011"/>
         <Baseline points="565,2045 980,2059 1399,2054 1521,2044"/>
         <Word id="region0014_line0041_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="608,2029 674,2030 674,2018 663,2020 608,2020"/>
@@ -1817,7 +1830,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1671182808689_3590" custom="readingOrder {index:5;} textStyle {offset:0; length:15;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1241,2021 1487,2011 1494,2012 1494,2054 1372,2053 1241,2051"/>
+          <Coords points="1241,2051 1372,2053 1494,2054 1494,2012 1487,2011 1455,2022 1428,2025 1423,2019 1412,2019 1406,2021 1404,2027 1389,2028 1381,2028 1380,2023 1375,2020 1361,2019 1351,2027 1326,2029 1290,2027 1273,2022 1241,2021"/>
           <TextEquiv>
             <Unicode>Francofordienſe</Unicode>
           </TextEquiv>
@@ -1842,7 +1855,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0014_line0042_word0002" custom="readingOrder {index:2;}">
-          <Coords points="886,2066 886,2108 999,2110 999,2068 1023,2069 1022,2069 985,2068 983,2069 956,2071 934,2067"/>
+          <Coords points="886,2066 886,2108 999,2110 1023,2069"/>
           <TextEquiv>
             <Unicode>Franc.</Unicode>
           </TextEquiv>
@@ -1899,7 +1912,7 @@ neri Urbes Imperiales, acc. Emporium Francofordienſe
 Henr. Stephani, Franc. 651.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.083029" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671181688678_2959" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671181688678_2959" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-1.083029" type="catch-word" readingDirection="left-to-right">
       <Coords points="1314,2066 1522,2054 1522,2117 1314,2117"/>
       <TextLine id="region0014_line0043" custom="readingOrder {index:0;}">
         <Coords points="1483,2058 1464,2066 1457,2066 1451,2060 1439,2060 1423,2064 1370,2065 1364,2070 1364,2096 1371,2106 1435,2109 1441,2114 1450,2114 1457,2108 1469,2110 1475,2107 1521,2103 1521,2060 1497,2061 1493,2058"/>
@@ -1918,5 +1931,8 @@ Henr. Stephani, Franc. 651.</Unicode>
         <Unicode>1844</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1671181709561_2964" custom="readingOrder {index:0;}">
+      <Coords points="526,453 590,453 590,913 526,913"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

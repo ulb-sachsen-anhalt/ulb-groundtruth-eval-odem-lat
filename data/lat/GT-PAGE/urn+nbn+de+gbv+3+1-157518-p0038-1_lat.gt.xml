@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-50">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:27Z</Created>
     <LastChange>2024-01-19T13:07:27Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/2f707467-7d25-4339-a0f0-e7248c761986/00000038.jpg" imageWidth="2548" imageHeight="2753" type="content" primaryLanguage="Latin">
     <Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="4" regionRef="region0003"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.17034309" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-0.17034309" readingDirection="left-to-right">
       <Coords points="891,424 2254,424 2254,646 891,646"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1738,424 1732,434 1721,435 1708,431 1645,431 1636,434 1631,443 1622,433 1608,434 1603,443 1562,442 1560,433 1553,429 1534,431 1529,442 1520,431 1507,432 1501,442 1436,442 1428,431 1401,428 1390,434 1388,442 1379,442 1382,436 1380,424 1361,424 1358,428 1358,442 1353,441 1353,432 1350,428 1331,424 1241,427 1233,431 1231,441 1149,441 1148,434 1143,429 1124,429 1119,434 1118,442 1094,443 1100,435 1099,425 1076,424 1076,442 1036,443 1034,435 1025,429 1007,432 998,444 918,445 912,435 899,434 892,442 892,494 1047,493 1054,505 1072,505 1079,501 1081,493 1104,492 1514,490 1792,497 1796,506 1808,505 1818,508 1825,506 1827,498 1864,501 1868,498 2021,497 2094,503 2195,505 2227,505 2232,501 2241,501 2254,506 2254,456 2239,452 2230,445 2219,445 2210,455 2176,454 2172,443 2152,439 2092,440 2070,446 2019,448 2013,437 2000,436 1991,448 1977,448 1976,432 1971,427 1920,427 1915,432 1914,447 1816,447 1809,446 1801,435 1788,436 1782,446 1758,446 1759,431 1748,424"/>
@@ -178,12 +194,12 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>imo ſequelam eſſe hodierni Iuris Principum faciem Comi-&#13;
-tiorum antea mutari neceſſe eſſe, vel ſeparationem no-&#13;
+        <Unicode>imo ſequelam eſſe hodierni Iuris Principum faciem Comi-
+tiorum antea mutari neceſſe eſſe, vel ſeparationem no-
 uam a Iure ſuffragii intuitu quorundam excogitandam.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17034309" type="heading" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0002" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.17034309" type="heading" readingDirection="left-to-right">
       <Coords points="1423,667 1720,667 1720,733 1423,733"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1434,667 1423,669 1423,732 1450,732 1455,726 1681,730 1719,733 1719,670"/>
@@ -207,7 +223,7 @@ uam a Iure ſuffragii intuitu quorundam excogitandam.</Unicode>
         <Unicode>§. XVIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17034309" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:4;}">
+    <TextRegion id="region0003" custom="readingOrder {index:4;}" orientation="-0.17034309" readingDirection="left-to-right">
       <Coords points="878,768 2258,768 2258,2347 878,2347"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1242,768 1237,778 1203,779 1157,778 1130,769 1040,774 975,774 969,780 968,827 973,832 1036,832 1230,826 1530,827 1556,829 1563,839 1585,839 1591,830 1615,830 1692,835 1695,842 1710,844 1724,841 1726,835 1731,835 1769,840 1775,846 1784,846 1792,842 1824,842 1826,848 1832,852 1853,852 1858,848 1860,841 1957,839 2194,843 2203,854 2221,846 2223,841 2235,838 2241,832 2258,830 2258,791 2224,791 2220,781 2208,777 2196,780 2134,780 2126,785 2124,793 2004,792 1996,781 1983,782 1977,792 1926,792 1761,788 1753,786 1751,779 1745,775 1732,776 1726,785 1708,784 1699,774 1688,774 1680,783 1640,781 1631,770 1621,770 1613,779 1600,779 1548,777 1543,769 1503,769 1501,777 1379,777 1372,768 1356,768 1351,778 1298,779 1283,778 1276,768"/>
@@ -1215,7 +1231,7 @@ uam a Iure ſuffragii intuitu quorundam excogitandam.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675842849747_132" custom="readingOrder {index:5;} textStyle {offset:0; length:16;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1895,2005 1965,2005 2003,2006 2102,2011 2246,2022 2246,2070 2200,2070 1979,2069 1895,2067"/>
+          <Coords points="1895,2005 1895,2067 1897,2067 1920,2066 1979,2069 2104,2068 2129,2069 2129,2069 2144,2069 2146,2069 2200,2069 2200,2070 2246,2070 2246,2022 2233,2021 2109,2016 2101,2010 2082,2010 2068,2012 2046,2011 2016,2019 2010,2018 2008,2010 2003,2006 1990,2006 1984,2011 1982,2018 1974,2018 1972,2010 1965,2005 1958,2006 1950,2014 1933,2005"/>
           <TextEquiv>
             <Unicode>Reichs - Satzung</Unicode>
           </TextEquiv>
@@ -1493,28 +1509,28 @@ uam a Iure ſuffragii intuitu quorundam excogitandam.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Adſunt alia eiusmodi principia, quae eiusmodi ſy-&#13;
-ſtematis ſunt conſectaria inſeparabilia e. g. VII.) exempla&#13;
-ex hiſtoria Imperii collecta, quae Ius Principum probent&#13;
-adlata, potius huic Iuri contradicere, quam quod illi pa-&#13;
-trocinari videatur, quodſi enim in contextu loca eiusmodi&#13;
-quaeſtionis funditus expendantur, illud exinde, nil magis&#13;
-erui poſſe, Caeſares, Principes et Eccleſiaſticos et ſaecu-&#13;
-lares adſciuiſſe in iudicium illud, in quo cauſa Principis&#13;
-olim agitata fuit. Adfuiſſe hoc modo dicunt, Adſeſſores&#13;
-voto quidem conſultatiuo minus deciſiuo inſtructo ſalua&#13;
-vbique Caeſaris JCtione vniuerſali, ita vt propter hoc&#13;
-Sententia definitiua nihilominus in vnius Caeſaris manu&#13;
-principaliter quaerenda fuiſſet. VIII.) pro adminiculo pro-&#13;
-bationis huius poteſtatis et meri arbitrii adſciſcere Aſſeſſo-&#13;
-res, illud vrgent. Verſari quosdam in errore, dum ab&#13;
-exemplis, quatenus ex beneplacito Caeſar Aſſeſſores Sta-&#13;
-tus elegerit obligationem ex priuilegio, vel ex fictitia qua-&#13;
-dam Imperii conſuetudine deduxerint. IX.) Inſigne ex-&#13;
-emplum illud Sigismundi ap. GOLDAST Reichs - Satzung&#13;
-P. II. pag. 98. 99. quod pro ratione decidendi quaeſtionem,&#13;
-et in probationem aſſerti ſui affirmantes Ius Principum al-&#13;
-legant, cuiusque formalia ibi ſic ſe habent: weil die Sache&#13;
+        <Unicode>Adſunt alia eiusmodi principia, quae eiusmodi ſy-
+ſtematis ſunt conſectaria inſeparabilia e. g. VII.) exempla
+ex hiſtoria Imperii collecta, quae Ius Principum probent
+adlata, potius huic Iuri contradicere, quam quod illi pa-
+trocinari videatur, quodſi enim in contextu loca eiusmodi
+quaeſtionis funditus expendantur, illud exinde, nil magis
+erui poſſe, Caeſares, Principes et Eccleſiaſticos et ſaecu-
+lares adſciuiſſe in iudicium illud, in quo cauſa Principis
+olim agitata fuit. Adfuiſſe hoc modo dicunt, Adſeſſores
+voto quidem conſultatiuo minus deciſiuo inſtructo ſalua
+vbique Caeſaris JCtione vniuerſali, ita vt propter hoc
+Sententia definitiua nihilominus in vnius Caeſaris manu
+principaliter quaerenda fuiſſet. VIII.) pro adminiculo pro-
+bationis huius poteſtatis et meri arbitrii adſciſcere Aſſeſſo-
+res, illud vrgent. Verſari quosdam in errore, dum ab
+exemplis, quatenus ex beneplacito Caeſar Aſſeſſores Sta-
+tus elegerit obligationem ex priuilegio, vel ex fictitia qua-
+dam Imperii conſuetudine deduxerint. IX.) Inſigne ex-
+emplum illud Sigismundi ap. GOLDAST Reichs - Satzung
+P. II. pag. 98. 99. quod pro ratione decidendi quaeſtionem,
+et in probationem aſſerti ſui affirmantes Ius Principum al-
+legant, cuiusque formalia ibi ſic ſe habent: weil die Sache
 fürnehme Lehn des Reichs betreffe, ſo meyne er, es ſeye billig,</Unicode>
       </TextEquiv>
     </TextRegion>

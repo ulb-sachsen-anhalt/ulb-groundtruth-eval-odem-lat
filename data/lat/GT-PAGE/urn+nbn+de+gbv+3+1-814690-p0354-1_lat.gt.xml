@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-298">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:41Z</Created>
     <LastChange>2024-01-19T13:10:41Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/49384692-eb0d-4c56-a14e-1c5677bc1054/00000354.jpg" imageWidth="1537" imageHeight="2309" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1655275732253_788"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.9701828" readingDirection="left-to-right" id="TextRegion_1655275732253_789" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1655275732253_789" custom="readingOrder {index:0;}" orientation="-0.9701828" readingDirection="left-to-right">
       <Coords points="395,353 1395,353 1395,649 395,649"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1361,356 1356,361 1355,371 1303,370 1296,369 1290,363 1268,361 1253,364 1247,359 1235,360 1229,369 1222,370 1039,368 1033,358 1004,356 989,358 985,367 978,367 971,357 958,359 953,367 899,366 892,356 883,356 875,365 871,365 853,362 846,355 834,355 828,360 782,362 651,360 649,353 627,354 625,360 472,357 470,353 454,353 448,357 396,356 395,393 551,395 562,404 576,403 581,396 591,393 609,397 697,398 726,395 738,395 783,407 815,408 835,408 846,400 862,403 926,400 962,401 989,405 1012,403 1027,410 1066,414 1081,413 1092,403 1154,412 1187,411 1211,405 1234,408 1350,407 1375,416 1395,415 1395,371 1381,371 1374,359"/>
@@ -336,7 +352,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0007" custom="readingOrder {index:6;}">
-        <Coords points="634,604 603,605 581,612 567,609 534,608 527,605 512,609 396,609 395,647 471,648 477,645 579,643 698,646 788,658 821,651 874,655 935,656 956,654 964,657 1022,656 1037,652 1164,659 1194,658 1207,650 1208,624 1205,620 1199,619 1120,617 1110,613 1090,616 1080,612 1068,614 1054,611 1040,615 1018,613 1013,616 982,617 926,616 920,613 895,611 841,610 821,611 807,618 794,618 788,615 756,612 665,610 654,604"/>
+        <Coords points="603,605 581,612 567,609 534,608 527,605 512,609 396,609 395,647 471,648 477,645 579,643 698,646 720,649 1207,649 1208,624 1205,620 1199,619 1120,617 1110,613 1090,616 1080,612 1068,614 1054,611 1040,615 1018,613 1013,616 982,617 926,616 920,613 895,611 841,610 821,611 807,618 794,618 788,615 756,612 665,610 654,604 634,604"/>
         <Baseline points="395,637 1207,647"/>
         <Word id="region0001_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="429,611 579,613 578,641 428,639"/>
@@ -373,19 +389,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>rium atque honorem, gloriam belli, genus, nobilitatem,&#13;
-magna ipſis fruenda, majora liberis relinquenda. Hujus&#13;
-generis orationes ubi accipi videre; novam rogationem&#13;
-promulgant, ut pro duumviris ſacris faciundis decem-&#13;
-viri creentur; ita ut pars ex plebe, pars ex Patribus fiat:&#13;
-omniumque earum rogationum comitia in adventum ejus&#13;
+        <Unicode>rium atque honorem, gloriam belli, genus, nobilitatem,
+magna ipſis fruenda, majora liberis relinquenda. Hujus
+generis orationes ubi accipi videre; novam rogationem
+promulgant, ut pro duumviris ſacris faciundis decem-
+viri creentur; ita ut pars ex plebe, pars ex Patribus fiat:
+omniumque earum rogationum comitia in adventum ejus
 exercitus differunt, qui Velitras obſidebat.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.9701828" readingDirection="left-to-right" id="TextRegion_1655275732253_788" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1655275732253_788" custom="readingOrder {index:1;}" orientation="-0.9701828" readingDirection="left-to-right">
       <Coords points="395,649 1395,649 1395,2046 395,2046"/>
       <TextLine id="region0001_line0008" custom="readingOrder {index:0;}">
-        <Coords points="1315,654 1304,656 1294,662 1176,662 1075,658 1045,653 996,658 943,654 919,658 837,657 821,652 794,659 755,656 698,647 579,644 477,646 471,649 471,659 464,665 463,684 468,689 557,690 572,687 666,693 760,692 775,696 956,699 986,694 1080,698 1100,695 1106,698 1134,700 1151,697 1167,702 1203,699 1208,705 1256,699 1267,699 1271,702 1319,703 1394,700 1395,668 1375,667 1373,659 1367,655"/>
+        <Coords points="1304,656 1294,662 1176,662 1075,658 1045,653 996,658 943,654 919,658 837,657 821,652 794,659 755,656 710,649 471,649 471,659 464,665 463,684 468,689 557,690 572,687 666,693 760,692 775,696 956,699 986,694 1080,698 1100,695 1106,698 1134,700 1151,697 1167,702 1203,699 1208,705 1256,699 1267,699 1271,702 1319,703 1394,700 1395,668 1375,667 1373,659 1367,655 1315,654"/>
         <Baseline points="463,679 1394,691"/>
         <Word id="region0001_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="510,651 675,654 674,686 509,683"/>
@@ -2091,7 +2107,7 @@ exercitus differunt, qui Velitras obſidebat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0001_line0040" custom="readingOrder {index:32;}">
-        <Coords points="1314,2000 1308,2004 1295,2005 1254,2004 1231,1999 1225,2002 1206,2003 960,1998 952,2002 939,2002 933,1998 801,1999 793,1995 785,1995 778,1999 738,1998 731,1994 719,1994 708,1998 672,1998 660,1992 638,1995 632,1991 619,1991 609,1992 603,1997 577,1996 568,2000 557,2000 550,1996 490,1997 486,1993 473,1993 468,1997 454,1992 445,1996 426,1994 417,1998 395,1999 395,2044 452,2039 578,2035 700,2038 755,2046 761,2044 805,2040 861,2046 875,2044 883,2039 930,2046 990,2039 1030,2043 1035,2046 1089,2042 1129,2043 1160,2049 1186,2041 1219,2038 1260,2044 1277,2044 1286,2039 1308,2041 1312,2044 1395,2044 1393,2006 1332,2004 1326,2000"/>
+        <Coords points="1308,2004 1295,2005 1254,2004 1231,1999 1225,2002 1206,2003 960,1998 952,2002 939,2002 933,1998 801,1999 793,1995 785,1995 778,1999 738,1998 731,1994 719,1994 708,1998 672,1998 660,1992 638,1995 632,1991 619,1991 609,1992 603,1997 577,1996 568,2000 557,2000 550,1996 490,1997 486,1993 473,1993 468,1997 454,1992 445,1996 426,1994 417,1998 395,1999 395,2044 452,2039 578,2035 700,2038 755,2046 761,2044 805,2040 861,2046 875,2044 883,2039 930,2046 990,2039 1030,2043 1035,2046 1089,2042 1129,2043 1144,2046 1169,2046 1186,2041 1219,2038 1260,2044 1277,2044 1286,2039 1308,2041 1312,2044 1395,2044 1393,2006 1332,2004 1326,2000 1314,2000"/>
         <Baseline points="395,2032 541,2026 1394,2034"/>
         <Word id="region0001_line0040_word0000" custom="readingOrder {index:0;}">
           <Coords points="449,1993 445,1996 426,1994 417,1998 401,1998 401,2030 500,2032 500,1996 490,1997 487,1994 471,1994 468,1997 460,1994"/>
@@ -2146,38 +2162,38 @@ exercitus differunt, qui Velitras obſidebat.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>XXXVIII. Prius circumactus eſt annus, quam a Ve-&#13;
-litris reducerentur legiones. ita ſuſpenſa de legibus res&#13;
-ad novos tribunos militum dilata. nam plebis tribunos&#13;
-eoſdem, duos utique, quia legum latores erant, plebes&#13;
-reſiciebat. Tribuni militum creati T. Quinctius, Ser.&#13;
-Cornelius, Ser. Sulpicius, Sp. Servilius, L. Papirius,&#13;
-L. Veturius. Principio ſtatim anni ad ultimam dimica-&#13;
-tionem de legibus ventum: &amp;, quum tribus vocarentur;&#13;
-nec interceſſio collegarum latoribus obſtaret, trepidi Pa-&#13;
-tres ad duo ultima auxilia, ſummum imperium ſummum-&#13;
-que ad civem, decurrunt. Dictatorem dici placet. dici-&#13;
-tur M. Furius Camillus, qui magiſtrum equitum L. Ae-&#13;
-milium cooprat. Legum quoque latores adverſus tan-&#13;
-tum adparatum adverſariorum &amp; ipſi cauſſam plebis in-&#13;
-gentibus animis armant: concilioque plebis indicto, tri-&#13;
-bus ad ſuffragium vocant. Quum dictator, ſtipatus&#13;
-agmine patriciorum, plenus iræ minarumque conſediſſet,&#13;
-atque ageretur res ſolito primum certamine inter ſe tri-&#13;
-bunorum plebi, ferentium legem intercedentiumque, &amp;,&#13;
-quanto jure potentior interceſſio erat, tantum vincere-&#13;
-tur favore legum ipſarum latorumque, &amp;, Uti rogas,&#13;
-primæ tribus dicerent; tum Camillus, Quandoquidem,&#13;
-inquit, Quirites, jam vos trihunicia libido, non poteſtas,&#13;
-regit, &amp;  interceſſionem, ſeceſſione quondam plebis partam,&#13;
-vobis eadem vi facitis irritam, qua peperiſtis; non reipu-&#13;
-blicæ magis univerſæ, quam veſtra cauſſa, dictator inter-&#13;
-ceſſioni adero, everſumque veſtrum auxilium imperio tuta-&#13;
-bor. Itaque, ſi. C. Licinius &amp; L. Sextius interceſſioni col-&#13;
-legarum cedunt; nihil patricium magiſtratum inſeram con-&#13;
-cilio plebis. ſi adverſus interceſſionem, tamquam captæ ci-&#13;
-vitati leges inponere tendent, vim tribuniciam a ſe ipſa diſ-&#13;
-ſolvi non patiar. Adverſus ea quum contemtim tribuni&#13;
+        <Unicode>XXXVIII. Prius circumactus eſt annus, quam a Ve-
+litris reducerentur legiones. ita ſuſpenſa de legibus res
+ad novos tribunos militum dilata. nam plebis tribunos
+eoſdem, duos utique, quia legum latores erant, plebes
+reſiciebat. Tribuni militum creati T. Quinctius, Ser.
+Cornelius, Ser. Sulpicius, Sp. Servilius, L. Papirius,
+L. Veturius. Principio ſtatim anni ad ultimam dimica-
+tionem de legibus ventum: &amp;, quum tribus vocarentur;
+nec interceſſio collegarum latoribus obſtaret, trepidi Pa-
+tres ad duo ultima auxilia, ſummum imperium ſummum-
+que ad civem, decurrunt. Dictatorem dici placet. dici-
+tur M. Furius Camillus, qui magiſtrum equitum L. Ae-
+milium cooprat. Legum quoque latores adverſus tan-
+tum adparatum adverſariorum &amp; ipſi cauſſam plebis in-
+gentibus animis armant: concilioque plebis indicto, tri-
+bus ad ſuffragium vocant. Quum dictator, ſtipatus
+agmine patriciorum, plenus iræ minarumque conſediſſet,
+atque ageretur res ſolito primum certamine inter ſe tri-
+bunorum plebi, ferentium legem intercedentiumque, &amp;,
+quanto jure potentior interceſſio erat, tantum vincere-
+tur favore legum ipſarum latorumque, &amp;, Uti rogas,
+primæ tribus dicerent; tum Camillus, Quandoquidem,
+inquit, Quirites, jam vos trihunicia libido, non poteſtas,
+regit, &amp;  interceſſionem, ſeceſſione quondam plebis partam,
+vobis eadem vi facitis irritam, qua peperiſtis; non reipu-
+blicæ magis univerſæ, quam veſtra cauſſa, dictator inter-
+ceſſioni adero, everſumque veſtrum auxilium imperio tuta-
+bor. Itaque, ſi. C. Licinius &amp; L. Sextius interceſſioni col-
+legarum cedunt; nihil patricium magiſtratum inſeram con-
+cilio plebis. ſi adverſus interceſſionem, tamquam captæ ci-
+vitati leges inponere tendent, vim tribuniciam a ſe ipſa diſ-
+ſolvi non patiar. Adverſus ea quum contemtim tribuni
 plebis rem nihilo ſegnius peragerent, tum percitus ira</Unicode>
       </TextEquiv>
     </TextRegion>

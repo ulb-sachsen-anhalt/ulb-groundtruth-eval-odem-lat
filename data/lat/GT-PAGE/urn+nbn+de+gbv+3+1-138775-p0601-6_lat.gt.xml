@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-37">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:18Z</Created>
     <LastChange>2024-01-19T13:07:18Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/66fcace5-8877-463b-8301-22b41ebb11a8/00000601.jpg" imageWidth="1637" imageHeight="2409" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,10 +37,7 @@
         <RegionRefIndexed index="8" regionRef="region_1676460877482_6178"/>
       </OrderedGroup>
     </ReadingOrder>
-    <NoiseRegion id="Noise_1677140691593_191" custom="readingOrder {index:0;}">
-      <Coords points="269,1046 410,1046 410,1233 269,1233"/>
-    </NoiseRegion>
-    <TextRegion type="header" id="region_1676460859808_6160" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676460859808_6160" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="500,410 500,443 758,443 758,410"/>
       <TextLine id="line_1676460859897_6163" custom="readingOrder {index:0;}">
         <Coords points="500,410 500,443 758,443 758,410"/>
@@ -42,7 +55,7 @@
         <Unicode>EPISTOLAE.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676460864907_6169" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="region_1676460864907_6169" custom="readingOrder {index:2;} structure {type:page-number;}" type="page-number">
       <Coords points="1041,410 1041,452 1109,452 1109,410"/>
       <TextLine id="line_1676460864986_6172" custom="readingOrder {index:0;}">
         <Coords points="1041,410 1041,452 1109,452 1109,410"/>
@@ -60,7 +73,7 @@
         <Unicode>581</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8177333" type="paragraph" readingDirection="left-to-right" id="TextRegion_1643967834946_2401" custom="readingOrder {index:3;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1643967834946_2401" custom="readingOrder {index:3;} structure {type:paragraph;}" orientation="0.8177333" type="paragraph" readingDirection="left-to-right">
       <Coords points="143,468 1112,468 1112,893 1112,999 143,999 143,893"/>
       <TextLine id="region0001_line0003" custom="readingOrder {index:0;}">
         <Coords points="477,468 466,480 442,482 241,483 215,482 210,477 180,482 175,482 170,476 159,476 149,482 143,481 144,520 211,523 239,521 245,524 277,524 510,521 651,526 859,526 878,529 891,535 923,534 933,527 947,525 1112,523 1111,482 1092,482 1090,475 1084,472 1072,474 1068,484 1060,484 1058,476 1054,473 1029,471 1023,474 1016,469 997,471 989,483 934,483 932,476 926,472 914,474 910,483 843,483 842,479 836,476 825,476 820,483 786,484 781,479 770,479 765,484 740,484 688,479 631,483 501,481 497,470"/>
@@ -365,7 +378,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643967979114_2473" custom="readingOrder {index:4;}">
-          <Coords points="614,798 660,791 672,790 709,791 779,802 800,816 796,840 780,835 615,837"/>
+          <Coords points="660,791 656,800 614,798 615,837 780,835 796,840 800,816 779,802 718,802 715,794 709,791 697,792 694,801 680,800 677,793 672,790"/>
           <TextEquiv>
             <Unicode>opinione,</Unicode>
           </TextEquiv>
@@ -519,24 +532,24 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>finium controverſiam cum Brandenburgico felici-&#13;
-ter ſopivit. Is Princeps, milite, viribus onmibus-&#13;
-que prope fortunae ſubſidiis deſtitutus planeque&#13;
-exhauſtus ſpem facit, iterum ad Rhenum ducturum,&#13;
-ſi confectas propoſiti in Pomerania Rugiaque rati-&#13;
-ones ſit habiturus. Sed haec inania ſunt credulo-&#13;
-que vulgo placent, mea opinione, arma Gallica ita&#13;
-non ſiſtentur, nec receptus Luxenburgi tantam lau-&#13;
-dem Auriaco conciliat, qualem vulgo ferunt. Eid.&#13;
+        <Unicode>finium controverſiam cum Brandenburgico felici-
+ter ſopivit. Is Princeps, milite, viribus onmibus-
+que prope fortunae ſubſidiis deſtitutus planeque
+exhauſtus ſpem facit, iterum ad Rhenum ducturum,
+ſi confectas propoſiti in Pomerania Rugiaque rati-
+ones ſit habiturus. Sed haec inania ſunt credulo-
+que vulgo placent, mea opinione, arma Gallica ita
+non ſiſtentur, nec receptus Luxenburgi tantam lau-
+dem Auriaco conciliat, qualem vulgo ferunt. Eid.
 Iun. clↄ Iↄc LXXVIII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8177333" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:4;} structure {type:heading;}" orientation="0.8177333" type="heading" readingDirection="left-to-right">
       <Coords points="156,1036 1114,1040 1114,1203 156,1199"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="473,1040 454,1059 451,1115 548,1113 906,1108 911,1103 910,1056 905,1051 583,1052 500,1047 492,1040"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="540,1049 452,1056 453,1111 804,1101 803,1051 583,1052"/>
+          <Coords points="457,1055 454,1059 452,1086 453,1111 804,1101 803,1051 583,1052 537,1049"/>
           <TextEquiv>
             <Unicode>CCCCLXXVII.</Unicode>
           </TextEquiv>
@@ -546,21 +559,21 @@ Iun. clↄ Iↄc LXXVIII.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0002" custom="readingOrder {index:1;}">
-        <Coords points="392,1136 385,1139 156,1147 155,1209 1114,1201 1098,1119 408,1137 411,1142"/>
+        <Coords points="385,1139 156,1147 156,1199 954,1202 1114,1201 1098,1119 408,1137 411,1142 392,1136"/>
         <Word id="region0004_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="157,1188 230,1196 382,1195 375,1146 281,1123 269,1124 264,1129 262,1137 256,1138 251,1142 167,1147"/>
+          <Coords points="230,1196 382,1195 375,1146 351,1140 182,1146 167,1147 157,1188"/>
           <TextEquiv>
             <Unicode>ADAMO</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="410,1104 401,1104 391,1113 391,1204 825,1197 825,1140 563,1140 504,1137 408,1137 405,1133 411,1129 418,1110"/>
+          <Coords points="391,1204 825,1197 825,1140 563,1140 504,1137 408,1137 411,1142 392,1136 391,1136"/>
           <TextEquiv conf="0.92486465">
             <Unicode>CHRISTOPH.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="856,1140 855,1203 1108,1199 1109,1139 1104,1139 1106,1128 1098,1119 1087,1119 1083,1122 1082,1135 1086,1141"/>
+          <Coords points="855,1203 1108,1199 1108,1172 1098,1119 1086,1119 1083,1122 1082,1135 1086,1141 856,1140"/>
           <TextEquiv conf="0.89887166">
             <Unicode>IACOBI.</Unicode>
           </TextEquiv>
@@ -570,16 +583,16 @@ Iun. clↄ Iↄc LXXVIII.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CCCCLXXVII.&#13;
+        <Unicode>CCCCLXXVII.
 ADAMO CHRISTOPH. IACOBI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8177333" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1677140978109_258" custom="readingOrder {index:5;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1677140978109_258" custom="readingOrder {index:5;} structure {type:drop-capital;}" orientation="0.8177333" type="drop-capital" readingDirection="left-to-right">
       <Coords points="152,1241 226,1241 224,1355 152,1356"/>
       <TextLine id="line_1677140978136_261" custom="readingOrder {index:0;}">
         <Coords points="152,1242 226,1241 225,1292 221,1292 220,1317 195,1331 172,1324 168,1309 160,1301 153,1300"/>
         <Word id="word_1677140978137_263" custom="readingOrder {index:0;}">
-          <Coords points="157,1249 226,1247 225,1292 221,1292 208,1323 185,1322 171,1319 162,1319 158,1325 157,1300"/>
+          <Coords points="157,1249 157,1300 157,1301 160,1301 168,1309 171,1319 171,1319 185,1322 208,1323 221,1292 225,1292 226,1247"/>
           <TextEquiv>
             <Unicode>N</Unicode>
           </TextEquiv>
@@ -592,7 +605,7 @@ ADAMO CHRISTOPH. IACOBI.</Unicode>
         <Unicode>N</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.8177333" type="paragraph" readingDirection="left-to-right" id="TextRegion_1677140978109_257" custom="readingOrder {index:6;} structure {type:paragraph;}">
+    <TextRegion id="TextRegion_1677140978109_257" custom="readingOrder {index:6;} structure {type:paragraph;}" orientation="0.8177333" type="paragraph" readingDirection="left-to-right">
       <Coords points="226,1241 1139,1241 1139,2159 152,2159 152,1356 224,1355"/>
       <TextLine id="line_1677140978136_260" custom="readingOrder {index:0;}">
         <Coords points="226,1241 274,1241 279,1246 280,1253 298,1253 300,1247 307,1242 322,1242 327,1254 334,1253 343,1243 356,1242 362,1248 368,1244 378,1244 386,1254 450,1256 486,1255 491,1245 505,1244 512,1256 692,1256 697,1246 711,1245 718,1256 825,1254 876,1257 881,1246 891,1244 900,1248 902,1257 1134,1258 1138,1259 1139,1300 715,1297 707,1294 568,1297 566,1305 545,1307 540,1305 537,1295 527,1293 512,1297 478,1297 479,1306 474,1310 456,1313 447,1301 433,1300 426,1304 418,1304 408,1298 386,1297 319,1296 304,1299 299,1295 252,1292 225,1292"/>
@@ -759,7 +772,7 @@ ADAMO CHRISTOPH. IACOBI.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0005_line0004_word0001" custom="readingOrder {index:1;}">
-          <Coords points="361,1453 360,1412 343,1413 334,1412 331,1401 327,1399 314,1402 309,1412 279,1412 280,1454 343,1453 349,1453"/>
+          <Coords points="360,1412 350,1413 347,1412 343,1413 334,1412 331,1401 329,1400 321,1402 316,1412 279,1412 280,1454 343,1453 349,1453 356,1453 361,1453"/>
           <TextEquiv conf="0.9203112">
             <Unicode>quia</Unicode>
           </TextEquiv>
@@ -1483,26 +1496,26 @@ ADAMO CHRISTOPH. IACOBI.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>On dubito, quin pro tua in me voluntate cau-&#13;
-ſam meam in ſenatu veſtro agas, non modo,&#13;
-quod me ornandum tuendumque ſuſcepiſti; ſed&#13;
-etiam, quia nemo melius rebus meis conſulere, ne-&#13;
-mo certe felicius opitulari poteſt. Qua in re fide&#13;
-tam certa ſum animoque tam conſtanti, ut omnia&#13;
-ad obſervantiae gloriam referam itaque prorſus me&#13;
-geram, ut hominem ſummae tuae dignitatis ſtudio-&#13;
-ſiſſimum decet. Quod Flavii conatibus reſtiti, fa-&#13;
-ctum eſt vitandae offenſionis cauſa. Ego enim ſic&#13;
-affectus ſum erga omnes, ut nemini cupiam per me&#13;
-exhiberi moleſtias, etſi ſaepe aliis quid tribuendum&#13;
-eſt, qui ſolent facili de cauſa ſtomachari, praeſertim&#13;
-cum omnia controverſiae capita mihi non ſunt per-&#13;
-ſpecta. Cur tam raro ad vos perſcribam, cauſa mihi&#13;
-fuit ſuſpicio offenſae, quam plerique mihi attule-&#13;
+        <Unicode>On dubito, quin pro tua in me voluntate cau-
+ſam meam in ſenatu veſtro agas, non modo,
+quod me ornandum tuendumque ſuſcepiſti; ſed
+etiam, quia nemo melius rebus meis conſulere, ne-
+mo certe felicius opitulari poteſt. Qua in re fide
+tam certa ſum animoque tam conſtanti, ut omnia
+ad obſervantiae gloriam referam itaque prorſus me
+geram, ut hominem ſummae tuae dignitatis ſtudio-
+ſiſſimum decet. Quod Flavii conatibus reſtiti, fa-
+ctum eſt vitandae offenſionis cauſa. Ego enim ſic
+affectus ſum erga omnes, ut nemini cupiam per me
+exhiberi moleſtias, etſi ſaepe aliis quid tribuendum
+eſt, qui ſolent facili de cauſa ſtomachari, praeſertim
+cum omnia controverſiae capita mihi non ſunt per-
+ſpecta. Cur tam raro ad vos perſcribam, cauſa mihi
+fuit ſuſpicio offenſae, quam plerique mihi attule-
 runt, affirmantes, taedere Patronos ineptiarum, quas</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1676460881746_6187" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="region_1676460881746_6187" custom="readingOrder {index:7;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="640,2159 640,2201 752,2201 752,2159"/>
       <TextLine id="line_1676460881830_6190" custom="readingOrder {index:0;}">
         <Coords points="640,2159 640,2201 752,2201 752,2159"/>
@@ -1526,7 +1539,7 @@ runt, affirmantes, taedere Patronos ineptiarum, quas</Unicode>
         <Unicode>Oo 3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676460877482_6178" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="region_1676460877482_6178" custom="readingOrder {index:8;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1052,2165 1052,2201 1136,2201 1136,2165"/>
       <TextLine id="line_1676460877539_6181" custom="readingOrder {index:0;}">
         <Coords points="1052,2165 1052,2201 1136,2201 1136,2165"/>
@@ -1544,5 +1557,8 @@ runt, affirmantes, taedere Patronos ineptiarum, quas</Unicode>
         <Unicode>ſcri-</Unicode>
       </TextEquiv>
     </TextRegion>
+    <NoiseRegion id="Noise_1677140691593_191" custom="readingOrder {index:0;}">
+      <Coords points="269,1046 410,1046 410,1233 269,1233"/>
+    </NoiseRegion>
   </Page>
 </PcGts>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-76">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:38Z</Created>
     <LastChange>2024-01-19T13:07:38Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/a0e69e30-0e8f-41a8-9772-36ced909f979/00000040.jpg" imageWidth="2349" imageHeight="2889" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region0016"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.043712527" readingDirection="left-to-right" id="TextRegion_1650357917160_4837" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1650357917160_4837" custom="readingOrder {index:0;}" orientation="0.043712527" readingDirection="left-to-right">
       <Coords points="903,561 2104,569 2102,804 903,796"/>
       <TextLine id="line_1650357917211_4840" custom="readingOrder {index:0;}">
         <Coords points="903,585 924,585 989,590 1033,589 1039,581 1049,580 1059,589 1174,589 1179,580 1189,575 1206,574 1386,577 1398,580 1403,589 1527,590 1532,586 1542,586 1547,590 1586,591 1593,589 1600,582 1612,582 1619,591 1627,592 1652,592 1654,582 1664,578 1758,579 1763,583 1765,590 1845,588 1853,578 1865,578 1869,581 1870,587 1874,588 1878,576 1889,574 1941,575 1946,580 1947,588 1974,588 2027,580 2034,584 2071,590 2103,591 2103,635 2073,635 2067,640 2056,642 2046,639 2044,634 2003,631 1995,628 1965,631 1957,637 1943,638 1936,631 1872,627 1850,628 1844,631 1760,630 1746,633 1744,642 1723,644 1715,630 1690,633 1508,634 1416,630 1198,631 1170,628 1162,638 1149,636 1142,629 1097,629 1085,642 1063,642 1047,630 1031,631 1026,633 1025,640 1008,643 998,640 996,632 975,634 966,630 944,632 940,629 921,628 903,627"/>
@@ -297,13 +313,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tur, quippe qui Lib. XIII. c. 10. tentiam Vlpianus in L. 50. &amp; 52.&#13;
-Labeonis Pofteriorum libros §.8. D. de furt, ſi conferatur&#13;
-poſt huius mortem editos eſſe, cum L. 50. &amp; 52. §. 11. eod.&#13;
+        <Unicode>tur, quippe qui Lib. XIII. c. 10. tentiam Vlpianus in L. 50. &amp; 52.
+Labeonis Pofteriorum libros §.8. D. de furt, ſi conferatur
+poſt huius mortem editos eſſe, cum L. 50. &amp; 52. §. 11. eod.
 teſtatur. d) Cuius etiam ſen- refert.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.043712527" type="heading" readingDirection="left-to-right" id="TextRegion_1650357928403_4853" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1650357928403_4853" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.043712527" type="heading" readingDirection="left-to-right">
       <Coords points="1428,802 1597,804 1597,883 1428,881"/>
       <TextLine id="line_1650357928455_4856" custom="readingOrder {index:0;}">
         <Coords points="1428,812 1596,815 1596,880 1428,880"/>
@@ -321,7 +337,7 @@ teſtatur. d) Cuius etiam ſen- refert.</Unicode>
         <Unicode>XXIV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.043712527" type="marginalia" readingDirection="left-to-right" id="TextRegion_1650358001738_4903" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1650358001738_4903" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="0.043712527" type="marginalia" readingDirection="left-to-right">
       <Coords points="715,874 907,876 907,1064 907,1138 715,1138"/>
       <TextLine id="line_1650358001785_4910" custom="readingOrder {index:0;}">
         <Coords points="715,885 907,885 907,939 777,940 770,944 759,944 752,940 715,937"/>
@@ -396,15 +412,15 @@ teſtatur. d) Cuius etiam ſen- refert.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Vlpianus&#13;
-utramque&#13;
-diuerſarum&#13;
-ſcholarum&#13;
-probauit&#13;
+        <Unicode>Vlpianus
+utramque
+diuerſarum
+ſcholarum
+probauit
 ſenientiam.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.043712527" readingDirection="left-to-right" id="TextRegion_1650358285573_5034" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1650358285573_5034" custom="readingOrder {index:3;}" orientation="0.043712527" readingDirection="left-to-right">
       <Coords points="907,876 2105,884 2132,1058 2127,1821 2101,2168 907,2160 907,1050"/>
       <TextLine id="line_1650357982222_4890" custom="readingOrder {index:0;}">
         <Coords points="907,885 1063,885 1084,888 1088,900 1117,900 1119,892 1126,886 1168,886 1174,890 1177,900 1255,900 1268,899 1270,891 1276,886 1287,886 1293,891 1296,901 1454,901 1519,905 1583,901 1774,904 1776,896 1784,891 1810,891 1819,903 1834,903 1896,901 1911,888 1922,888 1932,893 1934,903 1940,902 1948,890 1960,890 1967,900 1973,901 2104,899 2104,951 2056,950 2033,955 2010,955 1995,951 1976,955 1875,950 1845,950 1821,954 1737,954 1694,953 1689,949 1663,952 1432,952 1376,947 1368,950 1232,948 1226,951 989,952 971,950 967,945 967,931 961,929 932,929 926,939 907,939"/>
@@ -433,7 +449,7 @@ probauit&#13;
           </TextEquiv>
         </Word>
         <Word id="region0005_line0003_word0008" custom="readingOrder {index:4;}">
-          <Coords points="2004,953 2004,896 1900,896 1900,951 1976,955 1995,951"/>
+          <Coords points="2004,900 1973,901 1967,900 1964,896 1944,896 1940,902 1934,903 1932,896 1901,896 1900,897 1900,951 1976,955 1995,951 2004,953"/>
           <TextEquiv conf="0.8921809">
             <Unicode>fuit,</Unicode>
           </TextEquiv>
@@ -835,7 +851,7 @@ probauit&#13;
           </TextEquiv>
         </Word>
         <Word id="region0009_line0007_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1808,1407 1808,1348 1784,1350 1775,1353 1771,1358 1768,1357 1768,1415 1784,1415 1792,1414 1804,1407"/>
+          <Coords points="1808,1349 1794,1350 1785,1353 1781,1358 1772,1357 1771,1358 1768,1357 1768,1357 1768,1415 1784,1415 1792,1414 1804,1407 1808,1407"/>
           <TextEquiv conf="0.9215422">
             <Unicode>3.</Unicode>
           </TextEquiv>
@@ -1177,7 +1193,7 @@ probauit&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1650358155953_4992" custom="readingOrder {index:3;}">
-          <Coords points="1553,1758 1814,1758 1814,1791 1744,1793 1553,1793"/>
+          <Coords points="1554,1758 1553,1758 1553,1793 1744,1793 1814,1791 1814,1758 1810,1758 1809,1759 1796,1759 1786,1763 1773,1762 1765,1758 1725,1758 1724,1759 1696,1760 1642,1758"/>
           <TextEquiv>
             <Unicode>VLPIANVS</Unicode>
           </TextEquiv>
@@ -1423,7 +1439,7 @@ probauit&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1650358173136_5005" custom="readingOrder {index:3;}">
-          <Coords points="1282,2039 1340,2030 1374,2028 1426,2061 1426,2082 1397,2074 1282,2074"/>
+          <Coords points="1340,2030 1333,2037 1302,2039 1282,2039 1282,2074 1397,2074 1426,2082 1426,2061 1387,2036 1386,2036 1385,2035 1374,2028"/>
           <TextEquiv>
             <Unicode>geſſit,</Unicode>
           </TextEquiv>
@@ -1535,7 +1551,7 @@ ita medium ſe geſſit, vt vtramque probaret ſen-
 tentiam, in L.XIIX. D. de hered. petit. occurrit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.043712527" type="footnote" readingDirection="left-to-right" id="region0016" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="region0016" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="0.043712527" type="footnote" readingDirection="left-to-right">
       <Coords points="915,2165 2099,2173 2098,2377 914,2369"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="1001,2166 994,2173 981,2176 915,2180 915,2216 987,2218 990,2222 1000,2225 1012,2223 1016,2219 1081,2219 1087,2216 1113,2219 1148,2217 1154,2221 1240,2219 1245,2222 1321,2226 1443,2224 1492,2229 1557,2229 1559,2236 1567,2240 1585,2238 1587,2233 1630,2235 1717,2231 1842,2231 1848,2235 1861,2230 1882,2234 1914,2234 1922,2229 1929,2229 1935,2234 2001,2234 2007,2231 2021,2231 2026,2234 2037,2231 2098,2233 2098,2190 2090,2186 2079,2186 2073,2191 2035,2193 1897,2190 1890,2184 1881,2184 1869,2191 1861,2191 1801,2180 1744,2186 1685,2179 1547,2186 1546,2178 1541,2173 1515,2178 1509,2186 1494,2185 1487,2176 1477,2176 1471,2184 1384,2184 1288,2177 1170,2181 1157,2178 1153,2167 1128,2167 1122,2176 1110,2176 1102,2167"/>

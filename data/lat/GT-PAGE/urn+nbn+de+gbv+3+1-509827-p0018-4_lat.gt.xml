@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-182">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:48Z</Created>
     <LastChange>2024-01-19T13:08:48Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/e2a3584c-c93f-498c-815b-4a20413cf296/00000018.jpg" imageWidth="2549" imageHeight="2858" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1658469988436_323"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.6340266" type="marginalia" readingDirection="left-to-right" id="TextRegion_1658469959030_305" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1658469959030_305" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="0.6340266" type="marginalia" readingDirection="left-to-right">
       <Coords points="799,1212 1007,1212 1007,1328 799,1328"/>
       <TextLine id="line_1658469945846_249" custom="readingOrder {index:0;}">
         <Coords points="800,1219 840,1221 890,1229 898,1220 908,1220 916,1229 931,1229 935,1220 951,1217 964,1220 969,1228 1007,1228 1007,1269 984,1270 978,1267 820,1269 814,1272 799,1272"/>
@@ -58,11 +74,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>De vindica-&#13;
+        <Unicode>De vindica-
 tione utili. tamur, in confeſſo eſt apud DJ. pro qualitate dominii et-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6340266" type="marginalia" readingDirection="left-to-right" id="TextRegion_1658469955283_297" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1658469955283_297" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="0.6340266" type="marginalia" readingDirection="left-to-right">
       <Coords points="799,1729 1007,1729 1007,1850 799,1850"/>
       <TextLine id="line_1658469945870_269" custom="readingOrder {index:0;}">
         <Coords points="800,1747 845,1748 850,1744 860,1743 867,1749 882,1751 892,1742 902,1742 913,1743 921,1751 954,1750 963,1741 974,1741 982,1751 990,1751 999,1743 1007,1740 1007,1793 911,1794 905,1791 846,1794 799,1789"/>
@@ -91,11 +107,11 @@ tione utili. tamur, in confeſſo eſt apud DJ. pro qualitate dominii et-</Unico
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Vindicatio applicandam eſſee Solenne hujus rei exemplum occur-&#13;
+        <Unicode>Vindicatio applicandam eſſee Solenne hujus rei exemplum occur-
 feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6340266" readingDirection="left-to-right" id="TextRegion_1658469988436_324" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658469988436_324" custom="readingOrder {index:2;}" orientation="0.6340266" readingDirection="left-to-right">
       <Coords points="1007,547 2277,547 2276,1198 1006,1198"/>
       <TextLine id="line_1658469945813_226" custom="readingOrder {index:0;}">
         <Coords points="1007,567 1095,567 1106,557 1124,556 1131,566 1139,567 1203,566 1208,561 1216,561 1221,565 1322,563 1327,560 1355,563 1414,559 1418,554 1427,552 1440,552 1447,559 1479,559 1534,557 1540,552 1549,552 1556,557 1593,559 1598,555 1606,555 1616,561 1693,566 1762,565 1770,553 1794,555 1804,562 1821,559 1891,558 1911,555 1916,550 1939,549 1949,556 1966,558 1999,557 2007,551 2018,551 2025,557 2064,560 2069,555 2078,555 2083,559 2091,558 2101,548 2126,547 2136,555 2147,547 2157,547 2163,555 2196,558 2207,547 2225,547 2228,557 2276,557 2276,598 2253,604 2218,608 2165,608 2156,615 2145,615 2139,609 2112,609 2105,619 2093,617 2089,611 2033,612 2025,618 2010,621 2002,614 1905,614 1887,611 1819,614 1726,609 1649,610 1602,614 1549,611 1468,616 1442,614 1430,623 1420,623 1415,618 1375,616 1192,621 1189,618 1179,618 1160,620 1154,628 1143,628 1136,620 1117,620 1115,625 1101,627 1095,621 1074,621 1067,618 1040,621 1027,617 1007,617"/>
@@ -308,7 +324,7 @@ feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1658470160567_497" custom="readingOrder {index:5;}">
-          <Coords points="1600,733 1948,731 2021,730 2092,730 2092,781 2043,790 1825,793 1741,791 1636,785 1600,776"/>
+          <Coords points="1602,733 1601,734 1600,734 1600,776 1625,782 1631,782 1636,785 1677,783 1682,786 1724,782 1741,791 1758,785 1785,788 1795,792 1812,788 1825,793 1846,782 1859,785 1899,783 1935,787 1988,787 2000,783 2030,782 2043,790 2081,781 2092,781 2092,730 2054,730 2031,730 2028,732 2023,732 2021,730 1996,730 1995,731 1992,730 1948,731 1908,731 1899,733 1789,734 1788,732 1763,732 1758,734 1755,732"/>
           <TextEquiv>
             <Unicode>dieSchoͤppen⸗Stuͤhle</Unicode>
           </TextEquiv>
@@ -358,7 +374,7 @@ feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-</Unicode>
         </Word>
         <Word id="region0007_line0005_word0003" custom="readingOrder {index:4;}">
           <Coords points="1631,797 1561,798 1561,844 1590,847 1598,853 1618,853 1626,846 1631,845"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>uff</Unicode>
           </TextEquiv>
         </Word>
@@ -684,7 +700,7 @@ feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1658469945844_246" custom="readingOrder {index:10;}">
-        <Coords points="1007,1149 1162,1149 1167,1154 1168,1188 1163,1193 1149,1193 1143,1198 1106,1203 1007,1203"/>
+        <Coords points="1149,1193 1163,1193 1168,1188 1167,1154 1162,1149 1007,1149 1007,1198 1143,1198"/>
         <Baseline points="1007,1192 1079,1193 1168,1184"/>
         <Word id="word_1658469988482_327" custom="readingOrder {index:0;}">
           <Coords points="1023,1169 1101,1168 1101,1198 1023,1198"/>
@@ -697,23 +713,23 @@ feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ren ſeyn/ und der Herr des commodirten Guthes ſich al⸗&#13;
-Ieine actione perſonali an den commodatorium ratione inter-&#13;
-eſſe halten/ und ſein Guth anzuſprechen nicht befuget&#13;
-ſeyn ſoll. So haltens doch dieSchoͤppen⸗Stuͤhle in die⸗&#13;
-ſem einig/daß in practica uff dieſes unbillige Recht nicht&#13;
-zu ſprechen. Ex quibus patet, praxin Saxonicam a foro&#13;
-diſcesſiſſe; Licet hoc, quod Zobelius inde infert, in com-&#13;
-modato transferri dominium, non ſequatur, uti oſtenſum eſt&#13;
-§. præced. Interim optandum foret, ut in pluribus aliis&#13;
-momentis ab iniquitate juris Saxonici in foro recedere-&#13;
+        <Unicode>ren ſeyn/ und der Herr des commodirten Guthes ſich al⸗
+Ieine actione perſonali an den commodatorium ratione inter-
+eſſe halten/ und ſein Guth anzuſprechen nicht befuget
+ſeyn ſoll. So haltens doch dieSchoͤppen⸗Stuͤhle in die⸗
+ſem einig/daß in practica uff dieſes unbillige Recht nicht
+zu ſprechen. Ex quibus patet, praxin Saxonicam a foro
+diſcesſiſſe; Licet hoc, quod Zobelius inde infert, in com-
+modato transferri dominium, non ſequatur, uti oſtenſum eſt
+§. præced. Interim optandum foret, ut in pluribus aliis
+momentis ab iniquitate juris Saxonici in foro recedere-
 tur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.6340266" readingDirection="left-to-right" id="TextRegion_1658469988436_323" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1658469988436_323" custom="readingOrder {index:3;}" orientation="0.6340266" readingDirection="left-to-right">
       <Coords points="1006,1198 2276,1198 2276,2430 1006,2430"/>
       <TextLine id="line_1658469945846_248" custom="readingOrder {index:0;}">
-        <Coords points="1007,1228 1058,1228 1059,1215 1064,1210 1161,1196 1342,1193 1348,1197 1350,1208 1421,1208 1537,1207 1543,1195 1559,1193 1566,1198 1571,1194 1583,1193 1588,1197 1590,1206 1607,1206 1618,1194 1631,1192 1643,1197 1645,1207 1682,1206 1684,1199 1689,1195 1759,1193 1766,1197 1779,1186 1787,1186 1792,1191 1790,1208 1813,1208 1820,1194 1833,1193 1839,1199 1840,1208 1860,1207 1866,1205 1868,1198 1873,1194 1890,1192 1906,1194 1912,1206 1959,1205 1966,1196 1979,1194 1987,1199 1989,1207 2261,1204 2276,1207 2276,1248 2238,1252 2028,1257 1911,1258 1895,1255 1712,1258 1681,1257 1674,1254 1602,1255 1596,1261 1577,1265 1574,1264 1573,1256 1469,1258 1455,1255 1443,1258 1393,1258 1388,1256 1324,1255 1277,1261 1180,1261 1171,1268 1139,1271 1083,1269 1078,1264 1078,1255 1075,1254 1073,1263 1069,1266 1038,1269 1007,1269"/>
+        <Coords points="1064,1210 1059,1215 1058,1228 1007,1228 1007,1269 1038,1269 1069,1266 1073,1263 1075,1254 1078,1255 1078,1264 1083,1269 1139,1271 1171,1268 1180,1261 1277,1261 1324,1255 1388,1256 1393,1258 1443,1258 1455,1255 1469,1258 1573,1256 1574,1264 1577,1265 1596,1261 1602,1255 1674,1254 1681,1257 1712,1258 1895,1255 1911,1258 2028,1257 2238,1252 2276,1248 2276,1207 2261,1204 1989,1207 1987,1199 1985,1198 1964,1198 1959,1205 1912,1206 1908,1198 1868,1198 1866,1205 1860,1207 1840,1208 1839,1199 1838,1198 1818,1198 1813,1208 1790,1208 1791,1198 1685,1198 1684,1199 1682,1206 1645,1207 1643,1198 1614,1198 1607,1206 1590,1206 1588,1198 1566,1198 1541,1198 1537,1207 1421,1208 1350,1208 1348,1198 1147,1198"/>
         <Baseline points="1007,1257 1075,1257 1078,1257 1133,1256 1303,1244 1935,1247 2276,1240"/>
         <Word id="region0007_line0012_word0002" custom="readingOrder {index:0;}">
           <Coords points="1133,1209 1172,1209 1172,1263 1133,1263"/>
@@ -1547,7 +1563,7 @@ tur.</Unicode>
         </Word>
         <Word id="region0007_line0026_word0003" custom="readingOrder {index:3;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1657,2024 1637,2024 1627,2034 1591,2034 1549,2032 1549,2081 1572,2080 1573,2079 1605,2077 1608,2080 1632,2080 1635,2078 1657,2077"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quaſi</Unicode>
           </TextEquiv>
         </Word>
@@ -1657,7 +1673,7 @@ tur.</Unicode>
         </Word>
         <Word id="region0007_line0028_word0004" custom="readingOrder {index:4;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1462,2155 1493,2154 1494,2191 1463,2192"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>8.</Unicode>
           </TextEquiv>
         </Word>
@@ -1885,7 +1901,7 @@ tur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1658469945893_290" custom="readingOrder {index:20;}">
-        <Coords points="1007,2383 1170,2383 1174,2374 1195,2371 1210,2374 1212,2383 1303,2382 1306,2375 1323,2372 1328,2374 1330,2382 1388,2385 1404,2384 1414,2372 1420,2371 1438,2374 1440,2383 1480,2383 1484,2374 1500,2371 1522,2373 1525,2382 1544,2383 1592,2381 1599,2372 1620,2369 1643,2371 1644,2380 1647,2382 1665,2382 1670,2372 1676,2370 1682,2375 1692,2375 1699,2370 1704,2372 1706,2382 1757,2381 1760,2370 1763,2369 1781,2369 1786,2372 1787,2380 1795,2380 1797,2373 1802,2370 1818,2370 1823,2373 1824,2380 1902,2381 1951,2378 1957,2370 1975,2370 1981,2375 1993,2376 2000,2370 2010,2370 2025,2372 2036,2378 2085,2380 2088,2371 2103,2369 2111,2372 2112,2380 2127,2379 2130,2371 2148,2369 2153,2372 2154,2380 2277,2381 2276,2429 2227,2429 2221,2426 2195,2430 2026,2429 1945,2431 1929,2435 1925,2432 1877,2429 1586,2430 1561,2432 1557,2443 1537,2445 1529,2440 1527,2433 1251,2433 1246,2437 1236,2437 1231,2433 1009,2434 1007,2433"/>
+        <Coords points="2154,2380 2153,2372 2148,2369 2130,2371 2127,2379 2112,2380 2111,2372 2103,2369 2088,2371 2085,2380 2036,2378 2025,2372 2010,2370 2000,2370 1993,2376 1981,2375 1975,2370 1957,2370 1951,2378 1902,2381 1824,2380 1823,2373 1818,2370 1802,2370 1797,2373 1795,2380 1787,2380 1786,2372 1781,2369 1763,2369 1760,2370 1757,2381 1706,2382 1704,2372 1699,2370 1692,2375 1682,2375 1676,2370 1670,2372 1665,2382 1647,2382 1644,2380 1643,2371 1620,2369 1599,2372 1592,2381 1544,2383 1525,2382 1522,2373 1500,2371 1484,2374 1480,2383 1440,2383 1438,2374 1420,2371 1414,2372 1404,2384 1388,2385 1330,2382 1328,2374 1323,2372 1306,2375 1303,2382 1212,2383 1210,2374 1195,2371 1174,2374 1170,2383 1007,2383 1007,2430 1586,2430 1877,2429 1893,2430 1985,2430 2026,2429 2195,2430 2221,2426 2227,2429 2276,2429 2276,2380"/>
         <Baseline points="1007,2423 2276,2419"/>
         <Word id="region0007_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="1040,2395 1112,2395 1112,2427 1040,2427"/>
@@ -1940,26 +1956,26 @@ tur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. IX. Verum ut ad ipſam Rei Rei vindicationem rever-&#13;
-tamur, in confeſſo eſt apud Dd. pro qualitate dominii et-&#13;
-iam qualificari ipſam rei vindicationem. Unde ſi dire-&#13;
-ctum dominium vindicanti competat, rei vindicatio dire-&#13;
-cta ipſi conceditur; Quod ſi utili tantum gaudeat, utilis&#13;
-quoque competet rei vindicatio. Et hinc, quamvis ſpe-&#13;
-cies quædam utilis dominii juri Romano incognita ſit,&#13;
-poſtquam tamen illa uſu invaluit, nullum ſubeſt dubium,&#13;
-utilem rei vindicationem ex jure Romano huic negotio&#13;
-applicandam eſſe. Solenne hujus rei exemplum occur-&#13;
-feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-&#13;
-eat, utilis quoque feudi vindicatio tranſeat neceſſum eſt.&#13;
-Hinc notanter dicitur in textu 2. Feud. 8. §. rei autem. Quod&#13;
-Vaſallus poteſtatem habeat, tanquam dominus feudum a&#13;
-quolibet poſſidente ſibi quaſi vindicare, quæ verba utilem&#13;
-rei vindicationem aperte innuunt ac deſcribunt. Bitſch.&#13;
-comment. ad 2. feud. 8. pag. 257. Quæ utilis vindicatio in&#13;
-vaſallo tantæ efficaciæ eſt, ut ſi concurrat cum ipſo feu-&#13;
-di domino, &amp; uterque a tertio feudum vindicare velit,&#13;
-vaſalli conditio potior ſit, utpote cui, propter domini-&#13;
+        <Unicode>§. IX. Verum ut ad ipſam Rei Rei vindicationem rever-
+tamur, in confeſſo eſt apud Dd. pro qualitate dominii et-
+iam qualificari ipſam rei vindicationem. Unde ſi dire-
+ctum dominium vindicanti competat, rei vindicatio dire-
+cta ipſi conceditur; Quod ſi utili tantum gaudeat, utilis
+quoque competet rei vindicatio. Et hinc, quamvis ſpe-
+cies quædam utilis dominii juri Romano incognita ſit,
+poſtquam tamen illa uſu invaluit, nullum ſubeſt dubium,
+utilem rei vindicationem ex jure Romano huic negotio
+applicandam eſſe. Solenne hujus rei exemplum occur-
+feudi. rit in feudo, cujus dominium utile cum in vaſallum tranſ-
+eat, utilis quoque feudi vindicatio tranſeat neceſſum eſt.
+Hinc notanter dicitur in textu 2. Feud. 8. §. rei autem. Quod
+Vaſallus poteſtatem habeat, tanquam dominus feudum a
+quolibet poſſidente ſibi quaſi vindicare, quæ verba utilem
+rei vindicationem aperte innuunt ac deſcribunt. Bitſch.
+comment. ad 2. feud. 8. pag. 257. Quæ utilis vindicatio in
+vaſallo tantæ efficaciæ eſt, ut ſi concurrat cum ipſo feu-
+di domino, &amp; uterque a tertio feudum vindicare velit,
+vaſalli conditio potior ſit, utpote cui, propter domini-
 um utile, etiam feudi poſſesſio debetur; Domini vero</Unicode>
       </TextEquiv>
     </TextRegion>

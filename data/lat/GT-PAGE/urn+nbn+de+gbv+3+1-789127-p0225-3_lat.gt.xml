@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-276">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:14Z</Created>
     <LastChange>2024-01-19T13:10:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/ad83aade-7e48-4c19-812c-759a3fdee82f/00000225.jpg" imageWidth="2038" imageHeight="3027" type="content" primaryLanguage="Latin">
     <Border>
@@ -27,7 +43,7 @@
         <RegionRefIndexed index="13" regionRef="TextRegion_1653459143617_95"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="270,545 1452,561 1450,697 268,681"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="400,548 358,557 270,558 269,623 330,623 345,620 350,615 375,615 394,611 679,607 739,610 749,608 761,610 771,619 821,614 833,616 841,622 849,620 853,613 858,612 874,612 879,621 889,622 897,620 904,612 915,611 977,611 1013,617 1172,616 1179,626 1185,627 1190,627 1202,618 1223,626 1270,619 1309,620 1311,630 1320,634 1338,633 1342,621 1451,620 1451,571 1420,571 1416,561 1385,560 1381,560 1377,571 1336,571 1209,565 1147,567 1140,558 1124,558 1114,566 1089,563 1081,557 1057,556 1005,556 996,563 985,564 951,559 945,554 934,554 912,554 907,558 875,561 871,554 851,554 846,562 842,562 775,559 748,552"/>
@@ -108,11 +124,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>377. ALSINE. Cal. 5-phyllus. Petala 5, aequalia.&#13;
+        <Unicode>377. ALSINE. Cal. 5-phyllus. Petala 5, aequalia.
 389. Capſ. 1-locularis, 3-valuis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:1;}">
+    <TextRegion id="region0003" custom="readingOrder {index:1;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="255,683 1452,699 1450,873 253,857"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="326,688 320,690 314,699 255,700 255,735 355,738 362,733 382,731 391,736 405,735 411,738 474,737 518,733 563,737 578,742 596,736 624,736 649,732 670,736 691,733 697,737 715,738 726,743 735,743 742,738 781,739 785,736 855,741 873,734 882,738 894,735 968,737 978,741 995,742 1013,738 1037,744 1061,741 1068,745 1130,747 1266,745 1275,739 1275,712 1272,708 1213,705 1208,697 1195,697 1189,705 1167,705 1161,696 1148,696 1142,705 1116,705 1044,700 965,702 962,693 866,692 860,695 836,696 832,691 817,692 809,696 806,692 790,691 779,696 733,696 724,695 720,690 690,689 637,689 588,695 515,688 466,694 356,697 346,688"/>
@@ -243,7 +259,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1653459354002_151" custom="readingOrder {index:5;}">
-          <Coords points="821,783 933,782 989,785 1006,786 1007,830 990,830 821,823"/>
+          <Coords points="821,783 821,823 837,823 851,823 947,826 964,828 990,830 1007,830 1006,786 963,785 934,783 932,782 902,782 901,783 870,782"/>
           <TextEquiv>
             <Unicode>brevibus,</Unicode>
           </TextEquiv>
@@ -289,13 +305,13 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>media. 1. A. petal. bipartitis, fol. ovato-cordatis.&#13;
-ſegetalis. 2. A. petal. integris. fol. ſubulatis.&#13;
-mucronata. 3. A. petal. integris brevibus, fol. ſetaceis, calyc. ari-&#13;
+        <Unicode>media. 1. A. petal. bipartitis, fol. ovato-cordatis.
+ſegetalis. 2. A. petal. integris. fol. ſubulatis.
+mucronata. 3. A. petal. integris brevibus, fol. ſetaceis, calyc. ari-
 ſtatis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:2;}">
+    <TextRegion id="region0004" custom="readingOrder {index:2;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="251,877 1450,893 1448,1021 249,1005"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="355,879 332,887 274,892 266,887 252,887 251,953 312,952 433,940 596,946 710,942 734,945 748,952 776,954 814,952 835,942 920,944 930,947 1104,950 1126,948 1200,951 1217,960 1250,961 1299,961 1329,954 1354,954 1378,955 1381,962 1390,968 1405,967 1411,956 1449,955 1449,904 1404,905 1392,895 1377,893 1319,893 1278,902 1227,903 1192,902 1185,894 1171,894 1165,899 1149,898 1136,896 1132,890 1122,889 1033,888 1030,897 972,894 934,896 930,893 921,893 917,896 873,896 871,886 850,885 845,885 844,893 841,894 786,892 765,885 741,884"/>
@@ -376,11 +392,11 @@ mucronata. 3. A. petal. integris brevibus, fol. ſetaceis, calyc. ari-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>378. DRYPIS. Cal. 5- dentatus. Petala 5. Caps.&#13;
+        <Unicode>378. DRYPIS. Cal. 5- dentatus. Petala 5. Caps.
 390. circumſciſſa, monoſperma.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="254,1015 1451,1031 1449,1174 252,1158"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="302,1017 294,1026 289,1021 254,1022 254,1080 270,1080 277,1087 285,1087 292,1080 303,1079 306,1068 326,1067 333,1076 346,1077 356,1067 389,1066 403,1070 541,1072 629,1071 637,1066 680,1066 689,1071 752,1071 757,1068 771,1068 777,1071 798,1072 811,1068 821,1068 828,1072 856,1071 867,1067 873,1068 877,1078 882,1079 891,1078 901,1071 955,1073 965,1068 987,1068 997,1073 1035,1075 1114,1074 1119,1071 1143,1070 1154,1075 1195,1076 1233,1072 1239,1075 1255,1072 1282,1077 1312,1074 1330,1079 1368,1078 1372,1075 1395,1076 1401,1079 1450,1078 1450,1062 1450,1043 1352,1040 1345,1031 1330,1032 1324,1039 1278,1037 1275,1029 1199,1029 1196,1037 1187,1037 1141,1035 1138,1028 1124,1027 1029,1027 1029,1032 1026,1033 1022,1027 1007,1026 1001,1033 987,1033 983,1026 947,1025 939,1032 921,1030 918,1025 893,1024 889,1028 872,1029 869,1024 852,1023 849,1024 847,1032 832,1032 828,1024 812,1024 809,1027 807,1024 798,1023 786,1023 782,1032 764,1032 760,1023 743,1022 737,1032 721,1032 719,1022 689,1021 639,1021 637,1031 627,1031 560,1029 540,1020 526,1019 472,1019 443,1024 373,1027 368,1018 362,1017 350,1019 342,1028 319,1028 314,1018"/>
@@ -475,7 +491,7 @@ mucronata. 3. A. petal. integris brevibus, fol. ſetaceis, calyc. ari-&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1653459513159_195" custom="readingOrder {index:5;}">
-          <Coords points="1353,1082 1372,1076 1384,1076 1398,1078 1419,1084 1446,1095 1446,1111 1436,1112 1353,1105"/>
+          <Coords points="1372,1076 1361,1082 1353,1082 1353,1105 1436,1112 1446,1111 1446,1095 1419,1084 1402,1083 1398,1078 1384,1076"/>
           <TextEquiv>
             <Unicode>alba,</Unicode>
           </TextEquiv>
@@ -487,7 +503,7 @@ mucronata. 3. A. petal. integris brevibus, fol. ſetaceis, calyc. ari-&#13;
       <TextLine id="region0005_line0003" custom="readingOrder {index:2;}">
         <Coords points="637,1109 623,1112 617,1117 501,1121 493,1127 493,1150 498,1155 575,1156 578,1162 599,1162 607,1157 610,1162 688,1163 692,1156 698,1156 735,1158 744,1161 763,1159 765,1164 775,1165 789,1165 792,1157 1235,1161 1245,1152 1245,1126 1242,1122 1199,1121 1181,1118 1175,1114 1153,1114 1141,1119 1121,1121 1055,1120 1048,1115 1040,1115 1029,1122 994,1119 984,1113 969,1112 943,1122 930,1118 915,1118 905,1122 891,1121 886,1112 878,1111 870,1116 825,1122 815,1117 779,1116 746,1120 737,1117 700,1117 695,1112 679,1115 673,1110"/>
         <Word id="word_1653459528693_206" custom="readingOrder {index:0;}">
-          <Coords points="550,1119 618,1115 698,1115 768,1117 768,1164 765,1164 577,1160 550,1155"/>
+          <Coords points="619,1115 617,1117 550,1119 550,1155 553,1155 575,1156 577,1160 601,1160 607,1157 609,1160 688,1162 692,1156 698,1156 735,1158 744,1161 763,1159 765,1164 768,1164 768,1117 746,1120 737,1117 700,1117 698,1115 679,1115"/>
           <TextEquiv>
             <Unicode>anguſtiſſima,</Unicode>
           </TextEquiv>
@@ -520,7 +536,7 @@ res. Calyx ſemiquinquefidus, ereƈtus. Petala alba,
 anguſtiſſima, patentia. Stamina ereƈta.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:4;}">
+    <TextRegion id="region0006" custom="readingOrder {index:4;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="267,1166 1451,1182 1448,1367 264,1351"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="363,1168 341,1178 268,1179 267,1244 327,1243 398,1231 631,1240 779,1237 788,1234 923,1236 946,1234 970,1240 979,1248 987,1248 995,1239 1242,1242 1261,1240 1267,1243 1286,1244 1393,1245 1399,1257 1420,1256 1424,1247 1449,1247 1450,1243 1450,1196 1290,1194 1288,1184 1281,1180 1253,1180 1249,1192 1245,1193 1233,1192 1231,1183 1225,1179 1211,1179 1208,1191 1201,1192 1175,1190 1167,1178 1164,1178 1112,1181 1102,1188 1090,1188 1088,1180 1084,1178 1031,1177 1004,1182 935,1184 929,1178 919,1175 865,1176 840,1183 828,1183 805,1174 671,1175 605,1171"/>
@@ -643,12 +659,12 @@ anguſtiſſima, patentia. Stamina ereƈta.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>379. BASELLA. Cal. o. Cor. 7-fida: laciniis 2 op-&#13;
-390. poſitis latioribus, tandem bac-&#13;
+        <Unicode>379. BASELLA. Cal. o. Cor. 7-fida: laciniis 2 op-
+390. poſitis latioribus, tandem bac-
 cata. Sem. I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:5;}">
+    <TextRegion id="region0007" custom="readingOrder {index:5;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="259,1371 1448,1387 1447,1485 258,1469"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="294,1372 291,1381 259,1381 259,1421 390,1423 396,1427 583,1427 631,1430 643,1437 662,1429 687,1429 743,1434 763,1443 788,1445 807,1442 811,1433 1041,1435 1045,1442 1051,1444 1067,1443 1074,1435 1279,1435 1300,1436 1310,1445 1322,1445 1329,1436 1338,1435 1447,1434 1447,1395 1439,1395 1434,1387 1419,1387 1414,1396 1375,1397 1356,1396 1349,1387 1337,1385 1333,1385 1327,1395 1285,1397 1283,1387 1279,1384 1225,1384 1211,1384 1203,1393 1171,1393 1150,1391 1143,1383 1132,1383 1125,1391 1104,1391 1098,1383 1072,1383 1065,1390 1029,1391 1022,1390 1013,1382 1003,1382 991,1389 966,1389 959,1383 935,1384 929,1389 869,1389 852,1389 844,1380 830,1380 824,1389 809,1389 732,1386 724,1379 715,1379 709,1385 692,1385 681,1384 674,1377 660,1377 653,1384 645,1385 614,1377 598,1376 461,1374 435,1380 318,1381 314,1372"/>
@@ -735,11 +751,11 @@ cata. Sem. I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>rubra. I. B. fol. planis, pedunculis ſimplicibus. Rumph. amb.&#13;
+        <Unicode>rubra. I. B. fol. planis, pedunculis ſimplicibus. Rumph. amb.
 5. t. 154.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:6;}">
+    <TextRegion id="region0008" custom="readingOrder {index:6;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="257,1459 1451,1475 1449,1555 255,1539"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="280,1460 275,1468 257,1470 257,1510 463,1514 558,1510 562,1513 608,1515 636,1512 643,1515 698,1511 704,1515 856,1519 899,1526 929,1527 933,1530 950,1530 958,1521 971,1519 1194,1521 1198,1522 1202,1529 1214,1531 1226,1529 1230,1522 1450,1523 1450,1483 1429,1482 1423,1475 1358,1474 1352,1479 1322,1479 1306,1478 1303,1473 1277,1472 1271,1478 1261,1478 1255,1473 1230,1473 1224,1479 1185,1479 1180,1478 1175,1472 1167,1471 1164,1471 1120,1477 1114,1472 1091,1470 1088,1470 1083,1478 1028,1479 1009,1478 1004,1470 988,1469 982,1478 940,1478 881,1475 873,1468 864,1468 850,1475 821,1477 755,1474 749,1466 736,1466 729,1473 708,1472 704,1465 689,1465 684,1472 636,1473 631,1465 489,1462 483,1462 430,1468 324,1469 311,1468 307,1460"/>
@@ -802,7 +818,7 @@ cata. Sem. I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0002" custom="readingOrder {index:1;}">
-        <Coords points="544,1511 498,1515 493,1524 495,1554 499,1557 585,1556 597,1558 608,1566 629,1566 632,1561 652,1558 803,1558 811,1551 810,1523 807,1519 704,1516 698,1512 643,1516 636,1513 608,1516"/>
+        <Coords points="498,1515 493,1524 494,1542 810,1546 810,1523 807,1519 704,1516 698,1512 643,1516 636,1513 608,1516 544,1511"/>
         <Word id="region0008_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="760,1558 760,1520 547,1521 547,1556 585,1556 597,1558 608,1566 629,1566 632,1561 652,1558"/>
           <TextEquiv>
@@ -814,11 +830,11 @@ cata. Sem. I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>alba. 2. B. fol. undatis ovatis, pedunculis ſimplicibus folio&#13;
+        <Unicode>alba. 2. B. fol. undatis ovatis, pedunculis ſimplicibus folio
 longioribus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0009" custom="readingOrder {index:7;}">
+    <TextRegion id="region0009" custom="readingOrder {index:7;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="259,1544 1409,1559 1408,1620 258,1605"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="261,1545 259,1592 384,1594 386,1601 391,1605 449,1604 516,1598 746,1602 821,1607 834,1612 871,1613 891,1613 896,1613 898,1606 972,1605 1408,1609 1408,1571 1381,1568 1375,1559 1355,1559 1350,1565 1232,1562 1228,1557 1212,1557 1199,1562 1177,1562 1173,1556 1151,1556 1146,1562 1051,1563 1044,1557 1023,1555 1013,1562 939,1562 931,1554 922,1554 912,1562 888,1563 814,1560 806,1553 797,1553 790,1558 768,1558 763,1551 746,1551 742,1557 722,1558 679,1555 671,1550 663,1549 659,1549 642,1552 463,1547 435,1553 351,1553 349,1546 310,1545 305,1554 296,1554 284,1553 281,1545"/>
@@ -878,7 +894,7 @@ longioribus.</Unicode>
         <Unicode>lucida. 3. B. fol. ſubcordatis, pedunculis confertis ramoſis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="TextRegion_1653459137486_91" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1653459137486_91" custom="readingOrder {index:8;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="258,1617 1440,1633 1437,1802 255,1802"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="356,1619 337,1625 299,1623 258,1626 257,1650 257,1684 282,1685 336,1678 360,1678 549,1683 852,1686 854,1694 861,1696 876,1690 893,1692 899,1698 936,1701 953,1699 955,1694 965,1687 1141,1689 1218,1687 1224,1688 1226,1697 1232,1701 1312,1701 1328,1691 1439,1692 1439,1643 1418,1642 1412,1634 1398,1635 1390,1642 1363,1639 1357,1643 1324,1643 1223,1639 1193,1631 1120,1631 1098,1640 1087,1641 1049,1641 1039,1639 1032,1630 1018,1630 1012,1640 956,1641 893,1636 854,1626 722,1626 708,1623 665,1622"/>
@@ -965,12 +981,12 @@ longioribus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>380. SAROTHRA. Cal. 5-partitus. Cor. 5-petala&#13;
-391. Capſ. 1-locularis, 3-valvis&#13;
+        <Unicode>380. SAROTHRA. Cal. 5-partitus. Cor. 5-petala
+391. Capſ. 1-locularis, 3-valvis
 colorata.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="TextRegion_1653459137485_90" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1653459137485_90" custom="readingOrder {index:9;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="255,1802 1437,1802 1437,1872 255,1856"/>
       <TextLine id="region0010_line0005" custom="readingOrder {index:0;}">
         <Coords points="278,1807 256,1809 255,1856 753,1861 753,1832 748,1827 699,1826 634,1821 514,1821 504,1813 484,1810 365,1821 360,1821 351,1811 343,1811 337,1816 316,1820 309,1810"/>
@@ -1000,7 +1016,7 @@ colorata.</Unicode>
         <Unicode>Gentian. I. SAROTHRA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" type="heading" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:10;} structure {type:heading;}">
+    <TextRegion id="region0011" custom="readingOrder {index:10;} structure {type:heading;}" orientation="0.27898124" type="heading" readingDirection="left-to-right">
       <Coords points="609,1903 1117,1910 1116,1978 608,1971"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="609,1904 608,1971 841,1974 879,1972 890,1974 891,1974 926,1971 929,1974 947,1975 963,1975 967,1972 970,1975 1003,1973 1006,1976 1116,1977 1116,1916 985,1908 975,1908 852,1909 834,1906 833,1906 818,1908 783,1905 736,1904"/>
@@ -1018,7 +1034,7 @@ colorata.</Unicode>
         <Unicode>TETRAGYNIA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:11;}">
+    <TextRegion id="region0012" custom="readingOrder {index:11;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="260,2005 1450,2021 1449,2098 259,2082"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="361,2008 325,2012 301,2009 295,2013 260,2014 260,2075 276,2078 282,2075 385,2071 571,2076 853,2077 866,2079 878,2087 895,2090 933,2088 939,2091 964,2091 967,2085 1014,2084 1336,2096 1389,2093 1425,2096 1430,2093 1449,2092 1449,2040 1415,2035 1392,2036 1373,2033 1369,2036 1292,2042 1275,2041 1267,2032 1254,2032 1246,2037 1180,2026 1156,2025 1151,2029 1128,2029 1096,2034 1047,2032 1045,2025 1039,2021 1029,2021 1021,2030 982,2030 900,2021 870,2013 814,2012"/>
@@ -1072,7 +1088,7 @@ colorata.</Unicode>
         <Unicode>381. PARNASSIA. Cal. 5-partitus. Petala 5. Ne-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="TextRegion_1653459143617_96" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1653459143617_96" custom="readingOrder {index:12;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="258,2067 1451,2083 1448,2253 255,2253"/>
       <TextLine id="line_1653459805416_309" custom="readingOrder {index:0;}">
         <Coords points="320,2075 430,2072 439,2072 739,2074 848,2076 1154,2085 1344,2093 1383,2095 1449,2108 1449,2158 1243,2161 1005,2155 331,2127 318,2116 315,2112 315,2080"/>
@@ -1141,7 +1157,7 @@ colorata.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0004" custom="readingOrder {index:2;}">
-        <Coords points="856,2199 849,2203 847,2210 830,2213 817,2209 736,2208 731,2213 731,2245 736,2250 755,2253 836,2260 992,2260 997,2255 996,2222 975,2215 916,2212 915,2202 910,2199 893,2200 890,2211 875,2210 871,2199"/>
+        <Coords points="849,2203 847,2210 830,2213 817,2209 736,2208 731,2213 731,2245 736,2250 755,2253 996,2253 996,2222 975,2215 916,2212 915,2202 910,2199 893,2200 890,2211 875,2210 871,2199 856,2199"/>
         <Word id="word_1653459143665_99" custom="readingOrder {index:0;}">
           <Coords points="749,2208 817,2209 830,2213 847,2210 848,2206 873,2206 875,2210 890,2211 891,2206 915,2206 916,2212 940,2213 940,2253 755,2253 749,2252"/>
           <TextEquiv>
@@ -1158,7 +1174,7 @@ apicibus globoſis. Capſ. 4-
 valuis. vValuis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.27898124" readingDirection="left-to-right" id="TextRegion_1653459143617_95" custom="readingOrder {index:13;}">
+    <TextRegion id="TextRegion_1653459143617_95" custom="readingOrder {index:13;}" orientation="0.27898124" readingDirection="left-to-right">
       <Coords points="255,2253 1448,2253 1448,2337 255,2321"/>
       <TextLine id="region0013_line0005" custom="readingOrder {index:0;}">
         <Coords points="305,2260 296,2265 293,2273 255,2273 255,2321 279,2321 290,2315 307,2315 315,2321 329,2322 338,2322 342,2317 363,2317 425,2323 670,2326 710,2327 768,2325 768,2298 763,2293 549,2285 541,2283 530,2275 509,2272 411,2276 390,2274 381,2265 358,2269 351,2264 338,2263 330,2269 321,2269 315,2261"/>

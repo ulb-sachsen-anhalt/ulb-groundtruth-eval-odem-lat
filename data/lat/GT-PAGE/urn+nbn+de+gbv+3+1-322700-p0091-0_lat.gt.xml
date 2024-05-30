@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-134">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:07Z</Created>
     <LastChange>2024-01-19T13:08:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/eff2234d-be24-4c8c-a098-c544e6ecd068/00000091.jpg" imageWidth="2341" imageHeight="2664" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,10 +35,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1663576498156_2262"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1663577713137_2822" custom="readingOrder {index:0;}">
-      <Coords points="407,486 1666,486 1666,631 407,631"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.7946121" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1663576482297_2247" custom="readingOrder {index:1;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1663576482297_2247" custom="readingOrder {index:1;} structure {type:drop-capital;}" orientation="-0.7946121" type="drop-capital" readingDirection="left-to-right">
       <Coords points="361,932 454,932 454,1073 360,1073"/>
       <TextLine id="line_1663576511489_2281" custom="readingOrder {index:0;}">
         <Coords points="361,932 432,932 454,932 454,964 454,970 454,1028 454,1064 361,1061"/>
@@ -41,7 +54,7 @@
         <Unicode>S</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7946121" readingDirection="left-to-right" id="TextRegion_1663576482297_2246" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1663576482297_2246" custom="readingOrder {index:2;}" orientation="-0.7946121" readingDirection="left-to-right">
       <Coords points="454,932 1709,932 1709,1073 454,1073"/>
       <TextLine id="line_1663576482345_2251" custom="readingOrder {index:0;}">
         <Coords points="454,970 476,969 479,963 497,953 504,958 505,969 512,956 526,956 535,970 550,969 559,956 568,953 584,955 592,970 793,970 801,960 811,957 828,960 833,970 838,970 847,958 860,959 867,971 905,972 908,964 913,960 926,960 932,964 934,970 937,970 958,963 978,963 984,958 993,958 1001,963 1007,963 1012,959 1024,959 1030,964 1033,971 1040,972 1152,973 1153,955 1158,950 1194,951 1208,964 1211,973 1284,973 1286,964 1292,959 1308,961 1316,974 1599,979 1606,971 1619,970 1625,979 1708,979 1709,1025 1610,1023 1473,1025 1357,1019 1196,1020 1190,1025 1180,1025 1175,1021 1138,1020 1129,1025 1120,1025 1114,1020 1093,1019 1088,1023 1071,1016 1024,1021 998,1018 992,1021 890,1017 868,1018 856,1015 850,1018 802,1017 798,1014 787,1014 782,1017 766,1017 761,1025 754,1027 740,1026 735,1016 720,1017 706,1014 695,1018 691,1025 681,1027 668,1026 662,1018 656,1017 608,1017 602,1014 589,1013 478,1016 468,1019 463,1025 454,1027"/>
@@ -93,7 +106,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1663576482347_2255" custom="readingOrder {index:1;}">
-        <Coords points="454,1028 455,1028 508,1024 519,1016 531,1016 537,1024 563,1024 574,1015 602,1015 610,1018 612,1026 636,1026 639,1019 656,1018 659,1019 661,1026 681,1028 695,1026 698,1018 706,1015 719,1017 722,1026 754,1028 779,1026 780,1019 787,1015 800,1016 805,1026 839,1027 848,1026 849,1019 855,1016 873,1018 875,1024 879,1018 890,1018 897,1027 966,1028 989,1027 991,1022 998,1019 1006,1019 1013,1026 1054,1027 1059,1020 1071,1017 1089,1024 1090,1027 1284,1032 1351,1032 1354,1021 1357,1020 1374,1021 1378,1033 1433,1033 1449,1026 1466,1025 1486,1025 1508,1035 1709,1036 1709,1092 1669,1090 1661,1087 1600,1096 1595,1090 1517,1082 1383,1080 1343,1082 1305,1090 1296,1081 1265,1078 981,1074 944,1070 730,1066 645,1069 582,1067 574,1078 569,1079 559,1073 541,1077 539,1067 454,1064"/>
+        <Coords points="1508,1035 1486,1025 1466,1025 1449,1026 1433,1033 1378,1033 1374,1021 1357,1020 1354,1021 1351,1032 1284,1032 1090,1027 1089,1024 1071,1017 1059,1020 1054,1027 1013,1026 1006,1019 998,1019 991,1022 989,1027 966,1028 897,1027 890,1018 879,1018 875,1024 873,1018 855,1016 849,1019 848,1026 839,1027 805,1026 800,1016 787,1015 780,1019 779,1026 754,1028 722,1026 719,1017 706,1015 698,1018 695,1026 681,1028 661,1026 659,1019 656,1018 639,1019 636,1026 612,1026 610,1018 602,1015 574,1015 563,1024 537,1024 531,1016 519,1016 508,1024 455,1028 454,1028 454,1064 539,1067 540,1073 559,1073 577,1073 582,1067 645,1069 730,1066 944,1070 971,1073 1709,1073 1709,1036"/>
         <Baseline points="454,1054 1337,1073"/>
         <Word id="word_1663576482347_2257" custom="readingOrder {index:0;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="454,1028 455,1028 508,1024 518,1016 531,1016 537,1024 563,1024 571,1017 608,1017 610,1018 612,1026 636,1026 639,1019 651,1018 651,1068 645,1069 582,1067 580,1069 539,1068 539,1067 454,1063"/>
@@ -109,7 +122,7 @@
         </Word>
         <Word id="region0004_line0003_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="926,1034 964,1035 963,1063 925,1062"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>te</Unicode>
           </TextEquiv>
         </Word>
@@ -158,10 +171,10 @@
 altiſſimi obumbrabit te in ſermone angelico Luc. 1, 35.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7946121" readingDirection="left-to-right" id="TextRegion_1663576479467_2234" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1663576479467_2234" custom="readingOrder {index:3;}" orientation="-0.7946121" readingDirection="left-to-right">
       <Coords points="360,1073 1709,1073 1711,1716 356,1716"/>
       <TextLine id="region0004_line0004" custom="readingOrder {index:0;}">
-        <Coords points="730,1067 722,1071 720,1082 634,1081 631,1071 622,1068 611,1068 597,1080 569,1080 557,1074 542,1077 541,1080 476,1079 470,1070 457,1069 450,1079 439,1078 421,1077 416,1066 403,1065 397,1069 395,1077 362,1076 361,1123 1002,1135 1013,1142 1032,1142 1034,1135 1046,1135 1156,1139 1166,1140 1172,1148 1183,1148 1191,1141 1361,1141 1409,1144 1417,1152 1424,1151 1434,1143 1708,1147 1709,1097 1691,1097 1684,1091 1669,1091 1663,1088 1654,1091 1637,1090 1632,1098 1616,1099 1581,1098 1575,1089 1559,1088 1554,1098 1526,1098 1521,1084 1508,1083 1492,1086 1480,1097 1446,1097 1416,1096 1406,1085 1396,1085 1389,1089 1380,1084 1354,1083 1337,1084 1308,1090 1302,1094 1287,1094 1281,1084 1265,1079 1200,1079 1195,1084 1194,1092 1109,1090 1107,1081 1101,1076 1083,1076 1076,1081 1072,1089 975,1087 967,1076 953,1077 948,1085 914,1086 906,1085 899,1076 886,1075 881,1079 879,1086 865,1085 863,1079 856,1074 844,1075 839,1084 824,1084 815,1073 789,1069 783,1074 781,1083 762,1084 748,1083 743,1069"/>
+        <Coords points="720,1082 634,1081 631,1073 605,1073 597,1080 569,1080 557,1074 542,1077 541,1080 476,1079 472,1073 454,1073 450,1079 439,1078 421,1077 419,1073 396,1073 395,1077 362,1076 361,1123 1002,1135 1013,1142 1032,1142 1034,1135 1046,1135 1156,1139 1166,1140 1172,1148 1183,1148 1191,1141 1361,1141 1409,1144 1417,1152 1424,1151 1434,1143 1708,1147 1709,1097 1691,1097 1684,1091 1669,1091 1663,1088 1654,1091 1637,1090 1632,1098 1616,1099 1581,1098 1575,1089 1559,1088 1554,1098 1526,1098 1521,1084 1508,1083 1492,1086 1480,1097 1446,1097 1416,1096 1406,1085 1396,1085 1389,1089 1380,1084 1354,1083 1337,1084 1308,1090 1302,1094 1287,1094 1281,1084 1265,1079 1200,1079 1195,1084 1194,1092 1109,1090 1107,1081 1101,1076 1083,1076 1076,1081 1072,1089 975,1087 967,1076 953,1077 948,1085 914,1086 906,1085 899,1076 886,1075 881,1079 879,1086 865,1085 863,1079 856,1074 844,1075 839,1084 824,1084 815,1073 784,1073 783,1074 781,1083 762,1084 748,1083 744,1073 721,1073"/>
         <Baseline points="361,1113 1708,1137"/>
         <Word id="region0004_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="395,1074 395,1077 374,1076 374,1116 515,1117 515,1079 476,1079 473,1074 453,1074 450,1079 439,1078 421,1077 419,1074"/>
@@ -735,7 +748,7 @@ altiſſimi obumbrabit te in ſermone angelico Luc. 1, 35.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0014" custom="readingOrder {index:10;}">
-        <Coords points="805,1646 736,1660 723,1658 717,1652 709,1652 702,1658 446,1656 362,1649 361,1697 484,1697 557,1701 782,1705 783,1715 788,1720 862,1719 919,1708 1283,1712 1325,1715 1332,1725 1394,1726 1422,1723 1453,1715 1516,1715 1539,1713 1708,1716 1708,1673 1570,1669 1483,1671 1434,1668 1405,1658 1360,1656 1324,1658 1291,1666 977,1661 917,1666 876,1666 875,1656 870,1650"/>
+        <Coords points="736,1660 723,1658 717,1652 709,1652 702,1658 446,1656 362,1649 361,1697 484,1697 557,1701 782,1705 783,1715 784,1716 877,1716 919,1708 1283,1712 1325,1715 1325,1716 1449,1716 1453,1715 1516,1715 1539,1713 1708,1716 1708,1673 1570,1669 1483,1671 1434,1668 1405,1658 1360,1656 1324,1658 1291,1666 977,1661 917,1666 876,1666 875,1656 870,1650 805,1646"/>
         <Baseline points="362,1687 794,1694 812,1709 908,1699 1321,1704 1381,1715 1458,1705 1708,1706"/>
         <Word id="region0004_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="367,1655 504,1657 504,1685 367,1683"/>
@@ -784,20 +797,20 @@ altiſſimi obumbrabit te in ſermone angelico Luc. 1, 35.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>obuiae de ſecunda diuinitatis perſona, filio Dei, eſſe intelli-&#13;
-gendum, in Parte I. huius Exercitationis ſatis ſuperque de-&#13;
-monſtrauimus ᵃ). Cum vero interpretes alii virtutem illam&#13;
-altiſſimi mox de occulta quadam Dei virtute, ſiue omnipoten-&#13;
-tia diuina, mox de Spiritu ſancto, interpretentur, prout ibi-&#13;
-dem iam monuimus; haec aliorum ſententia a nobis diuerſa&#13;
-nunc diiudicanda et, ad magis ſtabiliendam noſtram interpre-&#13;
-tationem, remouenda eſt. Ad illorum numerum, qui omni-&#13;
-potentiam diuinam per virtutem altiſſimi intelligunt, referendi&#13;
-ſunt 10. GVIL. BAIERVS ᵇ), ANTON. BYNAEVS ᶜ),&#13;
+        <Unicode>obuiae de ſecunda diuinitatis perſona, filio Dei, eſſe intelli-
+gendum, in Parte I. huius Exercitationis ſatis ſuperque de-
+monſtrauimus ᵃ). Cum vero interpretes alii virtutem illam
+altiſſimi mox de occulta quadam Dei virtute, ſiue omnipoten-
+tia diuina, mox de Spiritu ſancto, interpretentur, prout ibi-
+dem iam monuimus; haec aliorum ſententia a nobis diuerſa
+nunc diiudicanda et, ad magis ſtabiliendam noſtram interpre-
+tationem, remouenda eſt. Ad illorum numerum, qui omni-
+potentiam diuinam per virtutem altiſſimi intelligunt, referendi
+ſunt 10. GVIL. BAIERVS ᵇ), ANTON. BYNAEVS ᶜ),
 IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7946121" type="catch-word" readingDirection="left-to-right" id="TextRegion_1663576472938_2228" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1663576472938_2228" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.7946121" type="catch-word" readingDirection="left-to-right">
       <Coords points="356,1716 1711,1716 1712,1781 356,1781"/>
       <TextLine id="line_1663576472985_2231" custom="readingOrder {index:0;}">
         <Coords points="1474,1724 1528,1722 1530,1716 1547,1716 1552,1721 1708,1726 1708,1771 1638,1768 1633,1778 1622,1779 1616,1767 1489,1765 1476,1764 1472,1761 1471,1728"/>
@@ -816,7 +829,7 @@ IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
         <Unicode>GOMA-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7946121" type="footnote" readingDirection="left-to-right" id="TextRegion_1663576498156_2263" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1663576498156_2263" custom="readingOrder {index:5;}" orientation="-0.7946121" type="footnote" readingDirection="left-to-right">
       <Coords points="356,1781 1029,1781 1029,2290 1013,2291 355,2291 355,2037"/>
       <TextLine id="line_1663576498205_2266" custom="readingOrder {index:0;}">
         <Coords points="400,1782 496,1782 545,1792 564,1790 575,1782 589,1783 598,1791 622,1791 631,1781 643,1781 656,1784 661,1793 756,1793 766,1785 781,1787 787,1782 798,1782 805,1787 807,1794 819,1794 896,1793 901,1786 912,1783 923,1784 929,1793 936,1794 947,1784 960,1785 965,1795 996,1795 1018,1785 1029,1785 1029,1836 959,1836 955,1833 945,1832 941,1835 836,1835 831,1831 817,1831 812,1835 782,1834 775,1830 766,1830 759,1835 601,1833 595,1829 588,1829 579,1833 574,1830 554,1829 546,1834 447,1836 435,1840 401,1831 359,1831 359,1795 394,1795 395,1787"/>
@@ -1112,7 +1125,7 @@ IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
         </Word>
         <Word id="region0007_line0002_word0008" custom="readingOrder {index:8;}">
           <Coords points="848,2100 919,2102 919,2134 848,2132"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>52.</Unicode>
           </TextEquiv>
         </Word>
@@ -1229,7 +1242,7 @@ IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
         </Word>
         <Word id="region0007_line0005_word0004" custom="readingOrder {index:4;}">
           <Coords points="749,2219 777,2220 776,2251 748,2250"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.</Unicode>
           </TextEquiv>
         </Word>
@@ -1240,7 +1253,7 @@ IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663577355812_2577" custom="readingOrder {index:6;}">
-          <Coords points="904,2222 981,2210 1002,2212 1002,2249 983,2250 904,2242"/>
+          <Coords points="904,2222 904,2242 961,2247 966,2245 977,2246 983,2250 1002,2249 1002,2212 980,2210"/>
           <TextEquiv>
             <Unicode>BEDA</Unicode>
           </TextEquiv>
@@ -1293,21 +1306,21 @@ IOAN. FECHTIVS ᵈ), MATTH. FLACIVS ᵉ), FRANCISC.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a) Et actoribus nobiseum facien-&#13;
-tibus, et ibi p. 75. citatis, praeter&#13;
-TITVM BOSTRENSEM, GREGOR. in Commentar. in epiſt. ad Epheſ.&#13;
-NYSSENVM, VICTORIVM ANTIO-&#13;
-CHENVM, SEVERVM, IOH. GEO-&#13;
-METRAM, et THEOPHYLACTVM&#13;
-a PETAVIO in Dogmat. Theol. T. II.&#13;
-L. IlI. Cap. VI. §. 4. 5. p. 52. ſqq.&#13;
-adductos, adnumerari adhuc poſſunt&#13;
-LE BLANC in Tract. Principes contre&#13;
-les Sociniens Tom. I. p. 60 BEDA&#13;
+        <Unicode>a) Et actoribus nobiseum facien-
+tibus, et ibi p. 75. citatis, praeter
+TITVM BOSTRENSEM, GREGOR. in Commentar. in epiſt. ad Epheſ.
+NYSSENVM, VICTORIVM ANTIO-
+CHENVM, SEVERVM, IOH. GEO-
+METRAM, et THEOPHYLACTVM
+a PETAVIO in Dogmat. Theol. T. II.
+L. IlI. Cap. VI. §. 4. 5. p. 52. ſqq.
+adductos, adnumerari adhuc poſſunt
+LE BLANC in Tract. Principes contre
+les Sociniens Tom. I. p. 60 BEDA
 in Homil. de Annunc. BVNTING in</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7946121" type="footnote" readingDirection="left-to-right" id="TextRegion_1663576498156_2262" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1663576498156_2262" custom="readingOrder {index:6;}" orientation="-0.7946121" type="footnote" readingDirection="left-to-right">
       <Coords points="1029,1781 1712,1781 1713,1966 1713,2063 1684,2261 1029,2290"/>
       <TextLine id="line_1663576498205_2265" custom="readingOrder {index:0;}">
         <Coords points="1029,1785 1080,1785 1095,1788 1105,1794 1113,1788 1124,1786 1239,1788 1258,1791 1266,1800 1271,1801 1361,1802 1425,1809 1702,1815 1708,1816 1708,1860 1671,1861 1623,1852 1555,1853 1426,1847 1355,1847 1302,1851 1265,1847 1252,1850 1244,1840 1231,1843 1210,1841 1201,1837 1183,1840 1171,1840 1166,1836 1149,1838 1100,1835 1065,1837 1059,1833 1048,1833 1041,1837 1029,1836"/>
@@ -1392,7 +1405,7 @@ in Homil. de Annunc. BVNTING in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0017_word0013" custom="readingOrder {index:6;}">
-          <Coords points="1618,1853 1602,1853 1596,1859 1552,1854 1552,1892 1684,1894 1684,1860 1630,1859 1623,1853"/>
+          <Coords points="1602,1853 1596,1859 1552,1855 1552,1892 1578,1892 1579,1892 1592,1893 1635,1893 1636,1893 1637,1893 1661,1894 1663,1893 1684,1892 1684,1860 1630,1859 1623,1853 1618,1853"/>
           <TextEquiv>
             <Unicode>ROëLL.</Unicode>
           </TextEquiv>
@@ -1614,7 +1627,7 @@ in Homil. de Annunc. BVNTING in</Unicode>
         </Word>
         <Word id="region0008_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="1359,2062 1332,2062 1331,2100 1333,2103 1350,2096 1358,2095"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -1656,7 +1669,7 @@ in Homil. de Annunc. BVNTING in</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663577597194_2754" custom="readingOrder {index:2;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1188,2105 1285,2105 1285,2139 1235,2139 1188,2137"/>
+          <Coords points="1285,2139 1285,2105 1188,2105 1188,2137 1204,2137 1221,2136 1235,2139 1241,2139 1249,2135 1270,2136 1276,2139"/>
           <TextEquiv>
             <Unicode>Tract.</Unicode>
           </TextEquiv>
@@ -1819,18 +1832,21 @@ in Homil. de Annunc. BVNTING in</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Paed. I. C. p. 32. DANNHAVERVS,&#13;
-in Hodoſoph. p. 405. et 408. ROëLL.&#13;
-TITVM BOSTRENSEM, GREGOR. in Commentar. in epiſt. ad Epheſ.&#13;
-Tom. I. p. 463. et SCHERZERVS in&#13;
-Breuiario theologico §. 47. p. 45.&#13;
-b) In Compend. theol. poſit. P. IlI.&#13;
-Cap. II. Sect. 1. §. VI. not. b.&#13;
-c) In Tract. de Natali I. C. p. 131.&#13;
-d) In Sylloge Diſſ. 25. Theſ. 2.&#13;
-e) In Claue ſcripturae ſacr. Part. I.&#13;
+        <Unicode>Paed. I. C. p. 32. DANNHAVERVS,
+in Hodoſoph. p. 405. et 408. ROëLL.
+TITVM BOSTRENSEM, GREGOR. in Commentar. in epiſt. ad Epheſ.
+Tom. I. p. 463. et SCHERZERVS in
+Breuiario theologico §. 47. p. 45.
+b) In Compend. theol. poſit. P. IlI.
+Cap. II. Sect. 1. §. VI. not. b.
+c) In Tract. de Natali I. C. p. 131.
+d) In Sylloge Diſſ. 25. Theſ. 2.
+e) In Claue ſcripturae ſacr. Part. I.
 p. 1326.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1663577713137_2822" custom="readingOrder {index:0;}">
+      <Coords points="407,486 1666,486 1666,631 407,631"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

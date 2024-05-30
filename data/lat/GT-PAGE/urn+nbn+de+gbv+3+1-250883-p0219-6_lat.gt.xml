@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-106">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:56Z</Created>
     <LastChange>2024-01-19T13:07:56Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/fd71d4c6-1587-4817-a9de-36807a492655/00000219.jpg" imageWidth="1789" imageHeight="2660" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.009263367" readingDirection="left-to-right" id="TextRegion_1658741172351_2923" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1658741172351_2923" custom="readingOrder {index:0;}" orientation="0.009263367" readingDirection="left-to-right">
       <Coords points="263,444 1307,444 1307,889 263,889"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="858,444 852,449 847,446 833,447 827,455 735,455 730,458 623,458 588,456 583,452 573,452 568,456 559,457 401,456 394,446 382,447 375,456 353,455 346,446 335,446 328,454 317,450 305,450 301,453 263,452 263,494 421,495 460,502 526,497 575,499 582,495 591,495 598,502 624,498 720,497 736,493 779,502 789,497 812,496 826,491 866,494 893,493 899,489 914,492 1045,492 1050,489 1061,489 1077,494 1131,493 1135,490 1177,493 1184,489 1203,492 1210,488 1225,491 1306,491 1306,452 1299,451 1157,453 1150,452 1143,444 1126,444 1119,451 1082,452 1021,450 1007,444 954,444 947,451 874,453 870,444"/>
@@ -520,19 +536,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>triculum gravant, aroma quoddam additur; uſus eorum&#13;
-vero non protrahatur. In quibusdam, ex ſingulari idyo-&#13;
-ſincraſia, Larides hi, uti cancri ipſi, varia incommoda&#13;
-excitant, anxietates nimirum et vomitus, quos ut pluri-&#13;
-mum effloreſcentia cutis ſequitur, quae febri ſcarlatinae&#13;
-ſimilis eſt. In morbis putridis et bilioſis, Lapidum ho-&#13;
-rum uſus vitetur, et ſi abſorbentia deſiderentur, alia&#13;
-praeſcribantur. An in fluore albo tanta miracula prae-&#13;
-ſtant, uti perill. L. B. A STOERCK contendit, non&#13;
+        <Unicode>triculum gravant, aroma quoddam additur; uſus eorum
+vero non protrahatur. In quibusdam, ex ſingulari idyo-
+ſincraſia, Larides hi, uti cancri ipſi, varia incommoda
+excitant, anxietates nimirum et vomitus, quos ut pluri-
+mum effloreſcentia cutis ſequitur, quae febri ſcarlatinae
+ſimilis eſt. In morbis putridis et bilioſis, Lapidum ho-
+rum uſus vitetur, et ſi abſorbentia deſiderentur, alia
+praeſcribantur. An in fluore albo tanta miracula prae-
+ſtant, uti perill. L. B. A STOERCK contendit, non
 inquiremus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.009263367" type="heading" readingDirection="left-to-right" id="TextRegion_1658741177046_2928" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658741177046_2928" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.009263367" type="heading" readingDirection="left-to-right">
       <Coords points="263,889 1307,889 1307,1029 263,1029"/>
       <TextLine id="region0002_line0012" custom="readingOrder {index:0;}">
         <Coords points="580,905 569,913 568,927 538,928 531,922 525,922 518,928 510,929 502,920 492,920 484,912 414,912 409,917 408,932 367,929 282,929 277,921 267,920 263,923 263,983 315,982 323,991 375,991 383,988 400,989 407,982 462,977 830,972 840,966 847,966 853,972 887,974 1044,970 1195,971 1306,963 1306,932 1251,931 1225,923 1126,925 1124,917 1120,914 1110,915 1100,925 691,924 590,927 594,920 594,910 589,905"/>
@@ -578,14 +594,14 @@ inquiremus.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>134. LAPIS CALAMINARIS PRAEPA-&#13;
+        <Unicode>134. LAPIS CALAMINARIS PRAEPA-
 RATVS.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.009263367" readingDirection="left-to-right" id="TextRegion_1658741211199_2950" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658741211199_2950" custom="readingOrder {index:2;}" orientation="0.009263367" readingDirection="left-to-right">
       <Coords points="263,1029 1307,1029 1307,1099 1302,1184 283,1184 263,1099"/>
       <TextLine id="region0002_line0014" custom="readingOrder {index:0;}">
-        <Coords points="432,1027 427,1032 429,1045 422,1052 391,1052 371,1046 279,1047 274,1052 274,1061 278,1066 278,1081 283,1086 293,1086 297,1098 406,1098 427,1095 521,1093 589,1098 660,1098 680,1095 697,1097 713,1093 853,1088 1016,1090 1020,1098 1038,1098 1044,1090 1061,1092 1202,1088 1280,1092 1306,1089 1306,1053 1231,1048 1225,1043 1216,1043 1210,1048 1181,1050 1143,1049 1138,1044 1126,1044 1120,1049 1067,1050 1062,1049 1053,1039 1039,1039 1029,1049 951,1050 939,1040 929,1040 921,1049 828,1049 818,1044 804,1045 799,1039 790,1037 721,1037 713,1041 711,1049 658,1049 627,1041 451,1041 443,1028"/>
+        <Coords points="427,1032 429,1045 422,1052 391,1052 371,1046 279,1047 274,1052 274,1061 278,1066 278,1081 283,1086 293,1086 297,1098 406,1098 427,1095 521,1093 589,1098 660,1098 680,1095 697,1097 713,1093 853,1088 1016,1090 1020,1098 1038,1098 1044,1090 1061,1092 1202,1088 1280,1092 1306,1089 1306,1053 1231,1048 1225,1043 1216,1043 1210,1048 1181,1050 1143,1049 1138,1044 1126,1044 1120,1049 1067,1050 1062,1049 1053,1039 1039,1039 1029,1049 951,1050 939,1040 929,1040 921,1049 828,1049 818,1044 804,1045 799,1039 790,1037 721,1037 713,1041 711,1049 658,1049 627,1041 451,1041 443,1029 430,1029"/>
         <Baseline points="282,1085 1306,1080"/>
         <Word id="region0002_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="283,1078 370,1078 370,1046 283,1046"/>
@@ -754,12 +770,12 @@ RATVS.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tharaeticam praeſtat; ideoque in talis generis Vnguentis&#13;
-adhibetur. In ulceribus ſordidis etiam is inſpergi poteſt.&#13;
+        <Unicode>tharaeticam praeſtat; ideoque in talis generis Vnguentis
+adhibetur. In ulceribus ſordidis etiam is inſpergi poteſt.
 §. 506. Vid. §. 307. Externe vim exſiccantem et ca-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.009263367" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.009263367" type="heading" readingDirection="left-to-right">
       <Coords points="328,1217 1298,1217 1298,1362 328,1362"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="654,1217 651,1222 578,1223 566,1234 554,1236 401,1236 396,1241 396,1276 413,1290 469,1291 509,1297 574,1297 613,1288 670,1285 1137,1280 1151,1271 1151,1236 1146,1231 928,1232 923,1224 914,1219 906,1219 902,1222 899,1233 670,1238 673,1232 671,1217"/>
@@ -841,11 +857,11 @@ adhibetur. In ulceribus ſordidis etiam is inſpergi poteſt.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>135. LAPIS CAVSTICVS.&#13;
+        <Unicode>135. LAPIS CAVSTICVS.
 §. 507. Rec., Lixivii cauſtici filtrati quantum vis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.009263367" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;}" orientation="0.009263367" readingDirection="left-to-right">
       <Coords points="334,1368 1306,1368 1306,2094 334,2094"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="603,1368 600,1379 601,1401 605,1406 605,1422 611,1428 755,1424 759,1435 776,1436 783,1432 787,1424 814,1425 818,1434 826,1435 832,1434 839,1424 846,1423 1024,1424 1031,1417 1037,1417 1048,1425 1177,1423 1187,1432 1199,1423 1265,1423 1279,1431 1305,1428 1305,1393 1302,1392 1302,1384 1297,1379 1287,1378 1095,1379 1070,1378 1064,1368 1034,1368 1030,1378 950,1375 916,1379 855,1379 851,1368 829,1368 822,1379 803,1379 798,1368 779,1368 770,1380 736,1380 696,1377 691,1370 685,1368"/>
@@ -1294,23 +1310,23 @@ adhibetur. In ulceribus ſordidis etiam is inſpergi poteſt.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>In vaſe ferreo tamdiu evapora,&#13;
-donec guttula Lapidi frigido&#13;
-inſtillata indureſcat Tunc&#13;
-Sal hoc crucibulo immittatur,&#13;
-et ignis ei admoveatur, vſque&#13;
-dum in Olei forma fluat,&#13;
-quod ſubito effundatur in&#13;
-canalem ferreum calefactum et&#13;
-Oleo Olivarum illitum, qui&#13;
-pennae anſerinae magnitudi-&#13;
-nem habet; tandem in fru-&#13;
-ſtula idonea ſecatur, et in vi-&#13;
-tro prope clauſo ſervatur ad&#13;
+        <Unicode>In vaſe ferreo tamdiu evapora,
+donec guttula Lapidi frigido
+inſtillata indureſcat Tunc
+Sal hoc crucibulo immittatur,
+et ignis ei admoveatur, vſque
+dum in Olei forma fluat,
+quod ſubito effundatur in
+canalem ferreum calefactum et
+Oleo Olivarum illitum, qui
+pennae anſerinae magnitudi-
+nem habet; tandem in fru-
+ſtula idonea ſecatur, et in vi-
+tro prope clauſo ſervatur ad
 uſum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.009263367" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:5;}">
+    <TextRegion id="region0006" custom="readingOrder {index:5;}" orientation="0.009263367" readingDirection="left-to-right">
       <Coords points="303,2123 1305,2123 1305,2279 303,2279"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="642,2123 643,2144 613,2143 605,2135 596,2134 581,2124 571,2125 564,2133 522,2134 499,2143 478,2143 460,2147 412,2142 334,2143 329,2148 329,2177 334,2182 346,2182 361,2193 378,2197 390,2197 395,2193 402,2193 407,2197 446,2197 461,2193 490,2192 504,2186 515,2190 529,2190 558,2185 595,2185 606,2176 616,2181 628,2179 637,2183 657,2179 672,2180 676,2184 706,2180 725,2187 741,2181 756,2181 760,2184 872,2187 885,2187 891,2184 909,2187 957,2187 975,2183 1007,2187 1021,2184 1049,2190 1096,2188 1105,2192 1192,2191 1212,2188 1304,2192 1304,2152 1247,2151 1230,2143 1218,2143 1214,2146 1209,2143 1197,2143 1190,2152 1177,2152 1173,2145 1159,2143 1154,2145 1150,2152 1119,2153 1027,2146 985,2146 979,2141 971,2141 965,2146 953,2146 945,2137 934,2137 926,2146 877,2146 860,2144 853,2134 842,2134 832,2144 775,2143 768,2135 742,2134 735,2144 659,2144 659,2124"/>
@@ -1470,8 +1486,8 @@ uſum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. 508, Olim remedium hoc inter arcana habitum&#13;
-fuit, et primus deſcriptionem eius dedit FELIX PLA-&#13;
+        <Unicode>§. 508, Olim remedium hoc inter arcana habitum
+fuit, et primus deſcriptionem eius dedit FELIX PLA-
 TERVS. In Obſerv. L. II, p. 552.</Unicode>
       </TextEquiv>
     </TextRegion>

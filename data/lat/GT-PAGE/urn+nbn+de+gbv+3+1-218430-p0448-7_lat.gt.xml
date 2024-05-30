@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-86">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:44Z</Created>
     <LastChange>2024-01-19T13:07:44Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/1b608131-5180-44e6-885b-fecb005f4f94/00000448.jpg" imageWidth="2835" imageHeight="3308" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1657701581153_2133"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.2029782" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657701527235_2074" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657701527235_2074" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.2029782" type="marginalia" readingDirection="left-to-right">
       <Coords points="740,510 959,510 959,555 957,607 738,607 738,555"/>
       <TextLine id="region0000_line0001" custom="readingOrder {index:0;}">
         <Coords points="740,510 740,554 958,555 958,511 871,511 864,518 838,519 792,516 777,510"/>
@@ -65,11 +81,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Bezae ed. II.&#13;
+        <Unicode>Bezae ed. II.
 Recognit. I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657701531975_2079" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657701531975_2079" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.2029782" type="marginalia" readingDirection="left-to-right">
       <Coords points="732,2088 952,2088 952,2175 898,2232 811,2232 732,2175"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="732,2088 732,2132 846,2131 859,2135 877,2135 909,2131 951,2131 951,2093 912,2093 897,2089"/>
@@ -126,12 +142,12 @@ Recognit. I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Edit. Bezae&#13;
-IlI. Rec. II.&#13;
+        <Unicode>Edit. Bezae
+IlI. Rec. II.
 [II.]</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" readingDirection="left-to-right" id="TextRegion_1657701544505_2089" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1657701544505_2089" custom="readingOrder {index:2;}" orientation="-0.2029782" readingDirection="left-to-right">
       <Coords points="955,508 2544,508 2544,1716 2538,2111 948,2111 921,1768 921,1694"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1485,508 1459,509 1456,514 1382,516 1373,516 1369,509 1335,509 1331,518 1289,515 1280,509 1266,508 1256,514 1214,516 1152,516 1149,509 1128,509 1125,516 1093,515 1090,509 955,508 956,558 1339,561 1430,556 1498,556 1646,564 1835,566 1857,578 1874,573 1878,567 1927,565 2136,566 2172,570 2293,574 2437,575 2544,569 2544,529 2492,527 2487,523 2459,528 2451,519 2437,520 2431,530 2350,529 2349,521 2344,515 2331,514 2325,520 2308,522 2302,528 2278,529 2234,528 2227,520 2217,517 2184,519 2154,525 2019,522 2013,512 1997,514 1992,519 1983,512 1921,511 1904,514 1899,523 1869,523 1861,520 1839,521 1833,513 1821,510 1761,510 1748,518 1727,516 1723,519 1706,520 1647,520 1644,509 1595,509 1592,517 1488,514"/>
@@ -1219,7 +1235,7 @@ IlI. Rec. II.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0003_line0015_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1728,1241 1722,1246 1692,1246 1668,1245 1668,1275 1852,1278 1852,1248 1836,1246 1848,1252 1839,1249 1817,1247 1813,1242 1807,1242 1790,1248 1753,1246 1751,1241"/>
+          <Coords points="1692,1246 1668,1246 1668,1275 1852,1278 1852,1249 1842,1249 1848,1252 1839,1249 1817,1247 1813,1242 1807,1242 1790,1248 1753,1246 1751,1241 1728,1241 1722,1246"/>
           <TextEquiv>
             <Unicode>verſionem</Unicode>
           </TextEquiv>
@@ -1730,7 +1746,7 @@ IlI. Rec. II.&#13;
         <Coords points="1703,1572 1699,1575 1697,1583 1697,1592 1701,1598 1674,1597 1678,1591 1677,1579 1672,1575 1662,1575 1658,1578 1655,1589 1648,1589 1641,1595 1639,1605 1618,1606 1614,1597 1603,1596 1590,1606 1577,1608 1436,1604 1432,1597 1427,1596 1417,1601 1399,1600 1396,1604 1281,1604 1263,1602 1260,1595 1255,1592 1233,1592 1228,1594 1224,1601 1215,1601 1211,1593 1197,1591 1085,1590 1079,1595 1078,1607 955,1607 955,1638 1028,1639 1032,1636 1034,1627 1084,1627 1088,1629 1090,1648 1114,1651 1144,1651 1147,1648 1158,1647 1165,1652 1176,1652 1182,1651 1186,1643 1201,1643 1370,1647 1379,1655 1410,1647 1427,1648 1433,1654 1446,1654 1452,1648 1458,1647 1528,1649 1531,1653 1555,1654 1557,1650 1613,1649 1784,1651 1798,1653 1803,1661 1809,1662 1818,1661 1825,1654 2465,1661 2502,1662 2520,1667 2543,1665 2543,1626 2540,1623 2517,1620 2442,1619 2433,1618 2423,1610 2384,1608 2388,1602 2388,1592 2382,1583 2374,1583 2369,1587 2368,1601 2376,1608 2369,1610 2364,1618 2315,1616 2307,1607 2294,1607 2288,1614 2281,1606 2252,1607 2246,1616 2172,1615 2170,1608 2165,1604 2149,1607 2145,1615 2121,1615 2119,1608 2114,1603 2097,1605 2091,1613 2017,1612 2003,1603 1989,1603 1981,1609 1971,1610 1917,1611 1915,1605 1907,1600 1895,1602 1890,1611 1886,1611 1879,1601 1851,1602 1844,1611 1828,1610 1820,1600 1808,1600 1801,1609 1767,1610 1763,1601 1751,1597 1713,1598 1719,1591 1717,1577 1712,1572"/>
         <Baseline points="1089,1641 1200,1633 2543,1655"/>
         <Word id="region0003_line0023_word0001" custom="readingOrder {index:0;}">
-          <Coords points="1113,1593 1113,1646 1281,1647 1281,1604 1263,1602 1260,1595 1258,1594 1229,1594 1228,1594 1224,1601 1215,1601 1211,1594"/>
+          <Coords points="1113,1646 1184,1646 1186,1643 1201,1643 1281,1644 1281,1604 1263,1602 1260,1595 1258,1594 1229,1594 1228,1594 1224,1601 1215,1601 1211,1594 1113,1593"/>
           <TextEquiv>
             <Unicode>[Variis</Unicode>
           </TextEquiv>
@@ -1778,7 +1794,7 @@ IlI. Rec. II.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0003_line0023_word0009" custom="readingOrder {index:8;}">
-          <Coords points="2368,1616 2229,1618 2225,1646 2225,1651 2368,1651"/>
+          <Coords points="2365,1616 2364,1618 2328,1616 2229,1618 2225,1646 2225,1651 2368,1651 2368,1616"/>
           <TextEquiv conf="0.88694304">
             <Unicode>editione</Unicode>
           </TextEquiv>
@@ -2294,7 +2310,7 @@ IlI. Rec. II.&#13;
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0008" custom="readingOrder {index:8;}">
-          <Coords points="2208,2009 2259,2009 2259,1976 2240,1977 2256,1977 2235,1978 2219,1969 2208,1969"/>
+          <Coords points="2259,2009 2259,1978 2235,1978 2219,1969 2208,1969 2208,2009"/>
           <TextEquiv conf="0.67813295">
             <Unicode>ita</Unicode>
           </TextEquiv>
@@ -2426,40 +2442,40 @@ IlI. Rec. II.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ſeſe liberius exaltandi occaſiones offerrent. Itaque Verborum et formularum inter-&#13;
-pretatione contentus, addidi exempla ex profanis authoribus petita, non quoties licuit,&#13;
-ſed quoties (meo judicio) ita neceſſe fuit.— In his autem omnibus concinnandis,&#13;
-cum Vallae, Stapulenſis, Eraſmi annotationibus, etiam veterum tum Graecorum tum&#13;
-Latinorum, et recentiorum quoque doctiſſima ſcripta diligenter contuli, a quibus me&#13;
-plurimum adjutum eſſe ultro profiteor: quanquam ne his quidem aut illis ita fui ad-&#13;
-dictus, ut meum judicium libere non ſim ſequutus. Ad haec omnia acceſſit exemplar&#13;
-ex Stephani noſtri Bibliotheca cum viginti quinque plus minus manuſcriptis codicibus,&#13;
-et omnibus pene impreſſis, ab Henrico Stephano ejus ſilio quam diligentiſſime colla-&#13;
-tum; quae res una prae caeteris me in plerisque ſublevavit.„ Huc usque praefatio.&#13;
-Henricus Stephanus notatis a Roberto Stephano patre ſuo ad oram editionis&#13;
-nobiliſſimae N. T. graeci anni 1550. Iectionibus variantibus Editionis Complutenſis&#13;
-ut quindecim mſſ. exemplarium, adjecerat variationes aliorum decem eodicum et Edi-&#13;
-tionum pene omnium quae Stephanicam praeceſſerant. Hoc exemplar Robertus&#13;
-Theodoro Bezae ſuo, qui novam jam verſionem et annotationes in N. T. moliebatur,&#13;
-in manum tradidit; isque tanto Theſauro mirifice ſe in opere iſto adjutum profitetur.&#13;
-Ecquis vero ipſe uſus harum Iectionum? Adhibet eas ſcilicet ad explicandos ſcripturae&#13;
-ſenſus ſeu etiam ὑποϑέσεις ſuas ſtabiliendas: raro ad eruendum, cui potiſſimum inſer-&#13;
-viebant, ſacri codicis textum genuinum. de hoc enim parum laborat: et ubi de le-&#13;
-ctionis cujuspiam ἀυϑεντία forte agit, oſtendit, quam nihil fere in his rebus viderit,&#13;
-vir alias eruditus et perſpicax r).&#13;
-. [Variis exemplis comprobat Millius judicium ſuum de hac editione Bezana,&#13;
-ad annotationes ejus inprimis provocans. Nec a vero plane alienum eſt, quamvis in&#13;
-inſequentibus editionibus Beza quoque ſtudioſe in textum graecum inquiſiverit, ut&#13;
-ope MStorum Codicum illum caſtigatiorem redderet. Differunt enim ipſae ejus in-&#13;
-ter ſeſe ratione Iectionum variantium adhibitarum editiones. Textus in hac editione&#13;
-eſt Stephanicus, adjunctamque habet ad latus tum verſionem veterem Vulgatam, tum&#13;
-novam a Beza confectam, una cum ejus annotationibus. Uti Beza Eraſmum, Ca-&#13;
-ſtalionem et veterem Interpretem ſaepiſſime ſub cenſuram vocavit, ita et ipſe varios&#13;
-cenſores invenit, viros magnae eruditionis et famæ, qui eum vel Iaudarunt vel re-&#13;
+        <Unicode>ſeſe liberius exaltandi occaſiones offerrent. Itaque Verborum et formularum inter-
+pretatione contentus, addidi exempla ex profanis authoribus petita, non quoties licuit,
+ſed quoties (meo judicio) ita neceſſe fuit.— In his autem omnibus concinnandis,
+cum Vallae, Stapulenſis, Eraſmi annotationibus, etiam veterum tum Graecorum tum
+Latinorum, et recentiorum quoque doctiſſima ſcripta diligenter contuli, a quibus me
+plurimum adjutum eſſe ultro profiteor: quanquam ne his quidem aut illis ita fui ad-
+dictus, ut meum judicium libere non ſim ſequutus. Ad haec omnia acceſſit exemplar
+ex Stephani noſtri Bibliotheca cum viginti quinque plus minus manuſcriptis codicibus,
+et omnibus pene impreſſis, ab Henrico Stephano ejus ſilio quam diligentiſſime colla-
+tum; quae res una prae caeteris me in plerisque ſublevavit.„ Huc usque praefatio.
+Henricus Stephanus notatis a Roberto Stephano patre ſuo ad oram editionis
+nobiliſſimae N. T. graeci anni 1550. Iectionibus variantibus Editionis Complutenſis
+ut quindecim mſſ. exemplarium, adjecerat variationes aliorum decem eodicum et Edi-
+tionum pene omnium quae Stephanicam praeceſſerant. Hoc exemplar Robertus
+Theodoro Bezae ſuo, qui novam jam verſionem et annotationes in N. T. moliebatur,
+in manum tradidit; isque tanto Theſauro mirifice ſe in opere iſto adjutum profitetur.
+Ecquis vero ipſe uſus harum Iectionum? Adhibet eas ſcilicet ad explicandos ſcripturae
+ſenſus ſeu etiam ὑποϑέσεις ſuas ſtabiliendas: raro ad eruendum, cui potiſſimum inſer-
+viebant, ſacri codicis textum genuinum. de hoc enim parum laborat: et ubi de le-
+ctionis cujuspiam ἀυϑεντία forte agit, oſtendit, quam nihil fere in his rebus viderit,
+vir alias eruditus et perſpicax r).
+. [Variis exemplis comprobat Millius judicium ſuum de hac editione Bezana,
+ad annotationes ejus inprimis provocans. Nec a vero plane alienum eſt, quamvis in
+inſequentibus editionibus Beza quoque ſtudioſe in textum graecum inquiſiverit, ut
+ope MStorum Codicum illum caſtigatiorem redderet. Differunt enim ipſae ejus in-
+ter ſeſe ratione Iectionum variantium adhibitarum editiones. Textus in hac editione
+eſt Stephanicus, adjunctamque habet ad latus tum verſionem veterem Vulgatam, tum
+novam a Beza confectam, una cum ejus annotationibus. Uti Beza Eraſmum, Ca-
+ſtalionem et veterem Interpretem ſaepiſſime ſub cenſuram vocavit, ita et ipſe varios
+cenſores invenit, viros magnae eruditionis et famæ, qui eum vel Iaudarunt vel re-
 prehenderunt s).</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" type="heading" readingDirection="left-to-right" id="TextRegion_1657701561121_2098" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657701561121_2098" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.2029782" type="heading" readingDirection="left-to-right">
       <Coords points="947,2170 1490,2126 2266,2126 2536,2170 2536,2337 947,2337"/>
       <TextLine id="region0009_line0001" custom="readingOrder {index:0;}">
         <Coords points="1749,2126 1690,2127 1683,2134 1654,2133 1643,2127 1490,2126 1490,2174 1663,2174 1692,2177 1861,2179 1864,2186 1895,2186 1899,2179 1924,2183 2039,2184 2045,2178 2045,2171 2054,2165 2054,2133 2049,2128 1938,2128 1921,2130 1904,2139 1865,2139 1851,2138 1844,2130 1834,2126"/>
@@ -2626,7 +2642,7 @@ prehenderunt s).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0010_line0003" custom="readingOrder {index:3;}">
-        <Coords points="1785,2263 1776,2268 1766,2264 1762,2270 1756,2272 1742,2270 1732,2275 1726,2275 1723,2270 1711,2271 1706,2266 1701,2266 1694,2272 1679,2270 1673,2273 1660,2269 1648,2273 1613,2270 1607,2278 1588,2278 1585,2270 1574,2267 1563,2268 1557,2274 1528,2272 1518,2278 1510,2275 1498,2277 1494,2272 1473,2271 1468,2267 1462,2267 1455,2274 1405,2270 1372,2271 1355,2275 1309,2272 1303,2275 1267,2276 1243,2270 1202,2267 1157,2271 1141,2269 1132,2273 1089,2277 1025,2276 1015,2273 1010,2278 1010,2308 1019,2316 1470,2317 1518,2320 1524,2326 1533,2326 1540,2320 1591,2320 1604,2322 1613,2329 1624,2331 1655,2329 1667,2323 1680,2321 1757,2322 1796,2317 1947,2323 1958,2325 1958,2330 1963,2336 1963,2347 1968,2352 1977,2352 1981,2349 1983,2336 1991,2336 1999,2346 2008,2346 2015,2334 2034,2327 2082,2327 2089,2335 2100,2335 2105,2331 2161,2333 2163,2342 2168,2346 2179,2345 2189,2334 2193,2334 2440,2347 2451,2347 2460,2340 2466,2340 2474,2348 2512,2349 2520,2343 2528,2343 2535,2349 2536,2302 2460,2300 2459,2293 2453,2290 2383,2284 2324,2284 2308,2285 2298,2290 2277,2290 2260,2289 2254,2282 2236,2281 2224,2282 2219,2288 2213,2288 2199,2287 2196,2282 2185,2279 2153,2276 2143,2280 2115,2274 2108,2273 2103,2278 2086,2276 2078,2279 2066,2275 2055,2280 2048,2272 2042,2271 2036,2276 2017,2274 1974,2278 1963,2269 1956,2269 1950,2274 1943,2275 1920,2272 1913,2277 1900,2277 1882,2274 1876,2269 1865,2269 1862,2276 1836,2277 1803,2271 1799,2264 1793,2266"/>
+        <Coords points="1776,2268 1766,2264 1762,2270 1756,2272 1742,2270 1732,2275 1726,2275 1723,2270 1711,2271 1706,2266 1701,2266 1694,2272 1679,2270 1673,2273 1660,2269 1648,2273 1613,2270 1607,2278 1588,2278 1585,2270 1574,2267 1563,2268 1557,2274 1528,2272 1518,2278 1510,2275 1498,2277 1494,2272 1473,2271 1468,2267 1462,2267 1455,2274 1405,2270 1372,2271 1355,2275 1309,2272 1303,2275 1267,2276 1243,2270 1202,2267 1157,2271 1141,2269 1132,2273 1089,2277 1025,2276 1015,2273 1010,2278 1010,2308 1019,2316 1470,2317 1518,2320 1524,2326 1533,2326 1540,2320 1591,2320 1604,2322 1613,2329 1624,2331 1655,2329 1667,2323 1680,2321 1757,2322 1796,2317 1947,2323 1958,2325 1958,2330 1963,2336 1963,2337 1982,2337 1983,2336 1991,2336 1991,2337 2013,2337 2015,2334 2034,2327 2082,2327 2089,2335 2100,2335 2105,2331 2161,2333 2161,2337 2186,2337 2189,2334 2193,2334 2250,2337 2535,2337 2536,2302 2460,2300 2459,2293 2453,2290 2383,2284 2324,2284 2308,2285 2298,2290 2277,2290 2260,2289 2254,2282 2236,2281 2224,2282 2219,2288 2213,2288 2199,2287 2196,2282 2185,2279 2153,2276 2143,2280 2115,2274 2108,2273 2103,2278 2086,2276 2078,2279 2066,2275 2055,2280 2048,2272 2042,2271 2036,2276 2017,2274 1974,2278 1963,2269 1956,2269 1950,2274 1943,2275 1920,2272 1913,2277 1900,2277 1882,2274 1876,2269 1865,2269 1862,2276 1836,2277 1803,2271 1799,2264 1793,2266 1785,2263"/>
         <Baseline points="1010,2306 1891,2311 2511,2337"/>
         <Word id="region0010_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="1073,2281 1170,2281 1169,2314 1072,2314"/>
@@ -2693,13 +2709,13 @@ prehenderunt s).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Edit. Bezae III. Recogn. II.&#13;
-* Jeſu Chriſti D. N. Novum Teſtamentum ſive novum Foedus. Cujus&#13;
-graeco contextui reſpondent interpretationes duae: una vetus: altera&#13;
+        <Unicode>Edit. Bezae III. Recogn. II.
+* Jeſu Chriſti D. N. Novum Teſtamentum ſive novum Foedus. Cujus
+graeco contextui reſpondent interpretationes duae: una vetus: altera
 nova Theodori Bezae, diligenter ab eo recognita. Ejusdem Th. Bezae</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" type="catch-word" readingDirection="left-to-right" id="TextRegion_1657701571651_2105" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1657701571651_2105" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.2029782" type="catch-word" readingDirection="left-to-right">
       <Coords points="947,2337 2536,2337 2536,2402 947,2378"/>
       <TextLine id="region0010_line0005" custom="readingOrder {index:0;}">
         <Coords points="2460,2341 2451,2348 2451,2353 2418,2345 2354,2346 2347,2352 2346,2393 2350,2398 2366,2399 2507,2400 2535,2397 2535,2359 2530,2357 2535,2350 2530,2345 2516,2346 2512,2350 2512,2356 2477,2355 2466,2341"/>
@@ -2718,10 +2734,10 @@ nova Theodori Bezae, diligenter ab eo recognita. Ejusdem Th. Bezae</Unicode>
         <Unicode>Anno-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" type="footnote" readingDirection="left-to-right" id="TextRegion_1657701581153_2134" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1657701581153_2134" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.2029782" type="footnote" readingDirection="left-to-right">
       <Coords points="947,2378 1747,2390 1747,2845 947,2845"/>
       <TextLine id="line_1657701581229_2137" custom="readingOrder {index:0;}">
-        <Coords points="947,2385 982,2384 993,2379 1008,2376 1036,2373 1133,2373 1149,2376 1153,2384 1205,2384 1205,2370 1210,2366 1219,2366 1226,2371 1229,2378 1235,2374 1246,2374 1253,2384 1346,2385 1350,2382 1360,2382 1371,2386 1418,2387 1422,2379 1430,2376 1469,2376 1479,2369 1479,2363 1484,2358 1496,2359 1501,2367 1510,2371 1512,2377 1553,2379 1558,2384 1559,2391 1607,2389 1609,2378 1615,2372 1627,2375 1630,2389 1654,2389 1653,2375 1658,2370 1666,2370 1675,2375 1691,2374 1695,2389 1719,2388 1727,2381 1747,2379 1747,2426 1705,2427 1695,2430 1650,2432 1623,2438 1566,2438 1557,2432 1534,2431 1529,2427 1504,2425 1405,2428 1396,2425 1379,2432 1373,2428 1347,2424 1336,2433 1320,2434 1308,2430 1304,2434 1272,2436 1214,2426 1197,2426 1195,2431 1187,2434 1170,2434 1166,2425 1134,2425 1128,2422 1056,2423 1021,2431 1015,2429 1008,2421 947,2421"/>
+        <Coords points="993,2379 982,2384 947,2385 947,2421 1008,2421 1015,2429 1021,2431 1056,2423 1128,2422 1134,2425 1166,2425 1170,2434 1187,2434 1195,2431 1197,2426 1214,2426 1272,2436 1304,2434 1308,2430 1320,2434 1336,2433 1347,2424 1373,2428 1379,2432 1396,2425 1405,2428 1504,2425 1529,2427 1534,2431 1557,2432 1566,2438 1623,2438 1650,2432 1695,2430 1705,2427 1747,2426 1747,2390 1654,2389 1654,2389 1630,2389 1630,2388 1607,2388 1607,2389 1559,2391 1558,2387 1419,2385 1418,2387 1371,2386 1366,2384 1347,2384 1346,2385 1253,2384 1252,2383 1205,2382 1205,2384 1153,2384 1152,2381 994,2379"/>
         <Baseline points="947,2411 1297,2424 1339,2417 1501,2418 1595,2430 1747,2416"/>
         <Word id="word_1657701571720_2107" custom="readingOrder {index:0;}">
           <Coords points="1002,2379 1034,2379 1034,2415 1002,2415"/>
@@ -2926,7 +2942,7 @@ nova Theodori Bezae, diligenter ab eo recognita. Ejusdem Th. Bezae</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657704014640_3276" custom="readingOrder {index:1;}">
-          <Coords points="1163,2559 1230,2559 1230,2596 1163,2596"/>
+          <Coords points="1163,2596 1230,2596 1230,2562 1224,2561 1184,2561 1171,2564 1163,2561"/>
           <TextEquiv>
             <Unicode>cum</Unicode>
           </TextEquiv>
@@ -3001,7 +3017,7 @@ nova Theodori Bezae, diligenter ab eo recognita. Ejusdem Th. Bezae</Unicode>
         <Baseline points="947,2667 1747,2675"/>
         <Word id="region0010_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="1011,2678 1011,2649 958,2648 958,2674 969,2674 997,2677"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ras</Unicode>
           </TextEquiv>
         </Word>
@@ -3157,22 +3173,22 @@ nova Theodori Bezae, diligenter ab eo recognita. Ejusdem Th. Bezae</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>r) Millius proleg. p. 130. Le Long p. 211.&#13;
-col. 1. C.—p. 212. col. 1. C. l.&#13;
-s) Omnium primo hic nominandus venit&#13;
-Johannes Boiſius, qui in collatione Veteris&#13;
-interpretis Beza aliisque recentioribus, cum&#13;
-Londini 1655. 8. Vulgatam contra cenſu- æ o 1. ꝑ. 699. Walchius p. 41. Catal.&#13;
-ras Bezanas defendit. Accedunt Druſius,&#13;
-Daniel Heinſius in exercitationibus ſacris,&#13;
-Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
+        <Unicode>r) Millius proleg. p. 130. Le Long p. 211.
+col. 1. C.—p. 212. col. 1. C. l.
+s) Omnium primo hic nominandus venit
+Johannes Boiſius, qui in collatione Veteris
+interpretis Beza aliisque recentioribus, cum
+Londini 1655. 8. Vulgatam contra cenſu- æ o 1. ꝑ. 699. Walchius p. 41. Catal.
+ras Bezanas defendit. Accedunt Druſius,
+Daniel Heinſius in exercitationibus ſacris,
+Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae
 1640. 4. Pricaeus aliique. Summa laude</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2029782" type="footnote" readingDirection="left-to-right" id="TextRegion_1657701581153_2133" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1657701581153_2133" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.2029782" type="footnote" readingDirection="left-to-right">
       <Coords points="1747,2390 2536,2402 2536,2845 1747,2845"/>
       <TextLine id="line_1657701581229_2136" custom="readingOrder {index:0;}">
-        <Coords points="1747,2379 1749,2379 1756,2373 1768,2373 1777,2380 1794,2380 1794,2369 1800,2363 1816,2364 1819,2368 1819,2378 1816,2382 1823,2384 1828,2380 1837,2380 1837,2368 1842,2363 1856,2364 1862,2375 1873,2374 1881,2363 1890,2363 1897,2373 1906,2377 1908,2387 1930,2388 1933,2377 1937,2374 1949,2375 1954,2387 1962,2380 1980,2383 1987,2380 1987,2373 1993,2366 2003,2365 2008,2370 2009,2389 2022,2390 2028,2384 2041,2384 2057,2393 2072,2394 2075,2393 2075,2385 2080,2380 2094,2381 2099,2391 2166,2391 2209,2394 2210,2379 2215,2375 2225,2375 2233,2383 2233,2391 2228,2399 2283,2402 2289,2409 2347,2404 2350,2399 2363,2398 2369,2404 2390,2405 2401,2414 2414,2415 2421,2408 2431,2408 2441,2416 2512,2416 2513,2402 2526,2399 2531,2403 2535,2416 2535,2454 2523,2450 2498,2454 2489,2450 2479,2450 2462,2459 2445,2461 2437,2458 2434,2453 2320,2452 2302,2447 2215,2448 2204,2443 2181,2442 2152,2446 2125,2444 2119,2448 2114,2445 2095,2444 2089,2437 2058,2437 2053,2434 2032,2436 2025,2432 2014,2432 2011,2438 2005,2439 1980,2429 1969,2432 1916,2430 1904,2434 1887,2424 1865,2428 1793,2422 1789,2425 1747,2426"/>
+        <Coords points="2347,2404 2289,2409 2283,2402 2228,2399 2229,2397 1747,2390 1747,2426 1789,2425 1793,2422 1865,2428 1887,2424 1904,2434 1916,2430 1969,2432 1980,2429 2005,2439 2011,2438 2014,2432 2025,2432 2032,2436 2053,2434 2058,2437 2089,2437 2095,2444 2114,2445 2119,2448 2125,2444 2152,2446 2181,2442 2204,2443 2215,2448 2302,2447 2320,2452 2434,2453 2437,2458 2445,2461 2462,2459 2479,2450 2489,2450 2498,2454 2523,2450 2535,2454 2535,2416 2531,2403 2529,2401 2514,2401 2513,2402 2512,2416 2441,2416 2431,2408 2421,2408 2414,2415 2401,2414 2390,2405 2369,2404 2364,2399 2349,2399"/>
         <Baseline points="1747,2416 1754,2416 1899,2417 2125,2434 2535,2444"/>
         <Word id="word_1657701571724_2123" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1767,2390 1876,2392 1876,2410 1767,2409"/>
@@ -3193,7 +3209,7 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1657701571725_2129" custom="readingOrder {index:3;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="2219,2397 2228,2397 2244,2397 2299,2400 2289,2409 2315,2406 2315,2443 2219,2443"/>
+          <Coords points="2228,2397 2219,2397 2219,2443 2315,2443 2315,2406 2289,2409 2283,2402 2228,2399 2229,2397"/>
           <TextEquiv conf="0.54011816">
             <Unicode>Henr.</Unicode>
           </TextEquiv>
@@ -3358,7 +3374,7 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
         <Coords points="1747,2563 1769,2562 1818,2564 1823,2559 1832,2560 1839,2566 1863,2568 1867,2562 1876,2560 1880,2566 1889,2563 1900,2571 1911,2573 1922,2573 1923,2566 1930,2561 1939,2568 1938,2572 1998,2580 2017,2586 2020,2585 2023,2573 2046,2575 2059,2571 2064,2574 2064,2587 2090,2586 2104,2573 2154,2580 2176,2577 2183,2583 2201,2578 2209,2584 2232,2579 2240,2584 2268,2583 2273,2578 2284,2578 2290,2583 2304,2585 2325,2581 2337,2574 2380,2576 2387,2580 2393,2574 2399,2575 2405,2579 2414,2579 2421,2585 2443,2580 2460,2585 2536,2586 2535,2635 2517,2634 2508,2627 2493,2631 2479,2626 2473,2626 2469,2633 2465,2634 2459,2632 2454,2621 2397,2625 2393,2620 2383,2620 2376,2625 2371,2621 2358,2620 2352,2625 2346,2625 2293,2619 2243,2619 2238,2625 2230,2626 2223,2615 2209,2617 2199,2614 2172,2614 2163,2618 2153,2613 2138,2614 2133,2618 2122,2614 2099,2615 2075,2625 2057,2622 2036,2626 2028,2616 1982,2624 1972,2618 1950,2619 1888,2612 1870,2614 1866,2613 1864,2605 1847,2605 1843,2602 1832,2605 1828,2600 1821,2600 1818,2602 1818,2608 1813,2610 1804,2596 1795,2600 1790,2590 1778,2595 1773,2592 1771,2589 1747,2589"/>
         <Baseline points="1747,2598 1808,2593 2014,2613 2163,2607 2446,2615 2535,2624"/>
         <Word id="region0010_line0010_word0005" custom="readingOrder {index:0;}">
-          <Coords points="1844,2566 1839,2566 1832,2560 1823,2559 1818,2564 1773,2562 1771,2595 1792,2595 1795,2600 1804,2596 1813,2610 1818,2608 1818,2602 1821,2600 1828,2600 1832,2605 1843,2602"/>
+          <Coords points="1832,2560 1823,2559 1818,2564 1772,2562 1771,2589 1773,2592 1778,2595 1790,2590 1795,2600 1804,2596 1813,2610 1818,2608 1818,2602 1821,2600 1828,2600 1832,2605 1843,2602 1843,2566 1839,2566"/>
           <TextEquiv>
             <Unicode>trod.</Unicode>
           </TextEquiv>
@@ -3406,7 +3422,7 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
       <TextLine id="line_1657701581240_2150" custom="readingOrder {index:5;}">
         <Coords points="1747,2616 1754,2611 1761,2600 1780,2595 1796,2611 1796,2600 1804,2597 1809,2609 1813,2611 1819,2608 1821,2601 1828,2601 1832,2606 1843,2603 1847,2606 1864,2606 1865,2613 1870,2615 1888,2613 1950,2620 1972,2619 1982,2625 2028,2617 2031,2624 2036,2627 2057,2623 2075,2626 2099,2616 2122,2615 2133,2619 2138,2615 2150,2614 2163,2619 2172,2615 2199,2615 2209,2618 2223,2616 2230,2627 2250,2621 2302,2621 2351,2629 2358,2621 2371,2622 2376,2626 2383,2621 2393,2621 2397,2626 2454,2622 2458,2632 2465,2635 2470,2633 2473,2627 2479,2627 2493,2632 2508,2628 2517,2635 2535,2636 2535,2669 2529,2669 2517,2661 2511,2664 2503,2663 2496,2669 2488,2665 2471,2667 2465,2662 2460,2662 2451,2669 2432,2669 2424,2661 2417,2661 2412,2667 2406,2661 2402,2661 2394,2669 2357,2669 2341,2665 2319,2667 2304,2662 2289,2667 2283,2666 2268,2654 2262,2654 2258,2658 2176,2657 2160,2660 2153,2656 2128,2659 2118,2651 2107,2656 2062,2654 2052,2664 2040,2657 2034,2657 2026,2663 2022,2653 2013,2648 2003,2657 1990,2649 1984,2649 1977,2656 1958,2654 1950,2659 1945,2658 1939,2650 1904,2652 1900,2647 1889,2650 1870,2649 1856,2644 1846,2644 1843,2647 1820,2638 1810,2642 1796,2642 1778,2640 1772,2634 1764,2639 1747,2640"/>
         <Word id="word_1657704419309_3506" custom="readingOrder {index:0;}">
-          <Coords points="1761,2606 1804,2597 1863,2606 1863,2637 1796,2636 1769,2633"/>
+          <Coords points="1761,2606 1769,2633 1796,2636 1863,2637 1863,2606 1847,2606 1843,2603 1832,2606 1828,2601 1821,2601 1819,2608 1813,2611 1809,2609 1804,2597 1796,2600 1796,2611 1785,2600"/>
           <TextEquiv>
             <Unicode>Tom.</Unicode>
           </TextEquiv>
@@ -3430,14 +3446,14 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
           </TextEquiv>
         </Word>
         <Word id="region0010_line0011_word0011" custom="readingOrder {index:4;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="2109,2654 2252,2655 2252,2621 2250,2621 2230,2627 2223,2616 2209,2618 2199,2615 2172,2615 2163,2619 2150,2614 2138,2615 2133,2619 2122,2615 2109,2615"/>
+          <Coords points="2111,2654 2118,2651 2121,2654 2252,2655 2252,2621 2250,2621 2230,2627 2223,2616 2209,2618 2199,2615 2172,2615 2163,2619 2150,2614 2138,2615 2133,2619 2122,2615 2109,2615 2109,2654"/>
           <TextEquiv conf="0.6196742">
             <Unicode>Walchius</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0010_line0011_word0012" custom="readingOrder {index:5;}">
           <Coords points="2281,2658 2310,2658 2310,2622 2302,2621 2281,2621"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.</Unicode>
           </TextEquiv>
         </Word>
@@ -3529,7 +3545,7 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
         </Word>
         <Word id="region0010_line0013_word0009" custom="readingOrder {index:4;}">
           <Coords points="2071,2728 2092,2728 2092,2700 2071,2702"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.</Unicode>
           </TextEquiv>
         </Word>
@@ -3617,14 +3633,14 @@ Zeichnisp. Lugdun. Bat. 1639. fol. et Cantabrigiae&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Bezam proſequitur Joh. Henr. Henr. Hottingerus&#13;
-Biblioth. quadripartit. lib. 1. c. 4. p. l. 167.&#13;
-Conf. de hac editione Knochii Nachrichten&#13;
-p.391. Wetſtenii proleg p. 377. Pritii in-&#13;
-trod. p. 394. J. D. Michaelis Einleitung&#13;
-Tom. 1. p. 699. Walchius p. 41. Catal.&#13;
-Biblioth. Süsmilchii p. 12. Maittaire annales&#13;
-Tom. 3. Part. 2. p. 733.J. M. Goezii Ver-&#13;
+        <Unicode>Bezam proſequitur Joh. Henr. Henr. Hottingerus
+Biblioth. quadripartit. lib. 1. c. 4. p. l. 167.
+Conf. de hac editione Knochii Nachrichten
+p.391. Wetſtenii proleg p. 377. Pritii in-
+trod. p. 394. J. D. Michaelis Einleitung
+Tom. 1. p. 699. Walchius p. 41. Catal.
+Biblioth. Süsmilchii p. 12. Maittaire annales
+Tom. 3. Part. 2. p. 733.J. M. Goezii Ver-
 zeichnis p. 29. Index Bibl. Wernig. p. 22.</Unicode>
       </TextEquiv>
     </TextRegion>

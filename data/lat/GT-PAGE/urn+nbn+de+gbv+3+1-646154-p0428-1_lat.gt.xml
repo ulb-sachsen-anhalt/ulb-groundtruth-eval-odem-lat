@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-192">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:00Z</Created>
     <LastChange>2024-01-19T13:09:00Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/e058dd70-c276-4aa8-bc23-7182da7e632c/00000428.jpg" imageWidth="1941" imageHeight="2793" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1660816969738_2407"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.3636496" type="floating" readingDirection="left-to-right" id="TextRegion_1660816969738_2407" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660816969738_2407" custom="readingOrder {index:0;}" orientation="0.3636496" type="floating" readingDirection="left-to-right">
       <Coords points="705,474 1806,474 1819,543 1822,2025 1822,2094 1822,2405 711,2405 704,2042 704,543"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1135,486 1129,490 1127,498 1099,500 1070,497 980,499 976,491 959,488 916,491 900,497 883,495 879,498 794,496 772,502 705,501 705,537 717,540 843,536 847,545 863,548 960,547 964,536 992,534 1043,535 1067,541 1160,536 1165,544 1174,546 1186,545 1190,537 1273,536 1290,543 1310,546 1327,545 1356,537 1534,536 1542,546 1555,546 1561,542 1563,536 1668,538 1805,532 1805,496 1761,495 1753,485 1738,486 1730,495 1688,496 1674,495 1670,492 1618,496 1613,491 1603,491 1596,496 1525,498 1510,497 1503,492 1476,496 1467,487 1457,487 1450,495 1445,496 1347,499 1318,498 1316,490 1312,487 1297,489 1292,498 1266,497 1259,487 1247,488 1239,498 1226,498 1218,488 1204,489 1199,498 1168,498 1161,488"/>
@@ -27,7 +43,7 @@
         </Word>
         <Word id="region0011_line0001_word0001" custom="readingOrder {index:1;}">
           <Coords points="821,498 821,536 843,536 843,538 908,538 908,498 879,498"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>nv,</Unicode>
           </TextEquiv>
         </Word>
@@ -577,19 +593,19 @@
         <Baseline points="705,1062 895,1061 928,1068 1064,1057 1818,1052"/>
         <Word id="region0012_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="811,1070 811,1030 716,1031 716,1071 735,1070 744,1066 747,1070"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>PE?</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0001" custom="readingOrder {index:1;}">
           <Coords points="834,1031 914,1031 914,1071 834,1071"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>23i</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0010_word0002" custom="readingOrder {index:2;}">
           <Coords points="1135,1066 1135,1033 935,1035 935,1068 962,1067 964,1066 972,1065 975,1067 982,1067 987,1064 996,1065 998,1067"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p--3</Unicode>
           </TextEquiv>
         </Word>
@@ -717,7 +733,7 @@
         </Word>
         <Word id="region0012_line0012_word0003" custom="readingOrder {index:3;}">
           <Coords points="1207,1128 1201,1136 1186,1135 1186,1166 1376,1165 1376,1136 1362,1137 1329,1135 1324,1128 1308,1128 1305,1131 1297,1131 1292,1135 1264,1136 1261,1136 1254,1128 1238,1128 1233,1137 1226,1137 1221,1128"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>violentiae,</Unicode>
           </TextEquiv>
         </Word>
@@ -760,7 +776,7 @@
         </Word>
         <Word id="region0012_line0013_word0002" custom="readingOrder {index:2;}">
           <Coords points="1114,1191 1004,1192 1004,1222 1005,1223 1019,1223 1023,1220 1032,1221 1037,1217 1045,1217 1050,1220 1075,1218 1081,1223 1103,1223 1104,1222 1109,1218 1114,1218"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Pæ</Unicode>
           </TextEquiv>
         </Word>
@@ -998,7 +1014,7 @@
         </Word>
         <Word id="region0012_line0017_word0001" custom="readingOrder {index:1;}">
           <Coords points="901,1440 901,1406 817,1406 817,1440 830,1440 839,1438 841,1440 851,1440 855,1436 866,1435 871,1440"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>»n,</Unicode>
           </TextEquiv>
         </Word>
@@ -1180,7 +1196,7 @@
         </Word>
         <Word id="region0012_line0019_word0005" custom="readingOrder {index:5;}">
           <Coords points="1452,1493 1450,1495 1454,1505 1452,1507 1413,1507 1413,1534 1545,1533 1545,1505 1531,1505 1523,1496 1509,1496 1504,1505 1473,1506 1471,1503 1475,1496 1472,1493"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>mvi-4</Unicode>
           </TextEquiv>
         </Word>
@@ -1352,7 +1368,7 @@
         </Word>
         <Word id="region0012_line0024_word0002" custom="readingOrder {index:2;}">
           <Coords points="1092,1765 1092,1727 948,1727 948,1764 952,1765 1027,1765 1028,1764 1029,1753 1045,1754 1057,1762 1075,1763 1076,1765"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>B°2</Unicode>
           </TextEquiv>
         </Word>
@@ -1425,7 +1441,7 @@
         </Word>
         <Word id="region0012_line0025_word0003" custom="readingOrder {index:3;}">
           <Coords points="1032,1807 1088,1807 1087,1775 1065,1775 1031,1775"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>B3</Unicode>
           </TextEquiv>
         </Word>
@@ -1516,7 +1532,7 @@
         </Word>
         <Word id="region0012_line0026_word0007" custom="readingOrder {index:7;}">
           <Coords points="1366,1820 1361,1830 1355,1830 1355,1864 1356,1864 1389,1864 1389,1831 1388,1831 1385,1824 1378,1820"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>a4</Unicode>
           </TextEquiv>
         </Word>
@@ -1595,7 +1611,7 @@
         </Word>
         <Word id="region0012_line0027_word0007" custom="readingOrder {index:7;}">
           <Coords points="1522,1920 1522,1884 1344,1885 1344,1921 1439,1920 1443,1916 1448,1915 1454,1920"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>B-u</Unicode>
           </TextEquiv>
         </Word>
@@ -1711,7 +1727,7 @@
         </Word>
         <Word id="region0012_line0029_word0003" custom="readingOrder {index:3;}">
           <Coords points="1184,1987 1183,1989 1139,1988 1139,2028 1267,2027 1267,1988 1204,1990 1201,1987"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>1uvꝶaL</Unicode>
           </TextEquiv>
         </Word>
@@ -1723,19 +1739,19 @@
         </Word>
         <Word id="region0012_line0029_word0005" custom="readingOrder {index:5;}">
           <Coords points="1352,2028 1441,2027 1441,1991 1366,1991 1352,1989"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>N0</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0029_word0006" custom="readingOrder {index:6;}">
           <Coords points="1462,2027 1570,2027 1570,1991 1569,1991 1561,1980 1549,1979 1543,1986 1543,1991 1537,1992 1489,1991 1488,1979 1481,1975 1469,1977 1468,1990 1463,1991 1462,1991"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>NRNh</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0012_line0029_word0007" custom="readingOrder {index:7;}">
           <Coords points="1604,1978 1600,1982 1598,1989 1592,1989 1592,2023 1626,2023 1626,1988 1625,1988 1619,1979 1612,1978"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>b</Unicode>
           </TextEquiv>
         </Word>
@@ -1747,7 +1763,7 @@
         </Word>
         <Word id="region0012_line0029_word0009" custom="readingOrder {index:9;}">
           <Coords points="1739,1982 1784,1982 1784,2019 1739,2019"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Iæ)</Unicode>
           </TextEquiv>
         </Word>
@@ -2015,7 +2031,7 @@
         </Word>
         <Word id="region0014_line0004_word0007" custom="readingOrder {index:7;}">
           <Coords points="1795,2231 1791,2233 1790,2241 1770,2241 1764,2235 1752,2234 1738,2238 1735,2245 1681,2253 1681,2282 1737,2282 1739,2281 1740,2282 1806,2281 1806,2233 1804,2231"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>æB:</Unicode>
           </TextEquiv>
         </Word>
@@ -2028,13 +2044,13 @@
         <Baseline points="709,2340 909,2339 1010,2347 1219,2339 1403,2347 1738,2335 1819,2323"/>
         <Word id="region0014_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="723,2336 806,2335 806,2310 723,2312"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>wn</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0014_line0005_word0001" custom="readingOrder {index:1;}">
           <Coords points="836,2337 912,2337 912,2308 836,2310"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>n»</Unicode>
           </TextEquiv>
         </Word>
@@ -2085,7 +2101,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0014_line0006" custom="readingOrder {index:35;}">
-        <Coords points="866,2344 859,2351 865,2360 869,2363 880,2362 880,2366 808,2367 806,2361 792,2358 771,2368 746,2369 740,2359 724,2357 720,2360 718,2369 710,2369 710,2405 728,2405 734,2411 744,2411 750,2405 974,2401 1021,2405 1031,2407 1036,2412 1054,2408 1123,2404 1160,2407 1166,2413 1175,2413 1184,2406 1222,2404 1275,2405 1284,2410 1306,2406 1314,2407 1320,2415 1332,2415 1340,2407 1591,2406 1596,2415 1606,2416 1618,2405 1644,2403 1648,2406 1657,2406 1666,2402 1702,2401 1751,2392 1784,2389 1820,2390 1820,2354 1781,2352 1776,2349 1759,2352 1705,2353 1701,2356 1671,2361 1636,2364 1579,2366 1573,2362 1563,2362 1557,2368 1547,2368 1540,2358 1528,2357 1520,2368 1452,2369 1450,2362 1443,2357 1432,2361 1413,2358 1395,2359 1388,2369 1344,2367 1342,2360 1336,2356 1325,2357 1318,2366 1189,2365 1187,2358 1181,2354 1169,2355 1163,2365 1092,2367 1090,2361 1083,2356 1071,2357 1066,2367 904,2366 895,2357 885,2358 887,2351 881,2345"/>
+        <Coords points="859,2351 865,2360 869,2363 880,2362 880,2366 808,2367 806,2361 792,2358 771,2368 746,2369 740,2359 724,2357 720,2360 718,2369 710,2369 711,2405 728,2405 750,2405 974,2401 1021,2405 1105,2405 1123,2404 1135,2405 1203,2405 1222,2404 1275,2405 1618,2405 1644,2403 1646,2405 1659,2405 1666,2402 1702,2401 1751,2392 1784,2389 1820,2390 1820,2354 1781,2352 1776,2349 1759,2352 1705,2353 1701,2356 1671,2361 1636,2364 1579,2366 1573,2362 1563,2362 1557,2368 1547,2368 1540,2358 1528,2357 1520,2368 1452,2369 1450,2362 1443,2357 1432,2361 1413,2358 1395,2359 1388,2369 1344,2367 1342,2360 1336,2356 1325,2357 1318,2366 1189,2365 1187,2358 1181,2354 1169,2355 1163,2365 1092,2367 1090,2361 1083,2356 1071,2357 1066,2367 904,2366 895,2357 885,2358 887,2351 881,2345 866,2344"/>
         <Baseline points="710,2396 1607,2396 1820,2381"/>
         <Word id="region0014_line0006_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="722,2388 817,2387 816,2366 808,2367 806,2361 792,2358 771,2368 746,2369 740,2359 724,2357 721,2359"/>
@@ -2152,41 +2168,41 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ves. nv, ſoveam, aliqui in genere interpretantur de&#13;
-inſidiis, quibus capiatur poenis deſtinatus; haud ſcio ta-&#13;
-men, an de ſepulchri ſovea interpretari ſit commodius,&#13;
-quum mors etiam, et in medio quidem flore aetatis aut&#13;
-in mediis conatibus facinorum, ſit una ex poenis deſtina-&#13;
-tis impietati, ut docetur Pſ. XLV, 15. L, 24.&#13;
-14. Neque enim unquam Deus negliget ſuos, num-&#13;
-quam ille prodet peculium ſuum, et populum eum, quem&#13;
-habet proprium et ſuum.&#13;
-15. Explicat et confirmat, quod Vs. 14. dixerat:&#13;
-PE? 23i p--3 Quia ad juſtitiam revertetur ju-&#13;
-dicium, i. e. judicium tandem juſtum et rectum fiet, ut&#13;
-recreentur ſancti, erepti violentiae, et puniantur tollan-&#13;
-turque impii. Pæ Et poſt illud ſcil. juſtum judicium,&#13;
-quod proxime praecedit. Alii, ut Aben- Eſra et Kimchi:?&#13;
-et poſt illam, juſtitiam. Imo alii: poſt Deum, ex Vs. 14,&#13;
-ſed ſine neceſſitate. Subaudiendum eſt verbum ſubſtanti-&#13;
-vum »n, erunt, ut 1 Sam. XII, 14. 2 Sam. II, 10., vel&#13;
-ab, ibunt, ut 1 Reg. XIV, 8., h. e. illi adhaerebunt,&#13;
-idque ſequentur et collaudabunt ab- mvi-4 omnes recti&#13;
-corde, vid. Pſ. VII, 11. XI,2. XXXII, 11. Senſus: ſuo&#13;
-tempore juſta judicia exercebuntur approbantibus bonis&#13;
-et piis omnibus.&#13;
-16. L B°2 Quis conſurget mihi, i. e. ut adſit&#13;
-mihi, eſt enim B3 verbum praegnans, ut Geneſ. IV, 8.&#13;
-Exod. lI, 17. 2 Sam. XXIII, 10. a4 alii pro me reddunt,&#13;
-ut Exod. XIV, 15. Jud. VI, 31. B-u Cum impro-&#13;
-bis, i. e. mihi, ſ. pro me, cui cum improbis certan-&#13;
-dum eſt. Chaldaeus: 1uvꝶaL BY N0 NRNh b B;2 Iæ)&#13;
-quis aſſurget mihi ad gerendum bellum cum ſceleratis?&#13;
-Cf. ſimilem phraſin Pſ. LV, 19.&#13;
-17. Reſpondet jam ſibi ipſi vates ad exclamatoriam&#13;
-interrogationem Vs. 16. Niſi Deus adeſſet mihi ope ſus,&#13;
-jam ſane, amiſſa vita, aggregatus jacerem mortuis. æB:&#13;
-wn n» n”v, Parum abfuiſſet, quin habitaret in ſi-&#13;
+        <Unicode>ves. nv, ſoveam, aliqui in genere interpretantur de
+inſidiis, quibus capiatur poenis deſtinatus; haud ſcio ta-
+men, an de ſepulchri ſovea interpretari ſit commodius,
+quum mors etiam, et in medio quidem flore aetatis aut
+in mediis conatibus facinorum, ſit una ex poenis deſtina-
+tis impietati, ut docetur Pſ. XLV, 15. L, 24.
+14. Neque enim unquam Deus negliget ſuos, num-
+quam ille prodet peculium ſuum, et populum eum, quem
+habet proprium et ſuum.
+15. Explicat et confirmat, quod Vs. 14. dixerat:
+PE? 23i p--3 Quia ad juſtitiam revertetur ju-
+dicium, i. e. judicium tandem juſtum et rectum fiet, ut
+recreentur ſancti, erepti violentiae, et puniantur tollan-
+turque impii. Pæ Et poſt illud ſcil. juſtum judicium,
+quod proxime praecedit. Alii, ut Aben- Eſra et Kimchi:?
+et poſt illam, juſtitiam. Imo alii: poſt Deum, ex Vs. 14,
+ſed ſine neceſſitate. Subaudiendum eſt verbum ſubſtanti-
+vum »n, erunt, ut 1 Sam. XII, 14. 2 Sam. II, 10., vel
+ab, ibunt, ut 1 Reg. XIV, 8., h. e. illi adhaerebunt,
+idque ſequentur et collaudabunt ab- mvi-4 omnes recti
+corde, vid. Pſ. VII, 11. XI,2. XXXII, 11. Senſus: ſuo
+tempore juſta judicia exercebuntur approbantibus bonis
+et piis omnibus.
+16. L B°2 Quis conſurget mihi, i. e. ut adſit
+mihi, eſt enim B3 verbum praegnans, ut Geneſ. IV, 8.
+Exod. lI, 17. 2 Sam. XXIII, 10. a4 alii pro me reddunt,
+ut Exod. XIV, 15. Jud. VI, 31. B-u Cum impro-
+bis, i. e. mihi, ſ. pro me, cui cum improbis certan-
+dum eſt. Chaldaeus: 1uvꝶaL BY N0 NRNh b B;2 Iæ)
+quis aſſurget mihi ad gerendum bellum cum ſceleratis?
+Cf. ſimilem phraſin Pſ. LV, 19.
+17. Reſpondet jam ſibi ipſi vates ad exclamatoriam
+interrogationem Vs. 16. Niſi Deus adeſſet mihi ope ſus,
+jam ſane, amiſſa vita, aggregatus jacerem mortuis. æB:
+wn n» n”v, Parum abfuiſſet, quin habitaret in ſi-
 lentio anima mea, i. e. jacerem jam ſilens inter mortuos,</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-255">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:58Z</Created>
     <LastChange>2024-01-19T13:09:58Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/215c557a-a76e-4625-a8d5-ef992a828577/00000402.jpg" imageWidth="1659" imageHeight="2356" type="content" primaryLanguage="Latin">
     <Border>
@@ -15,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1658913277721_5331"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.780039" readingDirection="left-to-right" id="TextRegion_1658913265241_5249" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1658913265241_5249" custom="readingOrder {index:0;}" orientation="-0.780039" readingDirection="left-to-right">
       <Coords points="641,500 1481,500 1481,2111 1467,2170 641,2181"/>
       <TextLine id="line_1658913265279_5252" custom="readingOrder {index:0;}">
         <Coords points="641,510 754,510 763,509 770,500 781,500 789,510 837,509 840,500 857,501 862,510 903,511 949,503 999,505 1008,509 1014,504 1022,504 1028,506 1033,513 1059,514 1143,514 1155,504 1173,504 1181,514 1249,517 1258,516 1265,507 1274,507 1281,512 1291,505 1305,504 1366,505 1393,514 1399,508 1414,510 1427,503 1440,504 1444,507 1449,504 1459,504 1468,514 1481,515 1480,561 1444,560 1433,562 1375,565 1246,563 1225,560 1213,564 1039,560 960,564 865,558 821,558 804,555 799,558 795,567 790,569 771,566 768,557 641,556"/>
@@ -27,7 +43,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1658913306025_5343" custom="readingOrder {index:1;}">
-          <Coords points="730,510 767,503 784,503 859,504 932,505 969,510 968,554 935,561 798,559 768,558 730,556"/>
+          <Coords points="768,503 763,509 754,510 730,510 730,556 746,557 768,557 768,558 798,559 799,559 799,558 804,555 821,558 865,558 906,561 935,561 968,554 969,510 935,505 903,511 862,510 859,504 839,504 837,509 789,510 783,503"/>
           <TextEquiv>
             <Unicode>adjudicet?</Unicode>
           </TextEquiv>
@@ -1199,41 +1215,41 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>co adjudicet? Si vero ſit ovis Chriſti,&#13;
-ſi ſit ejus corporis membrum, ſi ſit&#13;
-ejus gloriæ particeps futurus, quis&#13;
-ab ejus ſocietate quis ab ejus com-&#13;
-munione ſeſe ſubtrahat? Næ intem-&#13;
-perantis cujuſdam rigoris eſt (ne&#13;
-quid amplius dicamus) eum pro fra-&#13;
-tre habere nolle, quem Deus ipſe pro&#13;
-filio habet, ab ejus ſe communione&#13;
-divellere, quocum Chriſtus ipſe&#13;
-communionem colit, eum a Sacris&#13;
-noſtris removere, qui cum ipſo An-&#13;
-gelorum Beatorumque choro, imo&#13;
-&amp; nobiſcum ipſis, niſi noſtra nos ſpes&#13;
-fallat, noſtræque obſtiterint diſſenſio-&#13;
-nes, æternain Cælis Sacra agitabit.&#13;
-Verum, ut in cauſſæ arcem inva-&#13;
-3. damus, &amp; ad ea accedamus capita, de&#13;
-ter Refor- quibus diſceptatur, triplex tantum&#13;
-matos &amp; eſt, AVDITORES, alicujus ſaltem mo-&#13;
-Confe. menti, inter nos Controverſia; Cæ-&#13;
-Fraes, teræ enim, vel ab his pendent, &amp; ad&#13;
-eas referuntur, vel adeo leves ſunt ut&#13;
-ne memorari quidem mereantur.&#13;
-Prima, de modo quo Chriſti corpus&#13;
-in Euchariſticis Sacris præſens eſt;&#13;
-Altera, de humanæ Chriſti naturæ&#13;
-ſublimitate &amp; dotibus; Tertia deni-&#13;
+        <Unicode>co adjudicet? Si vero ſit ovis Chriſti,
+ſi ſit ejus corporis membrum, ſi ſit
+ejus gloriæ particeps futurus, quis
+ab ejus ſocietate quis ab ejus com-
+munione ſeſe ſubtrahat? Næ intem-
+perantis cujuſdam rigoris eſt (ne
+quid amplius dicamus) eum pro fra-
+tre habere nolle, quem Deus ipſe pro
+filio habet, ab ejus ſe communione
+divellere, quocum Chriſtus ipſe
+communionem colit, eum a Sacris
+noſtris removere, qui cum ipſo An-
+gelorum Beatorumque choro, imo
+&amp; nobiſcum ipſis, niſi noſtra nos ſpes
+fallat, noſtræque obſtiterint diſſenſio-
+nes, æternain Cælis Sacra agitabit.
+Verum, ut in cauſſæ arcem inva-
+3. damus, &amp; ad ea accedamus capita, de
+ter Refor- quibus diſceptatur, triplex tantum
+matos &amp; eſt, AVDITORES, alicujus ſaltem mo-
+Confe. menti, inter nos Controverſia; Cæ-
+Fraes, teræ enim, vel ab his pendent, &amp; ad
+eas referuntur, vel adeo leves ſunt ut
+ne memorari quidem mereantur.
+Prima, de modo quo Chriſti corpus
+in Euchariſticis Sacris præſens eſt;
+Altera, de humanæ Chriſti naturæ
+ſublimitate &amp; dotibus; Tertia deni-
 que, de excelſis illis circa æternam</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.780039" type="marginalia" readingDirection="left-to-right" id="TextRegion_1658913277721_5331" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1658913277721_5331" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.780039" type="marginalia" readingDirection="left-to-right">
       <Coords points="458,1452 641,1452 641,1847 458,1847"/>
       <TextLine id="line_1658913533380_5422" custom="readingOrder {index:0;}">
-        <Coords points="458,1450 518,1452 528,1454 540,1462 560,1465 641,1466 641,1503 481,1503 458,1501"/>
+        <Coords points="560,1465 540,1462 528,1454 518,1452 458,1452 458,1501 481,1503 641,1503 641,1466"/>
         <Word id="word_1658913539810_5429" custom="readingOrder {index:0;}">
           <Coords points="472,1457 534,1458 540,1462 560,1465 561,1465 561,1503 481,1503 471,1502"/>
           <TextEquiv>
@@ -1373,14 +1389,14 @@ que, de excelſis illis circa æternam</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Tres præ-&#13;
-cipuæ, in-&#13;
-ter Refor- quibus diſceptatur, triplex tantum&#13;
-matos &amp; eſt, AVDITORES, alicujus ſaltem mo-&#13;
-Auguſt.&#13;
-Confeſſ.&#13;
-Fratres,&#13;
-Contro-&#13;
+        <Unicode>Tres præ-
+cipuæ, in-
+ter Refor- quibus diſceptatur, triplex tantum
+matos &amp; eſt, AVDITORES, alicujus ſaltem mo-
+Auguſt.
+Confeſſ.
+Fratres,
+Contro-
 verſiæ.</Unicode>
       </TextEquiv>
     </TextRegion>

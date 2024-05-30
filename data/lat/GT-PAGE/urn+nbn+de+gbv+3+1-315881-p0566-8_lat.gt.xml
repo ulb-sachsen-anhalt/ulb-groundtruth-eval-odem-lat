@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-131">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:06Z</Created>
     <LastChange>2024-01-19T13:08:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/7b2e0307-09d1-4e3e-b608-674b1192f5e8/00000566.jpg" imageWidth="1518" imageHeight="2225" type="content" primaryLanguage="Latin">
     <Border>
@@ -18,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region_1682413712207_1390"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682413649120_1321" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682413649120_1321" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="576,370 576,416 633,416 633,370"/>
       <TextLine id="line_1682413649218_1324" custom="readingOrder {index:0;}">
         <Coords points="576,370 576,416 633,416 633,370"/>
@@ -36,7 +52,7 @@
         <Unicode>562</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682413652379_1330" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682413652379_1330" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="823,376 823,422 1214,422 1214,376"/>
       <TextLine id="line_1682413652469_1333" custom="readingOrder {index:0;}">
         <Coords points="823,376 823,422 1214,422 1214,376"/>
@@ -66,7 +82,7 @@
         <Unicode>L. ANNAEI SENECAE</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.31603" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-1.31603" readingDirection="left-to-right">
       <Coords points="546,442 1398,442 1398,1728 546,1728"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1313,452 1303,463 1126,459 1118,451 1109,450 1102,457 1094,459 963,456 955,448 946,448 937,455 882,454 843,452 836,443 821,443 816,452 690,451 671,449 668,443 645,443 644,448 638,450 547,448 546,483 586,483 593,489 608,492 611,486 619,483 633,486 690,489 703,485 719,488 775,490 782,487 808,490 861,492 866,489 877,489 881,492 905,491 916,494 922,500 931,501 937,500 945,493 959,496 989,497 1214,496 1226,500 1241,500 1248,507 1260,507 1271,500 1301,498 1377,501 1381,504 1398,502 1398,463 1329,462 1324,453"/>
@@ -139,7 +155,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1074,500 1073,543 1137,544 1142,539 1155,539 1185,545 1186,504 1149,501 1148,503 1131,503 1126,501"/>
+          <Coords points="1073,543 1137,544 1142,539 1155,539 1180,544 1184,543 1185,543 1186,504 1149,501 1148,503 1131,503 1125,500 1074,500"/>
           <TextEquiv conf="0.88330096">
             <Unicode>Quod,</Unicode>
           </TextEquiv>
@@ -488,7 +504,7 @@
         <Coords points="805,793 795,802 750,801 742,794 731,794 722,800 706,800 685,795 652,792 633,802 597,799 585,791 547,791 547,835 605,835 642,839 651,843 660,839 684,840 693,836 706,839 740,840 803,838 828,841 855,839 886,841 900,839 907,843 1007,846 1021,843 1035,852 1052,853 1063,848 1098,844 1104,854 1112,856 1125,845 1155,849 1398,852 1398,813 1375,811 1365,810 1354,815 1343,815 1331,808 1312,808 1309,813 1282,812 1265,805 1257,805 1244,811 1163,811 1162,806 1158,804 1142,803 1135,810 963,806 957,800 944,800 936,805 899,805 885,807 876,803 822,802 814,794"/>
         <Baseline points="547,825 1398,843"/>
         <Word id="word_1663573751837_2020" custom="readingOrder {index:0;}">
-          <Coords points="574,793 588,793 646,794 689,796 723,798 723,834 721,839 705,839 573,830"/>
+          <Coords points="574,793 573,830 689,838 693,836 706,839 721,839 723,834 723,799 722,800 706,800 689,796 689,796 648,794 633,802 597,799 588,793"/>
           <TextEquiv>
             <Unicode>honeſtum</Unicode>
           </TextEquiv>
@@ -922,7 +938,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0017_word0002" custom="readingOrder {index:2;}">
-          <Coords points="795,1149 793,1151 782,1150 782,1180 914,1185 915,1154 913,1152 908,1147 899,1155 889,1154 887,1151 862,1150 862,1154 824,1153 817,1149"/>
+          <Coords points="782,1180 914,1185 915,1154 915,1154 899,1155 889,1154 887,1151 863,1150 862,1154 824,1153 816,1149 795,1149 793,1151 782,1151"/>
           <TextEquiv conf="0.90334517">
             <Unicode>vitandus</Unicode>
           </TextEquiv>
@@ -1399,7 +1415,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0026_word0002" custom="readingOrder {index:2;}">
-          <Coords points="929,1576 986,1581 987,1550 1009,1546 1007,1550 929,1547"/>
+          <Coords points="929,1576 986,1581 987,1550 1009,1546 929,1547"/>
           <TextEquiv>
             <Unicode>nec</Unicode>
           </TextEquiv>
@@ -1592,38 +1608,38 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>quod viuimus ad exempla: nec ratione componimur,&#13;
-ſed conſuetudine abducimur. Quod, ſi pauci face-&#13;
-rent, nollemus imitari: cum plures facere cœperunt,&#13;
-quaſi honeſtius ſit, quia frequentius, ſequimur: &amp;&#13;
-recti apud nos locum tenet error, vbi publicus factus&#13;
-eſt Omnes iam ſic peregrinantur, vt illos Numidarum&#13;
-præcurrat equitatus, vt agmen curſorum antecedat.&#13;
-turpe eſt, nullos eſſe, qui occurrentes via deiiciant, qui&#13;
-honeſtum hominem venire magno puluere oſtendant.&#13;
-Omnes iam mulos habent, qui cryſtallina &amp; murrhina,&#13;
-&amp; cælata magnorum artificum manu portent. turpe&#13;
-eſt, videri, eas te habere ſarcinas, quæ tuto concu-&#13;
-ti poſſint. Omnium pædagogia oblita 4) facie ve-&#13;
-huntur, ne ſol, ne frigus teneram cutem Iædat. tur-&#13;
-pe eſt, neminem eſſe in comitatu puerorum, cuius&#13;
-ſana facies medicamentum deſideret. Horum o-&#13;
-mnium ſermo vitandus eſt. hi ſunt, qui vitia tradunt,&#13;
-&amp; alio aliunde transferunt. Peſſimum genus homi-&#13;
-num videbatur, qui verba geſtarent 5): ſunt quidam&#13;
-qui vitia geſtant 6). Horum ſermo multum nocet.&#13;
-nam etiamſi non ſtatim officit: ſemina in animo re-&#13;
-linquit, ſequiturque nos etiam cum ab illis diſceſſeri-&#13;
-mus, reſurrecturum poſtea malum. Quemadmo-&#13;
-dum qui audierunt ſymphoniam, ferunt ſecum in au-&#13;
-ribus modulationem illam ac dulcedinem cantus, quæ&#13;
-cogitationes impedit, nec ad ſeria patitur intendi:&#13;
-ſic adulatorum, &amp; praua laudantium ſermo, diutius&#13;
-hæret quam auditur: nec facile eſt, animo dulcem&#13;
+        <Unicode>quod viuimus ad exempla: nec ratione componimur,
+ſed conſuetudine abducimur. Quod, ſi pauci face-
+rent, nollemus imitari: cum plures facere cœperunt,
+quaſi honeſtius ſit, quia frequentius, ſequimur: &amp;
+recti apud nos locum tenet error, vbi publicus factus
+eſt Omnes iam ſic peregrinantur, vt illos Numidarum
+præcurrat equitatus, vt agmen curſorum antecedat.
+turpe eſt, nullos eſſe, qui occurrentes via deiiciant, qui
+honeſtum hominem venire magno puluere oſtendant.
+Omnes iam mulos habent, qui cryſtallina &amp; murrhina,
+&amp; cælata magnorum artificum manu portent. turpe
+eſt, videri, eas te habere ſarcinas, quæ tuto concu-
+ti poſſint. Omnium pædagogia oblita 4) facie ve-
+huntur, ne ſol, ne frigus teneram cutem Iædat. tur-
+pe eſt, neminem eſſe in comitatu puerorum, cuius
+ſana facies medicamentum deſideret. Horum o-
+mnium ſermo vitandus eſt. hi ſunt, qui vitia tradunt,
+&amp; alio aliunde transferunt. Peſſimum genus homi-
+num videbatur, qui verba geſtarent 5): ſunt quidam
+qui vitia geſtant 6). Horum ſermo multum nocet.
+nam etiamſi non ſtatim officit: ſemina in animo re-
+linquit, ſequiturque nos etiam cum ab illis diſceſſeri-
+mus, reſurrecturum poſtea malum. Quemadmo-
+dum qui audierunt ſymphoniam, ferunt ſecum in au-
+ribus modulationem illam ac dulcedinem cantus, quæ
+cogitationes impedit, nec ad ſeria patitur intendi:
+ſic adulatorum, &amp; praua laudantium ſermo, diutius
+hæret quam auditur: nec facile eſt, animo dulcem
 ſonum excutere. proſequitur &amp; durat, &amp; ex inter-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.31603" type="footnote" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="region0005" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-1.31603" type="footnote" readingDirection="left-to-right">
       <Coords points="542,1743 1371,1743 1371,1942 542,1942"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="896,1744 882,1746 875,1752 839,1752 776,1750 770,1743 723,1743 695,1748 687,1743 607,1743 585,1750 543,1752 542,1782 591,1784 644,1780 693,1782 716,1787 838,1787 853,1783 859,1786 883,1785 906,1789 919,1787 927,1791 971,1793 1009,1791 1042,1793 1062,1790 1103,1792 1108,1796 1264,1800 1336,1799 1371,1796 1371,1763 1332,1762 1325,1755 1307,1756 1298,1763 1281,1764 1206,1762 1199,1755 1169,1752 1155,1753 1149,1761 1043,1758 1036,1751 1026,1751 1017,1753 1012,1758 941,1757 940,1750 935,1745"/>
@@ -1859,14 +1875,14 @@ hæret quam auditur: nec facile eſt, animo dulcem&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>4. Oblita] ſuceo aut offa, aut alio contra ſolem medica-&#13;
-mento, ne tenera cutis lædatur. Lipſ.&#13;
-5. Qui verba geſtarent] de calumniatoribus, ſuſurronibus&#13;
-vel delatoribus accipit Lipſ.&#13;
+        <Unicode>4. Oblita] ſuceo aut offa, aut alio contra ſolem medica-
+mento, ne tenera cutis lædatur. Lipſ.
+5. Qui verba geſtarent] de calumniatoribus, ſuſurronibus
+vel delatoribus accipit Lipſ.
 6. Geſtant] circumſerunt, in alios transferenda.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682413712207_1390" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region_1682413712207_1390" custom="readingOrder {index:4;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1283,1947 1283,1974 1365,1974 1365,1947"/>
       <TextLine id="line_1682413712273_1393" custom="readingOrder {index:0;}">
         <Coords points="1283,1947 1283,1974 1365,1974 1365,1947"/>

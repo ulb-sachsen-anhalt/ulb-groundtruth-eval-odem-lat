@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-220">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:16Z</Created>
     <LastChange>2024-01-19T13:09:16Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/c11dba17-0550-4189-8ad4-b4b314b6d6a7/00000568.jpg" imageWidth="1656" imageHeight="2230" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1651046778593_3493"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.19367503" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:0;}">
+    <TextRegion id="region0006" custom="readingOrder {index:0;}" orientation="-0.19367503" readingDirection="left-to-right">
       <Coords points="646,308 1529,300 1531,506 648,514"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1468,301 1462,312 1446,313 1409,312 1392,302 1323,302 1313,305 1307,311 1294,313 1252,312 1247,308 1237,308 1232,312 1185,313 1180,304 1162,304 1158,313 1098,313 1094,305 1075,305 1071,313 1003,312 1000,305 977,305 975,305 973,312 947,315 927,315 922,310 914,310 905,315 902,306 875,307 871,315 738,315 733,307 731,307 716,310 646,308 647,360 779,361 813,357 912,359 966,358 983,355 1027,363 1036,355 1047,359 1069,355 1117,358 1169,358 1182,355 1189,358 1207,358 1214,354 1231,357 1267,357 1273,354 1288,357 1336,358 1346,354 1375,356 1392,353 1412,356 1529,354 1529,317 1492,313 1486,301"/>
@@ -158,16 +174,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>laſticorum fata deprehenduntur. Non de-&#13;
-ſunt enim, qui iisdem iniurias inferant,&#13;
-qui eos perſequantur, qui convitiis pro-&#13;
+        <Unicode>laſticorum fata deprehenduntur. Non de-
+ſunt enim, qui iisdem iniurias inferant,
+qui eos perſequantur, qui convitiis pro-
 ſcindant atrociſſimis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19367503" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:1;}">
+    <TextRegion id="region0007" custom="readingOrder {index:1;}" orientation="-0.19367503" readingDirection="left-to-right">
       <Coords points="578,530 1524,517 1529,999 583,1012"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1320,520 1318,528 1314,530 1274,529 1267,520 1248,520 1243,530 1221,529 1192,521 1009,521 938,522 874,526 664,525 663,558 668,563 678,564 679,575 694,581 707,582 808,582 813,579 912,581 946,579 958,575 968,578 1056,578 1063,575 1216,577 1316,576 1321,573 1342,576 1382,572 1415,574 1419,583 1433,585 1443,582 1445,574 1465,573 1469,570 1524,571 1524,532 1494,529 1394,529 1388,524 1378,524 1372,529 1358,529 1342,520"/>
+        <Coords points="1318,528 1314,530 1274,529 1267,520 1247,520 1243,530 1221,529 1193,521 875,525 874,526 870,525 663,528 663,558 668,563 678,564 679,575 694,581 707,582 808,582 813,579 912,581 946,579 958,575 968,578 1056,578 1063,575 1216,577 1316,576 1321,573 1342,576 1382,572 1415,574 1419,583 1433,585 1443,582 1445,574 1465,573 1469,570 1524,571 1524,532 1494,529 1394,529 1388,524 1378,524 1372,529 1358,529 1342,520 1320,520"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="960,575 1041,576 1041,532 730,531 730,575 955,575 958,575"/>
           <TextEquiv conf="0.8972312">
@@ -401,7 +417,7 @@ qui eos perſequantur, qui convitiis pro-&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0007" custom="readingOrder {index:6;}">
-        <Coords points="1509,828 1502,830 1497,838 1494,838 1493,832 1488,829 1478,829 1468,841 1396,838 1391,834 1382,834 1376,838 1333,838 1316,831 1301,830 1293,838 1204,840 1202,835 1190,833 1183,840 1174,840 1162,832 1147,834 1145,837 1111,831 1101,835 1045,838 1034,842 1007,841 998,835 987,834 940,834 887,837 861,835 847,839 842,845 827,845 823,838 810,836 803,839 802,846 783,848 686,846 664,845 660,842 584,844 579,849 579,879 592,891 687,891 693,887 710,890 766,889 781,894 815,891 817,897 823,899 835,899 849,890 896,889 914,885 940,887 949,884 980,887 1096,889 1155,885 1240,885 1249,881 1263,884 1280,884 1286,881 1302,884 1460,882 1527,884 1526,833 1520,828"/>
+        <Coords points="1502,830 1497,838 1494,838 1493,832 1488,829 1478,829 1468,841 1396,838 1391,834 1382,834 1376,838 1333,838 1316,831 1301,830 1293,838 1204,840 1202,835 1190,833 1183,840 1174,840 1162,832 1147,834 1145,837 1111,831 1101,835 1045,838 1034,842 1007,841 998,835 987,834 940,834 887,837 861,835 847,839 842,845 827,845 823,838 810,836 803,839 802,846 783,848 686,846 664,845 660,842 584,844 581,846 581,881 592,891 687,891 693,887 710,890 766,889 781,894 815,891 817,897 823,899 835,899 849,890 896,889 914,885 940,887 949,884 980,887 1096,889 1155,885 1240,885 1249,881 1263,884 1280,884 1286,881 1302,884 1460,882 1527,884 1526,833 1520,828 1509,828"/>
         <Word id="region0007_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="660,842 657,842 649,842 649,877 795,878 795,846 783,848 686,846 664,845"/>
           <TextEquiv conf="0.7515302">
@@ -449,7 +465,7 @@ qui eos perſequantur, qui convitiis pro-&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0009" custom="readingOrder {index:7;}">
-        <Coords points="1249,882 1242,884 1239,891 1186,891 1182,888 1172,888 1162,892 984,896 971,896 968,888 962,885 943,886 933,895 930,894 929,888 914,886 906,889 904,895 850,896 835,900 772,897 766,890 751,890 747,897 742,898 712,897 707,889 693,888 686,892 685,897 585,897 580,902 580,933 585,938 607,938 613,945 638,945 642,949 656,946 666,939 674,942 758,943 760,948 769,951 781,950 786,947 787,942 813,941 820,938 828,938 839,946 846,941 866,938 878,949 887,946 889,941 943,940 949,937 978,940 995,939 1003,935 1114,940 1120,946 1132,946 1140,934 1153,937 1204,933 1219,936 1313,936 1316,940 1322,941 1331,940 1336,936 1489,936 1504,939 1528,937 1527,889 1305,891 1304,886 1296,882 1283,883 1278,890 1265,890 1262,884"/>
+        <Coords points="1242,884 1239,891 1186,891 1182,888 1172,888 1162,892 984,896 971,896 968,888 962,885 943,886 933,895 930,894 929,888 914,886 906,889 904,895 850,896 835,900 772,897 766,890 751,890 747,897 742,898 712,897 707,889 693,888 686,892 685,897 585,897 581,900 582,935 585,938 607,938 613,945 638,945 642,949 656,946 666,939 674,942 758,943 760,948 769,951 781,950 786,947 787,942 813,941 820,938 828,938 839,946 846,941 866,938 878,949 887,946 889,941 943,940 949,937 978,940 995,939 1003,935 1114,940 1120,946 1132,946 1140,934 1153,937 1204,933 1219,936 1313,936 1316,940 1322,941 1331,940 1336,936 1489,936 1504,939 1528,937 1527,889 1305,891 1304,886 1296,882 1283,883 1278,890 1265,890 1262,884 1249,882"/>
         <Word id="region0007_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="648,897 648,936 840,937 840,898 835,900 772,897 766,890 751,890 747,897 742,898 712,897 707,889 693,888 686,892 685,897"/>
           <TextEquiv conf="0.9169277">
@@ -497,7 +513,7 @@ qui eos perſequantur, qui convitiis pro-&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0010" custom="readingOrder {index:8;}">
-        <Coords points="1204,934 1185,935 1178,943 1173,944 1155,944 1152,937 1140,935 1132,947 1120,947 1110,941 1100,941 1095,945 1036,946 1035,941 1030,938 1003,936 994,940 992,946 970,947 960,938 949,938 943,941 942,947 886,947 876,950 866,939 861,939 855,942 854,948 839,949 828,939 820,939 815,942 814,949 784,949 774,952 761,949 676,950 673,942 665,940 660,945 645,950 588,948 583,952 506,952 497,960 444,960 444,993 584,992 588,995 666,995 1188,990 1211,994 1219,1001 1233,1001 1246,997 1251,1001 1261,1001 1275,988 1306,987 1312,993 1322,994 1335,987 1406,986 1411,981 1411,955 1406,950 1397,949 1396,942 1391,937 1373,937 1363,944 1355,943 1349,938 1340,938 1334,943 1222,942 1216,935"/>
+        <Coords points="1185,935 1178,943 1173,944 1155,944 1152,937 1140,935 1132,947 1120,947 1110,941 1100,941 1095,945 1036,946 1035,941 1030,938 1003,936 994,940 992,946 970,947 960,938 949,938 943,941 942,947 886,947 876,950 866,939 861,939 855,942 854,948 839,949 828,939 820,939 815,942 814,949 784,949 774,952 761,949 676,950 673,942 665,940 660,945 645,950 588,948 583,952 582,952 583,992 584,992 588,995 666,995 1188,990 1211,994 1219,1001 1233,1001 1246,997 1251,1001 1261,1001 1275,988 1306,987 1312,993 1322,994 1335,987 1406,986 1411,981 1411,955 1406,950 1397,949 1396,942 1391,937 1373,937 1363,944 1355,943 1349,938 1340,938 1334,943 1222,942 1216,935 1204,934"/>
         <Word id="region0007_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="669,941 663,941 660,945 646,949 646,981 766,982 766,950 761,949 676,950 673,942"/>
           <TextEquiv conf="0.9327524">
@@ -527,18 +543,18 @@ qui eos perſequantur, qui convitiis pro-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>HERMANNVS WIDA calamitate pres-&#13;
-ſus maximum invenit Patronum in Erneſto,&#13;
-Principe Haſſiaco, qui permulta favoris &amp;&#13;
-amoris intenſiſſimi documenta ei exhibuit.&#13;
-Haec vero felicitas miſero etiam praeceptori&#13;
-ſcholaſtico contingit. Summus ei adeſt pa-&#13;
-tronus, ipſe DEVS. Ab hoc excitantur viri&#13;
-principes, qui ſuo eum patrocinio, amore ac&#13;
+        <Unicode>HERMANNVS WIDA calamitate pres-
+ſus maximum invenit Patronum in Erneſto,
+Principe Haſſiaco, qui permulta favoris &amp;
+amoris intenſiſſimi documenta ei exhibuit.
+Haec vero felicitas miſero etiam praeceptori
+ſcholaſtico contingit. Summus ei adeſt pa-
+tronus, ipſe DEVS. Ab hoc excitantur viri
+principes, qui ſuo eum patrocinio, amore ac
 favore minime iudicent indignum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19367503" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:2;}">
+    <TextRegion id="region0008" custom="readingOrder {index:2;}" orientation="-0.19367503" readingDirection="left-to-right">
       <Coords points="440,1013 1544,1003 1547,1345 443,1355"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1339,1005 1332,1017 1305,1017 1301,1006 1277,1006 1274,1016 1181,1007 654,1012 652,1043 658,1049 667,1050 667,1061 670,1065 697,1068 710,1065 725,1065 730,1068 761,1068 769,1065 793,1066 799,1069 915,1068 963,1062 1017,1066 1024,1061 1062,1060 1075,1065 1081,1066 1085,1062 1111,1066 1215,1065 1348,1061 1365,1057 1382,1061 1446,1061 1456,1057 1468,1057 1478,1061 1502,1058 1508,1061 1527,1062 1535,1055 1543,1057 1544,1012 1510,1011 1503,1007 1493,1007 1485,1011 1445,1016 1436,1016 1429,1010 1420,1010 1414,1016 1377,1016 1373,1005"/>
@@ -769,15 +785,15 @@ favore minime iudicent indignum.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>HERMANNVS WIDA &amp; obedientes &amp;&#13;
-inobedientes offendit inter eos, quibus fuit&#13;
-praefectus. Doctor ſcholaſticus bonos ma-&#13;
-lis mixtos reperit diſcipulos, obedientes pa-&#13;
-riter ac inobedientes. Horum ſcelere affli-&#13;
+        <Unicode>HERMANNVS WIDA &amp; obedientes &amp;
+inobedientes offendit inter eos, quibus fuit
+praefectus. Doctor ſcholaſticus bonos ma-
+lis mixtos reperit diſcipulos, obedientes pa-
+riter ac inobedientes. Horum ſcelere affli-
 | gitur: illorum probitate excitatur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.19367503" readingDirection="left-to-right" id="TextRegion_1651046778593_3493" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1651046778593_3493" custom="readingOrder {index:3;}" orientation="-0.19367503" readingDirection="left-to-right">
       <Coords points="629,1338 1524,1330 1528,1754 1516,1802 632,1810 631,1748"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1118,1334 646,1338 646,1370 652,1376 666,1376 672,1384 743,1391 774,1389 897,1392 908,1388 938,1390 978,1386 1273,1388 1285,1389 1287,1394 1292,1396 1308,1398 1322,1394 1325,1390 1366,1382 1389,1386 1425,1386 1427,1393 1437,1396 1454,1392 1456,1385 1524,1385 1524,1342 1254,1342 1193,1334"/>
@@ -1070,7 +1086,7 @@ riter ac inobedientes. Horum ſcelere affli-&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1651047090460_3602" custom="readingOrder {index:2;}">
-          <Coords points="892,1699 898,1697 911,1697 959,1697 1080,1705 1080,1750 1061,1750 888,1740 888,1703"/>
+          <Coords points="898,1697 892,1699 888,1703 888,1740 1061,1750 1062,1750 1080,1750 1080,1705 971,1706 959,1697 942,1697 929,1704 920,1704 918,1698 910,1697"/>
           <TextEquiv>
             <Unicode>deficere;</Unicode>
           </TextEquiv>
@@ -1104,7 +1120,7 @@ riter ac inobedientes. Horum ſcelere affli-&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0001" custom="readingOrder {index:8;}">
-        <Coords points="1422,1742 1417,1746 1415,1753 1361,1753 1355,1748 1346,1748 1340,1753 1303,1753 1293,1743 1277,1743 1270,1747 1233,1743 1227,1747 1225,1753 1213,1755 1198,1755 1189,1745 1177,1745 1169,1749 1163,1745 1155,1745 1143,1756 1016,1759 764,1758 733,1754 714,1755 710,1749 688,1749 686,1755 632,1755 632,1810 659,1809 680,1802 740,1804 745,1808 754,1808 759,1804 781,1804 789,1813 805,1813 812,1803 1063,1802 1068,1813 1087,1815 1092,1811 1094,1802 1445,1797 1494,1800 1501,1803 1515,1800 1515,1753 1442,1752 1435,1742"/>
+        <Coords points="1417,1746 1415,1753 1361,1753 1355,1748 1346,1748 1340,1753 1303,1753 1293,1743 1277,1743 1270,1747 1233,1743 1227,1747 1225,1753 1213,1755 1198,1755 1189,1745 1177,1745 1169,1749 1163,1745 1155,1745 1143,1756 1016,1759 764,1758 733,1754 714,1755 710,1749 688,1749 686,1755 632,1755 632,1810 659,1809 680,1802 740,1804 745,1808 754,1808 759,1804 781,1804 785,1808 808,1808 812,1803 1063,1802 1064,1806 1093,1805 1094,1802 1445,1797 1494,1800 1499,1802 1505,1802 1515,1800 1515,1753 1442,1752 1435,1742 1422,1742"/>
         <Word id="region0013_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="637,1755 637,1793 757,1794 757,1757 733,1754 714,1755 710,1749 688,1749 686,1755"/>
           <TextEquiv conf="0.9060289">
@@ -1152,14 +1168,14 @@ riter ac inobedientes. Horum ſcelere affli-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>HERMANNVS WIDA magnam prae&#13;
-ſe ferebat patientiam, cum non poſſet cun-&#13;
-cta, quae volebat, efiicere, &amp; ſacrorum&#13;
-praeſertim emendationem, quam molieba-&#13;
-tur, Colonienſem. Praeceptor ſcholaſticus&#13;
-res multo minoris momenti non ſemper ex&#13;
-voto agit, &amp; voluntatem ſaepe videt adeſſe,&#13;
-vires autem deficere; neque tamen hoc im-&#13;
+        <Unicode>HERMANNVS WIDA magnam prae
+ſe ferebat patientiam, cum non poſſet cun-
+cta, quae volebat, efiicere, &amp; ſacrorum
+praeſertim emendationem, quam molieba-
+tur, Colonienſem. Praeceptor ſcholaſticus
+res multo minoris momenti non ſemper ex
+voto agit, &amp; voluntatem ſaepe videt adeſſe,
+vires autem deficere; neque tamen hoc im-
 pedit, quo minus aequo iſtud ferat animo,</Unicode>
       </TextEquiv>
     </TextRegion>

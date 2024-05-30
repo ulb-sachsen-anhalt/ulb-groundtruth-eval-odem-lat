@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-7">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:07Z</Created>
     <LastChange>2024-01-19T13:07:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/e18e9354-87b9-475f-833e-db85b471bd25/00000154.jpg" imageWidth="1497" imageHeight="2302" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0000" custom="readingOrder {index:0;}">
+    <TextRegion id="region0000" custom="readingOrder {index:0;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="175,144 1216,144 1216,395 175,395"/>
       <TextLine id="region0000_line0001" custom="readingOrder {index:0;}">
         <Coords points="860,144 856,158 800,160 679,157 387,159 382,164 382,201 390,206 396,215 597,215 676,210 684,214 703,215 704,223 710,230 723,228 728,215 844,212 849,208 851,198 857,202 865,202 867,209 872,213 886,212 891,217 1012,217 1026,202 1026,165 1021,160 884,158 880,144"/>
@@ -49,14 +65,14 @@
       <TextLine id="region0000_line0002" custom="readingOrder {index:1;}">
         <Coords points="754,221 746,229 745,240 732,238 728,241 656,241 648,228 634,226 628,232 627,241 516,242 512,240 512,228 506,224 492,226 484,241 436,241 381,247 308,239 175,238 175,286 180,291 205,293 207,299 214,303 231,303 238,296 243,306 249,310 259,310 267,302 282,302 287,297 288,287 299,287 375,288 444,295 487,294 496,305 514,303 521,295 531,303 543,303 550,296 554,296 561,304 571,304 580,296 591,306 602,305 606,296 647,296 652,306 659,311 671,309 676,299 683,304 692,304 699,294 703,294 710,304 729,304 735,300 737,292 755,293 761,303 783,304 788,300 790,290 795,303 808,306 819,303 824,293 880,294 887,291 931,289 943,295 952,289 962,293 975,289 1025,291 1035,288 1040,282 1044,282 1048,290 1074,286 1095,290 1103,287 1114,290 1124,288 1131,291 1162,286 1182,289 1194,285 1206,289 1215,286 1215,249 1131,249 1126,244 1114,245 1108,240 1098,241 1093,249 898,250 891,245 865,249 825,243 777,242 776,232 769,222"/>
         <Word id="word_1641890854342_1223" custom="readingOrder {index:0;}">
-          <Coords points="181,241 286,240 317,240 322,240 324,282 279,302 205,302 181,291"/>
+          <Coords points="317,240 286,240 181,241 181,291 181,291 205,293 207,299 212,302 232,302 238,296 241,302 267,302 279,302 284,300 287,297 288,287 299,287 312,287 324,282 322,241 317,240"/>
           <TextEquiv>
             <Unicode>ַריָ֣סַד </Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0002_word0002" custom="readingOrder {index:1;}">
           <Coords points="371,246 338,246 338,273 422,273 422,246 390,246 381,247"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ns</Unicode>
           </TextEquiv>
         </Word>
@@ -74,7 +90,7 @@
         </Word>
         <Word id="region0000_line0002_word0005" custom="readingOrder {index:4;}">
           <Coords points="735,238 735,288 954,288 954,249 898,250 891,245 865,249 825,243 777,242 776,232 769,222 754,221 746,229 745,240"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>wyNw&gt;hpp</Unicode>
           </TextEquiv>
         </Word>
@@ -140,7 +156,7 @@
         </Word>
         <Word id="region0000_line0003_word0005" custom="readingOrder {index:5;}">
           <Coords points="602,331 602,354 683,354 683,329 652,329 610,334"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>pre</Unicode>
           </TextEquiv>
         </Word>
@@ -155,19 +171,19 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>הטעמיס פסקי נרלֹי&#13;
-ַריָ֣סַד  ns DN Dax wyNw&gt;hpp PP&#13;
-T&amp;M COPA&#13;
+        <Unicode>הטעמיס פסקי נרלֹי
+ַריָ֣סַד  ns DN Dax wyNw&gt;hpp PP
+T&amp;M COPA
 on» Di pn» an &gt;" pre wnn</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:1;}">
+    <TextRegion id="region0001" custom="readingOrder {index:1;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="172,362 1217,362 1217,475 172,475"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="206,362 201,367 200,385 172,385 172,415 206,416 212,413 289,411 300,405 305,411 370,414 524,414 533,411 546,414 803,414 809,418 832,422 903,422 914,427 927,422 995,422 999,419 1021,418 1025,421 1035,421 1047,415 1052,415 1058,421 1074,420 1082,424 1096,421 1125,421 1133,416 1142,416 1148,420 1216,421 1216,377 1176,377 1171,373 1161,373 1156,377 1122,379 1125,373 1123,362 1104,362 1105,379 1088,378 1084,372 1076,370 1067,370 1059,378 1028,380 967,379 960,370 951,370 944,378 927,378 917,369 907,369 900,379 894,374 886,374 878,381 862,381 858,370 834,364"/>
         <Word id="region0001_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="263,411 263,374 200,374 200,385 197,385 197,414 210,414 212,413"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Ve</Unicode>
           </TextEquiv>
         </Word>
@@ -185,7 +201,7 @@ on» Di pn» an &gt;" pre wnn</Unicode>
         </Word>
         <Word id="region0001_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="858,371 839,371 839,415 924,415 924,375 919,371 905,371 900,379 894,374 886,374 878,381 862,381"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Tp)</Unicode>
           </TextEquiv>
         </Word>
@@ -233,7 +249,7 @@ on» Di pn» an &gt;" pre wnn</Unicode>
         </Word>
         <Word id="region0001_line0002_word0003" custom="readingOrder {index:3;}">
           <Coords points="544,414 526,414 521,420 515,420 515,454 586,454 586,416 583,420 548,420 547,415"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>obpd</Unicode>
           </TextEquiv>
         </Word>
@@ -275,7 +291,7 @@ on» Di pn» an &gt;" pre wnn</Unicode>
         </Word>
         <Word id="region0001_line0002_word0010" custom="readingOrder {index:10;}">
           <Coords points="997,421 997,451 1081,451 1081,424 1059,423 1052,416 1047,416 1035,422 999,420"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Pr</Unicode>
           </TextEquiv>
         </Word>
@@ -300,13 +316,13 @@ on» Di pn» an &gt;" pre wnn</Unicode>
 vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:2;}">
+    <TextRegion id="region0002" custom="readingOrder {index:2;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="171,453 1221,453 1221,540 171,540"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
         <Coords points="321,453 319,458 287,458 282,462 281,495 284,499 307,503 393,507 399,519 405,523 417,522 427,507 431,508 432,514 436,517 457,518 462,514 464,507 467,507 474,516 485,516 492,505 500,504 572,505 579,517 593,515 598,506 649,508 655,510 659,520 681,526 690,526 694,523 728,523 733,518 734,509 751,509 757,517 768,518 780,516 788,508 795,518 814,519 824,519 832,510 874,510 879,522 889,528 899,527 905,515 908,521 916,526 927,525 933,516 935,523 943,529 953,528 963,511 1000,511 1011,519 1032,516 1038,519 1057,518 1063,514 1071,520 1079,520 1087,512 1140,511 1141,521 1146,526 1163,526 1169,518 1182,518 1186,515 1192,519 1203,519 1211,511 1220,511 1220,456 1206,455 1012,456 998,453 994,456 980,457 804,457 794,453 781,453 778,456 521,456 399,453 352,456 350,453"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="506,504 506,459 329,459 329,504 393,507 397,515 421,515 427,507 431,508 432,514 433,515 460,515 462,514 464,507 467,507 473,515 485,515 492,505 500,504"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>"DRM</Unicode>
           </TextEquiv>
         </Word>
@@ -367,7 +383,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
 "DRM NIMM) TUN DIRT WD DDI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:3;}">
+    <TextRegion id="region0003" custom="readingOrder {index:3;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="171,536 1254,536 1254,986 171,986"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="373,536 367,541 171,544 171,586 257,586 262,583 315,585 342,577 351,577 361,583 370,584 379,578 386,578 397,584 404,579 417,579 427,585 495,585 512,575 517,576 523,584 540,580 567,586 577,582 594,584 598,581 643,584 700,583 707,578 716,578 722,584 775,584 781,579 791,578 799,584 808,585 932,587 974,583 1012,587 1043,580 1050,584 1082,586 1093,577 1101,578 1106,584 1121,586 1129,583 1196,586 1210,583 1214,573 1253,573 1253,537 1241,536 1131,536 1122,543 1098,543 1092,537 1082,537 1075,543 1031,544 890,544 882,543 879,536 860,536 857,543 511,542 478,541 473,536 462,536 456,541 416,542 390,541 386,536"/>
@@ -397,7 +413,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0001_word0004" custom="readingOrder {index:4;}">
           <Coords points="562,551 661,551 661,579 562,579"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>D)DDY</Unicode>
           </TextEquiv>
         </Word>
@@ -409,7 +425,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0001_word0006" custom="readingOrder {index:6;}">
           <Coords points="736,552 803,552 803,576 736,576"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>v39</Unicode>
           </TextEquiv>
         </Word>
@@ -445,7 +461,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         <Coords points="512,576 495,586 427,586 417,580 404,580 397,585 386,579 379,579 372,585 361,585 351,578 342,578 336,580 334,585 171,587 171,627 186,630 195,623 207,623 212,628 286,623 299,628 431,628 436,625 530,628 539,618 549,626 563,627 661,627 673,621 682,621 689,626 722,626 736,623 744,627 809,628 832,627 844,621 854,626 870,624 881,628 946,623 951,627 978,625 990,629 1065,629 1102,626 1115,628 1129,621 1179,620 1184,615 1184,593 1179,588 1107,586 1099,578 1093,578 1082,587 1051,586 1043,581 1012,588 974,584 932,588 808,586 799,585 791,579 781,580 775,585 722,585 716,579 707,579 700,584 567,587 540,581 523,585 517,577"/>
         <Word id="region0003_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="181,586 181,620 273,620 273,586 252,586"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>fon</Unicode>
           </TextEquiv>
         </Word>
@@ -529,7 +545,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="397,662 397,635 342,635 342,666 394,666"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>P70</Unicode>
           </TextEquiv>
         </Word>
@@ -541,7 +557,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0003_word0005" custom="readingOrder {index:5;}">
           <Coords points="468,629 468,662 581,662 581,628 550,629 538,619 530,629"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>DIR</Unicode>
           </TextEquiv>
         </Word>
@@ -649,7 +665,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0004_word0008" custom="readingOrder {index:8;}">
           <Coords points="917,675 1027,675 1027,705 917,705"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>DDDHP</Unicode>
           </TextEquiv>
         </Word>
@@ -661,7 +677,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0004_word0010" custom="readingOrder {index:10;}">
           <Coords points="1110,672 1110,700 1216,700 1216,673 1202,677 1194,674 1175,675 1169,671 1162,671 1157,674 1141,675 1123,673 1118,669"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>span</Unicode>
           </TextEquiv>
         </Word>
@@ -685,7 +701,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0005_word0002" custom="readingOrder {index:2;}">
           <Coords points="373,716 463,716 463,748 373,748"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>fwvpH</Unicode>
           </TextEquiv>
         </Word>
@@ -721,7 +737,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0005_word0008" custom="readingOrder {index:8;}">
           <Coords points="1219,752 1219,709 1209,709 1208,711 1196,711 1191,716 1136,716 1124,710 1113,710 1107,715 1088,715 1072,709 1069,709 1069,755 1207,755 1212,750 1217,750"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Damp</Unicode>
           </TextEquiv>
         </Word>
@@ -739,7 +755,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0006_word0001" custom="readingOrder {index:1;}">
           <Coords points="375,757 340,757 334,758 284,758 284,789 386,789 386,757"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>deophr</Unicode>
           </TextEquiv>
         </Word>
@@ -751,13 +767,13 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0006_word0003" custom="readingOrder {index:3;}">
           <Coords points="561,759 505,759 505,791 600,791 600,759 595,759 567,761"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>bpord</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0006_word0004" custom="readingOrder {index:4;}">
           <Coords points="613,765 712,765 712,789 613,789"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>PINS</Unicode>
           </TextEquiv>
         </Word>
@@ -769,13 +785,13 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0006_word0006" custom="readingOrder {index:6;}">
           <Coords points="999,762 1010,762 1010,775 999,775"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>“</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0006_word0007" custom="readingOrder {index:7;}">
           <Coords points="1093,786 1099,786 1099,790 1093,790"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode> .</Unicode>
           </TextEquiv>
         </Word>
@@ -816,7 +832,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0007_word0004" custom="readingOrder {index:4;}">
-          <Coords points="654,828 654,862 660,864 693,864 727,836 727,828"/>
+          <Coords points="723,835 726,837 727,836 727,828 706,828 706,831 704,831 698,835 697,836 690,832 689,828 654,828 654,862 660,864 693,864 701,847 700,841 702,841 708,837 709,836"/>
           <TextEquiv conf="0.58331984">
             <Unicode>DA</Unicode>
           </TextEquiv>
@@ -828,8 +844,8 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0007_word0006" custom="readingOrder {index:6;}">
-          <Coords points="823,836 823,837 846,840 858,841 903,841 903,836"/>
-          <TextEquiv conf="0.0">
+          <Coords points="846,840 858,841 903,841 903,836 846,836 842,832 826,832 822,836 826,840 842,840 844,838"/>
+          <TextEquiv conf="0.">
             <Unicode>pana</Unicode>
           </TextEquiv>
         </Word>
@@ -847,7 +863,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0007_word0009" custom="readingOrder {index:9;}">
           <Coords points="1219,838 1219,833 1127,833 1127,844 1150,844 1201,843 1206,838 1218,838"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>hm</Unicode>
           </TextEquiv>
         </Word>
@@ -865,7 +881,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="740,837 740,863 803,863 803,844 801,845 792,839 780,843 756,842 749,837"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>dm</Unicode>
           </TextEquiv>
         </Word>
@@ -961,7 +977,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0009_word0008" custom="readingOrder {index:8;}">
           <Coords points="1061,888 1061,927 1164,927 1164,885 1118,884 1110,887 1083,886"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>IPaG</Unicode>
           </TextEquiv>
         </Word>
@@ -991,7 +1007,7 @@ vn» Ina 12966 obpd by „pp»&gt; PD uf 719, dovpe Pr ab am</Unicode>
         </Word>
         <Word id="region0003_line0010_word0002" custom="readingOrder {index:2;}">
           <Coords points="885,930 864,930 862,937 843,937 843,980 865,980 913,980 913,938 887,938"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>pb»</Unicode>
           </TextEquiv>
         </Word>
@@ -1012,13 +1028,13 @@ orga Dp one Ska 312 Ma 717 00102 IPaG DA
 myvn mb pb»</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:4;}">
+    <TextRegion id="region0004" custom="readingOrder {index:4;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="171,989 1227,989 1227,1300 171,1300"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="279,989 277,1020 284,1026 284,1034 290,1040 336,1040 341,1036 364,1036 370,1040 384,1041 455,1038 467,1040 472,1036 485,1036 490,1039 547,1036 551,1039 580,1043 594,1040 669,1042 693,1039 804,1041 832,1039 839,1032 846,1031 857,1039 880,1039 886,1036 920,1039 933,1035 952,1041 1013,1040 1019,1034 1029,1034 1035,1040 1053,1041 1104,1039 1114,1035 1130,1039 1153,1035 1168,1039 1172,1034 1176,1034 1180,1043 1193,1045 1204,1043 1214,1035 1226,1037 1226,1000 1156,998 1150,989 1139,989 1132,997 1116,996 1110,989 1093,989 1061,998 986,998 981,989 964,989 957,998 891,997 888,989 868,989 865,996 851,995 847,992 831,993 827,990 758,989 750,995 731,998 719,997 716,989 696,989 693,996 667,991 661,995 645,992 636,996 612,997 569,997 564,989 547,989 543,997 511,997 504,989 487,989 484,993 475,989 440,989 434,997 420,997 416,989 397,989 393,998 359,997 353,989"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="393,998 337,998 337,1037 339,1037 341,1036 364,1036 365,1037 470,1037 472,1036 485,1036 486,1037 528,1037 545,1036 545,998"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>MOLE</Unicode>
           </TextEquiv>
         </Word>
@@ -1072,13 +1088,13 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0001_word0009" custom="readingOrder {index:9;}">
           <Coords points="1118,1036 1128,1036 1128,999 1003,999 1003,1036 1017,1036 1019,1034 1029,1034 1031,1036 1111,1036 1114,1035"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>anf!</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0001_word0010" custom="readingOrder {index:10;}">
           <Coords points="1139,1000 1167,1000 1167,1035 1139,1035"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>7</Unicode>
           </TextEquiv>
         </Word>
@@ -1126,7 +1142,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0002_word0005" custom="readingOrder {index:5;}">
           <Coords points="514,1040 514,1064 560,1064 560,1041 551,1040 547,1037"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>HT</Unicode>
           </TextEquiv>
         </Word>
@@ -1210,7 +1226,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0003_word0001" custom="readingOrder {index:1;}">
           <Coords points="228,1078 224,1078 223,1078 223,1118 349,1118 349,1082 344,1083 310,1082 277,1085 234,1082"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>wrorae</Unicode>
           </TextEquiv>
         </Word>
@@ -1228,7 +1244,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0003_word0004" custom="readingOrder {index:4;}">
           <Coords points="545,1083 482,1083 482,1121 485,1123 501,1123 531,1123 535,1120 547,1120 566,1121 571,1123 584,1123 584,1085 578,1087 572,1083 556,1083 551,1086"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>apa"</Unicode>
           </TextEquiv>
         </Word>
@@ -1252,7 +1268,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0003_word0008" custom="readingOrder {index:8;}">
           <Coords points="908,1082 892,1082 892,1119 1063,1119 1063,1084 1054,1084 1048,1082 1026,1082 1024,1083 993,1085"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>373.006.</Unicode>
           </TextEquiv>
         </Word>
@@ -1264,7 +1280,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0003_word0010" custom="readingOrder {index:10;}">
           <Coords points="1093,1084 1093,1118 1222,1118 1222,1083 1215,1078 1205,1087 1186,1089 1179,1085"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ana</Unicode>
           </TextEquiv>
         </Word>
@@ -1312,7 +1328,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0004_word0006" custom="readingOrder {index:6;}">
           <Coords points="592,1130 656,1130 656,1163 592,1163"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>fan</Unicode>
           </TextEquiv>
         </Word>
@@ -1360,7 +1376,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0005_word0002" custom="readingOrder {index:2;}">
           <Coords points="287,1169 329,1169 329,1208 287,1208"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>dlz</Unicode>
           </TextEquiv>
         </Word>
@@ -1426,7 +1442,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0005_word0013" custom="readingOrder {index:13;}">
           <Coords points="1069,1168 1050,1168 1050,1204 1106,1204 1106,1171 1088,1171 1083,1168 1071,1169"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>hhs</Unicode>
           </TextEquiv>
         </Word>
@@ -1450,7 +1466,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0006_word0001" custom="readingOrder {index:1;}">
           <Coords points="263,1221 370,1221 370,1249 263,1249"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>0PWID</Unicode>
           </TextEquiv>
         </Word>
@@ -1492,7 +1508,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0006_word0008" custom="readingOrder {index:8;}">
           <Coords points="761,1212 699,1212 699,1250 700,1252 755,1252 764,1249 797,1249 798,1252 843,1252 843,1212 828,1212 785,1212 778,1217"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>bpm</Unicode>
           </TextEquiv>
         </Word>
@@ -1510,7 +1526,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0006_word0011" custom="readingOrder {index:11;}">
           <Coords points="1061,1213 1040,1213 1039,1217 1032,1217 1031,1217 1031,1256 1133,1256 1133,1215 1123,1215 1121,1213 1096,1213 1095,1214"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Da</Unicode>
           </TextEquiv>
         </Word>
@@ -1534,7 +1550,7 @@ myvn mb pb»</Unicode>
         </Word>
         <Word id="region0004_line0007_word0002" custom="readingOrder {index:2;}">
           <Coords points="767,1262 813,1262 813,1298 767,1298"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Y'S</Unicode>
           </TextEquiv>
         </Word>
@@ -1552,7 +1568,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
 : Typa Y'S</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:5;}">
+    <TextRegion id="region0005" custom="readingOrder {index:5;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="175,1294 1228,1294 1228,1373 175,1373"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="475,1294 468,1301 468,1310 461,1312 178,1314 175,1315 175,1369 269,1368 297,1365 314,1368 322,1362 354,1367 509,1369 511,1372 601,1365 610,1371 620,1371 626,1365 638,1365 644,1371 656,1371 661,1367 690,1367 698,1372 716,1372 719,1368 809,1366 811,1372 839,1372 843,1365 878,1364 932,1367 1029,1366 1036,1369 1044,1369 1049,1365 1099,1368 1201,1366 1208,1372 1227,1372 1227,1314 1094,1312 1087,1301 1074,1302 1069,1312 818,1312 797,1311 797,1298 794,1294 777,1294 774,1311 547,1311 545,1301 539,1296 528,1297 521,1311 501,1311 488,1296"/>
@@ -1588,7 +1604,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0005_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="606,1315 767,1315 767,1361 606,1361"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>mean</Unicode>
           </TextEquiv>
         </Word>
@@ -1624,7 +1640,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         <Unicode>: WWP VOR 29 · mean ba · mann MOIN:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.003674455" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:6;}">
+    <TextRegion id="region0006" custom="readingOrder {index:6;}" orientation="0.003674455" readingDirection="left-to-right">
       <Coords points="169,1391 1244,1391 1244,2145 169,2145"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="207,1391 199,1402 169,1403 169,1444 198,1444 209,1439 244,1445 249,1445 257,1439 268,1439 275,1444 300,1444 308,1441 343,1444 360,1438 372,1443 417,1446 460,1444 471,1439 539,1445 602,1440 639,1443 649,1439 692,1444 722,1442 732,1437 743,1437 750,1442 765,1437 772,1442 781,1436 820,1443 830,1440 860,1442 880,1439 885,1442 1037,1444 1043,1439 1052,1439 1058,1445 1064,1446 1203,1444 1215,1447 1219,1444 1243,1444 1243,1402 1212,1400 1181,1401 1083,1394 990,1395 934,1391 897,1394 891,1399 878,1400 803,1401 786,1400 780,1394 770,1394 763,1400 547,1401 527,1399 521,1391 504,1391 489,1398 454,1401 370,1401 364,1396 352,1396 346,1401 227,1402 221,1392"/>
@@ -1702,7 +1718,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         <Coords points="781,1437 772,1443 765,1438 750,1443 743,1438 732,1438 724,1443 692,1445 649,1440 639,1444 576,1443 539,1446 482,1444 478,1440 471,1440 460,1445 425,1447 372,1444 363,1439 343,1445 320,1445 314,1442 275,1445 268,1440 257,1440 249,1446 223,1445 209,1440 198,1445 169,1445 169,1487 339,1490 415,1486 434,1489 476,1487 495,1490 514,1487 567,1490 585,1487 592,1480 599,1480 605,1486 634,1487 698,1486 708,1482 737,1486 741,1482 752,1480 761,1486 808,1486 816,1482 827,1482 837,1486 908,1485 941,1481 947,1484 964,1482 993,1487 1018,1485 1024,1481 1056,1480 1063,1484 1072,1481 1083,1482 1089,1487 1112,1487 1118,1482 1155,1483 1161,1478 1161,1452 1151,1446 1064,1447 1058,1446 1052,1440 1043,1440 1037,1445 885,1443 880,1440 820,1444 799,1443"/>
         <Word id="region0006_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="220,1444 200,1444 198,1445 178,1445 178,1486 320,1486 320,1445 318,1444 288,1444 275,1445 273,1444 251,1444 249,1446 223,1445"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>tobodd</Unicode>
           </TextEquiv>
         </Word>
@@ -1780,13 +1796,13 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0003_word0001" custom="readingOrder {index:1;}">
           <Coords points="209,1491 352,1491 352,1518 209,1518"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>553692)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0003_word0002" custom="readingOrder {index:2;}">
           <Coords points="362,1493 428,1493 428,1520 362,1520"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>PPDL</Unicode>
           </TextEquiv>
         </Word>
@@ -1804,7 +1820,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0003_word0005" custom="readingOrder {index:5;}">
           <Coords points="683,1487 683,1519 765,1519 765,1487 761,1487 754,1481 741,1483 737,1487 708,1483 698,1487"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>0f3b</Unicode>
           </TextEquiv>
         </Word>
@@ -1816,7 +1832,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0003_word0007" custom="readingOrder {index:7;}">
           <Coords points="840,1494 923,1494 923,1522 840,1522"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>DIDT3</Unicode>
           </TextEquiv>
         </Word>
@@ -1840,7 +1856,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0003_word0011" custom="readingOrder {index:11;}">
           <Coords points="1180,1485 1118,1485 1118,1526 1176,1526 1181,1523 1184,1526 1225,1526 1225,1485 1194,1485 1193,1488 1182,1488"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Dfubpr.</Unicode>
           </TextEquiv>
         </Word>
@@ -1876,7 +1892,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0004_word0004" custom="readingOrder {index:4;}">
           <Coords points="559,1574 559,1537 457,1537 457,1567 469,1567 473,1572 499,1573 508,1577 521,1577 524,1573 557,1575"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>NIIPR</Unicode>
           </TextEquiv>
         </Word>
@@ -1888,7 +1904,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0004_word0006" custom="readingOrder {index:6;}">
           <Coords points="610,1538 731,1538 731,1569 610,1569"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>1PDIPT,</Unicode>
           </TextEquiv>
         </Word>
@@ -1906,7 +1922,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0004_word0009" custom="readingOrder {index:9;}">
           <Coords points="859,1538 946,1538 946,1565 859,1565"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>RT</Unicode>
           </TextEquiv>
         </Word>
@@ -1918,7 +1934,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0004_word0011" custom="readingOrder {index:11;}">
           <Coords points="1076,1523 1064,1523 1057,1528 1010,1527 1010,1564 1022,1563 1025,1568 1101,1568 1101,1528 1081,1528"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>SEM)</Unicode>
           </TextEquiv>
         </Word>
@@ -1954,7 +1970,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0005_word0003" custom="readingOrder {index:3;}">
           <Coords points="469,1569 453,1569 450,1572 391,1573 391,1605 503,1605 503,1575 499,1574 473,1573"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>«nel</Unicode>
           </TextEquiv>
         </Word>
@@ -1978,13 +1994,13 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0005_word0007" custom="readingOrder {index:7;}">
           <Coords points="992,1568 965,1568 956,1571 934,1571 934,1607 1026,1607 1026,1570 1024,1568 1005,1568 1004,1570 993,1570"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>prbdpb</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0005_word0008" custom="readingOrder {index:8;}">
           <Coords points="1045,1572 1045,1610 1140,1610 1140,1573 1119,1574 1114,1564 1104,1565 1103,1573 1097,1575 1089,1572"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>rrno</Unicode>
           </TextEquiv>
         </Word>
@@ -2026,13 +2042,13 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0006_word0004" custom="readingOrder {index:4;}">
           <Coords points="529,1653 529,1612 526,1615 485,1616 466,1615 466,1657 473,1658 475,1660 500,1660 513,1649 526,1650"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ns·</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0006_word0005" custom="readingOrder {index:5;}">
           <Coords points="576,1654 597,1654 597,1612 593,1615 550,1615 550,1654 566,1654 572,1650"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>bp</Unicode>
           </TextEquiv>
         </Word>
@@ -2044,7 +2060,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0006_word0007" custom="readingOrder {index:7;}">
           <Coords points="642,1624 682,1624 682,1650 642,1650"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Dp</Unicode>
           </TextEquiv>
         </Word>
@@ -2068,7 +2084,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0006_word0011" custom="readingOrder {index:11;}">
           <Coords points="920,1614 907,1614 907,1651 997,1651 997,1614 963,1615 944,1614"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Pb</Unicode>
           </TextEquiv>
         </Word>
@@ -2086,7 +2102,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0006_word0014" custom="readingOrder {index:14;}">
           <Coords points="1217,1650 1217,1619 1125,1619 1125,1652 1184,1652 1185,1651 1193,1651 1193,1652 1212,1652 1215,1650"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>pp</Unicode>
           </TextEquiv>
         </Word>
@@ -2122,7 +2138,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0007_word0004" custom="readingOrder {index:4;}">
           <Coords points="404,1657 404,1691 632,1691 632,1658 592,1658 586,1661 582,1661 572,1651 562,1659 534,1659 526,1651 513,1650 495,1666 478,1663 473,1659 436,1656 431,1652 418,1653 410,1657"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>bb).</Unicode>
           </TextEquiv>
         </Word>
@@ -2188,13 +2204,13 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0008_word0001" custom="readingOrder {index:1;}">
           <Coords points="341,1701 321,1701 265,1703 265,1737 412,1737 412,1701"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>D5DHINAS</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0008_word0002" custom="readingOrder {index:2;}">
           <Coords points="620,1696 603,1696 598,1699 574,1697 552,1701 459,1702 425,1701 424,1700 424,1741 485,1741 496,1734 503,1738 512,1737 520,1741 542,1741 546,1736 555,1735 567,1741 587,1741 596,1740 604,1741 625,1741 625,1699 624,1699"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>MIPPIIDIPIK</Unicode>
           </TextEquiv>
         </Word>
@@ -2326,7 +2342,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0010_word0003" custom="readingOrder {index:3;}">
           <Coords points="432,1786 431,1786 431,1831 527,1831 527,1796 446,1797 439,1796"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>DAS</Unicode>
           </TextEquiv>
         </Word>
@@ -2338,7 +2354,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0010_word0005" custom="readingOrder {index:5;}">
           <Coords points="900,1786 880,1786 877,1796 717,1796 717,1834 728,1834 731,1832 734,1834 950,1834 950,1795 902,1796"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>WHPTNIRSDI</Unicode>
           </TextEquiv>
         </Word>
@@ -2386,7 +2402,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0011_word0003" custom="readingOrder {index:3;}">
           <Coords points="644,1838 630,1838 627,1841 597,1838 591,1841 572,1841 572,1880 654,1880 654,1841 653,1841"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ve</Unicode>
           </TextEquiv>
         </Word>
@@ -2398,7 +2414,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0011_word0005" custom="readingOrder {index:5;}">
           <Coords points="868,1880 868,1844 793,1844 793,1877 796,1886 801,1885 803,1875 814,1875 821,1884 828,1886 838,1881"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>PDE</Unicode>
           </TextEquiv>
         </Word>
@@ -2452,7 +2468,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0012_word0004" custom="readingOrder {index:4;}">
           <Coords points="497,1884 497,1908 607,1908 607,1884 513,1883 504,1887"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>naPDX2</Unicode>
           </TextEquiv>
         </Word>
@@ -2536,7 +2552,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0014_word0004" custom="readingOrder {index:4;}">
           <Coords points="801,1968 801,1988 928,1988 928,1966 878,1969 872,1963 865,1962 857,1969"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>aXxbn</Unicode>
           </TextEquiv>
         </Word>
@@ -2548,7 +2564,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0014_word0006" custom="readingOrder {index:6;}">
           <Coords points="1039,1953 1039,1992 1134,1992 1134,1965 1122,1966 1053,1967 1048,1954"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>by</Unicode>
           </TextEquiv>
         </Word>
@@ -2626,7 +2642,7 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0016_word0003" custom="readingOrder {index:3;}">
           <Coords points="513,2092 570,2092 570,2055 569,2055 541,2058 529,2048 520,2055 505,2054 505,2092"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ap</Unicode>
           </TextEquiv>
         </Word>
@@ -2698,13 +2714,13 @@ bi wrorae Sb Db apa" 977 2.313905 3139 373.006. 1 ana
         </Word>
         <Word id="region0006_line0017_word0005" custom="readingOrder {index:5;}">
           <Coords points="740,2096 711,2096 698,2101 691,2097 683,2097 683,2142 720,2141 722,2144 743,2144 744,2141 763,2140 825,2140 825,2096 815,2097 761,2097 760,2096"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>KOPEN</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0017_word0006" custom="readingOrder {index:6;}">
           <Coords points="846,2097 835,2097 835,2138 1000,2138 1000,2098 917,2097 905,2100 901,2097 873,2097"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>"spam</Unicode>
           </TextEquiv>
         </Word>

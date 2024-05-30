@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-273">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:13Z</Created>
     <LastChange>2024-01-19T13:10:13Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/66fa0fff-644e-45bb-89a1-5cb3a65fe5b6/00000011.jpg" imageWidth="2481" imageHeight="2949" type="content" primaryLanguage="Latin">
     <Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="region0032"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683624300284_2522" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683624300284_2522" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="522,517 522,565 1439,565 1439,517"/>
       <TextLine id="line_1683624300469_2525" custom="readingOrder {index:0;}">
         <Coords points="522,517 522,565 1439,565 1439,517"/>
@@ -56,7 +72,7 @@
         <Unicode>DE SERVIS VETERVM FATIDICIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683624303978_2531" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683624303978_2531" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1626,518 1626,558 1704,558 1704,518"/>
       <TextLine id="line_1683624304153_2534" custom="readingOrder {index:0;}">
         <Coords points="1626,518 1626,558 1704,558 1704,518"/>
@@ -74,7 +90,7 @@
         <Unicode>VII</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35297638" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="-0.35297638" readingDirection="left-to-right">
       <Coords points="483,590 1432,590 1432,766 483,766"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="958,590 947,591 945,595 898,592 894,595 799,602 791,602 784,594 774,594 766,605 751,606 740,606 733,594 720,594 716,597 713,607 690,609 648,609 643,596 625,595 620,600 619,610 605,611 602,610 599,598 583,596 578,600 574,611 484,611 484,655 723,651 753,649 762,645 773,646 779,655 793,655 802,651 803,645 842,642 855,637 873,640 881,637 935,637 992,643 1040,644 1048,645 1055,653 1066,653 1073,645 1186,647 1189,657 1195,660 1223,658 1227,647 1385,652 1390,647 1390,626 1381,620 1381,610 1376,605 1097,603 1095,595 1090,591 1072,592 1063,603 1045,603 1044,596 1039,591"/>
@@ -200,12 +216,12 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>non habeo denique nauci Marſum augurem,&#13;
-non vicanos baruſpices, non de circo aſtrologos,&#13;
+        <Unicode>non habeo denique nauci Marſum augurem,
+non vicanos baruſpices, non de circo aſtrologos,
 non Iſiacos coniectores, ----</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35297638" readingDirection="left-to-right" id="TextRegion_1664347722609_610" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1664347722609_610" custom="readingOrder {index:3;}" orientation="-0.35297638" readingDirection="left-to-right">
       <Coords points="263,757 1698,757 1706,2008 1706,2084 272,2084 271,2037 263,1159"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="824,758 821,767 750,769 743,762 734,762 724,765 720,771 682,777 671,767 661,767 639,779 631,779 625,774 609,771 572,773 555,778 551,787 530,786 518,779 501,777 417,776 406,784 404,791 377,791 375,783 369,778 354,780 348,791 346,773 342,770 333,770 327,776 328,791 290,790 285,780 269,778 264,782 264,837 301,837 309,834 325,848 332,843 335,837 348,837 354,834 437,836 472,834 475,831 501,835 535,834 552,828 576,830 590,823 613,826 697,822 718,818 776,816 785,819 818,810 832,813 863,813 916,811 921,808 934,808 939,811 969,812 982,809 990,814 1040,817 1063,814 1069,817 1146,824 1155,820 1165,820 1172,825 1182,824 1183,830 1198,825 1209,825 1214,834 1226,831 1233,837 1240,826 1247,824 1277,829 1363,828 1402,831 1438,827 1581,825 1619,828 1626,836 1637,836 1644,828 1656,828 1664,823 1688,823 1698,827 1698,783 1683,782 1681,774 1673,767 1663,767 1657,774 1631,770 1626,774 1608,774 1578,782 1499,781 1498,772 1493,767 1427,766 1418,770 1416,781 1349,782 1343,771 1331,770 1314,772 1308,782 1301,772 1288,770 1279,775 1277,782 1248,782 1204,778 1198,774 1189,774 1184,778 1148,778 1075,774 1012,767 977,767 973,764 931,767 863,766 860,758"/>
@@ -357,7 +373,7 @@ non Iſiacos coniectores, ----</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:1;}">
-          <Coords points="337,929 456,925 456,887 437,886 437,891 431,893 335,899 332,899 323,887 337,891"/>
+          <Coords points="337,929 456,925 456,887 323,887 337,891"/>
           <TextEquiv>
             <Unicode>παισὶ</Unicode>
           </TextEquiv>
@@ -923,7 +939,7 @@ non Iſiacos coniectores, ----</Unicode>
         <Coords points="1055,1328 1052,1342 1037,1331 994,1329 964,1338 918,1342 841,1343 794,1348 656,1350 648,1349 640,1339 630,1339 623,1344 621,1350 587,1351 586,1361 580,1352 547,1355 543,1351 533,1351 521,1358 495,1360 489,1363 452,1361 443,1353 432,1353 423,1363 411,1365 404,1354 389,1354 370,1358 361,1368 313,1369 312,1366 298,1365 289,1370 271,1371 271,1398 271,1414 291,1411 307,1416 322,1417 330,1411 352,1408 368,1408 374,1414 383,1414 389,1407 435,1404 447,1399 467,1400 471,1405 521,1404 535,1397 576,1397 590,1387 610,1396 624,1392 644,1396 652,1390 661,1390 670,1395 775,1392 780,1387 800,1391 812,1391 820,1386 834,1389 933,1388 967,1383 1003,1390 1008,1387 1029,1387 1054,1377 1068,1376 1122,1376 1134,1382 1166,1380 1190,1385 1204,1394 1223,1391 1239,1394 1250,1388 1281,1389 1285,1395 1294,1398 1302,1397 1305,1390 1351,1392 1365,1389 1372,1394 1436,1394 1438,1401 1448,1406 1457,1406 1465,1395 1498,1396 1507,1392 1530,1395 1531,1400 1549,1403 1558,1395 1588,1399 1608,1395 1617,1400 1639,1402 1656,1399 1666,1403 1698,1403 1698,1379 1696,1378 1695,1378 1695,1378 1694,1377 1694,1364 1650,1363 1648,1355 1643,1351 1623,1351 1617,1356 1615,1362 1531,1357 1459,1357 1452,1354 1452,1346 1447,1340 1435,1339 1428,1347 1329,1347 1322,1352 1309,1352 1308,1339 1300,1333 1287,1334 1283,1340 1283,1348 1279,1349 1214,1345 1213,1335 1208,1330 1197,1331 1187,1345 1180,1344 1179,1335 1172,1329 1159,1330 1155,1335 1154,1344 1115,1341 1106,1339 1098,1323 1063,1323"/>
         <Baseline points="271,1403 586,1389 594,1389 1077,1368 1698,1393"/>
         <Word id="region0015_line0002_word0000" custom="readingOrder {index:0;}">
-          <Coords points="274,1409 504,1411 507,1359 495,1360 489,1363 452,1361 443,1353 432,1353 423,1363 411,1365 404,1354 389,1354 370,1358 361,1368 313,1369 312,1366 298,1365 289,1370 277,1370"/>
+          <Coords points="340,1409 352,1408 368,1408 369,1409 386,1409 389,1407 435,1404 447,1399 467,1400 471,1405 504,1404 506,1359 495,1360 489,1363 452,1361 443,1353 432,1353 423,1363 411,1365 404,1354 389,1354 370,1358 361,1368 313,1369 312,1366 298,1365 289,1370 276,1370 274,1409"/>
           <TextEquiv>
             <Unicode>Ἀϱιϛόβȣλος,</Unicode>
           </TextEquiv>
@@ -965,7 +981,7 @@ non Iſiacos coniectores, ----</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0015_line0002_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1537,1397 1691,1398 1691,1363 1650,1363 1648,1355 1643,1351 1623,1351 1617,1356 1615,1362 1537,1357"/>
+          <Coords points="1555,1397 1558,1395 1574,1397 1596,1397 1608,1395 1612,1397 1691,1398 1691,1363 1650,1363 1648,1355 1643,1351 1623,1351 1617,1356 1615,1362 1537,1357 1537,1397"/>
           <TextEquiv>
             <Unicode>γυναῖκα</Unicode>
           </TextEquiv>
@@ -978,7 +994,7 @@ non Iſiacos coniectores, ----</Unicode>
         <Coords points="1048,1381 1047,1391 1001,1391 978,1395 974,1395 972,1387 967,1384 949,1388 948,1395 885,1397 836,1397 835,1390 820,1387 814,1390 808,1399 797,1400 796,1392 780,1388 775,1393 775,1401 745,1402 733,1407 707,1404 675,1405 672,1397 661,1391 647,1394 641,1406 637,1405 638,1396 631,1393 616,1397 611,1406 611,1397 590,1388 576,1398 575,1407 563,1407 555,1400 535,1398 516,1408 479,1412 472,1412 467,1401 447,1400 437,1405 436,1413 322,1418 279,1412 271,1419 271,1455 271,1463 314,1467 316,1462 331,1462 335,1468 349,1468 355,1460 390,1458 395,1467 409,1468 419,1455 450,1450 552,1450 578,1452 583,1456 584,1456 584,1455 594,1455 604,1454 630,1446 655,1446 661,1455 677,1455 685,1445 696,1444 714,1446 719,1453 729,1454 738,1446 756,1446 788,1440 832,1440 886,1445 932,1435 1039,1431 1188,1431 1190,1441 1196,1445 1266,1445 1285,1437 1308,1438 1316,1446 1325,1446 1332,1439 1363,1439 1379,1440 1385,1446 1393,1446 1398,1442 1422,1445 1510,1443 1531,1445 1538,1452 1549,1452 1555,1445 1697,1449 1698,1407 1663,1407 1662,1403 1656,1400 1645,1400 1638,1406 1618,1406 1615,1399 1608,1396 1599,1396 1592,1403 1581,1402 1571,1396 1558,1396 1549,1404 1525,1402 1523,1395 1507,1393 1492,1402 1448,1407 1425,1402 1373,1401 1372,1395 1365,1390 1350,1393 1346,1400 1226,1393 1204,1395 1185,1389 1172,1390 1171,1384 1166,1381 1143,1381 1138,1384 1137,1389 1132,1381 1122,1377 1107,1379 1101,1391 1083,1392 1082,1379 1068,1377"/>
         <Baseline points="588,1389 592,1389"/>
         <Word id="region0015_line0003_word0000" custom="readingOrder {index:0;}">
-          <Coords points="276,1455 478,1456 478,1412 472,1412 467,1401 447,1400 437,1405 436,1413 322,1418 279,1412 276,1414"/>
+          <Coords points="418,1456 419,1455 450,1450 478,1450 478,1412 472,1412 467,1401 447,1400 437,1405 436,1413 322,1418 279,1412 276,1415 276,1455"/>
           <TextEquiv>
             <Unicode>ἐΦομαϱτϵῖν</Unicode>
           </TextEquiv>
@@ -1153,7 +1169,7 @@ non Iſiacos coniectores, ----</Unicode>
         <Coords points="1142,1536 1131,1548 1095,1548 1016,1555 931,1555 925,1554 925,1542 922,1538 904,1536 897,1543 897,1556 879,1556 874,1545 862,1544 857,1549 857,1556 851,1558 840,1558 838,1549 832,1542 823,1541 817,1536 807,1535 801,1545 786,1544 779,1558 758,1556 762,1550 762,1542 755,1535 748,1535 741,1536 738,1540 738,1549 743,1556 692,1557 686,1567 667,1564 627,1565 625,1550 621,1547 608,1546 600,1546 594,1551 591,1566 569,1568 496,1567 435,1571 432,1557 428,1554 418,1554 408,1566 360,1566 331,1575 272,1574 272,1615 420,1617 422,1622 429,1622 443,1621 448,1614 473,1612 492,1620 525,1622 544,1618 548,1610 553,1608 632,1605 685,1612 691,1609 722,1609 774,1603 791,1603 795,1612 809,1615 819,1602 829,1600 937,1596 943,1604 954,1604 960,1596 1001,1597 1005,1600 1035,1597 1040,1601 1050,1601 1058,1595 1133,1591 1231,1592 1241,1593 1247,1601 1257,1601 1264,1593 1302,1595 1319,1598 1327,1608 1337,1608 1347,1599 1361,1599 1367,1609 1378,1608 1385,1598 1433,1598 1439,1604 1456,1600 1467,1603 1472,1608 1483,1608 1490,1603 1565,1600 1575,1601 1582,1610 1593,1609 1598,1601 1612,1601 1619,1610 1632,1609 1637,1601 1700,1602 1700,1564 1678,1563 1678,1551 1672,1544 1660,1545 1651,1560 1636,1559 1619,1551 1598,1548 1560,1549 1541,1556 1535,1545 1521,1544 1515,1551 1514,1559 1496,1560 1423,1557 1423,1544 1417,1538 1405,1540 1395,1556 1379,1557 1308,1553 1297,1543 1286,1543 1281,1552 1229,1550 1223,1536 1198,1536 1192,1550 1163,1550 1158,1548 1155,1536"/>
         <Baseline points="272,1605 701,1599 1110,1581 1700,1592"/>
         <Word id="region0021_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="278,1609 354,1610 358,1565 336,1572 277,1574"/>
+          <Coords points="354,1610 357,1566 331,1575 277,1574 278,1609"/>
           <TextEquiv>
             <Unicode>τινα</Unicode>
           </TextEquiv>
@@ -1753,7 +1769,7 @@ non Iſiacos coniectores, ----</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0028_line0001" custom="readingOrder {index:24;}">
-        <Coords points="1593,2008 1592,2018 1600,2026 1599,2030 1420,2023 1418,2016 1412,2011 1398,2012 1393,2022 1374,2022 1337,2021 1335,2013 1330,2009 1318,2009 1312,2015 1306,2009 1285,2008 1277,2015 1253,2016 1238,2016 1236,2008 1228,2008 1210,2009 1208,2017 1132,2018 1127,2008 1108,2008 1105,2018 1094,2019 1087,2019 1085,2011 1081,2008 1069,2008 1053,2009 1047,2013 1045,2019 1002,2027 989,2027 984,2017 969,2015 961,2027 935,2030 873,2033 867,2023 856,2022 848,2027 846,2033 806,2032 799,2025 788,2025 782,2032 740,2034 719,2033 726,2023 722,2030 699,2030 698,2020 700,2034 694,2036 629,2034 616,2032 607,2024 567,2024 479,2028 447,2025 408,2036 272,2036 272,2080 441,2079 450,2080 452,2083 470,2083 473,2080 813,2081 908,2079 931,2079 934,2083 946,2083 951,2078 984,2076 1223,2063 1341,2070 1467,2073 1495,2076 1497,2084 1526,2084 1528,2077 1705,2083 1705,2033 1643,2031 1641,2024 1634,2019 1616,2017 1613,2008"/>
+        <Coords points="1593,2008 1599,2030 1420,2023 1412,2011 1393,2022 1337,2021 1330,2009 1285,2008 1132,2018 1127,2008 1108,2008 1094,2019 1069,2008 1002,2027 969,2015 961,2027 873,2033 856,2022 846,2033 788,2025 740,2034 719,2033 726,2023 699,2030 698,2020 694,2036 607,2024 447,2025 408,2036 272,2036 272,2080 946,2083 1223,2063 1467,2073 1497,2084 1705,2083 1705,2033 1643,2031 1613,2008"/>
         <Word id="region0028_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="278,2049 397,2050 397,2036 278,2036"/>
           <TextEquiv conf="0.9189788">
@@ -1773,7 +1789,7 @@ non Iſiacos coniectores, ----</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0028_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="710,2068 761,2068 761,2046 743,2047 722,2046 729,2036 727,2041 710,2041"/>
+          <Coords points="710,2068 761,2068 761,2046 722,2046 729,2036 710,2041"/>
           <TextEquiv conf="0.9015998">
             <Unicode>et</Unicode>
           </TextEquiv>
@@ -1813,34 +1829,34 @@ non Iſiacos coniectores, ----</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>inprimis Telmiſſenſes, de quibus ARRIANVS t) perhibet, eſſe eos σοΦȣς&#13;
-τὰ ϑϵῖα ἐξηγϵῖοϑαι καί σΦίσιν ἀπὸ γένȣς δϵδόοϑαι ἀυτοῖς καί γυναιξι&#13;
-καί παισὶ τὴν μαντϵίαν, peritiſſimos prodigiorum interpretes et vatici-&#13;
-nandi ſcientiam ipſis pariter atque vxoribus et liberis inſitam eſſe. At-&#13;
-que ex iſta gente, PLVTARCHO u) teſte, Alexandri Magni vates,&#13;
-ARISTANDER, fuit, cuius aliquoties apud Curtium fit mentio,&#13;
-peritiſſimus ille vatum, vt idem auctor eum dicit x) et cui maxima&#13;
-fides ab Alexandro habebatur. y) Neque vero minorem in diui-&#13;
-nando auctoritatem Syri, Cilices, Arabes, Etruſci veteres olim&#13;
-comparaſſe ſibi videntur. Sic Alexander praeter Ariſtandrum alios-&#13;
-que vates, Syram quandam mulierem fatidicam apud ſe habuit.&#13;
-Ἀϱιϛόβȣλος, inquit ARRIANVS, z) ὧδε ἀνέγραψε· Σύϱαν γυναῖκα&#13;
-ἐΦομαϱτϵῖν Ἀλεξάνδϱω, κάτοχον ἐκ τȣ̃ ϑϵῖȣ γιγοομένην, Ariſtobulus&#13;
-auctor eſt, mulierem quamdam Syram, numine correptam, Alexan-&#13;
-drum ſequutam. ldem de Mario refert PLVTARCHVS: a) καί γὰϱ&#13;
-τινα Σύϱαν γυναῖκα, Μάϱθαν ὄνομα, μαντέυεϑαι λεγομένην, ἐν Φορϵίω&#13;
-κατακϵιμένην, σεμνῶς πεϱιήγετο, etenim Syram quamdam, nomine Mar-&#13;
-tham, quae dicebatur vaticinari, in lectica poſitam, caſte ſecum du-&#13;
-xit, ex quo effato vera FRONTINI b) lectio reſtitui poteſt, apud&#13;
-quem haec Marii vates ex Scythia fuiſſe dicitur. C. Marius ſagam quan-&#13;
-dam ex Scythia habuit, a qua ſe dimicationum euentus praediſcere&#13;
-ſimulabat. Pro Scythia igitur legendum Syria, vt recte IOSEPHVS&#13;
-WASSE c) obſeruauit, quae lectio tanto profecto eſt certior, quod&#13;
-codices non deſunt, in quibus diſerte haec Marii ſocia Syra vo-&#13;
+        <Unicode>inprimis Telmiſſenſes, de quibus ARRIANVS t) perhibet, eſſe eos σοΦȣς
+τὰ ϑϵῖα ἐξηγϵῖοϑαι καί σΦίσιν ἀπὸ γένȣς δϵδόοϑαι ἀυτοῖς καί γυναιξι
+καί παισὶ τὴν μαντϵίαν, peritiſſimos prodigiorum interpretes et vatici-
+nandi ſcientiam ipſis pariter atque vxoribus et liberis inſitam eſſe. At-
+que ex iſta gente, PLVTARCHO u) teſte, Alexandri Magni vates,
+ARISTANDER, fuit, cuius aliquoties apud Curtium fit mentio,
+peritiſſimus ille vatum, vt idem auctor eum dicit x) et cui maxima
+fides ab Alexandro habebatur. y) Neque vero minorem in diui-
+nando auctoritatem Syri, Cilices, Arabes, Etruſci veteres olim
+comparaſſe ſibi videntur. Sic Alexander praeter Ariſtandrum alios-
+que vates, Syram quandam mulierem fatidicam apud ſe habuit.
+Ἀϱιϛόβȣλος, inquit ARRIANVS, z) ὧδε ἀνέγραψε· Σύϱαν γυναῖκα
+ἐΦομαϱτϵῖν Ἀλεξάνδϱω, κάτοχον ἐκ τȣ̃ ϑϵῖȣ γιγοομένην, Ariſtobulus
+auctor eſt, mulierem quamdam Syram, numine correptam, Alexan-
+drum ſequutam. ldem de Mario refert PLVTARCHVS: a) καί γὰϱ
+τινα Σύϱαν γυναῖκα, Μάϱθαν ὄνομα, μαντέυεϑαι λεγομένην, ἐν Φορϵίω
+κατακϵιμένην, σεμνῶς πεϱιήγετο, etenim Syram quamdam, nomine Mar-
+tham, quae dicebatur vaticinari, in lectica poſitam, caſte ſecum du-
+xit, ex quo effato vera FRONTINI b) lectio reſtitui poteſt, apud
+quem haec Marii vates ex Scythia fuiſſe dicitur. C. Marius ſagam quan-
+dam ex Scythia habuit, a qua ſe dimicationum euentus praediſcere
+ſimulabat. Pro Scythia igitur legendum Syria, vt recte IOSEPHVS
+WASSE c) obſeruauit, quae lectio tanto profecto eſt certior, quod
+codices non deſunt, in quibus diſerte haec Marii ſocia Syra vo-
 catur. d) Cilicum et Arabum in diuinando ſcientiam praedicat</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35297638" type="catch-word" readingDirection="left-to-right" id="region0031" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region0031" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.35297638" type="catch-word" readingDirection="left-to-right">
       <Coords points="1575,2094 1706,2094 1706,2133 1575,2133"/>
       <TextLine id="region0031_line" custom="readingOrder {index:0;}">
         <Coords points="1575,2094 1706,2094 1706,2133 1575,2133"/>
@@ -1858,7 +1874,7 @@ catur. d) Cilicum et Arabum in diuinando ſcientiam praedicat</Unicode>
         <Unicode>CICE-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35297638" type="footnote" readingDirection="left-to-right" id="TextRegion_1664347731288_615" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1664347731288_615" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.35297638" type="footnote" readingDirection="left-to-right">
       <Coords points="270,2129 968,2129 968,2523 967,2600 270,2600 270,2508"/>
       <TextLine id="region0029_line0001" custom="readingOrder {index:0;}">
         <Coords points="650,2129 644,2137 597,2137 580,2134 577,2130 485,2129 483,2137 404,2139 399,2138 394,2129 375,2129 371,2138 336,2135 332,2138 271,2141 271,2182 354,2183 432,2175 442,2184 453,2185 463,2181 464,2176 721,2173 782,2177 861,2176 867,2182 883,2182 891,2177 908,2184 968,2183 968,2134 810,2138 747,2136 744,2130 702,2129 698,2136 692,2130 680,2130 671,2137 667,2129"/>
@@ -2129,7 +2145,7 @@ catur. d) Cilicum et Arabum in diuinando ſcientiam praedicat</Unicode>
         <Baseline points="270,2457 356,2452 601,2460"/>
         <Word id="region0029_line0008_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="334,2434 276,2434 276,2466 293,2466 294,2468 321,2468 325,2464 334,2463"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>cap.</Unicode>
           </TextEquiv>
         </Word>
@@ -2285,22 +2301,22 @@ catur. d) Cilicum et Arabum in diuinando ſcientiam praedicat</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>t) de exped. Alexandri libr. II. cap. 3.&#13;
-p. 63. ed GRONOVII.&#13;
-u) vit. Alex. p. 665.&#13;
-x) libr. IIII. cap. 2. §. 14.&#13;
-y) libro eodem, cap. 6. §. 12.&#13;
-z) libr. IIII. de expedit. Alexandri,&#13;
-cap. 13. p. 170.&#13;
-a) vita eius, tom. I. operum, p. 414.&#13;
-b) libr. I. ſtrategem. cap. 11. p. 182.&#13;
+        <Unicode>t) de exped. Alexandri libr. II. cap. 3.
+p. 63. ed GRONOVII.
+u) vit. Alex. p. 665.
+x) libr. IIII. cap. 2. §. 14.
+y) libro eodem, cap. 6. §. 12.
+z) libr. IIII. de expedit. Alexandri,
+cap. 13. p. 170.
+a) vita eius, tom. I. operum, p. 414.
+b) libr. I. ſtrategem. cap. 11. p. 182.
 edit. Veſal.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35297638" type="footnote" readingDirection="left-to-right" id="region0032" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0032" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-0.35297638" type="footnote" readingDirection="left-to-right">
       <Coords points="1000,2123 1705,2142 1707,2614 1000,2614"/>
       <TextLine id="region0032_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1187,2123 1182,2131 1108,2129 1102,2123 1047,2123 1042,2134 1001,2136 1001,2170 1049,2172 1067,2176 1090,2175 1111,2169 1267,2177 1274,2178 1276,2184 1284,2189 1295,2188 1302,2181 1356,2183 1362,2184 1369,2192 1379,2192 1388,2186 1509,2189 1514,2200 1527,2202 1542,2199 1546,2190 1655,2193 1661,2201 1681,2202 1687,2192 1700,2193 1707,2189 1707,2152 1615,2152 1613,2145 1608,2141 1595,2141 1588,2151 1535,2148 1518,2150 1517,2141 1512,2136 1467,2136 1462,2138 1456,2133 1436,2134 1431,2139 1431,2146 1426,2147 1424,2137 1418,2133 1406,2134 1398,2144 1335,2141 1328,2132 1317,2131 1312,2127 1298,2126 1287,2137 1281,2137 1279,2127 1271,2123"/>
+        <Coords points="1182,2131 1108,2129 1105,2126 1046,2124 1042,2134 1001,2136 1001,2170 1049,2172 1067,2176 1090,2175 1111,2169 1267,2177 1274,2178 1276,2184 1284,2189 1295,2188 1302,2181 1356,2183 1362,2184 1369,2192 1379,2192 1388,2186 1509,2189 1514,2200 1527,2202 1542,2199 1546,2190 1655,2193 1661,2201 1681,2202 1687,2192 1700,2193 1705,2190 1705,2152 1615,2152 1613,2145 1608,2141 1595,2141 1588,2151 1535,2148 1518,2150 1517,2141 1513,2137 1482,2136 1467,2136 1462,2138 1459,2135 1435,2135 1431,2139 1431,2146 1426,2147 1424,2137 1420,2134 1407,2134 1406,2134 1398,2144 1335,2141 1328,2132 1325,2132 1293,2131 1287,2137 1281,2137 1280,2131 1184,2128"/>
         <Baseline points="1001,2161 1139,2160 1520,2181 1707,2181"/>
         <Word id="region0032_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1080,2175 1080,2133 1050,2133 1050,2172 1062,2175"/>
@@ -2743,16 +2759,16 @@ edit. Veſal.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>c) not. ad Salluſtium, bello Iugurth. cap.&#13;
-LXVII.&#13;
-d) neque vero non iudaei vates olim&#13;
-cogniti fuere. Vide IVVENALEM ſat.&#13;
-VI. V. 542. coll. DIONE CASSIO libr.&#13;
-LXVI. cap. I. p. 1077. itemque Germa-&#13;
-ni, vt ex SVETONIO vit. Domitiani, cap.&#13;
-XVI. coll. DIONE CASSIO libr. LXVII.&#13;
-cap. XVI. patet, ne de Germanorum fa-&#13;
-tidicis mulieribus, de quibus ſupra, di-&#13;
+        <Unicode>c) not. ad Salluſtium, bello Iugurth. cap.
+LXVII.
+d) neque vero non iudaei vates olim
+cogniti fuere. Vide IVVENALEM ſat.
+VI. V. 542. coll. DIONE CASSIO libr.
+LXVI. cap. I. p. 1077. itemque Germa-
+ni, vt ex SVETONIO vit. Domitiani, cap.
+XVI. coll. DIONE CASSIO libr. LXVII.
+cap. XVI. patet, ne de Germanorum fa-
+tidicis mulieribus, de quibus ſupra, di-
 camus.</Unicode>
       </TextEquiv>
     </TextRegion>

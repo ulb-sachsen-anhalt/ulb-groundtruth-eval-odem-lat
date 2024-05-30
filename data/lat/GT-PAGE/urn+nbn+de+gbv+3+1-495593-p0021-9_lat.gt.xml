@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-176">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:45Z</Created>
     <LastChange>2024-01-19T13:08:45Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/3ec0d8ed-ee57-4d8c-a59b-1f03ed48bff7/00000021.jpg" imageWidth="2560" imageHeight="2842" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.28628817" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="-0.28628817" readingDirection="left-to-right">
       <Coords points="270,521 1624,521 1624,1065 270,1065"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1212,522 1204,533 986,532 983,522 910,521 908,532 807,533 800,524 788,524 780,534 739,535 730,535 729,528 724,523 676,522 671,527 670,535 635,536 630,527 616,526 611,530 610,537 603,539 599,538 598,531 593,527 574,528 566,538 506,536 504,528 498,523 484,524 478,530 472,525 461,525 453,536 412,536 380,535 376,522 316,521 311,529 298,529 295,521 273,521 271,572 287,573 294,579 305,579 312,574 325,579 412,583 624,584 967,578 1019,580 1043,583 1048,588 1057,588 1065,583 1083,583 1107,578 1317,577 1361,582 1451,583 1453,592 1459,595 1475,594 1480,583 1624,583 1624,538 1551,536 1455,538 1449,529 1438,528 1433,524 1418,527 1414,537 1358,536 1346,535 1343,527 1337,523 1322,524 1318,533 1244,534 1230,533 1225,523"/>
@@ -110,7 +126,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655188390503_100" custom="readingOrder {index:4;}">
-          <Coords points="918,583 943,584 1002,587 1061,593 1061,628 956,628 942,628 917,627"/>
+          <Coords points="943,584 918,583 917,627 942,628 956,628 1061,628 1061,593 1005,594 1002,587 1002,587 982,586 981,593 973,595 972,585"/>
           <TextEquiv>
             <Unicode>Sodam</Unicode>
           </TextEquiv>
@@ -154,7 +170,7 @@
         </Word>
         <Word id="region0002_line0003_word0002" custom="readingOrder {index:2;}">
           <Coords points="799,647 796,650 784,651 771,651 771,700 836,700 836,650 817,650 813,647"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p),</Unicode>
           </TextEquiv>
         </Word>
@@ -214,7 +230,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655188568130_108" custom="readingOrder {index:4;}">
-          <Coords points="1156,713 1168,704 1183,704 1320,706 1335,712 1335,746 1156,745"/>
+          <Coords points="1183,704 1168,704 1164,713 1156,713 1156,745 1335,746 1335,712 1323,712 1320,706 1300,706 1300,706 1298,713 1286,713 1273,705 1266,705 1259,714 1189,713 1184,704"/>
           <TextEquiv>
             <Unicode>chemicis</Unicode>
           </TextEquiv>
@@ -245,7 +261,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0005_word0001" custom="readingOrder {index:1;}">
-          <Coords points="660,759 545,761 364,769 364,813 661,814 661,759"/>
+          <Coords points="657,771 614,773 580,773 573,763 562,763 556,772 552,773 550,764 545,761 530,763 525,774 509,775 401,773 364,769 364,813 661,814 661,775 665,771 665,761 661,757 657,761"/>
           <TextEquiv conf="0.8857241">
             <Unicode>temperabimus</Unicode>
           </TextEquiv>
@@ -481,18 +497,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ipſi humido aëri efficaciter reſiſtunt, nec ab eodem liquantur.&#13;
-Verum enim vero quoniam Sodam inprimis Hiſpanicam, et&#13;
-ſpeciatim Alicanticam p), deſcribendam ſuſcepimus, ab enar-&#13;
-randis reliquarum Sodarum examinibus chemicis merito cala-&#13;
-mo temperabimus noſtro, eas ſolum partes conſtitutiuas, vt&#13;
-τεχνιϰῶς appellari ſolent, quibus prius illud Sodae genus com-&#13;
-poſitum conflatumque deprehendimus, quoad eius per ſcien-&#13;
-tiae noſtrae chemicae rationes fieri poterit, breuiter quidem,&#13;
+        <Unicode>ipſi humido aëri efficaciter reſiſtunt, nec ab eodem liquantur.
+Verum enim vero quoniam Sodam inprimis Hiſpanicam, et
+ſpeciatim Alicanticam p), deſcribendam ſuſcepimus, ab enar-
+randis reliquarum Sodarum examinibus chemicis merito cala-
+mo temperabimus noſtro, eas ſolum partes conſtitutiuas, vt
+τεχνιϰῶς appellari ſolent, quibus prius illud Sodae genus com-
+poſitum conflatumque deprehendimus, quoad eius per ſcien-
+tiae noſtrae chemicae rationes fieri poterit, breuiter quidem,
 ſed diſtincte expedituri.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28628817" type="heading" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0003" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.28628817" type="heading" readingDirection="left-to-right">
       <Coords points="865,1080 1023,1080 1023,1147 865,1147"/>
       <TextLine id="region0003_line" custom="readingOrder {index:0;}">
         <Coords points="865,1080 1023,1080 1023,1147 865,1147"/>
@@ -516,7 +532,7 @@ tiae noſtrae chemicae rationes fieri poterit, breuiter quidem,&#13;
         <Unicode>§. X.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28628817" readingDirection="left-to-right" id="TextRegion_1655188307757_73" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1655188307757_73" custom="readingOrder {index:2;}" orientation="-0.28628817" readingDirection="left-to-right">
       <Coords points="268,1165 1616,1165 1616,1974 268,1974"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1039,1165 1028,1177 920,1176 914,1165 887,1165 881,1175 808,1174 785,1177 734,1177 726,1175 721,1166 694,1165 687,1176 527,1176 520,1166 506,1165 500,1174 466,1174 460,1172 460,1166 327,1166 326,1198 329,1202 338,1204 338,1221 343,1226 438,1236 469,1236 474,1230 488,1225 489,1220 564,1221 569,1226 586,1232 588,1223 593,1221 631,1221 637,1232 643,1234 659,1232 662,1221 1125,1223 1160,1227 1166,1233 1176,1233 1183,1227 1266,1221 1320,1224 1324,1236 1341,1237 1348,1233 1350,1224 1616,1225 1616,1177 1366,1178 1272,1176 1268,1173 1257,1173 1253,1176 1065,1177 1059,1165"/>
@@ -1270,7 +1286,7 @@ tiae noſtrae chemicae rationes fieri poterit, breuiter quidem,&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0014" custom="readingOrder {index:13;}">
-        <Coords points="303,1911 297,1919 268,1918 268,1965 325,1974 427,1982 434,1990 447,1994 494,1994 499,1989 500,1981 651,1982 738,1979 815,1979 817,1986 823,1990 839,1990 847,1985 848,1978 852,1976 952,1976 985,1973 1615,1979 1615,1922 1562,1923 1556,1927 1554,1933 1367,1932 1359,1931 1355,1920 1272,1919 1266,1924 1262,1920 1231,1919 1227,1921 1225,1929 1165,1930 1078,1925 1045,1927 1037,1918 1010,1917 1005,1920 1003,1928 853,1928 761,1932 721,1932 716,1930 713,1921 707,1919 645,1919 624,1921 621,1934 585,1934 577,1923 562,1923 557,1934 468,1934 330,1923 325,1922 320,1914"/>
+        <Coords points="297,1919 268,1918 268,1965 325,1974 974,1974 985,1973 1090,1974 1615,1974 1615,1922 1562,1923 1556,1927 1554,1933 1367,1932 1359,1931 1355,1920 1272,1919 1266,1924 1262,1920 1231,1919 1227,1921 1225,1929 1165,1930 1078,1925 1045,1927 1037,1918 1010,1917 1005,1920 1003,1928 853,1928 761,1932 721,1932 716,1930 713,1921 707,1919 645,1919 624,1921 621,1934 585,1934 577,1923 562,1923 557,1934 468,1934 330,1923 325,1922 320,1914 303,1911"/>
         <Baseline points="268,1956 439,1974"/>
         <Word id="region0004_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="299,1916 297,1919 280,1918 280,1966 320,1973 451,1974 451,1932 330,1923 325,1922 321,1916"/>
@@ -1319,23 +1335,23 @@ tiae noſtrae chemicae rationes fieri poterit, breuiter quidem,&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quo in propoſito vt recte verſemur, anteaquam vera at-&#13;
-que genuina Sodae noſtrae elementa proponamus demonſtrata,&#13;
-accipitote, Lectores, ſeriem plurium diuerſorumque experi-&#13;
-mentorum chemicorum, partim a nobismet ipſis inſtitutorum,&#13;
-partim ante nos ab aliis iam ſatis captorum: e quibus nonnulla&#13;
-iam ſupra laudato VOCKELIO debemus accepta, quippe qui&#13;
-olim in Laboratorio Godofredino Pariſienſi ad examinandam&#13;
-Sodae naturam atque mixtionem haud mediocres contulit la-&#13;
-bores. Primo itaque Sodae Alicanticae, in ſubtiliſimum pul-&#13;
-uerem redactae, et per ſetaceum cribrum traiectae, ſelibram in&#13;
-vaſe terreo probe vitreato q) cum aquae fontanae purioris men-&#13;
-ſuris tribus, ſiue libris ſex, tam diu coximus, donec perfecta fuit&#13;
-ſolutio; impetratum inde lixiuium dein in ſimili vaſe terreo&#13;
+        <Unicode>Quo in propoſito vt recte verſemur, anteaquam vera at-
+que genuina Sodae noſtrae elementa proponamus demonſtrata,
+accipitote, Lectores, ſeriem plurium diuerſorumque experi-
+mentorum chemicorum, partim a nobismet ipſis inſtitutorum,
+partim ante nos ab aliis iam ſatis captorum: e quibus nonnulla
+iam ſupra laudato VOCKELIO debemus accepta, quippe qui
+olim in Laboratorio Godofredino Pariſienſi ad examinandam
+Sodae naturam atque mixtionem haud mediocres contulit la-
+bores. Primo itaque Sodae Alicanticae, in ſubtiliſimum pul-
+uerem redactae, et per ſetaceum cribrum traiectae, ſelibram in
+vaſe terreo probe vitreato q) cum aquae fontanae purioris men-
+ſuris tribus, ſiue libris ſex, tam diu coximus, donec perfecta fuit
+ſolutio; impetratum inde lixiuium dein in ſimili vaſe terreo
 vitreato, per denſiſſimum pannum linteum calidiſſime transmiſ-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28628817" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1655188328856_87" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1655188328856_87" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="-0.28628817" type="signature-mark" readingDirection="left-to-right">
       <Coords points="268,1974 1251,1974 1251,2047 268,2047"/>
       <TextLine id="line_1655188328901_90" custom="readingOrder {index:0;}">
         <Coords points="924,1981 941,1977 985,1974 1050,1974 1060,1976 1068,1983 1113,1985 1251,1986 1251,2026 1139,2026 1132,2034 1048,2035 953,2034 930,2032 926,2029 921,2016 921,1985"/>
@@ -1360,7 +1376,7 @@ vitreato, per denſiſſimum pannum linteum calidiſſime transmiſ-</Unicode>
         <Unicode>C 2 ſum,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28628817" type="catch-word" readingDirection="left-to-right" id="TextRegion_1655188328855_86" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1655188328855_86" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.28628817" type="catch-word" readingDirection="left-to-right">
       <Coords points="1251,1974 1616,1974 1616,2047 1251,2047"/>
       <TextLine id="line_1655188328900_89" custom="readingOrder {index:0;}">
         <Coords points="1251,1986 1504,1988 1512,1979 1529,1979 1533,1981 1537,1993 1614,1994 1615,2047 1585,2047 1547,2041 1452,2038 1447,2034 1445,2027 1251,2026"/>
@@ -1379,7 +1395,7 @@ vitreato, per denſiſſimum pannum linteum calidiſſime transmiſ-</Unicode>
         <Unicode>C 2 ſum,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28628817" type="footnote" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0005" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.28628817" type="footnote" readingDirection="left-to-right">
       <Coords points="316,2092 1610,2092 1610,2509 316,2509"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="963,2092 879,2092 873,2096 871,2107 781,2109 775,2100 763,2099 754,2109 746,2110 620,2111 613,2102 601,2102 594,2112 455,2109 446,2108 441,2099 431,2096 362,2098 355,2093 346,2093 340,2099 317,2100 317,2157 371,2156 402,2150 659,2153 661,2161 675,2163 685,2150 691,2150 765,2152 767,2160 785,2162 794,2159 796,2151 932,2147 948,2147 966,2152 972,2146 995,2145 1200,2143 1218,2148 1228,2140 1236,2145 1238,2158 1251,2156 1256,2148 1268,2147 1328,2147 1338,2156 1346,2150 1364,2151 1365,2158 1374,2162 1390,2159 1392,2151 1535,2155 1587,2155 1610,2152 1610,2117 1571,2114 1568,2104 1564,2101 1550,2101 1545,2105 1543,2112 1532,2113 1516,2113 1515,2106 1510,2101 1454,2099 1450,2096 1439,2096 1424,2109 1180,2104 1177,2093 1155,2093 1153,2104 1133,2104 1127,2094 1106,2092 1096,2103 1039,2104 1034,2096 1021,2094 1013,2104 971,2105 968,2094"/>
@@ -1804,13 +1820,13 @@ vitreato, per denſiſſimum pannum linteum calidiſſime transmiſ-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>p) Alterum enim praecipuum Hiſpanicae Sodae genus, quod Cartha-&#13;
-ginenſe vocant, licet puritate Alicanticae Sodae cedat, duritie ta-&#13;
-men et ceteris virtutibus haud adeo multum ab eadem abludit.&#13;
-Vnde etiam potiora, quae de Alicantica Soda diſputabimus, de&#13;
-Carthaginenſi valebunt.&#13;
-q) Alii quoque lebete cupreo, intus ſtanno exquiſite obducto, vtun-&#13;
-tur: quod etiam non improbamus, ſi modo nullibi cuprum ſtan-&#13;
+        <Unicode>p) Alterum enim praecipuum Hiſpanicae Sodae genus, quod Cartha-
+ginenſe vocant, licet puritate Alicanticae Sodae cedat, duritie ta-
+men et ceteris virtutibus haud adeo multum ab eadem abludit.
+Vnde etiam potiora, quae de Alicantica Soda diſputabimus, de
+Carthaginenſi valebunt.
+q) Alii quoque lebete cupreo, intus ſtanno exquiſite obducto, vtun-
+tur: quod etiam non improbamus, ſi modo nullibi cuprum ſtan-
 no deſtituatur.</Unicode>
       </TextEquiv>
     </TextRegion>

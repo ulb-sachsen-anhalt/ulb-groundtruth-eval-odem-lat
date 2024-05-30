@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-204">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:08Z</Created>
     <LastChange>2024-01-19T13:09:08Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/0e8fd00d-7f52-48de-8967-e3e4ff391c31/00000245.jpg" imageWidth="1796" imageHeight="2932" type="content" primaryLanguage="Latin">
     <Border>
@@ -23,7 +39,7 @@
         <RegionRefIndexed index="9" regionRef="region_1683622679233_1503"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1683622588485_1384" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1683622588485_1384" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="322,498 322,537 1086,526 1086,487"/>
       <TextLine id="line_1683622588577_1387" custom="readingOrder {index:0;}">
         <Coords points="322,498 322,537 1083,526 1083,487"/>
@@ -46,7 +62,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1683622616567_1408" custom="readingOrder {index:3;}">
-          <Coords points="826,492 1082,489 1082,528 826,531"/>
+          <Coords points="1082,489 826,492 826,529 1082,526"/>
           <TextEquiv>
             <Unicode>DIFFERENTIA.</Unicode>
           </TextEquiv>
@@ -59,7 +75,7 @@
         <Unicode>DE HEREDEVM QVALITATE DIFFERENTIA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1683622609505_1398" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1683622609505_1398" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1151,486 1151,536 1235,536 1235,486"/>
       <TextLine id="line_1683622609602_1401" custom="readingOrder {index:0;}">
         <Coords points="1151,486 1151,536 1235,536 1235,486"/>
@@ -77,7 +93,7 @@
         <Unicode>233</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="0.94616807" readingDirection="left-to-right">
       <Coords points="216,577 1245,577 1245,1072 216,1072"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="867,578 860,582 858,590 756,594 736,597 638,598 626,597 621,593 604,596 597,589 563,588 556,593 554,599 549,601 528,602 517,594 506,592 450,593 431,595 425,599 421,606 395,606 389,596 378,596 367,607 315,607 314,599 308,593 300,594 290,603 284,595 270,593 260,600 257,608 245,609 240,599 224,598 216,609 216,648 248,647 258,653 268,652 271,648 507,648 514,644 534,645 555,642 560,639 711,637 743,641 748,638 771,640 787,636 883,632 888,642 901,643 906,639 908,632 1011,626 1245,626 1244,585 1191,585 1186,580 1176,580 1170,585 1119,586 1117,577 1074,578 1072,585 936,587 930,577"/>
@@ -545,18 +561,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>inſoluendo. Quod tamen, cum |durum videretur&#13;
-Praetori, introductum eſt beneficium ABSTINENDI,&#13;
-vi cuius liberi ſui hereditatem patris damnoſam repudia-&#13;
-re poſſunt. De quo porro nota: I) impuberibus li-&#13;
-beris ſemper datur; at puberibus tunc demum, ſi nec&#13;
-ſe immiſcuerint hereditati, ncc ex ea aliquid amoue-&#13;
-rint a). 2) per hoc beneficium liberi ſui non am-&#13;
-plius ſunt neceſſarii, ſed fiunt voluntarii heredes;&#13;
+        <Unicode>inſoluendo. Quod tamen, cum |durum videretur
+Praetori, introductum eſt beneficium ABSTINENDI,
+vi cuius liberi ſui hereditatem patris damnoſam repudia-
+re poſſunt. De quo porro nota: I) impuberibus li-
+beris ſemper datur; at puberibus tunc demum, ſi nec
+ſe immiſcuerint hereditati, ncc ex ea aliquid amoue-
+rint a). 2) per hoc beneficium liberi ſui non am-
+plius ſunt neceſſarii, ſed fiunt voluntarii heredes;
 quamuis maneant heredes ſui. b)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" readingDirection="left-to-right" id="TextRegion_1664258023052_141" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1664258023052_141" custom="readingOrder {index:3;}" orientation="0.94616807" readingDirection="left-to-right">
       <Coords points="270,1098 1248,1098 1255,1186 1255,1418 401,1462 316,1462 305,1418 270,1206"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="347,1103 324,1113 288,1119 282,1126 271,1128 270,1169 297,1169 306,1164 349,1161 427,1156 436,1158 459,1153 470,1160 480,1155 508,1153 518,1153 533,1159 562,1152 581,1155 594,1149 606,1149 612,1153 625,1152 630,1159 637,1161 644,1160 650,1151 662,1159 689,1157 694,1153 703,1153 708,1158 767,1150 773,1147 789,1146 794,1150 829,1150 836,1157 848,1156 852,1153 853,1147 859,1145 867,1145 874,1149 901,1145 906,1148 952,1148 971,1144 987,1148 1017,1149 1046,1147 1068,1141 1080,1141 1086,1145 1108,1142 1126,1151 1136,1146 1248,1146 1247,1098 998,1099 992,1103 990,1109 948,1110 943,1101 926,1099 920,1110 895,1111 887,1103 877,1103 871,1111 846,1111 839,1102 823,1101 817,1112 781,1111 774,1102 757,1100 698,1101 682,1104 668,1112 658,1113 651,1105 629,1103 606,1105 593,1112 538,1109 513,1111 505,1115 496,1110 485,1110 480,1118 446,1112 401,1113 384,1122 369,1123 366,1110 355,1103"/>
@@ -848,7 +864,7 @@ quamuis maneant heredes ſui. b)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0003_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="423,1281 421,1283 421,1327 481,1326 483,1327 508,1326 518,1322 539,1324 539,1322 539,1281 545,1280 519,1286 460,1289 440,1290 430,1281"/>
+          <Coords points="423,1281 421,1327 539,1324 539,1322 539,1281 545,1280 440,1290"/>
           <TextEquiv conf="0.72331464">
             <Unicode>interpr.</Unicode>
           </TextEquiv>
@@ -884,7 +900,7 @@ quamuis maneant heredes ſui. b)</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1664258339450_305" custom="readingOrder {index:7;}">
-          <Coords points="755,1285 880,1283 973,1282 973,1313 880,1315 755,1317"/>
+          <Coords points="973,1313 973,1282 880,1283 755,1285 755,1317 757,1317 791,1313 833,1316 839,1316 853,1313 857,1315 880,1315 881,1315 902,1313 904,1314 958,1313 959,1313 964,1313"/>
           <TextEquiv>
             <Unicode>WAECHTLER</Unicode>
           </TextEquiv>
@@ -934,7 +950,7 @@ quamuis maneant heredes ſui. b)</Unicode>
         </Word>
         <Word id="region0003_line0004_word0002" custom="readingOrder {index:2;}">
           <Coords points="491,1331 491,1368 517,1367 521,1364 557,1367 562,1365 562,1330 502,1330 500,1332 495,1330"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>361.</Unicode>
           </TextEquiv>
         </Word>
@@ -1052,17 +1068,17 @@ quamuis maneant heredes ſui. b)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a) I.u. I. 7i. §. 3 ſqq. ff. de adquir. hered. b) G. L.&#13;
-BOEHMERI diſſ. de her. ſuo ab heredit. abſinente et&#13;
-ſe immiſcente in Ei. elect. iur. civ. T. I. De quaeſtione,&#13;
-an liberi abſtentionem probare debeant vid. IOS. AVE-&#13;
-RAN. interpr. L. II- c. 9. et WAECHTLER in actis erud. an.&#13;
-1716. p. 361. KOCHII diſſ. de hered. ſuis [ad probat.&#13;
-abſtent. baud obligatis. HOEPFNER Com. ad Inſt. §.&#13;
+        <Unicode>a) I.u. I. 7i. §. 3 ſqq. ff. de adquir. hered. b) G. L.
+BOEHMERI diſſ. de her. ſuo ab heredit. abſinente et
+ſe immiſcente in Ei. elect. iur. civ. T. I. De quaeſtione,
+an liberi abſtentionem probare debeant vid. IOS. AVE-
+RAN. interpr. L. II- c. 9. et WAECHTLER in actis erud. an.
+1716. p. 361. KOCHII diſſ. de hered. ſuis [ad probat.
+abſtent. baud obligatis. HOEPFNER Com. ad Inſt. §.
 540.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;}" orientation="0.94616807" readingDirection="left-to-right">
       <Coords points="274,1489 1257,1489 1257,1732 274,1732"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="766,1490 717,1496 708,1492 683,1492 678,1494 673,1502 632,1504 589,1505 576,1503 568,1497 559,1497 550,1502 520,1508 506,1508 498,1500 487,1500 479,1509 413,1511 406,1503 391,1503 382,1512 350,1515 334,1514 316,1507 274,1507 274,1556 443,1550 452,1545 466,1549 506,1548 529,1547 537,1542 547,1542 553,1545 582,1545 594,1542 608,1544 614,1539 710,1537 717,1534 725,1534 732,1537 755,1534 777,1542 832,1535 860,1540 870,1532 893,1535 967,1532 973,1534 1039,1531 1198,1536 1243,1535 1257,1532 1256,1499 1246,1498 1241,1489 1208,1490 1204,1495 1144,1496 1139,1495 1134,1489 1104,1489 1102,1495 1060,1496 1057,1489 1036,1489 1033,1497 1021,1498 1019,1490 998,1489 996,1497 991,1498 900,1497 895,1490 888,1489 834,1490 833,1496 828,1497 824,1492 815,1489"/>
@@ -1209,7 +1225,7 @@ abſtent. baud obligatis. HOEPFNER Com. ad Inſt. §.&#13;
         </Word>
         <Word id="region0005_line0003_word0006" custom="readingOrder {index:6;}">
           <Coords points="1185,1616 1185,1585 1088,1587 1088,1618 1155,1617 1156,1616 1161,1617"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>aeque</Unicode>
           </TextEquiv>
         </Word>
@@ -1298,14 +1314,14 @@ abſtent. baud obligatis. HOEPFNER Com. ad Inſt. §.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Nota formulas loquendi: I) abſtinere ab hereditate di-&#13;
-cuntur heredes SVI; ſed repudiare hereditatem, ex-&#13;
-tranei dicuntur. 2) immiſcere ſe hereditati, aeque de&#13;
-heredibus SVIS vſurpatur, cum extranei ſe pro herede&#13;
+        <Unicode>Nota formulas loquendi: I) abſtinere ab hereditate di-
+cuntur heredes SVI; ſed repudiare hereditatem, ex-
+tranei dicuntur. 2) immiſcere ſe hereditati, aeque de
+heredibus SVIS vſurpatur, cum extranei ſe pro herede
 gerere dicantur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:5;} structure {type:heading;}" orientation="0.94616807" type="heading" readingDirection="left-to-right">
       <Coords points="680,1786 823,1786 823,1843 680,1843"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="680,1787 680,1843 823,1842 822,1788 757,1790 721,1786"/>
@@ -1330,7 +1346,7 @@ gerere dicantur.</Unicode>
         <Unicode>§. 375.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:6;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:6;} structure {type:heading;}" orientation="0.94616807" type="heading" readingDirection="left-to-right">
       <Coords points="528,1848 979,1848 979,1901 528,1901"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="528,1849 528,1901 830,1894 832,1900 859,1901 862,1892 969,1891 979,1887 978,1848 942,1848 938,1853 896,1854 892,1848 876,1848 872,1855 795,1858 790,1849 772,1848 767,1858 725,1860 723,1852 718,1848 703,1849 698,1859 683,1858 675,1851 666,1851 659,1858 651,1859 583,1860 581,1853 576,1849"/>
@@ -1361,7 +1377,7 @@ gerere dicantur.</Unicode>
         <Unicode>Extranei heredes quinam?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.94616807" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:7;}">
+    <TextRegion id="region0008" custom="readingOrder {index:7;}" orientation="0.94616807" readingDirection="left-to-right">
       <Coords points="181,1903 1266,1903 1266,2185 181,2185"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="786,1905 779,1910 777,1917 694,1921 688,1911 675,1910 667,1921 640,1922 635,1923 632,1915 626,1910 612,1912 606,1923 596,1923 588,1912 577,1912 573,1916 571,1924 564,1924 497,1922 492,1918 459,1912 289,1916 284,1921 284,1951 289,1956 297,1956 301,1968 332,1970 529,1964 586,1967 609,1963 632,1965 691,1961 698,1966 709,1966 716,1960 733,1959 1097,1954 1113,1951 1121,1953 1122,1958 1133,1961 1147,1957 1152,1950 1266,1949 1266,1908 1194,1910 1191,1903 1168,1904 1167,1910 1072,1910 1066,1903 1048,1904 1043,1911 992,1912 989,1904 970,1904 963,1913 900,1914 896,1911 887,1911 883,1914 818,1915 811,1907"/>
@@ -1597,14 +1613,14 @@ gerere dicantur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>IlI. Extranei denique dicuntur heredes, qui nec&#13;
-DOMINICAE nec PATRIAE teſtatoris poteſtati ſub-&#13;
-iecti ſunt. Hi et VOLVNTARII dicuntur, quia a li-&#13;
-libera eorum pendet voluntate, vtrum adire an re-&#13;
+        <Unicode>IlI. Extranei denique dicuntur heredes, qui nec
+DOMINICAE nec PATRIAE teſtatoris poteſtati ſub-
+iecti ſunt. Hi et VOLVNTARII dicuntur, quia a li-
+libera eorum pendet voluntate, vtrum adire an re-
 diare hereditatem velint.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1683622675673_1494" custom="readingOrder {index:8;} structure {type:signature-mark;}">
+    <TextRegion id="region_1683622675673_1494" custom="readingOrder {index:8;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="739,2370 739,2420 821,2420 821,2370"/>
       <TextLine id="line_1683622676107_1497" custom="readingOrder {index:0;}">
         <Coords points="739,2370 739,2420 821,2420 821,2370"/>
@@ -1628,7 +1644,7 @@ diare hereditatem velint.</Unicode>
         <Unicode>P 5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1683622679233_1503" custom="readingOrder {index:9;} structure {type:catch-word;}">
+    <TextRegion id="region_1683622679233_1503" custom="readingOrder {index:9;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1132,2359 1132,2415 1277,2415 1277,2359"/>
       <TextLine id="line_1683622679304_1506" custom="readingOrder {index:0;}">
         <Coords points="1132,2359 1132,2415 1277,2415 1277,2359"/>

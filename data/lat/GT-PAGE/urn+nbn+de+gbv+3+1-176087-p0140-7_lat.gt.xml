@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-64">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:35Z</Created>
     <LastChange>2024-01-19T13:07:35Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/70b707d1-1427-45b5-955b-c8a4f52f7f89/00000140.jpg" imageWidth="2430" imageHeight="2894" type="content" primaryLanguage="Latin">
     <Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="region0010"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.28743812" readingDirection="left-to-right" id="TextRegion_1655463280683_5997" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1655463280683_5997" custom="readingOrder {index:0;}" orientation="-0.28743812" readingDirection="left-to-right">
       <Coords points="874,631 2131,631 2139,1365 2139,1424 2124,1512 874,1512 874,1421"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1159,631 1157,643 1098,643 1088,634 1050,632 1032,633 1027,644 879,644 875,645 875,690 919,689 944,700 961,699 968,693 980,690 1137,686 1146,686 1154,697 1168,697 1177,688 1231,687 1269,690 1292,700 1299,700 1323,690 1449,695 1539,692 1572,693 1588,699 1599,699 1609,695 1633,700 1638,695 1639,683 1699,681 1703,691 1722,693 1726,696 1743,693 1954,694 2131,700 2131,647 2126,646 2113,646 2091,655 2071,657 2062,656 2060,648 2055,644 2039,646 2035,643 2025,643 2019,654 1915,652 1914,645 1909,639 1891,638 1886,642 1884,652 1876,652 1860,651 1855,638 1843,637 1834,642 1832,650 1682,652 1677,648 1642,648 1551,650 1546,638 1536,637 1526,640 1522,650 1490,650 1483,641 1439,637 1389,635 1374,646 1345,647 1296,646 1293,636 1289,633 1279,633 1271,645 1265,645 1230,643 1228,631"/>
@@ -294,7 +310,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655463455910_6119" custom="readingOrder {index:1;} textStyle {offset:0; length:14;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1038,918 1162,918 1237,919 1274,929 1274,960 1179,959 1037,957"/>
+          <Coords points="1038,918 1037,957 1179,959 1274,960 1274,929 1264,930 1241,930 1240,922 1237,919 1162,918 1156,918 1150,922 1148,929 1132,930 1117,930 1113,918 1083,918 1079,922 1077,930 1065,930 1063,923 1058,919 1044,923 1043,918"/>
           <TextEquiv>
             <Unicode>Leibes - Erben</Unicode>
           </TextEquiv>
@@ -781,7 +797,7 @@
       <TextLine id="region0004_line0001" custom="readingOrder {index:13;}">
         <Coords points="1374,1365 1367,1369 1365,1377 1352,1378 1283,1378 1276,1367 1252,1366 1247,1370 1245,1378 1181,1378 1175,1378 1173,1371 1168,1367 1147,1365 1088,1366 1082,1368 1074,1377 1042,1376 1039,1365 1020,1365 1018,1368 960,1366 936,1374 921,1375 908,1375 906,1365 881,1365 876,1375 876,1418 1036,1418 1078,1423 1145,1423 1173,1420 1507,1424 2138,1424 2138,1371 2106,1372 2095,1382 2076,1384 1987,1383 1981,1373 1968,1372 1963,1376 1962,1383 1956,1384 1940,1383 1939,1375 1934,1370 1919,1373 1915,1382 1837,1382 1833,1369 1820,1367 1813,1371 1811,1382 1806,1381 1803,1371 1788,1370 1783,1374 1781,1382 1764,1383 1760,1371 1746,1369 1685,1368 1678,1373 1654,1369 1609,1368 1596,1371 1590,1380 1566,1381 1560,1380 1558,1372 1553,1368 1541,1369 1536,1380 1524,1379 1516,1367 1460,1370 1443,1378 1415,1378 1391,1377 1386,1366"/>
         <Word id="word_1655463737871_6190" custom="readingOrder {index:0;} textStyle {offset:0; length:19;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="882,1372 981,1371 1078,1371 1099,1372 1214,1378 1214,1414 1116,1414 882,1410"/>
+          <Coords points="882,1372 882,1410 1116,1414 1214,1414 1214,1378 1181,1378 1175,1378 1174,1375 1099,1372 1079,1371 1074,1377 1042,1376 1040,1371 981,1371 943,1371 936,1374 921,1375 908,1375 907,1371"/>
           <TextEquiv>
             <Unicode>bes - Lehns - Erben</Unicode>
           </TextEquiv>
@@ -899,7 +915,7 @@ bes - Lehns - Erben die rechten Linien Dahl belehnet haben und
 belehnen ſie hiemit Kraft dieſes Briefes. (b)</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28743812" type="heading" readingDirection="left-to-right" id="TextRegion_1655463280682_5996" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1655463280682_5996" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.28743812" type="heading" readingDirection="left-to-right">
       <Coords points="874,1512 2124,1512 2110,1597 874,1597"/>
       <TextLine id="region0005_line0002" custom="readingOrder {index:0;}">
         <Coords points="1442,1531 1320,1539 1315,1544 1315,1576 1320,1581 1330,1582 1330,1596 1458,1597 1504,1593 1659,1595 1664,1590 1663,1565 1659,1562 1637,1561 1636,1540 1631,1535"/>
@@ -924,7 +940,7 @@ belehnen ſie hiemit Kraft dieſes Briefes. (b)</Unicode>
         <Unicode>§. XVI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28743812" type="marginalia" readingDirection="left-to-right" id="TextRegion_1655463290608_6005" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1655463290608_6005" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.28743812" type="marginalia" readingDirection="left-to-right">
       <Coords points="652,1653 876,1653 877,1686 877,1755 831,1829 647,1829 647,1739 650,1686"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="652,1653 652,1701 749,1699 753,1708 817,1709 820,1703 875,1702 875,1658 872,1656 807,1654 799,1659 786,1660 715,1659 713,1653"/>
@@ -988,13 +1004,13 @@ belehnen ſie hiemit Kraft dieſes Briefes. (b)</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Non ergo fuit&#13;
-inueſtitura am caſtri Dornburgenſis, HiL MARO et CvrD TIO da-&#13;
-ſimultanea&#13;
+        <Unicode>Non ergo fuit
+inueſtitura am caſtri Dornburgenſis, HiL MARO et CvrD TIO da-
+ſimultanea
 pura.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28743812" readingDirection="left-to-right" id="TextRegion_1655464012688_6283" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1655464012688_6283" custom="readingOrder {index:3;}" orientation="-0.28743812" readingDirection="left-to-right">
       <Coords points="939,1626 2124,1626 2124,1693 2123,2314 877,2314 877,1746 877,1686"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1737,1626 1731,1629 1705,1627 1697,1637 1629,1640 1626,1639 1626,1632 1621,1626 1606,1626 1600,1638 1443,1639 1438,1639 1436,1631 1431,1627 1416,1626 1410,1638 1334,1637 1332,1627 1311,1627 1308,1635 1297,1637 1291,1636 1289,1627 1262,1627 1255,1637 1227,1636 1224,1626 1204,1626 1201,1636 1047,1637 1025,1635 1019,1626 939,1626 939,1691 1038,1693 1047,1686 1124,1685 1506,1688 1553,1692 1599,1692 1635,1689 2123,1693 2123,1645 2018,1643 2016,1636 2010,1631 1994,1632 1989,1643 1932,1643 1930,1634 1925,1629 1916,1627 1907,1627 1899,1631 1892,1640 1764,1639 1754,1638 1751,1630 1745,1626"/>
@@ -1505,7 +1521,7 @@ pura.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1655463961519_6256" custom="readingOrder {index:9;}">
-          <Coords points="1931,2138 1953,2138 2116,2155 2116,2184 2043,2184 1968,2182 1931,2180"/>
+          <Coords points="1953,2138 1931,2138 1931,2180 1968,2182 2043,2184 2116,2184 2116,2155 2058,2149 2039,2149 1991,2143 1961,2145 1953,2138"/>
           <TextEquiv>
             <Unicode>STATII</Unicode>
           </TextEquiv>
@@ -1536,7 +1552,7 @@ pura.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1655463976197_6264" custom="readingOrder {index:3;}">
-          <Coords points="1446,2196 1463,2196 1645,2211 1645,2239 1473,2238 1446,2237"/>
+          <Coords points="1463,2196 1446,2196 1446,2237 1473,2238 1645,2239 1645,2211 1553,2203 1487,2203 1471,2202 1465,2196"/>
           <TextEquiv>
             <Unicode>STATIO</Unicode>
           </TextEquiv>
@@ -1558,7 +1574,7 @@ pura.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0009_line0010" custom="readingOrder {index:11;}">
-        <Coords points="1805,2245 1794,2249 1793,2255 1770,2256 1660,2259 1657,2250 1645,2248 1635,2251 1632,2259 1628,2259 1626,2251 1621,2248 1606,2248 1597,2251 1594,2258 1387,2261 1189,2258 1187,2252 1182,2249 1163,2251 1161,2258 1037,2259 1022,2257 1020,2250 1013,2247 1001,2248 995,2256 973,2259 957,2255 916,2254 913,2246 903,2245 897,2250 877,2253 877,2303 937,2303 968,2305 973,2309 984,2309 989,2305 1256,2308 1258,2315 1266,2320 1282,2320 1287,2316 1289,2309 1520,2310 1548,2311 1554,2316 1563,2316 1569,2311 1695,2307 1700,2315 1715,2317 1721,2315 1726,2306 1796,2303 1914,2304 2045,2312 2122,2309 2122,2262 2073,2259 2072,2253 2064,2250 2050,2252 2048,2258 1990,2257 1819,2254 1817,2247"/>
+        <Coords points="1794,2249 1793,2255 1770,2256 1660,2259 1657,2250 1645,2248 1635,2251 1632,2259 1628,2259 1626,2251 1621,2248 1606,2248 1597,2251 1594,2258 1387,2261 1189,2258 1187,2252 1182,2249 1163,2251 1161,2258 1037,2259 1022,2257 1020,2250 1013,2247 1001,2248 995,2256 973,2259 957,2255 916,2254 913,2246 903,2245 897,2250 877,2253 877,2303 937,2303 968,2305 973,2309 984,2309 989,2305 1256,2308 1257,2314 1287,2314 1289,2309 1520,2310 1548,2311 1551,2314 1565,2314 1569,2311 1695,2307 1699,2314 1721,2314 1726,2306 1796,2303 1914,2304 2045,2312 2122,2309 2122,2262 2073,2259 2072,2253 2064,2250 2050,2252 2048,2258 1990,2257 1819,2254 1817,2247 1805,2245"/>
         <Baseline points="877,2293 2122,2299"/>
         <Word id="region0009_line0010_word0000" custom="readingOrder {index:0;}">
           <Coords points="900,2247 897,2250 884,2251 884,2297 985,2297 985,2257 973,2259 957,2255 916,2254 913,2247"/>
@@ -1580,7 +1596,7 @@ pura.</Unicode>
         </Word>
         <Word id="region0009_line0010_word0003" custom="readingOrder {index:3;}">
           <Coords points="1350,2302 1566,2303 1566,2261 1430,2260 1387,2261 1350,2260"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>euentum,</Unicode>
           </TextEquiv>
         </Word>
@@ -1619,21 +1635,21 @@ pura.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>QVAE omnia ſatis euincunt, inueſtituram ſimultane-&#13;
-am caſtri Dornburgenſis, HILMARO et CVRDTIO da-&#13;
-tam, conditionalem ſeu euentualem, et, quod eius rei con-&#13;
-ſequens eſt, neutiquam puram faiſſe, qualis alioquin&#13;
-regulariter eſſe ſolet inueſtitura ſimultanea Saxonica.&#13;
-Namque contradictionem inuolueret, condominium&#13;
-vtile alicui non niſi ſub certo euentu conferre, idque ipſum&#13;
-eidem pure et non in iſtum euentum conferre. HIL-&#13;
-MARVS et CVRDT A MVNCHHAVSEN eorumque po-&#13;
-ſteri, non niſi tunc, alsdann und ehe nicht, cum STATII&#13;
-progenies exierit, cum STATIO ſimultanee inueſtiti&#13;
+        <Unicode>QVAE omnia ſatis euincunt, inueſtituram ſimultane-
+am caſtri Dornburgenſis, HILMARO et CVRDTIO da-
+tam, conditionalem ſeu euentualem, et, quod eius rei con-
+ſequens eſt, neutiquam puram faiſſe, qualis alioquin
+regulariter eſſe ſolet inueſtitura ſimultanea Saxonica.
+Namque contradictionem inuolueret, condominium
+vtile alicui non niſi ſub certo euentu conferre, idque ipſum
+eidem pure et non in iſtum euentum conferre. HIL-
+MARVS et CVRDT A MVNCHHAVSEN eorumque po-
+ſteri, non niſi tunc, alsdann und ehe nicht, cum STATII
+progenies exierit, cum STATIO ſimultanee inueſtiti
 ſunt, in eumdemque euentum, ſub quo iam ex emtio-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28743812" type="catch-word" readingDirection="left-to-right" id="TextRegion_1655464012688_6282" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1655464012688_6282" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.28743812" type="catch-word" readingDirection="left-to-right">
       <Coords points="877,2314 2123,2314 2123,2360 877,2360"/>
       <TextLine id="region0009_line0011" custom="readingOrder {index:0;}">
         <Coords points="2033,2317 1992,2318 1989,2322 1990,2357 2122,2360 2122,2317"/>
@@ -1652,7 +1668,7 @@ progenies exierit, cum STATIO ſimultanee inueſtiti&#13;
         <Unicode>ne</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.28743812" type="footnote" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="region0010" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.28743812" type="footnote" readingDirection="left-to-right">
       <Coords points="918,2394 2115,2394 2115,2535 918,2535"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="1717,2394 1714,2401 1695,2402 1689,2402 1682,2395 1671,2395 1664,2402 1637,2395 1557,2395 1545,2398 1540,2405 1522,2405 1513,2397 1505,2397 1496,2406 1484,2408 1478,2408 1471,2399 1356,2397 1345,2400 1337,2408 1197,2403 1193,2394 918,2394 919,2452 985,2452 996,2447 1000,2441 1035,2442 1041,2438 1053,2438 1060,2442 1100,2441 1110,2437 1120,2437 1128,2441 1202,2443 1402,2444 1417,2451 1426,2447 1594,2444 1603,2447 1616,2446 1622,2442 1658,2437 1690,2441 1732,2437 1740,2441 1757,2442 1776,2442 1783,2439 1797,2439 1802,2442 1875,2443 1886,2440 1904,2445 1938,2445 1953,2442 1962,2446 2029,2447 2047,2443 2115,2444 2115,2405 2099,2405 2092,2396 2079,2397 2072,2406 2053,2408 2043,2399 2027,2397 1967,2397 1955,2407 1927,2407 1825,2403 1823,2395 1756,2394 1752,2400 1739,2400 1735,2394"/>
@@ -1820,8 +1836,8 @@ progenies exierit, cum STATIO ſimultanee inueſtiti&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(b) Vid. ill. TREVERI Geſchlechts Hiſtorie der Herren von Münch-&#13;
-hauſen, in appendice docum. p. 296. Similes formulas ſupra Cap.&#13;
+        <Unicode>(b) Vid. ill. TREVERI Geſchlechts Hiſtorie der Herren von Münch-
+hauſen, in appendice docum. p. 296. Similes formulas ſupra Cap.
 I. §. XXX. dedimus‧</Unicode>
       </TextEquiv>
     </TextRegion>

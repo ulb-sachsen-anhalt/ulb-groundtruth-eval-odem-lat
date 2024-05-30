@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-196">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:06Z</Created>
     <LastChange>2024-01-19T13:09:06Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/4ea949d1-3277-4a02-945c-113b245497a7/00000039.jpg" imageWidth="2534" imageHeight="3195" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1651481849945_3070"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.2997587" type="heading" readingDirection="left-to-right" id="TextRegion_1651481857977_3076" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1651481857977_3076" custom="readingOrder {index:0;} structure {type:heading;}" orientation="-0.2997587" type="heading" readingDirection="left-to-right">
       <Coords points="254,694 1190,719 1190,752 251,752"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="686,706 673,710 631,711 628,715 629,745 640,752 774,753 782,749 783,740 792,734 792,709"/>
@@ -35,10 +51,10 @@
         <Unicode>23.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2997587" readingDirection="left-to-right" id="TextRegion_1651481857977_3075" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1651481857977_3075" custom="readingOrder {index:1;}" orientation="-0.2997587" readingDirection="left-to-right">
       <Coords points="251,752 1190,752 1205,1261 1174,2430 196,2430 228,1236"/>
       <TextLine id="region0001_line0002" custom="readingOrder {index:0;}">
-        <Coords points="284,748 279,753 279,780 287,787 287,799 292,804 682,811 731,815 739,824 757,824 767,815 804,812 976,815 995,817 1003,827 1011,827 1024,818 1073,815 1094,815 1096,823 1104,828 1119,826 1123,818 1187,818 1188,775 1182,775 1174,767 1164,767 1157,773 1109,776 1081,775 1080,768 1075,763 1031,763 1027,766 1025,774 910,774 900,764 887,766 883,773 870,773 862,764 850,764 843,772 744,773 734,764 725,764 719,771 630,769 623,758 584,758 578,768 504,766 464,762 402,765 400,755 393,751"/>
+        <Coords points="279,753 279,780 287,787 287,799 292,804 682,811 731,815 739,824 757,824 767,815 804,812 976,815 995,817 1003,827 1011,827 1024,818 1073,815 1094,815 1096,823 1104,828 1119,826 1123,818 1187,818 1188,775 1182,775 1174,767 1164,767 1157,773 1109,776 1081,775 1080,768 1075,763 1031,763 1027,766 1025,774 910,774 900,764 887,766 883,773 870,773 862,764 850,764 843,772 744,773 734,764 725,764 719,771 630,769 623,758 584,758 578,768 504,766 464,762 402,765 400,755 394,752 280,752"/>
         <Word id="region0001_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="400,756 331,756 331,791 419,792 419,764 402,765"/>
           <TextEquiv conf="0.89482343">
@@ -1172,7 +1188,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0019" custom="readingOrder {index:26;}">
-        <Coords points="199,2362 198,2400 204,2406 328,2411 346,2414 494,2416 498,2424 513,2427 524,2426 529,2416 575,2417 584,2418 585,2427 590,2432 628,2432 634,2423 1174,2434 1175,2426 1175,2393 1060,2387 1034,2390 956,2389 954,2381 950,2378 936,2380 932,2388 852,2388 844,2379 834,2380 829,2377 817,2378 812,2387 778,2386 767,2384 768,2374 761,2366 753,2366 747,2371 746,2384 698,2384 669,2381 661,2373 652,2373 644,2380 634,2380 583,2375 436,2373 431,2369 398,2373 396,2368 389,2364 380,2364 373,2369"/>
+        <Coords points="198,2400 204,2406 328,2411 346,2414 494,2416 498,2424 513,2427 524,2426 529,2416 575,2417 584,2418 585,2427 588,2430 629,2430 634,2423 977,2430 1174,2430 1174,2392 1060,2387 1034,2390 956,2389 954,2381 950,2378 936,2380 932,2388 852,2388 844,2379 834,2380 829,2377 817,2378 812,2387 778,2386 767,2384 768,2374 761,2366 753,2366 747,2371 746,2384 698,2384 669,2381 661,2373 652,2373 644,2380 634,2380 583,2375 436,2373 431,2369 398,2373 396,2368 389,2364 380,2364 373,2369 199,2362"/>
         <Word id="region0003_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="249,2375 354,2375 354,2402 249,2402"/>
           <TextEquiv conf="0.9079634">
@@ -1220,39 +1236,39 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Diu tamen haec ignominia non hepati&#13;
-moleſta fuit. Incultus enim et indoctus ho-&#13;
-mo, licet nobilis genere, Ludovieus BILSIUS,&#13;
-anatomia incruenta clarus, denuo vindicare&#13;
-ſtuduit hepati dignitatem, incitatus eo me- a&#13;
-dicis Belgicis, qui partes Bilſii defenderunt&#13;
-non ſine gloria ſolum, ſed etiam cum contem-&#13;
-tu doctiorum et ingenio clarorum hominum.&#13;
-In anatome incruenta, quam in vivis corpo-&#13;
-ribus, ligatis arteriis et protruſo ſanguine a&#13;
-parte ad partem 67), praeſtitit, BILSIUS cre-&#13;
-didit inveniſſe vaſa meſenterii chylo repleta,&#13;
-qui ad hepar transeat, in quo ſanguis paretur.&#13;
-Motum deinde Iymphae contrarium illi ſta-&#13;
-tuit, qui antea adſumebatur: vehi enim Iym-&#13;
-pham ab inſula quadam ſeu congerie vaſorum&#13;
-Iymphaticorum in collo ad partes corporis&#13;
-omnes. Hanc opinionem Nicolaus ZASSIUS,&#13;
-medicus Roterodamenſis, cupidus arripuit;&#13;
-cumque BILSIUS literarum rudis eſſet, ZAS-&#13;
-SIUS ipſius nomine 1659 epiſtolicam diſſerta-&#13;
-tionem publicavit, in qua verum hepati uſum&#13;
-ad parandum ſanguinem demonſtrare niteba-&#13;
-tur. Contra hanc opinionem antiquatam&#13;
-ſurrexerunt et diſcipuli Bartholini, et alii ana-&#13;
-tomiae cultores, qui ridiculo eam expoſue-&#13;
+        <Unicode>Diu tamen haec ignominia non hepati
+moleſta fuit. Incultus enim et indoctus ho-
+mo, licet nobilis genere, Ludovieus BILSIUS,
+anatomia incruenta clarus, denuo vindicare
+ſtuduit hepati dignitatem, incitatus eo me- a
+dicis Belgicis, qui partes Bilſii defenderunt
+non ſine gloria ſolum, ſed etiam cum contem-
+tu doctiorum et ingenio clarorum hominum.
+In anatome incruenta, quam in vivis corpo-
+ribus, ligatis arteriis et protruſo ſanguine a
+parte ad partem 67), praeſtitit, BILSIUS cre-
+didit inveniſſe vaſa meſenterii chylo repleta,
+qui ad hepar transeat, in quo ſanguis paretur.
+Motum deinde Iymphae contrarium illi ſta-
+tuit, qui antea adſumebatur: vehi enim Iym-
+pham ab inſula quadam ſeu congerie vaſorum
+Iymphaticorum in collo ad partes corporis
+omnes. Hanc opinionem Nicolaus ZASSIUS,
+medicus Roterodamenſis, cupidus arripuit;
+cumque BILSIUS literarum rudis eſſet, ZAS-
+SIUS ipſius nomine 1659 epiſtolicam diſſerta-
+tionem publicavit, in qua verum hepati uſum
+ad parandum ſanguinem demonſtrare niteba-
+tur. Contra hanc opinionem antiquatam
+ſurrexerunt et diſcipuli Bartholini, et alii ana-
+tomiae cultores, qui ridiculo eam expoſue-
 runt: inter quos primos ordines ducunt HOR-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2997587" type="catch-word" readingDirection="left-to-right" id="TextRegion_1651481849945_3071" custom="readingOrder {index:2;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1651481849945_3071" custom="readingOrder {index:2;} structure {type:catch-word;}" orientation="-0.2997587" type="catch-word" readingDirection="left-to-right">
       <Coords points="196,2430 1174,2430 1172,2488 194,2488"/>
       <TextLine id="region0003_line0020" custom="readingOrder {index:0;}">
-        <Coords points="1023,2450 1018,2455 1018,2482 1032,2493 1173,2496 1174,2454"/>
+        <Coords points="1018,2455 1018,2482 1025,2488 1172,2488 1173,2453 1023,2450"/>
         <Word id="region0003_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="1076,2462 1169,2463 1169,2488 1076,2487"/>
           <TextEquiv conf="0.71555847">
@@ -1267,7 +1283,7 @@ runt: inter quos primos ordines ducunt HOR-</Unicode>
         <Unicode>NIUS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2997587" type="footnote" readingDirection="left-to-right" id="TextRegion_1651481849945_3070" custom="readingOrder {index:3;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1651481849945_3070" custom="readingOrder {index:3;} structure {type:footnote;}" orientation="-0.2997587" type="footnote" readingDirection="left-to-right">
       <Coords points="194,2488 1172,2488 1171,2582 193,2556"/>
       <TextLine id="region0003_line0021" custom="readingOrder {index:0;}">
         <Coords points="328,2493 315,2496 295,2494 289,2497 229,2500 224,2505 223,2533 228,2538 267,2541 306,2550 337,2548 345,2554 354,2554 363,2545 388,2542 525,2550 617,2550 670,2554 786,2556 828,2559 834,2564 843,2564 854,2559 889,2560 915,2565 973,2566 986,2563 1001,2565 1005,2562 1050,2562 1060,2556 1060,2528 1055,2523 954,2518 840,2518 790,2510 748,2509 681,2515 650,2513 645,2507 634,2507 627,2513 620,2513 614,2505 602,2505 594,2512 583,2511 562,2505 527,2505 522,2502 512,2502 493,2509 473,2509 467,2501 456,2501 449,2508 434,2508 401,2506 392,2498 381,2495"/>

@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-44">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:23Z</Created>
     <LastChange>2024-01-19T13:07:23Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/cbfbb414-e748-4150-bc94-f1a4052f431b/00000154.jpg" imageWidth="2383" imageHeight="2876" type="content" primaryLanguage="Latin">
     <Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1675160805163_945"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.058283046" type="page-number" readingDirection="left-to-right" id="TextRegion_1675159971443_526" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1675159971443_526" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="0.058283046" type="page-number" readingDirection="left-to-right">
       <Coords points="695,482 805,482 805,548 695,548"/>
       <TextLine id="line_1675159971475_529" custom="readingOrder {index:0;}">
         <Coords points="695,499 754,501 758,498 768,498 773,502 805,502 805,546 695,546"/>
@@ -39,7 +55,7 @@
         <Unicode>144 CoNs LIUM XXII</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" type="header" readingDirection="left-to-right" id="TextRegion_1675159976160_535" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1675159976160_535" custom="readingOrder {index:1;} structure {type:header;}" orientation="0.058283046" type="header" readingDirection="left-to-right">
       <Coords points="1131,482 1623,482 1623,548 1131,548"/>
       <TextLine id="line_1675159976189_538" custom="readingOrder {index:0;}">
         <Coords points="1131,485 1185,485 1242,492 1266,492 1302,489 1429,489 1464,482 1622,482 1622,538 1491,539 1386,535 1140,543 1131,542"/>
@@ -64,7 +80,7 @@
         <Unicode>CONSILIUM XXII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:2;}">
+    <TextRegion id="region0006" custom="readingOrder {index:2;}" orientation="0.058283046" readingDirection="left-to-right">
       <Coords points="694,557 2119,557 2119,1179 694,1179"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="817,558 810,564 787,566 779,572 741,570 734,562 723,562 717,569 694,569 694,622 728,620 735,614 745,611 767,615 790,614 796,611 962,615 968,621 978,621 984,616 1035,614 1041,617 1123,617 1147,623 1155,621 1157,617 1173,615 1303,613 1378,609 1633,612 1638,620 1646,622 1661,621 1672,612 1776,609 1830,611 1837,621 1856,621 1861,617 1863,610 2087,609 2109,608 2118,602 2118,563 2076,563 2072,557 2056,557 2050,564 2029,566 1997,565 1993,557 1977,557 1972,563 1954,561 1951,557 1925,557 1919,561 1906,563 1901,563 1898,557 1879,557 1875,565 1759,567 1750,567 1746,557 1724,557 1715,567 1643,566 1621,563 1616,557 1596,557 1589,563 1559,567 1477,567 1410,564 1396,557 1380,557 1376,565 1255,570 1242,570 1240,557 1172,558 1169,570 1103,569 1096,561 1079,558 1010,558 1004,564 1003,574 968,578 960,572 950,570 873,568 844,565 839,561"/>
@@ -302,7 +318,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1675160291645_652" custom="readingOrder {index:3;}">
-          <Coords points="1001,777 1030,777 1099,777 1099,805 1013,813 1001,813"/>
+          <Coords points="1030,777 1001,777 1001,813 1013,813 1099,805 1099,777 1088,777 1064,779 1045,777"/>
           <TextEquiv>
             <Unicode>potu,</Unicode>
           </TextEquiv>
@@ -705,7 +721,7 @@
         </Word>
         <Word id="region0006_line0011_word0003" custom="readingOrder {index:3;}">
           <Coords points="1145,1115 1345,1114 1345,1073 1249,1077 1243,1070 1232,1070 1226,1077 1214,1078 1145,1078"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>cropinare,</Unicode>
           </TextEquiv>
         </Word>
@@ -760,7 +776,7 @@
         </Word>
         <Word id="region0006_line0012_word0003" custom="readingOrder {index:3;}">
           <Coords points="1103,1156 1312,1155 1312,1125 1298,1126 1294,1121 1277,1120 1272,1126 1232,1127 1221,1131 1177,1129 1171,1122 1158,1122 1151,1117 1144,1118 1138,1124 1125,1123 1119,1127 1103,1127"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>obſervanda</Unicode>
           </TextEquiv>
         </Word>
@@ -781,21 +797,21 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>pio, alburnus, aſſelli, paſſeres: avibus ite·n ſtagnoſis ac paluſtribus in-&#13;
-primis locis gaudentibus.&#13;
-Potus ſit, ſi haberi poſſet, mulſa, Cereviſia Serveſtana, Giebichen-&#13;
-ſteinenſis, aut Keutterlingk dicta. Vinum unicè cavendum. Acida omnis&#13;
-generis tam in potu, quàm cibo vitentur, ea enim lac corrumpunt, il-&#13;
-ludque, dioſcoride teſte, congelaſcere faciunt.&#13;
-Exercitia mediocria ante cibum, alvo prius depoſitâ, ſuſcepta prode-&#13;
-runt: à eibo autem quieſcat, nec ab eo mox balneum ingrediatur. Fructi-&#13;
-bus crudis abſtineat, &amp; eorum loco comedat paſſulas &amp; amygdalas dulces.&#13;
-reâ infectis facimus) obſervanda eidem præſcribere.&#13;
-Quibus omnibus, ſi nihil aut parum proficiatur, non abs re fuerit,&#13;
+        <Unicode>pio, alburnus, aſſelli, paſſeres: avibus ite·n ſtagnoſis ac paluſtribus in-
+primis locis gaudentibus.
+Potus ſit, ſi haberi poſſet, mulſa, Cereviſia Serveſtana, Giebichen-
+ſteinenſis, aut Keutterlingk dicta. Vinum unicè cavendum. Acida omnis
+generis tam in potu, quàm cibo vitentur, ea enim lac corrumpunt, il-
+ludque, dioſcoride teſte, congelaſcere faciunt.
+Exercitia mediocria ante cibum, alvo prius depoſitâ, ſuſcepta prode-
+runt: à eibo autem quieſcat, nec ab eo mox balneum ingrediatur. Fructi-
+bus crudis abſtineat, &amp; eorum loco comedat paſſulas &amp; amygdalas dulces.
+reâ infectis facimus) obſervanda eidem præſcribere.
+Quibus omnibus, ſi nihil aut parum proficiatur, non abs re fuerit,
 nutrici ligni decoctum cropinare, reliquaque (quemadmodum lue Vene-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" type="heading" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0011" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.058283046" type="heading" readingDirection="left-to-right">
       <Coords points="696,1223 2111,1223 2111,1511 696,1511"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1693,1233 1688,1238 1688,1248 1669,1249 1593,1250 1533,1255 1378,1253 1132,1259 1004,1268 908,1270 903,1275 903,1319 908,1324 1103,1330 1213,1324 1390,1325 1466,1318 1533,1320 1543,1313 1548,1314 1555,1322 1677,1323 1745,1321 1751,1315 1761,1315 1773,1320 1863,1316 1873,1315 1879,1309 1892,1309 1897,1304 1897,1252 1892,1247 1712,1247 1704,1234"/>
@@ -872,15 +888,15 @@ nutrici ligni decoctum cropinare, reliquaque (quemadmodum lue Vene-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>CONSILIVM XXII.&#13;
-IN CURATIONE ET PRÆSERVA-&#13;
+        <Unicode>CONSILIVM XXII.
+IN CURATIONE ET PRÆSERVA-
 TIONE PAROXYSMI EPILEPTICI.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="drop-capital" id="region_1675160076058_566" custom="readingOrder {index:4;} structure {type:drop-capital;}">
+    <TextRegion id="region_1675160076058_566" custom="readingOrder {index:4;} structure {type:drop-capital;}" type="drop-capital">
       <Coords points="683,1518 949,1518 949,1775 683,1775"/>
       <TextLine id="line_1675160071247_563" custom="readingOrder {index:0;}">
-        <Coords points="692,1520 947,1520 947,1777 692,1777"/>
+        <Coords points="947,1520 692,1520 692,1775 947,1775"/>
         <Word id="word_1675160065055_560" custom="readingOrder {index:0;}">
           <Coords points="703,1526 940,1526 940,1771 703,1771"/>
           <TextEquiv>
@@ -895,10 +911,10 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
         <Unicode>Q</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" readingDirection="left-to-right" id="TextRegion_1675160049785_557" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1675160049785_557" custom="readingOrder {index:5;}" orientation="0.058283046" readingDirection="left-to-right">
       <Coords points="938,1513 2121,1503 2125,1771 947,1771 941,1611"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1927,1503 1926,1519 1864,1521 1782,1520 1775,1511 1764,1511 1757,1518 1751,1519 1713,1519 1706,1509 1683,1511 1676,1519 1670,1520 1560,1519 1546,1518 1538,1506 1524,1507 1514,1518 1509,1519 1353,1522 1347,1521 1340,1514 1331,1514 1319,1523 1245,1524 1240,1516 1228,1515 1220,1524 1060,1529 1033,1529 1026,1519 1014,1519 1006,1528 1001,1528 983,1518 895,1517 887,1518 887,1558 888,1569 893,1574 961,1574 984,1569 1018,1572 1106,1572 1132,1569 1149,1577 1158,1576 1164,1571 1212,1568 1245,1568 1256,1569 1265,1574 1283,1574 1293,1570 1341,1564 1370,1567 1379,1573 1392,1572 1398,1566 1452,1564 1485,1564 1486,1569 1490,1571 1502,1572 1509,1569 1512,1563 1605,1563 1619,1558 1651,1564 1653,1568 1662,1571 1674,1570 1679,1564 1698,1563 1718,1563 1720,1568 1732,1571 1746,1561 1753,1564 1811,1564 1817,1561 1832,1561 1856,1567 1866,1567 1872,1563 1886,1563 1891,1566 1913,1563 2120,1562 2120,1516 2019,1518 2017,1510 2012,1506 1983,1506 1976,1511 1962,1509 1955,1518 1948,1519 1946,1503"/>
+        <Coords points="1926,1519 1864,1521 1782,1520 1775,1511 1764,1511 1757,1518 1751,1519 1713,1519 1706,1509 1683,1511 1676,1519 1670,1520 1560,1519 1546,1518 1539,1507 1523,1508 1514,1518 1509,1519 1353,1522 1347,1521 1340,1514 1331,1514 1319,1523 1245,1524 1240,1516 1228,1515 1220,1524 1060,1529 1033,1529 1026,1519 1014,1519 1006,1528 1001,1528 983,1518 938,1517 939,1574 961,1574 984,1569 1018,1572 1106,1572 1132,1569 1149,1577 1158,1576 1164,1571 1212,1568 1245,1568 1256,1569 1265,1574 1283,1574 1293,1570 1341,1564 1370,1567 1379,1573 1392,1572 1398,1566 1452,1564 1485,1564 1486,1569 1490,1571 1502,1572 1509,1569 1512,1563 1605,1563 1619,1558 1651,1564 1653,1568 1662,1571 1674,1570 1679,1564 1698,1563 1718,1563 1720,1568 1732,1571 1746,1561 1753,1564 1811,1564 1817,1561 1832,1561 1856,1567 1866,1567 1872,1563 1886,1563 1891,1566 1913,1563 2120,1562 2120,1516 2019,1518 2017,1510 2012,1506 1983,1506 1976,1511 1962,1509 1955,1518 1948,1519 1946,1504 1926,1504"/>
         <Baseline points="888,1564 2120,1552"/>
         <Word id="region0012_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="942,1558 1203,1558 1203,1524 1060,1529 1033,1529 1026,1519 1014,1519 1006,1528 1001,1528 983,1518 942,1517"/>
@@ -935,11 +951,11 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0002" custom="readingOrder {index:1;}">
-        <Coords points="1619,1559 1607,1563 1603,1569 1519,1569 1502,1573 1483,1569 1441,1569 1379,1574 1373,1572 1357,1572 1356,1568 1350,1565 1341,1565 1335,1567 1333,1572 1293,1571 1283,1575 1202,1573 1168,1574 1149,1578 1138,1576 1132,1570 1120,1570 1114,1577 1108,1577 1101,1571 1078,1571 1070,1577 1040,1579 1017,1572 984,1570 961,1579 896,1583 893,1587 893,1617 896,1621 1215,1621 1306,1615 1377,1616 1416,1620 1478,1620 1481,1615 1636,1611 1786,1612 1845,1617 1899,1613 1963,1613 1972,1614 1975,1620 2002,1620 2005,1614 2120,1612 2120,1567 2096,1567 2090,1562 2076,1562 2071,1568 2032,1569 1891,1569 1886,1564 1856,1568 1832,1562 1817,1562 1787,1569 1781,1569 1775,1563 1761,1563 1756,1569 1754,1565 1746,1562 1732,1572 1722,1569 1677,1569 1662,1572 1654,1569 1636,1569 1633,1562"/>
+        <Coords points="1607,1563 1603,1569 1519,1569 1502,1573 1483,1569 1441,1569 1379,1574 1373,1572 1357,1572 1356,1568 1350,1565 1341,1565 1335,1567 1333,1572 1293,1571 1283,1575 1202,1573 1168,1574 1149,1578 1138,1576 1132,1570 1120,1570 1114,1577 1108,1577 1101,1571 1078,1571 1070,1577 1040,1579 1017,1572 984,1570 961,1579 940,1580 941,1611 941,1621 1215,1621 1306,1615 1377,1616 1416,1620 1478,1620 1481,1615 1636,1611 1786,1612 1845,1617 1899,1613 1963,1613 1972,1614 1975,1620 2002,1620 2005,1614 2120,1612 2120,1567 2096,1567 2090,1562 2076,1562 2071,1568 2032,1569 1891,1569 1886,1564 1856,1568 1832,1562 1817,1562 1787,1569 1781,1569 1775,1563 1761,1563 1756,1569 1754,1565 1746,1562 1732,1572 1722,1569 1677,1569 1662,1572 1654,1569 1636,1569 1633,1562 1619,1559"/>
         <Baseline points="893,1612 2120,1602"/>
         <Word id="region0012_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="957,1607 1006,1607 1006,1571 984,1570 961,1579 957,1579"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>eſt</Unicode>
           </TextEquiv>
         </Word>
@@ -996,7 +1012,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0013_line0001" custom="readingOrder {index:2;}">
-        <Coords points="1260,1612 1250,1621 1241,1622 1129,1625 1124,1617 1112,1616 1104,1619 1099,1625 1082,1627 1070,1627 1063,1619 1053,1619 1046,1628 900,1629 895,1634 895,1661 900,1666 993,1671 1115,1671 1183,1666 1279,1666 1318,1668 1323,1672 1332,1672 1338,1668 1419,1666 1421,1672 1445,1672 1447,1666 1498,1664 1607,1665 1611,1672 1627,1672 1632,1664 1663,1663 1973,1664 1977,1667 1988,1667 1992,1664 2118,1664 2118,1619 2100,1618 2096,1611 2075,1611 2074,1617 2070,1619 2027,1620 1900,1619 1894,1618 1888,1611 1876,1611 1870,1620 1850,1620 1844,1611 1831,1611 1825,1619 1706,1620 1703,1611 1658,1611 1654,1619 1557,1619 1553,1611 1534,1611 1529,1620 1357,1624 1318,1623 1316,1617 1309,1612 1298,1613 1293,1622 1277,1621 1271,1613"/>
+        <Coords points="1250,1621 1241,1622 1129,1625 1124,1617 1112,1616 1104,1619 1099,1625 1082,1627 1070,1627 1063,1619 1053,1619 1046,1628 941,1628 943,1668 993,1671 1115,1671 1183,1666 1279,1666 1318,1668 1323,1672 1332,1672 1338,1668 1419,1666 1421,1672 1445,1672 1447,1666 1498,1664 1607,1665 1611,1672 1627,1672 1632,1664 1663,1663 1973,1664 1977,1667 1988,1667 1992,1664 2118,1664 2118,1619 2100,1618 2096,1611 2075,1611 2074,1617 2070,1619 2027,1620 1900,1619 1894,1618 1888,1611 1876,1611 1870,1620 1850,1620 1844,1611 1831,1611 1825,1619 1706,1620 1703,1611 1658,1611 1654,1619 1557,1619 1553,1611 1534,1611 1529,1620 1357,1624 1318,1623 1316,1617 1309,1612 1298,1613 1293,1622 1277,1621 1271,1613 1260,1612"/>
         <Baseline points="895,1657 2118,1654"/>
         <Word id="region0013_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="1052,1620 1046,1628 956,1628 956,1656 1164,1656 1164,1624 1129,1625 1125,1620 1103,1620 1099,1625 1082,1627 1070,1627 1063,1620"/>
@@ -1047,13 +1063,13 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
       <TextLine id="line_1675160605004_755" custom="readingOrder {index:3;}">
         <Coords points="955,1672 2117,1672 2117,1715 955,1715"/>
         <Word id="word_1675160645375_771" custom="readingOrder {index:0;}">
-          <Coords points="958,1678 1071,1678 1071,1717 958,1717"/>
+          <Coords points="1071,1678 958,1678 958,1715 1071,1715"/>
           <TextEquiv>
             <Unicode>motus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160647645_774" custom="readingOrder {index:1;}">
-          <Coords points="1098,1674 1308,1674 1308,1718 1098,1718"/>
+          <Coords points="1308,1674 1098,1674 1098,1715 1308,1715"/>
           <TextEquiv>
             <Unicode>depravatur.</Unicode>
           </TextEquiv>
@@ -1095,7 +1111,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160663199_795" custom="readingOrder {index:8;}">
-          <Coords points="2019,1669 2119,1669 2119,1709 2019,1709"/>
+          <Coords points="2019,1709 2117,1709 2117,1672 2019,1672"/>
           <TextEquiv>
             <Unicode>mali-</Unicode>
           </TextEquiv>
@@ -1107,7 +1123,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
       <TextLine id="line_1675160609883_758" custom="readingOrder {index:4;}">
         <Coords points="955,1725 2114,1725 2114,1764 955,1764"/>
         <Word id="word_1675160666058_798" custom="readingOrder {index:0;}">
-          <Coords points="954,1735 1041,1735 1041,1770 954,1770"/>
+          <Coords points="1041,1735 955,1735 955,1764 1041,1764"/>
           <TextEquiv>
             <Unicode>gnus</Unicode>
           </TextEquiv>
@@ -1137,7 +1153,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160676710_813" custom="readingOrder {index:5;}">
-          <Coords points="1601,1723 1660,1723 1660,1762 1601,1762"/>
+          <Coords points="1601,1762 1660,1762 1660,1725 1601,1725"/>
           <TextEquiv>
             <Unicode>vel</Unicode>
           </TextEquiv>
@@ -1149,7 +1165,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160680171_819" custom="readingOrder {index:7;}">
-          <Coords points="1727,1723 1847,1723 1847,1760 1727,1760"/>
+          <Coords points="1727,1760 1847,1760 1847,1725 1727,1725"/>
           <TextEquiv>
             <Unicode>aliquo</Unicode>
           </TextEquiv>
@@ -1161,7 +1177,7 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160684688_825" custom="readingOrder {index:9;}">
-          <Coords points="2060,1722 2119,1722 2119,1763 2060,1763"/>
+          <Coords points="2060,1763 2114,1763 2114,1725 2060,1725"/>
           <TextEquiv>
             <Unicode>vel</Unicode>
           </TextEquiv>
@@ -1171,19 +1187,19 @@ TIONE PAROXYSMI EPILEPTICI.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Uotiescunque ingruit paroxyſmus epilepticus, certiſſimum&#13;
-eſt indicium, materiam, quæ cauſa morbi eſt, irrumpere in&#13;
-ventriculos cerebri, eosque ad expulſionem irritare: unde&#13;
-motus depravatur. Haec autem materia eſt vel vapor mali-&#13;
+        <Unicode>Uotiescunque ingruit paroxyſmus epilepticus, certiſſimum
+eſt indicium, materiam, quæ cauſa morbi eſt, irrumpere in
+ventriculos cerebri, eosque ad expulſionem irritare: unde
+motus depravatur. Haec autem materia eſt vel vapor mali-
 gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" readingDirection="left-to-right" id="TextRegion_1675160799109_937" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1675160799109_937" custom="readingOrder {index:6;}" orientation="0.058283046" readingDirection="left-to-right">
       <Coords points="687,1769 2125,1769 2128,2480 1780,2504 737,2517 690,2510"/>
       <TextLine id="line_1675160616997_761" custom="readingOrder {index:0;}">
         <Coords points="690,1783 2119,1783 2119,1821 690,1821"/>
         <Word id="word_1675160687726_828" custom="readingOrder {index:0;}">
-          <Coords points="688,1784 750,1784 750,1818 688,1818"/>
+          <Coords points="750,1818 750,1784 690,1784 690,1818"/>
           <TextEquiv>
             <Unicode>eſt</Unicode>
           </TextEquiv>
@@ -1201,49 +1217,49 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160693358_837" custom="readingOrder {index:3;}">
-          <Coords points="1021,1781 1151,1781 1151,1829 1021,1829"/>
+          <Coords points="1151,1783 1021,1783 1021,1821 1151,1821"/>
           <TextEquiv>
             <Unicode>vapor,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160695034_840" custom="readingOrder {index:4;}">
-          <Coords points="1169,1776 1221,1776 1221,1812 1169,1812"/>
+          <Coords points="1169,1812 1221,1812 1221,1783 1169,1783"/>
           <TextEquiv>
             <Unicode>ſed</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160697298_843" custom="readingOrder {index:5;}">
-          <Coords points="1245,1778 1378,1778 1378,1807 1245,1807"/>
+          <Coords points="1245,1807 1378,1807 1378,1783 1245,1783"/>
           <TextEquiv>
             <Unicode>minera</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160699665_846" custom="readingOrder {index:6;}">
-          <Coords points="1399,1780 1541,1780 1541,1806 1399,1806"/>
+          <Coords points="1399,1806 1541,1806 1541,1783 1399,1783"/>
           <TextEquiv>
             <Unicode>vaporis.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160701495_849" custom="readingOrder {index:7;}">
-          <Coords points="1584,1773 1640,1773 1640,1814 1584,1814"/>
+          <Coords points="1584,1814 1640,1814 1640,1783 1584,1783"/>
           <TextEquiv>
             <Unicode>Eſt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160703618_852" custom="readingOrder {index:8;}">
-          <Coords points="1660,1773 1788,1773 1788,1807 1660,1807"/>
+          <Coords points="1660,1807 1788,1807 1788,1783 1660,1783"/>
           <TextEquiv>
             <Unicode>humor</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160705594_855" custom="readingOrder {index:9;}">
-          <Coords points="1803,1778 1936,1778 1936,1811 1803,1811"/>
+          <Coords points="1803,1811 1936,1811 1936,1783 1803,1783"/>
           <TextEquiv>
             <Unicode>tenuis,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160707875_858" custom="readingOrder {index:10;}">
-          <Coords points="1952,1770 2114,1770 2114,1812 1952,1812"/>
+          <Coords points="1952,1812 2114,1812 2114,1783 1952,1783"/>
           <TextEquiv>
             <Unicode>flatulen-</Unicode>
           </TextEquiv>
@@ -1255,13 +1271,13 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
       <TextLine id="line_1675160624146_764" custom="readingOrder {index:1;}">
         <Coords points="690,1826 2119,1826 2119,1870 690,1870"/>
         <Word id="word_1675160710936_861" custom="readingOrder {index:0;}">
-          <Coords points="694,1838 774,1838 774,1873 694,1873"/>
+          <Coords points="774,1838 694,1838 694,1870 774,1870"/>
           <TextEquiv>
             <Unicode>tus,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160712541_864" custom="readingOrder {index:1;}">
-          <Coords points="799,1836 857,1836 857,1873 799,1873"/>
+          <Coords points="857,1836 799,1836 799,1870 857,1870"/>
           <TextEquiv>
             <Unicode>qui</Unicode>
           </TextEquiv>
@@ -1297,13 +1313,13 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160726482_882" custom="readingOrder {index:7;}">
-          <Coords points="1401,1822 1584,1822 1584,1868 1401,1868"/>
+          <Coords points="1401,1868 1584,1868 1584,1826 1401,1826"/>
           <TextEquiv>
             <Unicode>diſſipatur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160728419_885" custom="readingOrder {index:8;}">
-          <Coords points="1628,1822 1695,1822 1695,1864 1628,1864"/>
+          <Coords points="1628,1864 1695,1864 1695,1826 1628,1826"/>
           <TextEquiv>
             <Unicode>Ut</Unicode>
           </TextEquiv>
@@ -1327,7 +1343,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160735551_897" custom="readingOrder {index:12;}">
-          <Coords points="2041,1829 2121,1829 2121,1860 2041,1860"/>
+          <Coords points="2041,1829 2041,1860 2119,1860 2119,1829"/>
           <TextEquiv>
             <Unicode>ex-</Unicode>
           </TextEquiv>
@@ -1375,7 +1391,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675160752905_918" custom="readingOrder {index:6;}">
-          <Coords points="1619,1874 1754,1874 1754,1917 1619,1917"/>
+          <Coords points="1619,1917 1754,1917 1754,1876 1619,1876"/>
           <TextEquiv>
             <Unicode>juvare,</Unicode>
           </TextEquiv>
@@ -1452,7 +1468,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0003" custom="readingOrder {index:4;}">
-        <Coords points="1951,1964 1945,1966 1939,1976 1832,1973 1828,1976 1769,1977 1767,1970 1761,1965 1748,1966 1742,1976 1632,1975 1625,1967 1614,1967 1605,1975 1585,1976 1580,1968 1569,1967 1563,1971 1561,1977 1556,1978 1460,1978 1455,1970 1444,1969 1435,1973 1417,1972 1408,1979 1380,1979 1377,1973 1362,1972 1356,1974 1353,1981 1341,1981 1336,1984 1283,1980 1281,1975 1276,1973 1265,1973 1257,1980 1031,1987 899,1986 880,1980 864,1979 826,1982 814,1989 742,1991 735,1997 735,2028 743,2035 828,2035 870,2031 890,2032 895,2037 906,2039 947,2029 1003,2030 1006,2037 1019,2039 1027,2037 1029,2030 1046,2029 1195,2025 1200,2026 1205,2032 1213,2033 1225,2027 1319,2024 1335,2020 1344,2023 1486,2023 1490,2026 1519,2023 1522,2029 1541,2028 1549,2020 1868,2020 1894,2021 1896,2027 1902,2029 1919,2028 1923,2021 2128,2020 2128,1975 1993,1976 1985,1965 1965,1967 1961,1964"/>
+        <Coords points="1945,1966 1939,1976 1832,1973 1828,1976 1769,1977 1767,1970 1761,1965 1748,1966 1742,1976 1632,1975 1625,1967 1614,1967 1605,1975 1585,1976 1580,1968 1569,1967 1563,1971 1561,1977 1556,1978 1460,1978 1455,1970 1444,1969 1435,1973 1417,1972 1408,1979 1380,1979 1377,1973 1362,1972 1356,1974 1353,1981 1341,1981 1336,1984 1283,1980 1281,1975 1276,1973 1265,1973 1257,1980 1031,1987 899,1986 880,1980 864,1979 826,1982 814,1989 742,1991 735,1997 735,2028 743,2035 828,2035 870,2031 890,2032 895,2037 906,2039 947,2029 1003,2030 1006,2037 1019,2039 1027,2037 1029,2030 1046,2029 1195,2025 1200,2026 1205,2032 1213,2033 1225,2027 1319,2024 1335,2020 1344,2023 1486,2023 1490,2026 1519,2023 1522,2029 1541,2028 1549,2020 1868,2020 1894,2021 1896,2027 1902,2029 1919,2028 1923,2021 2126,2020 2125,1975 1993,1976 1985,1965 1965,1967 1961,1964 1951,1964"/>
         <Baseline points="735,2025 1329,2013 2128,2010"/>
         <Word id="region0015_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="796,2011 826,2011 826,1986 819,1986 814,1989 796,1989"/>
@@ -1467,7 +1483,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1675161161799_1621" custom="readingOrder {index:2;}">
-          <Coords points="962,1986 1165,1982 1165,2025 1130,2025 962,2019"/>
+          <Coords points="962,2019 1130,2025 1165,2025 1165,1982 1031,1987 962,1986"/>
           <TextEquiv>
             <Unicode>exponatur</Unicode>
           </TextEquiv>
@@ -1519,7 +1535,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0004" custom="readingOrder {index:5;}">
-        <Coords points="1746,2019 1738,2025 1706,2028 1559,2029 1556,2022 1549,2021 1541,2029 1443,2031 1433,2031 1431,2024 1426,2022 1410,2024 1407,2030 1376,2028 1372,2031 1346,2031 1345,2024 1335,2021 1322,2023 1314,2031 1246,2029 1213,2034 1205,2033 1200,2027 1195,2026 1184,2026 1179,2031 1131,2027 1092,2030 1081,2038 1019,2040 961,2038 959,2032 953,2030 943,2031 937,2038 911,2040 858,2032 853,2035 829,2035 807,2041 729,2041 724,2046 725,2077 737,2087 818,2087 879,2083 885,2089 896,2089 902,2083 915,2082 1173,2081 1282,2074 1324,2075 1330,2084 1347,2085 1354,2080 1356,2074 1387,2073 1519,2074 1546,2077 1554,2083 1573,2083 1585,2077 1636,2074 1645,2084 1660,2084 1668,2074 1674,2073 1749,2072 1779,2075 1783,2078 1823,2076 1830,2083 1847,2083 1854,2074 1869,2073 1989,2073 1996,2074 2004,2083 2017,2084 2031,2079 2035,2074 2129,2070 2128,2025 1916,2030 1814,2027 1783,2030 1768,2028 1764,2022 1753,2023"/>
+        <Coords points="1738,2025 1706,2028 1559,2029 1556,2022 1549,2021 1541,2029 1443,2031 1433,2031 1431,2024 1426,2022 1410,2024 1407,2030 1376,2028 1372,2031 1346,2031 1345,2024 1335,2021 1322,2023 1314,2031 1246,2029 1213,2034 1205,2033 1200,2027 1195,2026 1184,2026 1179,2031 1131,2027 1092,2030 1081,2038 1019,2040 961,2038 959,2032 953,2030 943,2031 937,2038 911,2040 858,2032 853,2035 829,2035 807,2041 729,2041 724,2046 725,2077 737,2087 818,2087 879,2083 885,2089 896,2089 902,2083 915,2082 1173,2081 1282,2074 1324,2075 1330,2084 1347,2085 1354,2080 1356,2074 1387,2073 1519,2074 1546,2077 1554,2083 1573,2083 1585,2077 1636,2074 1645,2084 1660,2084 1668,2074 1674,2073 1749,2072 1779,2075 1783,2078 1823,2076 1830,2083 1847,2083 1854,2074 1869,2073 1989,2073 1996,2074 2004,2083 2017,2084 2031,2079 2035,2074 2126,2070 2126,2025 1916,2030 1814,2027 1783,2030 1768,2028 1764,2022 1753,2023 1746,2019"/>
         <Baseline points="725,2076 2129,2061"/>
         <Word id="region0015_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="789,2041 822,2041 823,2066 790,2066"/>
@@ -1605,7 +1621,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0006" custom="readingOrder {index:7;}">
-        <Coords points="2027,2123 2022,2127 2020,2135 2011,2137 2001,2137 1999,2128 1994,2124 1978,2127 1973,2136 1965,2136 1958,2126 1947,2126 1940,2135 1915,2135 1911,2127 1897,2125 1890,2135 1740,2133 1636,2137 1601,2137 1586,2134 1534,2136 1528,2127 1516,2126 1507,2136 1267,2136 1143,2142 1127,2140 1118,2143 1003,2144 928,2144 890,2138 834,2138 806,2148 747,2149 740,2155 740,2185 746,2191 793,2193 795,2199 807,2201 817,2192 827,2190 844,2190 850,2193 899,2193 910,2187 1044,2188 1070,2189 1072,2194 1087,2196 1101,2188 1125,2187 1155,2191 1160,2188 1244,2181 1276,2182 1279,2187 1289,2189 1298,2187 1301,2182 1318,2179 1454,2178 1478,2182 1603,2182 1618,2179 1623,2182 1651,2183 1677,2180 1813,2178 1859,2174 1907,2180 2129,2182 2129,2128 2104,2125 2095,2134 2089,2135 2084,2125 2070,2123 2063,2126 2055,2137 2049,2137 2041,2124"/>
+        <Coords points="2022,2127 2020,2135 2011,2137 2001,2137 1999,2128 1994,2124 1978,2127 1973,2136 1965,2136 1958,2126 1947,2126 1940,2135 1915,2135 1911,2127 1897,2125 1890,2135 1740,2133 1636,2137 1601,2137 1586,2134 1534,2136 1528,2127 1516,2126 1507,2136 1267,2136 1143,2142 1127,2140 1118,2143 1003,2144 928,2144 890,2138 834,2138 806,2148 747,2149 740,2155 740,2185 746,2191 793,2193 795,2199 807,2201 817,2192 827,2190 844,2190 850,2193 899,2193 910,2187 1044,2188 1070,2189 1072,2194 1087,2196 1101,2188 1125,2187 1155,2191 1160,2188 1244,2181 1276,2182 1279,2187 1289,2189 1298,2187 1301,2182 1318,2179 1454,2178 1478,2182 1603,2182 1618,2179 1623,2182 1651,2183 1677,2180 1813,2178 1859,2174 1907,2180 2126,2181 2126,2127 2104,2125 2095,2134 2089,2135 2084,2125 2070,2123 2063,2126 2055,2137 2049,2137 2041,2124 2027,2123"/>
         <Baseline points="740,2183 1821,2165 2129,2172"/>
         <Word id="region0015_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="802,2181 831,2181 831,2146 811,2146 806,2148 802,2148"/>
@@ -1678,7 +1694,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0007" custom="readingOrder {index:8;}">
-        <Coords points="1853,2175 1818,2177 1811,2179 1806,2185 1793,2186 1691,2186 1652,2189 1627,2189 1624,2183 1618,2180 1608,2180 1601,2184 1600,2190 1555,2191 1547,2182 1531,2183 1528,2189 1521,2182 1507,2183 1503,2189 1489,2189 1465,2188 1462,2182 1454,2179 1441,2179 1437,2181 1436,2187 1428,2188 1336,2188 1333,2181 1318,2180 1313,2182 1311,2188 1289,2190 1180,2190 1087,2197 929,2197 927,2189 910,2188 902,2191 897,2198 853,2200 852,2195 847,2192 827,2191 817,2193 807,2202 786,2200 693,2203 692,2250 741,2250 757,2245 766,2255 774,2253 776,2249 813,2247 819,2244 846,2246 920,2241 932,2243 960,2238 976,2238 981,2241 1025,2238 1111,2240 1116,2244 1125,2244 1132,2239 1273,2233 1466,2232 1571,2235 1771,2231 1778,2241 1792,2241 1804,2232 1891,2231 1896,2241 1908,2244 1918,2243 1923,2231 2129,2233 2129,2187 1899,2187 1887,2186 1886,2181 1879,2177"/>
+        <Coords points="1818,2177 1811,2179 1806,2185 1793,2186 1691,2186 1652,2189 1627,2189 1624,2183 1618,2180 1608,2180 1601,2184 1600,2190 1555,2191 1547,2182 1531,2183 1528,2189 1521,2182 1507,2183 1503,2189 1489,2189 1465,2188 1462,2182 1454,2179 1441,2179 1437,2181 1436,2187 1428,2188 1336,2188 1333,2181 1318,2180 1313,2182 1311,2188 1289,2190 1180,2190 1087,2197 929,2197 927,2189 910,2188 902,2191 897,2198 853,2200 852,2195 847,2192 827,2191 817,2193 807,2202 786,2200 693,2203 692,2250 741,2250 757,2245 766,2255 774,2253 776,2249 813,2247 819,2244 846,2246 920,2241 932,2243 960,2238 976,2238 981,2241 1025,2238 1111,2240 1116,2244 1125,2244 1132,2239 1273,2233 1466,2232 1571,2235 1771,2231 1778,2241 1792,2241 1804,2232 1891,2231 1896,2241 1908,2244 1918,2243 1923,2231 2126,2232 2126,2187 1899,2187 1887,2186 1886,2181 1879,2177 1853,2175"/>
         <Baseline points="692,2240 1267,2223 2129,2223"/>
         <Word id="region0015_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="701,2223 745,2223 745,2201 701,2202"/>
@@ -1788,7 +1804,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0009" custom="readingOrder {index:10;}">
-        <Coords points="1873,2282 1863,2288 1812,2285 1774,2293 1734,2292 1730,2295 1709,2296 1682,2295 1675,2285 1662,2284 1652,2295 1625,2295 1613,2292 1608,2296 1556,2298 1549,2298 1547,2289 1541,2285 1529,2285 1514,2297 1466,2295 1461,2286 1446,2285 1438,2292 1392,2287 1365,2290 1345,2298 1276,2298 1225,2293 1219,2287 1210,2287 1202,2293 1143,2302 1078,2301 1071,2291 1057,2292 1047,2301 967,2305 920,2306 915,2304 912,2297 898,2297 893,2301 835,2300 815,2309 739,2311 734,2316 734,2344 739,2349 757,2349 763,2357 812,2360 852,2353 905,2353 910,2358 921,2359 930,2358 940,2348 951,2347 966,2349 1310,2343 1351,2344 1357,2349 1368,2349 1375,2344 1450,2341 1607,2344 1718,2340 2129,2339 2129,2294 2107,2294 2105,2287 2099,2283 2076,2283 2071,2285 2065,2294 2054,2295 1917,2295 1911,2294 1904,2285 1889,2288 1882,2282"/>
+        <Coords points="1863,2288 1812,2285 1774,2293 1734,2292 1730,2295 1709,2296 1682,2295 1675,2285 1662,2284 1652,2295 1625,2295 1613,2292 1608,2296 1556,2298 1549,2298 1547,2289 1541,2285 1529,2285 1514,2297 1466,2295 1461,2286 1446,2285 1438,2292 1392,2287 1365,2290 1345,2298 1276,2298 1225,2293 1219,2287 1210,2287 1202,2293 1143,2302 1078,2301 1071,2291 1057,2292 1047,2301 967,2305 920,2306 915,2304 912,2297 898,2297 893,2301 835,2300 815,2309 739,2311 734,2316 734,2344 739,2349 757,2349 763,2357 812,2360 852,2353 905,2353 910,2358 921,2359 930,2358 940,2348 951,2347 966,2349 1310,2343 1351,2344 1357,2349 1368,2349 1375,2344 1450,2341 1607,2344 1718,2340 2127,2339 2127,2294 2107,2294 2105,2287 2099,2283 2076,2283 2071,2285 2065,2294 2054,2295 1917,2295 1911,2294 1904,2285 1889,2288 1882,2282 1873,2282"/>
         <Baseline points="734,2341 2129,2329"/>
         <Word id="region0015_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="801,2338 817,2338 817,2308 815,2309 801,2309"/>
@@ -1941,7 +1957,7 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0015_line0012" custom="readingOrder {index:13;}">
-        <Coords points="1818,2435 1807,2445 1715,2448 1705,2448 1703,2440 1695,2437 1677,2440 1672,2448 1590,2448 1584,2440 1567,2441 1564,2448 1430,2446 1424,2438 1400,2438 1393,2446 1384,2447 1327,2450 1323,2444 1310,2444 1301,2452 1174,2455 1119,2461 1085,2459 1083,2453 1078,2451 1064,2452 1061,2459 981,2457 978,2452 972,2450 958,2452 955,2457 914,2459 912,2452 894,2450 883,2458 868,2457 863,2453 847,2453 840,2457 802,2462 727,2462 722,2467 722,2489 727,2494 754,2494 755,2516 760,2521 820,2521 826,2511 872,2507 1191,2501 1203,2502 1212,2509 1225,2509 1232,2502 1428,2493 1827,2493 1834,2503 1852,2504 1858,2500 1860,2492 2023,2488 2026,2475 2031,2468 2028,2456 2003,2453 1999,2448 1990,2445 1917,2444 1909,2443 1901,2436 1891,2436 1884,2446 1875,2437 1864,2437 1856,2447 1847,2447 1842,2445 1842,2440 1837,2435"/>
+        <Coords points="1807,2445 1715,2448 1705,2448 1703,2440 1695,2437 1677,2440 1672,2448 1590,2448 1584,2440 1567,2441 1564,2448 1430,2446 1424,2438 1400,2438 1393,2446 1384,2447 1327,2450 1323,2444 1310,2444 1301,2452 1174,2455 1119,2461 1085,2459 1083,2453 1078,2451 1064,2452 1061,2459 981,2457 978,2452 972,2450 958,2452 955,2457 914,2459 912,2452 894,2450 883,2458 868,2457 863,2453 847,2453 840,2457 802,2462 727,2462 722,2467 722,2489 727,2494 754,2494 755,2516 755,2516 823,2515 826,2511 872,2507 1191,2501 1203,2502 1212,2509 1225,2509 1232,2502 1428,2493 1827,2493 1832,2500 1858,2498 1860,2492 2005,2488 2023,2487 2026,2475 2031,2468 2028,2456 2003,2453 1999,2448 1990,2445 1917,2444 1909,2443 1901,2436 1891,2436 1884,2446 1875,2437 1864,2437 1856,2447 1847,2447 1842,2445 1842,2440 1837,2435 1818,2435"/>
         <Baseline points="755,2512 859,2497 2025,2478"/>
         <Word id="region0015_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="790,2497 825,2497 825,2459 825,2459 802,2462 790,2462"/>
@@ -2002,23 +2018,23 @@ gnus ex venenata materia ortus, vel ex aliquo humore? vel</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>eſt minera, non vapor, ſed minera vaporis. Eſt humor tenuis, flatulen-&#13;
-tus, qui facilè in flatus reſolvitur &amp; diſſipatur. Ut ergò talis materia ex-&#13;
-pellatur, neceſſe eſt omnibus modis naturam juvare, ut non mogo ex-&#13;
-pellat, ſed etiam diſcutiat &amp; difſipet.&#13;
-1. Ergo exponatur æger loco lucido, quia lumen juvat expulſionem.&#13;
-2. Aperiatur os &amp; dentes ſpatula ex ligno paratâ, quæ intingatur&#13;
-guento.&#13;
-3. Elevetur caput, ne vapores extendantur, non tamen nimis latè ſed&#13;
-ut poſſint ſe movere, ut materia tantò citius à natura poſſit per motum&#13;
-diſcuti &amp; diſſipari.&#13;
-5. Ligentur femora &amp; crura, &amp; deorſum trahantur &amp; fricentur cali-&#13;
-dis pannis, ſi mora admittat.&#13;
-6. Palatum intingatur unguento ſeu Mithridatico.&#13;
+        <Unicode>eſt minera, non vapor, ſed minera vaporis. Eſt humor tenuis, flatulen-
+tus, qui facilè in flatus reſolvitur &amp; diſſipatur. Ut ergò talis materia ex-
+pellatur, neceſſe eſt omnibus modis naturam juvare, ut non mogo ex-
+pellat, ſed etiam diſcutiat &amp; difſipet.
+1. Ergo exponatur æger loco lucido, quia lumen juvat expulſionem.
+2. Aperiatur os &amp; dentes ſpatula ex ligno paratâ, quæ intingatur
+guento.
+3. Elevetur caput, ne vapores extendantur, non tamen nimis latè ſed
+ut poſſint ſe movere, ut materia tantò citius à natura poſſit per motum
+diſcuti &amp; diſſipari.
+5. Ligentur femora &amp; crura, &amp; deorſum trahantur &amp; fricentur cali-
+dis pannis, ſi mora admittat.
+6. Palatum intingatur unguento ſeu Mithridatico.
 7. Infundatur in os aqua hirundinum vel ceraſorum Spiritus.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.058283046" type="catch-word" readingDirection="left-to-right" id="TextRegion_1675160805163_945" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1675160805163_945" custom="readingOrder {index:7;} structure {type:catch-word;}" orientation="0.058283046" type="catch-word" readingDirection="left-to-right">
       <Coords points="1975,2490 2128,2480 2129,2544 1975,2544"/>
       <TextLine id="line_1675160805195_948" custom="readingOrder {index:0;}">
         <Coords points="1975,2492 2024,2491 2024,2487 2041,2486 2038,2491 2068,2489 2079,2492 2091,2486 2129,2488 2129,2541 1975,2541"/>

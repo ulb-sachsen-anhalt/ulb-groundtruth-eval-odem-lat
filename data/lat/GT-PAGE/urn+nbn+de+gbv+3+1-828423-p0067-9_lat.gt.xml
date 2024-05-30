@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-312">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:55Z</Created>
     <LastChange>2024-01-19T13:10:55Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/1be06392-da9c-45f7-99c4-24a57b4c6ed1/00000067.jpg" imageWidth="2674" imageHeight="2961" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1655110246333_2811"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.71261114" readingDirection="left-to-right" id="TextRegion_1655110246333_2811" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1655110246333_2811" custom="readingOrder {index:0;}" orientation="0.71261114" readingDirection="left-to-right">
       <Coords points="175,576 1289,591 1295,2330 1289,2406 1187,2403 446,2426 175,2406"/>
       <TextLine id="line_1655110246364_2814" custom="readingOrder {index:0;}">
         <Coords points="175,582 196,582 233,586 239,578 249,577 255,581 258,588 293,601 398,612 434,612 446,596 465,593 476,603 476,615 490,615 531,616 535,601 553,599 558,604 559,617 577,617 1077,607 1282,615 1283,668 1203,668 1202,678 1198,683 1185,684 1171,681 1168,677 1168,668 1165,666 1098,663 1050,663 1050,674 1047,678 1040,682 1025,682 1019,675 1016,665 1002,665 990,673 980,673 972,665 896,664 758,670 544,673 370,667 368,681 364,684 354,684 340,682 337,679 336,664 289,659 253,659 220,652 214,657 202,657 195,654 188,644 175,641"/>
@@ -443,7 +459,7 @@
         <Coords points="175,1270 176,1270 182,1275 184,1288 192,1273 201,1267 221,1274 223,1292 262,1297 271,1292 279,1292 287,1296 290,1305 309,1311 343,1317 410,1322 424,1327 428,1332 435,1321 446,1316 463,1317 469,1325 470,1334 486,1333 487,1323 491,1318 506,1316 514,1323 515,1334 529,1335 604,1334 605,1323 609,1318 623,1317 628,1322 628,1333 634,1334 637,1332 637,1319 648,1312 658,1312 663,1316 664,1332 692,1332 693,1320 701,1314 712,1315 718,1323 718,1330 726,1331 801,1326 958,1324 961,1322 961,1309 969,1303 984,1304 988,1309 989,1321 1081,1320 1083,1312 1090,1306 1105,1307 1109,1320 1210,1317 1215,1304 1227,1303 1234,1309 1236,1318 1283,1318 1283,1371 1173,1370 596,1387 581,1388 580,1399 553,1402 552,1389 450,1389 385,1386 257,1362 191,1343 175,1341"/>
         <Baseline points="175,1333 201,1335 394,1374 459,1379 1283,1361"/>
         <Word id="word_1655110523533_2962" custom="readingOrder {index:0;}">
-          <Coords points="201,1267 397,1322 397,1342 382,1342 192,1337 191,1274 192,1273"/>
+          <Coords points="192,1337 382,1342 397,1342 397,1322 392,1320 343,1317 309,1311 290,1305 287,1296 279,1292 271,1292 262,1297 223,1292 221,1274 201,1267 192,1273 191,1274"/>
           <TextEquiv>
             <Unicode>ſentiunt,</Unicode>
           </TextEquiv>
@@ -461,7 +477,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0011_word0004" custom="readingOrder {index:3;}">
-          <Coords points="1014,1373 1011,1321 989,1321 988,1309 984,1304 969,1303 961,1309 736,1322 738,1374"/>
+          <Coords points="1011,1321 989,1321 988,1309 984,1304 969,1303 961,1309 961,1322 958,1324 801,1326 736,1330 738,1374 1014,1373"/>
           <TextEquiv conf="0.87983">
             <Unicode>commode</Unicode>
           </TextEquiv>
@@ -473,7 +489,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0011_word0006" custom="readingOrder {index:5;}">
-          <Coords points="1215,1365 1262,1371 1258,1315 1227,1303 1215,1304 1212,1311"/>
+          <Coords points="1260,1370 1261,1370 1258,1318 1236,1318 1234,1309 1227,1303 1215,1304 1212,1311 1215,1365"/>
           <TextEquiv conf="0.9056288">
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -712,7 +728,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655110675449_3038" custom="readingOrder {index:2;}">
-          <Coords points="404,1806 590,1806 590,1845 404,1845"/>
+          <Coords points="404,1806 404,1845 590,1845 590,1806 585,1806 550,1808 545,1807 545,1806 518,1806 514,1807 503,1806"/>
           <TextEquiv>
             <Unicode>modos</Unicode>
           </TextEquiv>
@@ -724,7 +740,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655110679715_3044" custom="readingOrder {index:4;}">
-          <Coords points="894,1784 954,1784 954,1833 894,1833"/>
+          <Coords points="897,1784 896,1794 894,1794 894,1833 954,1833 954,1792 923,1794 922,1786 920,1784"/>
           <TextEquiv>
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -736,7 +752,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1655110683816_3050" custom="readingOrder {index:6;}">
-          <Coords points="1126,1784 1270,1784 1270,1839 1126,1839"/>
+          <Coords points="1140,1784 1140,1786 1126,1786 1126,1839 1192,1839 1270,1835 1270,1785 1241,1785 1240,1784 1211,1784 1211,1786 1168,1786 1167,1784"/>
           <TextEquiv>
             <Unicode>titulo</Unicode>
           </TextEquiv>
@@ -761,19 +777,19 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0018_word0002" custom="readingOrder {index:2;}">
-          <Coords points="512,1865 438,1876 439,1881 449,1924 562,1941 568,1890 526,1866"/>
+          <Coords points="439,1881 449,1924 557,1940 562,1940 568,1890 560,1885 537,1886 535,1873 526,1866 512,1865 494,1882 457,1881 438,1876"/>
           <TextEquiv conf="0.89829206">
             <Unicode>caſus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0018_word0003" custom="readingOrder {index:3;}">
-          <Coords points="595,1935 963,1931 963,1870 757,1880 756,1870 752,1865 721,1861 717,1864 697,1864 692,1870 692,1882 619,1884 614,1871 599,1869 595,1871"/>
+          <Coords points="826,1932 840,1931 898,1928 937,1931 963,1931 963,1870 757,1880 756,1870 752,1865 721,1861 717,1864 697,1864 692,1870 692,1882 619,1884 614,1871 599,1869 595,1872 595,1935"/>
           <TextEquiv conf="0.8588508">
             <Unicode>intelligantur,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0000_line0018_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1010,1909 1062,1913 1062,1864 1028,1854 1014,1853 1010,1856"/>
+          <Coords points="1062,1913 1062,1866 1034,1868 1033,1860 1028,1854 1014,1853 1010,1856 1010,1909"/>
           <TextEquiv conf="0.8588508">
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -804,7 +820,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0019_word0002" custom="readingOrder {index:2;}">
-          <Coords points="390,2006 596,2003 595,1965 539,1965 509,1963 508,1951 502,1945 484,1948 480,1961 426,1958 427,1943 421,1936 389,1935"/>
+          <Coords points="596,2003 595,1965 539,1965 509,1963 508,1951 502,1945 484,1948 480,1961 426,1958 427,1943 421,1936 389,1935 389,2001 408,2005"/>
           <TextEquiv conf="0.84484977">
             <Unicode>feudum</Unicode>
           </TextEquiv>
@@ -1010,7 +1026,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1655110872737_3149" custom="readingOrder {index:22;}">
-        <Coords points="223,2279 1211,2330 1221,2331 1294,2344 1295,2392 1199,2399 726,2433 682,2433 449,2427 293,2382 199,2349 198,2301"/>
+        <Coords points="1221,2331 1211,2330 223,2279 198,2301 199,2349 293,2382 445,2426 446,2426 1110,2405 1199,2399 1290,2392 1294,2344"/>
         <Baseline points="199,2341 335,2351 377,2334 292,2375 465,2400 652,2414 772,2395 1035,2395 1295,2383"/>
         <Word id="word_1655110875916_3153" custom="readingOrder {index:0;}">
           <Coords points="218,2283 238,2283 243,2285 296,2308 339,2342 339,2392 298,2382 203,2349 203,2299"/>
@@ -1053,28 +1069,28 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>qui, atque feudum tam novum, quam pa-&#13;
-ternum ſemel acquiſitum ob ſuperveni-&#13;
-ens vitium tam corporis quam animi ne-&#13;
-mini debere auferri. Et ſane, uti jam o-&#13;
-lim obſervavit Rhetius,  vis explicatio- tota&#13;
-nis conſiſtit in explanatione vocabuli reti-&#13;
-nere. Nimirum nil aliud in utroque tex-&#13;
-tu hoc ſignificat, quam ſuccedere. Quod&#13;
-in 2. Feud. 36. ſic accipiatur, plurimi con-&#13;
-ſentiunt, ſed quidni commode etiam in&#13;
-1.  Feud. 6. explicari poſſit pro ſucceſſio-&#13;
-ne? Quamvis enim hoc videatur obſtare,&#13;
-quod agatur in dicto paragrapho de mo-&#13;
-do feudum amittendi, adeoque ſuppona-&#13;
-tur, feudum fuiſſe acquiſitum, attamen,&#13;
-quod per modos amittendi in dicto titulo&#13;
-illi etiam caſus intelligantur, in quibus&#13;
-quis ad feudum aliquod, quod nunquam&#13;
-habuit admittitur, patet paragrapho ex&#13;
-qui immediate præcedit textum noſtrum,&#13;
-utpote qui ita habet: quin etiam ſi quis&#13;
-eo tenore feudum acceperit, ut ejus deſcen-&#13;
+        <Unicode>qui, atque feudum tam novum, quam pa-
+ternum ſemel acquiſitum ob ſuperveni-
+ens vitium tam corporis quam animi ne-
+mini debere auferri. Et ſane, uti jam o-
+lim obſervavit Rhetius,  vis explicatio- tota
+nis conſiſtit in explanatione vocabuli reti-
+nere. Nimirum nil aliud in utroque tex-
+tu hoc ſignificat, quam ſuccedere. Quod
+in 2. Feud. 36. ſic accipiatur, plurimi con-
+ſentiunt, ſed quidni commode etiam in
+1.  Feud. 6. explicari poſſit pro ſucceſſio-
+ne? Quamvis enim hoc videatur obſtare,
+quod agatur in dicto paragrapho de mo-
+do feudum amittendi, adeoque ſuppona-
+tur, feudum fuiſſe acquiſitum, attamen,
+quod per modos amittendi in dicto titulo
+illi etiam caſus intelligantur, in quibus
+quis ad feudum aliquod, quod nunquam
+habuit admittitur, patet paragrapho ex
+qui immediate præcedit textum noſtrum,
+utpote qui ita habet: quin etiam ſi quis
+eo tenore feudum acceperit, ut ejus deſcen-
 dentes maſculi &amp; fœminæ illud habere</Unicode>
       </TextEquiv>
     </TextRegion>

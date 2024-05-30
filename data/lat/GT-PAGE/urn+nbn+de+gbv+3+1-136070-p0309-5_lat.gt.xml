@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-21">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:14Z</Created>
     <LastChange>2024-01-19T13:07:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/d2b67af3-d628-49ca-b0b1-17cb61f8d620/00000309.jpg" imageWidth="1567" imageHeight="2283" type="content" primaryLanguage="Latin">
     <Border>
@@ -31,7 +47,7 @@
         <RegionRefIndexed index="18" regionRef="region0011"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676449574122_1887" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676449574122_1887" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="351,316 351,357 696,357 696,316"/>
       <TextLine id="line_1676449574254_1890" custom="readingOrder {index:0;}">
         <Coords points="351,316 696,316 696,357 351,357"/>
@@ -42,7 +58,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1676449581153_1896" custom="readingOrder {index:1;}">
-          <Coords points="614,313 693,313 693,348 614,348"/>
+          <Coords points="614,348 693,348 693,316 614,316"/>
           <TextEquiv>
             <Unicode>VII.</Unicode>
           </TextEquiv>
@@ -55,7 +71,7 @@
         <Unicode>LIBER VII.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676449584785_1899" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676449584785_1899" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="898,316 898,351 980,351 980,316"/>
       <TextLine id="line_1676449584904_1902" custom="readingOrder {index:0;}">
         <Coords points="898,316 898,351 980,351 980,316"/>
@@ -73,7 +89,7 @@
         <Unicode>281</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="TextRegion_1645609657893_929" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1645609657893_929" custom="readingOrder {index:2;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="121,374 984,374 994,457 996,476 996,1845 137,1845 126,1099 121,694"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="121,375 122,427 175,433 302,436 521,431 569,433 574,435 577,442 583,444 600,444 607,442 612,433 634,431 743,429 748,431 751,438 776,439 786,429 810,426 984,420 983,377 977,375 941,380 939,375 916,375 914,383 901,383 897,381 896,375 873,374 871,382 623,390 617,382 605,382 597,391 588,391 580,381 549,379 541,385 538,392 533,381 526,377 509,380 502,392 432,390 401,393 391,391 383,384 372,385 367,393 357,393 350,385 342,385 337,381 323,381 318,385 316,393 292,394 290,384 282,380 269,382 263,393 255,392 253,384 246,380 233,380 228,384 226,391 218,391 197,389 188,380 178,380 171,387 162,387 148,385 146,375"/>
@@ -924,7 +940,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0008_line0001_word0002" custom="readingOrder {index:2;}">
-          <Coords points="616,1396 617,1432 726,1430 725,1408 699,1408 698,1399 693,1394 677,1395 672,1399 667,1396"/>
+          <Coords points="617,1432 726,1430 725,1408 699,1408 698,1399 694,1399 694,1394 693,1394 677,1395 672,1399 667,1396 616,1396"/>
           <TextEquiv conf="0.92452574">
             <Unicode>Cæſar</Unicode>
           </TextEquiv>
@@ -1044,7 +1060,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0009_line0003_word0002" custom="readingOrder {index:2;}">
-          <Coords points="350,1546 351,1589 576,1585 575,1551 543,1551 537,1544 524,1545 518,1551 512,1552 435,1551 411,1549 402,1541 388,1541 382,1546"/>
+          <Coords points="350,1585 359,1586 367,1588 576,1585 575,1551 543,1551 537,1544 524,1545 518,1551 512,1552 435,1551 411,1549 402,1541 388,1541 382,1546 350,1546"/>
           <TextEquiv conf="0.91681">
             <Unicode>vehementius</Unicode>
           </TextEquiv>
@@ -1158,7 +1174,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0009_line0006_word0001" custom="readingOrder {index:1;}">
-          <Coords points="370,1735 369,1688 347,1694 264,1695 259,1687 245,1688 240,1697 218,1697 219,1739 292,1737 298,1734 312,1733 317,1736"/>
+          <Coords points="369,1692 361,1694 278,1695 278,1695 264,1695 260,1688 259,1688 254,1697 240,1697 218,1697 219,1739 292,1737 298,1734 312,1733 313,1734 326,1733 331,1736 370,1735"/>
           <TextEquiv conf="0.82641935">
             <Unicode>cohortes</Unicode>
           </TextEquiv>
@@ -1246,7 +1262,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1643705526558_2044" custom="readingOrder {index:28;}">
-        <Coords points="139,1796 169,1794 185,1800 199,1800 209,1791 218,1791 229,1799 342,1800 372,1799 381,1788 392,1788 399,1795 404,1790 416,1789 422,1792 425,1797 520,1797 530,1800 544,1793 579,1799 596,1795 607,1804 627,1800 732,1801 736,1792 741,1791 755,1792 759,1800 782,1800 788,1791 808,1789 815,1793 818,1799 878,1799 890,1797 891,1790 896,1787 911,1787 916,1790 917,1795 947,1794 951,1788 959,1787 975,1794 979,1788 994,1786 996,1787 996,1837 729,1843 723,1844 721,1850 715,1852 685,1853 663,1852 659,1850 658,1843 620,1841 496,1845 489,1842 453,1840 223,1842 139,1839"/>
+        <Coords points="994,1786 979,1788 975,1794 959,1787 951,1788 947,1794 917,1795 916,1790 911,1787 896,1787 891,1790 890,1797 878,1799 818,1799 815,1793 808,1789 788,1791 782,1800 759,1800 755,1792 741,1791 736,1792 732,1801 627,1800 607,1804 596,1795 579,1799 544,1793 530,1800 520,1797 425,1797 422,1792 416,1789 404,1790 399,1795 392,1788 381,1788 372,1799 342,1800 229,1799 218,1791 209,1791 199,1800 185,1800 169,1794 139,1796 139,1839 223,1842 453,1840 489,1842 496,1845 620,1841 658,1843 658,1845 722,1845 723,1844 729,1843 996,1837 996,1787"/>
         <Word id="region0009_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="183,1799 157,1800 158,1834 290,1831 289,1799 229,1799 228,1798 200,1799 199,1800 185,1800"/>
           <TextEquiv conf="0.90608346">
@@ -1343,7 +1359,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>7</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:4;}">
+    <TextRegion id="region0012" custom="readingOrder {index:4;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1018,532 1049,532 1049,579 1018,579"/>
       <TextLine id="region0012_line" custom="readingOrder {index:0;}">
         <Coords points="1018,532 1049,532 1049,579 1018,579"/>
@@ -1361,7 +1377,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>8</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:5;}">
+    <TextRegion id="region0013" custom="readingOrder {index:5;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1025,643 1056,643 1056,685 1025,685"/>
       <TextLine id="region0013_line" custom="readingOrder {index:0;}">
         <Coords points="1025,643 1056,643 1056,685 1025,685"/>
@@ -1379,7 +1395,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>9</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" type="marginalia" readingDirection="left-to-right" id="TextRegion_1643704755773_1817" custom="readingOrder {index:6;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1643704755773_1817" custom="readingOrder {index:6;} structure {type:marginalia;}" orientation="1.1150041" type="marginalia" readingDirection="left-to-right">
       <Coords points="986,682 1154,682 1154,745 986,745"/>
       <TextLine id="line_1643704755826_1820" custom="readingOrder {index:0;}">
         <Coords points="986,682 1153,682 1154,731 986,732"/>
@@ -1397,7 +1413,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>LXXXVI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0014" custom="readingOrder {index:7;}">
+    <TextRegion id="region0014" custom="readingOrder {index:7;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1025,793 1059,793 1059,832 1025,832"/>
       <TextLine id="region0014_line" custom="readingOrder {index:0;}">
         <Coords points="1025,793 1059,793 1059,832 1025,832"/>
@@ -1415,7 +1431,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0015" custom="readingOrder {index:8;}">
+    <TextRegion id="region0015" custom="readingOrder {index:8;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1030,946 1060,946 1060,990 1030,990"/>
       <TextLine id="region0015_line" custom="readingOrder {index:0;}">
         <Coords points="1030,946 1060,946 1060,990 1030,990"/>
@@ -1433,10 +1449,10 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="TextRegion_1643705464469_1989" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1643705464469_1989" custom="readingOrder {index:9;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1047,1084 1069,1082 1069,1147 994,1147"/>
       <TextLine id="line_1643705464538_1992" custom="readingOrder {index:0;} structure {type:marginalia;}">
-        <Coords points="994,1094 1017,1094 1040,1096 1060,1092 1068,1095 1069,1140 1061,1145 1050,1145 1041,1139 994,1136"/>
+        <Coords points="1068,1095 1060,1092 1040,1096 1037,1095 1002,1136 1041,1139 1050,1145 1061,1145 1069,1140"/>
         <Word id="region0004_line0001_word0004" custom="readingOrder {index:0;}">
           <Coords points="1039,1096 1040,1116 1065,1116 1064,1094 1060,1092 1040,1096"/>
           <TextEquiv conf="0.9647173">
@@ -1469,7 +1485,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0016" custom="readingOrder {index:11;}">
+    <TextRegion id="region0016" custom="readingOrder {index:11;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1032,1340 1065,1340 1065,1386 1032,1386"/>
       <TextLine id="region0016_line" custom="readingOrder {index:0;}">
         <Coords points="1032,1340 1065,1340 1065,1386 1032,1386"/>
@@ -1487,7 +1503,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>6</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" type="floating" readingDirection="left-to-right" id="TextRegion_1643704769049_1826" custom="readingOrder {index:12;}">
+    <TextRegion id="TextRegion_1643704769049_1826" custom="readingOrder {index:12;}" orientation="1.1150041" type="floating" readingDirection="left-to-right">
       <Coords points="984,1384 1168,1384 1168,1448 984,1448"/>
       <TextLine id="line_1643704769111_1829" custom="readingOrder {index:0;}">
         <Coords points="984,1384 1167,1384 1168,1440 984,1440"/>
@@ -1505,7 +1521,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>LXXXVII</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" readingDirection="left-to-right" id="region0017" custom="readingOrder {index:13;}">
+    <TextRegion id="region0017" custom="readingOrder {index:13;}" orientation="1.1150041" readingDirection="left-to-right">
       <Coords points="1039,1500 1073,1500 1073,1537 1039,1537"/>
       <TextLine id="region0017_line" custom="readingOrder {index:0;}">
         <Coords points="1039,1500 1073,1500 1073,1537 1039,1537"/>
@@ -1541,10 +1557,10 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1645609710681_944" custom="readingOrder {index:15;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1645609710681_944" custom="readingOrder {index:15;} structure {type:signature-mark;}" orientation="1.1150041" type="signature-mark" readingDirection="left-to-right">
       <Coords points="137,1845 764,1845 764,1899 138,1899"/>
       <TextLine id="line_1645609710737_947" custom="readingOrder {index:0;}">
-        <Coords points="522,1845 533,1843 620,1842 627,1844 629,1852 660,1851 685,1854 719,1851 764,1850 764,1878 679,1881 676,1899 609,1899 607,1891 536,1893 524,1890 519,1877 518,1850"/>
+        <Coords points="719,1851 685,1854 660,1851 629,1852 627,1845 522,1845 518,1850 519,1877 524,1890 536,1893 607,1891 609,1899 676,1899 679,1881 764,1878 764,1850"/>
         <Word id="word_1643705248556_1952" custom="readingOrder {index:0;}">
           <Coords points="576,1846 607,1845 607,1891 576,1891"/>
           <TextEquiv>
@@ -1552,7 +1568,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1645609657955_931" custom="readingOrder {index:1;}">
-          <Coords points="607,1845 646,1845 647,1899 609,1899 607,1891"/>
+          <Coords points="607,1845 607,1891 609,1899 647,1899 646,1851 629,1852 627,1845"/>
           <TextEquiv>
             <Unicode>5</Unicode>
           </TextEquiv>
@@ -1565,10 +1581,10 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>S 5 5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1150041" type="catch-word" readingDirection="left-to-right" id="TextRegion_1645609710681_943" custom="readingOrder {index:16;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1645609710681_943" custom="readingOrder {index:16;} structure {type:catch-word;}" orientation="1.1150041" type="catch-word" readingDirection="left-to-right">
       <Coords points="764,1845 996,1845 996,1899 764,1899"/>
       <TextLine id="line_1645609710737_946" custom="readingOrder {index:0;}">
-        <Coords points="764,1850 887,1848 895,1838 908,1839 913,1847 921,1847 924,1839 942,1837 945,1838 947,1846 972,1846 976,1843 996,1843 996,1890 848,1890 838,1883 836,1877 764,1878"/>
+        <Coords points="887,1848 764,1850 764,1878 836,1877 838,1883 848,1890 996,1890 996,1845 973,1845 972,1846 947,1846 946,1845 921,1845 921,1847 913,1847 911,1845 889,1845"/>
         <Word id="word_1643705526558_2050" custom="readingOrder {index:0;}">
           <Coords points="894,1847 921,1847 948,1846 973,1846 996,1845 996,1882 895,1884"/>
           <TextEquiv conf="0.88242775">
@@ -1583,10 +1599,7 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
         <Unicode>iubet.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <SeparatorRegion id="region0010" custom="readingOrder {index:17;}">
-      <Coords points="160,1913 1008,1913 1008,1935 160,1935"/>
-    </SeparatorRegion>
-    <TextRegion orientation="1.1150041" type="footnote" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:18;} structure {type:footnote;}">
+    <TextRegion id="region0011" custom="readingOrder {index:18;} structure {type:footnote;}" orientation="1.1150041" type="footnote" readingDirection="left-to-right">
       <Coords points="157,1969 1007,1969 1007,2061 157,2061"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="157,1970 158,2014 221,2014 245,2016 252,2020 305,2018 311,2015 323,2015 330,2019 363,2018 381,2014 413,2013 423,2018 433,2016 450,2020 469,2015 591,2011 615,2014 681,2016 724,2015 730,2012 767,2014 835,2012 856,2013 858,2018 864,2020 875,2020 882,2014 910,2012 967,2010 981,2012 986,2016 1007,2012 1006,1969 953,1975 951,1970 928,1970 926,1976 915,1977 911,1970 906,1969 873,1970 869,1976 779,1979 769,1970 761,1970 754,1978 737,1979 730,1971 717,1971 712,1979 681,1980 629,1978 623,1970 606,1969 599,1969 595,1975 568,1974 564,1970 556,1969 541,1976 535,1976 531,1970 513,1970 504,1971 499,1976 493,1969"/>
@@ -1683,5 +1696,8 @@ teriores munitiones, &amp; ab tergo hoſtes adoriri</Unicode>
 Hirc vſum falcium muralium intelligimus.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="region0010" custom="readingOrder {index:17;}">
+      <Coords points="160,1913 1008,1913 1008,1935 160,1935"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

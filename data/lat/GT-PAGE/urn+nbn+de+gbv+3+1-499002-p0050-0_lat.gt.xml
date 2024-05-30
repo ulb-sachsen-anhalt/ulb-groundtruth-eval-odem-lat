@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-177">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:46Z</Created>
     <LastChange>2024-01-19T13:08:46Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/3e65dfc0-8d32-47d5-9eb2-d73bfdf80554/00000050.jpg" imageWidth="1461" imageHeight="2106" type="content" primaryLanguage="Latin">
     <Border>
@@ -17,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="region_1676630213955_6304"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1676630093206_6227" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1676630093206_6227" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="478,362 478,394 523,394 523,362"/>
       <TextLine id="line_1676630093269_6230" custom="readingOrder {index:0;}">
         <Coords points="478,362 478,394 523,394 523,362"/>
@@ -35,7 +51,7 @@
         <Unicode>20</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1676630099326_6236" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1676630099326_6236" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="628,354 628,394 1158,394 1158,354"/>
       <TextLine id="line_1676630099388_6239" custom="readingOrder {index:0;}">
         <Coords points="628,354 628,394 1158,394 1158,354"/>
@@ -65,7 +81,7 @@
         <Unicode>VLR. DE HVTTEN</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.7549663" readingDirection="left-to-right" id="TextRegion_1647331841428_992" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1647331841428_992" custom="readingOrder {index:2;}" orientation="-0.7549663" readingDirection="left-to-right">
       <Coords points="445,425 1299,424 1302,1752 1275,1807 449,1808 448,1753"/>
       <TextLine id="region0015_line0001" custom="readingOrder {index:0;}">
         <Coords points="1219,424 1216,430 1203,431 1025,433 1006,433 1003,425 987,424 977,424 969,432 885,436 832,433 792,425 709,425 698,426 686,431 630,438 551,438 545,427 535,425 529,429 527,437 446,437 446,477 529,479 542,473 551,481 552,492 557,493 565,491 570,480 614,478 717,482 729,484 735,489 744,489 752,484 862,478 1024,484 1029,489 1039,489 1046,484 1093,481 1189,482 1191,489 1200,492 1215,489 1217,482 1298,481 1298,430 1260,431 1257,424"/>
@@ -88,7 +104,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1647331869205_1006" custom="readingOrder {index:3;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="808,428 811,428 920,434 945,444 945,468 920,471 808,468"/>
+          <Coords points="808,468 920,471 945,468 945,444 920,434 885,436 832,433 808,428"/>
           <TextEquiv>
             <Unicode>tenue:</Unicode>
           </TextEquiv>
@@ -130,7 +146,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0015_line0002_word0002" custom="readingOrder {index:2;}">
-          <Coords points="727,487 696,485 695,524 739,526 739,490 735,490"/>
+          <Coords points="704,485 700,489 695,489 695,524 739,526 739,490 735,490 727,487"/>
           <TextEquiv conf="0.92972916">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -916,7 +932,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0015_line0021_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1006,1625 1006,1576 933,1575 933,1632 939,1632 940,1626"/>
+          <Coords points="1006,1578 933,1578 933,1632 939,1632 940,1626 1006,1625"/>
           <TextEquiv conf="0.8210989">
             <Unicode>per</Unicode>
           </TextEquiv>
@@ -1078,7 +1094,7 @@ iugerum itinere niſi armati exſpatia-
 mur. nullam licet villam inermi viſe-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676630213955_6304" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="region_1676630213955_6304" custom="readingOrder {index:3;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1221,1810 1221,1851 1270,1851 1270,1810"/>
       <TextLine id="line_1676630214009_6307" custom="readingOrder {index:0;}">
         <Coords points="1221,1810 1221,1851 1270,1851 1270,1810"/>

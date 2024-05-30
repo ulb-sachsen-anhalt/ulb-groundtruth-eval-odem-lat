@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-34">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:17Z</Created>
     <LastChange>2024-01-19T13:07:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/dd2e5ffa-7c14-4376-82d2-38de2419ad45/00000153.jpg" imageWidth="1621" imageHeight="2405" type="content" primaryLanguage="Latin">
     <Border>
@@ -24,7 +40,7 @@
         <RegionRefIndexed index="10" regionRef="region_1676459423843_5259"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1676459366990_5195" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1676459366990_5195" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="476,413 476,466 893,466 893,413"/>
       <TextLine id="line_1676459367063_5198" custom="readingOrder {index:0;}">
         <Coords points="476,413 893,413 893,466 476,466"/>
@@ -60,7 +76,7 @@
         <Unicode>Litera L in Quarto.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1676459360271_5186" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1676459360271_5186" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1070,428 1070,470 1155,470 1155,428"/>
       <TextLine id="line_1676459360357_5189" custom="readingOrder {index:0;}">
         <Coords points="1070,428 1070,470 1155,470 1155,428"/>
@@ -78,7 +94,7 @@
         <Unicode>123</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505779247_1563" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1644505779247_1563" custom="readingOrder {index:2;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="216,486 1171,481 1171,546 216,546"/>
       <TextLine id="line_1643886272688_5847" custom="readingOrder {index:0;}">
         <Coords points="1024,495 1150,495 1150,546 1024,546"/>
@@ -89,7 +105,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643886282044_5853" custom="readingOrder {index:1;}">
-          <Coords points="1096,499 1152,499 1152,545 1096,545"/>
+          <Coords points="1096,499 1096,545 1150,545 1150,499"/>
           <TextEquiv>
             <Unicode>kr.</Unicode>
           </TextEquiv>
@@ -102,10 +118,10 @@
         <Unicode>fl. kr.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505784841_1570" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1644505784841_1570" custom="readingOrder {index:3;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="216,546 1171,546 1172,751 216,751"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
-        <Coords points="853,537 846,542 839,538 819,538 816,541 809,538 731,537 696,537 694,540 667,538 653,541 611,538 607,542 526,549 519,549 514,544 505,544 499,549 483,549 477,541 465,541 458,550 450,544 439,544 433,550 425,550 397,542 367,541 326,551 217,551 217,604 285,605 339,598 382,605 395,600 456,600 462,596 471,596 479,602 491,602 516,598 528,592 536,592 541,596 555,596 562,600 575,600 590,593 600,593 616,601 630,597 684,594 702,590 760,596 789,593 803,587 832,588 843,592 849,598 893,594 908,599 925,597 947,600 961,597 974,606 990,602 1082,604 1092,598 1091,572 1087,569 1051,568 1050,551 1045,546 1002,546 947,551 884,547 876,545 869,537"/>
+        <Coords points="526,549 519,549 516,546 502,546 499,549 483,549 480,546 461,546 458,550 452,546 437,546 433,550 425,550 411,546 346,546 326,551 217,551 217,604 285,605 339,598 382,605 395,600 456,600 462,596 471,596 479,602 491,602 516,598 528,592 536,592 541,596 555,596 562,600 575,600 590,593 600,593 616,601 630,597 684,594 702,590 760,596 789,593 803,587 832,588 843,592 849,598 893,594 908,599 925,597 947,600 961,597 974,606 990,602 1082,604 1092,598 1091,572 1087,569 1051,568 1050,551 1045,546 1002,546 947,551 884,547 880,546 560,546"/>
         <Word id="word_1644505779316_1565" custom="readingOrder {index:0;}">
           <Coords points="268,551 326,551 346,546 358,546 358,601 339,598 285,605 268,604"/>
           <TextEquiv conf="0.7064969">
@@ -237,7 +253,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0004" custom="readingOrder {index:3;}">
-        <Coords points="497,692 480,700 475,700 469,695 441,699 427,702 415,709 399,708 393,704 354,703 342,699 319,701 313,698 217,698 218,746 339,747 358,748 363,753 374,753 381,747 424,747 429,752 436,752 446,746 490,743 522,743 526,746 535,746 539,743 633,742 639,736 967,736 974,744 999,747 1072,750 1171,749 1171,743 1171,708 1122,709 1073,703 881,705 806,699 659,703 550,699 545,695 518,699 510,692"/>
+        <Coords points="480,700 475,700 469,695 441,699 427,702 415,709 399,708 393,704 354,703 342,699 319,701 313,698 217,698 218,746 339,747 358,748 361,751 376,751 381,747 424,747 428,751 437,751 446,746 490,743 522,743 526,746 535,746 539,743 633,742 639,736 967,736 974,744 999,747 1072,750 1171,749 1171,743 1171,708 1122,709 1073,703 881,705 806,699 659,703 550,699 545,695 518,699 510,692 497,692"/>
         <Word id="region0004_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="263,704 353,704 353,740 263,740"/>
           <TextEquiv conf="0.92183924">
@@ -279,16 +295,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>zwey Predigten zu Hall in Sachſen, 1546.&#13;
-ꝛc. das 1.) aber im andern Band, Lu-&#13;
-theri Epitaphium. Wittenb. 1546.&#13;
+        <Unicode>zwey Predigten zu Hall in Sachſen, 1546.
+ꝛc. das 1.) aber im andern Band, Lu-
+theri Epitaphium. Wittenb. 1546.
 Sind zwey Baͤnde. ⸗ I. ⸗</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505792541_1577" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1644505792541_1577" custom="readingOrder {index:4;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="216,751 1172,751 1173,960 217,960"/>
       <TextLine id="line_1645430005672_343" custom="readingOrder {index:0;}">
-        <Coords points="218,759 381,748 490,744 778,738 836,738 967,740 1097,757 1103,763 1103,795 1091,805 1021,806 260,812 218,809"/>
+        <Coords points="218,759 218,809 260,812 1021,806 1091,805 1103,795 1103,763 1097,757 1051,751 336,751"/>
         <Word id="region0004_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="223,759 223,794 290,794 290,757 288,757 279,760"/>
           <TextEquiv conf="0.91662127">
@@ -396,7 +412,7 @@ Sind zwey Baͤnde. ⸗ I. ⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0008" custom="readingOrder {index:3;}">
-        <Coords points="958,897 952,901 951,908 945,910 857,912 778,912 776,906 768,901 758,902 752,912 712,911 706,901 691,901 684,911 648,909 640,901 631,901 623,909 578,911 572,910 565,901 554,901 547,910 524,910 519,899 502,902 496,910 438,911 430,905 419,905 412,912 383,913 373,913 365,905 356,906 354,909 346,907 337,912 309,911 296,907 219,905 218,958 344,959 348,956 390,956 394,965 408,969 420,968 426,956 545,953 551,962 557,962 565,960 569,954 687,956 693,947 700,949 707,956 767,954 860,955 869,956 870,961 876,965 901,964 908,956 923,955 927,956 929,962 939,963 948,961 954,954 960,953 971,956 983,953 1043,953 1045,961 1049,964 1054,964 1063,957 1069,958 1075,964 1172,959 1172,928 1172,911 977,909 973,898"/>
+        <Coords points="952,901 951,908 945,910 857,912 778,912 776,906 768,901 758,902 752,912 712,911 706,901 691,901 684,911 648,909 640,901 631,901 623,909 578,911 572,910 565,901 554,901 547,910 524,910 519,899 502,902 496,910 438,911 430,905 419,905 412,912 383,913 373,913 365,905 356,906 354,909 346,907 337,912 309,911 296,907 219,905 218,958 344,959 348,956 390,956 391,960 424,960 426,956 545,953 549,960 565,960 569,954 687,956 693,947 700,949 707,956 767,954 860,955 869,956 869,960 904,960 908,956 923,955 927,956 928,960 948,960 954,954 960,953 971,956 983,953 1043,953 1044,960 1059,960 1063,957 1069,958 1071,960 1152,960 1172,959 1172,928 1172,911 977,909 973,898 958,897"/>
         <Word id="region0004_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="299,908 268,908 267,945 309,945 310,911 309,911"/>
           <TextEquiv>
@@ -450,16 +466,16 @@ Sind zwey Baͤnde. ⸗ I. ⸗</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>29. Lutheri Ermahnung zum Fried auf die&#13;
-12. Articul zur Bauerſchafft in Schwa⸗&#13;
-ben, 1525.&#13;
+        <Unicode>29. Lutheri Ermahnung zum Fried auf die
+12. Articul zur Bauerſchafft in Schwa⸗
+ben, 1525.
 Et alia plura hujus Authoris avtographa. - 30.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505796368_1582" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1644505796368_1582" custom="readingOrder {index:5;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="217,960 1173,960 1175,1220 218,1220"/>
       <TextLine id="region0004_line0009" custom="readingOrder {index:0;}">
-        <Coords points="693,948 688,954 689,959 681,966 672,961 649,965 643,959 627,961 611,957 551,963 545,954 534,955 530,965 522,965 517,955 508,954 498,957 490,966 414,970 381,968 372,959 361,959 357,962 294,962 265,969 218,968 218,1018 218,1018 237,1019 245,1009 249,1009 256,1017 310,1014 322,1014 327,1017 370,1016 400,1012 423,1014 461,1010 475,1014 494,1011 501,1019 510,1011 524,1015 560,1015 573,1018 634,1018 685,1014 690,1017 696,1016 701,1022 710,1023 725,1017 747,1018 775,1013 785,1015 795,1022 808,1023 817,1016 855,1016 871,1013 875,1016 887,1014 970,1018 1005,1011 1018,1013 1027,1009 1090,1009 1098,1008 1103,1003 1102,975 1098,972 1073,972 1075,965 1067,958 1059,960 1054,965 1054,972 1026,971 1024,963 1018,958 1005,960 1001,968 956,959 939,964 922,963 903,968 901,965 892,964 876,966 868,960 829,955 769,956 759,961 757,970 707,969 702,962 706,956"/>
+        <Coords points="681,966 672,961 649,965 644,960 635,960 627,961 623,960 581,960 551,963 549,960 532,960 530,965 522,965 519,960 495,960 490,966 414,970 381,968 373,960 359,960 357,962 294,962 265,969 218,968 218,1018 237,1019 245,1009 249,1009 256,1017 310,1014 322,1014 327,1017 370,1016 400,1012 423,1014 461,1010 475,1014 494,1011 501,1019 510,1011 524,1015 560,1015 573,1018 634,1018 685,1014 690,1017 696,1016 701,1022 710,1023 725,1017 747,1018 775,1013 785,1015 795,1022 808,1023 817,1016 855,1016 871,1013 875,1016 887,1014 970,1018 1005,1011 1018,1013 1027,1009 1090,1009 1098,1008 1103,1003 1102,975 1098,972 1073,972 1075,965 1069,960 1059,960 1054,965 1054,972 1026,971 1024,963 1020,960 1005,960 1001,968 961,960 952,960 939,964 922,963 903,968 901,965 892,964 876,966 868,960 761,960 759,961 757,970 707,969 702,962 703,960 687,960"/>
         <Word id="region0004_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="229,970 289,970 289,1004 229,1004"/>
           <TextEquiv conf="0.9426891">
@@ -591,7 +607,7 @@ Et alia plura hujus Authoris avtographa. - 30.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0013" custom="readingOrder {index:4;}">
-        <Coords points="219,1165 219,1222 529,1223 536,1221 540,1214 933,1217 943,1212 989,1212 996,1216 1080,1216 1117,1215 1133,1209 1137,1204 1137,1194 1129,1186 1129,1176 1124,1171 989,1171 983,1181 804,1181 797,1172 786,1171 780,1181 490,1179 480,1182 471,1179 453,1182 437,1179 429,1173 402,1171 391,1172 385,1177 340,1177 281,1169 257,1169 246,1165"/>
+        <Coords points="219,1220 536,1220 540,1214 933,1217 943,1212 989,1212 996,1216 1080,1216 1117,1215 1133,1209 1137,1204 1137,1194 1129,1186 1129,1176 1124,1171 989,1171 983,1181 804,1181 797,1172 786,1171 780,1181 490,1179 480,1182 471,1179 453,1182 437,1179 429,1173 402,1171 391,1172 385,1177 340,1177 281,1169 257,1169 246,1165 219,1165"/>
         <Word id="region0004_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="317,1174 274,1174 274,1213 381,1213 381,1177 340,1177"/>
           <TextEquiv conf="0.9097995">
@@ -633,17 +649,17 @@ Et alia plura hujus Authoris avtographa. - 30.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>30. Leben unſers Erledigers JEſu Chri⸗&#13;
-ſti, nach Erlaͤuterung des Heil. Evangelii&#13;
-mit vielen andaͤchtigen Betrachtungen.&#13;
-Nuͤrnberg, 1514.&#13;
+        <Unicode>30. Leben unſers Erledigers JEſu Chri⸗
+ſti, nach Erlaͤuterung des Heil. Evangelii
+mit vielen andaͤchtigen Betrachtungen.
+Nuͤrnberg, 1514.
 Rarus liber. - - I. -</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505799578_1587" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1644505799578_1587" custom="readingOrder {index:6;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="218,1220 1175,1220 1176,1429 219,1429"/>
       <TextLine id="region0004_line0014" custom="readingOrder {index:0;}">
-        <Coords points="698,1218 685,1231 673,1232 624,1233 620,1221 606,1219 594,1229 581,1224 523,1224 509,1230 484,1234 465,1233 461,1230 421,1233 414,1226 405,1226 398,1235 357,1235 351,1226 340,1226 333,1233 327,1225 309,1225 302,1235 219,1234 220,1290 240,1289 293,1278 321,1280 373,1277 446,1281 565,1275 583,1278 603,1277 605,1283 615,1287 629,1282 631,1277 678,1273 784,1273 801,1276 803,1281 818,1286 881,1292 886,1287 888,1275 972,1277 979,1286 994,1286 1002,1277 1007,1276 1099,1274 1112,1266 1112,1234 1107,1229 953,1231 948,1222 935,1221 927,1229 920,1222 902,1222 891,1231 866,1231 860,1224 851,1221 794,1221 772,1226 765,1220 755,1220 745,1228 716,1229 711,1219"/>
+        <Coords points="685,1231 673,1232 624,1233 620,1221 613,1220 604,1220 594,1229 581,1224 523,1224 509,1230 484,1234 465,1233 461,1230 421,1233 414,1226 405,1226 398,1235 357,1235 351,1226 340,1226 333,1233 327,1225 309,1225 302,1235 219,1234 220,1290 240,1289 293,1278 321,1280 373,1277 446,1281 565,1275 583,1278 603,1277 605,1283 615,1287 629,1282 631,1277 678,1273 784,1273 801,1276 803,1281 818,1286 881,1292 886,1287 888,1275 972,1277 979,1286 994,1286 1002,1277 1007,1276 1099,1274 1112,1266 1112,1234 1107,1229 953,1231 948,1222 935,1221 927,1229 920,1222 902,1222 891,1231 866,1231 860,1224 851,1221 794,1221 772,1226 765,1220 755,1220 745,1228 716,1229 711,1220 696,1220"/>
         <Word id="region0004_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="233,1238 291,1238 291,1276 233,1276"/>
           <TextEquiv conf="0.9299196">
@@ -763,7 +779,7 @@ Rarus liber. - - I. -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0017" custom="readingOrder {index:3;}">
-        <Coords points="220,1377 220,1424 273,1425 278,1431 283,1432 290,1432 303,1426 379,1421 385,1415 396,1422 411,1423 613,1421 1069,1425 1104,1429 1111,1436 1123,1436 1131,1429 1174,1427 1174,1384 1104,1380 1032,1384 1011,1391 816,1391 809,1387 791,1387 786,1391 571,1390 562,1387 548,1387 543,1390 463,1390 458,1380 446,1380 441,1390 364,1390 358,1382 342,1380"/>
+        <Coords points="220,1424 273,1425 276,1429 296,1429 303,1426 379,1421 385,1415 396,1422 411,1423 613,1421 1069,1425 1104,1429 1131,1429 1174,1427 1174,1384 1104,1380 1032,1384 1011,1391 816,1391 809,1387 791,1387 786,1391 571,1390 562,1387 548,1387 543,1390 463,1390 458,1380 446,1380 441,1390 364,1390 358,1382 342,1380 220,1377"/>
         <Word id="region0004_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="310,1425 310,1391 235,1391 235,1424 273,1425 274,1427 300,1427 303,1426"/>
           <TextEquiv conf="0.9237188">
@@ -799,16 +815,16 @@ Rarus liber. - - I. -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>31. Liceti Fort. Reſponſa de Quæſitis per&#13;
-Epiſtolas &amp;c. Bononiæ, 1640.&#13;
-Liber rarus. vid. Biblioth. Mencken. pag.&#13;
+        <Unicode>31. Liceti Fort. Reſponſa de Quæſitis per
+Epiſtolas &amp;c. Bononiæ, 1640.
+Liber rarus. vid. Biblioth. Mencken. pag.
 213. - - 2. 30.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505803104_1592" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1644505803104_1592" custom="readingOrder {index:7;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="219,1429 1176,1429 1177,1530 219,1530"/>
       <TextLine id="line_1645430037486_351" custom="readingOrder {index:0;}">
-        <Coords points="220,1430 385,1416 958,1425 1087,1437 1092,1442 1091,1474 1081,1480 1035,1483 257,1487 220,1486"/>
+        <Coords points="220,1430 220,1486 257,1487 1035,1483 1081,1480 1091,1474 1092,1442 1087,1437 1001,1429 231,1429"/>
         <Word id="region0004_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="236,1434 297,1434 296,1474 235,1474"/>
           <TextEquiv>
@@ -838,7 +854,7 @@ Liber rarus. vid. Biblioth. Mencken. pag.&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1645430049219_358" custom="readingOrder {index:1;}">
-        <Coords points="246,1487 332,1478 816,1469 821,1469 968,1478 1174,1498 1174,1533 1080,1541 229,1535 224,1530 226,1493"/>
+        <Coords points="1174,1498 968,1478 821,1469 816,1469 332,1478 246,1487 226,1493 224,1530 1174,1530"/>
         <Word id="word_1643886886597_6146" custom="readingOrder {index:0;}">
           <Coords points="287,1483 295,1483 322,1484 332,1478 347,1480 353,1484 371,1484 371,1521 287,1521"/>
           <TextEquiv>
@@ -886,14 +902,14 @@ Liber rarus. vid. Biblioth. Mencken. pag.&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>32. Loͤſchers Valent. Reformations-&#13;
+        <Unicode>32. Loͤſchers Valent. Reformations-
 Acta und Documenta &amp;c. Leipzig. 2. -</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505805263_1597" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1644505805263_1597" custom="readingOrder {index:8;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="219,1530 1177,1530 1180,1806 220,1806"/>
       <TextLine id="region0004_line0020" custom="readingOrder {index:0;}">
-        <Coords points="650,1525 644,1528 640,1538 627,1539 615,1538 608,1531 595,1529 547,1530 540,1534 533,1529 524,1529 513,1533 511,1543 459,1538 415,1539 410,1534 392,1534 377,1535 369,1543 309,1538 269,1547 220,1548 220,1601 294,1600 327,1596 356,1597 358,1592 364,1591 419,1589 428,1602 439,1603 453,1597 456,1589 525,1590 588,1586 592,1592 602,1594 614,1591 618,1584 651,1582 665,1582 672,1584 675,1589 686,1591 697,1590 705,1582 718,1584 775,1580 1016,1587 1100,1587 1109,1585 1113,1580 1113,1549 1104,1543 981,1540 973,1537 967,1529 955,1529 946,1535 945,1540 914,1541 821,1539 803,1530 784,1530 749,1537 664,1537 664,1527"/>
+        <Coords points="640,1538 627,1539 615,1538 608,1531 601,1530 547,1530 540,1534 534,1530 521,1530 513,1533 511,1543 459,1538 415,1539 410,1534 392,1534 377,1535 369,1543 309,1538 269,1547 220,1548 220,1601 294,1600 327,1596 356,1597 358,1592 364,1591 419,1589 428,1602 439,1603 453,1597 456,1589 525,1590 588,1586 592,1592 602,1594 614,1591 618,1584 651,1582 665,1582 672,1584 675,1589 686,1591 697,1590 705,1582 718,1584 775,1580 1016,1587 1100,1587 1109,1585 1113,1580 1113,1549 1104,1543 981,1540 973,1537 967,1530 953,1530 946,1535 945,1540 914,1541 821,1539 803,1530 784,1530 749,1537 664,1537 664,1530 643,1530"/>
         <Word id="region0004_line0020_word0000" custom="readingOrder {index:0;}">
           <Coords points="239,1547 239,1582 293,1582 293,1545 277,1545 269,1547"/>
           <TextEquiv conf="0.9321327">
@@ -997,7 +1013,7 @@ Acta und Documenta &amp;c. Leipzig. 2. -</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643886408915_5925" custom="readingOrder {index:2;}">
-          <Coords points="577,1638 720,1635 745,1635 821,1641 821,1679 694,1689 557,1689 557,1646"/>
+          <Coords points="687,1636 686,1636 684,1642 593,1646 590,1640 577,1638 567,1646 557,1647 557,1689 694,1689 695,1689 696,1688 714,1687 821,1679 821,1642 778,1643 748,1641 745,1635 720,1635 713,1635 704,1642 697,1635"/>
           <TextEquiv>
             <Unicode>elegantiſſimis.</Unicode>
           </TextEquiv>
@@ -1055,7 +1071,7 @@ Acta und Documenta &amp;c. Leipzig. 2. -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0024" custom="readingOrder {index:4;}">
-        <Coords points="782,1737 759,1744 746,1741 687,1746 674,1741 651,1740 604,1750 533,1750 518,1746 501,1746 453,1754 442,1754 435,1749 413,1751 361,1748 348,1752 241,1750 221,1747 221,1751 222,1807 308,1808 346,1800 424,1798 487,1798 494,1803 508,1803 516,1798 549,1794 612,1795 617,1799 626,1799 630,1796 666,1798 700,1787 728,1789 734,1795 750,1795 756,1789 834,1785 872,1787 919,1784 927,1781 998,1781 1002,1791 1012,1792 1014,1800 1023,1804 1115,1804 1119,1807 1129,1807 1139,1802 1157,1801 1169,1804 1176,1801 1175,1756 1093,1750 932,1750 926,1740 856,1740 844,1737 833,1741 810,1742"/>
+        <Coords points="759,1744 746,1741 687,1746 674,1741 651,1740 604,1750 533,1750 518,1746 501,1746 453,1754 442,1754 435,1749 413,1751 361,1748 348,1752 241,1750 221,1747 221,1751 221,1806 317,1806 346,1800 424,1798 487,1798 494,1803 508,1803 516,1798 549,1794 612,1795 617,1799 626,1799 630,1796 666,1798 700,1787 728,1789 734,1795 750,1795 756,1789 834,1785 872,1787 919,1784 927,1781 998,1781 1002,1791 1012,1792 1014,1800 1023,1804 1115,1804 1117,1806 1131,1806 1139,1802 1157,1801 1169,1804 1176,1801 1175,1756 1093,1750 932,1750 926,1740 856,1740 844,1737 833,1741 810,1742 782,1737"/>
         <Word id="region0004_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="282,1750 282,1793 334,1793 334,1751"/>
           <TextEquiv>
@@ -1097,17 +1113,17 @@ Acta und Documenta &amp;c. Leipzig. 2. -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>33. Lydii Jacobi Syntagma Sacrum de re&#13;
-militari, nec non de jurejurando, cum&#13;
-figuris æneis elegantiſſimis. cum notis&#13;
-Sal. von Til. Dordraci, 1698.&#13;
+        <Unicode>33. Lydii Jacobi Syntagma Sacrum de re
+militari, nec non de jurejurando, cum
+figuris æneis elegantiſſimis. cum notis
+Sal. von Til. Dordraci, 1698.
 Jn Median Format, Frantz⸗Band. 3. 30.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.10853733" type="paragraph" readingDirection="left-to-right" id="TextRegion_1644505805263_1596" custom="readingOrder {index:9;}">
+    <TextRegion id="TextRegion_1644505805263_1596" custom="readingOrder {index:9;}" orientation="-0.10853733" type="paragraph" readingDirection="left-to-right">
       <Coords points="220,1806 1180,1806 1183,2063 276,2063 222,1973"/>
       <TextLine id="region0004_line0025" custom="readingOrder {index:0;}">
-        <Coords points="799,1793 795,1796 793,1805 720,1802 715,1797 703,1797 696,1803 682,1807 626,1811 617,1811 607,1803 597,1804 593,1812 576,1810 569,1803 559,1803 554,1805 550,1812 526,1814 499,1806 443,1806 434,1811 432,1818 424,1811 413,1811 406,1819 379,1819 347,1810 304,1810 298,1814 296,1823 222,1821 222,1877 269,1873 283,1875 309,1870 318,1865 338,1867 374,1863 394,1865 635,1858 676,1852 762,1855 837,1849 843,1852 887,1850 896,1853 937,1851 942,1854 1030,1854 1118,1851 1123,1846 1123,1822 1118,1817 1062,1815 1021,1808 999,1800 974,1797 940,1799 925,1803 906,1803 894,1796 886,1796 878,1802 873,1798 850,1798 843,1806 838,1806 831,1798 819,1799 813,1793"/>
+        <Coords points="682,1807 626,1811 617,1811 610,1806 596,1806 593,1812 576,1810 572,1806 553,1806 550,1812 526,1814 499,1806 443,1806 434,1811 432,1818 424,1811 413,1811 406,1819 379,1819 347,1810 304,1810 298,1814 296,1823 222,1821 222,1877 269,1873 283,1875 309,1870 318,1865 338,1867 374,1863 394,1865 635,1858 676,1852 762,1855 837,1849 843,1852 887,1850 896,1853 937,1851 942,1854 1030,1854 1118,1851 1123,1846 1123,1822 1118,1817 1062,1815 1021,1808 1015,1806 843,1806 838,1806 685,1806"/>
         <Word id="region0004_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="245,1832 245,1862 304,1862 304,1822 302,1822 298,1825 296,1834"/>
           <TextEquiv conf="0.94573325">
@@ -1139,13 +1155,13 @@ Jn Median Format, Frantz⸗Band. 3. 30.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0025_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:8;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="834,1802 793,1802 793,1805 722,1802 722,1846 874,1848 874,1804 861,1801 853,1804 871,1802 904,1802 878,1802 846,1802 843,1806 838,1806"/>
+          <Coords points="834,1802 722,1802 722,1846 874,1848 874,1804 853,1804 904,1802 846,1802 843,1806"/>
           <TextEquiv conf="0.8981607">
             <Unicode>Drabicii</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1644505805310_1601" custom="readingOrder {index:6;}">
-          <Coords points="883,1806 943,1806 943,1855 931,1855 926,1852 885,1854 883,1853"/>
+          <Coords points="943,1806 883,1806 883,1850 887,1850 896,1853 937,1851 942,1854 943,1854"/>
           <TextEquiv>
             <Unicode>&amp;c.</Unicode>
           </TextEquiv>
@@ -1247,7 +1263,7 @@ Jn Median Format, Frantz⸗Band. 3. 30.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643887079046_6271" custom="readingOrder {index:1;} textStyle {offset:0; length:7;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="345,1973 398,1973 443,1975 443,2021 422,2027 411,2027 345,2012"/>
+          <Coords points="398,1973 345,1973 345,2012 389,2022 392,2022 392,2023 411,2027 422,2027 424,2022 442,2021 443,2021 443,1975 413,1974 408,1977 401,1976 398,1973"/>
           <TextEquiv>
             <Unicode>Sileſii</Unicode>
           </TextEquiv>
@@ -1269,7 +1285,7 @@ Jn Median Format, Frantz⸗Band. 3. 30.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0002" custom="readingOrder {index:4;}">
-        <Coords points="700,2006 689,2018 649,2020 648,2015 643,2012 632,2012 589,2016 583,2018 580,2023 571,2025 557,2025 555,2018 538,2016 532,2019 530,2025 497,2026 481,2026 478,2019 461,2018 451,2021 446,2027 421,2028 412,2033 401,2033 393,2028 359,2028 352,2020 331,2019 319,2022 312,2030 291,2029 291,2069 333,2074 364,2071 464,2070 466,2077 478,2085 497,2085 507,2069 560,2071 564,2068 615,2065 720,2063 753,2058 847,2063 938,2064 985,2070 1053,2072 1053,2013 999,2014 992,2024 986,2024 949,2020 845,2019 832,2007 817,2006 787,2007 781,2014 771,2015 711,2016 705,2007"/>
+        <Coords points="689,2018 649,2020 648,2015 643,2012 632,2012 589,2016 583,2018 580,2023 571,2025 557,2025 555,2018 538,2016 532,2019 530,2025 497,2026 481,2026 478,2019 461,2018 451,2021 446,2027 421,2028 412,2033 401,2033 393,2028 359,2028 352,2020 331,2019 319,2022 312,2030 291,2029 291,2063 720,2063 753,2058 847,2063 1053,2063 1053,2013 999,2014 992,2024 986,2024 949,2020 845,2019 832,2007 817,2006 787,2007 781,2014 771,2015 711,2016 705,2007 700,2006"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="319,2022 319,2057 412,2058 412,2033 401,2033 393,2028 359,2028 352,2020 331,2019"/>
           <TextEquiv conf="0.9297636">
@@ -1305,14 +1321,14 @@ Jn Median Format, Frantz⸗Band. 3. 30.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>34. Lux in Tenebris. vel Drabicii &amp;c. Pro-&#13;
-phetiæ Donum, quo Deus Eccleſiam E-&#13;
-vangelicam ornare dignatus eſt; ſubmiſ-&#13;
-ſis Sileſii Revelationibus. 1657.&#13;
+        <Unicode>34. Lux in Tenebris. vel Drabicii &amp;c. Pro-
+phetiæ Donum, quo Deus Eccleſiam E-
+vangelicam ornare dignatus eſt; ſubmiſ-
+ſis Sileſii Revelationibus. 1657.
 Cum figuris liber rariſſimus. vid.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1676459423843_5259" custom="readingOrder {index:10;} structure {type:catch-word;}">
+    <TextRegion id="region_1676459423843_5259" custom="readingOrder {index:10;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1095,2075 1095,2126 1187,2126 1187,2075"/>
       <TextLine id="line_1676459423901_5262" custom="readingOrder {index:0;}">
         <Coords points="1095,2075 1095,2126 1187,2126 1187,2075"/>

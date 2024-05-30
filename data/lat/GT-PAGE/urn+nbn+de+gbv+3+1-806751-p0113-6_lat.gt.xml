@@ -1,9 +1,25 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-294">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:35Z</Created>
     <LastChange>2024-01-19T13:10:35Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
   <Page imageFilename="https://opendata.uni-halle.de/retrieve/925ee09f-ebb7-488c-97fa-6f740312daf0/00000113.jpg" imageWidth="2561" imageHeight="2659" type="content" primaryLanguage="Latin">
     <Border>
@@ -14,7 +30,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1676278587304_2166"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.51332414" readingDirection="left-to-right" id="TextRegion_1676278587304_2166" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1676278587304_2166" custom="readingOrder {index:2;}" orientation="0.51332414" readingDirection="left-to-right">
       <Coords points="357,334 1591,334 1591,2275 357,2275"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="1120,334 1114,340 1113,349 874,354 858,354 852,343 840,342 832,349 826,344 815,344 808,348 806,354 799,355 754,356 746,349 737,349 729,358 721,358 714,350 705,350 698,359 691,359 685,347 672,345 659,359 636,360 631,353 621,352 612,362 604,362 596,355 586,355 580,362 559,363 555,357 543,355 531,364 489,366 484,355 468,353 459,357 452,367 439,368 428,368 426,358 420,354 361,355 357,356 358,416 435,415 484,411 547,410 583,406 669,405 674,415 685,416 695,414 699,405 716,404 1048,396 1295,394 1303,404 1318,403 1330,391 1591,389 1590,344 1567,344 1561,336 1550,336 1543,344 1491,346 1468,343 1465,334 1444,334 1440,342 1401,343 1393,335 1363,334 1358,343 1346,344 1275,346 1212,339 1206,342 1154,349 1147,342 1136,343 1129,334"/>
@@ -602,7 +618,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0013_word0003" custom="readingOrder {index:3;}">
-          <Coords points="1128,1038 1050,1039 1051,1088 1072,1087 1079,1084 1091,1082 1128,1080"/>
+          <Coords points="1050,1084 1055,1084 1061,1087 1072,1087 1079,1084 1091,1082 1128,1080 1128,1038 1050,1039"/>
           <TextEquiv conf="0.92445564">
             <Unicode>quæ</Unicode>
           </TextEquiv>
