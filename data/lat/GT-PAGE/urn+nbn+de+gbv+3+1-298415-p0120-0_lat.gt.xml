@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-122">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:01Z</Created>
     <LastChange>2024-01-19T13:08:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-298415-p0120-0_lat.jpg" imageWidth="1461" imageHeight="2142" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/4c90d242-729d-46df-8035-1080dc57a93e/00000120.jpg" imageWidth="1461" imageHeight="2142" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="79,180 78,2070 1356,2094 1348,208"/>
     </Border>
@@ -22,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1670404062765_1395"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.38703713" type="page-number" readingDirection="left-to-right" id="TextRegion_1670404089642_1408" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1670404089642_1408" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.38703713" type="page-number" readingDirection="left-to-right">
       <Coords points="403,363 516,363 516,423 403,423"/>
       <TextLine id="line_1670404089695_1411" custom="readingOrder {index:0;}">
         <Coords points="403,367 476,368 504,374 516,374 516,419 486,419 484,422 462,422 460,419 403,418"/>
@@ -40,7 +55,7 @@
         <Unicode>114 COMMENTATIO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" type="header" readingDirection="left-to-right" id="TextRegion_1670404089642_1407" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1670404089642_1407" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.38703713" type="header" readingDirection="left-to-right">
       <Coords points="516,363 1038,363 1038,423 516,423"/>
       <TextLine id="line_1670404089695_1410" custom="readingOrder {index:0;}">
         <Coords points="516,374 570,377 574,363 880,363 1037,364 1037,413 768,411 717,414 578,411 572,421 516,419"/>
@@ -58,7 +73,7 @@
         <Unicode>114 COMMENTATIO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="-0.38703713" readingDirection="left-to-right">
       <Coords points="456,434 1299,434 1299,535 456,535"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1156,436 1147,446 1135,446 1128,437 1118,437 1110,446 1073,438 1023,438 1008,443 971,444 965,437 954,437 943,446 902,446 893,446 887,438 875,438 868,445 850,438 801,445 793,444 789,435 771,434 767,440 649,444 639,444 631,437 601,436 595,438 591,446 524,441 498,444 484,437 457,436 457,485 514,479 522,484 539,486 550,482 567,487 629,483 657,489 664,484 708,479 718,474 745,480 773,479 808,483 812,486 826,481 857,484 979,481 991,485 1013,485 1028,480 1050,480 1059,485 1110,485 1115,482 1139,482 1143,485 1253,485 1262,488 1299,486 1299,448 1258,447 1252,437 1187,436 1176,437 1171,441 1164,436"/>
@@ -153,11 +168,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>lante, alii pro re alia, habuerint. Probabiliſſima&#13;
+        <Unicode>lante, alii pro re alia, habuerint. Probabiliſſima
 videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;}" orientation="-0.38703713" readingDirection="left-to-right">
       <Coords points="456,535 1298,535 1298,835 456,835"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1129,536 1126,544 1056,546 962,543 874,544 692,537 602,544 457,547 457,604 463,604 468,609 477,609 483,604 570,598 573,606 582,608 591,605 595,597 655,597 695,590 731,593 891,595 926,591 935,582 939,583 940,604 950,609 959,606 963,598 969,597 1038,597 1060,592 1073,595 1091,593 1103,596 1119,586 1128,598 1223,598 1298,594 1298,544 1152,544 1150,536"/>
@@ -230,7 +245,7 @@ videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="907,598 906,641 915,641 916,650 926,654 933,649 995,650 995,606 960,606 950,610 940,605 926,604 923,598"/>
+          <Coords points="906,641 915,641 926,635 936,639 933,649 995,650 995,606 960,606 950,610 940,605 926,604 923,598 907,598"/>
           <TextEquiv>
             <Unicode>יוכל</Unicode>
           </TextEquiv>
@@ -387,14 +402,14 @@ videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>מן מנקה באש אשר הזך הוא החשמל&#13;
-כמו להשיגו׳ העין יוכל שלא העשן ׳&#13;
-החשמל כעין כאן׳ אמר ולכן שהוא:&#13;
-נאמר השנית ובמראה : האש מתוך&#13;
+        <Unicode>מן מנקה באש אשר הזך הוא החשמל
+כמו להשיגו׳ העין יוכל שלא העשן ׳
+החשמל כעין כאן׳ אמר ולכן שהוא:
+נאמר השנית ובמראה : האש מתוך
 : החשמל כעין זוהר כמראה Ecce vero</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" readingDirection="left-to-right" id="TextRegion_1670404027740_1353" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1670404027740_1353" custom="readingOrder {index:4;}" orientation="-0.38703713" readingDirection="left-to-right">
       <Coords points="379,828 1293,828 1293,1206 366,1206"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="806,829 804,835 761,836 661,836 653,834 648,829 636,829 631,834 629,829 606,828 602,831 598,828 584,828 580,831 578,839 552,838 548,828 526,829 523,834 504,831 434,831 408,842 407,870 416,876 483,875 489,872 516,875 533,872 539,876 631,877 637,873 645,873 653,877 728,876 739,883 751,882 758,874 773,869 793,875 820,875 826,871 837,871 846,876 874,878 887,883 898,878 932,879 940,875 947,876 953,883 960,875 973,875 978,886 990,889 1001,880 1068,881 1075,877 1084,877 1115,887 1163,879 1293,880 1293,842 1276,842 1267,832 1254,834 1250,842 1116,842 1109,834 1099,834 1090,843 1070,843 1065,835 1052,834 1045,843 1028,844 856,838 833,836 829,829"/>
@@ -468,7 +483,7 @@ videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
         </Word>
         <Word id="region0005_line0002_word0001" custom="readingOrder {index:1;}">
           <Coords points="524,875 523,916 617,918 651,915 656,918 679,919 679,878 653,878 648,875 632,875 623,879 539,877 536,875"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>immunis)</Unicode>
           </TextEquiv>
         </Word>
@@ -633,7 +648,7 @@ videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
         <Baseline points="403,1029 564,1036 750,1037 751,1037 1293,1038"/>
         <Word id="region0005_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="462,1000 462,1039 476,1040 492,1037 503,1042 517,1042 549,1041 553,1042 584,1043 584,1003 563,1005 547,1010 539,1009 521,1000"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>trabat.)</Unicode>
           </TextEquiv>
         </Word>
@@ -657,7 +672,7 @@ videri poterat ſententia R. Abrabbanelis, והנה</Unicode>
         </Word>
         <Word id="region0005_line0005_word0004" custom="readingOrder {index:4;}">
           <Coords points="995,1007 950,1007 950,1047 962,1047 985,1042 995,1042"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>(c.</Unicode>
           </TextEquiv>
         </Word>
@@ -879,7 +894,7 @@ viſione (c. X.) dicitur,quaſi aſpectus fulguris, qua-
 ſi intuitus Chaſmal.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" readingDirection="left-to-right" id="TextRegion_1670404027740_1352" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1670404027740_1352" custom="readingOrder {index:5;}" orientation="-0.38703713" readingDirection="left-to-right">
       <Coords points="366,1206 1293,1206 1293,1718 349,1718"/>
       <TextLine id="line_1670404027781_1363" custom="readingOrder {index:0;}">
         <Coords points="382,1221 431,1221 475,1217 494,1211 523,1209 574,1210 579,1214 597,1215 615,1215 623,1209 647,1213 708,1211 722,1212 729,1217 836,1215 841,1208 846,1206 919,1206 964,1207 968,1210 970,1218 1055,1215 1059,1212 1128,1218 1132,1211 1145,1209 1154,1219 1168,1217 1177,1207 1190,1208 1197,1215 1233,1214 1253,1207 1292,1210 1293,1261 1273,1262 1264,1258 1236,1256 1203,1258 1090,1258 1070,1255 1058,1257 1032,1257 1027,1254 997,1254 971,1260 895,1252 885,1255 832,1254 824,1260 813,1260 808,1251 797,1250 781,1256 728,1252 718,1257 702,1257 696,1254 683,1257 564,1254 549,1259 540,1255 506,1256 471,1259 468,1262 447,1261 407,1273 380,1273 379,1222"/>
@@ -897,7 +912,7 @@ viſione (c. X.) dicitur,quaſi aſpectus fulguris, qua-
           </TextEquiv>
         </Word>
         <Word id="word_1670404575311_1529" custom="readingOrder {index:2;}">
-          <Coords points="518,1209 623,1209 708,1211 795,1215 795,1250 791,1252 781,1256 518,1250"/>
+          <Coords points="791,1252 795,1250 795,1216 729,1217 722,1212 708,1211 647,1213 623,1209 615,1215 597,1215 579,1214 574,1210 523,1209 518,1209 518,1250 696,1254 696,1254 696,1254 723,1255 728,1252 781,1256"/>
           <TextEquiv>
             <Unicode>Splendidiſſimum</Unicode>
           </TextEquiv>
@@ -1302,7 +1317,7 @@ viſione (c. X.) dicitur,quaſi aſpectus fulguris, qua-
         </Word>
         <Word id="region0005_line0018_word0002" custom="readingOrder {index:2;}">
           <Coords points="562,1548 593,1548 593,1580 562,1580"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>S.</Unicode>
           </TextEquiv>
         </Word>
@@ -1445,7 +1460,7 @@ viſione (c. X.) dicitur,quaſi aſpectus fulguris, qua-
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0021" custom="readingOrder {index:11;}">
-        <Coords points="640,1666 623,1671 616,1668 605,1669 602,1678 591,1681 583,1679 581,1673 575,1671 562,1677 521,1681 480,1680 473,1687 463,1689 402,1687 399,1691 399,1716 404,1721 520,1722 576,1717 588,1712 599,1712 624,1720 653,1708 669,1714 698,1708 717,1708 718,1679 715,1675 695,1670 665,1670"/>
+        <Coords points="623,1671 616,1668 605,1669 602,1678 591,1681 583,1679 581,1673 575,1671 562,1677 521,1681 480,1680 473,1687 463,1689 402,1687 399,1691 399,1716 401,1718 564,1718 576,1717 588,1712 599,1712 617,1718 628,1718 653,1708 669,1714 698,1708 717,1708 718,1679 715,1675 695,1670 665,1670 640,1666"/>
         <Baseline points="399,1711 717,1702"/>
         <Word id="region0005_line0021_word0000" custom="readingOrder {index:0;}">
           <Coords points="455,1707 540,1708 540,1679 521,1681 480,1680 473,1687 463,1689 455,1688"/>
@@ -1464,24 +1479,24 @@ viſione (c. X.) dicitur,quaſi aſpectus fulguris, qua-
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>p. 31. Splendidiſſimum quid fuiſſe, certum inde eſt;&#13;
-accurata vero ipſius forma &amp; conſtitutio, vt patet,&#13;
-ipſum Vatem latuit. Nos itaque eam curioſius non&#13;
-rimabimur, mirabimur potius. Recte ergo Inter-&#13;
-pretes omnes in eo conueniunt, quod per חשמל&#13;
-penetrantiſſimus, fulgentiſſimus, &amp; radicalis ignis&#13;
-intelligatur, fomes reliqui ignis omnis, cujus in me-&#13;
-dio erat, quem alebat. Rectiſſime ergo applicabi-&#13;
-tur ad S. Spiritum, tertiam Deitatis perſonam, quae&#13;
-praeſentiſſima eſt Viris, quos inſpiratione ſua di-&#13;
-gnatur, quos commouet, pellit, agitat, dirigit, &amp; pe-&#13;
+        <Unicode>p. 31. Splendidiſſimum quid fuiſſe, certum inde eſt;
+accurata vero ipſius forma &amp; conſtitutio, vt patet,
+ipſum Vatem latuit. Nos itaque eam curioſius non
+rimabimur, mirabimur potius. Recte ergo Inter-
+pretes omnes in eo conueniunt, quod per חשמל
+penetrantiſſimus, fulgentiſſimus, &amp; radicalis ignis
+intelligatur, fomes reliqui ignis omnis, cujus in me-
+dio erat, quem alebat. Rectiſſime ergo applicabi-
+tur ad S. Spiritum, tertiam Deitatis perſonam, quae
+praeſentiſſima eſt Viris, quos inſpiratione ſua di-
+gnatur, quos commouet, pellit, agitat, dirigit, &amp; pe-
 nitus abripit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" readingDirection="left-to-right" id="TextRegion_1670404056179_1389" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1670404056179_1389" custom="readingOrder {index:6;}" orientation="-0.38703713" readingDirection="left-to-right">
       <Coords points="349,1718 1293,1718 1293,1814 1287,2063 345,2057 345,1966 345,1855"/>
       <TextLine id="region0005_line0022" custom="readingOrder {index:0;}">
-        <Coords points="760,1703 751,1711 698,1709 667,1715 653,1709 624,1721 612,1716 605,1717 599,1713 588,1713 571,1720 520,1723 409,1721 380,1725 380,1776 430,1773 476,1765 535,1764 548,1763 555,1759 596,1760 628,1758 638,1753 663,1755 674,1750 688,1753 762,1752 770,1746 780,1747 788,1753 798,1754 866,1756 919,1756 954,1755 963,1751 986,1753 1026,1750 1106,1757 1136,1757 1144,1753 1157,1753 1167,1758 1293,1760 1293,1721 1250,1720 1241,1710 1230,1711 1223,1719 1210,1708 1198,1708 1194,1711 1179,1709 1174,1712 1109,1710 1091,1714 1050,1713 1021,1712 1015,1706 1003,1706 998,1711 980,1708 976,1711 963,1710 934,1715 873,1716 871,1710 865,1706 856,1706 847,1715 808,1715 778,1714 773,1706"/>
+        <Coords points="624,1721 616,1718 575,1718 571,1720 520,1723 409,1721 380,1725 380,1776 430,1773 476,1765 535,1764 548,1763 555,1759 596,1760 628,1758 638,1753 663,1755 674,1750 688,1753 762,1752 770,1746 780,1747 788,1753 798,1754 866,1756 919,1756 954,1755 963,1751 986,1753 1026,1750 1106,1757 1136,1757 1144,1753 1157,1753 1167,1758 1293,1760 1293,1721 1250,1720 1248,1718 1223,1718 1223,1719 1221,1718 631,1718"/>
         <Baseline points="380,1764 745,1741 1293,1750"/>
         <Word id="region0005_line0022_word0000" custom="readingOrder {index:0;}">
           <Coords points="385,1753 442,1753 442,1721 409,1721 385,1724"/>
@@ -1514,7 +1529,7 @@ nitus abripit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1670404822887_1648" custom="readingOrder {index:5;}">
-          <Coords points="968,1718 1127,1714 1245,1714 1283,1720 1283,1750 1127,1749 968,1746"/>
+          <Coords points="1127,1714 968,1718 968,1746 1127,1749 1283,1750 1283,1720 1250,1720 1244,1714 1227,1714 1223,1719 1217,1714"/>
           <TextEquiv>
             <Unicode>Hebraeo-Chaldaico</Unicode>
           </TextEquiv>
@@ -1606,13 +1621,13 @@ nitus abripit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0002_word0004" custom="readingOrder {index:4;}">
-          <Coords points="1094,1881 1094,1825 1091,1825 1088,1823 1089,1809 1083,1804 1075,1804 1068,1811 1070,1824 1043,1821 1041,1808 1037,1805 1028,1805 1028,1859 1029,1880"/>
+          <Coords points="1094,1825 1091,1825 1088,1823 1089,1809 1083,1804 1075,1804 1068,1811 1070,1824 1043,1821 1041,1808 1037,1805 1028,1805 1028,1859 1028,1859 1029,1859 1032,1860 1032,1871 1034,1875 1094,1876"/>
           <TextEquiv>
             <Unicode>מָל </Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0006_line0002_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1100,1872 1179,1882 1181,1820 1168,1827 1138,1826 1130,1823 1089,1826"/>
+          <Coords points="1130,1875 1142,1876 1178,1874 1179,1873 1180,1820 1168,1827 1138,1826 1130,1823 1089,1826 1100,1872"/>
           <TextEquiv>
             <Unicode>חָשׁ ,</Unicode>
           </TextEquiv>
@@ -1704,7 +1719,7 @@ nitus abripit.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1670405085088_1755" custom="readingOrder {index:3;}">
-          <Coords points="816,1927 988,1927 988,1969 987,1966 978,1964 882,1961 815,1961"/>
+          <Coords points="816,1927 815,1961 882,1961 978,1964 987,1966 988,1969 988,1931 951,1930 945,1927 931,1927 920,1929 918,1927"/>
           <TextEquiv conf="0.90877265">
             <Unicode>Rabbinico</Unicode>
           </TextEquiv>
@@ -1732,7 +1747,7 @@ nitus abripit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0001" custom="readingOrder {index:5;}">
-        <Coords points="1218,1984 1216,1995 1167,1995 1161,1990 1151,1990 1144,1997 1042,1994 1032,1993 1025,1988 1012,1988 1007,1991 985,1989 876,1997 838,1997 825,1996 820,1987 809,1986 801,1990 785,1989 779,1994 758,1996 751,1989 739,1989 734,1992 726,1986 718,1986 706,1997 693,1997 686,1990 675,1990 668,1998 640,1998 633,1992 623,1992 613,1998 542,1996 538,1999 504,2001 478,2001 473,1989 460,1987 454,1992 452,2000 353,2002 348,2007 348,2041 356,2047 357,2053 361,2056 417,2056 434,2064 462,2066 468,2069 480,2067 514,2068 528,2063 537,2071 547,2071 553,2063 621,2064 632,2058 634,2050 717,2042 856,2041 870,2042 875,2047 888,2047 894,2043 947,2039 1012,2040 1049,2044 1246,2046 1255,2052 1263,2052 1269,2046 1287,2046 1287,2008 1269,2008 1263,2000 1253,2000 1246,2007 1240,2007 1239,1984"/>
+        <Coords points="1216,1995 1167,1995 1161,1990 1151,1990 1144,1997 1042,1994 1032,1993 1025,1988 1012,1988 1007,1991 985,1989 876,1997 838,1997 825,1996 820,1987 809,1986 801,1990 785,1989 779,1994 758,1996 751,1989 739,1989 734,1992 726,1986 718,1986 706,1997 693,1997 686,1990 675,1990 668,1998 640,1998 633,1992 623,1992 613,1998 542,1996 538,1999 504,2001 478,2001 473,1989 460,1987 454,1992 452,2000 353,2002 348,2007 348,2041 356,2047 357,2053 361,2056 417,2056 420,2057 630,2058 632,2058 634,2050 717,2042 856,2041 870,2042 875,2047 888,2047 894,2043 947,2039 1012,2040 1049,2044 1246,2046 1255,2052 1263,2052 1269,2046 1287,2046 1287,2008 1269,2008 1263,2000 1253,2000 1246,2007 1240,2007 1239,1984 1218,1984"/>
         <Baseline points="354,2046 488,2054 589,2050 606,2038 660,2035 938,2030 1287,2037"/>
         <Word id="region0008_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="424,2050 602,2051 602,1997 542,1996 538,1999 504,2001 478,2001 473,1989 460,1987 454,1992 452,2000 424,2000"/>
@@ -1787,15 +1802,15 @@ nitus abripit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(3) Buxtorſius in Lexico minore Hebraeo-Chaldaico&#13;
-p. 273. haec habet: חַשְְׁמַל maſc. Pruna, ſummme&#13;
-ignita, adeoque ardentiſſima, quaſi מָל  חָשׁ , feſti-&#13;
-nanter excîdens &amp; conſumens. Et in Lexico Chal-&#13;
-daico Talmudico &amp; Rabbinico p. 845. חַשְְׁמַל&#13;
+        <Unicode>(3) Buxtorſius in Lexico minore Hebraeo-Chaldaico
+p. 273. haec habet: חַשְְׁמַל maſc. Pruna, ſummme
+ignita, adeoque ardentiſſima, quaſi מָל  חָשׁ , feſti-
+nanter excîdens &amp; conſumens. Et in Lexico Chal-
+daico Talmudico &amp; Rabbinico p. 845. חַשְְׁמַל
 ׃חשמלא ignis ſcintillans, vt Hebr. Ezech. I. 4.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.38703713" type="catch-word" readingDirection="left-to-right" id="TextRegion_1670404062765_1395" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1670404062765_1395" custom="readingOrder {index:7;} structure {type:catch-word;}" orientation="-0.38703713" type="catch-word" readingDirection="left-to-right">
       <Coords points="1145,2063 1287,2063 1287,2092 1145,2089"/>
       <TextLine id="line_1670404062805_1398" custom="readingOrder {index:0;}">
         <Coords points="1145,2063 1286,2063 1286,2091 1145,2089"/>

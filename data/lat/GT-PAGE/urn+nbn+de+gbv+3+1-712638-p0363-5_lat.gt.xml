@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-231">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:26Z</Created>
     <LastChange>2024-01-19T13:09:26Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-712638-p0363-5_lat.jpg" imageWidth="1894" imageHeight="2659" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/62ffe817-fd4a-46a3-b5bf-e15def8f9b5b/00000363.jpg" imageWidth="1894" imageHeight="2659" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="113,150 103,2537 1555,2543 1565,147"/>
     </Border>
@@ -21,7 +36,7 @@
         <RegionRefIndexed index="7" regionRef="region0006"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="signature-mark" id="region_1682501723853_2082" custom="readingOrder {index:0;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682501723853_2082" custom="readingOrder {index:0;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="716,2231 716,2293 805,2293 805,2231"/>
       <TextLine id="line_1682501723946_2085" custom="readingOrder {index:0;}">
         <Coords points="716,2231 716,2293 805,2293 805,2231"/>
@@ -45,7 +60,7 @@
         <Unicode>Z 3</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682501727497_2091" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="region_1682501727497_2091" custom="readingOrder {index:1;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1112,2224 1112,2273 1234,2273 1234,2224"/>
       <TextLine id="line_1682501727593_2094" custom="readingOrder {index:0;}">
         <Coords points="1112,2224 1112,2273 1234,2273 1234,2224"/>
@@ -63,7 +78,7 @@
         <Unicode>Com-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682501719229_2073" custom="readingOrder {index:2;} structure {type:page-number;}">
+    <TextRegion id="region_1682501719229_2073" custom="readingOrder {index:2;} structure {type:page-number;}" type="page-number">
       <Coords points="1201,362 1201,412 1282,412 1282,362"/>
       <TextLine id="line_1682501719315_2076" custom="readingOrder {index:0;}">
         <Coords points="1201,362 1201,412 1282,412 1282,362"/>
@@ -81,10 +96,7 @@
         <Unicode>357</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1666006173325_190" custom="readingOrder {index:3;}">
-      <Coords points="602,342 905,342 905,424 602,424"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.11259288" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:4;}">
+    <TextRegion id="region0003" custom="readingOrder {index:4;}" orientation="0.11259288" readingDirection="left-to-right">
       <Coords points="230,448 1288,448 1288,552 230,552"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="308,449 305,455 279,452 275,455 230,456 230,500 478,502 501,503 509,511 525,511 532,503 628,502 652,504 659,513 675,512 682,504 718,502 1287,503 1287,462 1243,461 1242,454 1237,449 1182,449 1173,452 1167,459 1140,461 1079,457 1075,456 1070,448 1047,448 1039,456 1028,457 898,458 893,449 878,449 872,458 826,458 765,456 762,449 741,448 737,456 653,458 526,456 501,454 499,448 475,449 473,455 366,455 364,449 346,449 337,455 333,449"/>
@@ -157,7 +169,7 @@
 tere.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11259288" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:5;}">
+    <TextRegion id="region0004" custom="readingOrder {index:5;}" orientation="0.11259288" readingDirection="left-to-right">
       <Coords points="228,598 1290,598 1290,968 228,968"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="339,599 336,606 275,607 272,611 273,643 294,650 351,653 367,662 381,657 420,655 449,655 454,661 471,662 479,655 567,653 575,649 587,652 698,654 1160,653 1214,656 1216,660 1226,663 1237,661 1240,656 1289,655 1289,611 1102,611 1096,602 1084,603 1079,611 1034,608 970,610 964,601 950,602 945,611 912,610 908,607 896,610 792,609 788,606 756,609 749,600 738,600 731,609 694,609 686,608 678,599 658,601 654,598 643,599 638,608 465,611 463,599"/>
@@ -515,16 +527,16 @@ tere.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>i) Squammæ iſtæ inter arteriæ tunicas repe-&#13;
-riri ſolent. 2) Adeo aſperam, imo &amp; aculeatam&#13;
-aliquando habent ſuperficiem, ut, quod Brunner.&#13;
-in aorta ſui ſoceri eveniſſe, ſcribit in Act. Acad.&#13;
-Natur. Curioſ. in Append. ad ann. 3. Dec. 3. ut,&#13;
-inquam, oſſea afpredine digitos immiſſos offende-&#13;
+        <Unicode>i) Squammæ iſtæ inter arteriæ tunicas repe-
+riri ſolent. 2) Adeo aſperam, imo &amp; aculeatam
+aliquando habent ſuperficiem, ut, quod Brunner.
+in aorta ſui ſoceri eveniſſe, ſcribit in Act. Acad.
+Natur. Curioſ. in Append. ad ann. 3. Dec. 3. ut,
+inquam, oſſea afpredine digitos immiſſos offende-
 rit, &amp; prominentibus aculeis pupugerit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11259288" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:6;}">
+    <TextRegion id="region0005" custom="readingOrder {index:6;}" orientation="0.11259288" readingDirection="left-to-right">
       <Coords points="226,1010 1292,1010 1292,1579 226,1579"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="272,1011 270,1043 274,1048 283,1050 283,1061 289,1067 333,1067 343,1063 362,1062 376,1067 430,1062 453,1069 466,1069 470,1065 501,1060 645,1059 663,1062 696,1060 702,1063 721,1064 888,1064 950,1061 968,1064 1036,1063 1047,1066 1067,1064 1086,1071 1107,1062 1137,1062 1158,1069 1163,1065 1291,1060 1291,1018 1091,1020 1043,1018 1032,1010 1021,1010 1011,1018 988,1015 984,1011 958,1011 945,1016 919,1018 899,1018 895,1011 878,1011 874,1019 848,1019 838,1011 810,1011 807,1018 798,1018 796,1011 758,1010 670,1010 657,1018 476,1018 474,1011 453,1011 450,1018 411,1018 394,1011"/>
@@ -1078,20 +1090,20 @@ rit, &amp; prominentibus aculeis pupugerit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Hinc jam non eſt difficile intellectu, quomo-&#13;
-do oſſicula ejusmodi ſacci aneuryſmatici diſtractio-&#13;
-ni occaſionem dare poſſint. Non poteſt videlicet&#13;
-arteria ſe contrahere, quin aſpredines, &amp; quaſi&#13;
-aculeos in adjacentem arteriæ tunicam urgeat; ne-&#13;
-que poteſt ſanguis a corde projectus arteriam di-&#13;
-latare, quin eandem tunicam ad eosdem aculeos&#13;
-adprimat, unde profecto tuneæ illius diſtractio&#13;
-provenire debet, &amp; rupturæ periculum, quale in&#13;
-ſene &amp; muliere ex hac cauſa aneuryſma vidit Mor-&#13;
+        <Unicode>Hinc jam non eſt difficile intellectu, quomo-
+do oſſicula ejusmodi ſacci aneuryſmatici diſtractio-
+ni occaſionem dare poſſint. Non poteſt videlicet
+arteria ſe contrahere, quin aſpredines, &amp; quaſi
+aculeos in adjacentem arteriæ tunicam urgeat; ne-
+que poteſt ſanguis a corde projectus arteriam di-
+latare, quin eandem tunicam ad eosdem aculeos
+adprimat, unde profecto tuneæ illius diſtractio
+provenire debet, &amp; rupturæ periculum, quale in
+ſene &amp; muliere ex hac cauſa aneuryſma vidit Mor-
 gagn. in epiſt. 26. num. 15 &amp; 17.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.11259288" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:7;}">
+    <TextRegion id="region0006" custom="readingOrder {index:7;}" orientation="0.11259288" readingDirection="left-to-right">
       <Coords points="228,1613 1289,1613 1289,2081 228,2081"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="269,1614 266,1618 266,1649 271,1654 281,1655 281,1665 287,1671 437,1673 473,1669 482,1673 515,1674 612,1672 620,1669 765,1673 919,1671 1030,1673 1034,1679 1043,1681 1054,1679 1059,1673 1116,1674 1168,1681 1206,1678 1236,1672 1288,1672 1288,1631 1257,1631 1252,1619 1234,1617 1170,1618 1164,1628 1092,1626 1084,1619 1071,1620 1062,1626 952,1629 854,1628 844,1626 843,1614 806,1614 800,1627 723,1628 722,1619 718,1614 705,1613 694,1619 692,1628 592,1627 586,1613 570,1613 564,1627 541,1628 540,1620 535,1614 521,1613 515,1619 514,1628 490,1628 407,1627 403,1619 391,1614"/>
@@ -1463,16 +1475,19 @@ gagn. in epiſt. 26. num. 15 &amp; 17.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Etiam nimia mole auctum aneuryſma, ſive&#13;
-cyſticum, ſive ecchymoticum, vicinas partes com-&#13;
-primit, unde variæ functionum læſiones eveniunt.&#13;
-Ab aneuryſmate aortæ œſophagum comprimente,&#13;
-deglutitionem impeditam vidit Morgagn. &amp; a com-&#13;
-preſſis pulmonibus ab aneuryſmate, interne in tho-&#13;
-race locato, reſpirationem impeditam, &amp; tuſſim&#13;
-inde ortam, interdum videre licuit in nonnullis&#13;
+        <Unicode>Etiam nimia mole auctum aneuryſma, ſive
+cyſticum, ſive ecchymoticum, vicinas partes com-
+primit, unde variæ functionum læſiones eveniunt.
+Ab aneuryſmate aortæ œſophagum comprimente,
+deglutitionem impeditam vidit Morgagn. &amp; a com-
+preſſis pulmonibus ab aneuryſmate, interne in tho-
+race locato, reſpirationem impeditam, &amp; tuſſim
+inde ortam, interdum videre licuit in nonnullis
 aliis.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1666006173325_190" custom="readingOrder {index:3;}">
+      <Coords points="602,342 905,342 905,424 602,424"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

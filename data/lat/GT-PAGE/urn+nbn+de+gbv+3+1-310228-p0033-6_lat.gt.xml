@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-126">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:04Z</Created>
     <LastChange>2024-01-19T13:08:04Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-310228-p0033-6_lat.jpg" imageWidth="2336" imageHeight="3129" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/50518733-5866-48ce-8dc5-4580771122b9/00000033.jpg" imageWidth="2336" imageHeight="3129" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="237,720 1408,720 1408,2585 237,2585"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="region0002"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.10866808" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:0;}">
+    <TextRegion id="region0002" custom="readingOrder {index:0;}" orientation="-0.10866808" readingDirection="left-to-right">
       <Coords points="242,847 1402,847 1402,2529 242,2529"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="822,847 757,848 744,858 661,863 600,863 591,855 582,855 572,859 561,871 543,872 539,865 525,863 517,873 510,874 408,875 399,874 391,865 381,865 375,869 358,865 302,865 285,872 243,873 243,920 272,919 283,923 302,920 325,924 363,924 372,921 393,924 534,922 536,926 545,928 557,917 579,919 623,917 646,911 653,912 658,921 663,922 677,918 679,912 738,909 755,904 866,906 981,898 1002,901 1003,907 1008,910 1028,905 1035,900 1054,900 1115,906 1317,910 1377,921 1381,924 1402,921 1402,859 1382,859 1381,848 1363,848 1360,856 1354,860 1322,866 1220,862 1215,861 1209,853 1197,853 1191,860 1186,860 1184,852 1179,848 1167,849 1161,859 1143,858 1138,847 1120,847 1115,857 989,855 972,847 873,847 860,857 842,855 835,849"/>
@@ -1263,7 +1278,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0025_word0002" custom="readingOrder {index:2;}">
-          <Coords points="727,2181 728,2175 670,2186 554,2188 527,2192 517,2187 506,2187 500,2194 500,2199 500,2234 724,2232 767,2226 727,2232"/>
+          <Coords points="727,2181 506,2187 500,2234 724,2232 767,2226"/>
           <TextEquiv conf="0.8050718">
             <Unicode>interpres,</Unicode>
           </TextEquiv>
@@ -1318,7 +1333,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0026_word0003" custom="readingOrder {index:3;}">
-          <Coords points="864,2219 860,2222 858,2228 813,2229 808,2221 796,2220 790,2224 788,2230 696,2234 696,2275 823,2275 830,2273 841,2275 1019,2275 1019,2225 992,2228 883,2228 878,2219"/>
+          <Coords points="813,2229 810,2224 806,2227 804,2233 696,2237 696,2275 823,2275 830,2273 841,2275 1019,2275 1019,2230 1008,2231 899,2231 897,2228 883,2228 879,2222 876,2225 874,2231 829,2232 826,2228"/>
           <TextEquiv conf="0.865905">
             <Unicode>convincimur.</Unicode>
           </TextEquiv>
@@ -1530,35 +1545,35 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>reſuſcitato ipſis patefacta. Neque dubium eſt,&#13;
-Chriſtum, poſt reſurrectionem in hiſce terris verſan-&#13;
-tem, prolixius aperuiſſe, in quo conſiſtat ἀϰολȣϑεῖν&#13;
-ἀυτῷ ἐν παλιγγ νεσίᾳ 6.) Leve eſt&amp; plane alienum, di-&#13;
-cere Chriſti diſcipulos non fuiſſe regenitos, idque&#13;
-colligi ex faſtu, carnalibus de regno Chriſti con-&#13;
-ceptibus &amp;c. Eſto quod fuerint in diſcipulis Chriſti&#13;
-naevi, iis non obſtantibus, fuere regenerati; per_,&#13;
-regenerationem in hac vita non ſtatim perficimur,&#13;
-ſed ad perfectionem, ut tendamus, incitamur. In_,&#13;
-ſanctisſimis remanent infirmitates, quas non niſi&#13;
-cum mortalibus exuviis deponent. David rege-&#13;
-nitus, ſed nihilominus graviter lapſus 2 Sam. XI.&#13;
-Paulus, electum Domini noſtri Jeſu Chriſti inſtru-&#13;
-mentum, de ſe conqueritur, quod ob belligerantem&#13;
-in membris legem adverſus legem mentis, ea non_,&#13;
-faciat, quae debeat. Rom. VlI. 17. ſeqq. Quanta_,&#13;
-huic Apoſtolo magno gentium doctori σϰόλοψ ὁ ἐδόϑη&#13;
-τῇ σαϱϰι ἀυτȣ̃ faceſſiverit negotia, ex 2 Cor. XIl.7. mani-&#13;
-feſtumeſt. Veram &amp; ſalutarem adeoq; minime hypo-&#13;
-criticam de Chriſto fidem Petrus habuit, etiamſi male&#13;
-exiſtimaverit Chriſum ſoſpitatorem ſuum ſine pas-&#13;
-ſionibus fore. Matth. XVI. 22. 7) Frigidum eſt&#13;
-argumentum ex Syriaca verſione petitum: diſtin-&#13;
-xerit Syrus interpres, &amp; mereatur interpretis fidem:&#13;
-eo tamen minime convincimur. Si conſtaret_.,&#13;
-Chriſtum, dialecto Syriaca loquentem, ita diſtinxiſ-&#13;
-ſe, pietas flagitaret eam diſtinctionem ratam habere&#13;
-ac venerari. Humana vero apud nos minime valet&#13;
+        <Unicode>reſuſcitato ipſis patefacta. Neque dubium eſt,
+Chriſtum, poſt reſurrectionem in hiſce terris verſan-
+tem, prolixius aperuiſſe, in quo conſiſtat ἀϰολȣϑεῖν
+ἀυτῷ ἐν παλιγγ νεσίᾳ 6.) Leve eſt&amp; plane alienum, di-
+cere Chriſti diſcipulos non fuiſſe regenitos, idque
+colligi ex faſtu, carnalibus de regno Chriſti con-
+ceptibus &amp;c. Eſto quod fuerint in diſcipulis Chriſti
+naevi, iis non obſtantibus, fuere regenerati; per_,
+regenerationem in hac vita non ſtatim perficimur,
+ſed ad perfectionem, ut tendamus, incitamur. In_,
+ſanctisſimis remanent infirmitates, quas non niſi
+cum mortalibus exuviis deponent. David rege-
+nitus, ſed nihilominus graviter lapſus 2 Sam. XI.
+Paulus, electum Domini noſtri Jeſu Chriſti inſtru-
+mentum, de ſe conqueritur, quod ob belligerantem
+in membris legem adverſus legem mentis, ea non_,
+faciat, quae debeat. Rom. VlI. 17. ſeqq. Quanta_,
+huic Apoſtolo magno gentium doctori σϰόλοψ ὁ ἐδόϑη
+τῇ σαϱϰι ἀυτȣ̃ faceſſiverit negotia, ex 2 Cor. XIl.7. mani-
+feſtumeſt. Veram &amp; ſalutarem adeoq; minime hypo-
+criticam de Chriſto fidem Petrus habuit, etiamſi male
+exiſtimaverit Chriſum ſoſpitatorem ſuum ſine pas-
+ſionibus fore. Matth. XVI. 22. 7) Frigidum eſt
+argumentum ex Syriaca verſione petitum: diſtin-
+xerit Syrus interpres, &amp; mereatur interpretis fidem:
+eo tamen minime convincimur. Si conſtaret_.,
+Chriſtum, dialecto Syriaca loquentem, ita diſtinxiſ-
+ſe, pietas flagitaret eam diſtinctionem ratam habere
+ac venerari. Humana vero apud nos minime valet
 auctoritas. 8.) Fruſtra tandem urgetur articuli</Unicode>
       </TextEquiv>
     </TextRegion>

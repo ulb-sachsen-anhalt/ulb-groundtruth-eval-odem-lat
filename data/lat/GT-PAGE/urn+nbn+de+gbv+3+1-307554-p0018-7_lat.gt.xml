@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-125">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:03Z</Created>
     <LastChange>2024-01-19T13:08:03Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-307554-p0018-7_lat.jpg" imageWidth="2342" imageHeight="2971" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/919623fc-65e7-4114-abc3-3fe22e70d1ee/00000018.jpg" imageWidth="2342" imageHeight="2971" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="736,243 2116,243 2116,2410 736,2410"/>
     </Border>
@@ -21,7 +36,7 @@
         <RegionRefIndexed index="7" regionRef="region_1682413613338_1302"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682413554418_1282" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682413554418_1282" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="791,457 791,519 860,519 860,457"/>
       <TextLine id="line_1682413554524_1285" custom="readingOrder {index:0;}">
         <Coords points="791,457 791,519 860,519 860,457"/>
@@ -39,10 +54,7 @@
         <Unicode>14</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1682413548533_1279" custom="readingOrder {index:1;}">
-      <Coords points="1194,465 1720,465 1720,564 1194,564"/>
-    </GraphicRegion>
-    <TextRegion orientation="-2.9619322" readingDirection="left-to-right" id="TextRegion_1663572923659_1694" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1663572923659_1694" custom="readingOrder {index:2;}" orientation="-2.9619322" readingDirection="left-to-right">
       <Coords points="794,569 2086,569 2086,670 2083,879 781,879 781,632"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1975,602 1967,605 1961,614 1803,608 1800,598 1783,596 1774,598 1768,607 1739,605 1722,603 1713,595 1701,594 1694,599 1679,595 1667,603 1635,606 1633,600 1626,595 1612,596 1607,604 1551,601 1549,594 1543,590 1532,589 1527,593 1521,586 1507,582 1494,587 1485,599 1449,597 1443,586 1432,585 1425,590 1422,596 1415,595 1414,586 1408,582 1389,582 1384,588 1382,595 1328,594 1294,592 1285,583 1273,579 1193,576 1185,572 1122,569 1048,569 1046,578 891,569 794,569 795,617 904,623 906,631 916,636 929,636 935,632 937,625 944,624 1018,632 1024,639 1036,639 1042,633 1158,635 1250,640 1254,648 1264,650 1275,641 1296,642 1297,650 1302,655 1321,656 1326,651 1328,643 1437,647 1443,652 1452,652 1457,648 1514,649 1681,657 2085,670 2085,621 1993,615 1990,604"/>
@@ -290,14 +302,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tum paret, ſed &amp; ſi, quod in ſcientia iſta datur, culmen&#13;
-attingere cupit, cognitione mathematica praecedente ca-&#13;
-rere nequeat abſolute. Eſt enim hoc in ſenſu contro-&#13;
-verſia, de qua agitur, mota: prouti ſequentia plenius&#13;
+        <Unicode>tum paret, ſed &amp; ſi, quod in ſcientia iſta datur, culmen
+attingere cupit, cognitione mathematica praecedente ca-
+rere nequeat abſolute. Eſt enim hoc in ſenſu contro-
+verſia, de qua agitur, mota: prouti ſequentia plenius
 declarabunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-2.9619322" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-2.9619322" type="heading" readingDirection="left-to-right">
       <Coords points="1349,899 1569,899 1569,980 1349,980"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="1369,906 1350,907 1350,979 1375,979 1381,971 1568,980 1568,919"/>
@@ -322,7 +334,7 @@ declarabunt.</Unicode>
         <Unicode>§. III.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-2.9619322" readingDirection="left-to-right" id="TextRegion_1663572948111_1704" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1663572948111_1704" custom="readingOrder {index:4;}" orientation="-2.9619322" readingDirection="left-to-right">
       <Coords points="741,1003 2065,1003 2065,1609 741,1609"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1598,1003 1595,1007 1594,1020 1579,1019 1564,1028 1539,1029 1442,1026 1438,1023 1428,1022 1421,1026 1369,1023 1363,1013 1351,1011 1344,1016 1341,1023 1331,1022 1325,1012 1313,1009 1306,1015 1304,1022 1227,1019 1219,1008 1202,1009 1197,1006 1185,1006 1130,1004 1124,1007 1122,1017 1107,1019 1090,1018 1087,1010 1078,1003 1059,1005 1048,1016 1018,1015 1012,1004 996,1003 988,1009 977,1004 955,1003 824,1003 823,1033 827,1038 835,1040 834,1054 840,1061 1212,1069 1237,1073 1244,1081 1252,1083 1278,1081 1282,1077 1288,1076 1355,1073 1401,1076 1406,1086 1419,1088 1433,1085 1437,1074 1481,1073 1659,1084 1660,1096 1673,1099 1683,1095 1692,1099 1707,1099 1713,1094 1714,1085 1876,1092 1879,1103 1891,1104 1903,1094 2022,1095 2065,1099 2065,1042 2061,1037 2046,1037 2038,1048 2024,1047 2020,1036 2008,1033 1999,1038 1996,1046 1888,1040 1852,1041 1826,1040 1820,1034 1809,1034 1803,1038 1764,1036 1761,1026 1756,1022 1727,1020 1721,1025 1719,1034 1708,1032 1701,1035 1665,1033 1642,1029 1630,1022 1619,1021 1619,1013 1613,1004"/>
@@ -823,7 +835,7 @@ declarabunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663572948159_1709" custom="readingOrder {index:7;}">
-          <Coords points="1843,1546 1869,1548 1871,1557 1962,1557 1972,1553 1988,1554 1996,1555 1998,1554 1967,1559 1964,1612 1957,1609 1848,1607 1834,1606 1837,1555 1841,1555"/>
+          <Coords points="1843,1546 1869,1548 1871,1557 1962,1557 1972,1553 1998,1554 1967,1559 1964,1612 1957,1609 1834,1606 1837,1555 1841,1555"/>
           <TextEquiv conf="0.7250961">
             <Unicode>docet</Unicode>
           </TextEquiv>
@@ -839,19 +851,19 @@ declarabunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Matheſin diſtingui in puram &amp; applicatam, nemini&#13;
-non notum eſt. Determinandum itaque ante omnia ſi-&#13;
-mul venit, num, qui tribuitur uſus univerſalis, utrique&#13;
-Matheſi, adeoque ſcientiæ huic in genere, an alterutri,&#13;
-&amp; cuinam tribuatur ex iisdem? Matheſis generatim,&#13;
-determinandas rerum quantitates docet. Pura Mathe-&#13;
-ſis, una cum calculandi ſcientiis, Arithmetica nimirum&#13;
-&amp; Algebra, Geometriam explicat, itemque Trigonome-&#13;
-triam, in his ultimis dimetiendi regulas tradens: adeo-&#13;
+        <Unicode>Matheſin diſtingui in puram &amp; applicatam, nemini
+non notum eſt. Determinandum itaque ante omnia ſi-
+mul venit, num, qui tribuitur uſus univerſalis, utrique
+Matheſi, adeoque ſcientiæ huic in genere, an alterutri,
+&amp; cuinam tribuatur ex iisdem? Matheſis generatim,
+determinandas rerum quantitates docet. Pura Mathe-
+ſis, una cum calculandi ſcientiis, Arithmetica nimirum
+&amp; Algebra, Geometriam explicat, itemque Trigonome-
+triam, in his ultimis dimetiendi regulas tradens: adeo-
 que quantitates vel calculo vel menſura eruere docet (r).</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-2.9619322" type="catch-word" readingDirection="left-to-right" id="TextRegion_1663572948111_1703" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1663572948111_1703" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="-2.9619322" type="catch-word" readingDirection="left-to-right">
       <Coords points="741,1609 2065,1609 2065,1670 741,1670"/>
       <TextLine id="line_1663572948159_1712" custom="readingOrder {index:0;}">
         <Coords points="1843,1627 1846,1624 1854,1623 1859,1618 1881,1610 1907,1611 1911,1609 1935,1609 1957,1610 1962,1612 1966,1622 1977,1623 2065,1627 2064,1670 1892,1670 1846,1668 1842,1664"/>
@@ -870,7 +882,7 @@ que quantitates vel calculo vel menſura eruere docet (r).</Unicode>
         <Unicode>Haec</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-2.9619322" type="footnote" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0006" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-2.9619322" type="footnote" readingDirection="left-to-right">
       <Coords points="778,1680 2059,1680 2060,2356 779,2356"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1892,1710 1887,1715 1885,1728 1808,1725 1808,1716 1803,1711 1765,1709 1761,1712 1759,1722 1756,1723 1718,1723 1707,1723 1705,1711 1699,1706 1685,1706 1675,1712 1671,1722 1650,1720 1649,1711 1640,1705 1631,1705 1621,1712 1616,1705 1553,1701 1531,1702 1527,1705 1524,1713 1365,1704 1360,1707 1310,1705 1307,1698 1292,1694 1282,1705 1261,1704 1256,1692 1240,1689 1233,1693 1230,1703 1193,1701 1184,1698 1177,1690 1165,1690 1156,1700 1133,1700 1128,1687 1112,1683 1102,1689 1097,1698 1074,1697 1074,1684 1069,1680 1056,1680 1053,1683 1052,1697 966,1695 958,1683 944,1682 936,1693 933,1693 931,1686 925,1681 778,1680 779,1747 854,1746 860,1744 868,1736 1022,1742 1126,1742 1133,1742 1144,1757 1151,1757 1164,1755 1169,1749 1196,1753 1249,1748 1348,1750 1446,1755 1452,1761 1461,1761 1469,1757 1482,1757 1485,1765 1495,1768 1512,1766 1514,1757 1606,1759 1708,1766 1786,1768 1794,1765 1856,1771 1960,1771 1965,1781 1976,1784 1992,1782 2012,1767 2058,1768 2058,1734 2015,1731 2013,1724 2007,1718 1993,1719 1986,1729 1936,1727 1936,1718 1931,1712"/>
@@ -1544,10 +1556,10 @@ que quantitates vel calculo vel menſura eruere docet (r).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0012" custom="readingOrder {index:11;}">
-        <Coords points="1944,2297 1937,2299 1932,2306 1881,2311 1738,2307 1715,2292 1696,2292 1689,2301 1650,2299 1646,2287 1631,2285 1625,2285 1614,2296 1550,2294 1529,2298 1509,2294 1437,2290 1432,2278 1420,2277 1413,2284 1407,2284 1401,2288 1318,2287 1314,2278 1303,2277 1298,2278 1292,2286 1266,2290 1241,2286 1124,2286 1099,2279 1096,2279 1094,2284 1025,2280 1021,2277 999,2280 875,2272 874,2266 869,2262 831,2258 821,2251 812,2250 802,2256 779,2255 778,2274 778,2310 843,2315 856,2310 875,2311 914,2318 923,2327 937,2327 943,2321 1121,2330 1126,2341 1159,2343 1164,2348 1193,2344 1198,2339 1199,2332 1207,2331 1318,2336 1413,2334 1477,2341 1582,2340 1837,2353 1843,2365 1863,2367 1869,2362 1872,2351 1929,2353 2004,2344 2052,2345 2058,2340 2059,2317 2054,2312 1960,2307 1959,2300"/>
+        <Coords points="1937,2299 1932,2306 1881,2311 1738,2307 1715,2292 1696,2292 1689,2301 1650,2299 1646,2287 1631,2285 1625,2285 1614,2296 1550,2294 1529,2298 1509,2294 1437,2290 1432,2278 1420,2277 1413,2284 1407,2284 1401,2288 1318,2287 1314,2278 1303,2277 1298,2278 1292,2286 1266,2290 1241,2286 1124,2286 1099,2279 1096,2279 1094,2284 1025,2280 1021,2277 999,2280 875,2272 874,2266 869,2262 831,2258 821,2251 812,2250 802,2256 779,2255 778,2257 778,2310 843,2315 856,2310 875,2311 914,2318 923,2327 937,2327 943,2321 1121,2330 1126,2341 1159,2343 1164,2348 1193,2344 1198,2339 1199,2332 1207,2331 1318,2336 1413,2334 1477,2341 1582,2340 1837,2353 1838,2356 1870,2356 1872,2351 1929,2353 2004,2344 2052,2345 2058,2340 2059,2317 2054,2312 1960,2307 1959,2300 1944,2297"/>
         <Baseline points="778,2299 1163,2328 1197,2321 1385,2324 1799,2343 2058,2337"/>
         <Word id="word_1663573414703_1936" custom="readingOrder {index:0;}">
-          <Coords points="812,2259 821,2260 1085,2292 1084,2319 847,2307 805,2301 807,2261"/>
+          <Coords points="821,2260 812,2259 807,2261 805,2301 847,2307 1084,2319 1085,2292 971,2278 875,2272 874,2266"/>
           <TextEquiv>
             <Unicode>Theorematum</Unicode>
           </TextEquiv>
@@ -1587,21 +1599,21 @@ que quantitates vel calculo vel menſura eruere docet (r).</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(r) Minime nos fugit, dari autores, qui Matheſeos finem longi-&#13;
-us multo extendunt; præter ea, quæ de ejus uſu tota hæc&#13;
-Tractatio proponit, quæque nonnulli ab ea ad formandam&#13;
-artem quandam characteriſticam aut ſcripturam generalem&#13;
-ſperant adjumenta; inveniendi etiam regulas generales, ean-&#13;
-dem, ope abſtractionis, ſuppeditare contendentes, quos inter&#13;
-modo ad WOLFFII Elem. Arithm. §. 2. et 125. provocaſſe ſuffi-&#13;
-ciat: nec non ad Ejusd. Elem. Analyſ. finit. Part. I. Cap. III.&#13;
-quod quippe Caput univerſum, de uſu calculi literalis ad in-&#13;
-venienda Theoremata, inſcribitur: unde concluſio fieri forte&#13;
-poſſet, ac ſi Algebra, quod alias Logicæ eſt negotium ſimul&#13;
+        <Unicode>(r) Minime nos fugit, dari autores, qui Matheſeos finem longi-
+us multo extendunt; præter ea, quæ de ejus uſu tota hæc
+Tractatio proponit, quæque nonnulli ab ea ad formandam
+artem quandam characteriſticam aut ſcripturam generalem
+ſperant adjumenta; inveniendi etiam regulas generales, ean-
+dem, ope abſtractionis, ſuppeditare contendentes, quos inter
+modo ad WOLFFII Elem. Arithm. §. 2. et 125. provocaſſe ſuffi-
+ciat: nec non ad Ejusd. Elem. Analyſ. finit. Part. I. Cap. III.
+quod quippe Caput univerſum, de uſu calculi literalis ad in-
+venienda Theoremata, inſcribitur: unde concluſio fieri forte
+poſſet, ac ſi Algebra, quod alias Logicæ eſt negotium ſimul
 Theorematum in genere inventionem conſtructionemque do-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682413613338_1302" custom="readingOrder {index:7;} structure {type:catch-word;}">
+    <TextRegion id="region_1682413613338_1302" custom="readingOrder {index:7;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1925,2365 1925,2399 1990,2399 1990,2365"/>
       <TextLine id="line_1682413613615_1305" custom="readingOrder {index:0;}">
         <Coords points="1925,2365 1925,2399 1990,2399 1990,2365"/>
@@ -1619,5 +1631,8 @@ Theorematum in genere inventionem conſtructionemque do-</Unicode>
         <Unicode>ce</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682413548533_1279" custom="readingOrder {index:1;}">
+      <Coords points="1194,465 1720,465 1720,564 1194,564"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

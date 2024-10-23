@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-232">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:27Z</Created>
     <LastChange>2024-01-19T13:09:27Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-716479-p0206-7_lat.png" imageWidth="2380" imageHeight="2869" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/0348ad76-bdde-4548-ac3d-a935ff4b3154/00000206.jpg" imageWidth="2380" imageHeight="2869" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="252,150 258,2750 2292,2740 2299,180"/>
     </Border>
@@ -15,10 +30,10 @@
         <RegionRefIndexed index="0" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.58788" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:0;}">
+    <TextRegion id="region0005" custom="readingOrder {index:0;}" orientation="1.58788" readingDirection="left-to-right">
       <Coords points="745,476 2193,458 2190,2100 745,2100"/>
       <TextLine id="region0005_line0002" custom="readingOrder {index:0;}">
-        <Coords points="885,473 879,478 877,486 745,490 745,540 812,539 827,548 844,548 855,540 929,533 985,535 1162,531 1428,529 1546,523 1562,526 1721,525 1823,520 1844,528 1894,526 1923,522 1927,519 2187,514 2190,512 2190,498 2189,466 2101,467 2099,461 2092,455 2078,457 2073,466 2063,466 2056,459 2041,455 1977,457 1964,460 1948,470 1943,470 1935,459 1924,459 1917,465 1915,472 1825,476 1823,465 1813,461 1725,464 1696,474 1615,478 1562,468 1473,473 1462,472 1453,467 1440,468 1429,475 1394,480 1333,480 1330,473 1325,471 1310,471 1305,475 1304,480 1219,481 1211,480 1209,471 1203,466 1186,467 1173,479 1104,481 1098,471 1084,472 1080,469 1062,471 1058,482 1040,483 1039,475 1034,470 1014,472 1009,476 1007,484 923,486 905,486 899,474"/>
+        <Coords points="879,478 877,486 745,490 745,540 812,539 827,548 844,548 855,540 929,533 985,535 1162,531 1428,529 1546,523 1562,526 1721,525 1823,520 1844,528 1894,526 1923,522 1927,519 2187,514 2190,512 2190,498 2189,466 2101,467 2099,461 2097,459 2077,459 2073,466 2063,466 2057,460 1963,461 1948,470 1943,470 1937,461 1921,461 1917,465 1915,472 1825,476 1823,465 1817,463 1733,464 1725,464 1696,474 1615,478 1562,468 1473,473 1462,472 1453,467 1450,467 1440,468 1429,475 1394,480 1333,480 1330,473 1325,471 1310,471 1305,475 1304,480 1219,481 1211,480 1209,471 1208,470 1182,471 1173,479 1104,481 1098,472 1088,472 1084,472 1084,472 1062,472 1058,482 1040,483 1039,475 1036,472 1013,473 1009,476 1007,484 923,486 905,486 899,474 883,474"/>
         <Baseline points="745,530 2190,504"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="897,482 877,482 877,486 751,489 752,539 812,539 818,543 851,542 855,540 898,535"/>
@@ -1600,33 +1615,33 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>magni moduli referendus eſt. PLINIUS Lib. 5. in Caria:&#13;
-Antiochia ---- nunc eam circumfluunt Mæander, &amp; Orſinus.&#13;
-In numis hujus Antiochiæ etiam fluvius inſcriptus legitur:&#13;
-ΜΑΙΑΝΔΡΟϹ. &amp; ΜΕΑΝΔΡΟϹ. R. P. Harduinus numum M.&#13;
-Aurelii adfert, quem apud R. P. Charronier S. J. depre-&#13;
-henderat, ita inſcriptum: ΖϵΥϹ. ΚΑΠΙΤΟΛΙϵΥϹ. ΑΝΤΙΟΧϵΩΝ.&#13;
-In noſtro vero perſpicue ΚΑΠϵΤΟΛΙϵΥϹ. Etſi Jovem Ca-&#13;
-pitolinum, Romano in Capitolio venerationi expoſitum,&#13;
-exteræ etiam urbes, Romanis aut ſociatæ, aut ſubditæ co-&#13;
-lerent; tamen Antiochiæ Cariæ Templum etiam Jovis Capi-&#13;
-tolini fuiſſe, ex fragmentis LIVII Lib. 41. c. 20. probabiliter&#13;
-colligitur; ubi de Perſeo Rege agens, qui Græcorum urbes&#13;
-donis, &amp; promiſſis ſolicitabat, hæc habet: Et Antiochiæ&#13;
-Jovis Capitolini magnificum Templum, non laqueatum auro&#13;
-tantum, ſed parietibus totis lamina inauratum, &amp; alia multa&#13;
-in aliis locis pollicitus, quia perbreve tempus ejus Regni fuit,&#13;
-non perfecit. Non perfeciſſe, indicat, affeciſſe ſaltem hoc&#13;
-opus, quod deinde abſolutum fuerit. Antiochiam vero&#13;
-hanc Cariæ fuiſſe, præter numorum epigraphen, id pro-&#13;
-babile reddit: quod Caria viciniſſima fuerit Macedoniæ&#13;
-ex iis regionibus, quæ Antiochiam non incelebrem conti-&#13;
-nerent. Atque, quod plus momenti habet: Caria tum&#13;
-Rhodiis parebat, quibus poſt Bellum Antiochicum data,&#13;
-&amp; poſt Perſeum debellatum adempta eſt, teſte LIVIO Lib.&#13;
-45. &amp; APPIANO in Syriac. Rhodios vero a Perſeo muneri-&#13;
-bus plurimum tentatos fuiſſe, LIVIUS Lib. 41. c. 20. ita enar-&#13;
-rat: Rhodiis nihil unum inſigne, ita omnis generis, ut quæque&#13;
+        <Unicode>magni moduli referendus eſt. PLINIUS Lib. 5. in Caria:
+Antiochia ---- nunc eam circumfluunt Mæander, &amp; Orſinus.
+In numis hujus Antiochiæ etiam fluvius inſcriptus legitur:
+ΜΑΙΑΝΔΡΟϹ. &amp; ΜΕΑΝΔΡΟϹ. R. P. Harduinus numum M.
+Aurelii adfert, quem apud R. P. Charronier S. J. depre-
+henderat, ita inſcriptum: ΖϵΥϹ. ΚΑΠΙΤΟΛΙϵΥϹ. ΑΝΤΙΟΧϵΩΝ.
+In noſtro vero perſpicue ΚΑΠϵΤΟΛΙϵΥϹ. Etſi Jovem Ca-
+pitolinum, Romano in Capitolio venerationi expoſitum,
+exteræ etiam urbes, Romanis aut ſociatæ, aut ſubditæ co-
+lerent; tamen Antiochiæ Cariæ Templum etiam Jovis Capi-
+tolini fuiſſe, ex fragmentis LIVII Lib. 41. c. 20. probabiliter
+colligitur; ubi de Perſeo Rege agens, qui Græcorum urbes
+donis, &amp; promiſſis ſolicitabat, hæc habet: Et Antiochiæ
+Jovis Capitolini magnificum Templum, non laqueatum auro
+tantum, ſed parietibus totis lamina inauratum, &amp; alia multa
+in aliis locis pollicitus, quia perbreve tempus ejus Regni fuit,
+non perfecit. Non perfeciſſe, indicat, affeciſſe ſaltem hoc
+opus, quod deinde abſolutum fuerit. Antiochiam vero
+hanc Cariæ fuiſſe, præter numorum epigraphen, id pro-
+babile reddit: quod Caria viciniſſima fuerit Macedoniæ
+ex iis regionibus, quæ Antiochiam non incelebrem conti-
+nerent. Atque, quod plus momenti habet: Caria tum
+Rhodiis parebat, quibus poſt Bellum Antiochicum data,
+&amp; poſt Perſeum debellatum adempta eſt, teſte LIVIO Lib.
+45. &amp; APPIANO in Syriac. Rhodios vero a Perſeo muneri-
+bus plurimum tentatos fuiſſe, LIVIUS Lib. 41. c. 20. ita enar-
+rat: Rhodiis nihil unum inſigne, ita omnis generis, ut quæque
 eorum uſus poſtulaverunt, dona dedit.</Unicode>
       </TextEquiv>
     </TextRegion>

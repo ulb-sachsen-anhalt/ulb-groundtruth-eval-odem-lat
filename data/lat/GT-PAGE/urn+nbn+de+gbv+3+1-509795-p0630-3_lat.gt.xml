@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-181">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:47Z</Created>
     <LastChange>2024-01-19T13:08:47Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-509768_urn+nbn+de+gbv+3+1-509795-p0630-3_lat.png" imageWidth="2460" imageHeight="2992" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/e0a473fa-a78a-4478-a155-b15b803607c2/00000630.jpg" imageWidth="2460" imageHeight="2992" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="212,315 184,2832 2337,2813 2339,318"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1651039569507_59"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.5904832" readingDirection="left-to-right" id="TextRegion_1651039569507_59" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1651039569507_59" custom="readingOrder {index:0;}" orientation="0.5904832" readingDirection="left-to-right">
       <Coords points="885,597 2201,566 2213,1043 2220,2434 2215,2483 916,2514 891,1775 876,1171"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1909,573 1894,574 1891,577 1889,574 1861,574 1859,574 1851,583 1815,586 1778,586 1740,578 1704,578 1682,580 1662,588 1656,588 1649,579 1649,579 1633,580 1625,589 1622,582 1616,580 1598,581 1594,589 1513,593 1500,592 1494,583 1479,583 1478,583 1472,590 1468,590 1465,584 1442,584 1439,591 1424,591 1420,585 1397,585 1390,592 1359,595 1263,598 1259,588 1195,590 1119,592 1046,603 900,603 886,604 886,640 886,652 963,653 966,661 978,662 988,650 998,652 1010,646 1053,649 1059,651 1121,651 1183,645 1289,648 1335,645 1419,645 1452,640 1570,641 1628,637 1682,638 1708,635 1726,635 1730,638 2053,629 2082,632 2160,628 2202,630 2201,580 2122,581 2112,571 2100,572 2093,582 2001,582 1994,572 1982,572 1974,580 1962,582 1916,583"/>
@@ -1884,7 +1899,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0001" custom="readingOrder {index:32;}">
-        <Coords points="2075,2425 2066,2430 2064,2437 2046,2438 2039,2428 2028,2427 2019,2438 1892,2438 1887,2429 1861,2430 1854,2438 1816,2440 1808,2440 1803,2431 1792,2431 1781,2431 1776,2441 1755,2444 1666,2441 1610,2442 1608,2436 1586,2436 1583,2442 1575,2444 1457,2448 1449,2448 1442,2440 1432,2440 1421,2450 1392,2451 1383,2451 1375,2443 1365,2443 1357,2453 1342,2453 1335,2443 1320,2443 1314,2454 1305,2454 1303,2448 1295,2443 1283,2445 1277,2455 1233,2455 1224,2445 1214,2445 1210,2448 1204,2445 1202,2445 1176,2447 1167,2455 1132,2458 1081,2456 1075,2450 1045,2451 1040,2456 996,2461 914,2466 915,2512 916,2517 943,2518 1078,2510 1352,2505 1361,2514 1371,2514 1382,2505 1617,2493 1705,2495 1877,2491 1893,2492 1897,2501 1910,2503 1925,2500 1932,2491 1951,2490 2078,2490 2136,2485 2213,2485 2212,2460 2212,2437 2101,2438 2093,2437 2087,2426"/>
+        <Coords points="2066,2430 2064,2437 2046,2438 2039,2428 2028,2427 2019,2438 1892,2438 1887,2429 1861,2430 1854,2438 1816,2440 1808,2440 1803,2431 1792,2431 1781,2431 1776,2441 1755,2444 1666,2441 1610,2442 1608,2436 1586,2436 1583,2442 1575,2444 1457,2448 1449,2448 1442,2440 1432,2440 1421,2450 1392,2451 1383,2451 1375,2443 1365,2443 1357,2453 1342,2453 1335,2443 1320,2443 1314,2454 1305,2454 1303,2448 1295,2443 1283,2445 1277,2455 1233,2455 1224,2445 1214,2445 1210,2448 1204,2445 1202,2445 1176,2447 1167,2455 1132,2458 1081,2456 1075,2450 1045,2451 1040,2456 996,2461 914,2466 916,2514 1074,2510 1078,2510 1102,2510 1460,2501 1617,2493 1705,2495 1877,2491 1878,2491 2213,2483 2212,2460 2212,2437 2101,2438 2093,2437 2087,2426 2075,2425"/>
         <Word id="region0007_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="919,2465 920,2495 1000,2494 999,2460 996,2461"/>
           <TextEquiv conf="0.9302253">
@@ -1932,38 +1947,38 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>c.17. n.16. Verum dubia nobis &amp; conſcientiæ minus&#13;
-conſulens hæc opinio videtur; Præſuppono vero, hic de&#13;
-injuriarum actione ſtricte ita dicta ob læſam famam com-&#13;
-petente quæri; Nam ſi per injuriam reale damnum nobis&#13;
-illatum, hoc remiſſis licet injuriis, adhuc vindicari poſſe&#13;
-dictum ſuperius, &amp; in ſpecie quoad præſentem caſum&#13;
-id concedunt Dd. allegati, quibus adde Polyd. Rip. de act.&#13;
-in mort. artic. cap. 45. n. 18. ſeqq. Deinde præſuppono, hic&#13;
-agi de actione injuriarum adhuc intentanda, non inten-&#13;
-tata ſeu in iudicium legitime deducta. Ubi enim cauſa&#13;
-ſemel judicio commiſſa, non æque facile tollitur. arg. L 28.&#13;
-ff. de injur. Nam non ſimilis eſt, qui penitus ab initio ta-&#13;
-cuit, ei, qui &amp; poſtulationem depoſuit, &amp; in judicium ve-&#13;
-nit, &amp; ſubiit certamina, uti in alio caſu loquitur Imp. in&#13;
-L. fin. C. de præſcript. 30. annor. Quibus prætermiſſis dici-&#13;
-mus: injuriarum actionem tali deprecatione publica re-&#13;
-miſſam eſſe. Pro confirmanda hac opinione, ſummope-&#13;
-re placet argumentum Bachov. in Comm. ad §. fin. J. de in-&#13;
-jur. quod ſequens eſt. Quicunque remittit vindictam,&#13;
-remittit actionem injuriarum: Actio enim injuriarum&#13;
-ſaltem ad vindictam datur. L.15.§. 46. ff. de injur. L. 2. §. 4.&#13;
-ff. de collat. bon. Atqui ægrotus tali publica deprecatione&#13;
-remittit vindictam. Ergo. Major juris eſt; Minor&#13;
-Chriſtianiſmi. Nec enim aliud hujus patiuntur præcep-&#13;
-ta, quam omnem vindictam cordicitus ſublatam eſſe in&#13;
-eo, qui morti vicinus tanta conteſtatione conſcientiam&#13;
-ſuam exonerat. Non enim qvadrabit huc, ſed impium&#13;
-potius dicendum veniet dicterium: Vergeben habe ich&#13;
-ihm wohl, aber nicht vergeſſen: Hoc enim indignum&#13;
-Chriſtiano aſſertum eſſe, nemo integra fronte negabit.&#13;
-Certe omnis remisſio a Chriſtiano facta, ſeria eſſe debet:&#13;
-Si ſeria, vindicta omnis debet exulare: Si vindicta excluſa,&#13;
+        <Unicode>c.17. n.16. Verum dubia nobis &amp; conſcientiæ minus
+conſulens hæc opinio videtur; Præſuppono vero, hic de
+injuriarum actione ſtricte ita dicta ob læſam famam com-
+petente quæri; Nam ſi per injuriam reale damnum nobis
+illatum, hoc remiſſis licet injuriis, adhuc vindicari poſſe
+dictum ſuperius, &amp; in ſpecie quoad præſentem caſum
+id concedunt Dd. allegati, quibus adde Polyd. Rip. de act.
+in mort. artic. cap. 45. n. 18. ſeqq. Deinde præſuppono, hic
+agi de actione injuriarum adhuc intentanda, non inten-
+tata ſeu in iudicium legitime deducta. Ubi enim cauſa
+ſemel judicio commiſſa, non æque facile tollitur. arg. L 28.
+ff. de injur. Nam non ſimilis eſt, qui penitus ab initio ta-
+cuit, ei, qui &amp; poſtulationem depoſuit, &amp; in judicium ve-
+nit, &amp; ſubiit certamina, uti in alio caſu loquitur Imp. in
+L. fin. C. de præſcript. 30. annor. Quibus prætermiſſis dici-
+mus: injuriarum actionem tali deprecatione publica re-
+miſſam eſſe. Pro confirmanda hac opinione, ſummope-
+re placet argumentum Bachov. in Comm. ad §. fin. J. de in-
+jur. quod ſequens eſt. Quicunque remittit vindictam,
+remittit actionem injuriarum: Actio enim injuriarum
+ſaltem ad vindictam datur. L.15.§. 46. ff. de injur. L. 2. §. 4.
+ff. de collat. bon. Atqui ægrotus tali publica deprecatione
+remittit vindictam. Ergo. Major juris eſt; Minor
+Chriſtianiſmi. Nec enim aliud hujus patiuntur præcep-
+ta, quam omnem vindictam cordicitus ſublatam eſſe in
+eo, qui morti vicinus tanta conteſtatione conſcientiam
+ſuam exonerat. Non enim qvadrabit huc, ſed impium
+potius dicendum veniet dicterium: Vergeben habe ich
+ihm wohl, aber nicht vergeſſen: Hoc enim indignum
+Chriſtiano aſſertum eſſe, nemo integra fronte negabit.
+Certe omnis remisſio a Chriſtiano facta, ſeria eſſe debet:
+Si ſeria, vindicta omnis debet exulare: Si vindicta excluſa,
 nec ullus actioni injuriarum intentandæ ſupererit locus.</Unicode>
       </TextEquiv>
     </TextRegion>

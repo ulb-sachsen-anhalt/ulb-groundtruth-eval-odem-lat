@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-123">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:01Z</Created>
     <LastChange>2024-01-19T13:08:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-299073-p0086-1_lat.jpg" imageWidth="1735" imageHeight="2571" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/9441fe47-5c61-4c20-a782-0d4a6dc281bf/00000086.jpg" imageWidth="1735" imageHeight="2571" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="167,429 101,2494 1611,2505 1639,426"/>
     </Border>
@@ -21,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="region0017"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.570766" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:0;}">
+    <TextRegion id="region0006" custom="readingOrder {index:0;}" orientation="-1.570766" readingDirection="left-to-right">
       <Coords points="600,554 1509,554 1509,699 600,699"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1405,554 1385,555 1377,562 1372,563 1327,564 1302,563 1298,554 1278,555 1272,564 1240,567 1049,564 1044,554 1037,554 1027,556 1022,564 1012,564 995,564 991,555 968,554 956,564 739,561 737,555 715,554 712,562 701,563 671,560 655,555 600,554 600,609 705,612 918,611 1173,616 1179,625 1200,627 1209,616 1221,615 1352,613 1509,616 1509,567 1453,564 1434,555"/>
@@ -98,11 +113,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>&amp; relaxatio muſculorum per breviſſima&#13;
+        <Unicode>&amp; relaxatio muſculorum per breviſſima
 ſpatia, ſine ſenſu acuto frigoris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" type="heading" readingDirection="left-to-right" id="TextRegion_1658212220516_1298" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1658212220516_1298" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-1.570766" type="heading" readingDirection="left-to-right">
       <Coords points="600,731 1512,731 1512,809 597,809"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1075,731 921,732 920,763 925,768 925,787 929,792 1025,794 1026,801 1031,806 1069,807 1074,802 1076,791 1186,795 1191,792 1192,785 1200,783 1203,780 1204,747 1199,741 1119,738 1115,741 1097,742 1095,732"/>
@@ -121,7 +136,7 @@
         <Unicode>Differt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" readingDirection="left-to-right" id="TextRegion_1658212220515_1297" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1658212220515_1297" custom="readingOrder {index:2;}" orientation="-1.570766" readingDirection="left-to-right">
       <Coords points="597,809 1512,809 1512,907 1511,1444 1300,1493 647,1493 594,1444 594,895"/>
       <TextLine id="region0007_line0002" custom="readingOrder {index:0;}">
         <Coords points="1446,836 1433,849 1427,850 1324,849 1320,846 1310,846 1301,848 1284,847 1278,842 1233,841 1228,837 1217,837 1198,847 1128,850 1055,848 1049,837 1034,837 1025,849 960,847 955,842 944,841 939,845 938,836 933,831 874,831 862,833 856,840 839,840 834,831 822,830 814,832 808,841 781,840 775,832 761,827 681,824 676,829 675,841 669,832 662,829 600,826 601,891 824,893 829,904 845,906 852,903 860,894 962,899 965,902 986,903 993,893 1174,895 1175,906 1183,907 1245,907 1247,897 1255,895 1399,893 1415,894 1420,905 1436,907 1452,894 1511,895 1510,841 1487,838 1480,841 1476,848 1468,849 1463,839"/>
@@ -514,7 +529,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0008_line0009_word0005" custom="readingOrder {index:5;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1192,1340 1180,1343 1163,1369 1162,1418 1264,1420 1264,1382 1265,1355"/>
+          <Coords points="1263,1355 1255,1360 1255,1374 1260,1379 1260,1383 1250,1382 1248,1371 1244,1368 1235,1369 1233,1359 1229,1355 1218,1356 1214,1360 1214,1369 1202,1381 1196,1381 1204,1368 1208,1349 1205,1345 1192,1340 1180,1343 1175,1370 1163,1369 1162,1418 1264,1420 1264,1386 1268,1383 1268,1380 1264,1376 1264,1375 1265,1355"/>
           <TextEquiv>
             <Unicode>ſenſus</Unicode>
           </TextEquiv>
@@ -567,20 +582,20 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>I. a Paralyſi, quod mox reſuſcitetur muſculi&#13;
-tenſio.&#13;
-II. a Spaſmo, vel tetano, quod muſculi ten-&#13;
-ſioni mox ſuccedat laxatio.&#13;
-III. a Convulſione per violentiam contractio-&#13;
-nis, &amp; per ſpatia; nec in omni tremore pars&#13;
-Iibere elevata alternis vicibus proprio pondere&#13;
-deprimitur, ſed viget etiam tremor in artu&#13;
-ſuſtentato.&#13;
-IV. in Rigore febrili, eſt ſenſus acutiſſimi fri-&#13;
+        <Unicode>I. a Paralyſi, quod mox reſuſcitetur muſculi
+tenſio.
+II. a Spaſmo, vel tetano, quod muſculi ten-
+ſioni mox ſuccedat laxatio.
+III. a Convulſione per violentiam contractio-
+nis, &amp; per ſpatia; nec in omni tremore pars
+Iibere elevata alternis vicibus proprio pondere
+deprimitur, ſed viget etiam tremor in artu
+ſuſtentato.
+IV. in Rigore febrili, eſt ſenſus acutiſſimi fri-
 goris, cutisque corrugatio ſubita.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" type="heading" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0011" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-1.570766" type="heading" readingDirection="left-to-right">
       <Coords points="831,1526 1133,1526 1133,1604 831,1604"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="1020,1526 928,1526 926,1553 920,1559 920,1583 924,1586 1001,1588 1005,1600 1015,1601 1017,1604 1040,1603 1040,1588 1047,1587 1132,1589 1133,1538 1100,1537 1095,1529 1083,1528 1077,1531 1075,1537 1031,1538 1030,1527"/>
@@ -599,7 +614,7 @@ goris, cutisque corrugatio ſubita.</Unicode>
         <Unicode>Species</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:4;}">
+    <TextRegion id="region0012" custom="readingOrder {index:4;}" orientation="-1.570766" readingDirection="left-to-right">
       <Coords points="590,1623 1504,1623 1504,1916 590,1916"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="1322,1623 1299,1624 1300,1636 1305,1641 1317,1640 1320,1643 1319,1648 1295,1649 1286,1649 1284,1641 1273,1632 1260,1631 1256,1634 1257,1649 1243,1649 1238,1640 1224,1636 1217,1641 1215,1648 1195,1648 1182,1638 1174,1638 1165,1641 1159,1647 1088,1649 1083,1647 1083,1641 1077,1635 1044,1630 955,1629 949,1633 947,1645 898,1646 888,1645 879,1635 871,1635 862,1640 860,1629 854,1623 846,1623 838,1624 836,1635 759,1631 754,1635 752,1646 743,1645 735,1637 726,1634 599,1629 594,1634 593,1667 601,1674 600,1692 605,1697 709,1700 749,1696 844,1694 950,1696 952,1704 958,1708 980,1707 996,1712 1035,1713 1041,1707 1057,1712 1106,1700 1287,1700 1294,1694 1305,1695 1310,1700 1399,1701 1404,1706 1417,1707 1423,1702 1504,1702 1504,1650 1347,1650 1345,1641 1337,1635 1338,1624"/>
@@ -738,13 +753,13 @@ goris, cutisque corrugatio ſubita.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>I. a Plethora (t), ex facie rubra, ar-&#13;
-teriarum plenitudine, ſuppreſſis evacua-&#13;
-tionibus, ſignisque aliis plethoræ cogno-&#13;
+        <Unicode>I. a Plethora (t), ex facie rubra, ar-
+teriarum plenitudine, ſuppreſſis evacua-
+tionibus, ſignisque aliis plethoræ cogno-
 ſcenda.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" type="catch-word" readingDirection="left-to-right" id="region0013" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region0013" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="-1.570766" type="catch-word" readingDirection="left-to-right">
       <Coords points="1359,1927 1437,1927 1437,1993 1359,1993"/>
       <TextLine id="region0013_line" custom="readingOrder {index:0;}">
         <Coords points="1359,1927 1437,1927 1437,1993 1359,1993"/>
@@ -762,7 +777,7 @@ tionibus, ſignisque aliis plethoræ cogno-&#13;
         <Unicode>II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-1.570766" type="footnote" readingDirection="left-to-right" id="region0017" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="region0017" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="-1.570766" type="footnote" readingDirection="left-to-right">
       <Coords points="593,2076 1496,2076 1496,2190 593,2190"/>
       <TextLine id="region0017_line0001" custom="readingOrder {index:0;}">
         <Coords points="1425,2086 1408,2087 1402,2090 1381,2094 1375,2094 1367,2085 1357,2085 1352,2089 1262,2084 1252,2092 1242,2093 1205,2091 1195,2082 1183,2082 1175,2090 1169,2090 1162,2083 1150,2083 1143,2090 1105,2091 1051,2087 991,2076 926,2076 914,2078 906,2086 901,2086 895,2078 882,2077 872,2080 868,2086 821,2086 739,2085 730,2078 715,2078 709,2083 652,2078 594,2077 593,2135 709,2128 845,2130 847,2133 862,2137 884,2129 943,2130 1033,2134 1042,2144 1050,2144 1061,2136 1114,2139 1139,2143 1204,2136 1253,2136 1318,2138 1332,2141 1345,2148 1360,2148 1397,2147 1414,2140 1496,2137 1496,2095 1456,2093 1444,2087"/>
@@ -851,7 +866,7 @@ tionibus, ſignisque aliis plethoræ cogno-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(t) tale exemplum in Stymargi famula Hipp. libro&#13;
+        <Unicode>(t) tale exemplum in Stymargi famula Hipp. libro
 II. Popul. ſect. IV.</Unicode>
       </TextEquiv>
     </TextRegion>

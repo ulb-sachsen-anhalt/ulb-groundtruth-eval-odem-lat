@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-111">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:57Z</Created>
     <LastChange>2024-01-19T13:07:57Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-256923-p0028-9_lat.png" imageWidth="2178" imageHeight="2586" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/08c43028-3aec-47d8-8c19-47b6a45a2df6/00000028.jpg" imageWidth="2178" imageHeight="2586" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="92,162 104,2459 2076,2471 2103,210"/>
     </Border>
@@ -16,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.35958833" readingDirection="left-to-right" id="TextRegion_1654598003286_4880" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1654598003286_4880" custom="readingOrder {index:0;}" orientation="-0.35958833" readingDirection="left-to-right">
       <Coords points="679,395 1973,395 1973,1765 1921,1858 678,1858 678,1728"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="1165,395 1159,396 1154,402 1148,402 1144,396 1126,396 1121,402 1022,405 965,405 959,396 944,396 938,398 933,404 902,406 850,404 814,396 749,395 719,403 680,405 680,458 739,458 743,463 755,464 761,459 780,458 794,459 799,464 833,457 868,457 876,460 886,454 904,454 911,459 919,453 936,455 1056,451 1061,454 1074,452 1085,455 1165,459 1190,454 1198,465 1224,458 1236,461 1261,460 1277,467 1284,466 1290,461 1307,464 1356,464 1367,467 1378,461 1396,467 1409,463 1433,473 1444,473 1448,470 1502,472 1504,476 1516,480 1527,480 1538,477 1541,473 1592,470 1624,472 1639,480 1649,478 1654,473 1660,476 1685,471 1696,471 1701,475 1749,475 1759,478 1872,478 1891,472 1900,476 1973,474 1973,431 1903,427 1901,419 1892,412 1882,413 1873,424 1829,420 1795,412 1756,410 1720,411 1689,417 1676,417 1672,414 1655,417 1648,407 1626,409 1620,417 1577,416 1567,406 1558,406 1548,416 1513,417 1454,413 1442,404 1430,404 1414,408 1408,402 1397,402 1382,404 1377,408 1358,408 1316,402 1311,396 1278,396 1272,400 1228,401 1221,396 1199,395 1190,403 1180,403 1175,395"/>
@@ -53,7 +68,7 @@
         </Word>
         <Word id="region0003_line0001_word0005" custom="readingOrder {index:5;}">
           <Coords points="1253,410 1129,410 1129,457 1165,459 1190,454 1198,465 1224,458 1236,461 1253,460"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>dieſes</Unicode>
           </TextEquiv>
         </Word>
@@ -481,7 +496,7 @@
         </Word>
         <Word id="region0003_line0009_word0005" custom="readingOrder {index:5;}">
           <Coords points="1558,875 1528,877 1528,927 1559,927 1564,929 1578,929 1581,929 1582,929 1642,930 1642,930 1653,930 1653,930 1749,931 1749,889 1710,886 1682,889 1673,885 1631,883 1619,876 1610,876 1603,880 1567,875"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Nahmen,</Unicode>
           </TextEquiv>
         </Word>
@@ -738,7 +753,7 @@
         </Word>
         <Word id="region0003_line0014_word0002" custom="readingOrder {index:2;}">
           <Coords points="1229,1156 1224,1159 1218,1159 1218,1207 1290,1208 1290,1161 1286,1162 1277,1156 1258,1156 1255,1159 1253,1156"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>und</Unicode>
           </TextEquiv>
         </Word>
@@ -854,7 +869,7 @@
         </Word>
         <Word id="region0003_line0016_word0006" custom="readingOrder {index:6;}">
           <Coords points="1417,1279 1313,1278 1313,1332 1319,1333 1338,1331 1342,1335 1342,1340 1345,1341 1359,1341 1362,1341 1367,1334 1406,1336 1411,1332 1417,1332"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ohne</Unicode>
           </TextEquiv>
         </Word>
@@ -884,7 +899,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0017_word0001" custom="readingOrder {index:1;}">
-          <Coords points="802,1332 800,1335 817,1332 817,1388 803,1390 805,1389 820,1389 829,1384 836,1384 844,1390 867,1386 873,1389 896,1390 907,1388 907,1335 882,1336 863,1336 862,1332"/>
+          <Coords points="802,1332 803,1390 907,1388 907,1335"/>
           <TextEquiv>
             <Unicode>ihm</Unicode>
           </TextEquiv>
@@ -1012,7 +1027,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0019_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1507,1460 1356,1458 1356,1516 1476,1518 1487,1514 1494,1516 1507,1514"/>
+          <Coords points="1356,1458 1356,1510 1361,1510 1379,1516 1476,1518 1487,1514 1494,1516 1507,1514 1507,1460"/>
           <TextEquiv>
             <Unicode>2.ZMk.</Unicode>
           </TextEquiv>
@@ -1328,34 +1343,34 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>er ſich von dato an. dieſes ſaͤmtlichen gedachten Vermoͤ⸗&#13;
-gens als ſeines Eigenthums und proper Guthes anneh⸗&#13;
-men und nach eignen Belieben damit gebahren moͤge.&#13;
-Gleichwie nun ich N. N. dieſe eheliche Liebes⸗Conteſta-&#13;
-tion, Schenckung und Aufgabe des ſaͤmtlichen Vermoͤ⸗&#13;
-gens meiner Eheliebſten danckbarlich hiermit acceptire,&#13;
-als will ich auch hiermit zuBezeugung meiner hertzlichen&#13;
-Gegen⸗Liebe meiner Liebſten N.N. ein Drittheil in mei⸗&#13;
-nem ſaͤmtlichen Vermoͤgen, es habe Nahmen, wie es&#13;
-wolle, geſchencket und vor E. Hoch Edl. Rath aufgegeben&#13;
-haben, daß ſie mit ſolchen als ihren wohlhergebrachten&#13;
-Eigenthume allenthaſben ſchalten wollte und gebahren&#13;
-moͤge, welches ich N. N. nebſt meinem Hrn. Curatore&#13;
-danckbarlich acceptire, und auch ſolches Drittheil von&#13;
-meines Eheliebſten ſaͤmmtlichen Vermoͤgen in caſum,&#13;
-wenn ich vor ihn mit Tode ohne Leibes⸗Erben abgehen&#13;
-ſolte, ihm hinwiederum geſchencket und vermachet ha⸗&#13;
-ben will. Wobey auch E. Hoch⸗Edl. Hochweiſ. Rathe&#13;
-zu Beſſerung Weg und Steg 2.ZMk. von uns wohlbe⸗&#13;
-daͤchtig vermachet werden. Zu mehrer Uhrkund deſ⸗&#13;
-ſen iſt dieſe Auffgabe zu Papier gebracht, und E.  Hoch⸗&#13;
-Edl. Hochweiſ. Rathe unter unſerer eigenhaͤndigen Un⸗&#13;
-terſchrifft præſentiret und das Vermoͤgen bißheriger&#13;
-Obſervanz nach hinc inde tradiret worden. Zittau Menſ.&#13;
+        <Unicode>er ſich von dato an. dieſes ſaͤmtlichen gedachten Vermoͤ⸗
+gens als ſeines Eigenthums und proper Guthes anneh⸗
+men und nach eignen Belieben damit gebahren moͤge.
+Gleichwie nun ich N. N. dieſe eheliche Liebes⸗Conteſta-
+tion, Schenckung und Aufgabe des ſaͤmtlichen Vermoͤ⸗
+gens meiner Eheliebſten danckbarlich hiermit acceptire,
+als will ich auch hiermit zuBezeugung meiner hertzlichen
+Gegen⸗Liebe meiner Liebſten N.N. ein Drittheil in mei⸗
+nem ſaͤmtlichen Vermoͤgen, es habe Nahmen, wie es
+wolle, geſchencket und vor E. Hoch Edl. Rath aufgegeben
+haben, daß ſie mit ſolchen als ihren wohlhergebrachten
+Eigenthume allenthaſben ſchalten wollte und gebahren
+moͤge, welches ich N. N. nebſt meinem Hrn. Curatore
+danckbarlich acceptire, und auch ſolches Drittheil von
+meines Eheliebſten ſaͤmmtlichen Vermoͤgen in caſum,
+wenn ich vor ihn mit Tode ohne Leibes⸗Erben abgehen
+ſolte, ihm hinwiederum geſchencket und vermachet ha⸗
+ben will. Wobey auch E. Hoch⸗Edl. Hochweiſ. Rathe
+zu Beſſerung Weg und Steg 2.ZMk. von uns wohlbe⸗
+daͤchtig vermachet werden. Zu mehrer Uhrkund deſ⸗
+ſen iſt dieſe Auffgabe zu Papier gebracht, und E.  Hoch⸗
+Edl. Hochweiſ. Rathe unter unſerer eigenhaͤndigen Un⸗
+terſchrifft præſentiret und das Vermoͤgen bißheriger
+Obſervanz nach hinc inde tradiret worden. Zittau Menſ.
 Apr. Anno 1721.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.35958833" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:1;}">
+    <TextRegion id="region0005" custom="readingOrder {index:1;}" orientation="-0.35958833" readingDirection="left-to-right">
       <Coords points="675,1895 1665,1895 1665,2045 675,2045"/>
       <TextLine id="line_1654598876162_5913" custom="readingOrder {index:0;}">
         <Coords points="675,1895 840,1895 908,1895 1665,1908 1665,1969 1656,1974 1646,1974 1458,1970 724,1952 676,1950"/>
@@ -1420,7 +1435,7 @@ Apr. Anno 1721.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>N. N. N. N.&#13;
+        <Unicode>N. N. N. N.
 N. N. Curat. nomine</Unicode>
       </TextEquiv>
     </TextRegion>

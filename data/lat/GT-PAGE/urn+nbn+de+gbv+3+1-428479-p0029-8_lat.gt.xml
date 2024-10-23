@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-153">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:24Z</Created>
     <LastChange>2024-01-19T13:08:24Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-428479-p0029-8_lat.jpg" imageWidth="2389" imageHeight="2895" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/d4c948c8-4f33-42c3-b3ed-d26223439e96/00000029.jpg" imageWidth="2389" imageHeight="2895" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="137,345 114,2789 2240,2797 2241,346"/>
     </Border>
@@ -21,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1660639792475_3898"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.06372442" readingDirection="left-to-right" id="TextRegion_1660639317274_3734" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660639317274_3734" custom="readingOrder {index:0;}" orientation="0.06372442" readingDirection="left-to-right">
       <Coords points="291,678 1513,678 1513,1291 662,1345 298,1345 291,1291"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="851,678 847,689 810,689 805,680 794,679 784,681 780,690 694,693 692,685 685,681 675,681 669,685 658,681 618,681 589,683 584,688 583,698 500,699 448,703 444,695 429,693 412,698 406,704 388,707 373,707 349,701 291,700 291,754 400,750 430,744 441,744 445,747 485,747 492,742 501,742 507,746 600,743 623,741 630,736 639,736 646,740 676,739 682,735 693,735 698,738 747,737 764,732 788,731 797,731 804,735 876,734 878,738 889,741 897,729 911,733 930,733 952,728 968,728 982,732 1005,732 1011,728 1021,728 1027,732 1065,729 1082,738 1087,738 1096,730 1100,730 1107,734 1126,734 1137,740 1148,739 1154,734 1210,732 1216,729 1234,730 1243,739 1251,741 1259,740 1265,735 1336,735 1350,732 1361,739 1512,744 1512,697 1414,697 1404,696 1398,686 1384,686 1375,694 1294,691 1272,689 1268,686 1236,687 1229,678 1215,679 1208,687 1198,688 1187,688 1180,683 1168,683 1163,687 1119,687 1111,685 1106,678 1038,678 1032,684 1019,686 1008,686 1006,678 958,678 956,686 952,688 874,687 870,678"/>
@@ -726,22 +741,22 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Moraliter neceſſarium denique id eſt, quod per volunta-&#13;
-tem alicuius entis intelligentis fieri debet, ſeu cuius con-&#13;
-trarium repugnat huic voluntati. Itaque actiones liberae&#13;
-dicuntur morales in ſpecie, quatenus ad eam earum qua-&#13;
-litatem reſpicitur, vi cuius eaedem vel fieri debent, vel&#13;
-omitti, intuitu voluntatis entis cuiusdam intelligentis.&#13;
-Quoties ergo quaeritur: vtrum actio quaedam fieri poſ-&#13;
-ſſit, aut debeat, toties ea vt moralis actio conſideratur,&#13;
-in primis autem moralis haec dicitur conſideratio, qua&#13;
-quaerimus vtrum per voluntatem legislatoris fieri quid&#13;
-poſſit aut non, in qua igitur id quod morale dicimus re-&#13;
-ferimus ad voluntatem eius, cui ius eſt praeſcribere &amp;&#13;
+        <Unicode>Moraliter neceſſarium denique id eſt, quod per volunta-
+tem alicuius entis intelligentis fieri debet, ſeu cuius con-
+trarium repugnat huic voluntati. Itaque actiones liberae
+dicuntur morales in ſpecie, quatenus ad eam earum qua-
+litatem reſpicitur, vi cuius eaedem vel fieri debent, vel
+omitti, intuitu voluntatis entis cuiusdam intelligentis.
+Quoties ergo quaeritur: vtrum actio quaedam fieri poſ-
+ſſit, aut debeat, toties ea vt moralis actio conſideratur,
+in primis autem moralis haec dicitur conſideratio, qua
+quaerimus vtrum per voluntatem legislatoris fieri quid
+poſſit aut non, in qua igitur id quod morale dicimus re-
+ferimus ad voluntatem eius, cui ius eſt praeſcribere &amp;
 conſtituere leges.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" type="heading" readingDirection="left-to-right" id="TextRegion_1660639321566_3739" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1660639321566_3739" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.06372442" type="heading" readingDirection="left-to-right">
       <Coords points="450,1405 809,1351 1006,1351 1366,1405 1366,1507 450,1507"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="850,1351 809,1354 811,1416 836,1416 841,1409 877,1407 1005,1408 1005,1351"/>
@@ -812,12 +827,12 @@ conſtituere leges.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. VIII.&#13;
-QVID BONVM ET MALVM SIT&#13;
+        <Unicode>§. VIII.
+QVID BONVM ET MALVM SIT
 EXPONITVR.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" readingDirection="left-to-right" id="TextRegion_1660639348468_3748" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1660639348468_3748" custom="readingOrder {index:2;}" orientation="0.06372442" readingDirection="left-to-right">
       <Coords points="295,1520 1516,1520 1516,2167 916,2161 295,2184"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="1269,1520 1266,1528 1254,1529 1080,1532 1058,1532 1053,1523 1039,1522 1032,1527 1030,1533 1010,1534 967,1533 960,1523 943,1525 938,1530 932,1523 921,1523 915,1527 913,1536 818,1537 809,1536 802,1526 781,1526 770,1536 707,1540 652,1540 630,1536 620,1531 575,1531 568,1534 564,1531 551,1531 546,1535 544,1543 485,1543 482,1536 475,1532 460,1534 454,1541 449,1537 434,1535 350,1535 340,1536 335,1541 335,1572 340,1577 348,1577 349,1585 354,1590 402,1590 413,1586 444,1586 450,1590 491,1590 499,1585 508,1585 517,1597 529,1593 531,1588 548,1588 556,1584 574,1587 642,1587 658,1586 669,1581 682,1581 691,1585 704,1581 714,1581 721,1585 743,1585 750,1579 759,1579 767,1584 809,1585 830,1591 846,1579 853,1580 859,1586 869,1585 874,1589 887,1590 896,1583 1036,1579 1103,1579 1119,1580 1127,1584 1158,1580 1164,1584 1177,1584 1186,1581 1189,1576 1199,1575 1325,1574 1339,1569 1349,1569 1357,1573 1397,1573 1411,1579 1445,1583 1477,1577 1515,1577 1515,1529 1463,1529 1456,1520 1363,1520 1350,1527 1300,1528 1294,1527 1291,1520"/>
@@ -1534,7 +1549,7 @@ EXPONITVR.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660639738905_3869" custom="readingOrder {index:12;}">
-        <Coords points="322,2137 424,2133 1014,2112 1138,2109 1377,2109 1450,2111 1507,2113 1516,2116 1516,2169 1338,2173 296,2184 296,2144"/>
+        <Coords points="1507,2113 1450,2111 1377,2109 1138,2109 1014,2112 424,2133 322,2137 296,2144 296,2183 916,2161 1516,2167 1516,2116"/>
         <Baseline points="296,2180 655,2170 945,2155 1281,2151 1516,2159"/>
         <Word id="region0006_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="304,2171 351,2171 351,2143 339,2143 332,2137 322,2137 315,2143 304,2143"/>
@@ -1589,22 +1604,22 @@ EXPONITVR.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Sed quid bonum ſit, quid malum, quaeritur. Quae&#13;
-quaeſtio dudum fuit iam inter veteres controuerſa &amp; am-&#13;
-bigua, ſicuti &amp; de eo hodie dubitant, vtrum detur tertium&#13;
-genus, quod nec bonum ſit, nec malum, ſed plane indif-&#13;
-ferens. Bonum autem &amp; malum qui ſic definiunt, quaſi&#13;
-rebus ipſis, quae bonae malaeue dicuntur, inſit, iisque&#13;
-quaſi adhaereat, idque vnum tantum eſſe &amp; ſimplex co-&#13;
-gitant ſine omni diſtinctione adhibita, hi in morum do-&#13;
-ctrina quod ſummum eſt, in virtute poſitum, plane negli-&#13;
-gunt. Quare haec omnia videntur curatius eſſe inter ſe&#13;
-diſtinguenda. Bonum autem, ab hoc enim definiendo&#13;
-incipiamus, id eſſe videtur, quod conuenit voluntati en-&#13;
+        <Unicode>Sed quid bonum ſit, quid malum, quaeritur. Quae
+quaeſtio dudum fuit iam inter veteres controuerſa &amp; am-
+bigua, ſicuti &amp; de eo hodie dubitant, vtrum detur tertium
+genus, quod nec bonum ſit, nec malum, ſed plane indif-
+ferens. Bonum autem &amp; malum qui ſic definiunt, quaſi
+rebus ipſis, quae bonae malaeue dicuntur, inſit, iisque
+quaſi adhaereat, idque vnum tantum eſſe &amp; ſimplex co-
+gitant ſine omni diſtinctione adhibita, hi in morum do-
+ctrina quod ſummum eſt, in virtute poſitum, plane negli-
+gunt. Quare haec omnia videntur curatius eſſe inter ſe
+diſtinguenda. Bonum autem, ab hoc enim definiendo
+incipiamus, id eſſe videtur, quod conuenit voluntati en-
 tis cuiusdam intelligentis. a) Quare bonum quid dici</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" type="signature-mark" readingDirection="left-to-right" id="TextRegion_1660639353372_3767" custom="readingOrder {index:3;} structure {type:signature-mark;}">
+    <TextRegion id="TextRegion_1660639353372_3767" custom="readingOrder {index:3;} structure {type:signature-mark;}" orientation="0.06372442" type="signature-mark" readingDirection="left-to-right">
       <Coords points="295,2184 916,2161 1127,2163 1127,2229 295,2229"/>
       <TextLine id="line_1660639353419_3770" custom="readingOrder {index:0;}">
         <Coords points="874,2179 902,2178 909,2166 935,2161 976,2161 980,2162 1029,2172 1054,2172 1060,2179 1127,2179 1127,2212 1072,2212 1068,2219 1057,2221 973,2221 944,2216 882,2214 872,2210 871,2183"/>
@@ -1623,10 +1638,10 @@ tis cuiusdam intelligentis. a) Quare bonum quid dici</Unicode>
         <Unicode>C5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660639353371_3766" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660639353371_3766" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="0.06372442" type="catch-word" readingDirection="left-to-right">
       <Coords points="1127,2163 1516,2167 1516,2229 1127,2229"/>
       <TextLine id="line_1660639353419_3769" custom="readingOrder {index:0;}">
-        <Coords points="1127,2179 1372,2179 1379,2171 1516,2173 1516,2223 1476,2224 1462,2231 1445,2233 1387,2233 1382,2228 1382,2214 1377,2212 1127,2212"/>
+        <Coords points="1379,2171 1372,2179 1127,2179 1127,2212 1377,2212 1382,2214 1382,2228 1383,2229 1466,2229 1476,2224 1516,2223 1516,2173"/>
         <Baseline points="1127,2206 1186,2205 1262,2212 1382,2223 1516,2214"/>
         <Word id="region0006_line0015_word0001" custom="readingOrder {index:0;}">
           <Coords points="1511,2182 1440,2182 1440,2224 1476,2224 1511,2223"/>
@@ -1642,7 +1657,7 @@ tis cuiusdam intelligentis. a) Quare bonum quid dici</Unicode>
         <Unicode>per</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" type="footnote" readingDirection="left-to-right" id="TextRegion_1660639792475_3899" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1660639792475_3899" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="0.06372442" type="footnote" readingDirection="left-to-right">
       <Coords points="295,2229 930,2229 934,2428 295,2452"/>
       <TextLine id="line_1660639792523_3902" custom="readingOrder {index:0;}">
         <Coords points="325,2254 424,2249 453,2251 477,2248 484,2256 492,2257 548,2255 555,2245 568,2246 570,2239 582,2230 594,2233 596,2252 651,2251 694,2240 739,2238 750,2237 770,2246 788,2246 796,2236 808,2237 815,2233 831,2234 839,2243 930,2242 930,2284 924,2284 787,2291 774,2287 757,2297 743,2294 705,2294 682,2290 675,2294 638,2292 552,2297 527,2304 518,2303 513,2299 479,2300 464,2297 458,2302 349,2307 330,2315 317,2311 296,2310 296,2265 311,2264"/>
@@ -1760,7 +1775,7 @@ tis cuiusdam intelligentis. a) Quare bonum quid dici</Unicode>
         <Baseline points="296,2437 833,2416 930,2416"/>
         <Word id="region0006_line0019_word0000" custom="readingOrder {index:0;}">
           <Coords points="351,2422 504,2422 504,2392 466,2395 443,2401 412,2394 394,2401 351,2401"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>notiones</Unicode>
           </TextEquiv>
         </Word>
@@ -1781,13 +1796,13 @@ tis cuiusdam intelligentis. a) Quare bonum quid dici</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a) Difficile quidem eſt ſignifica-&#13;
-tus verborum tam late ſumtos&#13;
-ex legibus probare. Nam quum&#13;
+        <Unicode>a) Difficile quidem eſt ſignifica-
+tus verborum tam late ſumtos
+ex legibus probare. Nam quum
 notiones eiusmodi abſtractas,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.06372442" type="footnote" readingDirection="left-to-right" id="TextRegion_1660639792475_3898" custom="readingOrder {index:6;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1660639792475_3898" custom="readingOrder {index:6;} structure {type:footnote;}" orientation="0.06372442" type="footnote" readingDirection="left-to-right">
       <Coords points="930,2229 1516,2229 1520,2430 934,2430"/>
       <TextLine id="line_1660639792523_3901" custom="readingOrder {index:0;}">
         <Coords points="930,2242 1058,2241 1070,2230 1092,2230 1098,2234 1100,2240 1106,2241 1155,2240 1159,2237 1168,2237 1172,2240 1295,2245 1303,2237 1311,2237 1319,2242 1321,2247 1387,2251 1395,2251 1404,2242 1413,2242 1420,2247 1422,2253 1516,2254 1516,2294 1502,2292 1453,2296 1449,2293 1424,2292 1418,2296 1367,2295 1267,2289 1253,2284 1237,2287 1222,2282 1180,2290 1170,2286 1101,2283 1093,2278 1058,2282 1052,2276 1045,2275 1037,2283 1024,2279 986,2291 971,2281 963,2285 930,2284"/>
@@ -1821,7 +1836,7 @@ notiones eiusmodi abſtractas,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660639792524_3903" custom="readingOrder {index:1;}">
-        <Coords points="930,2288 962,2288 967,2283 974,2282 986,2292 1000,2287 1011,2287 1014,2283 1024,2280 1037,2284 1045,2276 1052,2277 1058,2283 1058,2287 1065,2287 1070,2281 1082,2279 1093,2279 1102,2287 1170,2288 1180,2291 1222,2283 1233,2289 1253,2285 1265,2292 1298,2297 1418,2301 1419,2296 1424,2293 1449,2294 1454,2300 1464,2300 1475,2294 1510,2293 1516,2295 1516,2342 1420,2342 1409,2348 1401,2346 1397,2337 1386,2336 1373,2339 1294,2340 1279,2343 1255,2333 1209,2333 1186,2327 1172,2327 1166,2330 1110,2329 1104,2325 1092,2326 1086,2333 1080,2334 1075,2329 1068,2329 1059,2336 1050,2336 1037,2328 1028,2327 1015,2331 981,2324 930,2327"/>
+        <Coords points="981,2324 1015,2331 1028,2327 1037,2328 1050,2336 1059,2336 1068,2329 1075,2329 1080,2334 1086,2333 1092,2326 1104,2325 1110,2329 1166,2330 1172,2327 1186,2327 1209,2333 1255,2333 1279,2343 1294,2340 1373,2339 1386,2336 1397,2337 1401,2346 1409,2348 1420,2342 1516,2342 1516,2295 1510,2293 1475,2294 1464,2300 1454,2300 1449,2294 1424,2293 1419,2296 1418,2301 1298,2297 1265,2292 1253,2285 1233,2289 1222,2283 1180,2291 1170,2288 1102,2287 1093,2279 1082,2279 1070,2281 1065,2287 1058,2287 1058,2283 1052,2277 1045,2276 1037,2284 1024,2280 1014,2283 1011,2287 1000,2287 986,2292 974,2282 967,2283 962,2288 931,2288 931,2326"/>
         <Baseline points="930,2317 938,2317 1516,2332"/>
         <Word id="region0006_line0017_word0005" custom="readingOrder {index:0;}">
           <Coords points="971,2284 971,2318 1005,2318 1005,2287 1000,2287 986,2292 976,2284"/>
@@ -1858,7 +1873,7 @@ notiones eiusmodi abſtractas,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660639792526_3905" custom="readingOrder {index:2;}">
-        <Coords points="930,2327 981,2325 990,2325 999,2330 1016,2333 1028,2328 1037,2329 1050,2337 1059,2337 1068,2330 1075,2330 1080,2335 1086,2334 1092,2327 1104,2326 1111,2334 1186,2328 1210,2339 1215,2339 1219,2332 1232,2332 1239,2336 1240,2340 1241,2336 1246,2334 1255,2334 1263,2342 1279,2344 1355,2345 1360,2339 1395,2337 1401,2347 1409,2349 1425,2343 1516,2344 1516,2387 1493,2387 1486,2383 1477,2383 1470,2388 1462,2388 1432,2386 1424,2381 1412,2381 1403,2385 1379,2385 1373,2382 1349,2381 1343,2385 1326,2385 1319,2390 1312,2390 1301,2381 1292,2385 1286,2381 1259,2383 1250,2378 1201,2380 1196,2377 1185,2377 1180,2380 1169,2380 1141,2378 1134,2373 1085,2376 1050,2371 1038,2377 1019,2380 1010,2377 930,2377"/>
+        <Coords points="1010,2377 1019,2380 1038,2377 1050,2371 1085,2376 1134,2373 1141,2378 1169,2380 1180,2380 1185,2377 1196,2377 1201,2380 1250,2378 1259,2383 1286,2381 1292,2385 1301,2381 1312,2390 1319,2390 1326,2385 1343,2385 1349,2381 1373,2382 1379,2385 1403,2385 1412,2381 1424,2381 1432,2386 1462,2388 1470,2388 1477,2383 1486,2383 1493,2387 1516,2387 1516,2344 1425,2343 1409,2349 1401,2347 1395,2337 1360,2339 1355,2345 1279,2344 1263,2342 1255,2334 1246,2334 1241,2336 1240,2340 1239,2336 1232,2332 1219,2332 1215,2339 1210,2339 1186,2328 1111,2334 1104,2326 1092,2327 1086,2334 1080,2335 1075,2330 1068,2330 1059,2337 1050,2337 1037,2329 1028,2328 1016,2333 999,2330 990,2325 981,2325 931,2326 932,2377"/>
         <Baseline points="930,2367 1031,2365 1516,2376"/>
         <Word id="word_1660639792526_3907" custom="readingOrder {index:0;}">
           <Coords points="930,2332 1010,2332 1016,2333 1018,2332 1039,2332 1039,2376 1038,2377 1025,2379 1016,2379 1010,2377 930,2377"/>
@@ -1901,7 +1916,7 @@ notiones eiusmodi abſtractas,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1660639792527_3909" custom="readingOrder {index:3;}">
-        <Coords points="930,2381 1020,2381 1040,2378 1050,2372 1078,2379 1115,2380 1120,2374 1134,2374 1142,2381 1178,2382 1185,2378 1196,2378 1202,2381 1203,2385 1216,2386 1222,2386 1223,2381 1227,2379 1250,2379 1264,2388 1270,2388 1276,2382 1286,2382 1293,2386 1301,2382 1312,2391 1342,2388 1349,2382 1373,2383 1380,2387 1401,2387 1412,2382 1424,2382 1433,2388 1462,2389 1486,2384 1493,2388 1516,2388 1516,2429 1473,2429 1466,2425 1450,2425 1430,2437 1411,2440 1405,2432 1170,2429 1102,2423 1059,2424 1047,2427 1041,2432 1023,2432 1016,2425 1004,2424 955,2424 936,2428 930,2428"/>
+        <Coords points="1450,2425 1466,2425 1473,2429 1516,2429 1516,2388 1493,2388 1486,2384 1462,2389 1433,2388 1424,2382 1412,2382 1401,2387 1380,2387 1373,2383 1349,2382 1342,2388 1312,2391 1301,2382 1293,2386 1286,2382 1276,2382 1270,2388 1264,2388 1250,2379 1227,2379 1223,2381 1222,2386 1216,2386 1203,2385 1202,2381 1196,2378 1185,2378 1178,2382 1142,2381 1134,2374 1120,2374 1115,2380 1078,2379 1050,2372 1040,2378 1020,2381 933,2381 933,2428 936,2428 955,2424 1004,2424 1016,2425 1021,2430 1043,2430 1047,2427 1059,2424 1102,2423 1170,2429 1248,2430 1441,2430"/>
         <Baseline points="930,2416 1516,2419"/>
         <Word id="region0006_line0019_word0003" custom="readingOrder {index:0;}">
           <Coords points="1041,2377 1040,2378 1020,2381 971,2381 971,2424 1004,2424 1059,2424 1086,2423 1086,2379 1078,2379 1070,2377"/>
@@ -1932,9 +1947,9 @@ notiones eiusmodi abſtractas,</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>quas dicunt, non inueniamus&#13;
-in legibus noſtris, exemplis id&#13;
-fieri debet. Sed in quolibet ex-&#13;
+        <Unicode>quas dicunt, non inueniamus
+in legibus noſtris, exemplis id
+fieri debet. Sed in quolibet ex-
 emplo de indiuiduali ſpecie</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-110">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:57Z</Created>
     <LastChange>2024-01-19T13:07:57Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-253839-p0028-2_lat.png" imageWidth="2515" imageHeight="2934" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/e6606b70-f317-4e76-be2f-8cb17e0327af/00000028.jpg" imageWidth="2515" imageHeight="2934" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="121,356 156,2790 2368,2768 2370,345"/>
     </Border>
@@ -23,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="TextRegion_1671548499087_2592"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="marginalia" id="region_1671548484752_2581" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="region_1671548484752_2581" custom="readingOrder {index:0;} structure {type:marginalia;}" type="marginalia">
       <Coords points="736,756 736,795 782,795 782,756"/>
       <TextLine id="line_1671548484889_2584" custom="readingOrder {index:0;}">
         <Coords points="736,756 736,795 782,795 782,756"/>
@@ -41,7 +56,7 @@
         <Unicode>5.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="marginalia" readingDirection="left-to-right" id="region0010" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="region0010" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.21813236" type="marginalia" readingDirection="left-to-right">
       <Coords points="545,926 773,926 773,970 545,970"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="562,926 545,927 545,969 772,970 772,927 715,927 712,933 681,930 677,927 615,926 609,932"/>
@@ -71,7 +86,7 @@
         <Unicode>An a Notario?</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="marginalia" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="region0011" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="-0.21813236" type="marginalia" readingDirection="left-to-right">
       <Coords points="543,1385 863,1385 863,1475 543,1475"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="543,1385 543,1437 567,1438 592,1431 601,1437 613,1438 625,1429 655,1432 666,1439 680,1437 685,1431 698,1430 710,1433 862,1431 862,1397 841,1395 835,1386 820,1386 815,1396 759,1395 751,1386 729,1385 723,1393 646,1393 643,1385"/>
@@ -116,11 +131,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(Il.) urgentibus cir-&#13;
+        <Unicode>(Il.) urgentibus cir-
 cumſtantiis iteratur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="marginalia" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:3;} structure {type:marginalia;}">
+    <TextRegion id="region0012" custom="readingOrder {index:3;} structure {type:marginalia;}" orientation="-0.21813236" type="marginalia" readingDirection="left-to-right">
       <Coords points="539,2162 904,2162 904,2306 539,2306"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="827,2163 822,2173 697,2174 689,2165 675,2165 667,2166 653,2174 643,2167 542,2167 540,2221 565,2224 576,2218 635,2216 636,2220 642,2223 672,2223 679,2221 682,2214 714,2214 732,2210 743,2213 763,2213 770,2210 807,2212 808,2217 820,2220 828,2218 835,2208 904,2207 904,2168 856,2170 854,2163"/>
@@ -145,7 +160,7 @@ cumſtantiis iteratur.</Unicode>
         </Word>
         <Word id="region0012_line0001_word0003" custom="readingOrder {index:3;}">
           <Coords points="898,2172 822,2171 822,2173 771,2173 771,2210 807,2212 808,2217 813,2218 826,2218 828,2218 835,2208 898,2207"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>conſum-</Unicode>
           </TextEquiv>
         </Word>
@@ -216,12 +231,12 @@ cumſtantiis iteratur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(III.) efficit t. conſum-&#13;
-mata ut a)de depoſitio-&#13;
+        <Unicode>(III.) efficit t. conſum-
+mata ut a)de depoſitio-
 ne conſtet fide publica.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="page-number" readingDirection="left-to-right" id="TextRegion_1671548451628_2570" custom="readingOrder {index:4;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671548451628_2570" custom="readingOrder {index:4;} structure {type:page-number;}" orientation="-0.21813236" type="page-number" readingDirection="left-to-right">
       <Coords points="913,577 1007,577 1007,638 913,638"/>
       <TextLine id="line_1671548451681_2573" custom="readingOrder {index:0;}">
         <Coords points="914,591 950,589 954,586 968,587 995,577 1007,577 1007,637 913,637"/>
@@ -240,7 +255,7 @@ ne conſtet fide publica.</Unicode>
         <Unicode>26</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="header" readingDirection="left-to-right" id="TextRegion_1671548451628_2569" custom="readingOrder {index:5;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671548451628_2569" custom="readingOrder {index:5;} structure {type:header;}" orientation="-0.21813236" type="header" readingDirection="left-to-right">
       <Coords points="1007,577 2020,577 2020,638 1007,638"/>
       <TextLine id="line_1671548451681_2572" custom="readingOrder {index:0;}">
         <Coords points="1007,577 1077,577 1099,579 1122,587 1139,587 1244,586 1281,577 1328,578 1356,585 1373,578 1469,577 1494,586 1541,586 1657,584 1690,578 1752,578 1774,584 1825,583 1850,577 1935,578 1952,584 2019,583 2019,634 1800,631 1477,636 1362,634 1328,637 1186,634 1059,637 1007,637"/>
@@ -289,7 +304,7 @@ ne conſtet fide publica.</Unicode>
         <Unicode>PROCESSUS JUR. COMMUN. ET SAXON. ELECT.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" readingDirection="left-to-right" id="TextRegion_1671548516313_2599" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1671548516313_2599" custom="readingOrder {index:6;}" orientation="-0.21813236" readingDirection="left-to-right">
       <Coords points="901,671 2166,671 2166,2148 901,2148"/>
       <TextLine id="region0016_line0001" custom="readingOrder {index:0;}">
         <Coords points="1913,671 1909,672 1905,679 1847,680 1842,672 1828,672 1821,681 1737,681 1658,679 1654,672 1631,672 1624,679 1613,680 1529,681 1505,679 1499,671 1477,671 1467,680 1440,681 1438,671 1407,671 1375,672 1373,683 1351,684 1302,684 1297,672 1279,673 1274,684 1239,683 1232,673 1220,674 1215,683 1190,683 1156,681 1128,672 1112,672 1092,674 1069,682 902,685 902,744 942,743 945,729 1064,731 1071,739 1081,739 1090,731 1141,730 1142,737 1147,742 1168,742 1172,739 1174,730 1363,731 1431,727 1493,729 1499,737 1510,738 1519,730 1568,728 1831,729 1941,725 1946,737 1963,738 1971,735 1973,725 2108,728 2166,725 2166,682 1930,679 1926,671"/>
@@ -1453,7 +1468,7 @@ ne conſtet fide publica.</Unicode>
         </Word>
         <Word id="region0016_line0018_word0006" custom="readingOrder {index:6;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1712,1742 1712,1695 1674,1695 1674,1742 1687,1742 1691,1738 1706,1742"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.</Unicode>
           </TextEquiv>
         </Word>
@@ -1859,34 +1874,34 @@ ne conſtet fide publica.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>putatur, &amp; periculum ſubeſt, ne teſtes examinari queant an-&#13;
-te litem conteſtatam. Id. n. 15. aut ubi de præſentanea poſ-&#13;
-ſeſſione &amp; ad ſolam Judicis informationem examen inſti-&#13;
-tuitur. FARINAC. d. Teſtib. Lib. III. iit. VIII. qu. 76. n. 135. ſeq.&#13;
-Quæ tamen hactenus dicta minime de tali judice intelligen-&#13;
-da ſunt, qui nulli præeſt judicio, ſed ſolo probaturi facto re-&#13;
-quiſitus eſt, ut teſtium depoſitionem ad æternam memoriam&#13;
-recipiat, e. g. Notarius. Actus enim iſte nullus eſt, niſi in ſpe-&#13;
-cie a judice competente fuerit ad eum delegatus, cum con-&#13;
-tentioſam jurisdictionem absque requiſitione aut mandato&#13;
-ſpeciali, cum jurejurando ad acta præſtito, expedire non poſ-&#13;
-ſit. FARINAC. d. l. n. 134. conf. HAHN. ad Weſenb. L. XXII. Tit.&#13;
-IV. n. 4.p. 615. conf. Diſp. Pr. IV. adtit. 2. §.5. Cæterum cum&#13;
-hæc probatio totam probationem raro abſolvat, ſed potius&#13;
-ejus tantum partem conſtituere ſoleat. CARPZOV. L. III. Reſp.&#13;
-70. n. 17. ad certum aliquem peremtorium terminum ita&#13;
-non eſt adſtricta, quin potius, prout neceſſitas exigit, ali-&#13;
-quoties repeti poſſit. SVEND. ad Fibig. p. 541. BERG. ad h. t. obſ.1.&#13;
-not. 3. quo tamen caſu repetitionem hujus examinis ſollici-&#13;
-tans petiti neceſſitatem deducat, quæ v. g. colligitur ex eo,&#13;
-ſi in antecedenti probatione ſe plures articulos, apprime ad&#13;
-ſtatum cauſæ controvertendæ facientes, omiſiſſe, aut etiam&#13;
-novos adeſſe teſtes, demonſtret, qui accuratiorem facti no-&#13;
-titiam habeant, quam illi, quorum enunciata antea admiſſa&#13;
+        <Unicode>putatur, &amp; periculum ſubeſt, ne teſtes examinari queant an-
+te litem conteſtatam. Id. n. 15. aut ubi de præſentanea poſ-
+ſeſſione &amp; ad ſolam Judicis informationem examen inſti-
+tuitur. FARINAC. d. Teſtib. Lib. III. iit. VIII. qu. 76. n. 135. ſeq.
+Quæ tamen hactenus dicta minime de tali judice intelligen-
+da ſunt, qui nulli præeſt judicio, ſed ſolo probaturi facto re-
+quiſitus eſt, ut teſtium depoſitionem ad æternam memoriam
+recipiat, e. g. Notarius. Actus enim iſte nullus eſt, niſi in ſpe-
+cie a judice competente fuerit ad eum delegatus, cum con-
+tentioſam jurisdictionem absque requiſitione aut mandato
+ſpeciali, cum jurejurando ad acta præſtito, expedire non poſ-
+ſit. FARINAC. d. l. n. 134. conf. HAHN. ad Weſenb. L. XXII. Tit.
+IV. n. 4.p. 615. conf. Diſp. Pr. IV. adtit. 2. §.5. Cæterum cum
+hæc probatio totam probationem raro abſolvat, ſed potius
+ejus tantum partem conſtituere ſoleat. CARPZOV. L. III. Reſp.
+70. n. 17. ad certum aliquem peremtorium terminum ita
+non eſt adſtricta, quin potius, prout neceſſitas exigit, ali-
+quoties repeti poſſit. SVEND. ad Fibig. p. 541. BERG. ad h. t. obſ.1.
+not. 3. quo tamen caſu repetitionem hujus examinis ſollici-
+tans petiti neceſſitatem deducat, quæ v. g. colligitur ex eo,
+ſi in antecedenti probatione ſe plures articulos, apprime ad
+ſtatum cauſæ controvertendæ facientes, omiſiſſe, aut etiam
+novos adeſſe teſtes, demonſtret, qui accuratiorem facti no-
+titiam habeant, quam illi, quorum enunciata antea admiſſa
 fuerunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" readingDirection="left-to-right" id="TextRegion_1671548516313_2598" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1671548516313_2598" custom="readingOrder {index:7;}" orientation="-0.21813236" readingDirection="left-to-right">
       <Coords points="901,2148 2166,2148 2166,2633 901,2633"/>
       <TextLine id="region0016_line0027" custom="readingOrder {index:0;}">
         <Coords points="1779,2151 1769,2158 1767,2165 1677,2168 1650,2167 1649,2157 1644,2152 1572,2153 1552,2156 1540,2164 1504,2165 1477,2164 1473,2163 1467,2154 1446,2152 1425,2154 1418,2162 1409,2163 1304,2166 1264,2166 1259,2156 1243,2151 977,2155 967,2161 967,2193 972,2198 972,2209 977,2214 1260,2213 1264,2226 1277,2228 1289,2224 1290,2211 1442,2214 1448,2222 1457,2222 1467,2214 1511,2213 1664,2215 1693,2212 1694,2221 1698,2226 1712,2227 1722,2223 1724,2211 2166,2213 2165,2152 2128,2153 2124,2156 2122,2164 2114,2165 2047,2163 2045,2155 2041,2152 2022,2152 2012,2162 1929,2163 1925,2154 1911,2153 1904,2163 1861,2164 1857,2154 1843,2153 1835,2164 1819,2165 1795,2165 1790,2152"/>
@@ -2298,7 +2313,7 @@ fuerunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0016_line0034" custom="readingOrder {index:7;}">
-        <Coords points="2141,2569 2135,2573 2124,2574 2090,2574 2085,2570 2076,2570 2027,2581 1894,2581 1878,2579 1870,2573 1857,2571 1787,2571 1775,2576 1767,2570 1751,2569 1741,2573 1741,2584 1608,2583 1606,2575 1595,2575 1585,2579 1569,2571 1555,2577 1546,2577 1537,2571 1521,2571 1511,2575 1490,2571 1478,2577 1465,2577 1450,2572 1410,2573 1379,2584 1275,2584 1271,2572 1217,2571 1203,2572 1197,2576 1195,2582 1188,2582 1167,2573 1132,2576 1126,2578 1119,2587 1054,2586 1052,2579 1046,2575 1034,2577 1030,2585 938,2582 933,2571 918,2571 911,2582 902,2582 902,2630 946,2630 949,2642 972,2644 981,2633 1103,2634 1106,2642 1117,2643 1130,2634 1168,2631 1750,2631 1776,2637 1805,2638 1885,2637 1966,2628 2091,2632 2121,2625 2132,2626 2144,2621 2155,2621 2162,2628 2166,2628 2166,2572"/>
+        <Coords points="2135,2573 2124,2574 2090,2574 2085,2570 2076,2570 2027,2581 1894,2581 1878,2579 1870,2573 1857,2571 1787,2571 1775,2576 1767,2570 1751,2569 1741,2573 1741,2584 1608,2583 1606,2575 1595,2575 1585,2579 1569,2571 1555,2577 1546,2577 1537,2571 1521,2571 1511,2575 1490,2571 1478,2577 1465,2577 1450,2572 1410,2573 1379,2584 1275,2584 1271,2572 1217,2571 1203,2572 1197,2576 1195,2582 1188,2582 1167,2573 1132,2576 1126,2578 1119,2587 1054,2586 1052,2579 1046,2575 1034,2577 1030,2585 938,2582 933,2571 918,2571 911,2582 902,2582 902,2630 946,2630 946,2633 981,2633 1142,2633 1168,2631 1750,2631 1758,2633 1921,2633 1966,2628 2091,2632 2121,2625 2132,2626 2144,2621 2155,2621 2162,2628 2166,2628 2166,2572 2141,2569"/>
         <Baseline points="902,2620 1578,2620 1822,2628 2166,2617"/>
         <Word id="region0016_line0034_word0000" custom="readingOrder {index:0;}">
           <Coords points="915,2575 911,2582 909,2582 909,2630 946,2630 946,2632 1125,2633 1125,2579 1119,2587 1054,2586 1052,2579 1046,2575 1042,2575 1034,2577 1030,2585 938,2582 934,2575"/>
@@ -2368,7 +2383,7 @@ fuerunt.</Unicode>
         </Word>
         <Word id="region0016_line0034_word0011" custom="readingOrder {index:11;}">
           <Coords points="2155,2583 2075,2583 2075,2629 2103,2629 2121,2625 2132,2626 2144,2621 2155,2621"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>das</Unicode>
           </TextEquiv>
         </Word>
@@ -2377,20 +2392,20 @@ fuerunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>XIIX. Reliquum eſt, ut effectus probationis noſtræ ad&#13;
-perpetuam rei memoriam ſuſceptæ aſpiciamus, quorum&#13;
-præcipuus collocatur in eo, quod de depoſitione teſtium fi-&#13;
-de publica conſtat, ex illo nimirum tempore, quo conſum-&#13;
-mata fuit. Eam vero ut eo melius adipiſcatur, Rotulus At-&#13;
-teſtationum conſignatur ordine ſingularum reſponſionum&#13;
-obſervato, vid. R. I. d. A. 1654. §. 32. &amp; in judicio obſignatus&#13;
+        <Unicode>XIIX. Reliquum eſt, ut effectus probationis noſtræ ad
+perpetuam rei memoriam ſuſceptæ aſpiciamus, quorum
+præcipuus collocatur in eo, quod de depoſitione teſtium fi-
+de publica conſtat, ex illo nimirum tempore, quo conſum-
+mata fuit. Eam vero ut eo melius adipiſcatur, Rotulus At-
+teſtationum conſignatur ordine ſingularum reſponſionum
+obſervato, vid. R. I. d. A. 1654. §. 32. &amp; in judicio obſignatus
 deponitur, &amp; aſſervatur. O. P. S. h. t. verb. Wann nun das</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21813236" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671548499087_2592" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671548499087_2592" custom="readingOrder {index:8;} structure {type:catch-word;}" orientation="-0.21813236" type="catch-word" readingDirection="left-to-right">
       <Coords points="901,2633 2166,2633 2166,2699 901,2699"/>
       <TextLine id="region0016_line0035" custom="readingOrder {index:0;}">
-        <Coords points="2144,2622 2132,2627 2108,2629 2103,2635 2040,2637 2000,2629 1966,2629 1905,2636 1893,2643 1892,2685 1897,2690 1905,2691 2019,2695 2022,2698 2044,2699 2047,2696 2093,2691 2110,2691 2117,2698 2128,2698 2136,2690 2165,2688 2166,2637 2149,2636 2159,2632 2161,2628 2155,2622"/>
+        <Coords points="2103,2635 2040,2637 2020,2633 1931,2633 1905,2636 1893,2643 1892,2685 1897,2690 1905,2691 2019,2695 2022,2698 2044,2699 2047,2696 2093,2691 2110,2691 2117,2698 2128,2698 2136,2690 2165,2688 2166,2637 2149,2636 2156,2633 2104,2633"/>
         <Baseline points="1892,2681 2165,2680"/>
         <Word id="region0016_line0035_word0000" custom="readingOrder {index:0;}">
           <Coords points="2157,2629 2110,2628 2108,2629 2103,2635 2040,2637 2000,2629 1966,2629 1955,2630 1955,2692 2019,2695 2022,2698 2044,2699 2047,2696 2093,2691 2110,2691 2117,2698 2128,2698 2136,2690 2156,2688 2156,2636 2149,2636 2156,2632"/>

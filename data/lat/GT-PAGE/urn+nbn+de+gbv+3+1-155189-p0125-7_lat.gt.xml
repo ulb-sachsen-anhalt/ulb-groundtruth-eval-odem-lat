@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-48">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:25Z</Created>
     <LastChange>2024-01-19T13:07:25Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-155189-p0125-7_lat.jpg" imageWidth="2010" imageHeight="2901" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a45b18c7-54a9-4f0a-be15-cb2b5a9a3e49/00000125.jpg" imageWidth="2010" imageHeight="2901" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="104,188 139,2799 1795,2795 1731,182"/>
     </Border>
@@ -23,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="region_1682412520741_259"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="header" id="region_1682412466045_199" custom="readingOrder {index:0;} structure {type:header;}">
+    <TextRegion id="region_1682412466045_199" custom="readingOrder {index:0;} structure {type:header;}" type="header">
       <Coords points="609,404 609,436 922,436 922,404"/>
       <TextLine id="line_1682412466153_202" custom="readingOrder {index:0;}">
         <Coords points="609,404 609,436 922,436 922,404"/>
@@ -41,7 +56,7 @@
         <Unicode>NVTRIENTIA.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="page-number" id="region_1682412469597_208" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682412469597_208" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1186,391 1186,439 1261,439 1261,391"/>
       <TextLine id="line_1682412469686_211" custom="readingOrder {index:0;}">
         <Coords points="1186,391 1186,439 1261,439 1261,391"/>
@@ -59,7 +74,7 @@
         <Unicode>105</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1766735" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;}" orientation="1.1766735" readingDirection="left-to-right">
       <Coords points="232,465 1267,465 1267,617 232,617"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="363,472 352,487 233,491 232,529 382,527 384,537 390,541 406,539 410,527 462,529 474,534 483,534 489,530 527,527 644,524 809,520 1088,520 1267,514 1266,470 1195,475 1187,465 1159,465 1155,476 1144,477 1042,479 1039,469 1033,466 1021,467 1015,473 999,466 988,466 982,471 980,482 976,480 976,471 970,465 955,466 946,479 895,481 789,480 785,471 776,466 766,467 762,474 757,470 746,470 737,480 733,466 688,466 683,470 681,480 666,481 662,470 648,469 643,474 641,483 630,483 626,472 612,470 607,475 606,483 584,485 579,475 567,474 559,485 547,486 541,475 528,474 521,478 519,487 466,486 461,477 452,476 446,472 435,472 428,477 414,474 408,478 405,485 384,486 380,474"/>
@@ -166,11 +181,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>cum ſapidis, ab indole fluidorum et ſolidorum diuer-&#13;
+        <Unicode>cum ſapidis, ab indole fluidorum et ſolidorum diuer-
 ſis plane, particulis plus minus arcte cohaerent.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1766735" type="heading" readingDirection="left-to-right" id="TextRegion_1663329740841_1250" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1663329740841_1250" custom="readingOrder {index:3;} structure {type:heading;}" orientation="1.1766735" type="heading" readingDirection="left-to-right">
       <Coords points="261,615 1287,615 1290,685 258,685"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="642,615 637,620 625,623 622,627 622,653 630,658 631,674 636,679 705,677 711,667 763,666 784,671 795,671 827,663 896,662 901,657 897,625 891,619 881,620 876,632 860,633 859,622 854,617 744,620 743,615"/>
@@ -195,10 +210,10 @@
         <Unicode>§. 151.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1766735" readingDirection="left-to-right" id="TextRegion_1663329740841_1249" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1663329740841_1249" custom="readingOrder {index:4;}" orientation="1.1766735" readingDirection="left-to-right">
       <Coords points="258,685 1290,685 1309,1115 1309,1196 1297,1688 240,1688 240,1182"/>
       <TextLine id="region0002_line0002" custom="readingOrder {index:0;}">
-        <Coords points="291,688 286,694 287,719 294,725 294,738 299,743 453,747 659,742 661,751 666,755 681,753 685,750 687,741 701,740 737,740 749,743 755,748 800,741 802,749 806,752 825,750 829,745 830,736 877,736 881,738 881,746 886,751 935,749 941,739 956,737 1286,733 1287,716 1286,690 1185,695 1184,687 1178,681 1164,681 1151,695 1087,696 1084,694 1083,684 1078,680 1064,681 1058,684 1051,695 1014,695 1007,686 995,686 989,692 968,694 966,687 961,683 947,684 942,695 535,701 508,705 496,704 494,696 489,692 479,693 473,697 471,705 463,705 400,703 398,691 389,687"/>
+        <Coords points="286,694 287,719 294,725 294,738 299,743 453,747 659,742 661,751 666,755 681,753 685,750 687,741 701,740 737,740 749,743 755,748 800,741 802,749 806,752 825,750 829,745 830,736 877,736 881,738 881,746 886,751 935,749 941,739 956,737 1286,733 1287,716 1286,690 1185,695 1184,687 1182,685 1160,685 1151,695 1087,696 1084,694 1083,685 1057,685 1051,695 1014,695 1007,686 995,686 989,692 968,694 966,687 963,685 946,685 942,695 535,701 508,705 496,704 494,696 489,692 479,693 473,697 471,705 463,705 400,703 398,691 389,687 291,688"/>
         <Baseline points="294,733 463,737 1287,723"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="342,694 343,732 433,730 432,704 400,703 398,693"/>
@@ -728,7 +743,7 @@
         </Word>
         <Word id="region0004_line0003_word0003" custom="readingOrder {index:3;}">
           <Coords points="575,1305 573,1307 572,1308 573,1356 705,1353 704,1317 654,1317 647,1315 640,1308 625,1309 621,1318 602,1320 601,1310 597,1305"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſanitate</Unicode>
           </TextEquiv>
         </Word>
@@ -930,7 +945,7 @@
         </Word>
         <Word id="region0004_line0007_word0001" custom="readingOrder {index:1;}">
           <Coords points="369,1611 663,1605 663,1567 648,1567 645,1571 543,1573 519,1570 385,1574 369,1573"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>commutantur.</Unicode>
           </TextEquiv>
         </Word>
@@ -1018,25 +1033,25 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Plura dantur corpora, quae gelatinoſam fouent&#13;
-ſubſtantiam, quaeque ideo nutrire poterunt, niſi ipſa&#13;
-natura animalis obſtet, aut particulae non gelatinoſae,&#13;
-ſimul admixtae, appoſitionem impediant. Licet enim&#13;
-omnis gelatina conglutinantem vim habeat, alia tamen&#13;
-citius alia tardius vel nunquam hancce facultatem amit-&#13;
-tit, prout diuerſa virium digerentium natura ſe habet.&#13;
-Quare alia gelatina animal quoddam nutrit, quod ab&#13;
-alia, aliud animal nutriente, nutrimentum non acci-&#13;
-pit. Immo eadem ſaepe gelatina, quae animal in ſa-&#13;
-no ſtatu nutrit, ſanitate labefactata vel non nutrit, vel&#13;
-etiam adeo nocet. Praeterea quoque ipſa gelatina-&#13;
-rum mixtio differt, et aliae, dum tenacitatem amit-&#13;
-tunt, in alcaleſcentem ſubſtantiam, aliae in aceſcen-&#13;
-tem commutantur. Ad hanc inclinant gelatinae ve-&#13;
+        <Unicode>Plura dantur corpora, quae gelatinoſam fouent
+ſubſtantiam, quaeque ideo nutrire poterunt, niſi ipſa
+natura animalis obſtet, aut particulae non gelatinoſae,
+ſimul admixtae, appoſitionem impediant. Licet enim
+omnis gelatina conglutinantem vim habeat, alia tamen
+citius alia tardius vel nunquam hancce facultatem amit-
+tit, prout diuerſa virium digerentium natura ſe habet.
+Quare alia gelatina animal quoddam nutrit, quod ab
+alia, aliud animal nutriente, nutrimentum non acci-
+pit. Immo eadem ſaepe gelatina, quae animal in ſa-
+no ſtatu nutrit, ſanitate labefactata vel non nutrit, vel
+etiam adeo nocet. Praeterea quoque ipſa gelatina-
+rum mixtio differt, et aliae, dum tenacitatem amit-
+tunt, in alcaleſcentem ſubſtantiam, aliae in aceſcen-
+tem commutantur. Ad hanc inclinant gelatinae ve-
 getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1766735" type="heading" readingDirection="left-to-right" id="TextRegion_1663329728173_1241" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1663329728173_1241" custom="readingOrder {index:5;} structure {type:heading;}" orientation="1.1766735" type="heading" readingDirection="left-to-right">
       <Coords points="282,1694 1311,1694 1311,1763 265,1763"/>
       <TextLine id="line_1663329728210_1244" custom="readingOrder {index:0;}">
         <Coords points="638,1700 684,1695 765,1694 767,1705 901,1704 907,1709 907,1737 897,1747 849,1749 813,1756 717,1747 717,1763 697,1763 695,1756 685,1746 653,1742 647,1736 641,1736 636,1731 635,1704"/>
@@ -1061,7 +1076,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
         <Unicode>§. 152.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.1766735" readingDirection="left-to-right" id="TextRegion_1663329728173_1240" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1663329728173_1240" custom="readingOrder {index:6;}" orientation="1.1766735" readingDirection="left-to-right">
       <Coords points="265,1763 1311,1763 1311,2272 1272,2337 291,2337 275,1978 275,1950"/>
       <TextLine id="region0005_line0002" custom="readingOrder {index:0;}">
         <Coords points="606,1766 587,1776 578,1768 568,1768 562,1773 560,1781 539,1780 422,1786 387,1787 386,1780 381,1775 300,1776 295,1781 295,1808 301,1813 301,1828 306,1833 473,1826 485,1828 493,1839 503,1839 515,1838 525,1828 572,1823 636,1824 647,1829 677,1824 683,1834 701,1828 703,1821 1066,1822 1072,1823 1075,1829 1082,1831 1096,1830 1101,1827 1102,1822 1185,1820 1187,1826 1194,1831 1209,1829 1214,1819 1230,1817 1311,1818 1311,1777 1199,1778 1190,1769 1180,1770 1172,1779 1165,1780 1038,1781 1028,1773 1018,1773 1011,1781 931,1781 919,1778 876,1781 871,1780 862,1771 851,1771 844,1779 637,1781 627,1770"/>
@@ -1305,7 +1320,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330129932_1386" custom="readingOrder {index:5;}">
-          <Coords points="1015,2027 1093,2017 1171,2017 1255,2025 1256,2057 1250,2064 1198,2065 1016,2062"/>
+          <Coords points="1094,2017 1087,2028 1015,2027 1016,2062 1126,2063 1132,2060 1135,2063 1198,2065 1250,2064 1256,2057 1255,2025 1178,2026 1171,2017 1160,2018 1155,2026 1124,2027 1122,2019 1118,2017"/>
           <TextEquiv>
             <Unicode>mucilagineae</Unicode>
           </TextEquiv>
@@ -1370,7 +1385,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0008" custom="readingOrder {index:6;}">
-        <Coords points="372,2150 363,2157 361,2163 348,2164 343,2156 329,2154 325,2157 323,2165 283,2167 283,2207 466,2200 468,2207 473,2211 484,2210 489,2200 552,2200 675,2206 850,2198 857,2210 887,2211 915,2207 930,2197 947,2194 996,2193 1036,2201 1040,2198 1071,2196 1081,2199 1093,2195 1227,2193 1307,2189 1307,2162 1231,2155 1015,2153 1006,2152 1000,2144 986,2141 974,2142 971,2154 960,2153 952,2143 942,2144 936,2154 830,2158 820,2157 812,2146 799,2146 792,2156 769,2154 723,2157 717,2161 638,2164 612,2163 603,2153 592,2153 584,2162 510,2160 507,2153 499,2149 485,2150 477,2160 444,2160 436,2155 427,2155 422,2160 388,2162 384,2151"/>
+        <Coords points="363,2157 361,2163 348,2164 343,2156 329,2154 325,2157 323,2165 283,2166 285,2206 466,2200 468,2207 473,2211 484,2210 489,2200 552,2200 675,2206 850,2198 857,2210 887,2211 915,2207 930,2197 947,2194 996,2193 1036,2201 1040,2198 1071,2196 1081,2199 1093,2195 1227,2193 1307,2189 1307,2162 1231,2155 1015,2153 1006,2152 1000,2144 986,2141 974,2142 971,2154 960,2153 952,2143 942,2144 936,2154 830,2158 820,2157 812,2146 799,2146 792,2156 769,2154 723,2157 717,2161 638,2164 612,2163 603,2153 592,2153 584,2162 510,2160 507,2153 499,2149 485,2150 477,2160 444,2160 436,2155 427,2155 422,2160 388,2162 384,2151 372,2150"/>
         <Baseline points="283,2196 526,2189 683,2196 861,2188 885,2197 940,2185 1236,2183"/>
         <Word id="region0005_line0008_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="292,2196 339,2195 339,2159 324,2159 323,2165 292,2166"/>
@@ -1397,7 +1412,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663331005969_1445" custom="readingOrder {index:4;}">
-          <Coords points="829,2158 942,2144 977,2141 986,2141 1000,2144 1035,2153 1037,2193 830,2195"/>
+          <Coords points="829,2158 830,2195 959,2194 996,2193 998,2193 1037,2193 1035,2153 1015,2153 1006,2152 1000,2144 986,2141 974,2142 971,2154 960,2153 952,2143 942,2144 936,2154 830,2158 829,2158"/>
           <TextEquiv>
             <Unicode>vegetabilia,</Unicode>
           </TextEquiv>
@@ -1409,7 +1424,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663331321787_1500" custom="readingOrder {index:6;}">
-          <Coords points="1178,2162 1310,2162 1310,2185 1178,2185"/>
+          <Coords points="1178,2162 1178,2185 1307,2185 1307,2162"/>
           <TextEquiv>
             <Unicode>praeter</Unicode>
           </TextEquiv>
@@ -1419,7 +1434,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0005_line0009" custom="readingOrder {index:7;}">
-        <Coords points="540,2201 535,2205 535,2216 540,2223 454,2224 443,2216 434,2216 422,2225 410,2225 405,2225 403,2219 397,2215 283,2215 282,2272 331,2269 362,2258 372,2266 401,2267 516,2260 525,2263 529,2272 544,2272 550,2261 559,2263 653,2268 1001,2255 1070,2256 1112,2254 1304,2251 1303,2222 1111,2215 1103,2222 1103,2212 1098,2207 1088,2209 1082,2222 1037,2217 1032,2209 1023,2208 1018,2203 1005,2204 1001,2216 856,2219 850,2211 838,2211 832,2221 812,2219 808,2222 699,2227 697,2216 683,2209 673,2210 665,2224 628,2225 627,2216 622,2211 612,2212 601,2223 580,2223 578,2214 569,2210 565,2203"/>
+        <Coords points="535,2205 535,2216 540,2223 454,2224 443,2216 434,2216 422,2225 410,2225 405,2225 403,2219 397,2215 285,2215 288,2271 331,2269 362,2258 372,2266 401,2267 516,2260 525,2263 529,2272 544,2272 550,2261 559,2263 653,2268 1001,2255 1070,2256 1112,2254 1304,2251 1303,2222 1111,2215 1103,2222 1103,2212 1098,2207 1088,2209 1082,2222 1037,2217 1032,2209 1023,2208 1018,2203 1005,2204 1001,2216 856,2219 850,2211 838,2211 832,2221 812,2219 808,2222 699,2227 697,2216 683,2209 673,2210 665,2224 628,2225 627,2216 622,2211 612,2212 601,2223 580,2223 578,2214 569,2210 565,2203 540,2201"/>
         <Baseline points="282,2261 369,2250 399,2256 547,2248 692,2258 1117,2245"/>
         <Word id="region0005_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="292,2221 293,2259 500,2255 499,2228 452,2229 441,2221 432,2221 420,2230 408,2230 403,2230 401,2224 395,2220 343,2220"/>
@@ -1428,7 +1443,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330985154_1436" custom="readingOrder {index:1;}">
-          <Coords points="552,2214 683,2209 737,2225 737,2254 570,2257 521,2255 520,2223 535,2205"/>
+          <Coords points="552,2214 535,2205 535,2216 540,2223 520,2223 521,2255 570,2257 737,2254 737,2225 699,2227 697,2216 683,2209 673,2210 665,2224 628,2225 627,2216 622,2211 616,2211 612,2212 601,2223 580,2223 578,2214 575,2213"/>
           <TextEquiv>
             <Unicode>gelatinoſam</Unicode>
           </TextEquiv>
@@ -1446,13 +1461,13 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330969863_1426" custom="readingOrder {index:4;}">
-          <Coords points="1088,2209 1219,2217 1219,2254 1079,2249 1079,2221 1082,2222"/>
+          <Coords points="1088,2209 1082,2222 1079,2221 1079,2249 1186,2252 1219,2252 1219,2218 1111,2215 1103,2222 1103,2212 1100,2209"/>
           <TextEquiv>
             <Unicode>ſapidas</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330975986_1430" custom="readingOrder {index:5;}">
-          <Coords points="1234,2224 1312,2224 1312,2247 1234,2247"/>
+          <Coords points="1234,2224 1234,2247 1303,2247 1303,2224"/>
           <TextEquiv>
             <Unicode>non</Unicode>
           </TextEquiv>
@@ -1462,7 +1477,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0002" custom="readingOrder {index:8;}">
-        <Coords points="544,2273 538,2277 536,2286 530,2286 517,2278 508,2281 481,2299 472,2295 454,2296 433,2291 393,2293 386,2284 373,2285 369,2293 294,2294 294,2334 328,2334 336,2344 350,2343 354,2334 471,2327 591,2327 676,2331 833,2325 846,2331 874,2336 903,2335 907,2332 909,2323 983,2321 984,2332 989,2337 1045,2336 1054,2322 1165,2324 1307,2314 1310,2276 1172,2271 1114,2288 1109,2272 1096,2277 1052,2277 1045,2284 1034,2285 1031,2294 1027,2295 1026,2285 1021,2280 832,2282 806,2286 756,2288 751,2287 750,2279 744,2274 726,2276 719,2287 696,2288 695,2276 690,2271 681,2271 677,2274 674,2288 666,2287 659,2277 650,2278 642,2286 610,2287 595,2287 593,2280 582,2273 572,2274 559,2286 554,2274"/>
+        <Coords points="538,2277 536,2286 530,2286 517,2278 508,2281 481,2299 472,2295 454,2296 433,2291 393,2293 386,2284 373,2285 369,2293 294,2294 294,2334 328,2334 330,2337 352,2337 354,2334 471,2327 591,2327 676,2331 833,2325 846,2331 874,2336 903,2335 907,2332 909,2323 983,2321 984,2332 989,2337 1045,2336 1054,2322 1165,2324 1284,2315 1308,2275 1172,2271 1114,2288 1109,2272 1096,2277 1052,2277 1045,2284 1034,2285 1031,2294 1027,2295 1026,2285 1021,2280 832,2282 806,2286 756,2288 751,2287 750,2279 744,2274 726,2276 719,2287 696,2288 695,2276 690,2271 681,2271 677,2274 674,2288 666,2287 659,2277 650,2278 642,2286 610,2287 595,2287 593,2280 582,2273 572,2274 559,2286 554,2274 544,2273"/>
         <Baseline points="294,2324 826,2315 964,2321 983,2322 1051,2325"/>
         <Word id="region0007_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="385,2284 373,2285 369,2293 298,2294 299,2328 479,2324 478,2298 472,2295 454,2296 433,2291 393,2293 386,2284"/>
@@ -1471,7 +1486,7 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="540,2275 538,2277 536,2286 530,2286 529,2276 505,2280 501,2297 502,2318 692,2315 692,2273 691,2272 679,2272 677,2274 674,2288 666,2287 659,2277 650,2278 642,2286 610,2287 595,2287 593,2280 584,2274 571,2274 559,2286 554,2274"/>
+          <Coords points="536,2286 530,2286 517,2278 508,2281 504,2283 501,2297 502,2318 692,2315 692,2273 691,2272 679,2272 677,2274 674,2288 666,2287 659,2277 650,2278 642,2286 610,2287 595,2287 593,2280 583,2274 572,2274 559,2286 554,2274 541,2274 538,2277"/>
           <TextEquiv>
             <Unicode>ſubſtantias</Unicode>
           </TextEquiv>
@@ -1483,19 +1498,19 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330943537_1417" custom="readingOrder {index:3;}">
-          <Coords points="891,2281 1021,2280 1026,2285 1027,2295 1031,2294 1034,2285 1045,2284 1065,2273 1076,2273 1076,2316 892,2319"/>
+          <Coords points="1021,2280 891,2281 892,2319 1076,2316 1076,2277 1057,2277 1045,2284 1034,2285 1031,2294 1027,2295 1026,2285"/>
           <TextEquiv>
             <Unicode>praecipua</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330943537_1416" custom="readingOrder {index:4;}">
-          <Coords points="1076,2273 1109,2273 1104,2289 1114,2288 1161,2289 1162,2316 1076,2316"/>
+          <Coords points="1104,2289 1109,2273 1106,2273 1096,2277 1076,2277 1076,2316 1162,2316 1161,2289 1114,2288"/>
           <TextEquiv>
             <Unicode>ſunt</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663330950441_1421" custom="readingOrder {index:5;}">
-          <Coords points="1176,2270 1314,2270 1314,2309 1176,2309"/>
+          <Coords points="1176,2309 1307,2309 1310,2276 1176,2271"/>
           <TextEquiv>
             <Unicode>fructus</Unicode>
           </TextEquiv>
@@ -1505,18 +1520,18 @@ getabilium, ad illam vero animalium gelatinae vergunt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Inter vegetabilia, quae nutrientem vim praecipuam&#13;
-habent, ſemina cerealia 1) Secale; 2) Triticum; 3)&#13;
-Hordeum; 4) Auena; 5) Fagopyrum; 6) Oryza;&#13;
-tum etiam legumina 7) Piſa; 8) Lentes; 9) Milia;&#13;
-10) Fabae; porro radices nonnullae mucilagineae et&#13;
-farinaceae, 11) Radix Scorzonerae; 12) Radix Cicho-&#13;
-rei hortenſis eminent. Ad vegetabilia, quae praeter&#13;
-non ſubſtantiam gelatinoſam nutrientem alias ſapidas&#13;
+        <Unicode>Inter vegetabilia, quae nutrientem vim praecipuam
+habent, ſemina cerealia 1) Secale; 2) Triticum; 3)
+Hordeum; 4) Auena; 5) Fagopyrum; 6) Oryza;
+tum etiam legumina 7) Piſa; 8) Lentes; 9) Milia;
+10) Fabae; porro radices nonnullae mucilagineae et
+farinaceae, 11) Radix Scorzonerae; 12) Radix Cicho-
+rei hortenſis eminent. Ad vegetabilia, quae praeter
+non ſubſtantiam gelatinoſam nutrientem alias ſapidas
 fructus nutrientes ſubſtantias fouent, praecipua ſunt</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="signature-mark" id="region_1682412517014_250" custom="readingOrder {index:7;} structure {type:signature-mark;}">
+    <TextRegion id="region_1682412517014_250" custom="readingOrder {index:7;} structure {type:signature-mark;}" type="signature-mark">
       <Coords points="776,2350 776,2393 866,2393 866,2350"/>
       <TextLine id="line_1682412517239_253" custom="readingOrder {index:0;}">
         <Coords points="776,2350 776,2393 866,2393 866,2350"/>
@@ -1540,7 +1555,7 @@ fructus nutrientes ſubſtantias fouent, praecipua ſunt</Unicode>
         <Unicode>G 5</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682412520741_259" custom="readingOrder {index:8;} structure {type:catch-word;}">
+    <TextRegion id="region_1682412520741_259" custom="readingOrder {index:8;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1190,2344 1190,2380 1317,2380 1317,2344"/>
       <TextLine id="line_1682412520811_262" custom="readingOrder {index:0;}">
         <Coords points="1190,2344 1190,2380 1317,2380 1317,2344"/>

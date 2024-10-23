@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-143">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:15Z</Created>
     <LastChange>2024-01-19T13:08:15Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-339264-p0062-9_lat.png" imageWidth="3038" imageHeight="3921" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a48bf369-3af9-412a-9708-b81d55578ff1/00000062.jpg" imageWidth="3038" imageHeight="3921" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="184,293 178,3826 2900,3780 2895,295"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1662041922356_846"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.21926132" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:0;}">
+    <TextRegion id="region0005" custom="readingOrder {index:0;}" orientation="-0.21926132" readingDirection="left-to-right">
       <Coords points="950,622 2653,622 2653,1668 950,1668"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="994,623 989,627 987,636 951,636 951,680 1172,683 1331,689 1590,688 1657,692 1822,695 2185,697 2433,703 2543,702 2553,703 2555,714 2563,717 2573,717 2586,702 2653,701 2653,637 2649,634 2638,634 2634,637 2635,653 2495,652 2493,642 2487,638 2474,639 2467,652 2431,652 2425,639 2413,638 2402,644 2400,653 2389,653 2343,652 2341,643 2336,639 2315,641 2311,652 2162,648 2155,636 2140,637 2135,649 2051,649 2046,636 2031,635 2021,641 2019,649 1995,648 1887,644 1750,644 1745,642 1745,637 1739,630 1728,627 1717,628 1713,633 1713,639 1707,641 1653,641 1412,639 1410,631 1403,626 1391,627 1384,639 1090,632 1086,623 1041,623 1033,634 1014,635 1008,624"/>
@@ -1120,26 +1135,26 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>eiuſdem communis cum retentione tamen denariorum duodecim pro&#13;
-libra nomine diricturæ. Debet etiam habere præfatus executor habi-&#13;
-tationem convenientem, atque decentem, &amp; domum, ſeu palatium,&#13;
-vacuum, liberum, &amp; expeditum pro ſe, &amp; ſua familia dictis ſex&#13;
-menſibus dumtaxat. De quo ſalario præfatus D. Executor offerre&#13;
-debet in Eccleſia S. Ioannis Baptiſtæ in feſto nativitatis D. N. I.&#13;
-Criſti, vel Beati Ioannis Baptiſtæ, ſecundum quod tempore ſui regi-&#13;
-minis occurrerit, palium unum de ſirico valoris ad minus libr. 15.&#13;
-Ac etiam pro honore ſuo dare, &amp; gratuito largiri ioculatori Domi-&#13;
-norum PP. &amp; Vexilliferi iuſtitiæ, &amp; curiali eorum curiæ unam ro-&#13;
-bam de ſuis honorabilem, valoris ad minus floren. 12. auri infra&#13;
-tres menſes poſt introitum ſui officii. Teneatur etiam idem execu-&#13;
-tor ſingulis ſex menſibus ſolvere campanariis palatii Dom. Poteſtatis&#13;
-florenos duos auri, notario extractionum præfati communis iuxta&#13;
-morem conſuetum flor. 15. auri, notario reformationum flor. 5. quos&#13;
-denarios retinere debet capſerius cameræ dicti communis de eius pri-&#13;
+        <Unicode>eiuſdem communis cum retentione tamen denariorum duodecim pro
+libra nomine diricturæ. Debet etiam habere præfatus executor habi-
+tationem convenientem, atque decentem, &amp; domum, ſeu palatium,
+vacuum, liberum, &amp; expeditum pro ſe, &amp; ſua familia dictis ſex
+menſibus dumtaxat. De quo ſalario præfatus D. Executor offerre
+debet in Eccleſia S. Ioannis Baptiſtæ in feſto nativitatis D. N. I.
+Criſti, vel Beati Ioannis Baptiſtæ, ſecundum quod tempore ſui regi-
+minis occurrerit, palium unum de ſirico valoris ad minus libr. 15.
+Ac etiam pro honore ſuo dare, &amp; gratuito largiri ioculatori Domi-
+norum PP. &amp; Vexilliferi iuſtitiæ, &amp; curiali eorum curiæ unam ro-
+bam de ſuis honorabilem, valoris ad minus floren. 12. auri infra
+tres menſes poſt introitum ſui officii. Teneatur etiam idem execu-
+tor ſingulis ſex menſibus ſolvere campanariis palatii Dom. Poteſtatis
+florenos duos auri, notario extractionum præfati communis iuxta
+morem conſuetum flor. 15. auri, notario reformationum flor. 5. quos
+denarios retinere debet capſerius cameræ dicti communis de eius pri-
 ma paga ſolvendos dictis notariis.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21926132" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.21926132" type="heading" readingDirection="left-to-right">
       <Coords points="1159,1719 2424,1719 2424,1839 1159,1839"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="2048,1720 2044,1734 1913,1731 1910,1720 1878,1720 1877,1733 1831,1733 1826,1720 1796,1720 1787,1727 1785,1733 1599,1731 1591,1730 1587,1720 1520,1720 1510,1730 1437,1731 1432,1719 1412,1719 1406,1727 1397,1727 1392,1731 1364,1731 1357,1728 1355,1720 1298,1720 1290,1732 1247,1729 1241,1719 1159,1719 1159,1780 1291,1782 1299,1793 1313,1793 1326,1782 1510,1779 1521,1785 1532,1785 1544,1784 1546,1780 1772,1779 1778,1775 1786,1777 1788,1787 1801,1780 1953,1778 1963,1779 1964,1787 1973,1792 1994,1791 1999,1787 2001,1779 2088,1784 2256,1784 2257,1795 2261,1800 2281,1805 2361,1804 2373,1801 2377,1789 2423,1786 2423,1738 2368,1738 2356,1733 2346,1733 2341,1738 2316,1738 2313,1727 2308,1723 2291,1722 2278,1737 2196,1736 2146,1732 2110,1734 2108,1725 2100,1720"/>
@@ -1215,16 +1230,16 @@ ma paga ſolvendos dictis notariis.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>De viſitatione ſtincarum fienda quolibet menſe per&#13;
+        <Unicode>De viſitatione ſtincarum fienda quolibet menſe per
 Iudicem D. Executoris.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21926132" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.21926132" type="heading" readingDirection="left-to-right">
       <Coords points="1455,1902 2139,1902 2139,1962 1455,1962"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="1946,1902 1914,1906 1897,1906 1893,1903 1724,1905 1704,1905 1698,1902 1455,1902 1455,1959 2138,1962 2138,1903"/>
         <Word id="word_1662042346330_934" custom="readingOrder {index:0;}">
-          <Coords points="1459,1901 1833,1901 1910,1931 1910,1960 1799,1960 1761,1960 1461,1959"/>
+          <Coords points="1461,1959 1761,1960 1799,1960 1910,1960 1910,1931 1839,1903 1724,1905 1704,1905 1698,1902 1459,1902"/>
           <TextEquiv>
             <Unicode>RUBRICA</Unicode>
           </TextEquiv>
@@ -1243,7 +1258,7 @@ Iudicem D. Executoris.</Unicode>
         <Unicode>RUBRICA XXIV.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21926132" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1662041925542_857" custom="readingOrder {index:3;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1662041925542_857" custom="readingOrder {index:3;} structure {type:drop-capital;}" orientation="-0.21926132" type="drop-capital" readingDirection="left-to-right">
       <Coords points="945,2023 1091,2023 1091,2156 945,2156"/>
       <TextLine id="line_1662041939144_877" custom="readingOrder {index:0;}">
         <Coords points="957,2024 1091,2023 1091,2086 1091,2097 1091,2144 1086,2145 960,2145 949,2135 953,2029"/>
@@ -1262,7 +1277,7 @@ Iudicem D. Executoris.</Unicode>
         <Unicode>M</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21926132" readingDirection="left-to-right" id="TextRegion_1662041925542_856" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1662041925542_856" custom="readingOrder {index:4;}" orientation="-0.21926132" readingDirection="left-to-right">
       <Coords points="1091,2023 2644,2023 2644,2156 1091,2156"/>
       <TextLine id="line_1662041925612_863" custom="readingOrder {index:0;}">
         <Coords points="1091,2023 1189,2023 1194,2029 1195,2036 1308,2036 1310,2029 1318,2024 1360,2024 1365,2028 1367,2036 1425,2035 1427,2025 1431,2023 1502,2024 1508,2030 1509,2038 1594,2039 1595,2029 1600,2024 1665,2024 1668,2028 1668,2040 1675,2041 1730,2041 1731,2032 1736,2027 1757,2027 1762,2031 1764,2040 1788,2040 1793,2028 1811,2027 1818,2032 1821,2041 1844,2041 1844,2031 1850,2025 1872,2026 1876,2031 1877,2040 1909,2040 1910,2029 1916,2023 2098,2024 2103,2029 2104,2039 2247,2039 2251,2025 2264,2025 2276,2032 2278,2041 2370,2042 2371,2033 2376,2028 2408,2028 2418,2035 2420,2044 2426,2045 2559,2046 2565,2041 2573,2041 2581,2046 2613,2046 2643,2050 2644,2092 2548,2098 2304,2090 2111,2089 2094,2092 1964,2088 1959,2091 1559,2090 1510,2087 1267,2085 1259,2098 1246,2099 1237,2096 1236,2087 1232,2085 1091,2086"/>
@@ -1329,49 +1344,49 @@ Iudicem D. Executoris.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0003" custom="readingOrder {index:1;}">
-          <Coords points="1261,2131 1263,2092 1263,2093 1394,2093 1425,2131 1326,2131"/>
+          <Coords points="1261,2131 1326,2131 1425,2131 1400,2100 1398,2100 1394,2093 1370,2093 1369,2098 1363,2099 1359,2093 1310,2093 1305,2098 1284,2098 1282,2093 1263,2092"/>
           <TextEquiv>
             <Unicode>iuſtitiæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0004" custom="readingOrder {index:2;}">
-          <Coords points="1491,2088 1467,2105 1473,2133 1523,2133 1585,2139 1664,2139 1640,2092 1636,2097 1510,2095"/>
+          <Coords points="1467,2105 1473,2133 1523,2133 1585,2139 1664,2139 1644,2100 1642,2100 1640,2092 1636,2097 1611,2096 1611,2099 1603,2100 1564,2100 1562,2095 1535,2095 1534,2100 1517,2100 1515,2095 1510,2095 1491,2088 1487,2091 1486,2099 1475,2099"/>
           <TextEquiv conf="0.91484404">
             <Unicode>civitatis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0005" custom="readingOrder {index:3;}">
-          <Coords points="1742,2090 1695,2090 1695,2135 1904,2135 1928,2094 1887,2093 1881,2090"/>
+          <Coords points="1695,2135 1904,2135 1923,2102 1889,2102 1887,2093 1881,2090 1865,2091 1862,2102 1778,2102 1768,2101 1759,2091 1742,2090 1695,2090"/>
           <TextEquiv conf="0.56526583">
             <Unicode>Florentiæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0006" custom="readingOrder {index:4;}">
-          <Coords points="1960,2093 1981,2093 2021,2098 2016,2147 1962,2143"/>
+          <Coords points="1981,2093 1960,2093 1962,2143 2016,2147 2021,2102 1984,2101 1981,2093"/>
           <TextEquiv conf="0.8659941">
             <Unicode>ire</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0007" custom="readingOrder {index:5;}">
-          <Coords points="2203,2138 2063,2138 2070,2094 2132,2094 2226,2094"/>
+          <Coords points="2063,2138 2203,2138 2221,2103 2135,2103 2133,2094 2132,2094 2107,2094 2106,2103 2097,2103 2093,2094 2071,2094 2070,2094"/>
           <TextEquiv conf="0.90167516">
             <Unicode>debeat</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0008" custom="readingOrder {index:6;}">
-          <Coords points="2292,2095 2294,2145 2242,2146 2237,2094"/>
+          <Coords points="2242,2146 2294,2145 2292,2095 2273,2094 2264,2103 2237,2103"/>
           <TextEquiv conf="0.7979541">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0009" custom="readingOrder {index:7;}">
-          <Coords points="2339,2096 2482,2098 2477,2146 2337,2142"/>
+          <Coords points="2339,2096 2337,2142 2477,2146 2480,2108 2400,2107 2393,2106 2391,2098 2389,2096"/>
           <TextEquiv conf="0.7979541">
             <Unicode>ſtincas</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662042472535_970" custom="readingOrder {index:8;}">
-          <Coords points="2513,2110 2635,2110 2635,2155 2513,2155"/>
+          <Coords points="2513,2110 2513,2155 2635,2155 2635,2113 2602,2110 2577,2110"/>
           <TextEquiv>
             <Unicode>com-</Unicode>
           </TextEquiv>
@@ -1381,14 +1396,14 @@ Iudicem D. Executoris.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Enſe quolibet ſaltem ſemel iudex D. Executoris ordinamento-&#13;
+        <Unicode>Enſe quolibet ſaltem ſemel iudex D. Executoris ordinamento-
 rum iuſtitiæ civitatis Florentiæ ire debeat ad ſtincas com-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.21926132" readingDirection="left-to-right" id="TextRegion_1662041922356_846" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1662041922356_846" custom="readingOrder {index:5;}" orientation="-0.21926132" readingDirection="left-to-right">
       <Coords points="945,2156 2644,2156 2644,2950 2633,3053 946,3053 945,2950"/>
       <TextLine id="region0008_line0003" custom="readingOrder {index:0;}">
-        <Coords points="1066,2144 1056,2150 1053,2157 945,2155 945,2204 1239,2204 1342,2207 1368,2212 1374,2208 1508,2204 1550,2205 1560,2208 1610,2207 1642,2210 1647,2214 1657,2214 1662,2210 1731,2208 1785,2211 2077,2210 2104,2212 2106,2223 2114,2226 2130,2226 2135,2222 2137,2213 2156,2212 2643,2222 2641,2166 2628,2164 2623,2169 2585,2170 2583,2162 2575,2157 2558,2159 2556,2170 2506,2169 2503,2167 2502,2158 2499,2156 2471,2157 2466,2168 2435,2169 2433,2159 2429,2156 2399,2156 2392,2159 2384,2155 2373,2156 2368,2167 2148,2163 2076,2165 2073,2152 2059,2150 2045,2151 2036,2163 1919,2162 1917,2152 1912,2150 1894,2150 1890,2152 1887,2162 1766,2161 1716,2150 1671,2153 1658,2160 1579,2159 1578,2151 1574,2149 1556,2149 1552,2154 1545,2148 1527,2148 1520,2158 1490,2156 1463,2148 1381,2148 1373,2150 1368,2159 1351,2159 1320,2157 1317,2148 1308,2146 1295,2147 1289,2156 1281,2157 1194,2156 1189,2146 1106,2144 1093,2146 1089,2155 1082,2157 1078,2146"/>
+        <Coords points="1053,2157 999,2156 945,2156 945,2204 1239,2204 1342,2207 1368,2212 1374,2208 1508,2204 1550,2205 1560,2208 1610,2207 1642,2210 1647,2214 1657,2214 1662,2210 1731,2208 1785,2211 2077,2210 2104,2212 2106,2223 2114,2226 2130,2226 2135,2222 2137,2213 2156,2212 2643,2222 2641,2166 2628,2164 2623,2169 2585,2170 2583,2162 2575,2157 2558,2159 2556,2170 2506,2169 2503,2167 2502,2158 2499,2156 2471,2157 2466,2168 2435,2169 2433,2159 2429,2156 2399,2156 2392,2159 2386,2156 2373,2156 2368,2167 2148,2163 2076,2165 2073,2156 2041,2156 2036,2163 1919,2162 1917,2156 1888,2156 1887,2162 1766,2161 1743,2156 1665,2156 1658,2160 1579,2159 1578,2156 1521,2156 1520,2158 1490,2156 1369,2156 1368,2159 1351,2159 1320,2157 1319,2156 1289,2156 1281,2157 1194,2156 1085,2156 1082,2157 1081,2156 1053,2156"/>
         <Baseline points="945,2193 1524,2194 2643,2211"/>
         <Word id="region0008_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="1053,2155 1053,2157 955,2155 955,2197 1093,2197 1093,2155 1089,2155 1082,2157 1081,2155"/>
@@ -2325,20 +2340,20 @@ rum iuſtitiæ civitatis Florentiæ ire debeat ad ſtincas com-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>munis Florentiæ, &amp; videre, &amp; examinare ſi qua commiſſa fuerint&#13;
-contra carceratos, &amp; ibidem detentos, &amp; ſi aliquis defectus com-&#13;
-mitteretur per ſuperſtites, vel alias perſonas ſtincarum, &amp; in prædi-&#13;
-ctis, &amp; omnibus extorſionibus, &amp; fraudibus quæ fierent in ſtincis,&#13;
-habeat balìam, poteſtatem, &amp; auctoritatem etiam contra ſuperſtites,&#13;
-camerarios, proviſores, &amp; officiales quoſcumque ſtincarum, &amp; con-&#13;
-tra quaſcumque alias perſonas etiam carceratas, &amp; in prædictis, &amp;&#13;
-circa prædicta unicuique iuſtitiam miniſtret. Et quod cognoſcere, &amp;&#13;
-determinare poſſit de debitis inter carceratos. Debeat etiam ſaltem&#13;
-quolibet menſe ſemel in præſentia officii DD. PP. &amp; Vexilliferi iu-&#13;
-ſtitiæ, &amp; eorum collegiorum ſimul congregatorum dicere, &amp; expo-&#13;
-nere, ſi quos, vel nullos defectus reperierit in carceribus antedictis,&#13;
-&amp; quod inde fecerit ſuper eiſdem, &amp; prædicta omnia facere tenea-&#13;
-tur ſub pœna libr. 100. pro qualibet vice de ſalario dicti domini&#13;
+        <Unicode>munis Florentiæ, &amp; videre, &amp; examinare ſi qua commiſſa fuerint
+contra carceratos, &amp; ibidem detentos, &amp; ſi aliquis defectus com-
+mitteretur per ſuperſtites, vel alias perſonas ſtincarum, &amp; in prædi-
+ctis, &amp; omnibus extorſionibus, &amp; fraudibus quæ fierent in ſtincis,
+habeat balìam, poteſtatem, &amp; auctoritatem etiam contra ſuperſtites,
+camerarios, proviſores, &amp; officiales quoſcumque ſtincarum, &amp; con-
+tra quaſcumque alias perſonas etiam carceratas, &amp; in prædictis, &amp;
+circa prædicta unicuique iuſtitiam miniſtret. Et quod cognoſcere, &amp;
+determinare poſſit de debitis inter carceratos. Debeat etiam ſaltem
+quolibet menſe ſemel in præſentia officii DD. PP. &amp; Vexilliferi iu-
+ſtitiæ, &amp; eorum collegiorum ſimul congregatorum dicere, &amp; expo-
+nere, ſi quos, vel nullos defectus reperierit in carceribus antedictis,
+&amp; quod inde fecerit ſuper eiſdem, &amp; prædicta omnia facere tenea-
+tur ſub pœna libr. 100. pro qualibet vice de ſalario dicti domini
 Executoris retinenda.</Unicode>
       </TextEquiv>
     </TextRegion>

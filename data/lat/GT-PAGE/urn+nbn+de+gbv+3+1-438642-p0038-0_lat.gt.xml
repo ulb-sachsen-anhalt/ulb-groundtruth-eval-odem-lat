@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-158">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:25Z</Created>
     <LastChange>2024-01-19T13:08:25Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-438642-p0038-0_lat.jpg" imageWidth="2737" imageHeight="2253" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/a1509130-9edc-4b17-aaa3-229a1cbc86ec/00000038.jpg" imageWidth="2737" imageHeight="2253" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="157,567 184,2193 2632,2176 2628,559"/>
     </Border>
@@ -18,7 +33,7 @@
         <RegionRefIndexed index="3" regionRef="TextRegion_1663579755736_3865"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1682414021835_1610" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1682414021835_1610" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="598,336 598,410 705,410 705,336"/>
       <TextLine id="line_1682414021903_1613" custom="readingOrder {index:0;}">
         <Coords points="598,336 598,410 705,410 705,336"/>
@@ -36,7 +51,7 @@
         <Unicode>30</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682414035979_1619" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="region_1682414035979_1619" custom="readingOrder {index:1;} structure {type:header;}" type="header">
       <Coords points="773,300 2294,300 2294,533 773,533"/>
       <TextLine id="line_1682414044774_1622" custom="readingOrder {index:0;}">
         <Coords points="922,313 922,401 2158,401 2158,313"/>
@@ -123,7 +138,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1682414054395_1634" custom="readingOrder {index:2;}">
-        <Coords points="802,459 802,537 2287,537 2287,459"/>
+        <Coords points="802,533 2287,533 2287,459 802,459"/>
         <Word id="word_1682414094890_1718" custom="readingOrder {index:0;}">
           <Coords points="802,459 999,459 999,537 802,537"/>
           <TextEquiv>
@@ -177,18 +192,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Mit dem Herzoge zu Sachſen⸗Eiſenach.&#13;
-Wolfgangus I. Graf zu Barby, †1565. Gem.&#13;
+        <Unicode>Mit dem Herzoge zu Sachſen⸗Eiſenach.
+Wolfgangus I. Graf zu Barby, †1565. Gem.
 Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4257683" readingDirection="left-to-right" id="TextRegion_1663579751050_3858" custom="readingOrder {index:2;}">
-      <Coords points="614,564 1547,561 1565,1157 1565,1461 1540,1602 619,1602 614,1461 612,985 612,753"/>
+    <TextRegion id="TextRegion_1663579751050_3858" custom="readingOrder {index:2;}" orientation="0.4257683" readingDirection="left-to-right">
+      <Coords points="612,753 612,985 614,1461 619,1602 1540,1602 1565,1461 1565,1157 1547,562 613,565"/>
       <TextLine id="line_1663579725012_3839" custom="readingOrder {index:0;}">
         <Coords points="614,590 627,590 637,581 647,581 654,586 736,586 783,582 787,578 764,578 758,573 757,565 820,564 826,564 824,574 802,576 804,580 848,580 859,575 871,575 876,579 898,578 938,570 945,565 973,565 995,572 1042,576 1065,575 1072,565 1094,564 1102,566 1106,575 1129,578 1164,576 1166,570 1173,566 1185,566 1193,576 1198,576 1207,566 1222,567 1228,574 1262,574 1308,570 1312,563 1357,563 1364,570 1397,574 1428,573 1440,563 1452,563 1459,566 1464,573 1526,575 1530,575 1538,565 1546,562 1547,562 1547,636 1538,636 1486,627 1300,624 1166,626 1102,630 1089,636 1071,636 1063,628 1049,631 1010,630 1006,627 958,630 950,624 940,624 907,637 895,632 889,637 879,637 867,629 842,630 831,634 807,631 804,637 788,630 782,630 767,642 758,639 757,635 737,631 711,634 701,631 676,645 666,645 657,644 654,640 614,640"/>
         <Baseline points="614,628 897,617 1326,615 1547,623"/>
         <Word id="region0008_line0003_word0000" custom="readingOrder {index:0;}">
-          <Coords points="797,564 757,565 758,573 764,578 787,578 783,582 736,586 654,586 647,581 637,581 627,590 619,590 619,639 687,638 701,631 711,634 737,631 757,635 757,637 772,637 782,630 788,630 804,637 807,631 831,634 806,628 806,576 804,580 802,576 824,574 825,564"/>
+          <Coords points="758,573 764,578 787,578 783,582 736,586 654,586 647,581 637,581 627,590 619,590 619,639 687,638 701,631 711,634 737,631 757,635 757,637 772,637 782,630 788,630 804,637 807,631 831,634 806,628 806,580 804,580 802,576 824,574 825,564 820,564 757,565"/>
           <TextEquiv conf="0.8987889">
             <Unicode>Agnes,</Unicode>
           </TextEquiv>
@@ -385,7 +400,7 @@ Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663580024855_4055" custom="readingOrder {index:1;}">
-          <Coords points="859,990 890,990 1013,991 1075,997 1100,1010 1100,1044 1085,1045 860,1034"/>
+          <Coords points="873,990 859,990 860,1034 1085,1045 1100,1044 1100,1010 1076,997 1045,1001 1020,1000 1013,991 1000,991 992,1000 963,1000 936,999 890,990"/>
           <TextEquiv>
             <Unicode>Dorothea,</Unicode>
           </TextEquiv>
@@ -440,7 +455,7 @@ Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663580083252_4115" custom="readingOrder {index:3;}">
-          <Coords points="1106,1055 1334,1043 1424,1042 1436,1042 1514,1051 1529,1054 1529,1109 1242,1115 1205,1115 1106,1113"/>
+          <Coords points="1106,1055 1106,1113 1114,1113 1144,1111 1201,1111 1205,1115 1218,1115 1223,1111 1226,1115 1242,1115 1243,1115 1247,1109 1271,1108 1505,1109 1505,1109 1529,1109 1529,1054 1523,1054 1514,1051 1437,1053 1440,1045 1436,1042 1436,1042 1424,1042 1424,1042 1421,1044 1408,1044 1401,1051 1356,1043 1341,1045 1338,1043 1334,1043 1333,1043 1314,1048 1259,1051 1248,1048 1226,1049 1224,1052 1222,1049 1195,1050 1193,1053 1177,1053 1170,1052 1128,1054 1128,1054 1127,1054"/>
           <TextEquiv>
             <Unicode>Sachſen⸗Weimar,</Unicode>
           </TextEquiv>
@@ -564,7 +579,7 @@ Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1663580176057_4198" custom="readingOrder {index:3;}">
-          <Coords points="1072,1328 1457,1323 1513,1323 1534,1326 1534,1377 1464,1387 1439,1387 1072,1380"/>
+          <Coords points="1072,1328 1072,1380 1080,1380 1306,1377 1421,1380 1430,1381 1438,1387 1439,1387 1464,1387 1465,1387 1471,1381 1527,1378 1534,1377 1534,1326 1517,1326 1513,1323 1460,1324 1451,1323"/>
           <TextEquiv>
             <Unicode>Sain⸗ und Witgen⸗</Unicode>
           </TextEquiv>
@@ -646,7 +661,7 @@ Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
         </Word>
         <Word id="region0004_line0002_word0002" custom="readingOrder {index:2;}">
           <Coords points="1242,1536 1153,1537 1153,1600 1177,1599 1185,1595 1242,1591"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>geb.</Unicode>
           </TextEquiv>
         </Word>
@@ -661,23 +676,23 @@ Agnes, Graf Gebhardi VII. zu Mansfeld Tochter, †1558.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Agnes, † 1659. Gem. Joachimus Erneſtus,&#13;
-Fuͤrſt zu Anhalt, † 1586.&#13;
-Joh. Georgius I.Fuͤrſt zu Anhalt⸗Deſſau,&#13;
-†1618. Gem. Dorothea, Pfalzgr. Joh.&#13;
-Caſimiri zu Simmern T. †1618.&#13;
-Eleonora Dorothea, † 1664. Gem. Wil-&#13;
-helmus, Herzog zu Sachſen⸗Weimar,&#13;
-† 1662.&#13;
-Johann Georgius, Herzog zu Sachſen⸗&#13;
-Eiſenach, † 1686. Gem. Johannetta,&#13;
-Graf Erneſti zu Sain⸗ und Witgen⸗&#13;
-ſtein T. † 1701.&#13;
-JOHANNES WILHELMVS, Herzog&#13;
+        <Unicode>Agnes, † 1659. Gem. Joachimus Erneſtus,
+Fuͤrſt zu Anhalt, † 1586.
+Joh. Georgius I.Fuͤrſt zu Anhalt⸗Deſſau,
+†1618. Gem. Dorothea, Pfalzgr. Joh.
+Caſimiri zu Simmern T. †1618.
+Eleonora Dorothea, † 1664. Gem. Wil-
+helmus, Herzog zu Sachſen⸗Weimar,
+† 1662.
+Johann Georgius, Herzog zu Sachſen⸗
+Eiſenach, † 1686. Gem. Johannetta,
+Graf Erneſti zu Sain⸗ und Witgen⸗
+ſtein T. † 1701.
+JOHANNES WILHELMVS, Herzog
 zu Sachſen-Eiſenach, geb. 1666.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.4257683" readingDirection="left-to-right" id="TextRegion_1663579755736_3865" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1663579755736_3865" custom="readingOrder {index:3;}" orientation="0.4257683" readingDirection="left-to-right">
       <Coords points="1547,561 2485,559 2493,753 2497,969 2497,1193 2495,1461 1565,1461 1550,1193 1547,859"/>
       <TextLine id="line_1663579722589_3823" custom="readingOrder {index:0;}">
         <Coords points="1547,562 1621,562 1639,566 1649,562 1663,562 1674,570 1694,572 1736,563 1838,562 1906,567 1911,561 1939,561 1942,567 1959,567 2022,560 2028,560 2092,569 2105,562 2117,562 2125,571 2169,573 2246,571 2262,561 2277,562 2282,570 2310,571 2356,566 2364,562 2455,568 2455,559 2483,559 2485,624 2396,623 2377,626 2369,620 2354,620 2342,625 2327,622 2321,626 2302,628 2296,623 2236,622 2211,624 2203,630 2190,622 2168,622 2157,631 2148,629 2135,634 2126,631 2125,626 2107,628 2096,624 2022,627 1998,623 1958,623 1940,631 1936,630 1930,619 1923,618 1906,622 1880,622 1876,626 1864,626 1857,622 1806,622 1788,626 1784,623 1737,622 1645,622 1619,632 1582,637 1547,636"/>
@@ -1069,16 +1084,16 @@ zu Sachſen-Eiſenach, geb. 1666.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Juſtus IIl. Graf zu Barby, † 1609. Gem.&#13;
-Sophia, Graf Alberti zuSchwarzburg⸗&#13;
-Rudelſtadt T. †1630.&#13;
-Albertus Fridericus, Graf zu Barby,&#13;
-†1641. Gem. Sophia Vrſula, Graf An-&#13;
-tonii II. zu Oldenburg T. † 1642.&#13;
-Antonia Sibylla, † 1684. Gem. Chriſtianus&#13;
-Wilhelmus, Fuͤrſt zu Schwarzburg⸗&#13;
-Sondershauſen, †1721.&#13;
-GVNTHERVS, Fuͤrſt zu Schwarzburg&#13;
+        <Unicode>Juſtus IIl. Graf zu Barby, † 1609. Gem.
+Sophia, Graf Alberti zuSchwarzburg⸗
+Rudelſtadt T. †1630.
+Albertus Fridericus, Graf zu Barby,
+†1641. Gem. Sophia Vrſula, Graf An-
+tonii II. zu Oldenburg T. † 1642.
+Antonia Sibylla, † 1684. Gem. Chriſtianus
+Wilhelmus, Fuͤrſt zu Schwarzburg⸗
+Sondershauſen, †1721.
+GVNTHERVS, Fuͤrſt zu Schwarzburg
 Sondershauſen, geb. 1678.</Unicode>
       </TextEquiv>
     </TextRegion>

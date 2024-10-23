@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-184">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:48Z</Created>
     <LastChange>2024-01-19T13:08:48Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-509859-p0235-4_lat.jpg" imageWidth="2730" imageHeight="3060" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/d7e9427e-8553-41f9-aa4d-6f67ff86a753/00000235.jpg" imageWidth="2730" imageHeight="3060" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="57,381 70,2876 2029,2886 1987,342"/>
     </Border>
@@ -16,7 +31,7 @@
         <RegionRefIndexed index="1" regionRef="TextRegion_1650609351831_495"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="1.3304831" readingDirection="left-to-right" id="TextRegion_1650609346227_486" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1650609346227_486" custom="readingOrder {index:0;}" orientation="1.3304831" readingDirection="left-to-right">
       <Coords points="199,639 1530,636 1533,2560 202,2560"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="319,639 312,643 199,643 199,692 292,693 362,705 371,703 381,711 391,713 404,710 410,705 449,701 472,704 544,704 557,706 563,712 575,712 582,706 625,704 788,705 905,701 980,705 1071,700 1076,703 1093,704 1212,701 1218,704 1520,699 1529,695 1530,683 1529,649 1275,653 1266,643 1257,643 1248,651 1237,653 1113,654 1092,654 1090,647 1085,643 1073,643 1065,654 1017,654 1010,644 999,644 991,652 979,654 773,654 769,651 760,652 756,655 722,656 721,645 715,640 624,644 617,655 599,655 453,652 450,643 445,639 428,641 425,650 372,650 349,646 341,638 325,638"/>
@@ -1843,7 +1858,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0007_line0032" custom="readingOrder {index:31;}">
-        <Coords points="321,2484 317,2487 316,2495 203,2498 203,2543 299,2541 362,2541 368,2544 416,2540 421,2551 433,2549 450,2556 502,2558 520,2553 552,2558 567,2555 573,2559 670,2557 686,2559 688,2567 696,2571 711,2570 724,2559 821,2557 822,2575 827,2580 922,2574 933,2571 937,2559 994,2558 1055,2547 1060,2542 1059,2515 1054,2510 905,2514 904,2504 894,2500 882,2502 878,2513 872,2511 859,2512 836,2508 835,2502 828,2499 797,2500 785,2511 752,2511 750,2501 745,2499 725,2498 719,2501 714,2497 701,2497 683,2499 681,2512 647,2513 644,2500 623,2498 618,2502 616,2514 615,2502 609,2498 537,2492 473,2493 463,2497 441,2499 380,2498 357,2496 355,2489 349,2485"/>
+        <Coords points="317,2487 316,2495 203,2498 203,2543 299,2541 362,2541 368,2544 416,2540 421,2551 433,2549 450,2556 502,2558 520,2553 552,2558 567,2555 573,2559 670,2557 686,2559 686,2560 722,2560 724,2559 821,2557 821,2560 936,2560 937,2559 994,2558 1055,2547 1060,2542 1059,2515 1054,2510 905,2514 904,2504 894,2500 882,2502 878,2513 872,2511 859,2512 836,2508 835,2502 828,2499 797,2500 785,2511 752,2511 750,2501 745,2499 725,2498 719,2501 714,2497 701,2497 683,2499 681,2512 647,2513 644,2500 623,2498 618,2502 616,2514 615,2502 609,2498 537,2492 473,2493 463,2497 441,2499 380,2498 357,2496 355,2489 349,2485 321,2484"/>
         <Word id="region0007_line0032_word0000" custom="readingOrder {index:0;}">
           <Coords points="359,2496 246,2499 246,2542 299,2541 327,2541 407,2539 406,2498 380,2498"/>
           <TextEquiv>
@@ -1913,10 +1928,10 @@ ut efficaciter res in alterum transferri non potuerit l. ſi
 creditor 7.§.f.ff. de diſtraƈt. pignor.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="1.3304831" readingDirection="left-to-right" id="TextRegion_1650609351831_495" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1650609351831_495" custom="readingOrder {index:1;}" orientation="1.3304831" readingDirection="left-to-right">
       <Coords points="202,2560 645,2560 645,2627 203,2628"/>
       <TextLine id="region0007_line0033" custom="readingOrder {index:0;}">
-        <Coords points="318,2542 265,2547 233,2552 230,2556 231,2592 237,2603 241,2606 283,2608 541,2613 559,2611 566,2616 576,2615 584,2609 619,2608 624,2603 623,2567 618,2562 574,2564 567,2556 552,2559 520,2554 502,2559 450,2557 433,2550 408,2555 378,2555 363,2544"/>
+        <Coords points="231,2592 237,2603 241,2606 283,2608 541,2613 559,2611 566,2616 576,2615 584,2609 619,2608 624,2603 623,2567 618,2562 574,2564 570,2560 230,2560"/>
         <Word id="word_1650609346281_488" custom="readingOrder {index:0;}">
           <Coords points="307,2560 482,2560 483,2603 308,2607"/>
           <TextEquiv conf="0.9112648">

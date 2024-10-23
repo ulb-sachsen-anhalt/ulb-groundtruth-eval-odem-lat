@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-235">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:30Z</Created>
     <LastChange>2024-01-19T13:09:30Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-722037-p0026-7_lat.png" imageWidth="2454" imageHeight="2996" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/bfc26928-7c9d-4418-a155-639a9dd81a90/00000026.jpg" imageWidth="2454" imageHeight="2996" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="253,349 276,2906 2327,2871 2360,380"/>
     </Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.2784083" readingDirection="left-to-right" id="TextRegion_1660544369646_608" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660544369646_608" custom="readingOrder {index:0;}" orientation="-0.2784083" readingDirection="left-to-right">
       <Coords points="1048,607 2218,607 2218,1401 1048,1401"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="2090,607 2084,617 2014,615 2011,608 1964,608 1961,615 1871,617 1858,617 1851,609 1828,607 1819,609 1815,620 1791,619 1785,608 1610,608 1588,615 1581,609 1569,609 1558,620 1484,622 1458,622 1450,614 1422,612 1385,615 1375,625 1353,625 1351,618 1346,614 1330,614 1326,617 1324,626 1312,616 1284,615 1279,619 1277,626 1229,624 1222,616 1203,616 1192,625 1174,627 1049,630 1049,677 1306,675 1312,672 1346,674 1372,673 1378,670 1395,673 1457,672 1488,670 1506,665 1522,668 1530,664 1540,664 1547,668 1558,664 1572,664 1577,667 1657,667 1665,663 1677,663 1684,667 1759,668 1795,666 1807,662 1825,666 1877,666 1890,656 1917,665 2127,666 2133,663 2156,666 2163,662 2172,662 2180,666 2218,666 2218,618 2115,617 2109,607"/>
@@ -445,7 +461,7 @@
         <Baseline points="1049,1080 1478,1073 2218,1076"/>
         <Word id="region0003_line0009_word0000" custom="readingOrder {index:0;}">
           <Coords points="1067,1032 1064,1039 1058,1039 1058,1080 1123,1081 1123,1043 1102,1043 1094,1042 1085,1033 1071,1032"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſet.</Unicode>
           </TextEquiv>
         </Word>
@@ -777,7 +793,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0015" custom="readingOrder {index:14;}">
-        <Coords points="1924,1344 1914,1348 1912,1353 1851,1352 1850,1347 1846,1345 1832,1344 1825,1347 1824,1352 1798,1352 1791,1355 1785,1355 1774,1344 1765,1347 1763,1351 1759,1351 1753,1344 1742,1344 1727,1345 1721,1351 1600,1348 1561,1355 1549,1351 1520,1351 1511,1344 1494,1344 1477,1351 1372,1353 1366,1347 1346,1346 1333,1353 1321,1354 1195,1356 1144,1356 1139,1351 1126,1350 1118,1357 1104,1357 1096,1351 1063,1350 1058,1352 1056,1357 1048,1357 1048,1405 1202,1405 1214,1406 1222,1413 1237,1411 1241,1414 1260,1414 1268,1406 1281,1403 1409,1400 1628,1398 1651,1399 1656,1407 1667,1408 1679,1399 2087,1404 2217,1399 2217,1359 2203,1355 2109,1352 2050,1358 2036,1354 1997,1354 1985,1345 1973,1346 1968,1353 1948,1353 1947,1348 1942,1345"/>
+        <Coords points="1914,1348 1912,1353 1851,1352 1850,1347 1846,1345 1832,1344 1825,1347 1824,1352 1798,1352 1791,1355 1785,1355 1774,1344 1765,1347 1763,1351 1759,1351 1753,1344 1742,1344 1727,1345 1721,1351 1600,1348 1561,1355 1549,1351 1520,1351 1511,1344 1494,1344 1477,1351 1372,1353 1366,1347 1346,1346 1333,1353 1321,1354 1195,1356 1144,1356 1139,1351 1126,1350 1118,1357 1104,1357 1096,1351 1063,1350 1058,1352 1056,1357 1048,1357 1048,1401 1366,1401 1409,1400 1628,1398 1651,1399 1652,1401 1676,1401 1679,1399 1842,1401 2165,1401 2217,1399 2217,1359 2203,1355 2109,1352 2050,1358 2036,1354 1997,1354 1985,1345 1973,1346 1968,1353 1948,1353 1947,1348 1942,1345 1924,1344"/>
         <Baseline points="1048,1395 2217,1390"/>
         <Word id="region0003_line0015_word0000" custom="readingOrder {index:0;}">
           <Coords points="1056,1400 1238,1401 1238,1355 1195,1356 1144,1356 1139,1351 1126,1350 1118,1357 1104,1357 1096,1351 1063,1350 1058,1352 1056,1357"/>
@@ -826,24 +842,24 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tem teſtandi latiſſimam in XII. Tabulis patrifam. datam&#13;
-invenerunt Iurisconſulti modum teſtandi extra comitia,&#13;
-per familiæ emancipationem, a) tanquam per conven-&#13;
-tionem &amp; traditionem, cum alienatio bonorum non niſi&#13;
-a vivis fieri poſſe videretur. b) Hinc, ut moribus anti-&#13;
-quis res omnis perageretur, adhibitæ mancipationum&#13;
-ſolennitates, libripens, &amp; familiæ emptor, &amp; non minus&#13;
-quam quinque teſtes, cum quibus teſtamenti factio eſ-&#13;
-ſet.  Et initio quidem ipſe heres futurus familiam c)&#13;
-emebat, quod non ſolum THEOPHILVS bis d) uno&#13;
-Ioco diſerte perhibet, &amp; intelligere licet ex dictis IM-&#13;
-PERATORIS, in §. X. Inſt. de Teſtament. Ordinand. e)&#13;
-ſed etiam, ſpectata illa ratione, quam Iurisconſultis mo-&#13;
-dum faciendi heredem per mancipationem ſuggeſſiſſe&#13;
+        <Unicode>tem teſtandi latiſſimam in XII. Tabulis patrifam. datam
+invenerunt Iurisconſulti modum teſtandi extra comitia,
+per familiæ emancipationem, a) tanquam per conven-
+tionem &amp; traditionem, cum alienatio bonorum non niſi
+a vivis fieri poſſe videretur. b) Hinc, ut moribus anti-
+quis res omnis perageretur, adhibitæ mancipationum
+ſolennitates, libripens, &amp; familiæ emptor, &amp; non minus
+quam quinque teſtes, cum quibus teſtamenti factio eſ-
+ſet.  Et initio quidem ipſe heres futurus familiam c)
+emebat, quod non ſolum THEOPHILVS bis d) uno
+Ioco diſerte perhibet, &amp; intelligere licet ex dictis IM-
+PERATORIS, in §. X. Inſt. de Teſtament. Ordinand. e)
+ſed etiam, ſpectata illa ratione, quam Iurisconſultis mo-
+dum faciendi heredem per mancipationem ſuggeſſiſſe
 diximus, prorſus confirmatur, ut iniuriam faciant THEO-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2784083" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660544369646_607" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660544369646_607" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="-0.2784083" type="catch-word" readingDirection="left-to-right">
       <Coords points="1048,1401 2218,1401 2218,1451 1048,1451"/>
       <TextLine id="region0003_line0016" custom="readingOrder {index:0;}">
         <Coords points="2132,1405 2016,1407 2009,1413 2009,1445 2015,1451 2217,1451 2217,1406"/>
@@ -862,7 +878,7 @@ diximus, prorſus confirmatur, ut iniuriam faciant THEO-</Unicode>
         <Unicode>PHILO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.2784083" type="footnote" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="region0005" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="-0.2784083" type="footnote" readingDirection="left-to-right">
       <Coords points="1082,1516 2214,1516 2214,2520 1082,2520"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="2026,1516 1991,1517 1989,1523 1952,1523 1950,1517 1920,1517 1918,1523 1902,1523 1856,1523 1853,1516 1823,1517 1819,1522 1795,1522 1780,1517 1706,1517 1698,1520 1672,1522 1656,1522 1650,1516 1460,1516 1443,1521 1436,1517 1289,1517 1274,1524 1138,1525 1129,1517 1115,1517 1110,1526 1083,1526 1083,1568 1109,1568 1110,1573 1122,1575 1140,1567 1186,1568 1193,1564 1214,1564 1222,1568 1235,1568 1242,1564 1252,1564 1259,1568 1279,1568 1313,1568 1318,1563 1333,1563 1338,1566 1358,1566 1363,1563 1492,1563 1499,1568 1526,1564 1533,1568 1635,1566 1686,1569 1716,1566 1919,1566 1987,1570 1999,1567 2067,1564 2214,1564 2214,1526 2202,1525 2199,1517 2179,1517 2176,1524 2096,1522 2077,1516"/>
@@ -2041,7 +2057,7 @@ diximus, prorſus confirmatur, ut iniuriam faciant THEO-</Unicode>
         </Word>
         <Word id="region0005_line0021_word0006" custom="readingOrder {index:6;}">
           <Coords points="1785,2508 1987,2509 1987,2468 1986,2468 1977,2462 1966,2462 1961,2465 1956,2461 1942,2461 1936,2471 1928,2473 1913,2467 1865,2466 1845,2472 1825,2472 1817,2469 1799,2474 1785,2471"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>pagraphi.</Unicode>
           </TextEquiv>
         </Word>
@@ -2050,26 +2066,26 @@ diximus, prorſus confirmatur, ut iniuriam faciant THEO-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>a) GELLIVS Noct. Att. Lib. XV. c. 27. Occaſione Legis Decemvi-&#13;
-ralis in tabula VI. ſcriptæ: QVVM NEXVM FACIET MANCIPIVM-&#13;
-QVE, VTI LINGVA NVNCVPASSIT, ITA IVS ESTO. Lex enim&#13;
-mancipationis vocabulo omnem alienationem rerum man-&#13;
-cipi ſignificare videbatur, I. 48. D. de pact. I. 29. §. I. D. de&#13;
-ſtatulib. &amp; CICERO quoque lib. I. de Orat. c.57. verba: VTI&#13;
-LINGVA NVNCVPASSIT, ad teſtamentariam cauſam retulit. Imo&#13;
-ipſa teſtamenti per æs &amp; libram conditi forma hoc oſtendit:&#13;
-Nam, ut inquit VLPIANVS Tit. XX. §. 9. in eo duæ rer a-&#13;
-guntur, familiæ mancipatio &amp; nuncupatio teſtamenti: Et&#13;
-ipſa nuncupationis formula: HAEC VTI IN HIS TABV-&#13;
-LIS CERISVE SCRIPTA SVNT, ITA DO, ITA LEGO,&#13;
-ITA TESTOR: ITAQE VOS, QVIRITES, TESTIMO-&#13;
-NIVM PRAEBITOTE.&#13;
-b) Vid. THOMAS. Diſſ. de primis initiis ſucceſſ. teſtam. §.33.&#13;
-c) VLPIANVS Fragment. Tit. XX. §. 2. QVINCTILIANVS&#13;
-Declam. CCCVIII. ISIDORVS Orig. IV. 24. CLEMENS A-&#13;
-LEX. Strom. V.&#13;
-d) Paraphr. Tit. de Teſtam. ordin. §. 1.&#13;
-e) Verbis, Heredi, qui imaginem vetuſtiſſimi familiæ empto-&#13;
+        <Unicode>a) GELLIVS Noct. Att. Lib. XV. c. 27. Occaſione Legis Decemvi-
+ralis in tabula VI. ſcriptæ: QVVM NEXVM FACIET MANCIPIVM-
+QVE, VTI LINGVA NVNCVPASSIT, ITA IVS ESTO. Lex enim
+mancipationis vocabulo omnem alienationem rerum man-
+cipi ſignificare videbatur, I. 48. D. de pact. I. 29. §. I. D. de
+ſtatulib. &amp; CICERO quoque lib. I. de Orat. c.57. verba: VTI
+LINGVA NVNCVPASSIT, ad teſtamentariam cauſam retulit. Imo
+ipſa teſtamenti per æs &amp; libram conditi forma hoc oſtendit:
+Nam, ut inquit VLPIANVS Tit. XX. §. 9. in eo duæ rer a-
+guntur, familiæ mancipatio &amp; nuncupatio teſtamenti: Et
+ipſa nuncupationis formula: HAEC VTI IN HIS TABV-
+LIS CERISVE SCRIPTA SVNT, ITA DO, ITA LEGO,
+ITA TESTOR: ITAQE VOS, QVIRITES, TESTIMO-
+NIVM PRAEBITOTE.
+b) Vid. THOMAS. Diſſ. de primis initiis ſucceſſ. teſtam. §.33.
+c) VLPIANVS Fragment. Tit. XX. §. 2. QVINCTILIANVS
+Declam. CCCVIII. ISIDORVS Orig. IV. 24. CLEMENS A-
+LEX. Strom. V.
+d) Paraphr. Tit. de Teſtam. ordin. §. 1.
+e) Verbis, Heredi, qui imaginem vetuſtiſſimi familiæ empto-
 ris obtinet, collatis cum initio huius pagraphi.</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-83">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:42Z</Created>
     <LastChange>2024-01-19T13:07:42Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-211366-p0457-4_lat.jpg" imageWidth="1493" imageHeight="2243" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/78fb0eb1-b47f-4ae6-8799-d01808b885c1/00000457.jpg" imageWidth="1493" imageHeight="2243" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="123,238 67,2160 1284,2157 1290,241"/>
     </Border>
@@ -15,7 +30,7 @@
         <RegionRefIndexed index="2" regionRef="region0003"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.0332968" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:2;}">
+    <TextRegion id="region0003" custom="readingOrder {index:2;}" orientation="-1.0332968" readingDirection="left-to-right">
       <Coords points="123,393 1060,393 1060,1948 123,1948"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="931,394 926,399 926,405 918,406 699,404 694,393 670,394 662,403 640,402 634,396 624,396 617,403 611,394 594,394 580,405 552,406 525,405 518,393 505,394 501,405 482,405 477,396 468,393 207,394 204,429 213,435 214,447 227,452 622,452 763,447 786,450 845,451 1060,450 1060,406 1044,407 1036,396 1025,396 1020,406 953,406 949,405 946,395"/>
@@ -409,7 +424,7 @@
         <Coords points="961,967 956,980 888,979 880,969 853,967 846,973 842,968 828,967 823,971 821,981 770,980 757,983 711,978 668,980 655,977 649,970 638,969 630,979 587,980 581,974 557,970 551,972 546,979 468,982 467,974 462,970 448,970 437,977 401,969 334,968 321,983 306,982 302,978 311,968 310,963 279,963 272,969 272,977 269,979 199,981 194,977 185,976 181,979 168,975 162,977 161,982 125,984 124,1026 280,1024 288,1015 294,1013 301,1021 302,1032 310,1033 317,1026 370,1025 393,1026 402,1037 418,1039 454,1035 460,1025 599,1022 748,1023 752,1035 767,1038 777,1035 779,1023 786,1022 952,1023 957,1027 965,1027 970,1023 1060,1023 1060,978 986,979 984,973 977,968"/>
         <Baseline points="124,1016 288,1015 296,1015 1060,1012"/>
         <Word id="word_1657523697737_1046" custom="readingOrder {index:0;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="168,975 279,963 310,963 310,982 309,1014 292,1014 273,1013 145,1004 145,982"/>
+          <Coords points="279,963 272,969 272,977 269,979 199,981 194,977 185,976 181,979 168,975 162,977 161,982 145,982 145,1004 273,1013 291,1013 294,1013 294,1014 309,1014 309,982 306,982 302,978 310,969 310,963"/>
           <TextEquiv>
             <Unicode>ditis?</Unicode>
           </TextEquiv>
@@ -624,7 +639,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0016_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:6;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="358,1302 530,1306 530,1270 518,1270 517,1262 512,1257 496,1258 491,1271 401,1269 341,1273 358,1271"/>
+          <Coords points="358,1302 530,1306 530,1270 512,1257 491,1271 401,1269 341,1273"/>
           <TextEquiv conf="0.88970304">
             <Unicode>quando</Unicode>
           </TextEquiv>
@@ -925,7 +940,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1657523859796_1100" custom="readingOrder {index:4;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="619,1672 710,1663 720,1663 754,1664 788,1674 788,1717 776,1720 664,1719 618,1717"/>
+          <Coords points="619,1672 618,1717 637,1718 639,1716 651,1715 655,1717 655,1719 664,1719 701,1719 702,1718 709,1717 776,1720 788,1717 788,1675 786,1675 759,1673 754,1664 754,1664 738,1664 736,1665 734,1671 719,1663 713,1663 675,1673 637,1670"/>
           <TextEquiv>
             <Unicode>poſſitis,</Unicode>
           </TextEquiv>
@@ -1076,7 +1091,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0027" custom="readingOrder {index:26;}">
-        <Coords points="1019,1887 1011,1890 1010,1901 932,1900 865,1904 671,1902 663,1893 652,1893 645,1902 640,1902 631,1894 618,1895 612,1891 598,1891 589,1894 582,1901 568,1902 560,1894 550,1894 543,1904 526,1905 519,1894 509,1894 501,1903 454,1902 452,1891 434,1888 427,1892 418,1892 410,1903 402,1902 388,1889 381,1891 376,1900 354,1902 195,1904 176,1900 164,1892 123,1893 123,1950 236,1953 311,1950 338,1952 344,1957 355,1958 361,1953 422,1949 544,1951 598,1946 859,1951 961,1947 975,1945 981,1940 993,1945 1059,1941 1060,1904 1032,1903 1035,1891"/>
+        <Coords points="1011,1890 1010,1901 932,1900 865,1904 671,1902 663,1893 652,1893 645,1902 640,1902 631,1894 618,1895 612,1891 598,1891 589,1894 582,1901 568,1902 560,1894 550,1894 543,1904 526,1905 519,1894 509,1894 501,1903 454,1902 452,1891 434,1888 427,1892 418,1892 410,1903 402,1902 388,1889 381,1891 376,1900 354,1902 195,1904 176,1900 164,1892 123,1893 123,1948 576,1948 598,1946 702,1948 935,1948 961,1947 975,1945 981,1940 993,1945 1059,1941 1060,1904 1032,1903 1035,1891 1019,1887"/>
         <Baseline points="123,1940 851,1940 1059,1933"/>
         <Word id="region0003_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="137,1923 238,1924 238,1903 195,1904 176,1900 164,1892 137,1892"/>
@@ -1119,32 +1134,32 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>XXIII. Sed neſcit furor miraculo mi-&#13;
-teſcere. Quumque reſediſſet parumper&#13;
-tumultus, Ieſus ipſos Pontifices, templi&#13;
-praefectos &amp; ſeniores, quibus expeditio&#13;
-haec demandata erat, adfatur: Tamquam&#13;
-ad latronem exiuiſtis violenta manu;&#13;
-cur motu eo opus fuit? Numquid&#13;
-armatis ſtipatus ſedi, quum in templo&#13;
-veſtro quotidie publice docerem, vt ſe-&#13;
-ceſſum quaeratis, quum capere conten-&#13;
-ditis? Et ſi auctoritate publica hoc&#13;
-factum eſt, cur ei exſequendo erga non&#13;
-reſiſtentem illa vis paranda fuit? Si&#13;
-doctrina peccaui, ibi vindicandum fuit,&#13;
-quum delinquerem; nunc ſcio, animad-&#13;
-vertitis, quando adhuc veſtri facti iu-&#13;
-ſtitiam alicui adprobare ſatagitis. Sed&#13;
-haec hora eſt, qua potentiae infernali&#13;
-tenebrarum habenae laxantur, &amp; ali-&#13;
-quid amplius licet, vt praeſtem, quae&#13;
-veſtri prophetae de ſorte mea praedixe-&#13;
-runt. Alio tempore ligatas habuiſtis&#13;
-manus, vt nocere nec poſſitis, quantum-&#13;
-vis voluntas non defuit. Ita cauſſam&#13;
-ſuam ſatis demonſtraſſe cuiuis iuſtitiae a-&#13;
-manti credi poterat; ſed nihil, quod iu-&#13;
+        <Unicode>XXIII. Sed neſcit furor miraculo mi-
+teſcere. Quumque reſediſſet parumper
+tumultus, Ieſus ipſos Pontifices, templi
+praefectos &amp; ſeniores, quibus expeditio
+haec demandata erat, adfatur: Tamquam
+ad latronem exiuiſtis violenta manu;
+cur motu eo opus fuit? Numquid
+armatis ſtipatus ſedi, quum in templo
+veſtro quotidie publice docerem, vt ſe-
+ceſſum quaeratis, quum capere conten-
+ditis? Et ſi auctoritate publica hoc
+factum eſt, cur ei exſequendo erga non
+reſiſtentem illa vis paranda fuit? Si
+doctrina peccaui, ibi vindicandum fuit,
+quum delinquerem; nunc ſcio, animad-
+vertitis, quando adhuc veſtri facti iu-
+ſtitiam alicui adprobare ſatagitis. Sed
+haec hora eſt, qua potentiae infernali
+tenebrarum habenae laxantur, &amp; ali-
+quid amplius licet, vt praeſtem, quae
+veſtri prophetae de ſorte mea praedixe-
+runt. Alio tempore ligatas habuiſtis
+manus, vt nocere nec poſſitis, quantum-
+vis voluntas non defuit. Ita cauſſam
+ſuam ſatis demonſtraſſe cuiuis iuſtitiae a-
+manti credi poterat; ſed nihil, quod iu-
 ſtum erat, hiſce iniuſtitiae extremae ma-</Unicode>
       </TextEquiv>
     </TextRegion>

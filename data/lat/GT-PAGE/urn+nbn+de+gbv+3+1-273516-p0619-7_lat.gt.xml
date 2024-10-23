@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-118">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:00Z</Created>
     <LastChange>2024-01-19T13:08:00Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-273516-p0619-7_lat.jpg" imageWidth="2435" imageHeight="3068" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/91305371-cc64-479f-a6c0-abc4c987f2d6/00000619.jpg" imageWidth="2435" imageHeight="3068" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="128,251 109,2811 2038,2913 2034,212"/>
     </Border>
@@ -17,18 +32,18 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1651738779113_3169"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.77256835" readingDirection="left-to-right" id="TextRegion_1651738766753_3156" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1651738766753_3156" custom="readingOrder {index:0;}" orientation="-0.77256835" readingDirection="left-to-right">
       <Coords points="284,683 1409,700 1398,1425 1391,1515 281,1498 273,1408"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="284,684 283,692 283,743 317,743 321,741 323,733 417,733 456,745 527,740 701,744 726,746 744,753 768,756 775,750 795,753 839,749 843,751 842,760 848,763 867,760 874,751 962,753 975,758 985,756 993,758 997,765 1065,762 1181,766 1193,771 1203,768 1268,767 1276,764 1294,767 1374,768 1408,765 1408,733 1320,729 1319,720 1314,715 1301,716 1296,728 1286,717 1220,716 1204,718 1198,722 1196,729 1190,728 1126,724 1125,717 1120,712 1105,713 1100,723 1091,722 1087,713 1077,711 1013,710 1007,719 955,716 943,713 899,715 897,707 891,701 879,702 874,712 841,712 839,704 835,701 770,700 764,709 672,706 666,695 655,695 649,703 578,703 576,695 570,690 479,688 474,693 473,701 441,696 371,695 367,685 353,685 347,693 341,693 340,685"/>
         <Word id="word_1651739203800_3177" custom="readingOrder {index:0;}">
-          <Coords points="289,689 340,689 349,689 369,690 437,695 469,719 469,735 437,736 289,734"/>
+          <Coords points="340,689 289,689 289,734 323,734 323,733 417,733 426,736 437,736 469,735 469,719 438,696 371,695 369,690 350,689 347,693 341,693 340,689"/>
           <TextEquiv>
             <Unicode>ſationen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651739235977_3188" custom="readingOrder {index:1;}">
-          <Coords points="506,694 667,696 739,708 770,724 770,739 765,739 506,727"/>
+          <Coords points="506,694 506,727 765,739 770,739 770,724 739,708 672,706 667,696 654,696 649,703 578,703 576,695 576,695"/>
           <TextEquiv>
             <Unicode>Relaxationen,</Unicode>
           </TextEquiv>
@@ -64,13 +79,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739258554_3203" custom="readingOrder {index:1;}">
-          <Coords points="403,740 431,740 585,752 609,769 609,784 585,787 398,785 398,748 400,744"/>
+          <Coords points="431,740 404,740 400,744 398,752 398,785 495,786 509,785 510,786 553,787 564,786 566,787 585,787 609,784 609,769 585,752 434,745 432,740"/>
           <TextEquiv>
             <Unicode>Satzungen,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651739267112_3209" custom="readingOrder {index:2;}">
-          <Coords points="635,744 667,744 788,751 876,761 904,775 904,789 894,789 635,777"/>
+          <Coords points="635,744 635,777 894,789 904,789 904,775 877,761 865,761 847,764 842,761 793,759 788,751 775,751 769,758 674,755 667,744"/>
           <TextEquiv>
             <Unicode>Gevvonheiten,</Unicode>
           </TextEquiv>
@@ -88,7 +103,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739288133_3219" custom="readingOrder {index:5;}">
-          <Coords points="1205,778 1283,775 1397,790 1398,791 1402,796 1402,810 1382,810 1205,802"/>
+          <Coords points="1283,775 1205,778 1205,802 1382,810 1402,810 1402,796 1398,791 1397,790 1310,778 1289,778 1288,775"/>
           <TextEquiv>
             <Unicode>Verbotten,</Unicode>
           </TextEquiv>
@@ -214,7 +229,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0006_word0003" custom="readingOrder {index:3;}">
-          <Coords points="765,903 765,934 867,937 867,907 802,906 800,897 784,895 780,897 778,906 770,906"/>
+          <Coords points="765,934 867,937 867,907 802,906 800,897 784,895 780,897 778,906 770,906 765,905"/>
           <TextEquiv>
             <Unicode>deren</Unicode>
           </TextEquiv>
@@ -250,7 +265,7 @@
       <TextLine id="region0002_line0007" custom="readingOrder {index:5;}">
         <Coords points="347,930 340,933 338,943 328,944 318,944 317,934 312,931 294,932 292,944 280,944 280,946 280,981 379,982 399,986 439,986 542,983 554,984 556,993 567,998 583,997 593,986 605,986 657,990 826,994 828,1002 837,1006 849,1005 856,995 920,995 1152,1007 1206,1006 1278,1012 1346,1013 1364,1016 1404,1011 1404,994 1404,979 1384,979 1372,972 1364,960 1352,962 1348,966 1351,976 1345,977 1336,974 1334,970 1312,965 1302,975 1279,972 1221,971 1220,962 1215,959 1198,960 1196,970 1179,968 1172,959 1167,958 1158,959 1153,966 1108,965 1106,955 1098,953 1088,954 1085,963 1047,963 1049,952 1030,941 1015,946 1011,950 1011,960 943,959 929,958 928,950 921,947 909,948 904,958 896,958 870,945 854,946 844,956 698,951 693,941 677,942 673,951 629,951 613,950 611,941 605,938 584,937 572,947 493,945 491,938 476,941 462,937 460,945 432,947 417,944 364,943 363,933"/>
         <Word id="word_1651739381358_3258" custom="readingOrder {index:0;}">
-          <Coords points="295,933 316,933 339,933 363,934 399,943 421,964 421,977 413,977 295,971"/>
+          <Coords points="295,933 295,971 413,977 421,977 421,964 400,944 364,943 363,934 363,934 340,933 338,943 328,944 318,944 317,934 315,933"/>
           <TextEquiv>
             <Unicode>haben,</Unicode>
           </TextEquiv>
@@ -472,13 +487,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739502628_3327" custom="readingOrder {index:6;}">
-          <Coords points="1023,1102 1030,1101 1060,1103 1117,1116 1138,1122 1137,1137 1133,1137 1023,1124"/>
+          <Coords points="1023,1124 1133,1137 1137,1137 1138,1122 1120,1117 1068,1115 1065,1105 1060,1103 1051,1103 1044,1108 1038,1102 1030,1101 1023,1102"/>
           <TextEquiv>
             <Unicode>hôren,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0010_word0008" custom="readingOrder {index:7;}">
-          <Coords points="1157,1118 1157,1153 1338,1156 1338,1122 1302,1121 1301,1114 1297,1111 1281,1112 1277,1123 1247,1122"/>
+          <Coords points="1157,1153 1193,1153 1202,1149 1216,1153 1217,1153 1338,1156 1338,1122 1302,1121 1301,1114 1297,1111 1281,1112 1277,1123 1247,1122 1157,1118"/>
           <TextEquiv>
             <Unicode>ungeacht,</Unicode>
           </TextEquiv>
@@ -520,7 +535,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739537988_3345" custom="readingOrder {index:4;}">
-          <Coords points="817,1157 861,1147 882,1147 919,1150 964,1179 964,1194 928,1200 817,1198"/>
+          <Coords points="862,1147 853,1158 817,1157 817,1194 817,1198 865,1198 886,1197 911,1199 928,1200 964,1194 964,1179 931,1158 924,1158 919,1150 906,1150 900,1158 887,1158 885,1149 881,1147"/>
           <TextEquiv>
             <Unicode>geſtalt,</Unicode>
           </TextEquiv>
@@ -544,7 +559,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739564448_3362" custom="readingOrder {index:8;}">
-          <Coords points="1317,1176 1355,1168 1397,1166 1397,1202 1352,1202 1317,1190"/>
+          <Coords points="1317,1190 1352,1202 1397,1202 1397,1166 1355,1168 1346,1171 1344,1178 1320,1177 1317,1176"/>
           <TextEquiv>
             <Unicode>maß</Unicode>
           </TextEquiv>
@@ -610,7 +625,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1651739611153_3415" custom="readingOrder {index:9;}">
-          <Coords points="1273,1218 1275,1216 1290,1215 1336,1215 1386,1232 1393,1240 1393,1260 1374,1260 1273,1249"/>
+          <Coords points="1275,1216 1273,1220 1273,1249 1374,1260 1393,1260 1393,1240 1392,1240 1386,1232 1348,1231 1341,1217 1336,1215 1317,1215 1305,1228 1297,1229 1295,1220 1290,1215"/>
           <TextEquiv>
             <Unicode>laſſen,</Unicode>
           </TextEquiv>
@@ -944,7 +959,7 @@ ediƈt. l.1. §. qui ſemel. ff. de ſucceſſ. ediƈt. C. quam peri-
 culoſum. 7. q.1.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.77256835" type="caption" readingDirection="left-to-right" id="TextRegion_1651738774855_3164" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1651738774855_3164" custom="readingOrder {index:1;}" orientation="-0.77256835" type="caption" readingDirection="left-to-right">
       <Coords points="275,1515 1395,1532 1392,1871 1390,2006 1303,2043 267,2027 264,1989 266,1854"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="346,1517 342,1561 347,1566 376,1568 392,1564 399,1568 462,1566 636,1573 740,1573 747,1577 800,1575 874,1580 932,1580 960,1584 1020,1584 1032,1598 1043,1595 1050,1587 1104,1591 1161,1592 1181,1596 1278,1597 1284,1599 1289,1610 1295,1611 1303,1609 1323,1596 1351,1597 1364,1600 1393,1596 1393,1562 1346,1560 1344,1552 1335,1546 1320,1547 1312,1557 1237,1557 1221,1555 1219,1547 1214,1543 1204,1543 1198,1547 1186,1543 1131,1542 1097,1548 1058,1548 1042,1547 1039,1536 1025,1533 972,1533 962,1535 957,1542 936,1543 936,1534 931,1529 917,1530 913,1535 912,1542 907,1543 900,1542 893,1530 877,1531 871,1540 806,1538 805,1529 800,1525 788,1527 782,1538 771,1538 771,1528 766,1523 678,1523 663,1526 659,1533 606,1533 603,1521 583,1520 581,1532 567,1529 562,1520 533,1520 529,1529 455,1527 450,1519"/>
@@ -1033,7 +1048,7 @@ culoſum. 7. q.1.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651739763532_3500" custom="readingOrder {index:5;}">
-          <Coords points="791,1586 913,1581 932,1581 957,1592 985,1606 984,1621 957,1625 791,1623"/>
+          <Coords points="913,1581 903,1589 791,1586 791,1623 957,1625 984,1621 985,1606 957,1592 943,1592 939,1591 937,1584 932,1581"/>
           <TextEquiv>
             <Unicode>gevveſen,</Unicode>
           </TextEquiv>
@@ -1165,7 +1180,7 @@ culoſum. 7. q.1.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1040,1696 1040,1734 1200,1736 1200,1703 1182,1703 1181,1695 1176,1692 1160,1694 1158,1702 1086,1696"/>
+          <Coords points="1040,1732 1081,1734 1087,1734 1200,1736 1200,1703 1182,1703 1181,1695 1176,1692 1160,1694 1158,1702 1086,1696 1040,1696"/>
           <TextEquiv conf="0.90686476">
             <Unicode>nunmehr</Unicode>
           </TextEquiv>
@@ -1177,7 +1192,7 @@ culoſum. 7. q.1.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1332,1700 1332,1749 1387,1748 1387,1709 1355,1711 1354,1702 1349,1699"/>
+          <Coords points="1332,1747 1387,1747 1387,1710 1355,1711 1354,1702 1349,1699 1332,1701"/>
           <TextEquiv>
             <Unicode>be-</Unicode>
           </TextEquiv>
@@ -1315,7 +1330,7 @@ culoſum. 7. q.1.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0001_word0005" custom="readingOrder {index:4;}">
-          <Coords points="959,1824 942,1824 938,1833 841,1830 841,1871 848,1871 1053,1883 1053,1842 1023,1830 1013,1830 1006,1838 969,1836 963,1834 962,1827"/>
+          <Coords points="942,1824 938,1833 841,1830 841,1870 848,1871 906,1874 908,1874 943,1876 1053,1883 1053,1842 1046,1839 1030,1838 1023,1830 1013,1830 1006,1838 969,1836 963,1834 962,1827 959,1824"/>
           <TextEquiv>
             <Unicode>approbavi,</Unicode>
           </TextEquiv>
@@ -1543,7 +1558,7 @@ culoſum. 7. q.1.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0009_line0001_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1300,1991 1275,1990 1268,2000 1215,2001 1205,2000 1203,1992 1197,1987 1185,1989 1181,1997 1168,1997 1074,1991 1062,1989 1062,2017 1299,2020 1299,1999 1292,1999 1299,1989"/>
+          <Coords points="1300,1991 1275,1990 1268,2000 1215,2001 1205,2000 1197,1987 1185,1989 1181,1997 1062,1989 1062,2017 1299,2020 1299,1999 1292,1999"/>
           <TextEquiv conf="0.8744577">
             <Unicode>concordantib.</Unicode>
           </TextEquiv>
@@ -1565,7 +1580,7 @@ tum eſt, ſtandum eſſe paƈtis. leg. avia C. de jur. dot. leg.
 final. in fin. Cod. de paƈt. cum aliis ſimil. concordantib.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.77256835" readingDirection="left-to-right" id="TextRegion_1651738779113_3169" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1651738779113_3169" custom="readingOrder {index:2;}" orientation="-0.77256835" readingDirection="left-to-right">
       <Coords points="274,2029 1392,2046 1386,2425 1380,2509 271,2492 268,2408"/>
       <TextLine id="region0010_line0001" custom="readingOrder {index:0;}">
         <Coords points="350,2031 347,2048 339,2054 339,2074 348,2080 526,2083 532,2086 550,2085 554,2088 621,2087 626,2090 743,2092 750,2102 756,2103 768,2100 774,2091 789,2090 840,2092 844,2096 856,2096 863,2102 873,2100 878,2093 942,2094 972,2105 1040,2101 1048,2105 1065,2103 1075,2106 1131,2107 1147,2111 1195,2112 1197,2122 1208,2125 1230,2125 1252,2119 1260,2114 1390,2115 1391,2109 1391,2077 1348,2077 1346,2068 1341,2064 1327,2065 1323,2076 1316,2076 1309,2065 1297,2067 1293,2076 1254,2075 1252,2067 1245,2062 1224,2063 1211,2075 1191,2075 1141,2071 1137,2061 1111,2054 1057,2053 1043,2058 1037,2050 1025,2049 1020,2054 1019,2062 1003,2064 968,2058 967,2050 962,2045 947,2046 944,2056 937,2057 935,2050 930,2046 918,2047 913,2056 893,2056 889,2045 869,2042 861,2046 855,2054 849,2054 847,2047 842,2043 815,2044 811,2039 756,2038 745,2041 730,2038 724,2043 723,2051 683,2053 608,2050 604,2040 593,2038 582,2037 576,2041 574,2048 567,2048 487,2043 486,2033 465,2033 462,2042 457,2042 454,2033"/>
@@ -1738,7 +1753,7 @@ final. in fin. Cod. de paƈt. cum aliis ſimil. concordantib.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651740275209_3690" custom="readingOrder {index:3;}">
-          <Coords points="704,2201 761,2191 789,2190 821,2194 866,2214 866,2228 839,2236 704,2234"/>
+          <Coords points="704,2234 839,2236 866,2228 866,2214 845,2204 843,2205 828,2202 821,2194 812,2194 805,2201 796,2201 793,2192 789,2190 774,2191 771,2197 769,2192 761,2191 747,2202 704,2201"/>
           <TextEquiv>
             <Unicode>gehôrig,</Unicode>
           </TextEquiv>
@@ -1792,7 +1807,7 @@ final. in fin. Cod. de paƈt. cum aliis ſimil. concordantib.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1651740392172_3701" custom="readingOrder {index:3;}">
-          <Coords points="720,2245 733,2242 770,2240 856,2252 885,2264 885,2278 855,2282 710,2280 711,2254"/>
+          <Coords points="720,2245 711,2254 710,2280 855,2282 885,2278 885,2264 856,2252 824,2255 816,2248 807,2247 802,2252 786,2253 777,2242 770,2240 756,2243 748,2252 735,2252 733,2242"/>
           <TextEquiv>
             <Unicode>befinden,</Unicode>
           </TextEquiv>
@@ -1960,7 +1975,7 @@ final. in fin. Cod. de paƈt. cum aliis ſimil. concordantib.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0001_word0003" custom="readingOrder {index:3;}">
-          <Coords points="824,2411 824,2433 1068,2436 1068,2416 973,2413 966,2403 954,2404 948,2412 921,2412 921,2404 916,2399 905,2399 898,2407 890,2398 874,2399 863,2411 859,2410 860,2402 855,2397 842,2397 837,2401 834,2411"/>
+          <Coords points="824,2433 1068,2436 1068,2416 973,2413 966,2403 954,2404 948,2412 921,2412 921,2404 920,2403 918,2403 918,2401 916,2399 905,2399 898,2407 890,2398 874,2399 863,2411 859,2410 860,2402 856,2401 856,2398 855,2397 842,2397 837,2401 834,2411 824,2411"/>
           <TextEquiv conf="0.8741423">
             <Unicode>abſolutionem</Unicode>
           </TextEquiv>
@@ -2006,14 +2021,14 @@ final. in fin. Cod. de paƈt. cum aliis ſimil. concordantib.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Solchem allem nach ſchlieſſe ich, daß die auffgerichte&#13;
-Heyrats-Verſchreibunge und der darauff erfolgte Verzieg&#13;
-zu Recht krâfftig und beſtândig, Sintemal alle Subſtan-&#13;
-tial-Stücke, ſo darzu gehôrig, und in Rechten erfordert&#13;
-vverden, darinnen zu befinden, und daß viel und vvol-&#13;
-gemeldte Frau ARESCUSA ſolchen zu Recht untüchtig und&#13;
-nichtig nicht vverde machen kônnen, noch viel vveniger&#13;
-darvvider reſtitutionem vel abſolutionem à juramento er-&#13;
+        <Unicode>Solchem allem nach ſchlieſſe ich, daß die auffgerichte
+Heyrats-Verſchreibunge und der darauff erfolgte Verzieg
+zu Recht krâfftig und beſtândig, Sintemal alle Subſtan-
+tial-Stücke, ſo darzu gehôrig, und in Rechten erfordert
+vverden, darinnen zu befinden, und daß viel und vvol-
+gemeldte Frau ARESCUSA ſolchen zu Recht untüchtig und
+nichtig nicht vverde machen kônnen, noch viel vveniger
+darvvider reſtitutionem vel abſolutionem à juramento er-
 langen mœgen.</Unicode>
       </TextEquiv>
     </TextRegion>

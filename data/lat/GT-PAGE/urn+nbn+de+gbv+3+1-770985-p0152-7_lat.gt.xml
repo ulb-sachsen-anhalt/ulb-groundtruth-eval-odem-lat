@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-266">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:10Z</Created>
     <LastChange>2024-01-19T13:10:10Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-770985-p0152-7_lat.png" imageWidth="2569" imageHeight="2914" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/17a86635-8be2-4c02-9b48-61480df22263/00000152.jpg" imageWidth="2569" imageHeight="2914" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="288,253 266,2795 2445,2786 2450,287"/>
     </Border>
@@ -20,10 +35,7 @@
         <RegionRefIndexed index="6" regionRef="region_1682583023592_530"/>
       </OrderedGroup>
     </ReadingOrder>
-    <SeparatorRegion id="Separator_1682583046189_551" custom="readingOrder {index:0;}">
-      <Coords points="738,692 2292,692 2292,724 738,724"/>
-    </SeparatorRegion>
-    <TextRegion type="page-number" id="region_1682582953236_420" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682582953236_420" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="711,395 711,451 820,451 820,395"/>
       <TextLine id="line_1682582953382_423" custom="readingOrder {index:0;}">
         <Coords points="711,395 711,451 820,451 820,395"/>
@@ -41,7 +53,7 @@
         <Unicode>140</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="header" id="region_1682582957005_429" custom="readingOrder {index:2;} structure {type:header;}">
+    <TextRegion id="region_1682582957005_429" custom="readingOrder {index:2;} structure {type:header;}" type="header">
       <Coords points="1165,383 1165,445 1903,445 1903,383"/>
       <TextLine id="line_1682582957142_432" custom="readingOrder {index:0;}">
         <Coords points="1165,383 1165,445 1903,445 1903,383"/>
@@ -83,7 +95,7 @@
         <Unicode>Sect. III. De Militia Germanorum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45801562" readingDirection="left-to-right" id="region0008" custom="readingOrder {index:3;}">
+    <TextRegion id="region0008" custom="readingOrder {index:3;}" orientation="-0.45801562" readingDirection="left-to-right">
       <Coords points="717,485 2321,485 2321,666 717,666"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="1908,486 1896,488 1887,497 1881,497 1635,496 1632,485 1603,485 1596,494 1578,495 1511,494 1494,485 1362,485 1358,495 1352,497 1284,499 1277,490 1265,490 1257,499 1243,500 1193,499 1191,493 1185,489 1166,486 1154,488 1150,499 1078,499 954,498 872,495 868,492 856,495 824,495 818,487 783,486 771,489 765,497 718,498 718,545 724,545 729,553 738,553 746,546 783,547 798,544 1070,550 1132,546 1231,548 1238,545 1254,545 1360,548 1393,551 1404,555 1414,551 1456,551 1482,541 1547,541 1573,544 1709,546 1751,549 1754,554 1760,556 1765,555 1772,548 1784,547 1791,551 1811,550 1817,558 1843,556 1849,547 1952,549 1978,552 1981,558 1990,560 2006,560 2020,554 2069,549 2320,555 2321,505 2212,502 2205,500 2202,491 2192,489 2177,491 2172,501 2132,502 2129,495 2120,490 2108,492 2103,500 1998,498 1983,496 1966,487"/>
@@ -226,7 +238,7 @@ nialibus ſuis prædiis fuerunt, &amp; hæc omnia more antiqui Laco-
 nismi</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45801562" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:4;}">
+    <TextRegion id="region0011" custom="readingOrder {index:4;}" orientation="-0.45801562" readingDirection="left-to-right">
       <Coords points="715,733 2323,733 2323,894 715,894"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="2082,733 2074,736 2069,743 2039,745 2029,745 2027,738 2022,734 1996,733 1989,737 1987,744 1954,750 1939,745 1907,743 1872,744 1870,737 1865,733 1851,734 1845,745 1762,745 1753,743 1746,734 1735,734 1730,738 1729,744 1725,745 1723,737 1718,733 1704,734 1699,745 1678,743 1672,734 1557,734 1553,748 1539,745 1475,744 1473,737 1465,733 1455,734 1450,745 1379,744 1377,737 1372,733 1356,734 1352,744 1330,743 1325,734 1310,734 1303,743 1274,743 1269,734 1236,733 1232,742 1128,740 1126,733 1105,733 1103,740 1030,742 962,741 956,734 940,734 934,742 921,744 912,736 887,736 881,739 879,746 847,746 839,735 826,736 819,746 771,746 764,745 762,740 754,734 715,733 716,792 817,794 824,790 837,789 910,791 915,788 958,789 967,785 995,785 1005,788 1030,786 1037,797 1047,798 1057,795 1058,790 1076,790 1084,796 1095,796 1097,792 1113,786 1134,789 1142,786 1151,786 1154,791 1171,793 1174,793 1175,789 1220,790 1226,787 1279,792 1409,793 1494,792 1530,789 1539,797 1547,797 1554,792 1579,791 1589,786 1605,786 1611,789 1689,788 1695,791 1887,793 1902,790 1909,794 1924,794 1929,797 2017,790 2024,787 2052,791 2124,792 2134,793 2141,799 2149,799 2156,794 2323,794 2323,749 2253,747 2247,736 2234,735 2227,740 2225,747 2170,749 2154,756 2144,748 2105,743 2096,733"/>
@@ -399,7 +411,7 @@ que illa Judicia nihil minus, quam clauſa, &amp; omnes intra fines compre-
 hendentia fuiſſe.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.45801562" readingDirection="left-to-right" id="region0012" custom="readingOrder {index:5;}">
+    <TextRegion id="region0012" custom="readingOrder {index:5;}" orientation="-0.45801562" readingDirection="left-to-right">
       <Coords points="706,908 2333,908 2334,2474 707,2474"/>
       <TextLine id="region0012_line0001" custom="readingOrder {index:0;}">
         <Coords points="2090,911 2085,915 2083,924 2028,926 2015,925 2014,918 2009,913 1994,914 1989,925 1956,925 1954,915 1947,911 1814,913 1766,920 1503,908 1371,908 1369,912 1352,912 1346,922 1258,922 1253,913 1240,911 1231,914 1226,923 1155,923 1148,913 1134,912 1125,922 1090,924 1057,922 1046,914 1036,912 864,910 804,916 801,920 801,952 809,958 809,967 812,971 827,968 844,975 909,979 943,977 974,968 1004,967 1032,971 1153,971 1159,968 1175,971 1222,971 1253,967 1375,969 1396,969 1402,966 1420,969 1497,967 1504,964 1552,971 1570,968 1578,974 1633,973 1667,967 1690,970 1799,967 1809,970 1812,975 1823,978 1833,975 1834,972 1858,977 1880,969 1960,972 1973,969 1980,972 2052,973 2114,968 2139,970 2140,977 2157,981 2165,978 2167,971 2175,969 2291,972 2333,967 2333,926 2111,923 2107,913"/>
@@ -2660,7 +2672,7 @@ hendentia fuiſſe.</Unicode>
         <Baseline points="706,2411 1613,2399 1774,2407 2333,2408"/>
         <Word id="region0012_line0029_word0000" custom="readingOrder {index:0;}">
           <Coords points="714,2412 895,2414 895,2372 837,2374 832,2369 821,2368 811,2372 810,2376 805,2370 792,2369 786,2372 785,2377 748,2376 747,2372 741,2369 724,2369 714,2370"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſiquidem</Unicode>
           </TextEquiv>
         </Word>
@@ -2717,7 +2729,7 @@ hendentia fuiſſe.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0012_line0030" custom="readingOrder {index:29;}">
-        <Coords points="1609,2408 1602,2411 1601,2417 1543,2418 1541,2413 1536,2411 1508,2410 1501,2418 1403,2421 1399,2421 1397,2415 1391,2412 1378,2410 1352,2416 1348,2423 1311,2425 1285,2425 1278,2418 1265,2419 1261,2424 1214,2423 1207,2417 1179,2417 1171,2424 1169,2419 1162,2416 1144,2420 1122,2415 1075,2417 1069,2414 1057,2415 1052,2421 1043,2422 1042,2417 1038,2415 1026,2414 1019,2417 1017,2423 988,2416 927,2417 892,2426 795,2429 789,2429 787,2423 771,2421 765,2432 756,2430 751,2420 720,2420 714,2427 707,2427 706,2474 979,2474 1116,2469 1191,2472 1198,2478 1206,2478 1216,2472 1296,2475 1308,2478 1312,2475 1367,2471 1523,2468 1553,2471 1557,2468 1642,2467 1682,2468 1692,2471 1801,2472 1804,2485 1817,2487 1830,2484 1839,2472 1882,2474 2015,2472 2019,2485 2031,2486 2039,2481 2042,2473 2177,2476 2195,2473 2208,2477 2285,2473 2316,2470 2325,2465 2333,2466 2333,2433 2265,2430 2264,2422 2259,2419 2247,2419 2237,2432 2230,2432 2221,2428 2200,2427 2199,2422 2193,2419 2177,2420 2171,2427 2165,2427 2164,2422 2160,2420 2149,2419 2142,2422 2140,2427 2131,2426 2129,2420 2109,2416 2094,2417 2090,2424 2086,2424 2084,2418 2071,2414 2055,2417 2052,2422 1972,2421 1966,2415 1952,2415 1944,2422 1937,2423 1873,2423 1867,2416 1856,2415 1849,2418 1847,2423 1804,2424 1798,2417 1786,2417 1780,2423 1694,2419 1692,2414 1686,2411 1671,2410 1659,2410 1654,2413 1653,2418 1627,2417 1625,2411"/>
+        <Coords points="1602,2411 1601,2417 1543,2418 1541,2413 1536,2411 1508,2410 1501,2418 1403,2421 1399,2421 1397,2415 1391,2412 1378,2410 1352,2416 1348,2423 1311,2425 1285,2425 1278,2418 1265,2419 1261,2424 1214,2423 1207,2417 1179,2417 1171,2424 1169,2419 1162,2416 1144,2420 1122,2415 1075,2417 1069,2414 1057,2415 1052,2421 1043,2422 1042,2417 1038,2415 1026,2414 1019,2417 1017,2423 988,2416 927,2417 892,2426 795,2429 789,2429 787,2423 771,2421 765,2432 756,2430 751,2420 720,2420 714,2427 707,2427 706,2428 707,2474 979,2474 1116,2469 1191,2472 1193,2474 1212,2474 1216,2472 1269,2474 1325,2474 1367,2471 1523,2468 1553,2471 1557,2468 1642,2467 1682,2468 1692,2471 1801,2472 1801,2474 1837,2474 1839,2472 1882,2474 2015,2472 2015,2474 2041,2474 2042,2473 2087,2474 2189,2474 2195,2473 2198,2474 2265,2474 2285,2473 2316,2470 2325,2465 2333,2466 2333,2433 2265,2430 2264,2422 2259,2419 2247,2419 2237,2432 2230,2432 2221,2428 2200,2427 2199,2422 2193,2419 2177,2420 2171,2427 2165,2427 2164,2422 2160,2420 2149,2419 2142,2422 2140,2427 2131,2426 2129,2420 2109,2416 2094,2417 2090,2424 2086,2424 2084,2418 2071,2414 2055,2417 2052,2422 1972,2421 1966,2415 1952,2415 1944,2422 1937,2423 1873,2423 1867,2416 1856,2415 1849,2418 1847,2423 1804,2424 1798,2417 1786,2417 1780,2423 1694,2419 1692,2414 1686,2411 1671,2410 1659,2410 1654,2413 1653,2418 1627,2417 1625,2411 1609,2408"/>
         <Baseline points="707,2464 1312,2465 1582,2457 2196,2466 2333,2460"/>
         <Word id="region0012_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="712,2454 904,2456 904,2422 892,2426 795,2429 789,2429 787,2423 771,2421 765,2432 756,2430 751,2420 720,2420 714,2427 712,2427"/>
@@ -2790,39 +2802,39 @@ hendentia fuiſſe.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(f) Dictum hac de re in Sect. II. §. 6. not. (d) ſi enim absque con-&#13;
-ventione publica jus in rebus toti Ordini communibus Regi non fuerit con-&#13;
-ſtitutum, tale quid autem de jure in certo loco, non autem de jure ge-&#13;
-nerali in Reges transferendo egerit, ita &amp; absque expreſſo conſenſu jus Re-&#13;
-gibus in diviſa Nobilium Territoria adſeri nequit, qui eo magis deſideratur,&#13;
-quo pleniori cum libertate his vti ſueverant ſinguli Nobiles, cujus reſtrictio&#13;
-præſumi nequit. Ex his vero vtilitatibus extraordinariis Territorio Nobili ad-&#13;
-glutinatis ex ſtatu poſſeſſoris jam in §. 4. not. (b) &amp; (c) &amp; h. §. not. (d) fo-&#13;
-reſta &amp; in not. (e) conjectas, ſive tributa colonorum dominio obnoxiorum&#13;
-vidimus, &amp; de piſcatione ac venatione in ſuis terris exercita dubitabit ne-&#13;
-mo: eadem autem, quæ in Allodiis, &amp; in Feudis Nobilium fuerunt ac-&#13;
-ceſſoria, teſte Docum ao. 37. Regni Ludov. Germ. confecto ap. Lunig.&#13;
-Spic. Eccl. Vol III. S. Gallen Nro. 31. p. 204. Cum licentia Domini Regis&#13;
-Hludovici --- accepit de ſupradicto Wuitperto; Vaſallo Domini Regis ex parte ſui&#13;
-beneficii in eodem pago (Zurichgauge) &amp; in loco Velebach nuncupato II hobas &amp; ca-&#13;
-ſas cum curtis, ceterisque ædificiis atque vnam ſilvam ad eundem locum perti-&#13;
-nentem, nec non &amp; piſcationis vſum illius laci, qui ſupradicto loco contiguus fore&#13;
-videtur. Sed &amp; quando ſpes adpareret, repertum iri metallifodinas in ter-&#13;
-ritorio donato, earum quoque fit mentio in tabulis donationum. Vid. Di-&#13;
-plom. Caroli M. de a. 786. Ludovico, Glichenſis Familiæ Progenitori datum&#13;
-ap. Lun. ſpic. Sec. XII. Abſatz. Nro. 1. p. 266. Tibi tuisque heredibus concedi-&#13;
-mus tractum regionis in Saltu noſtro Thuringiaco ad XX. milliaria (forte Gallica)&#13;
-in longitudine, &amp; decem in latitudine jure hereditario poſſidendum &amp; ſacultatem&#13;
-damus in Territorio diſtricti illius Dominationis quærere &amp; fodere aurum ar-&#13;
-gentum atque omnia alia metalla, vti debeatis &amp; poſſitis. Donamus etiam&#13;
-oppida Glichou &amp; Aſchk cum omnibus requiſitis, quæ ad nos obitu Viri Nobilis,&#13;
-Sichardi, Domini in Gleicho pervénere. Datum ad Portum Naonis in Francia.&#13;
-Ex ſubſcriptione quidem loci &amp; diei pro ſpurio haberi nequit hoc Diploma,&#13;
-ſiquidem Carolus eodem anno contra Britannos minores inſtituerit expe-&#13;
+        <Unicode>(f) Dictum hac de re in Sect. II. §. 6. not. (d) ſi enim absque con-
+ventione publica jus in rebus toti Ordini communibus Regi non fuerit con-
+ſtitutum, tale quid autem de jure in certo loco, non autem de jure ge-
+nerali in Reges transferendo egerit, ita &amp; absque expreſſo conſenſu jus Re-
+gibus in diviſa Nobilium Territoria adſeri nequit, qui eo magis deſideratur,
+quo pleniori cum libertate his vti ſueverant ſinguli Nobiles, cujus reſtrictio
+præſumi nequit. Ex his vero vtilitatibus extraordinariis Territorio Nobili ad-
+glutinatis ex ſtatu poſſeſſoris jam in §. 4. not. (b) &amp; (c) &amp; h. §. not. (d) fo-
+reſta &amp; in not. (e) conjectas, ſive tributa colonorum dominio obnoxiorum
+vidimus, &amp; de piſcatione ac venatione in ſuis terris exercita dubitabit ne-
+mo: eadem autem, quæ in Allodiis, &amp; in Feudis Nobilium fuerunt ac-
+ceſſoria, teſte Docum ao. 37. Regni Ludov. Germ. confecto ap. Lunig.
+Spic. Eccl. Vol III. S. Gallen Nro. 31. p. 204. Cum licentia Domini Regis
+Hludovici --- accepit de ſupradicto Wuitperto; Vaſallo Domini Regis ex parte ſui
+beneficii in eodem pago (Zurichgauge) &amp; in loco Velebach nuncupato II hobas &amp; ca-
+ſas cum curtis, ceterisque ædificiis atque vnam ſilvam ad eundem locum perti-
+nentem, nec non &amp; piſcationis vſum illius laci, qui ſupradicto loco contiguus fore
+videtur. Sed &amp; quando ſpes adpareret, repertum iri metallifodinas in ter-
+ritorio donato, earum quoque fit mentio in tabulis donationum. Vid. Di-
+plom. Caroli M. de a. 786. Ludovico, Glichenſis Familiæ Progenitori datum
+ap. Lun. ſpic. Sec. XII. Abſatz. Nro. 1. p. 266. Tibi tuisque heredibus concedi-
+mus tractum regionis in Saltu noſtro Thuringiaco ad XX. milliaria (forte Gallica)
+in longitudine, &amp; decem in latitudine jure hereditario poſſidendum &amp; ſacultatem
+damus in Territorio diſtricti illius Dominationis quærere &amp; fodere aurum ar-
+gentum atque omnia alia metalla, vti debeatis &amp; poſſitis. Donamus etiam
+oppida Glichou &amp; Aſchk cum omnibus requiſitis, quæ ad nos obitu Viri Nobilis,
+Sichardi, Domini in Gleicho pervénere. Datum ad Portum Naonis in Francia.
+Ex ſubſcriptione quidem loci &amp; diei pro ſpurio haberi nequit hoc Diploma,
+ſiquidem Carolus eodem anno contra Britannos minores inſtituerit expe-
 ditionem &amp; Laici Nobiles in aſſervandis tabulis antiquis minus ſoliciti, ſo-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682583023592_530" custom="readingOrder {index:6;} structure {type:catch-word;}">
+    <TextRegion id="region_1682583023592_530" custom="readingOrder {index:6;} structure {type:catch-word;}" type="catch-word">
       <Coords points="2176,2484 2176,2531 2298,2531 2298,2484"/>
       <TextLine id="line_1682583023686_533" custom="readingOrder {index:0;}">
         <Coords points="2176,2484 2176,2531 2298,2531 2298,2484"/>
@@ -2840,5 +2852,8 @@ ditionem &amp; Laici Nobiles in aſſervandis tabulis antiquis minus ſoliciti, 
         <Unicode>laque</Unicode>
       </TextEquiv>
     </TextRegion>
+    <SeparatorRegion id="Separator_1682583046189_551" custom="readingOrder {index:0;}">
+      <Coords points="738,692 2292,692 2292,724 738,724"/>
+    </SeparatorRegion>
   </Page>
 </PcGts>

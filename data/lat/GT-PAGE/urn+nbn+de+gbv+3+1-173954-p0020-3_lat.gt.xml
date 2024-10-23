@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-63">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:35Z</Created>
     <LastChange>2024-01-19T13:07:35Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-173954-p0020-3_lat.jpg" imageWidth="2047" imageHeight="2470" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/b8d100ba-c8d4-4c80-bafc-4b68aa5ae37a/00000020.jpg" imageWidth="2047" imageHeight="2470" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="95,31 63,2385 1956,2414 1979,65"/>
     </Border>
@@ -20,10 +36,10 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1657522270147_360"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.60328597" readingDirection="left-to-right" id="TextRegion_1657522252736_322" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1657522252736_322" custom="readingOrder {index:0;}" orientation="-0.60328597" readingDirection="left-to-right">
       <Coords points="472,245 1808,245 1808,522 472,522"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
-        <Coords points="763,242 750,244 745,249 743,257 715,256 708,248 695,244 634,244 628,250 627,261 526,261 519,258 516,249 500,247 494,252 492,260 473,260 472,311 555,311 560,323 578,325 586,320 588,311 690,310 711,312 720,321 735,321 749,314 772,313 783,305 791,305 800,310 897,310 906,306 915,307 920,311 1068,313 1122,319 1128,324 1139,324 1146,320 1183,319 1192,328 1208,327 1217,315 1223,313 1462,313 1474,317 1575,323 1807,323 1808,275 1757,274 1754,265 1749,261 1736,262 1729,272 1636,270 1634,262 1629,258 1582,255 1558,257 1554,269 1482,269 1395,263 1389,252 1376,250 1366,253 1362,261 1141,264 1063,261 1059,259 1056,248 1045,245 965,244 935,247 917,258 890,260 887,249 880,244 865,247 839,243"/>
+        <Coords points="745,249 743,257 715,256 708,248 698,245 633,245 628,250 627,261 526,261 519,258 516,249 500,247 494,252 492,260 473,260 472,311 555,311 560,323 578,325 586,320 588,311 690,310 711,312 720,321 735,321 749,314 772,313 783,305 791,305 800,310 897,310 906,306 915,307 920,311 1068,313 1122,319 1128,324 1139,324 1146,320 1183,319 1192,328 1208,327 1217,315 1223,313 1462,313 1474,317 1575,323 1807,323 1808,275 1757,274 1754,265 1749,261 1736,262 1729,272 1636,270 1634,262 1629,258 1582,255 1558,257 1554,269 1482,269 1395,263 1389,252 1376,250 1366,253 1362,261 1141,264 1063,261 1059,259 1056,248 1045,245 955,245 935,247 917,258 890,260 887,249 881,245 875,245 865,247 852,245 749,245"/>
         <Baseline points="472,301 984,301 1158,309 1347,303 1807,314"/>
         <Word id="region0000_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="497,253 496,311 555,311 556,313 587,314 588,311 632,310 633,255 627,254 627,261 526,261 519,258 517,253"/>
@@ -206,7 +222,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0005" custom="readingOrder {index:3;}">
-        <Coords points="896,450 893,468 874,466 867,458 850,461 777,459 760,469 743,472 646,470 629,467 623,459 609,455 594,457 590,468 523,467 518,454 500,453 495,457 493,467 473,467 472,517 842,521 874,526 887,531 903,531 910,528 930,529 949,523 964,523 974,518 1048,519 1055,511 1062,511 1069,519 1244,519 1309,512 1312,508 1313,483 1316,476 1316,466 1311,461 1298,463 1293,472 1124,471 1117,462 1103,462 1095,471 1061,471 1022,468 964,468 961,461 952,455 944,455 932,462 917,461 913,453"/>
+        <Coords points="893,468 874,466 867,458 850,461 777,459 760,469 743,472 646,470 629,467 623,459 609,455 594,457 590,468 523,467 518,454 500,453 495,457 493,467 473,467 472,517 842,521 848,522 966,522 974,518 1048,519 1055,511 1062,511 1069,519 1244,519 1309,512 1312,508 1313,483 1316,476 1316,466 1311,461 1298,463 1293,472 1124,471 1117,462 1103,462 1095,471 1061,471 1022,468 964,468 961,461 952,455 944,455 932,462 917,461 913,453 896,450"/>
         <Baseline points="472,507 908,515 1055,511 1062,511 1312,506"/>
         <Word id="region0000_line0005_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="497,455 495,456 495,502 568,503 568,467 523,467 518,455"/>
@@ -243,16 +259,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>itaque Legi Fabiae SCtum, quo ea lex non ſolum in&#13;
-vſum reuocata, ſed aucta potius eo, vt id nouum cen-&#13;
-ſuerit Ordo Ampliſſimus: vt fugitiuos inquirere volenti-&#13;
+        <Unicode>itaque Legi Fabiae SCtum, quo ea lex non ſolum in
+vſum reuocata, ſed aucta potius eo, vt id nouum cen-
+ſuerit Ordo Ampliſſimus: vt fugitiuos inquirere volenti-
 bus literae ad Magiſtratus dentur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" type="heading" readingDirection="left-to-right" id="TextRegion_1657522256826_329" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657522256826_329" custom="readingOrder {index:1;} structure {type:heading;}" orientation="-0.60328597" type="heading" readingDirection="left-to-right">
       <Coords points="472,522 1808,522 1808,594 472,594"/>
       <TextLine id="region0000_line0006" custom="readingOrder {index:0;}">
-        <Coords points="1055,512 1048,520 1053,525 1009,528 979,533 976,537 977,574 981,577 1048,581 1048,592 1061,599 1122,602 1147,592 1273,590 1280,584 1280,574 1289,574 1294,569 1294,532 1289,527 1063,525 1068,518 1062,512"/>
+        <Coords points="1053,525 1009,528 979,533 976,537 977,574 981,577 1048,581 1048,592 1051,594 1142,594 1147,592 1273,590 1280,584 1280,574 1289,574 1294,569 1294,532 1289,527 1063,525 1065,522 1050,522"/>
         <Baseline points="977,568 1088,582 1280,580"/>
         <Word id="word_1657522256868_332" custom="readingOrder {index:0;}">
           <Coords points="1055,522 1064,522 1063,525 1095,525 1095,594 1055,594"/>
@@ -274,10 +290,10 @@ bus literae ad Magiſtratus dentur.</Unicode>
         <Unicode>§. II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" readingDirection="left-to-right" id="TextRegion_1657522259603_336" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1657522259603_336" custom="readingOrder {index:2;}" orientation="-0.60328597" readingDirection="left-to-right">
       <Coords points="472,594 1808,594 1808,1220 472,1220"/>
       <TextLine id="region0000_line0007" custom="readingOrder {index:0;}">
-        <Coords points="844,590 832,597 830,606 670,602 649,599 639,590 630,590 623,595 547,594 542,599 542,636 546,641 547,650 559,654 1275,661 1284,663 1288,671 1297,675 1308,673 1313,663 1406,661 1705,664 1808,668 1807,619 1579,614 1573,604 1555,603 1548,606 1544,613 1343,611 1341,604 1336,600 1323,602 1306,598 1221,597 1207,601 1200,610 1182,611 1154,611 1149,599 1136,597 1130,602 1127,611 1091,610 1089,602 1084,600 1061,600 1048,593 971,592 958,594 944,605 919,608 916,607 912,595 902,593 892,598 889,607 882,607 860,606 858,594 853,590"/>
+        <Coords points="832,597 830,606 670,602 649,599 643,594 624,594 623,595 547,594 542,599 542,636 546,641 547,650 559,654 1275,661 1284,663 1288,671 1297,675 1308,673 1313,663 1406,661 1705,664 1808,668 1807,619 1579,614 1573,604 1555,603 1548,606 1544,613 1343,611 1341,604 1336,600 1323,602 1306,598 1221,597 1207,601 1200,610 1182,611 1154,611 1149,599 1136,597 1130,602 1127,611 1091,610 1089,602 1084,600 1061,600 1049,594 958,594 944,605 919,608 916,607 912,595 907,594 900,594 892,598 889,607 882,607 860,606 858,594 837,594"/>
         <Baseline points="546,643 1808,658"/>
         <Word id="region0000_line0007_word0000" custom="readingOrder {index:0;}">
           <Coords points="615,597 615,645 817,648 817,605 670,602 649,599 647,597"/>
@@ -426,13 +442,13 @@ bus literae ad Magiſtratus dentur.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657522465279_438" custom="readingOrder {index:7;}">
-          <Coords points="1590,745 1622,745 1678,751 1678,792 1664,792 1589,791"/>
+          <Coords points="1590,745 1589,791 1664,792 1678,792 1678,754 1625,754 1623,746 1621,745"/>
           <TextEquiv>
             <Unicode>Iac.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657522465279_437" custom="readingOrder {index:8;}">
-          <Coords points="1678,751 1789,763 1788,792 1678,792"/>
+          <Coords points="1678,792 1788,792 1789,763 1705,754 1678,754"/>
           <TextEquiv>
             <Unicode>CV-</Unicode>
           </TextEquiv>
@@ -445,7 +461,7 @@ bus literae ad Magiſtratus dentur.</Unicode>
         <Coords points="1078,803 1052,806 1042,817 1019,816 1017,810 1011,806 997,806 989,815 923,813 915,805 904,805 896,813 856,813 817,809 805,804 779,804 775,807 760,807 731,813 729,807 720,801 710,801 705,808 692,807 686,813 545,813 535,812 528,806 520,805 512,812 472,811 473,860 636,859 803,861 961,859 1051,863 1056,866 1066,866 1070,863 1122,863 1236,867 1391,867 1455,869 1461,876 1472,877 1483,870 1543,868 1678,873 1690,878 1700,878 1706,874 1808,872 1807,829 1760,827 1755,822 1747,822 1741,826 1660,825 1653,814 1636,813 1623,825 1568,825 1561,814 1549,814 1541,824 1482,825 1468,820 1428,823 1423,818 1414,818 1409,823 1401,812 1390,812 1385,816 1379,811 1255,807 1224,810 1195,818 1156,806"/>
         <Baseline points="472,850 1807,863"/>
         <Word id="word_1657522485249_463" custom="readingOrder {index:0;}">
-          <Coords points="498,811 515,809 531,809 701,814 701,849 604,848 498,846"/>
+          <Coords points="531,809 515,809 512,812 498,812 498,846 604,848 701,849 701,814 667,813 545,813 535,812 532,809"/>
           <TextEquiv>
             <Unicode>IACIVS</Unicode>
           </TextEquiv>
@@ -720,7 +736,7 @@ bus literae ad Magiſtratus dentur.</Unicode>
         </Word>
         <Word id="region0000_line0014_word0003" custom="readingOrder {index:3;}">
           <Coords points="1273,1088 1272,1089 1269,1096 1158,1096 1158,1133 1372,1135 1372,1096 1297,1097 1292,1088"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>autoritate</Unicode>
           </TextEquiv>
         </Word>
@@ -741,7 +757,7 @@ bus literae ad Magiſtratus dentur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0015" custom="readingOrder {index:8;}">
-        <Coords points="637,1146 615,1149 555,1147 525,1159 516,1158 509,1150 498,1150 489,1160 472,1160 473,1207 567,1207 568,1216 573,1221 596,1220 603,1213 611,1221 623,1222 635,1213 637,1206 650,1206 654,1209 692,1208 697,1209 705,1218 722,1222 770,1221 790,1214 821,1212 1010,1214 1012,1220 1040,1225 1046,1221 1046,1214 1318,1217 1327,1224 1344,1226 1351,1224 1353,1218 1376,1217 1539,1220 1551,1216 1554,1212 1554,1175 1549,1170 1451,1169 1407,1166 1394,1168 1392,1159 1386,1155 1375,1155 1367,1167 1358,1167 1351,1159 1343,1159 1336,1165 1331,1156 1317,1154 1310,1159 1308,1167 1287,1167 1283,1157 1264,1154 1252,1165 1240,1164 1234,1167 1232,1158 1226,1154 1213,1155 1206,1166 1192,1167 1185,1167 1178,1158 1167,1159 1163,1166 1134,1166 1134,1157 1129,1152 1109,1155 1104,1166 1055,1165 1049,1159 1039,1159 1033,1164 1009,1163 1008,1157 1001,1153 984,1153 973,1163 956,1163 951,1153 941,1152 926,1165 897,1163 886,1156 877,1156 870,1162 857,1161 856,1153 851,1149"/>
+        <Coords points="615,1149 555,1147 525,1159 516,1158 509,1150 498,1150 489,1160 472,1160 473,1207 567,1207 568,1216 572,1220 596,1220 603,1213 610,1220 625,1220 635,1213 637,1206 650,1206 654,1209 692,1208 697,1209 705,1218 713,1220 772,1220 790,1214 821,1212 1010,1214 1012,1220 1046,1220 1046,1214 1318,1217 1321,1220 1352,1220 1353,1218 1376,1217 1539,1220 1551,1216 1554,1212 1554,1175 1549,1170 1451,1169 1407,1166 1394,1168 1392,1159 1386,1155 1375,1155 1367,1167 1358,1167 1351,1159 1343,1159 1336,1165 1331,1156 1317,1154 1310,1159 1308,1167 1287,1167 1283,1157 1264,1154 1252,1165 1240,1164 1234,1167 1232,1158 1226,1154 1213,1155 1206,1166 1192,1167 1185,1167 1178,1158 1167,1159 1163,1166 1134,1166 1134,1157 1129,1152 1109,1155 1104,1166 1055,1165 1049,1159 1039,1159 1033,1164 1009,1163 1008,1157 1001,1153 984,1153 973,1163 956,1163 951,1153 941,1152 926,1165 897,1163 886,1156 877,1156 870,1162 857,1161 856,1153 851,1149 637,1146"/>
         <Baseline points="473,1197 1554,1210"/>
         <Word id="region0000_line0015_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="492,1164 536,1165 536,1205 492,1204"/>
@@ -763,7 +779,7 @@ bus literae ad Magiſtratus dentur.</Unicode>
         </Word>
         <Word id="region0000_line0015_word0003" custom="readingOrder {index:3;}">
           <Coords points="804,1162 804,1208 913,1210 913,1164 910,1163"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>allata</Unicode>
           </TextEquiv>
         </Word>
@@ -790,21 +806,21 @@ bus literae ad Magiſtratus dentur.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Autorem huius SCti citat. Vlpianus MODES TVM&#13;
-Coſ. Ant. AVGVSTINVS de Nomin. propr. Pand. Con-&#13;
-ſulem hunc incertae aetatis, certioris vero facit Iac. CV-&#13;
-IACIVS in Paratit. ad π. Tit. ad L. Fabiam, cuius ſenten-&#13;
-tiae fere omnes docti homines adſtipulantur. Sic Hadr. RE-&#13;
-LANDVS in Almelou. Faſt. Coſſ. ad A. V. C. DCCCCLXXX.&#13;
-Probi collegam conſulem facit Modeſtum. Vſus eſt, ad&#13;
-firmandam ſuam opinionem autoritate Henr. NORISII&#13;
+        <Unicode>Autorem huius SCti citat. Vlpianus MODES TVM
+Coſ. Ant. AVGVSTINVS de Nomin. propr. Pand. Con-
+ſulem hunc incertae aetatis, certioris vero facit Iac. CV-
+IACIVS in Paratit. ad π. Tit. ad L. Fabiam, cuius ſenten-
+tiae fere omnes docti homines adſtipulantur. Sic Hadr. RE-
+LANDVS in Almelou. Faſt. Coſſ. ad A. V. C. DCCCCLXXX.
+Probi collegam conſulem facit Modeſtum. Vſus eſt, ad
+firmandam ſuam opinionem autoritate Henr. NORISII
 in Epiſt. Coſſ. allata inſuper hac inſcriptione:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" type="heading" readingDirection="left-to-right" id="TextRegion_1657522263152_347" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657522263152_347" custom="readingOrder {index:3;} structure {type:heading;}" orientation="-0.60328597" type="heading" readingDirection="left-to-right">
       <Coords points="472,1220 1808,1220 1808,1356 472,1356"/>
       <TextLine id="region0000_line0016" custom="readingOrder {index:0;}">
-        <Coords points="1376,1218 1355,1219 1351,1225 1344,1227 1306,1219 1176,1217 1115,1220 1090,1217 1080,1220 1054,1218 1040,1226 1015,1221 974,1221 934,1217 790,1215 770,1222 769,1259 776,1265 776,1271 781,1276 916,1278 920,1275 962,1273 1282,1278 1391,1275 1601,1259 1602,1226 1392,1230 1392,1224 1388,1219"/>
+        <Coords points="1351,1225 1344,1227 1310,1220 1115,1220 1080,1220 1050,1220 1040,1226 1015,1221 974,1221 964,1220 775,1220 770,1222 769,1259 776,1265 776,1271 781,1276 916,1278 920,1275 962,1273 1282,1278 1391,1275 1601,1259 1602,1226 1392,1230 1392,1224 1388,1220 1354,1220"/>
         <Baseline points="775,1264 1397,1265"/>
         <Word id="region0000_line0016_word0000" custom="readingOrder {index:0;}">
           <Coords points="917,1236 799,1234 798,1276 916,1278 916,1278"/>
@@ -813,13 +829,13 @@ in Epiſt. Coſſ. allata inſuper hac inſcriptione:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657522720863_588" custom="readingOrder {index:1;}">
-          <Coords points="1015,1220 1354,1220 1354,1276 1282,1278 1014,1273"/>
+          <Coords points="1050,1220 1040,1226 1015,1221 1015,1221 1014,1273 1282,1278 1354,1276 1354,1220 1351,1225 1344,1227 1311,1220 1115,1220 1080,1220"/>
           <TextEquiv>
             <Unicode>MANILIO</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657522720862_587" custom="readingOrder {index:2;}">
-          <Coords points="1354,1220 1597,1221 1597,1267 1391,1275 1354,1276"/>
+          <Coords points="1354,1220 1354,1220 1354,1276 1391,1275 1597,1259 1597,1226 1392,1230 1392,1224 1389,1220"/>
           <TextEquiv>
             <Unicode>- - -</Unicode>
           </TextEquiv>
@@ -854,14 +870,14 @@ in Epiſt. Coſſ. allata inſuper hac inſcriptione:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>TI. MANILIO - - -&#13;
+        <Unicode>TI. MANILIO - - -
 SER. CALPVRNIO - - -</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" readingDirection="left-to-right" id="TextRegion_1657522267230_356" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1657522267230_356" custom="readingOrder {index:4;}" orientation="-0.60328597" readingDirection="left-to-right">
       <Coords points="472,1356 1808,1356 1808,1905 472,1905"/>
       <TextLine id="region0000_line0018" custom="readingOrder {index:0;}">
-        <Coords points="1256,1348 1249,1355 1250,1368 1168,1369 1141,1368 1139,1359 1132,1354 1106,1355 1100,1359 1098,1368 1072,1367 1069,1358 1062,1353 1041,1354 1032,1357 1027,1368 1001,1369 961,1367 958,1358 953,1354 939,1356 935,1367 930,1368 929,1359 924,1354 906,1357 901,1367 889,1366 888,1359 883,1354 870,1354 861,1359 859,1366 846,1366 827,1364 821,1357 793,1351 767,1355 758,1364 752,1365 675,1368 661,1368 660,1361 654,1354 639,1352 633,1355 623,1368 556,1369 554,1356 546,1352 472,1350 473,1419 661,1419 663,1429 673,1433 694,1427 695,1419 716,1417 747,1419 1137,1420 1142,1433 1164,1434 1169,1429 1170,1419 1321,1421 1324,1426 1337,1427 1349,1421 1412,1418 1623,1418 1808,1423 1807,1371 1762,1371 1759,1364 1752,1358 1739,1360 1734,1371 1629,1371 1530,1369 1528,1362 1523,1358 1492,1356 1481,1357 1475,1369 1449,1368 1445,1357 1430,1355 1425,1360 1425,1367 1418,1368 1418,1357 1413,1352 1400,1353 1396,1368 1391,1365 1374,1367 1368,1356 1354,1355 1348,1360 1346,1367 1322,1368 1316,1359 1305,1359 1299,1354 1289,1354 1283,1359 1281,1369 1269,1368 1269,1352 1264,1348"/>
+        <Coords points="1250,1368 1168,1369 1141,1368 1139,1359 1134,1356 1104,1356 1100,1359 1098,1368 1072,1367 1069,1358 1066,1356 1035,1356 1032,1357 1027,1368 1001,1369 961,1367 958,1358 955,1356 939,1356 935,1367 930,1368 929,1359 926,1356 912,1356 906,1357 901,1367 889,1366 888,1359 885,1356 866,1356 861,1359 859,1366 846,1366 827,1364 821,1357 816,1356 766,1356 758,1364 752,1365 675,1368 661,1368 660,1361 655,1356 632,1356 623,1368 556,1369 554,1356 472,1356 473,1419 661,1419 663,1429 673,1433 694,1427 695,1419 716,1417 747,1419 1137,1420 1142,1433 1164,1434 1169,1429 1170,1419 1321,1421 1324,1426 1337,1427 1349,1421 1412,1418 1623,1418 1808,1423 1807,1371 1762,1371 1759,1364 1752,1358 1739,1360 1734,1371 1629,1371 1530,1369 1528,1362 1523,1358 1492,1356 1481,1357 1475,1369 1449,1368 1445,1357 1437,1356 1429,1356 1425,1360 1425,1367 1418,1368 1418,1357 1417,1356 1399,1356 1396,1368 1391,1365 1374,1367 1368,1356 1352,1356 1348,1360 1346,1367 1322,1368 1316,1359 1305,1359 1301,1356 1286,1356 1283,1359 1281,1369 1269,1368 1269,1356 1249,1356"/>
         <Baseline points="473,1408 1808,1413"/>
         <Word id="word_1657522263193_349" custom="readingOrder {index:0;}">
           <Coords points="491,1356 547,1356 547,1402 491,1401"/>
@@ -1420,7 +1436,7 @@ SER. CALPVRNIO - - -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0025" custom="readingOrder {index:7;}">
-        <Coords points="1534,1838 1510,1841 1492,1839 1486,1844 1484,1851 1480,1850 1477,1842 1457,1844 1451,1850 1412,1847 1405,1843 1376,1843 1370,1847 1342,1854 1309,1851 1301,1841 1270,1840 1260,1847 1245,1849 1242,1849 1235,1840 1225,1840 1212,1848 1211,1852 1185,1846 1178,1839 1162,1839 1155,1843 1126,1839 1120,1844 1098,1852 1088,1846 1080,1845 1073,1853 1068,1852 1066,1845 1058,1839 1045,1841 1041,1852 1014,1852 1013,1845 1008,1839 998,1838 994,1841 991,1850 976,1850 974,1838 969,1834 960,1834 954,1839 952,1849 838,1849 833,1838 820,1837 814,1841 811,1848 801,1848 621,1851 615,1839 604,1837 597,1842 594,1851 561,1852 556,1840 542,1839 536,1844 534,1851 513,1849 511,1842 487,1842 472,1846 473,1901 544,1903 549,1915 563,1917 575,1914 579,1903 738,1900 1138,1901 1393,1906 1453,1901 1494,1902 1598,1909 1808,1912 1808,1861 1682,1860 1678,1850 1673,1846 1656,1846 1650,1857 1648,1848 1640,1843 1624,1846 1616,1856 1573,1856 1572,1845 1567,1840"/>
+        <Coords points="1510,1841 1492,1839 1486,1844 1484,1851 1480,1850 1477,1842 1457,1844 1451,1850 1412,1847 1405,1843 1376,1843 1370,1847 1342,1854 1309,1851 1301,1841 1270,1840 1260,1847 1245,1849 1242,1849 1235,1840 1225,1840 1212,1848 1211,1852 1185,1846 1178,1839 1162,1839 1155,1843 1126,1839 1120,1844 1098,1852 1088,1846 1080,1845 1073,1853 1068,1852 1066,1845 1058,1839 1045,1841 1041,1852 1014,1852 1013,1845 1008,1839 998,1838 994,1841 991,1850 976,1850 974,1838 969,1834 960,1834 954,1839 952,1849 838,1849 833,1838 820,1837 814,1841 811,1848 801,1848 621,1851 615,1839 604,1837 597,1842 594,1851 561,1852 556,1840 542,1839 536,1844 534,1851 513,1849 511,1842 487,1842 472,1846 473,1901 544,1903 544,1905 578,1905 579,1903 738,1900 1138,1901 1342,1905 1405,1905 1453,1901 1494,1902 1538,1905 1808,1905 1808,1861 1682,1860 1678,1850 1673,1846 1656,1846 1650,1857 1648,1848 1640,1843 1624,1846 1616,1856 1573,1856 1572,1845 1567,1840 1534,1838"/>
         <Baseline points="473,1891 1445,1891 1808,1902"/>
         <Word id="region0000_line0025_word0000" custom="readingOrder {index:0;}">
           <Coords points="602,1838 597,1842 594,1851 561,1852 556,1840 542,1839 536,1844 534,1851 513,1849 511,1842 487,1842 482,1843 482,1900 653,1901 697,1900 697,1849 621,1851 615,1839 610,1838"/>
@@ -1469,20 +1485,20 @@ SER. CALPVRNIO - - -</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Et ne ſupereſſet dubitandi aliqua aliqua ratio, in auxilium vocauit&#13;
-ſubnotationes legum Codicis. v. c. L. XXII. C. de mod.&#13;
-mult. L. IV. C. de Iudic. L. VI. C. de conf. tut. L. II. C. in&#13;
-quibus cauſ. tut. vel cur. hab. L. IX. C. de excuſ. tut. L. VII.&#13;
-C. de furt. et ſeruo corrupt. L. IV. C. ne de ſtat. defunct.&#13;
-L. III. C. ſi pend. appell. mors interuen. L. I. C. ne fiſc. rem&#13;
-quam vend. euinc. Omnia haec principum placita in ſub-&#13;
+        <Unicode>Et ne ſupereſſet dubitandi aliqua aliqua ratio, in auxilium vocauit
+ſubnotationes legum Codicis. v. c. L. XXII. C. de mod.
+mult. L. IV. C. de Iudic. L. VI. C. de conf. tut. L. II. C. in
+quibus cauſ. tut. vel cur. hab. L. IX. C. de excuſ. tut. L. VII.
+C. de furt. et ſeruo corrupt. L. IV. C. ne de ſtat. defunct.
+L. III. C. ſi pend. appell. mors interuen. L. I. C. ne fiſc. rem
+quam vend. euinc. Omnia haec principum placita in ſub-
 ſcriptione continent nomina Modeſti et Probi Conſulum.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" type="heading" readingDirection="left-to-right" id="TextRegion_1657522270147_361" custom="readingOrder {index:5;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1657522270147_361" custom="readingOrder {index:5;} structure {type:heading;}" orientation="-0.60328597" type="heading" readingDirection="left-to-right">
       <Coords points="472,1905 1808,1905 1808,1985 472,1985"/>
       <TextLine id="region0000_line0026" custom="readingOrder {index:0;}">
-        <Coords points="1092,1908 1010,1909 957,1913 951,1918 951,1956 956,1961 972,1962 972,1979 977,1984 1025,1984 1035,1988 1046,1988 1103,1986 1120,1976 1131,1974 1264,1975 1269,1970 1269,1961 1275,1955 1275,1918 1270,1912"/>
+        <Coords points="1010,1909 957,1913 951,1918 951,1956 956,1961 972,1962 972,1979 977,1984 1025,1984 1027,1985 1104,1985 1120,1976 1131,1974 1264,1975 1269,1970 1269,1961 1275,1955 1275,1918 1270,1912 1092,1908"/>
         <Baseline points="972,1972 1269,1965"/>
         <Word id="word_1657522270188_364" custom="readingOrder {index:0;}">
           <Coords points="1024,1915 1069,1915 1069,1968 1028,1968 1026,1967 1024,1967"/>
@@ -1504,10 +1520,10 @@ quam vend. euinc. Omnia haec principum placita in ſub-&#13;
         <Unicode>§. III.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.60328597" readingDirection="left-to-right" id="TextRegion_1657522270147_360" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1657522270147_360" custom="readingOrder {index:6;}" orientation="-0.60328597" readingDirection="left-to-right">
       <Coords points="472,1985 1808,1985 1808,2262 472,2262"/>
       <TextLine id="region0000_line0027" custom="readingOrder {index:0;}">
-        <Coords points="618,1973 524,1975 519,1980 518,2017 521,2021 529,2023 529,2031 534,2036 620,2036 704,2039 706,2048 712,2052 728,2052 735,2047 737,2041 837,2044 840,2054 851,2059 865,2057 870,2044 1074,2045 1075,2050 1080,2053 1097,2056 1106,2051 1107,2045 1121,2044 1314,2045 1318,2055 1329,2056 1343,2045 1385,2044 1517,2050 1621,2051 1807,2042 1808,2004 1735,2001 1721,1997 1712,1997 1707,2001 1537,2000 1496,1996 1370,1992 1252,1997 1246,1984 1231,1983 1223,1995 1194,1997 1193,1984 1181,1980 1158,1985 1152,1996 1035,1995 1030,1987 1014,1985 1007,1988 1005,1995 822,1995 806,1994 799,1981 788,1981 776,1987 769,1980 759,1980 753,1984 750,1992 743,1992 692,1988 689,1980 683,1976 666,1978 660,1987 654,1987 652,1981 646,1977"/>
+        <Coords points="518,2017 521,2021 529,2023 529,2031 534,2036 620,2036 704,2039 706,2048 712,2052 728,2052 735,2047 737,2041 837,2044 840,2054 851,2059 865,2057 870,2044 1074,2045 1075,2050 1080,2053 1097,2056 1106,2051 1107,2045 1121,2044 1314,2045 1318,2055 1329,2056 1343,2045 1385,2044 1517,2050 1621,2051 1807,2042 1808,2004 1735,2001 1721,1997 1712,1997 1707,2001 1537,2000 1496,1996 1370,1992 1252,1997 1246,1985 1229,1985 1223,1995 1194,1997 1193,1985 1158,1985 1152,1996 1035,1995 1030,1987 1014,1985 1007,1988 1005,1995 822,1995 806,1994 801,1985 780,1985 776,1987 774,1985 752,1985 750,1992 743,1992 692,1988 690,1985 661,1985 660,1987 654,1987 653,1985 518,1985"/>
         <Baseline points="529,2025 1578,2041 1807,2034"/>
         <Word id="region0000_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="603,1979 602,2024 682,2025 683,1980 664,1979 660,1987 654,1987 652,1981 649,1979"/>
@@ -1546,7 +1562,7 @@ quam vend. euinc. Omnia haec principum placita in ſub-&#13;
           </TextEquiv>
         </Word>
         <Word id="word_1657522961578_735" custom="readingOrder {index:6;}">
-          <Coords points="1464,2001 1712,1997 1721,1997 1754,2001 1754,2044 1702,2047 1503,2036 1463,2031"/>
+          <Coords points="1464,2001 1463,2031 1503,2036 1702,2047 1754,2044 1754,2001 1735,2001 1721,1997 1712,1997 1707,2001 1537,2000 1535,1999"/>
           <TextEquiv>
             <Unicode>CASSIODO-</Unicode>
           </TextEquiv>
@@ -1596,7 +1612,7 @@ quam vend. euinc. Omnia haec principum placita in ſub-&#13;
         </Word>
         <Word id="region0000_line0028_word0006" custom="readingOrder {index:6;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1562,2067 1461,2065 1460,2122 1524,2123 1526,2122 1559,2119 1561,2117"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Faſti</Unicode>
           </TextEquiv>
         </Word>
@@ -1666,7 +1682,7 @@ quam vend. euinc. Omnia haec principum placita in ſub-&#13;
         </TextEquiv>
       </TextLine>
       <TextLine id="region0000_line0030" custom="readingOrder {index:3;}">
-        <Coords points="1458,2187 1395,2191 1387,2196 1384,2208 1315,2207 1310,2210 1287,2211 1174,2205 984,2205 935,2201 933,2194 927,2190 912,2191 905,2200 864,2199 859,2194 851,2194 846,2199 789,2198 773,2197 770,2187 764,2183 752,2185 747,2197 712,2198 706,2186 695,2184 688,2189 686,2198 666,2198 658,2186 646,2184 627,2200 613,2200 611,2193 606,2188 588,2188 583,2192 581,2199 510,2198 503,2197 496,2185 483,2184 473,2197 473,2248 694,2253 696,2261 701,2265 724,2262 730,2251 772,2248 833,2249 834,2257 840,2263 861,2262 866,2258 868,2249 886,2249 969,2254 1044,2254 1092,2259 1296,2262 1302,2270 1315,2272 1325,2269 1329,2262 1375,2270 1381,2266 1406,2266 1422,2258 1435,2256 1808,2259 1807,2213 1692,2211 1687,2203 1679,2203 1671,2209 1604,2204 1595,2194 1583,2190"/>
+        <Coords points="1395,2191 1387,2196 1384,2208 1315,2207 1310,2210 1287,2211 1174,2205 984,2205 935,2201 933,2194 927,2190 912,2191 905,2200 864,2199 859,2194 851,2194 846,2199 789,2198 773,2197 770,2187 764,2183 752,2185 747,2197 712,2198 706,2186 695,2184 688,2189 686,2198 666,2198 658,2186 646,2184 627,2200 613,2200 611,2193 606,2188 588,2188 583,2192 581,2199 510,2198 503,2197 496,2185 483,2184 473,2197 473,2248 694,2253 696,2261 697,2262 724,2262 730,2251 772,2248 833,2249 834,2257 839,2262 861,2262 866,2258 868,2249 886,2249 969,2254 1044,2254 1092,2259 1296,2262 1329,2262 1414,2262 1422,2258 1435,2256 1808,2259 1807,2213 1692,2211 1687,2203 1679,2203 1671,2209 1604,2204 1595,2194 1583,2190 1458,2187"/>
         <Baseline points="473,2239 899,2241 1372,2254 1536,2246 1808,2249"/>
         <Word id="region0000_line0030_word0000" custom="readingOrder {index:0;}">
           <Coords points="479,2188 477,2190 477,2234 566,2235 566,2198 510,2198 503,2197 497,2188"/>
@@ -1721,9 +1737,9 @@ quam vend. euinc. Omnia haec principum placita in ſub-&#13;
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Sed quid opus multa probatione, cum CASSIODO-&#13;
-RVS, Chron. Alexandr. Faſti Florent. maior. Faſti ldatiani.&#13;
-PROSPER. in Chron. Faſti Anonymi et BVCHERI. Fragm.&#13;
+        <Unicode>Sed quid opus multa probatione, cum CASSIODO-
+RVS, Chron. Alexandr. Faſti Florent. maior. Faſti ldatiani.
+PROSPER. in Chron. Faſti Anonymi et BVCHERI. Fragm.
 imo Inſcriptio apud GRVTERVM pag. CLIX. n. MO-</Unicode>
       </TextEquiv>
     </TextRegion>

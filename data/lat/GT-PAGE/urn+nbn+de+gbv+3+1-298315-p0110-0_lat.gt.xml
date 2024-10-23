@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-121">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:01Z</Created>
     <LastChange>2024-01-19T13:08:01Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-298315-p0110-0_lat.jpg" imageWidth="2301" imageHeight="2715" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/43284824-ba93-4abc-8c30-09ad7574f18f/00000110.jpg" imageWidth="2301" imageHeight="2715" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="50,69 48,2624 2153,2650 2164,90"/>
     </Border>
@@ -14,10 +30,10 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1660121942251_3067"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.64473915" readingDirection="left-to-right" id="TextRegion_1660121942251_3067" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660121942251_3067" custom="readingOrder {index:0;}" orientation="-0.64473915" readingDirection="left-to-right">
       <Coords points="695,496 1946,496 1946,574 1945,2234 642,2234 641,556"/>
       <TextLine id="region0005_line0002" custom="readingOrder {index:0;}">
-        <Coords points="739,490 730,494 728,503 696,503 695,554 810,557 814,567 834,569 842,565 844,558 899,557 1000,558 1004,566 1018,568 1028,559 1280,563 1284,560 1324,559 1513,564 1690,564 1821,569 1824,574 1856,574 1864,569 1945,566 1946,515 1921,515 1917,512 1909,512 1904,516 1812,515 1804,506 1792,505 1782,514 1773,514 1769,505 1751,503 1743,507 1741,514 1648,514 1643,503 1628,501 1620,507 1618,513 1597,513 1593,503 1574,500 1561,508 1550,507 1544,512 1513,513 1464,511 1450,500 1437,500 1426,508 1412,499 1381,501 1374,508 1332,508 1320,497 1302,497 1297,501 1295,508 1283,508 1278,497 1264,496 1256,500 1254,507 1213,509 1142,508 1137,500 1123,498 1115,508 1001,507 996,498 981,495 969,498 962,506 953,506 943,496 925,496 912,506 784,505 760,504 755,492"/>
+        <Coords points="728,503 696,503 695,554 810,557 814,567 834,569 842,565 844,558 899,557 1000,558 1004,566 1018,568 1028,559 1280,563 1284,560 1324,559 1513,564 1690,564 1821,569 1824,574 1856,574 1864,569 1945,566 1946,515 1921,515 1917,512 1909,512 1904,516 1812,515 1804,506 1792,505 1782,514 1773,514 1769,505 1751,503 1743,507 1741,514 1648,514 1643,503 1628,501 1620,507 1618,513 1597,513 1593,503 1574,500 1561,508 1550,507 1544,512 1513,513 1464,511 1450,500 1437,500 1426,508 1412,499 1381,501 1374,508 1332,508 1320,497 1302,497 1297,501 1295,508 1283,508 1278,497 1264,496 1256,500 1254,507 1213,509 1142,508 1137,500 1123,498 1115,508 1001,507 996,498 986,496 977,496 969,498 962,506 953,506 943,496 925,496 912,506 784,505 760,504 756,496 729,496"/>
         <Baseline points="695,545 1945,558"/>
         <Word id="region0005_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="729,494 728,503 701,503 701,554 795,556 795,505 784,505 760,504 756,494"/>
@@ -406,7 +422,7 @@
         </Word>
         <Word id="region0006_line0007_word0003" custom="readingOrder {index:3;}">
           <Coords points="1276,909 1269,914 1246,914 1246,952 1307,953 1307,910 1307,910"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ex</Unicode>
           </TextEquiv>
         </Word>
@@ -418,7 +434,7 @@
         </Word>
         <Word id="region0006_line0007_word0005" custom="readingOrder {index:5;}">
           <Coords points="1589,907 1589,907 1588,966 1687,967 1818,966 1819,915 1800,916 1797,910 1779,909 1773,916 1753,916 1749,909 1707,909 1699,915 1679,917 1626,916 1620,915 1618,908 1616,907"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſuccuſſoria</Unicode>
           </TextEquiv>
         </Word>
@@ -455,7 +471,7 @@
         </Word>
         <Word id="region0006_line0008_word0002" custom="readingOrder {index:2;}">
           <Coords points="1165,956 1165,956 1160,959 1151,958 1145,963 1145,968 1130,968 1129,963 1122,959 1105,959 1099,962 1078,958 1061,962 1058,969 1036,972 1024,972 1019,969 1013,969 1013,1018 1073,1018 1091,1015 1105,1020 1131,1020 1140,1017 1157,1026 1165,1019"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>valida;</Unicode>
           </TextEquiv>
         </Word>
@@ -601,7 +617,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0006_line0011_word0003" custom="readingOrder {index:2;}">
-          <Coords points="1108,1138 1108,1182 1346,1186 1346,1142 1349,1140 1348,1143 1328,1144 1322,1147 1281,1143 1280,1139 1240,1139 1239,1142 1195,1142 1195,1138 1171,1138 1168,1143 1160,1145 1149,1144 1141,1138"/>
+          <Coords points="1108,1138 1108,1182 1346,1186 1349,1140 1322,1147 1281,1143 1280,1139 1195,1142 1195,1138 1171,1138 1160,1145 1141,1138"/>
           <TextEquiv>
             <Unicode>Poloniam</Unicode>
           </TextEquiv>
@@ -1378,7 +1394,7 @@
         </Word>
         <Word id="region0006_line0025_word0006" custom="readingOrder {index:6;}">
           <Coords points="1813,1952 1627,1950 1627,1996 1742,1997 1763,1994 1811,1994 1813,1992"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>laborare</Unicode>
           </TextEquiv>
         </Word>
@@ -1464,7 +1480,7 @@
         </Word>
         <Word id="region0006_line0027_word0003" custom="readingOrder {index:3;}">
           <Coords points="1163,2112 1277,2114 1277,2059 1270,2057 1265,2051 1259,2051 1247,2061 1247,2067 1185,2069 1175,2071 1163,2070"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>quod</Unicode>
           </TextEquiv>
         </Word>
@@ -1507,7 +1523,7 @@
         <Baseline points="641,2159 1327,2165 1943,2158"/>
         <Word id="region0006_line0028_word0000" custom="readingOrder {index:0;}">
           <Coords points="669,2150 810,2175 810,2141 775,2117 767,2124 748,2124 748,2117 745,2114 727,2111 720,2115 719,2120 700,2125 676,2114 669,2119"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſtravi,</Unicode>
           </TextEquiv>
         </Word>
@@ -1552,7 +1568,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0029" custom="readingOrder {index:29;}">
-        <Coords points="1722,2172 1718,2174 1717,2179 1708,2180 1703,2173 1685,2172 1680,2180 1600,2178 1517,2181 1495,2181 1492,2174 1483,2171 1473,2174 1471,2181 1464,2180 1462,2174 1457,2172 1430,2174 1412,2172 1394,2175 1390,2182 1368,2183 1363,2179 1355,2178 1346,2183 1328,2184 1285,2183 1284,2177 1280,2174 1263,2173 1252,2175 1248,2182 1240,2183 1212,2183 1209,2176 1193,2175 1186,2182 1159,2183 1158,2175 1150,2169 1145,2169 1138,2175 1139,2183 1030,2183 1025,2173 1004,2171 995,2172 989,2181 910,2181 882,2187 859,2183 854,2173 831,2170 818,2170 806,2182 799,2183 712,2181 708,2173 692,2172 686,2181 641,2179 641,2229 810,2232 819,2239 827,2240 836,2232 922,2230 1107,2234 1335,2233 1341,2239 1350,2239 1358,2234 1403,2231 1528,2232 1536,2243 1549,2243 1560,2240 1564,2232 1577,2231 1781,2232 1808,2231 1813,2227 1827,2226 1838,2229 1851,2239 1856,2239 1865,2236 1866,2228 1943,2224 1943,2182 1807,2180 1804,2175 1790,2172 1776,2181 1741,2182 1739,2175"/>
+        <Coords points="1718,2174 1717,2179 1708,2180 1703,2173 1685,2172 1680,2180 1600,2178 1517,2181 1495,2181 1492,2174 1483,2171 1473,2174 1471,2181 1464,2180 1462,2174 1457,2172 1430,2174 1412,2172 1394,2175 1390,2182 1368,2183 1363,2179 1355,2178 1346,2183 1328,2184 1285,2183 1284,2177 1280,2174 1263,2173 1252,2175 1248,2182 1240,2183 1212,2183 1209,2176 1193,2175 1186,2182 1159,2183 1158,2175 1150,2169 1145,2169 1138,2175 1139,2183 1030,2183 1025,2173 1004,2171 995,2172 989,2181 910,2181 882,2187 859,2183 854,2173 831,2170 818,2170 806,2182 799,2183 712,2181 708,2173 692,2172 686,2181 641,2179 641,2229 810,2232 812,2234 833,2234 836,2232 922,2230 1107,2234 1335,2233 1336,2234 1358,2234 1403,2231 1528,2232 1529,2234 1563,2234 1564,2232 1577,2231 1781,2232 1808,2231 1813,2227 1827,2226 1838,2229 1844,2234 1865,2234 1866,2228 1943,2224 1943,2182 1807,2180 1804,2175 1790,2172 1776,2181 1741,2182 1739,2175 1722,2172"/>
         <Baseline points="641,2219 1523,2223 1943,2216"/>
         <Word id="region0006_line0029_word0000" custom="readingOrder {index:0;}">
           <Coords points="666,2213 769,2214 769,2182 712,2181 708,2173 692,2172 686,2181 666,2180"/>
@@ -1607,35 +1623,35 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>adeo presſisſe, ut inter abdominis muſculos ad inguen&#13;
-retro cederet, qui nullo modo deinceps reduci iterum&#13;
-potuit. Ido Wolffius Obſerv.Chirurg. Med. I. I. obſerv.&#13;
-50. p. 167. in Generoſo quodam viro compresſionem&#13;
-ſcroti &amp; teſticuli ſiniſtri, cum dolore&amp; intumeſcentia in-&#13;
-genti,ex fortiori equitatione obſervavit. :)c Memini jam in&#13;
-Academia noſtra Lipſienſi, quondam, juvenem Nobilem&#13;
-Sileſium, in hippodromo ex equitatione ſuccuſſoria &amp; in&#13;
-gyrum acta, valida; ſputum ſangvinis expertum eſſe,&#13;
-cum ſubſequente pulmonum ulcere. Pariter Capita-&#13;
-neum Saxonicum cognovi, qui longiori itinere per Saxo-&#13;
-niam, Sileſiam, Poloniam in Moſcoviam usque fa-&#13;
-cto, cum veredariis curſim equo vectus, fiſtulam ani&#13;
-moleſtiſſimam ac incurabilem ſibi induxit. Facile quo-&#13;
-que largiamur Hippocrati L. de A. A. &amp; L. c. XI. &amp;&#13;
-Wiero, vid. Obſerv. Med. p. 84. immoderatam, conti-&#13;
-nuam, nimis violentam, parere hippurim, ideo ab ipſo&#13;
-Hippocrate vocatum morbum, ex nimia ſcilicet &amp; minus&#13;
-convenienti equitatione contractum, ſive femorum pe-&#13;
-dumve &amp; artuum reliquorum ex defluxionibus diutur-&#13;
-nos labores. Quinimo obſervatur &amp; id, veteranis equi-&#13;
-tibus tandem genua incurvata manere, &amp; totum corpus&#13;
-rigidum, &amp; articulorum ſiccitatem inductam, (ut ſutores&#13;
-genua habent inflexa, atque ſartores cubitos incurvatos:&#13;
-&amp;c.) Tametſi &amp; obſervare datum eſt, equites veteranos&#13;
-æque ac pugiles, nimis frequenter pedibus laborare præ-&#13;
-ſaltatoribus. Non quoque plane habeo ambiguum, ne-&#13;
-que inficiari poſſum, quod ſupra jam quaſi digito mon&#13;
-ſtravi, equitationem nimiam, duram nimis &amp; ſuccuſſo-&#13;
+        <Unicode>adeo presſisſe, ut inter abdominis muſculos ad inguen
+retro cederet, qui nullo modo deinceps reduci iterum
+potuit. Ido Wolffius Obſerv.Chirurg. Med. I. I. obſerv.
+50. p. 167. in Generoſo quodam viro compresſionem
+ſcroti &amp; teſticuli ſiniſtri, cum dolore&amp; intumeſcentia in-
+genti,ex fortiori equitatione obſervavit. :)c Memini jam in
+Academia noſtra Lipſienſi, quondam, juvenem Nobilem
+Sileſium, in hippodromo ex equitatione ſuccuſſoria &amp; in
+gyrum acta, valida; ſputum ſangvinis expertum eſſe,
+cum ſubſequente pulmonum ulcere. Pariter Capita-
+neum Saxonicum cognovi, qui longiori itinere per Saxo-
+niam, Sileſiam, Poloniam in Moſcoviam usque fa-
+cto, cum veredariis curſim equo vectus, fiſtulam ani
+moleſtiſſimam ac incurabilem ſibi induxit. Facile quo-
+que largiamur Hippocrati L. de A. A. &amp; L. c. XI. &amp;
+Wiero, vid. Obſerv. Med. p. 84. immoderatam, conti-
+nuam, nimis violentam, parere hippurim, ideo ab ipſo
+Hippocrate vocatum morbum, ex nimia ſcilicet &amp; minus
+convenienti equitatione contractum, ſive femorum pe-
+dumve &amp; artuum reliquorum ex defluxionibus diutur-
+nos labores. Quinimo obſervatur &amp; id, veteranis equi-
+tibus tandem genua incurvata manere, &amp; totum corpus
+rigidum, &amp; articulorum ſiccitatem inductam, (ut ſutores
+genua habent inflexa, atque ſartores cubitos incurvatos:
+&amp;c.) Tametſi &amp; obſervare datum eſt, equites veteranos
+æque ac pugiles, nimis frequenter pedibus laborare præ-
+ſaltatoribus. Non quoque plane habeo ambiguum, ne-
+que inficiari poſſum, quod ſupra jam quaſi digito mon
+ſtravi, equitationem nimiam, duram nimis &amp; ſuccuſſo-
 riam eſſe e cauſis remotioribus, virilem potentiam impe-</Unicode>
       </TextEquiv>
     </TextRegion>

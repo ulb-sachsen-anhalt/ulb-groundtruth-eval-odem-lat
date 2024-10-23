@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-225">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:19Z</Created>
     <LastChange>2024-01-19T13:09:19Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-703538-p0544-6_lat.png" imageWidth="1712" imageHeight="2286" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/35656e59-07ab-432f-af0b-23e6dc4ae25d/00000544.jpg" imageWidth="1712" imageHeight="2286" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="147,113 139,2156 1633,2141 1643,125"/>
     </Border>
@@ -17,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="region0011"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.122450486" readingDirection="left-to-right" id="TextRegion_1660312645550_3300" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1660312645550_3300" custom="readingOrder {index:0;}" orientation="0.122450486" readingDirection="left-to-right">
       <Coords points="643,289 1596,289 1596,1667 643,1667"/>
       <TextLine id="region0008_line0001" custom="readingOrder {index:0;}">
         <Coords points="833,290 829,296 643,294 643,334 768,338 771,344 782,340 795,343 797,338 830,336 865,339 993,338 1252,345 1278,346 1286,352 1322,347 1325,351 1342,356 1348,354 1351,348 1381,347 1406,349 1409,356 1418,358 1432,357 1437,350 1595,353 1595,311 1555,310 1553,304 1547,300 1537,300 1533,303 1527,298 1513,299 1506,308 1470,308 1281,305 1270,304 1262,294 1251,294 1244,302 1238,303 1163,303 1153,302 1151,295 1141,290 1130,290 1120,300 1104,300 1092,299 1088,291 1081,289 1070,290 1066,299 915,297 910,289 862,290 859,296 855,297 852,290"/>
@@ -952,7 +967,7 @@
         </Word>
         <Word id="region0008_line0017_word0013" custom="readingOrder {index:13;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1528,1142 1587,1142 1587,1112 1528,1112"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>p.3.</Unicode>
           </TextEquiv>
         </Word>
@@ -1522,7 +1537,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0027" custom="readingOrder {index:26;}">
-        <Coords points="802,1596 794,1603 712,1604 705,1601 644,1601 644,1654 677,1654 687,1651 693,1644 706,1644 710,1645 716,1654 734,1654 740,1646 803,1649 817,1653 873,1650 893,1651 898,1659 904,1661 918,1661 925,1652 966,1651 1145,1658 1392,1661 1424,1664 1440,1673 1456,1673 1463,1668 1482,1664 1520,1665 1526,1670 1538,1670 1547,1660 1596,1658 1596,1617 1566,1617 1560,1609 1547,1609 1542,1612 1540,1618 1499,1619 1289,1617 1287,1612 1281,1609 1270,1609 1257,1617 1211,1617 1201,1616 1178,1606 1129,1606 1122,1613 895,1608 894,1600 890,1597 844,1597 837,1598 833,1605 819,1605 816,1598"/>
+        <Coords points="794,1603 712,1604 705,1601 644,1601 644,1654 677,1654 687,1651 693,1644 706,1644 710,1645 716,1654 734,1654 740,1646 803,1649 817,1653 873,1650 893,1651 898,1659 904,1661 918,1661 925,1652 966,1651 1145,1658 1392,1661 1424,1664 1429,1667 1467,1667 1482,1664 1520,1665 1522,1667 1540,1667 1547,1660 1596,1658 1596,1617 1566,1617 1560,1609 1547,1609 1542,1612 1540,1618 1499,1619 1289,1617 1287,1612 1281,1609 1270,1609 1257,1617 1211,1617 1201,1616 1178,1606 1129,1606 1122,1613 895,1608 894,1600 890,1597 844,1597 837,1598 833,1605 819,1605 816,1598 802,1596"/>
         <Baseline points="644,1642 716,1635 1447,1656 1596,1649"/>
         <Word id="region0008_line0027_word0000" custom="readingOrder {index:0;}">
           <Coords points="655,1603 655,1647 690,1647 693,1644 706,1644 710,1645 711,1647 739,1647 740,1646 761,1647 833,1647 833,1605 819,1605 818,1603 794,1603 712,1604 709,1603"/>
@@ -1565,39 +1580,39 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tem experiri licet: modo ſententia, per quam hica&#13;
-limine judicii repellitur, vires rei judicatæ acceperit,&#13;
-Wernher. d. obſ. 227 n.5. Berger. elect. proc. prov. th.15.&#13;
-5. Ex lege: diffamari, vel etiam ex lege: ſi&#13;
-contendat, non poteſt agi adverſus creditorem, debi-&#13;
-tum conditionale vel in diem prætendentem, ante-&#13;
-quam conditio extiterit, vel dies venerit, Carpz. p.1.&#13;
-c.7. d. 30.&#13;
-6. Propter ſpolium, per modum exceptionis&#13;
-objectum, durante lite, provocatio ex lege: diffa-&#13;
-mari, locum non habet, Wernher. ſel. obſ. for. p. 10.&#13;
-obſ. 344.&#13;
-7. Antequam proceſſus ex lege: diffamari, de-&#13;
-cernatur, ſummarie ſaltem probanda (b) eſt diffama-&#13;
-tio, O. P. S. tit. 1. §. Alſo ſoll man auch. ibique Ri-&#13;
-vin. en. 20. Carpz. d. c.7. d. 28. n.3. ſeq. Wernher. ſel.&#13;
-obſ. for. p.3. obſ. 177. Gail. lib. 1. obſ. 10. n. 7. Mev. p.3.&#13;
-dec. 393. &amp; quidem teſtibus vel documentis, imo &amp;&#13;
-copiis, non quidem nudis, uti volunt Mynſinger. cen-&#13;
-tur. 5. obſ. 81. n. 5. Ziegler. ad O. P. S. tit. l. in fin. ſed&#13;
-vidimatis: juramenti autem delatio non admittitur,&#13;
-Rivin. c. l. Wernher. ſel. obſ. for. p. I. obſ. 228. Berger.&#13;
-elect. proc. prov. th. 27. Mev. d. dec. 393. Barth. hodeg.&#13;
-for.c. l. §. 15. lit. c. p. 49.&#13;
-8. Pro obtinenda citatione (c) ſufficit quidem&#13;
-aliqualis demonſtratio: ad impoſitionem vero ſilentii&#13;
+        <Unicode>tem experiri licet: modo ſententia, per quam hica
+limine judicii repellitur, vires rei judicatæ acceperit,
+Wernher. d. obſ. 227 n.5. Berger. elect. proc. prov. th.15.
+5. Ex lege: diffamari, vel etiam ex lege: ſi
+contendat, non poteſt agi adverſus creditorem, debi-
+tum conditionale vel in diem prætendentem, ante-
+quam conditio extiterit, vel dies venerit, Carpz. p.1.
+c.7. d. 30.
+6. Propter ſpolium, per modum exceptionis
+objectum, durante lite, provocatio ex lege: diffa-
+mari, locum non habet, Wernher. ſel. obſ. for. p. 10.
+obſ. 344.
+7. Antequam proceſſus ex lege: diffamari, de-
+cernatur, ſummarie ſaltem probanda (b) eſt diffama-
+tio, O. P. S. tit. 1. §. Alſo ſoll man auch. ibique Ri-
+vin. en. 20. Carpz. d. c.7. d. 28. n.3. ſeq. Wernher. ſel.
+obſ. for. p.3. obſ. 177. Gail. lib. 1. obſ. 10. n. 7. Mev. p.3.
+dec. 393. &amp; quidem teſtibus vel documentis, imo &amp;
+copiis, non quidem nudis, uti volunt Mynſinger. cen-
+tur. 5. obſ. 81. n. 5. Ziegler. ad O. P. S. tit. l. in fin. ſed
+vidimatis: juramenti autem delatio non admittitur,
+Rivin. c. l. Wernher. ſel. obſ. for. p. I. obſ. 228. Berger.
+elect. proc. prov. th. 27. Mev. d. dec. 393. Barth. hodeg.
+for.c. l. §. 15. lit. c. p. 49.
+8. Pro obtinenda citatione (c) ſufficit quidem
+aliqualis demonſtratio: ad impoſitionem vero ſilentii
 perpetui, ſi provocatus diffamationem neget, ple-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.122450486" type="catch-word" readingDirection="left-to-right" id="TextRegion_1660312645549_3299" custom="readingOrder {index:1;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1660312645549_3299" custom="readingOrder {index:1;} structure {type:catch-word;}" orientation="0.122450486" type="catch-word" readingDirection="left-to-right">
       <Coords points="643,1667 1596,1667 1596,1705 643,1705"/>
       <TextLine id="region0008_line0028" custom="readingOrder {index:0;}">
-        <Coords points="1547,1661 1538,1671 1468,1672 1464,1677 1465,1704 1596,1704 1596,1666 1563,1667 1559,1661"/>
+        <Coords points="1538,1671 1468,1672 1464,1677 1465,1704 1596,1704 1596,1667 1563,1667 1541,1667"/>
         <Baseline points="1465,1697 1596,1697"/>
         <Word id="word_1660312645603_3302" custom="readingOrder {index:0;}">
           <Coords points="1525,1671 1538,1671 1541,1667 1590,1667 1590,1700 1525,1700"/>
@@ -1613,7 +1628,7 @@ perpetui, ſi provocatus diffamationem neget, ple-</Unicode>
         <Unicode>nior</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.122450486" type="footnote" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:2;} structure {type:footnote;}">
+    <TextRegion id="region0011" custom="readingOrder {index:2;} structure {type:footnote;}" orientation="0.122450486" type="footnote" readingDirection="left-to-right">
       <Coords points="688,1732 1594,1732 1594,2004 688,2004"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="688,1733 689,1784 702,1785 742,1782 758,1774 771,1774 786,1778 804,1778 811,1785 824,1785 832,1779 883,1778 928,1788 939,1785 984,1786 991,1783 1010,1788 1046,1791 1145,1788 1156,1792 1206,1792 1232,1799 1254,1799 1270,1792 1287,1795 1308,1792 1322,1799 1328,1796 1389,1794 1397,1796 1431,1796 1432,1800 1439,1804 1454,1803 1460,1796 1476,1796 1482,1793 1498,1800 1504,1796 1524,1796 1532,1792 1544,1795 1559,1790 1572,1793 1594,1792 1593,1758 1575,1756 1567,1746 1558,1746 1551,1752 1544,1747 1523,1747 1514,1758 1506,1758 1500,1751 1489,1751 1483,1758 1477,1758 1469,1749 1457,1749 1450,1758 1412,1758 1396,1755 1316,1756 1308,1746 1293,1746 1285,1754 1240,1755 1219,1753 1213,1747 1202,1747 1196,1753 1188,1745 1155,1742 1014,1741 997,1746 955,1746 946,1745 938,1738 927,1738 922,1743 880,1742 874,1733 861,1733 858,1736 843,1733 835,1740 812,1739 791,1733"/>
@@ -1970,11 +1985,11 @@ perpetui, ſi provocatus diffamationem neget, ple-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>(b) &amp; quidem juxta O. P. S. R. tit.5. §.5. aut copia judicia-&#13;
-liter vidimata documenti, quo diffamatio probari de-&#13;
-bet, aut ad minimum unius teſtis jurata depoſitione.&#13;
-(c) Citatio nec hodie in Saxonia, ſienti alias ſit in aliis proceſ-&#13;
-ſibus, ſtatim ſub præjudicio injungitur, O. P. s. R.&#13;
+        <Unicode>(b) &amp; quidem juxta O. P. S. R. tit.5. §.5. aut copia judicia-
+liter vidimata documenti, quo diffamatio probari de-
+bet, aut ad minimum unius teſtis jurata depoſitione.
+(c) Citatio nec hodie in Saxonia, ſienti alias ſit in aliis proceſ-
+ſibus, ſtatim ſub præjudicio injungitur, O. P. s. R.
 tit.5. §. 6.</Unicode>
       </TextEquiv>
     </TextRegion>

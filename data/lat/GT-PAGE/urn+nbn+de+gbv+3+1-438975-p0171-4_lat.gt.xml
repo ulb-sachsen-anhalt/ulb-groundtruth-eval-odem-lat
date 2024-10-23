@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-160">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:26Z</Created>
     <LastChange>2024-01-19T13:08:26Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-438975-p0171-4_lat.jpg" imageWidth="1629" imageHeight="2358" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/3044dd0d-a338-425c-b631-b8b5de5754d7/00000171.jpg" imageWidth="1629" imageHeight="2358" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="177,320 1134,320 1134,2155 177,2155"/>
     </Border>
@@ -19,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1655119355363_4290"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.13865922" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:0;} structure {type:heading;}" orientation="0.13865922" type="heading" readingDirection="left-to-right">
       <Coords points="381,418 729,418 729,474 381,474"/>
       <TextLine id="region0001_line0001" custom="readingOrder {index:0;}">
         <Coords points="512,419 510,469 515,474 728,473 728,418"/>
@@ -38,7 +54,7 @@
         <Unicode>XIX.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.13865922" readingDirection="left-to-right" id="region0002" custom="readingOrder {index:1;}">
+    <TextRegion id="region0002" custom="readingOrder {index:1;}" orientation="0.13865922" readingDirection="left-to-right">
       <Coords points="179,507 1119,507 1119,966 179,966"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="392,507 396,517 390,519 350,520 331,514 306,512 228,512 223,517 223,547 233,554 234,566 243,570 306,569 320,564 332,568 346,568 355,563 382,567 405,560 434,563 483,563 489,560 502,560 506,563 565,565 602,561 610,566 661,566 667,563 680,563 686,571 713,563 767,561 779,564 786,560 814,562 822,558 837,561 856,561 862,558 875,558 881,561 929,561 943,558 1041,560 1059,557 1078,560 1118,559 1118,524 1109,523 1109,513 1103,507 969,507 966,515 892,515 888,507 844,507 837,516 780,518 762,518 760,512 754,508 696,508 689,512 687,520 681,509 670,508 660,511 656,520 640,520 638,511 633,507 569,507 557,516 534,518 411,518 414,507"/>
@@ -464,18 +480,18 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Bertramus et Ludolfus milites de Vel-&#13;
-tem ad inſtantiam fratris Vlrici de Veltheim&#13;
-contulerunt fratribꝰ Hieroſ. 2 manſos ſitos&#13;
-in Haghen cum omni iure, quo ex iure feu-&#13;
-dali illud habuerat ab Epiſcopo Merseb. ec-&#13;
-clesiæ. Teſtes Ar. miles de Veltem, patruus&#13;
-illius, frater noſter Ar. commendator, Fr.&#13;
-Bodo de Warsleve, fratres de domo in Luc-&#13;
+        <Unicode>Bertramus et Ludolfus milites de Vel-
+tem ad inſtantiam fratris Vlrici de Veltheim
+contulerunt fratribꝰ Hieroſ. 2 manſos ſitos
+in Haghen cum omni iure, quo ex iure feu-
+dali illud habuerat ab Epiſcopo Merseb. ec-
+clesiæ. Teſtes Ar. miles de Veltem, patruus
+illius, frater noſter Ar. commendator, Fr.
+Bodo de Warsleve, fratres de domo in Luc-
 kenem. 1216. 4 Febr.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.13865922" type="heading" readingDirection="left-to-right" id="TextRegion_1655119342240_4284" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1655119342240_4284" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.13865922" type="heading" readingDirection="left-to-right">
       <Coords points="177,1050 1120,1050 1120,1359 177,1359"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="541,1050 540,1073 545,1078 543,1106 549,1112 745,1112 751,1106 749,1078 754,1073 754,1051"/>
@@ -590,16 +606,16 @@ kenem. 1216. 4 Febr.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>XX.&#13;
-Otto Dux Brunſuicenſis tradit Ordini Teu-&#13;
-tonico ſiluam, castro Elmesburg&#13;
+        <Unicode>XX.
+Otto Dux Brunſuicenſis tradit Ordini Teu-
+tonico ſiluam, castro Elmesburg
 adiacentem, a. 1241.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.13865922" readingDirection="left-to-right" id="TextRegion_1655119358298_4301" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1655119358298_4301" custom="readingOrder {index:3;}" orientation="0.13865922" readingDirection="left-to-right">
       <Coords points="177,1359 233,1359 233,1490 177,1490"/>
       <TextLine id="line_1655119367948_4319" custom="readingOrder {index:0;}">
-        <Coords points="190,1348 200,1349 233,1385 233,1443 233,1495 178,1478 177,1385 183,1360"/>
+        <Coords points="209,1359 183,1359 183,1360 177,1385 178,1478 216,1490 233,1490 233,1443 233,1385"/>
         <Baseline points="177,1431 233,1428 178,1468 233,1469"/>
         <Word id="word_1655119373083_4326" custom="readingOrder {index:0;} structure {type:drop-capital;}">
           <Coords points="192,1365 199,1365 233,1385 233,1490 233,1492 230,1492 196,1478 192,1380"/>
@@ -615,7 +631,7 @@ adiacentem, a. 1241.</Unicode>
         <Unicode>I</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.13865922" readingDirection="left-to-right" id="TextRegion_1655119358298_4300" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1655119358298_4300" custom="readingOrder {index:4;}" orientation="0.13865922" readingDirection="left-to-right">
       <Coords points="233,1359 1120,1359 1120,1490 233,1490"/>
       <TextLine id="line_1655119358331_4303" custom="readingOrder {index:0;}">
         <Coords points="233,1385 243,1386 269,1395 369,1391 375,1381 388,1379 404,1390 419,1390 430,1389 431,1380 436,1375 451,1374 460,1381 468,1374 476,1374 486,1380 491,1387 497,1387 504,1375 517,1377 523,1385 526,1381 525,1370 532,1362 543,1363 547,1368 547,1376 556,1378 561,1386 586,1389 629,1389 639,1387 647,1377 660,1375 670,1376 674,1388 693,1388 695,1381 700,1377 729,1377 734,1381 735,1387 739,1388 741,1378 746,1373 755,1373 771,1382 778,1376 794,1376 799,1379 801,1386 837,1387 881,1387 889,1379 901,1378 911,1387 922,1387 924,1378 928,1375 945,1376 952,1387 989,1386 991,1379 998,1375 1013,1378 1021,1375 1079,1375 1091,1379 1107,1376 1119,1387 1119,1433 1086,1433 1070,1430 1064,1433 1019,1433 977,1429 935,1433 834,1433 827,1429 811,1432 643,1433 628,1430 607,1434 553,1435 527,1432 498,1435 428,1435 398,1432 358,1438 337,1436 333,1439 316,1440 233,1441"/>
@@ -667,7 +683,7 @@ adiacentem, a. 1241.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1655119358332_4307" custom="readingOrder {index:1;}">
-        <Coords points="233,1443 329,1445 337,1437 348,1437 354,1439 356,1444 372,1438 398,1433 468,1440 501,1434 527,1433 568,1439 603,1440 616,1439 617,1434 628,1431 640,1432 646,1437 666,1436 670,1433 700,1433 712,1437 747,1440 810,1438 810,1433 817,1430 830,1431 836,1438 961,1437 966,1431 977,1430 996,1431 1003,1437 1063,1438 1067,1432 1080,1431 1087,1434 1089,1438 1120,1439 1120,1485 828,1483 805,1482 798,1478 783,1480 775,1484 716,1487 669,1487 661,1483 628,1486 619,1482 604,1485 583,1482 576,1485 503,1485 486,1482 479,1486 328,1490 262,1500 234,1497 233,1495"/>
+        <Coords points="1089,1438 1087,1434 1080,1431 1067,1432 1063,1438 1003,1437 996,1431 977,1430 966,1431 961,1437 836,1438 830,1431 817,1430 810,1433 810,1438 747,1440 712,1437 700,1433 670,1433 666,1436 646,1437 640,1432 628,1431 617,1434 616,1439 603,1440 568,1439 527,1433 501,1434 468,1440 398,1433 372,1438 356,1444 354,1439 348,1437 337,1437 329,1445 233,1443 233,1490 328,1490 479,1486 486,1482 503,1485 576,1485 583,1482 604,1485 619,1482 628,1486 661,1483 669,1487 716,1487 775,1484 783,1480 798,1478 805,1482 828,1483 1120,1485 1120,1439"/>
         <Baseline points="233,1469 242,1470 263,1481 775,1472 1120,1475"/>
         <Word id="word_1655119358332_4309" custom="readingOrder {index:0;}">
           <Coords points="233,1443 329,1445 331,1443 355,1443 356,1444 358,1443 370,1443 370,1488 328,1490 233,1490"/>
@@ -716,14 +732,14 @@ adiacentem, a. 1241.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>n nomine ſancte et individue trinitatis Dei&#13;
+        <Unicode>n nomine ſancte et individue trinitatis Dei
 gratia Otto Dux de Bronsvic omnibus in</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.13865922" readingDirection="left-to-right" id="TextRegion_1655119355363_4290" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1655119355363_4290" custom="readingOrder {index:5;}" orientation="0.13865922" readingDirection="left-to-right">
       <Coords points="177,1490 1120,1490 1120,2057 177,2057"/>
       <TextLine id="region0003_line0008" custom="readingOrder {index:0;}">
-        <Coords points="790,1480 780,1482 772,1488 728,1490 670,1490 661,1484 652,1485 646,1490 629,1490 627,1486 619,1483 609,1483 603,1486 602,1490 591,1483 579,1484 573,1490 506,1490 500,1484 486,1483 478,1490 453,1492 319,1493 271,1501 239,1498 178,1499 178,1553 203,1555 207,1552 217,1552 222,1544 259,1544 265,1550 274,1551 282,1548 286,1541 302,1537 315,1540 360,1540 366,1536 379,1536 384,1539 416,1538 422,1543 433,1543 440,1538 507,1537 509,1541 521,1543 528,1533 541,1535 549,1530 559,1530 565,1534 597,1535 748,1533 761,1529 790,1535 819,1529 837,1532 912,1533 990,1533 1006,1530 1016,1543 1032,1540 1033,1534 1120,1534 1120,1489 806,1487 804,1482"/>
+        <Coords points="670,1490 646,1490 629,1490 602,1490 573,1490 506,1490 478,1490 453,1492 319,1493 271,1501 239,1498 178,1499 178,1553 203,1555 207,1552 217,1552 222,1544 259,1544 265,1550 274,1551 282,1548 286,1541 302,1537 315,1540 360,1540 366,1536 379,1536 384,1539 416,1538 422,1543 433,1543 440,1538 507,1537 509,1541 521,1543 528,1533 541,1535 549,1530 559,1530 565,1534 597,1535 748,1533 761,1529 790,1535 819,1529 837,1532 912,1533 990,1533 1006,1530 1016,1543 1032,1540 1033,1534 1120,1534 1120,1490 728,1490"/>
         <Baseline points="178,1534 569,1523 1120,1524"/>
         <Word id="region0003_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="434,1539 434,1494 309,1494 271,1501 239,1498 196,1498 196,1540 291,1539 302,1537 312,1539 361,1539 366,1536 379,1536 384,1539 416,1538 417,1539"/>
@@ -1232,16 +1248,16 @@ gratia Otto Dux de Bronsvic omnibus in</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>perpetuum, ad notitiam tam futurorum futurorum quam&#13;
-praeſentium volumus pervenire quod nos,&#13;
-ob amorem divinae pietatis, ſilvam quandam&#13;
-Elmersborg adjacentem, non solum silvam&#13;
-imo ipſum et Locum, in quo ſtat ſilvula memo-&#13;
-rata,-- fratres domus Alimanniae emerunt.&#13;
-a D. B. de Dalem felicis memoriae cujus&#13;
-ſilvae et loci proprietas ad nos legitime per-&#13;
-tinebat. H. S. M. D. F. I. praemisſam pro-&#13;
-prietatem ejusdem ſilve et loci ſepius dicti&#13;
+        <Unicode>perpetuum, ad notitiam tam futurorum futurorum quam
+praeſentium volumus pervenire quod nos,
+ob amorem divinae pietatis, ſilvam quandam
+Elmersborg adjacentem, non solum silvam
+imo ipſum et Locum, in quo ſtat ſilvula memo-
+rata,-- fratres domus Alimanniae emerunt.
+a D. B. de Dalem felicis memoriae cujus
+ſilvae et loci proprietas ad nos legitime per-
+tinebat. H. S. M. D. F. I. praemisſam pro-
+prietatem ejusdem ſilve et loci ſepius dicti
 contulimus libere perpetuo posſidendam.</Unicode>
       </TextEquiv>
     </TextRegion>

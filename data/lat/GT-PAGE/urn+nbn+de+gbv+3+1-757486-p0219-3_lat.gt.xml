@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-256">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:59Z</Created>
     <LastChange>2024-01-19T13:09:59Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-757486-p0219-3_lat.jpg" imageWidth="1624" imageHeight="2418" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/689205f9-b30b-4c64-98fd-c136b7c309cb/00000219.jpg" imageWidth="1624" imageHeight="2418" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="66,131 72,2345 1208,2362 1204,166"/>
     </Border>
@@ -22,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="TextRegion_1648794661480_118"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794632351_77" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1648794632351_77" custom="readingOrder {index:0;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="139,489 1042,491 1042,591 139,591"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="139,489 140,532 201,549 1042,548 1042,503 970,491 296,489"/>
@@ -57,7 +73,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0001_word0006" custom="readingOrder {index:5;}">
-          <Coords points="1011,501 955,501 955,550 966,550 970,547 1038,547 1038,502"/>
+          <Coords points="955,501 955,548 968,548 970,547 1038,547 1038,502 1035,501 1011,501"/>
           <TextEquiv conf="0.9599417">
             <Unicode>jure</Unicode>
           </TextEquiv>
@@ -67,7 +83,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0003_line0002" custom="readingOrder {index:1;}">
-        <Coords points="149,542 140,543 140,589 421,599 457,586 452,557 356,555 323,545 283,552 276,543 201,550"/>
+        <Coords points="140,543 140,589 196,591 443,591 457,586 452,557 356,555 323,545 283,552 276,543 201,550 149,542"/>
         <Word id="word_1648794632382_80" custom="readingOrder {index:0;}">
           <Coords points="146,553 350,554 356,555 419,556 419,591 179,591 146,589"/>
           <TextEquiv conf="0.8243575">
@@ -79,16 +95,16 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>JO. BRVNNEMANNVS in libro de jure&#13;
+        <Unicode>JO. BRVNNEMANNVS in libro de jure
 eccleſiaſtico.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794632351_76" custom="readingOrder {index:1;}">
+    <TextRegion id="TextRegion_1648794632351_76" custom="readingOrder {index:1;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="139,591 1042,591 1042,814 139,812"/>
       <TextLine id="region0003_line0003" custom="readingOrder {index:0;}">
         <Coords points="580,590 140,594 140,640 1042,649 1042,602 900,594"/>
         <Word id="region0003_line0003_word0000" custom="readingOrder {index:0;}">
-          <Coords points="566,650 566,604 190,603 190,652 225,652 229,652 237,649 376,652 418,651 425,648 442,648 447,651 527,651"/>
+          <Coords points="566,604 190,603 190,640 566,644"/>
           <TextEquiv conf="0.9158851">
             <Unicode>JO.HENNINGIVS</Unicode>
           </TextEquiv>
@@ -148,7 +164,7 @@ eccleſiaſtico.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0004_word0005" custom="readingOrder {index:5;}">
-          <Coords points="925,655 910,655 897,656 897,691 1037,692 1037,662 1029,662 1027,655 1006,655 1003,662 985,662 937,660"/>
+          <Coords points="910,655 897,656 897,691 1037,692 1037,690 1023,655 1006,655 1003,662 985,662 937,660 925,655"/>
           <TextEquiv conf="0.8832899">
             <Unicode>Canoni-</Unicode>
           </TextEquiv>
@@ -232,7 +248,7 @@ eccleſiaſtico.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0006_word0003" custom="readingOrder {index:3;}">
-          <Coords points="664,757 623,757 623,761 597,763 597,795 690,796 690,761 667,761"/>
+          <Coords points="623,761 597,763 597,795 690,796 690,761 667,761 666,759 623,758"/>
           <TextEquiv conf="0.9055275">
             <Unicode>edit.</Unicode>
           </TextEquiv>
@@ -254,10 +270,10 @@ ci Hal. 1712. Idem in jure eccleſiaſtico Pro-
 teſtantium Hal. 1720. edit. 2.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" type="heading" readingDirection="left-to-right" id="TextRegion_1648794619860_62" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="TextRegion_1648794619860_62" custom="readingOrder {index:2;} structure {type:heading;}" orientation="-0.17358539" type="heading" readingDirection="left-to-right">
       <Coords points="105,818 1045,820 1044,870 104,870"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
-        <Coords points="509,819 454,822 452,862 483,865 537,883 547,876 573,880 691,874 721,856 720,820"/>
+        <Coords points="454,822 452,862 483,865 498,870 697,870 721,856 720,820 509,819"/>
         <Word id="word_1648794619897_65" custom="readingOrder {index:0;}">
           <Coords points="523,827 556,827 556,868 523,868"/>
           <TextEquiv>
@@ -278,36 +294,36 @@ teſtantium Hal. 1720. edit. 2.</Unicode>
         <Unicode>§.  IX. IX.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794642788_85" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1648794642788_85" custom="readingOrder {index:3;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="104,870 1044,870 1043,980 103,980"/>
       <TextLine id="region0004_line0002" custom="readingOrder {index:0;}">
-        <Coords points="189,864 194,864 192,904 267,930 1044,924 1044,877 334,874 204,862"/>
+        <Coords points="192,904 267,930 1043,924 1043,876 334,874 290,870 193,870"/>
         <Word id="word_1648794619897_68" custom="readingOrder {index:0;}">
-          <Coords points="193,870 254,870 256,871 258,881 258,916 193,906"/>
+          <Coords points="258,916 258,881 256,871 254,870 193,870 193,884 193,904 201,907"/>
           <TextEquiv conf="0.91103065">
             <Unicode>De</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="266,874 266,919 423,920 423,882 408,883 388,882 386,877 374,868 364,867 348,880 328,881 311,879 299,869 291,869 279,877 268,877"/>
+          <Coords points="266,919 423,920 423,882 408,883 388,882 386,877 382,874 355,874 348,880 328,881 311,879 301,870 289,869 279,877 268,877 266,874"/>
           <TextEquiv>
             <Unicode>fontibus</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1648794619897_70" custom="readingOrder {index:2;}">
-          <Coords points="444,870 459,870 467,874 471,871 482,871 487,874 491,871 500,871 513,881 528,884 540,883 547,877 558,877 565,884 579,884 579,914 443,914 443,871"/>
+          <Coords points="443,914 579,914 579,884 565,884 558,877 547,877 540,883 528,884 513,881 504,874 443,874"/>
           <TextEquiv conf="0.89413834">
             <Unicode>hiſtoriæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0003" custom="readingOrder {index:3;}">
-          <Coords points="603,882 603,914 808,915 808,882 801,883 776,882 772,873 754,870 742,871 729,882 721,882 716,872 702,869 690,875 686,881 679,881 672,875 663,874 655,876 652,880"/>
+          <Coords points="603,914 808,915 808,882 801,883 776,882 773,875 736,875 729,882 721,882 717,875 689,875 686,881 679,881 672,875 657,875 655,876 652,880 603,882"/>
           <TextEquiv conf="0.7817953">
             <Unicode>eccleſiaſticæ</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1648794619897_72" custom="readingOrder {index:4;}">
-          <Coords points="833,871 835,870 853,870 858,871 863,882 1034,882 1034,919 831,918 831,874"/>
+          <Coords points="831,918 1034,919 1034,882 863,882 860,876 831,876"/>
           <TextEquiv conf="0.91246843">
             <Unicode>ſequentes</Unicode>
           </TextEquiv>
@@ -317,7 +333,7 @@ teſtantium Hal. 1720. edit. 2.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0003" custom="readingOrder {index:1;}">
-        <Coords points="105,920 105,967 340,985 894,973 872,934 194,923"/>
+        <Coords points="105,967 274,980 570,980 894,973 872,934 194,923 105,920"/>
         <Word id="region0004_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="231,927 146,927 146,968 314,968 314,935 267,936"/>
           <TextEquiv conf="0.9030479">
@@ -331,7 +347,7 @@ teſtantium Hal. 1720. edit. 2.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0003_word0002" custom="readingOrder {index:2;}">
-          <Coords points="561,927 546,927 546,977 554,977 558,979 621,979 621,927 602,927 601,933 564,933"/>
+          <Coords points="546,977 554,977 558,979 617,979 621,978 621,929 601,929 601,933 564,933 561,928 546,928"/>
           <TextEquiv conf="0.9163269">
             <Unicode>legi</Unicode>
           </TextEquiv>
@@ -347,16 +363,16 @@ teſtantium Hal. 1720. edit. 2.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>De fontibus hiſtoriæ hiſtoriæ eccleſiaſticæ ſequentes ſequentes&#13;
+        <Unicode>De fontibus hiſtoriæ hiſtoriæ eccleſiaſticæ ſequentes ſequentes
 auctores præcipue legi merentur:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794647892_92" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1648794647892_92" custom="readingOrder {index:4;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="103,980 1043,980 1043,1443 102,1443"/>
       <TextLine id="region0004_line0004" custom="readingOrder {index:0;}">
         <Coords points="191,982 193,983 191,1018 1044,1031 1044,988 285,979"/>
         <Word id="region0004_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="336,982 195,982 195,1024 211,1024 211,1024 211,1024 523,1025 523,983 466,983 466,983 458,985 451,984 450,983 345,982 340,986"/>
+          <Coords points="195,982 195,1018 523,1023 523,983 466,983 458,985 451,984 450,983 345,982 340,986 336,982"/>
           <TextEquiv>
             <Unicode>HIERONYMUS</Unicode>
           </TextEquiv>
@@ -368,13 +384,13 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0002" custom="readingOrder {index:2;}">
-          <Coords points="673,986 603,986 603,1027 693,1028 706,1027 707,1028 754,1028 754,987 682,987 681,987"/>
+          <Coords points="603,986 603,1024 754,1026 754,987 682,987 681,987 673,986"/>
           <TextEquiv conf="0.78310364">
             <Unicode>Catalogo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0004_word0003" custom="readingOrder {index:3;}">
-          <Coords points="812,982 782,982 778,986 771,986 771,1029 784,1029 787,1027 795,1027 816,1029 966,1029 966,988 849,988 847,982 827,982 823,988 814,987"/>
+          <Coords points="778,986 771,986 771,1027 787,1027 787,1027 795,1027 798,1027 913,1029 966,1029 966,988 849,988 848,986 825,985 823,988 814,987 813,985 779,985"/>
           <TextEquiv>
             <Unicode>ſcriptorum</Unicode>
           </TextEquiv>
@@ -404,25 +420,25 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0002" custom="readingOrder {index:2;}">
-          <Coords points="607,1030 593,1030 588,1032 586,1038 520,1037 520,1070 625,1070 625,1038 613,1038 612,1033"/>
+          <Coords points="588,1032 586,1038 520,1037 520,1070 625,1070 625,1038 613,1038 612,1033 610,1032 589,1032"/>
           <TextEquiv conf="0.9092129">
             <Unicode>notis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0003" custom="readingOrder {index:3;}">
-          <Coords points="707,1029 698,1029 695,1032 693,1038 635,1038 635,1068 747,1069 747,1038 733,1038 725,1033 713,1035"/>
+          <Coords points="693,1038 635,1038 635,1068 747,1069 747,1038 733,1038 725,1033 713,1035 710,1032 694,1032"/>
           <TextEquiv conf="0.91601235">
             <Unicode>variis</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0004" custom="readingOrder {index:4;}">
-          <Coords points="797,1029 785,1029 775,1039 770,1038 770,1069 902,1069 902,1038 802,1037 800,1030"/>
+          <Coords points="775,1039 770,1038 770,1069 902,1069 902,1038 802,1037 800,1033 780,1033"/>
           <TextEquiv conf="0.91628975">
             <Unicode>denuo</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0005_word0005" custom="readingOrder {index:5;}">
-          <Coords points="989,1031 957,1031 956,1032 954,1040 924,1039 924,1071 1036,1072 1036,1040 996,1040 994,1034"/>
+          <Coords points="954,1040 924,1039 924,1071 1036,1072 1036,1040 1034,1040 996,1040 994,1035 987,1035 955,1034"/>
           <TextEquiv conf="0.91368395">
             <Unicode>edito</Unicode>
           </TextEquiv>
@@ -432,7 +448,7 @@ auctores præcipue legi merentur:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0006" custom="readingOrder {index:2;}">
-        <Coords points="105,1068 105,1121 201,1133 1045,1128 1044,1091 385,1096 148,1068"/>
+        <Coords points="105,1121 201,1133 1043,1128 1043,1091 385,1096 148,1068 105,1068"/>
         <Word id="region0004_line0006_word0000" custom="readingOrder {index:0;}">
           <Coords points="163,1070 147,1070 147,1122 175,1123 188,1126 188,1127 241,1127 241,1082 195,1086 183,1074 171,1075"/>
           <TextEquiv conf="0.8746329">
@@ -446,7 +462,7 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0002" custom="readingOrder {index:2;}">
-          <Coords points="380,1095 380,1125 418,1125 418,1091 390,1093 385,1096"/>
+          <Coords points="380,1125 418,1125 418,1095 385,1096 380,1095"/>
           <TextEquiv conf="0.9618244">
             <Unicode>4.</Unicode>
           </TextEquiv>
@@ -458,25 +474,25 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0004" custom="readingOrder {index:4;}">
-          <Coords points="482,1097 482,1123 651,1123 651,1099 643,1100 634,1091 613,1092 607,1101 536,1100 519,1098 514,1093 496,1092 483,1097"/>
+          <Coords points="482,1123 651,1123 651,1099 643,1100 637,1094 611,1094 607,1101 536,1100 519,1098 516,1095 487,1095 483,1097 482,1097"/>
           <TextEquiv conf="0.86915946">
             <Unicode>Gennadio</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0005" custom="readingOrder {index:5;}">
-          <Coords points="683,1089 683,1129 804,1129 804,1089 744,1089 740,1087 739,1082 725,1080 716,1081 707,1088"/>
+          <Coords points="683,1129 804,1129 804,1092 683,1093"/>
           <TextEquiv conf="0.9492931">
             <Unicode>uſque</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0006" custom="readingOrder {index:6;}">
-          <Coords points="824,1094 824,1121 868,1121 868,1086 853,1087 847,1094 841,1095"/>
+          <Coords points="824,1121 868,1121 868,1092 848,1092 847,1094 841,1095 824,1094"/>
           <TextEquiv conf="0.96681976">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0006_word0007" custom="readingOrder {index:7;}">
-          <Coords points="891,1089 891,1117 1036,1118 1036,1090"/>
+          <Coords points="891,1117 1036,1118 1036,1091 891,1092"/>
           <TextEquiv conf="0.967978">
             <Unicode>annum</Unicode>
           </TextEquiv>
@@ -488,7 +504,7 @@ auctores præcipue legi merentur:</Unicode>
       <TextLine id="region0004_line0007" custom="readingOrder {index:3;}">
         <Coords points="105,1122 104,1177 344,1194 1038,1187 1041,1135 317,1146 175,1124"/>
         <Word id="region0004_line0007_word0000" custom="readingOrder {index:0;}">
-          <Coords points="190,1130 148,1130 147,1176 286,1176 286,1140 275,1139 263,1134 228,1133 221,1139 200,1141"/>
+          <Coords points="148,1130 147,1176 286,1176 286,1141 234,1133 228,1133 221,1139 200,1141 190,1130"/>
           <TextEquiv>
             <Unicode>Chriſti</Unicode>
           </TextEquiv>
@@ -500,7 +516,7 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0002" custom="readingOrder {index:2;}">
-          <Coords points="424,1138 424,1174 463,1174 463,1139 456,1139 446,1134 434,1134"/>
+          <Coords points="424,1174 463,1174 463,1143 424,1144"/>
           <TextEquiv conf="0.9267433">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -512,19 +528,19 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0004" custom="readingOrder {index:4;}">
-          <Coords points="667,1135 650,1135 646,1142 633,1142 633,1174 679,1175 679,1143 673,1143"/>
+          <Coords points="646,1142 633,1142 633,1174 679,1175 679,1143 673,1143 671,1140 646,1140"/>
           <TextEquiv conf="0.9006346">
             <Unicode>ab</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0005" custom="readingOrder {index:5;}">
-          <Coords points="761,1136 759,1136 750,1142 739,1145 730,1138 724,1138 718,1144 718,1144 717,1186 833,1186 834,1146 830,1147 791,1147 784,1137 771,1137 767,1140"/>
+          <Coords points="750,1142 739,1145 732,1139 722,1139 718,1144 717,1186 833,1186 834,1146 830,1147 791,1147 785,1138 768,1139 767,1140 765,1139 753,1139"/>
           <TextEquiv>
             <Unicode>Iſidoro</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0007_word0006" custom="readingOrder {index:6;}">
-          <Coords points="939,1136 862,1136 861,1188 969,1188 994,1187 994,1188 1040,1189 1041,1137 1022,1136 1021,1137 1013,1147 984,1146 978,1138 966,1138 959,1146 943,1145 941,1137"/>
+          <Coords points="861,1188 939,1188 979,1188 994,1187 994,1187 1038,1187 1041,1137 1022,1136 1021,1137 1013,1147 984,1146 978,1138 966,1138 959,1146 943,1145 941,1137 940,1137 862,1138"/>
           <TextEquiv conf="0.8540767">
             <Unicode>Hiſpalenſi</Unicode>
           </TextEquiv>
@@ -534,7 +550,7 @@ auctores præcipue legi merentur:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0008" custom="readingOrder {index:4;}">
-        <Coords points="105,1231 1045,1249 1044,1201 987,1188 104,1182"/>
+        <Coords points="1043,1248 1043,1200 987,1188 104,1182 105,1231"/>
         <Word id="region0004_line0008_word0000" custom="readingOrder {index:0;}">
           <Coords points="222,1190 146,1190 146,1229 152,1230 168,1227 179,1230 390,1231 390,1194 372,1199 341,1201 260,1194 257,1190 230,1190 227,1191"/>
           <TextEquiv>
@@ -542,7 +558,7 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0008_word0001" custom="readingOrder {index:1;}">
-          <Coords points="426,1188 426,1239 540,1239 540,1196 504,1197 491,1200 483,1199 468,1190 437,1188"/>
+          <Coords points="426,1237 522,1239 540,1239 540,1196 504,1197 491,1200 483,1199 468,1190 437,1188 426,1188"/>
           <TextEquiv conf="0.9230521">
             <Unicode>Quos</Unicode>
           </TextEquiv>
@@ -674,7 +690,7 @@ auctores præcipue legi merentur:</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0011_word0004" custom="readingOrder {index:4;}">
-          <Coords points="855,1357 855,1387 1036,1388 1036,1357 1030,1357 1026,1350 995,1348 983,1357 973,1357 972,1350 967,1347 952,1347 944,1349 938,1357 931,1357 925,1349 915,1349 907,1357"/>
+          <Coords points="855,1387 1036,1388 1036,1378 1026,1350 993,1349 983,1357 973,1357 972,1350 970,1348 946,1348 944,1349 938,1357 931,1357 925,1349 915,1349 907,1357 855,1357"/>
           <TextEquiv>
             <Unicode>eccleſiaſti-</Unicode>
           </TextEquiv>
@@ -684,7 +700,7 @@ auctores præcipue legi merentur:</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0012" custom="readingOrder {index:8;}">
-        <Coords points="104,1393 104,1434 263,1450 730,1441 727,1410 674,1398 180,1395"/>
+        <Coords points="104,1434 193,1443 626,1443 730,1441 727,1410 674,1398 180,1395 104,1393"/>
         <Word id="word_1648794647923_95" custom="readingOrder {index:0;}">
           <Coords points="142,1398 273,1410 273,1443 237,1443 202,1439 142,1423"/>
           <TextEquiv>
@@ -725,7 +741,7 @@ in Bibliotheca eccleſiaſtica ſcriptorum eccleſiaſti-
 corum, Hamburgi 1718. fol.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794653287_105" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1648794653287_105" custom="readingOrder {index:5;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="102,1443 1043,1443 1043,1596 102,1596"/>
       <TextLine id="region0004_line0013" custom="readingOrder {index:0;}">
         <Coords points="808,1444 803,1444 473,1459 128,1443 127,1489 1043,1495 1044,1450 828,1445 818,1444"/>
@@ -736,7 +752,7 @@ corum, Hamburgi 1718. fol.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0013_word0001" custom="readingOrder {index:1;}">
-          <Coords points="481,1465 481,1488 823,1489 822,1454 816,1451 806,1451 799,1454 803,1454 762,1451 757,1455 687,1451 613,1451 591,1464 578,1460 544,1459 534,1465 520,1459 493,1461"/>
+          <Coords points="481,1465 481,1488 823,1489 822,1454 816,1451 762,1451 757,1455 613,1451 591,1464 544,1459 534,1465 520,1459"/>
           <TextEquiv conf="0.90788436">
             <Unicode>BELLARMINUS</Unicode>
           </TextEquiv>
@@ -758,7 +774,7 @@ corum, Hamburgi 1718. fol.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0014" custom="readingOrder {index:1;}">
-        <Coords points="110,1544 1048,1556 1043,1513 974,1491 332,1499 103,1486"/>
+        <Coords points="1043,1555 1043,1513 974,1491 332,1499 103,1486 110,1544"/>
         <Word id="region0004_line0014_word0000" custom="readingOrder {index:0;}">
           <Coords points="172,1490 146,1490 146,1538 159,1538 159,1538 169,1538 169,1538 355,1539 355,1511 332,1511 319,1510 315,1503 297,1501 285,1502 281,1507 271,1507 218,1502 209,1495 199,1496 195,1500 181,1499 176,1491"/>
           <TextEquiv>
@@ -794,7 +810,7 @@ corum, Hamburgi 1718. fol.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0015" custom="readingOrder {index:2;}">
-        <Coords points="159,1539 103,1545 103,1588 446,1611 897,1600 891,1565 788,1556 173,1540"/>
+        <Coords points="103,1545 103,1588 222,1596 896,1596 891,1565 788,1556 173,1540 159,1539"/>
         <Word id="region0004_line0015_word0000" custom="readingOrder {index:0;}">
           <Coords points="179,1547 148,1547 148,1589 232,1589 232,1553 212,1553"/>
           <TextEquiv conf="0.9208831">
@@ -836,17 +852,17 @@ corum, Hamburgi 1718. fol.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ROBERTUS ROBERTUS BELLARMINUS libro de&#13;
-ſcriptoribus eccleſiaſticis, continuato ab An-&#13;
+        <Unicode>ROBERTUS ROBERTUS BELLARMINUS libro de
+ſcriptoribus eccleſiaſticis, continuato ab An-
 drea du Sauſſay. Sauflay. 4. 4. Coloniæ 1684.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794656539_114" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1648794656539_114" custom="readingOrder {index:6;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="102,1596 1043,1596 1043,1750 102,1750"/>
       <TextLine id="region0004_line0016" custom="readingOrder {index:0;}">
         <Coords points="193,1595 136,1597 134,1632 275,1655 1043,1659 1043,1619 990,1604 305,1604"/>
         <Word id="region0004_line0016_word0000" custom="readingOrder {index:0;}">
-          <Coords points="441,1609 196,1608 196,1644 220,1646 227,1649 442,1650 442,1609"/>
+          <Coords points="196,1608 196,1642 220,1646 220,1646 220,1646 239,1649 442,1650 442,1609 441,1609"/>
           <TextEquiv conf="0.8775237">
             <Unicode>PHILIPPUS</Unicode>
           </TextEquiv>
@@ -874,7 +890,7 @@ drea du Sauſſay. Sauflay. 4. 4. Coloniæ 1684.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0017" custom="readingOrder {index:1;}">
-        <Coords points="152,1636 103,1642 103,1683 280,1708 1046,1710 1043,1665 971,1657 330,1663 166,1636"/>
+        <Coords points="103,1642 103,1683 280,1708 1043,1709 1043,1665 971,1657 330,1663 166,1636 152,1636"/>
         <Word id="region0004_line0017_word0000" custom="readingOrder {index:0;}">
           <Coords points="170,1639 150,1639 149,1642 147,1642 147,1681 193,1681 193,1645 179,1644"/>
           <TextEquiv conf="0.9312735">
@@ -882,7 +898,7 @@ drea du Sauſſay. Sauflay. 4. 4. Coloniæ 1684.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0017_word0001" custom="readingOrder {index:1;}">
-          <Coords points="206,1646 203,1646 203,1700 467,1701 467,1665 466,1666 402,1664 391,1655 366,1655 360,1663 330,1663 277,1660 276,1656 269,1653 258,1653 248,1657 220,1647"/>
+          <Coords points="203,1646 203,1697 224,1700 467,1701 467,1665 466,1666 402,1664 400,1662 360,1663 360,1663 330,1663 277,1660 276,1656 269,1653 258,1653 248,1657 220,1647 206,1646"/>
           <TextEquiv conf="0.8311136">
             <Unicode>ſcriproribus,</Unicode>
           </TextEquiv>
@@ -916,9 +932,9 @@ drea du Sauſſay. Sauflay. 4. 4. Coloniæ 1684.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0018" custom="readingOrder {index:2;}">
-        <Coords points="103,1684 103,1740 319,1758 444,1749 439,1718 341,1709 277,1716 268,1705 198,1701 152,1684"/>
+        <Coords points="103,1740 223,1750 430,1750 444,1749 439,1718 341,1709 277,1716 268,1705 198,1701 152,1684 103,1684"/>
         <Word id="region0004_line0018_word0000" custom="readingOrder {index:0;}">
-          <Coords points="169,1689 146,1689 146,1739 286,1739 286,1715 277,1716 271,1712 268,1705 260,1703 198,1701 180,1692"/>
+          <Coords points="146,1689 146,1739 286,1739 286,1715 277,1716 271,1712 268,1705 198,1701 165,1689"/>
           <TextEquiv conf="0.8682727">
             <Unicode>Pariſiis</Unicode>
           </TextEquiv>
@@ -934,23 +950,23 @@ drea du Sauſſay. Sauflay. 4. 4. Coloniæ 1684.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>PHILIPPUS LABBEUS in Diſſertationibus&#13;
-de ſcriproribus, quos Bellarminus attigit 8.&#13;
+        <Unicode>PHILIPPUS LABBEUS in Diſſertationibus
+de ſcriproribus, quos Bellarminus attigit 8.
 Pariſiis 1660.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794661480_119" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1648794661480_119" custom="readingOrder {index:7;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="102,1750 1043,1750 1043,1910 102,1910"/>
       <TextLine id="region0004_line0019" custom="readingOrder {index:0;}">
-        <Coords points="197,1748 141,1750 138,1793 1043,1819 1043,1770 1005,1755 296,1759"/>
+        <Coords points="138,1793 1043,1819 1043,1770 1005,1755 296,1759 215,1750 141,1750"/>
         <Word id="region0004_line0019_word0000" custom="readingOrder {index:0;}">
-          <Coords points="262,1807 263,1756 195,1756 194,1804 201,1809 214,1805"/>
+          <Coords points="263,1756 195,1756 194,1794 262,1796"/>
           <TextEquiv conf="0.9062683">
             <Unicode>JO.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0019_word0001" custom="readingOrder {index:1;}">
-          <Coords points="272,1762 501,1763 501,1804 272,1803"/>
+          <Coords points="501,1763 272,1762 272,1796 501,1803"/>
           <TextEquiv conf="0.9327447">
             <Unicode>ANDREAS</Unicode>
           </TextEquiv>
@@ -1014,15 +1030,15 @@ Pariſiis 1660.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0021" custom="readingOrder {index:2;}">
-        <Coords points="142,1845 146,1892 285,1916 560,1910 555,1876 243,1866 183,1849"/>
+        <Coords points="146,1892 250,1910 560,1910 555,1876 243,1866 183,1849 142,1845"/>
         <Word id="region0004_line0021_word0001" custom="readingOrder {index:0;}">
-          <Coords points="193,1851 146,1851 146,1896 192,1901 203,1899 277,1909 277,1865 255,1863 243,1866 228,1858"/>
+          <Coords points="146,1851 146,1892 194,1900 203,1899 277,1909 277,1867 243,1866 190,1851"/>
           <TextEquiv>
             <Unicode>corum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0021_word0002" custom="readingOrder {index:1;}">
-          <Coords points="284,1862 284,1909 364,1910 364,1872 340,1872 317,1868 314,1862 297,1860 285,1861"/>
+          <Coords points="284,1909 364,1910 364,1872 340,1872 319,1868 284,1867"/>
           <TextEquiv conf="0.9491278">
             <Unicode>Jen.</Unicode>
           </TextEquiv>
@@ -1044,17 +1060,17 @@ Pariſiis 1660.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>JO. ANDREAS BOSIUS in ſchediasmate de&#13;
-Comparanda notitia ſcriptorum eccleſiaſti-&#13;
+        <Unicode>JO. ANDREAS BOSIUS in ſchediasmate de
+Comparanda notitia ſcriptorum eccleſiaſti-
 corum Jen. 1673. 4.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.17358539" readingDirection="left-to-right" id="TextRegion_1648794661480_118" custom="readingOrder {index:8;}">
+    <TextRegion id="TextRegion_1648794661480_118" custom="readingOrder {index:8;}" orientation="-0.17358539" readingDirection="left-to-right">
       <Coords points="108,1906 1038,1920 1043,2076 102,2074"/>
       <TextLine id="region0004_line0022" custom="readingOrder {index:0;}">
-        <Coords points="195,1900 162,1906 186,1954 290,1967 1042,1970 1042,1930 990,1917 267,1909"/>
+        <Coords points="186,1954 290,1967 1039,1969 1038,1929 999,1919 419,1910 267,1909 261,1908 162,1906"/>
         <Word id="region0004_line0022_word0000" custom="readingOrder {index:0;}">
-          <Coords points="262,1960 262,1913 195,1913 195,1957 201,1959 261,1960"/>
+          <Coords points="262,1913 195,1913 195,1955 229,1959 261,1960 262,1960"/>
           <TextEquiv conf="0.95420045">
             <Unicode>JO.</Unicode>
           </TextEquiv>
@@ -1088,7 +1104,7 @@ corum Jen. 1673. 4.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0023" custom="readingOrder {index:1;}">
-        <Coords points="161,1933 102,1942 113,1976 306,2026 1042,2029 1040,1969 376,1979 170,1941"/>
+        <Coords points="106,1941 106,1955 113,1976 306,2026 1041,2028 1039,1969 376,1979 170,1941 161,1933"/>
         <Word id="region0004_line0023_word0000" custom="readingOrder {index:0;}">
           <Coords points="140,1942 140,1977 235,1996 235,1982 201,1960 186,1955 179,1943 170,1941 161,1933 149,1942"/>
           <TextEquiv>
@@ -1114,7 +1130,7 @@ corum Jen. 1673. 4.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0023_word0004" custom="readingOrder {index:4;}">
-          <Coords points="786,1969 786,2017 890,2017 890,1979 876,1979 872,1976 860,1979 817,1979 815,1971 810,1969"/>
+          <Coords points="786,2017 890,2017 890,1979 876,1979 872,1976 860,1979 817,1979 815,1972 786,1972"/>
           <TextEquiv>
             <Unicode>Jenæ</Unicode>
           </TextEquiv>
@@ -1136,7 +1152,7 @@ corum Jen. 1673. 4.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0024" custom="readingOrder {index:2;}">
-        <Coords points="159,1991 102,1998 102,2042 289,2084 801,2074 796,2038 696,2022 306,2027 170,1991"/>
+        <Coords points="104,1997 103,2042 245,2074 732,2075 801,2074 796,2038 696,2022 306,2027 170,1991 159,1991"/>
         <Word id="region0004_line0024_word0000" custom="readingOrder {index:0;}">
           <Coords points="170,1991 159,1991 153,1998 149,1998 149,2044 273,2060 273,2037 256,2018 238,2018 210,2009 194,1999 179,1998"/>
           <TextEquiv conf="0.91785765">

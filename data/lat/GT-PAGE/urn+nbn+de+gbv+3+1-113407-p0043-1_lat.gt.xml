@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-1">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:02Z</Created>
     <LastChange>2024-01-19T13:07:02Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-113407-p0043-1_lat.jpg" imageWidth="2123" imageHeight="2406" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/7634b703-9935-4c1a-821a-be9a7b8d30d2/00000043.jpg" imageWidth="2123" imageHeight="2406" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="269,368 1604,368 1604,2147 269,2147"/>
     </Border>
@@ -14,10 +30,10 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1645513780172_183"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-1.2796608" readingDirection="left-to-right" id="TextRegion_1645513780172_183" custom="readingOrder {index:0;}">
+    <TextRegion id="TextRegion_1645513780172_183" custom="readingOrder {index:0;}" orientation="-1.2796608" readingDirection="left-to-right">
       <Coords points="287,374 1597,409 1588,1808 1589,2089 281,2077 273,2041 274,1885"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
-        <Coords points="1387,402 1376,404 1367,404 1362,399 1347,396 1302,395 1274,394 1269,395 1246,394 1232,398 1222,406 1191,405 1179,394 1166,394 1160,404 1152,394 1137,394 1130,404 1125,403 1111,394 1083,394 1058,400 979,399 969,390 935,387 909,389 894,395 866,398 822,396 815,385 802,385 794,395 734,395 728,385 707,382 693,394 691,386 687,383 617,381 611,386 605,380 597,380 583,386 578,392 519,390 518,381 513,376 466,376 462,388 377,384 375,375 287,374 287,423 332,424 339,427 400,426 407,429 485,429 490,432 551,434 570,431 723,437 859,435 998,442 1004,439 1055,440 1070,444 1104,445 1105,449 1115,452 1128,443 1212,447 1253,444 1352,449 1366,447 1383,449 1405,461 1419,459 1419,454 1426,450 1435,450 1441,454 1596,459 1596,420 1564,421 1555,415 1542,412 1485,412 1483,409 1465,407 1460,413 1434,411 1411,402"/>
+        <Coords points="1376,404 1367,404 1365,402 1230,399 1222,406 1191,405 1183,397 1163,397 1160,404 1154,397 1135,396 1130,404 1125,403 1114,396 1078,395 1058,400 979,399 971,392 905,390 894,395 866,398 822,396 817,388 799,387 794,395 734,395 728,385 703,385 693,394 691,386 689,384 614,382 611,386 607,382 591,382 583,386 578,392 519,390 518,381 517,380 465,378 462,388 377,384 375,376 287,374 287,423 332,424 339,427 400,426 407,429 485,429 490,432 551,434 570,431 723,437 859,435 998,442 1004,439 1055,440 1070,444 1104,445 1105,449 1115,452 1128,443 1212,447 1253,444 1352,449 1366,447 1383,449 1405,461 1419,459 1419,454 1426,450 1435,450 1441,454 1596,459 1596,420 1564,421 1555,415 1542,412 1485,412 1483,409 1465,407 1460,413 1434,411 1416,404 1380,403"/>
         <Word id="region0003_line0001_word0000" custom="readingOrder {index:0;}">
           <Coords points="320,374 320,407 410,409 410,385 377,384 375,375"/>
           <TextEquiv conf="0.9308719">
@@ -487,7 +503,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0009_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1322,772 1323,737 1203,734 1202,772 1222,779 1233,785 1255,778 1282,777"/>
+          <Coords points="1323,737 1304,736 1300,738 1270,738 1268,735 1246,735 1246,736 1240,736 1237,734 1203,734 1202,772 1222,779 1233,785 1255,778 1282,777 1322,772"/>
           <TextEquiv conf="0.8701613">
             <Unicode>Spirit.</Unicode>
           </TextEquiv>
@@ -763,7 +779,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0013_word0001" custom="readingOrder {index:1;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="475,961 417,960 413,923 481,934"/>
+          <Coords points="417,960 475,961 481,934 450,929 413,927"/>
           <TextEquiv conf="0.93202317">
             <Unicode>eum</Unicode>
           </TextEquiv>
@@ -1219,7 +1235,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0019_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1418,1266 1419,1221 1319,1217 1318,1266 1357,1273 1369,1268 1403,1269 1412,1266"/>
+          <Coords points="1419,1221 1330,1217 1328,1218 1325,1217 1319,1217 1318,1266 1336,1269 1340,1268 1357,1273 1369,1268 1403,1269 1412,1266 1418,1266"/>
           <TextEquiv conf="0.85807055">
             <Unicode>JEſu</Unicode>
           </TextEquiv>
@@ -1891,13 +1907,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1645514946334_277" custom="readingOrder {index:5;}">
-          <Coords points="840,1698 887,1700 906,1725 906,1739 887,1739 840,1738"/>
+          <Coords points="840,1738 887,1739 906,1739 906,1725 887,1700 861,1698 858,1702 849,1705 840,1698"/>
           <TextEquiv>
             <Unicode>X,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0029_word0006" custom="readingOrder {index:6;}">
-          <Coords points="909,1704 1006,1705 1006,1743 909,1742"/>
+          <Coords points="909,1742 1006,1743 1006,1705 941,1704 909,1707"/>
           <TextEquiv conf="0.8015205">
             <Unicode>38.)</Unicode>
           </TextEquiv>
@@ -2345,7 +2361,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0006_line0001" custom="readingOrder {index:34;}">
-        <Coords points="1420,2036 1413,2037 1408,2049 1330,2047 1327,2036 1314,2035 1307,2035 1304,2038 1302,2047 1299,2047 1291,2037 1276,2037 1266,2045 1209,2045 1203,2038 1192,2038 1186,2047 1136,2046 929,2040 923,2033 913,2033 907,2033 903,2040 872,2043 868,2033 790,2032 783,2036 781,2043 714,2046 697,2046 698,2032 677,2031 674,2041 664,2036 607,2036 602,2040 601,2046 596,2047 563,2047 556,2037 546,2036 538,2045 532,2045 525,2036 516,2036 512,2039 498,2033 467,2033 420,2038 379,2037 375,2029 356,2029 355,2036 349,2038 280,2036 279,2082 304,2083 309,2081 313,2074 436,2078 476,2085 481,2090 497,2090 501,2085 526,2084 633,2086 758,2083 770,2092 831,2092 837,2092 842,2089 844,2082 941,2079 1039,2080 1108,2084 1115,2086 1116,2094 1142,2095 1146,2085 1165,2084 1215,2086 1222,2095 1282,2096 1285,2087 1291,2085 1306,2086 1313,2093 1322,2094 1330,2086 1333,2096 1356,2096 1362,2085 1546,2086 1547,2051 1470,2049 1465,2040 1454,2039 1446,2048 1434,2049 1431,2039 1421,2036"/>
+        <Coords points="1413,2037 1408,2049 1330,2047 1327,2036 1314,2035 1307,2035 1304,2038 1302,2047 1299,2047 1291,2037 1276,2037 1266,2045 1209,2045 1203,2038 1192,2038 1186,2047 1136,2046 929,2040 923,2033 913,2033 907,2033 903,2040 872,2043 868,2033 790,2032 783,2036 781,2043 714,2046 697,2046 698,2032 677,2031 674,2041 664,2036 607,2036 602,2040 601,2046 596,2047 563,2047 556,2037 546,2036 538,2045 532,2045 525,2036 516,2036 512,2039 498,2033 467,2033 420,2038 379,2037 375,2029 356,2029 355,2036 349,2038 280,2036 279,2069 281,2077 311,2077 313,2074 436,2078 439,2078 844,2082 844,2082 941,2079 1039,2080 1108,2084 1110,2085 1147,2085 1165,2084 1201,2085 1287,2086 1291,2085 1306,2086 1306,2086 1329,2087 1330,2086 1330,2087 1361,2087 1362,2085 1546,2086 1547,2051 1470,2049 1465,2040 1454,2039 1446,2048 1434,2049 1431,2039 1421,2036 1420,2036"/>
         <Word id="region0006_line0001_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="285,2036 285,2056 369,2058 369,2029 356,2029 355,2036 349,2038"/>
           <TextEquiv conf="0.54301965">
@@ -2435,40 +2451,40 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Eum unctum fuiſſe dicendum eſt, cum Spiritus S. ſub ſpecie Co-&#13;
-lumbæ ſuper Unctum CHRISTUM deſcenderet. Rectiſſimè proinde&#13;
-tempus hoc unctionis &amp; ejus ſemel peractæ manifeſtationis deter-&#13;
-minant Veteres. Unxit DEUS Pater Chriſtum oleô Exultationis, cum&#13;
-humanitatem divinitate unxit, ut ambo unum faceret, inquit GRE-&#13;
-GOR. NAZIANZ. Orat. V. in fin. Chriſtus ab eo tempore, quo&#13;
-Salvator dignatus eſt aſſumere creaturam noſtram impletus Spiritu S.&#13;
-eſt, ſunt verba CHRYSOSTOMI Hom. de Spirit. S. Tom. III.&#13;
-Oper. p. 893. A. Non alia etiam mens fuit D. AUGUSTINO&#13;
-hac de re Lib. XV. de Trinit. cap. 26. p. m. 474. C. hunc in mo-&#13;
-dum ſcribenti: Non tunc Chriſtus UNCTUS CTUS Spiritu S. eſt, quando&#13;
-ſuper eum baptizatum velut columba deſcendit &amp;c. ſed istâ myſticâ &amp;&#13;
-viſibili unctione tunc intelligendus eſt unctus, quando Verbum DEI caro&#13;
-factum eſt, hoc eſt in utero materno. Addit rationem Auguſtin.&#13;
-Abſurdiſſimum eſt enim, ut credamus eum, cum jam triginta eſſet anno-&#13;
-rum (ejus enim ætate a Johanne baptizatus) ) accepiſſe Spiritum S., ſed&#13;
-veniſſe illum ad baptiſma, ſicut ſine ullo omninò peccato, , ita non ſine&#13;
-Spiritu S. Quod porro explicat exemplô Præcurſoris JEſu Chriſti&#13;
-&amp; famuli Johannis, qui quamvis ſeminatus à Patre, tamen Spiritum S.&#13;
-in utero formatus accepit, ſecundùm illud Luc.I, 15. Spiritu S. re-&#13;
-plebitur jam inde ab utero matris ſuæ: tandem applicat ad Chriſtum:&#13;
-Quid de homine Chriſto intelligendum eſt vel credendum, cujus carnis&#13;
-conceptio non carnalis, ſed ſpiritualis fuit. Sequuntur Auguſtinum R RE-&#13;
-MIGIUS in Explanatione Ep. ad Ebr. ad Cap. I, 9. Unctus eſt&#13;
-Chriſtus plenitudine Spiritus S. qui die baptiſmatis in ſpecie Columbæ&#13;
-ſuper eum requievit, nec ex tempore baptiſmatis ſolummodò Spiritus S.&#13;
-in eo manſit, ſed potius ex tempore conceptionis. Et BEDA (quem&#13;
-Gloſſa Ordinar. citat ad Act. X, 38.) Non tunc inunctus Spiritu S.&#13;
-Chriſtus, quando columba deſcendit ſuper eum: : Tunc enim Eccleſiam&#13;
-præfiguravit; ; Sed myſticâ &amp; inviſibili unctione perunctus eſt, quando&#13;
-Verbum caro factum eſt, i. e. humana natura Verbo DEI in utero Vir-&#13;
-ginis copulata, , facta in eo eſt una perſona. Accedit his teſtimonium&#13;
-RUPERTI TI de Glorific. Trinitat. &amp; Procesſione Spirit. S. cap. 3. ſic&#13;
-loquentis: Corporalis ſpesies Columba tota in Chriſtum deſcendit, non&#13;
+        <Unicode>Eum unctum fuiſſe dicendum eſt, cum Spiritus S. ſub ſpecie Co-
+lumbæ ſuper Unctum CHRISTUM deſcenderet. Rectiſſimè proinde
+tempus hoc unctionis &amp; ejus ſemel peractæ manifeſtationis deter-
+minant Veteres. Unxit DEUS Pater Chriſtum oleô Exultationis, cum
+humanitatem divinitate unxit, ut ambo unum faceret, inquit GRE-
+GOR. NAZIANZ. Orat. V. in fin. Chriſtus ab eo tempore, quo
+Salvator dignatus eſt aſſumere creaturam noſtram impletus Spiritu S.
+eſt, ſunt verba CHRYSOSTOMI Hom. de Spirit. S. Tom. III.
+Oper. p. 893. A. Non alia etiam mens fuit D. AUGUSTINO
+hac de re Lib. XV. de Trinit. cap. 26. p. m. 474. C. hunc in mo-
+dum ſcribenti: Non tunc Chriſtus UNCTUS CTUS Spiritu S. eſt, quando
+ſuper eum baptizatum velut columba deſcendit &amp;c. ſed istâ myſticâ &amp;
+viſibili unctione tunc intelligendus eſt unctus, quando Verbum DEI caro
+factum eſt, hoc eſt in utero materno. Addit rationem Auguſtin.
+Abſurdiſſimum eſt enim, ut credamus eum, cum jam triginta eſſet anno-
+rum (ejus enim ætate a Johanne baptizatus) ) accepiſſe Spiritum S., ſed
+veniſſe illum ad baptiſma, ſicut ſine ullo omninò peccato, , ita non ſine
+Spiritu S. Quod porro explicat exemplô Præcurſoris JEſu Chriſti
+&amp; famuli Johannis, qui quamvis ſeminatus à Patre, tamen Spiritum S.
+in utero formatus accepit, ſecundùm illud Luc.I, 15. Spiritu S. re-
+plebitur jam inde ab utero matris ſuæ: tandem applicat ad Chriſtum:
+Quid de homine Chriſto intelligendum eſt vel credendum, cujus carnis
+conceptio non carnalis, ſed ſpiritualis fuit. Sequuntur Auguſtinum R RE-
+MIGIUS in Explanatione Ep. ad Ebr. ad Cap. I, 9. Unctus eſt
+Chriſtus plenitudine Spiritus S. qui die baptiſmatis in ſpecie Columbæ
+ſuper eum requievit, nec ex tempore baptiſmatis ſolummodò Spiritus S.
+in eo manſit, ſed potius ex tempore conceptionis. Et BEDA (quem
+Gloſſa Ordinar. citat ad Act. X, 38.) Non tunc inunctus Spiritu S.
+Chriſtus, quando columba deſcendit ſuper eum: : Tunc enim Eccleſiam
+præfiguravit; ; Sed myſticâ &amp; inviſibili unctione perunctus eſt, quando
+Verbum caro factum eſt, i. e. humana natura Verbo DEI in utero Vir-
+ginis copulata, , facta in eo eſt una perſona. Accedit his teſtimonium
+RUPERTI TI de Glorific. Trinitat. &amp; Procesſione Spirit. S. cap. 3. ſic
+loquentis: Corporalis ſpesies Columba tota in Chriſtum deſcendit, non
 quod tum Spiritus S. in eo eſſe vel manere cœperit: : ſed quod in eo</Unicode>
       </TextEquiv>
     </TextRegion>

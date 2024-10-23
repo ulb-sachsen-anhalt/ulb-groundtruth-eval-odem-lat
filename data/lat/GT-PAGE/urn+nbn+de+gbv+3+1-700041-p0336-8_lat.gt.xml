@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-222">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:17Z</Created>
     <LastChange>2024-01-19T13:09:17Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-700041-p0336-8_lat.png" imageWidth="1602" imageHeight="2296" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/bdaa05c5-a708-42d2-8ab9-bb424f00c154/00000336.jpg" imageWidth="1602" imageHeight="2296" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="327,96 347,2197 1536,2197 1524,125"/>
     </Border>
@@ -21,7 +37,7 @@
         <RegionRefIndexed index="7" regionRef="TextRegion_1654693189338_3422"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.25447777" type="heading" readingDirection="left-to-right" id="region0003" custom="readingOrder {index:0;} structure {type:heading;}">
+    <TextRegion id="region0003" custom="readingOrder {index:0;} structure {type:heading;}" orientation="-0.25447777" type="heading" readingDirection="left-to-right">
       <Coords points="464,288 1240,288 1240,338 464,338"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;} structure {type:heading;}">
         <Coords points="982,288 597,288 594,291 464,290 464,335 1239,338 1239,289"/>
@@ -57,7 +73,7 @@
         <Unicode>29 CICERO ATTICO S.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1654693179859_3407" custom="readingOrder {index:1;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1654693179859_3407" custom="readingOrder {index:1;} structure {type:drop-capital;}" orientation="-0.25447777" type="drop-capital" readingDirection="left-to-right">
       <Coords points="454,350 519,350 519,441 452,441"/>
       <TextLine id="line_1654693215213_3444" custom="readingOrder {index:0;}">
         <Coords points="454,350 519,350 519,408 519,439 455,439"/>
@@ -76,7 +92,7 @@
         <Unicode>S</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" readingDirection="left-to-right" id="TextRegion_1654693179859_3406" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1654693179859_3406" custom="readingOrder {index:2;}" orientation="-0.25447777" readingDirection="left-to-right">
       <Coords points="519,350 1462,350 1462,441 519,441"/>
       <TextLine id="line_1654693179917_3409" custom="readingOrder {index:0;}">
         <Coords points="519,350 563,350 567,357 578,358 655,356 692,351 718,353 729,359 736,351 746,351 759,353 765,358 772,352 783,352 789,361 799,361 819,359 830,351 842,353 846,359 877,360 881,354 895,350 908,352 913,361 1034,362 1041,354 1052,353 1059,362 1068,362 1074,353 1086,352 1094,360 1101,362 1202,364 1210,363 1216,357 1231,357 1237,363 1274,363 1288,362 1304,353 1317,353 1324,362 1331,363 1462,366 1462,407 1412,406 1405,401 1365,400 1303,403 1298,400 1287,400 1282,404 1262,404 1253,409 1239,401 1234,403 1221,400 1211,404 1189,403 1156,408 1101,403 1067,410 1056,409 1038,399 1024,403 987,402 982,399 969,399 964,402 948,399 942,402 925,402 873,395 860,401 820,402 807,405 766,398 655,399 651,396 638,396 631,401 612,404 595,399 525,399 519,407"/>
@@ -140,7 +156,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1654693179918_3413" custom="readingOrder {index:1;}">
-        <Coords points="519,408 525,402 595,400 612,405 631,402 638,397 651,397 656,402 676,403 688,399 726,398 746,402 753,399 777,400 807,406 860,406 864,400 873,396 891,397 897,404 941,404 948,400 964,403 969,400 982,400 988,404 1024,404 1038,400 1056,410 1067,411 1085,406 1156,409 1173,406 1209,406 1221,401 1234,404 1239,402 1256,410 1261,407 1280,407 1287,401 1298,401 1305,407 1318,407 1343,401 1405,402 1419,408 1462,409 1462,448 1415,445 1385,448 1279,447 1273,443 1264,443 1258,446 1228,447 1173,443 1090,446 1084,442 1077,442 1070,450 1058,446 931,444 925,449 917,450 905,445 845,445 835,448 827,445 761,444 740,440 729,445 673,447 660,443 557,437 546,447 536,444 535,440 524,439 519,439"/>
+        <Coords points="1419,408 1405,402 1343,401 1318,407 1305,407 1298,401 1287,401 1280,407 1261,407 1256,410 1239,402 1234,404 1221,401 1209,406 1173,406 1156,409 1085,406 1067,411 1056,410 1038,400 1024,404 988,404 982,400 969,400 964,403 948,400 941,404 897,404 891,397 873,396 864,400 860,406 807,406 777,400 753,399 746,402 726,398 688,399 676,403 656,402 651,397 638,397 631,402 612,405 595,400 525,402 519,408 519,439 524,439 535,440 535,441 552,441 557,437 625,441 737,441 740,440 745,441 1462,441 1462,409"/>
         <Baseline points="519,429 1462,438"/>
         <Word id="word_1654693179918_3415" custom="readingOrder {index:0;}">
           <Coords points="519,408 525,402 604,403 612,405 626,403 685,403 685,444 663,444 660,443 557,437 550,443 536,443 535,440 524,439 519,439"/>
@@ -195,14 +211,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode> ilius, ut ſcribis, hodie. cras igitur, vel potius cum&#13;
+        <Unicode> ilius, ut ſcribis, hodie. cras igitur, vel potius cum
  poteris, ſcribes, ſi quid erit, cum videris. Nec</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" readingDirection="left-to-right" id="TextRegion_1654693176351_3394" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1654693176351_3394" custom="readingOrder {index:3;}" orientation="-0.25447777" readingDirection="left-to-right">
       <Coords points="452,441 1462,441 1462,1259 1453,1407 453,1407 435,1303 435,1246"/>
       <TextLine id="region0004_line0003" custom="readingOrder {index:0;}">
-        <Coords points="557,438 547,448 537,445 455,445 454,480 478,482 495,492 546,485 582,484 599,480 621,485 706,486 715,483 753,481 772,485 785,483 801,491 853,486 864,482 896,486 975,487 995,484 1001,487 1070,489 1119,486 1137,483 1153,488 1283,490 1291,493 1299,490 1366,491 1372,487 1421,486 1429,490 1461,487 1462,454 1436,452 1428,446 1415,446 1408,451 1286,450 1273,444 1245,449 1195,449 1187,444 1173,444 1166,448 1090,447 1084,443 1077,443 1070,451 1058,447 938,445 917,451 905,446 845,446 835,449 827,446 764,446 740,441 732,446 673,448 660,444 611,444 578,438"/>
+        <Coords points="547,448 537,445 455,445 454,480 478,482 495,492 546,485 582,484 599,480 621,485 706,486 715,483 753,481 772,485 785,483 801,491 853,486 864,482 896,486 975,487 995,484 1001,487 1070,489 1119,486 1137,483 1153,488 1283,490 1291,493 1299,490 1366,491 1372,487 1421,486 1429,490 1461,487 1462,454 1436,452 1428,446 1415,446 1408,451 1286,450 1273,444 1245,449 1195,449 1187,444 1173,444 1166,448 1090,447 1084,443 1077,443 1070,451 1058,447 938,445 917,451 905,446 845,446 835,449 827,446 764,446 740,441 732,446 673,448 660,444 611,444 594,441 554,441"/>
         <Baseline points="454,473 1461,478"/>
         <Word id="region0004_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="535,486 536,452 469,452 468,481 478,482 484,486"/>
@@ -364,7 +380,7 @@
         </Word>
         <Word id="region0004_line0005_word0006" custom="readingOrder {index:6;}">
           <Coords points="1271,533 1270,535 1244,535 1244,565 1306,565 1306,534 1281,534 1278,533"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>erit</Unicode>
           </TextEquiv>
         </Word>
@@ -1255,7 +1271,7 @@
         </Word>
         <Word id="region0004_line0020_word0004" custom="readingOrder {index:4;}">
           <Coords points="1066,1167 1039,1168 1039,1203 1166,1204 1166,1170 1132,1171 1114,1176 1100,1174 1095,1167 1086,1167 1083,1169 1071,1167"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ratione</Unicode>
           </TextEquiv>
         </Word>
@@ -1459,31 +1475,31 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>ego Brutum vito, nec tamen ab eo levationem ul-&#13;
-Iam exſpecto: ſed erant cauſæ, cur hoc tempore iſtic&#13;
-eſſe nollem: quæ ſi manebunt, quærenda erit excuſa-&#13;
-tio &amp; Brutum; &amp;, ut nunc eſt, manſuræ videntur.&#13;
-De hortis, quæſo explica. caput illud eſt, quod ſcis.&#13;
-ſequitur, ut etiam mihi ipſi quiddam opus ſit. nec&#13;
-enim eſſe in turba poſſum, nec a vobis abeſſe. huic&#13;
-meo conſilio nihil reperio iſto Ioco aptius: &amp; de hac&#13;
-re qui tui conſilii ſit, mihi perſuaſum eſt, &amp; eo ma-&#13;
-gis, quod idem intellexi tibi videri, me ab Oppio&#13;
-&amp; Balbo valde diligi. cum iis communices, quanto&#13;
-opere, &amp; quare velim hortos; ſed id ita poſſe, ſi ex-&#13;
-pediatur illud Faberianum: ſintne igitur auctores fu-&#13;
-turi, ſi qua etiam jactura ſit in repræſentando, quoad&#13;
-poffunt adduci: totum enim illud deſperatum: deni-&#13;
-que intelliges, ecquid inclinent ad hoc meum conſi-&#13;
-lium adjuvandum. ſi quid erit, magnum eſt adjumen-&#13;
-tum: ſin minus, quacumque ratione contendamus.&#13;
-vetus illud ʹεγγηϱαμα, quemadmodum ſcripſiſti, vel&#13;
-ʹενταϕιον putato. De illo Oſtienſi nihil eſt cogitan-&#13;
-dum. ſi hoc non aſſequimur: a Lamia non puto poſſe:&#13;
+        <Unicode>ego Brutum vito, nec tamen ab eo levationem ul-
+Iam exſpecto: ſed erant cauſæ, cur hoc tempore iſtic
+eſſe nollem: quæ ſi manebunt, quærenda erit excuſa-
+tio &amp; Brutum; &amp;, ut nunc eſt, manſuræ videntur.
+De hortis, quæſo explica. caput illud eſt, quod ſcis.
+ſequitur, ut etiam mihi ipſi quiddam opus ſit. nec
+enim eſſe in turba poſſum, nec a vobis abeſſe. huic
+meo conſilio nihil reperio iſto Ioco aptius: &amp; de hac
+re qui tui conſilii ſit, mihi perſuaſum eſt, &amp; eo ma-
+gis, quod idem intellexi tibi videri, me ab Oppio
+&amp; Balbo valde diligi. cum iis communices, quanto
+opere, &amp; quare velim hortos; ſed id ita poſſe, ſi ex-
+pediatur illud Faberianum: ſintne igitur auctores fu-
+turi, ſi qua etiam jactura ſit in repræſentando, quoad
+poffunt adduci: totum enim illud deſperatum: deni-
+que intelliges, ecquid inclinent ad hoc meum conſi-
+lium adjuvandum. ſi quid erit, magnum eſt adjumen-
+tum: ſin minus, quacumque ratione contendamus.
+vetus illud ʹεγγηϱαμα, quemadmodum ſcripſiſti, vel
+ʹενταϕιον putato. De illo Oſtienſi nihil eſt cogitan-
+dum. ſi hoc non aſſequimur: a Lamia non puto poſſe:
 Damaſippi experiendum eſt.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:4;} structure {type:heading;}" orientation="-0.25447777" type="heading" readingDirection="left-to-right">
       <Coords points="453,1415 1226,1415 1226,1469 453,1469"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;} structure {type:heading;}">
         <Coords points="969,1415 579,1415 571,1420 557,1422 453,1420 453,1468 483,1468 486,1465 594,1465 598,1462 1225,1465 1225,1416"/>
@@ -1519,10 +1535,10 @@ Damaſippi experiendum eſt.</Unicode>
         <Unicode>30 CICERO ATTICO S.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1654693192263_3427" custom="readingOrder {index:5;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1654693192263_3427" custom="readingOrder {index:5;} structure {type:drop-capital;}" orientation="-0.25447777" type="drop-capital" readingDirection="left-to-right">
       <Coords points="452,1479 541,1479 541,1568 440,1568 440,1565 452,1565"/>
       <TextLine id="line_1654693227047_3456" custom="readingOrder {index:0;}">
-        <Coords points="486,1479 516,1479 541,1486 541,1520 541,1570 487,1568 469,1560 459,1551 452,1538 452,1511 457,1499 471,1485"/>
+        <Coords points="486,1479 471,1485 457,1499 452,1511 452,1538 459,1551 469,1560 487,1568 541,1568 541,1520 541,1486 516,1479"/>
         <Baseline points="467,1558 541,1558 488,1518 541,1518"/>
         <Word id="word_1654693230315_3462" custom="readingOrder {index:0;}">
           <Coords points="486,1479 516,1479 541,1491 541,1520 541,1546 459,1546 459,1497 471,1485"/>
@@ -1538,7 +1554,7 @@ Damaſippi experiendum eſt.</Unicode>
         <Unicode>Q</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" readingDirection="left-to-right" id="TextRegion_1654693192263_3426" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1654693192263_3426" custom="readingOrder {index:6;}" orientation="-0.25447777" readingDirection="left-to-right">
       <Coords points="541,1479 1458,1479 1458,1568 541,1568"/>
       <TextLine id="line_1654693192315_3429" custom="readingOrder {index:0;}">
         <Coords points="541,1486 717,1487 721,1479 738,1479 742,1483 748,1479 757,1479 765,1486 794,1486 801,1479 814,1479 819,1485 851,1485 872,1480 906,1480 925,1484 928,1480 955,1479 963,1486 983,1487 1026,1487 1036,1479 1120,1479 1126,1486 1152,1487 1158,1480 1207,1480 1231,1486 1248,1479 1301,1479 1310,1486 1326,1488 1359,1487 1366,1480 1378,1480 1390,1488 1458,1491 1458,1530 1446,1527 1438,1533 1330,1529 1325,1525 1309,1527 1299,1524 1284,1529 1217,1529 1186,1523 1153,1524 1147,1527 1096,1523 1089,1527 1021,1527 993,1522 987,1527 967,1528 921,1528 910,1523 867,1523 861,1526 791,1523 711,1528 699,1533 689,1524 671,1525 667,1527 650,1524 646,1530 609,1527 547,1528 542,1520 541,1519"/>
@@ -1602,7 +1618,7 @@ Damaſippi experiendum eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1654693192316_3433" custom="readingOrder {index:1;}">
-        <Coords points="541,1520 542,1521 548,1530 646,1531 650,1525 667,1528 671,1526 689,1525 700,1534 710,1530 791,1524 850,1529 867,1524 910,1524 922,1530 936,1530 987,1528 993,1523 1046,1530 1087,1529 1096,1524 1110,1525 1114,1529 1146,1530 1153,1525 1186,1524 1210,1527 1215,1532 1284,1530 1303,1525 1309,1528 1325,1526 1330,1530 1342,1531 1438,1534 1443,1529 1454,1528 1458,1531 1458,1573 1428,1573 1421,1570 1391,1568 1367,1579 1358,1574 1292,1571 1274,1566 1261,1569 1249,1567 1238,1573 1230,1565 1218,1565 1208,1571 1203,1568 1191,1568 1184,1572 1029,1567 995,1570 890,1570 884,1566 872,1566 865,1570 796,1574 786,1568 763,1567 759,1570 619,1569 578,1576 568,1572 541,1570"/>
+        <Coords points="1454,1528 1443,1529 1438,1534 1342,1531 1330,1530 1325,1526 1309,1528 1303,1525 1284,1530 1215,1532 1210,1527 1186,1524 1153,1525 1146,1530 1114,1529 1110,1525 1096,1524 1087,1529 1046,1530 993,1523 987,1528 936,1530 922,1530 910,1524 867,1524 850,1529 791,1524 710,1530 700,1534 689,1525 671,1526 667,1528 650,1525 646,1531 548,1530 542,1521 541,1520 541,1568 761,1568 763,1567 786,1568 868,1568 872,1566 884,1566 887,1568 1017,1568 1029,1567 1060,1568 1191,1568 1203,1568 1213,1568 1218,1565 1230,1565 1233,1568 1247,1568 1249,1567 1255,1568 1265,1568 1274,1566 1281,1568 1391,1568 1458,1568 1458,1531"/>
         <Baseline points="541,1558 1458,1562"/>
         <Word id="region0008_line0002_word0001" custom="readingOrder {index:0;}">
           <Coords points="568,1565 727,1566 727,1528 710,1530 700,1534 689,1525 671,1526 667,1528 650,1525 646,1531 568,1530"/>
@@ -1623,7 +1639,7 @@ Damaſippi experiendum eſt.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0008_line0002_word0004" custom="readingOrder {index:3;}">
-          <Coords points="1095,1559 1228,1565 1229,1531 1186,1524 1153,1525 1146,1530 1114,1529 1110,1525 1096,1524"/>
+          <Coords points="1228,1565 1228,1531 1215,1532 1211,1528 1186,1524 1153,1525 1146,1530 1114,1529 1110,1525 1096,1524 1095,1559"/>
           <TextEquiv>
             <Unicode>inviſis,</Unicode>
           </TextEquiv>
@@ -1645,14 +1661,14 @@ Damaſippi experiendum eſt.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>uæro, quid ad te ſcribam: ſed nihil eſt. eadem&#13;
+        <Unicode>uæro, quid ad te ſcribam: ſed nihil eſt. eadem
 quotidie. Quod Lentulum inviſis, valde gra-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.25447777" readingDirection="left-to-right" id="TextRegion_1654693189338_3422" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1654693189338_3422" custom="readingOrder {index:7;}" orientation="-0.25447777" readingDirection="left-to-right">
       <Coords points="440,1568 1458,1568 1458,1998 452,1998 452,1619 440,1619"/>
       <TextLine id="region0008_line0003" custom="readingOrder {index:0;}">
-        <Coords points="1218,1566 1208,1572 1203,1569 1191,1569 1184,1573 1029,1568 891,1573 884,1567 872,1567 859,1573 796,1575 786,1569 763,1568 759,1571 619,1570 581,1577 570,1574 518,1575 458,1570 441,1571 440,1609 531,1610 538,1615 574,1619 584,1613 601,1610 614,1613 807,1613 817,1607 829,1605 845,1605 855,1613 879,1614 889,1611 895,1615 908,1611 913,1616 927,1617 946,1616 955,1611 980,1607 1009,1612 1028,1609 1035,1613 1068,1613 1076,1617 1120,1612 1244,1613 1271,1609 1278,1613 1424,1616 1434,1622 1457,1624 1458,1575 1430,1575 1421,1571 1391,1569 1367,1580 1358,1575 1292,1572 1274,1567 1261,1570 1249,1568 1238,1574 1230,1566"/>
+        <Coords points="1208,1572 1203,1569 1191,1569 1184,1573 1029,1568 891,1573 885,1568 869,1568 859,1573 796,1575 786,1569 763,1568 759,1571 619,1570 581,1577 570,1574 518,1575 458,1570 441,1571 440,1609 531,1610 538,1615 574,1619 584,1613 601,1610 614,1613 807,1613 817,1607 829,1605 845,1605 855,1613 879,1614 889,1611 895,1615 908,1611 913,1616 927,1617 946,1616 955,1611 980,1607 1009,1612 1028,1609 1035,1613 1068,1613 1076,1617 1120,1612 1244,1613 1271,1609 1278,1613 1424,1616 1434,1622 1457,1624 1458,1575 1430,1575 1421,1571 1391,1569 1367,1580 1358,1575 1292,1572 1277,1568 1269,1568 1261,1570 1249,1568 1238,1574 1232,1568 1214,1568"/>
         <Baseline points="440,1601 1457,1607"/>
         <Word id="region0008_line0003_word0000" custom="readingOrder {index:0;}">
           <Coords points="446,1576 541,1576 540,1602 445,1602"/>
@@ -2159,7 +2175,7 @@ quotidie. Quod Lentulum inviſis, valde gra-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0008_line0012" custom="readingOrder {index:9;}">
-        <Coords points="1022,1946 1013,1954 964,1954 957,1950 927,1949 920,1951 909,1963 878,1954 794,1952 757,1957 733,1953 607,1951 594,1947 567,1953 517,1950 501,1955 460,1954 452,1955 452,1998 474,2000 698,1994 733,1995 740,2005 759,2005 765,1995 1072,1995 1105,1997 1110,2002 1121,2003 1126,1999 1152,1999 1158,2005 1169,2005 1178,2003 1183,1997 1247,1997 1273,2000 1319,1991 1348,1993 1356,1989 1371,1989 1382,1995 1395,1996 1457,1996 1457,1957 1419,1958 1413,1955 1369,1954 1362,1950 1346,1952 1340,1948 1329,1948 1322,1953 1271,1954 1249,1954 1234,1950 1221,1958 1210,1954 1120,1956 1093,1953 1086,1948 1076,1948 1067,1953 1048,1953 1039,1946"/>
+        <Coords points="1013,1954 964,1954 957,1950 927,1949 920,1951 909,1963 878,1954 794,1952 757,1957 733,1953 607,1951 594,1947 567,1953 517,1950 501,1955 460,1954 452,1955 452,1998 548,1998 698,1994 733,1995 735,1998 763,1998 765,1995 1072,1995 1105,1997 1106,1998 1182,1998 1183,1997 1247,1997 1255,1998 1283,1998 1319,1991 1348,1993 1356,1989 1371,1989 1382,1995 1395,1996 1457,1996 1457,1957 1419,1958 1413,1955 1369,1954 1362,1950 1346,1952 1340,1948 1329,1948 1322,1953 1271,1954 1249,1954 1234,1950 1221,1958 1210,1954 1120,1956 1093,1953 1086,1948 1076,1948 1067,1953 1048,1953 1039,1946 1022,1946"/>
         <Baseline points="452,1987 1272,1988 1315,1981 1457,1987"/>
         <Word id="region0008_line0012_word0000" custom="readingOrder {index:0;}">
           <Coords points="461,1959 496,1959 496,1990 461,1990"/>
@@ -2220,15 +2236,15 @@ quotidie. Quod Lentulum inviſis, valde gra-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>tum. pueros attribue ei, quot &amp; quos videbitur. De&#13;
-Silii voluntate vendendi, &amp; de eo, quanti, tu ve-&#13;
-reri videris, primum ne nolit, deinde ne tanti. Sica&#13;
-aliter: ſed tibi aſſentior. quare, ut ei placuit, ſcripſi&#13;
-ad Egnatium. Quod Silius te cum Clodio loqui vult;&#13;
-potes id mea voluntate facere: commodiusque eſt,&#13;
-quam, quod ille a me petit, me ipſum ſcribere ad&#13;
-Clodium. De mancipiis Caſtricianis, commodiſſi-&#13;
-mum eſſe credo, tranſigere Egnatium: quod ſcribis,&#13;
+        <Unicode>tum. pueros attribue ei, quot &amp; quos videbitur. De
+Silii voluntate vendendi, &amp; de eo, quanti, tu ve-
+reri videris, primum ne nolit, deinde ne tanti. Sica
+aliter: ſed tibi aſſentior. quare, ut ei placuit, ſcripſi
+ad Egnatium. Quod Silius te cum Clodio loqui vult;
+potes id mea voluntate facere: commodiusque eſt,
+quam, quod ille a me petit, me ipſum ſcribere ad
+Clodium. De mancipiis Caſtricianis, commodiſſi-
+mum eſſe credo, tranſigere Egnatium: quod ſcribis,
 te ita futurum putare. Cum Ovia, quæſo, vide ut</Unicode>
       </TextEquiv>
     </TextRegion>

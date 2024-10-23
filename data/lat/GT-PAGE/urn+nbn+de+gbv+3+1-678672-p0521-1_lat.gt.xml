@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-216">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:13Z</Created>
     <LastChange>2024-01-19T13:09:13Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-678672-p0521-1_lat.jpg" imageWidth="1392" imageHeight="1830" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/1f9e9a2f-8ee5-4434-98a7-bc8499626aae/00000521.jpg" imageWidth="1392" imageHeight="1830" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="286,70 305,1704 1273,1687 1308,62"/>
     </Border>
@@ -16,7 +32,7 @@
         <RegionRefIndexed index="2" regionRef="TextRegion_1649834306114_1439"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.6416775" type="marginalia" readingDirection="left-to-right" id="TextRegion_1649834318606_1511" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1649834318606_1511" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="-0.6416775" type="marginalia" readingDirection="left-to-right">
       <Coords points="495,563 685,563 685,982 495,982"/>
       <TextLine id="line_1649834306166_1459" custom="readingOrder {index:0;}">
         <Coords points="495,569 501,568 550,566 563,570 567,575 633,576 640,568 653,568 660,577 685,577 685,614 646,614 639,611 581,609 572,614 563,612 549,615 495,615"/>
@@ -175,7 +191,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1649834306175_1477" custom="readingOrder {index:9;}">
-        <Coords points="495,934 504,933 561,937 570,941 584,940 594,945 649,946 651,939 656,936 685,933 685,984 657,985 648,984 646,975 495,973"/>
+        <Coords points="656,936 651,939 649,946 594,945 584,940 570,941 561,937 504,933 495,934 495,973 646,975 647,982 685,982 685,933"/>
         <Word id="region0007_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="502,937 562,938 562,961 502,960"/>
           <TextEquiv conf="0.8050528">
@@ -199,7 +215,7 @@ non præſta- quis adeviäeonem teneatur, Z 11.8
 tur. fin de aF. emt. Burgund. fr. de Git.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6416775" type="marginalia" readingDirection="left-to-right" id="TextRegion_1649834330805_1523" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1649834330805_1523" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="-0.6416775" type="marginalia" readingDirection="left-to-right">
       <Coords points="484,1267 495,1267 495,1263 685,1263 685,1496 674,1496 674,1507 484,1507"/>
       <TextLine id="line_1649834306182_1493" custom="readingOrder {index:0;}">
         <Coords points="484,1267 495,1267 495,1263 502,1262 557,1264 563,1272 684,1275 685,1274 685,1303 657,1304 648,1309 484,1309"/>
@@ -298,15 +314,15 @@ tur. fin de aF. emt. Burgund. fr. de Git.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Cedens no- XIX. Cæterum Mpeeialiter circa&#13;
-men regu-&#13;
-lariter non&#13;
-tenetur de nen, noa ut etiam exigi poſſit. 7 74, %&#13;
-exigibilita-&#13;
+        <Unicode>Cedens no- XIX. Cæterum Mpeeialiter circa
+men regu-
+lariter non
+tenetur de nen, noa ut etiam exigi poſſit. 7 74, %
+exigibilita-
 te.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6416775" readingDirection="left-to-right" id="TextRegion_1649834306114_1439" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1649834306114_1439" custom="readingOrder {index:2;}" orientation="-0.6416775" readingDirection="left-to-right">
       <Coords points="685,244 1282,244 1282,1269 1277,1454 685,1454"/>
       <TextLine id="line_1649834306158_1442" custom="readingOrder {index:0;}">
         <Coords points="685,253 748,255 750,247 758,244 767,245 775,253 825,254 922,253 933,245 943,245 951,252 980,252 987,245 1002,245 1009,252 1085,253 1087,245 1108,244 1189,245 1190,252 1195,244 1209,244 1214,251 1231,250 1237,244 1257,245 1261,251 1282,251 1282,288 1237,285 1175,288 1163,285 1140,288 1076,287 1062,290 1059,287 987,288 974,285 915,290 890,288 780,290 685,287"/>
@@ -443,7 +459,7 @@ te.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0003_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1243,371 1243,327 1220,328 1220,370"/>
+          <Coords points="1243,327 1231,328 1220,330 1220,370 1243,371"/>
           <TextEquiv conf="0.53402156">
             <Unicode>1.</Unicode>
           </TextEquiv>
@@ -1193,7 +1209,7 @@ te.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0007_line0022_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1129,1135 1106,1135 1106,1106 1053,1106 1053,1135 1085,1135 1088,1134 1092,1135 1115,1135 1121,1135"/>
+          <Coords points="1129,1135 1106,1106 1053,1106 1053,1135"/>
           <TextEquiv conf="0.5612441">
             <Unicode>45.</Unicode>
           </TextEquiv>
@@ -1539,7 +1555,7 @@ te.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1649834306188_1502" custom="readingOrder {index:29;}">
-        <Coords points="685,1421 700,1416 715,1416 723,1422 750,1423 764,1416 771,1416 776,1421 785,1422 808,1418 891,1417 896,1420 896,1427 901,1428 908,1420 919,1420 924,1424 936,1423 937,1419 944,1416 970,1424 974,1417 986,1416 994,1419 996,1424 1018,1423 1039,1426 1054,1418 1061,1418 1066,1425 1072,1425 1080,1417 1092,1417 1099,1422 1105,1422 1114,1416 1128,1419 1130,1424 1151,1419 1187,1421 1199,1418 1208,1423 1219,1423 1233,1422 1243,1415 1257,1417 1259,1423 1278,1425 1277,1456 1223,1452 1206,1456 1157,1460 942,1459 922,1462 917,1467 905,1467 898,1461 730,1457 714,1458 710,1466 698,1469 685,1469"/>
+        <Coords points="1259,1423 1257,1417 1243,1415 1233,1422 1219,1423 1208,1423 1199,1418 1187,1421 1151,1419 1130,1424 1128,1419 1114,1416 1105,1422 1099,1422 1092,1417 1080,1417 1072,1425 1066,1425 1061,1418 1054,1418 1039,1426 1018,1423 996,1424 994,1419 986,1416 974,1417 970,1424 944,1416 937,1419 936,1423 924,1424 919,1420 908,1420 901,1428 896,1427 896,1420 891,1417 808,1418 785,1422 776,1421 771,1416 764,1416 750,1423 723,1422 715,1416 700,1416 685,1421 685,1454 1214,1454 1223,1452 1250,1454 1277,1454 1277,1424"/>
         <Word id="word_1649834306189_1504" custom="readingOrder {index:0;}">
           <Coords points="685,1421 700,1416 715,1416 723,1422 735,1422 735,1449 685,1448"/>
           <TextEquiv>

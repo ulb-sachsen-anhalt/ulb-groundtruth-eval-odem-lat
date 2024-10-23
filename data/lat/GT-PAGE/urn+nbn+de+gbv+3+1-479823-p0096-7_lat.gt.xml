@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-170">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:40Z</Created>
     <LastChange>2024-01-19T13:08:40Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-479823-p0096-7_lat.png" imageWidth="1677" imageHeight="2347" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/2495651a-f281-45f6-b746-69e6ffb42ec5/00000096.jpg" imageWidth="1677" imageHeight="2347" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="280,251 240,2279 1518,2269 1537,243"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="4" regionRef="region0005"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="-0.089638926" type="page-number" readingDirection="left-to-right" id="TextRegion_1673605196804_2555" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673605196804_2555" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="-0.089638926" type="page-number" readingDirection="left-to-right">
       <Coords points="672,376 874,376 874,420 672,420"/>
       <TextLine id="line_1673605196842_2558" custom="readingOrder {index:0;}">
         <Coords points="672,376 874,376 874,411 778,411 773,413 771,419 672,419"/>
@@ -37,7 +52,7 @@
         <Unicode>28 PARAENESIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.089638926" type="header" readingDirection="left-to-right" id="TextRegion_1673605196804_2554" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1673605196804_2554" custom="readingOrder {index:1;} structure {type:header;}" orientation="-0.089638926" type="header" readingDirection="left-to-right">
       <Coords points="874,376 1209,376 1209,420 874,420"/>
       <TextLine id="line_1673605196842_2557" custom="readingOrder {index:0;}">
         <Coords points="874,376 1208,377 1208,417 947,418 939,412 874,411"/>
@@ -55,13 +70,13 @@
         <Unicode>28 PARAENESIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.089638926" readingDirection="left-to-right" id="TextRegion_1673605931396_3004" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673605931396_3004" custom="readingOrder {index:2;}" orientation="-0.089638926" readingDirection="left-to-right">
       <Coords points="666,451 1525,451 1525,1522 1523,1672 666,1672"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="820,451 802,457 727,458 712,469 667,470 667,509 718,510 726,504 738,501 742,504 749,501 756,510 784,510 798,506 812,507 814,495 820,493 825,501 832,503 891,503 901,500 916,503 955,503 978,507 987,515 1000,517 1031,509 1108,506 1282,505 1315,507 1331,518 1336,518 1345,515 1351,508 1525,505 1525,465 1512,464 1508,452 1489,452 1486,463 1474,463 1468,453 1456,452 1450,457 1448,464 1424,464 1422,456 1417,452 1387,452 1383,463 1304,462 1300,452 1282,452 1278,462 1193,463 1182,451 1155,451 1151,463 1139,463 1135,451 1069,451 1062,463 1055,464 1034,463 1028,451 1013,451 1007,461 974,460 971,451 950,451 947,459 921,459 917,451"/>
         <Baseline points="797,486 1010,500 1525,496"/>
         <Word id="region0004_line0001_word0000" custom="readingOrder {index:0;}">
-          <Coords points="825,500 825,465 714,467 712,469 677,469 677,502 734,502 738,501 739,502 746,502 749,501 749,502"/>
+          <Coords points="825,465 715,467 712,469 677,470 677,502 734,502 738,501 739,502 746,502 749,501 750,502 813,500 814,495 820,493 824,500 825,500"/>
           <TextEquiv>
             <Unicode>cauſſa*</Unicode>
           </TextEquiv>
@@ -98,7 +113,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0002_word0001" custom="readingOrder {index:1;}">
-          <Coords points="798,507 755,509 755,546 863,546 863,513 813,508"/>
+          <Coords points="863,546 863,513 815,513 813,508 798,507 791,510 790,514 762,516 759,516 759,515 759,513 755,509 751,513 751,515 755,519 755,546"/>
           <TextEquiv conf="0.9079669">
             <Unicode>animo</Unicode>
           </TextEquiv>
@@ -147,7 +162,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673605297868_2584" custom="readingOrder {index:1;} textStyle {offset:0; length:9;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="761,575 812,568 887,566 955,566 955,609 781,610 761,610"/>
+          <Coords points="761,575 761,610 781,610 782,610 783,607 880,606 887,604 892,596 903,593 911,595 911,609 955,609 955,566 887,566 838,567 837,568 807,569"/>
           <TextEquiv>
             <Unicode>quærit**;</Unicode>
           </TextEquiv>
@@ -257,7 +272,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673605348078_2603" custom="readingOrder {index:2;}">
-          <Coords points="904,674 934,664 1044,660 1045,660 1066,692 1066,706 1045,715 1000,717 928,717 904,715"/>
+          <Coords points="1044,660 1038,665 1032,665 1028,661 1006,662 999,674 953,674 950,667 934,664 929,666 927,674 904,675 904,715 905,715 909,715 928,717 1000,717 1045,715 1066,706 1066,692 1045,660"/>
           <TextEquiv>
             <Unicode>adgreſſi,</Unicode>
           </TextEquiv>
@@ -747,7 +762,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673605578923_2728" custom="readingOrder {index:4;} textStyle {offset:0; length:11;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1015,1191 1173,1191 1187,1191 1223,1192 1223,1216 1173,1234 1014,1234 1014,1195"/>
+          <Coords points="1015,1191 1014,1195 1014,1234 1068,1234 1070,1233 1076,1233 1077,1234 1173,1234 1191,1227 1193,1224 1205,1221 1206,1221 1223,1216 1223,1192 1187,1191 1173,1191 1135,1191 1129,1197 1118,1199 1085,1200 1082,1199 1080,1191 1059,1191 1056,1200 1047,1201 1039,1201 1037,1191"/>
           <TextEquiv>
             <Unicode>habeatis,**</Unicode>
           </TextEquiv>
@@ -814,7 +829,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673605628958_2757" custom="readingOrder {index:6;} textStyle {offset:0; length:10;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1328,1253 1400,1246 1441,1246 1455,1246 1517,1246 1517,1272 1441,1290 1328,1290"/>
+          <Coords points="1400,1246 1396,1251 1387,1254 1328,1253 1328,1290 1441,1290 1465,1284 1467,1278 1472,1276 1499,1275 1501,1275 1517,1272 1517,1246 1455,1246 1441,1246 1429,1246 1421,1251 1414,1246"/>
           <TextEquiv>
             <Unicode>gratia.***</Unicode>
           </TextEquiv>
@@ -1106,7 +1121,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="region0004_line0023" custom="readingOrder {index:22;}">
-        <Coords points="1105,1604 1100,1609 1088,1611 1084,1621 1036,1621 1035,1611 1030,1607 1014,1608 1009,1621 967,1621 963,1607 950,1607 938,1615 920,1614 918,1620 852,1622 842,1610 829,1610 817,1621 762,1621 757,1613 745,1612 738,1621 726,1622 707,1612 703,1620 666,1620 666,1662 681,1664 696,1661 748,1661 750,1673 756,1678 764,1678 778,1672 780,1661 795,1660 801,1662 801,1669 806,1674 824,1672 831,1661 1085,1661 1186,1664 1236,1665 1278,1661 1523,1662 1524,1607 1520,1606 1490,1609 1468,1621 1452,1622 1360,1621 1357,1611 1344,1610 1333,1622 1268,1622 1267,1616 1263,1613 1248,1611 1233,1613 1228,1623 1194,1623 1176,1623 1171,1612 1160,1611 1151,1623 1145,1623 1111,1622 1111,1619 1121,1615 1122,1610 1117,1605"/>
+        <Coords points="1100,1609 1088,1611 1084,1621 1036,1621 1035,1611 1030,1607 1014,1608 1009,1621 967,1621 963,1607 950,1607 938,1615 920,1614 918,1620 852,1622 842,1610 829,1610 817,1621 762,1621 757,1613 745,1612 738,1621 726,1622 707,1612 703,1620 666,1620 666,1662 681,1664 696,1661 748,1661 749,1672 778,1672 780,1661 795,1660 801,1662 801,1669 804,1672 824,1672 831,1661 1085,1661 1186,1664 1236,1665 1278,1661 1523,1662 1523,1634 1523,1606 1520,1606 1490,1609 1468,1621 1452,1622 1360,1621 1357,1611 1344,1610 1333,1622 1268,1622 1267,1616 1263,1613 1248,1611 1233,1613 1228,1623 1194,1623 1176,1623 1171,1612 1160,1611 1151,1623 1145,1623 1111,1622 1111,1619 1121,1615 1122,1610 1117,1605 1105,1604"/>
         <Baseline points="666,1652 1523,1652"/>
         <Word id="region0004_line0023_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="672,1647 753,1647 753,1612 745,1612 738,1621 726,1622 707,1612 703,1620 672,1620"/>
@@ -1161,32 +1176,32 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>cauſſa* Theologiæ ſtudium ingredimini,&#13;
-ſed animo fuci experte, qui gloriam viuentis&#13;
-Dei quærit**; beati omnino, qui huc ani-&#13;
-mum dirigitis, vt primum vos ipſos, &amp;, hoc&#13;
-ordine rem adgreſſi, alios quoque, qui vos&#13;
-audient, ſeruetis.*** Beati eſtis, qui ante&#13;
-omnia ſuperſtrui ſuper fundamentum Apoſtolo-&#13;
-rum ac Prophetarum cupitis, exſiſtente imo&#13;
-angulari lapide ipſo Ieſu Chriſto.**** Beati eſtis,&#13;
-quorum oblectatio eſt in verbo Dei, ſacris litte-&#13;
-ris comprehenſo, &amp; qui de eo meditamini inter-&#13;
-diu ac noctu*; qui non modo teſtimoni-&#13;
-um ſcripturæ de Chriſto diſcitis, ſed inſuper&#13;
-ea mente admittitis, vt ad eumdem veniatis,&#13;
-vt (ab illo) vitam habeatis,** atque ex pleni-&#13;
-tudine ipſius accipiatis &amp; gratiam pro gratia.***&#13;
-Beati eſtis, ſi quidem ſic accepiſtis Chriſtum&#13;
-Ieſum Dominum, &amp; in eo ambulatis, radicati&#13;
-&amp; ſuperſtructi in eo, ac confirmati fide, ſicut&#13;
-edocti eſtis, exundantes ea cum gratiarum actio-&#13;
-ne.**** Beati eſtis, quicunque depoſitum,&#13;
-(opes veræ ſapientiæ) cuſtoditis, qui auerſa-&#13;
+        <Unicode>cauſſa* Theologiæ ſtudium ingredimini,
+ſed animo fuci experte, qui gloriam viuentis
+Dei quærit**; beati omnino, qui huc ani-
+mum dirigitis, vt primum vos ipſos, &amp;, hoc
+ordine rem adgreſſi, alios quoque, qui vos
+audient, ſeruetis.*** Beati eſtis, qui ante
+omnia ſuperſtrui ſuper fundamentum Apoſtolo-
+rum ac Prophetarum cupitis, exſiſtente imo
+angulari lapide ipſo Ieſu Chriſto.**** Beati eſtis,
+quorum oblectatio eſt in verbo Dei, ſacris litte-
+ris comprehenſo, &amp; qui de eo meditamini inter-
+diu ac noctu*; qui non modo teſtimoni-
+um ſcripturæ de Chriſto diſcitis, ſed inſuper
+ea mente admittitis, vt ad eumdem veniatis,
+vt (ab illo) vitam habeatis,** atque ex pleni-
+tudine ipſius accipiatis &amp; gratiam pro gratia.***
+Beati eſtis, ſi quidem ſic accepiſtis Chriſtum
+Ieſum Dominum, &amp; in eo ambulatis, radicati
+&amp; ſuperſtructi in eo, ac confirmati fide, ſicut
+edocti eſtis, exundantes ea cum gratiarum actio-
+ne.**** Beati eſtis, quicunque depoſitum,
+(opes veræ ſapientiæ) cuſtoditis, qui auerſa-
 mini profanos illos de rebus inanibus clamores &amp;</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.089638926" type="catch-word" readingDirection="left-to-right" id="TextRegion_1673605931396_3003" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1673605931396_3003" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="-0.089638926" type="catch-word" readingDirection="left-to-right">
       <Coords points="666,1672 1523,1672 1523,1727 666,1727"/>
       <TextLine id="line_1673605931439_3006" custom="readingOrder {index:0;}">
         <Coords points="1367,1679 1466,1672 1523,1672 1523,1708 1497,1713 1482,1712 1482,1723 1479,1727 1434,1727 1432,1717 1427,1714 1367,1714 1362,1709 1362,1684"/>
@@ -1205,7 +1220,7 @@ mini profanos illos de rebus inanibus clamores &amp;</Unicode>
         <Unicode>oppo-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.089638926" type="footnote" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:4;} structure {type:footnote;}">
+    <TextRegion id="region0005" custom="readingOrder {index:4;} structure {type:footnote;}" orientation="-0.089638926" type="footnote" readingDirection="left-to-right">
       <Coords points="784,1751 1219,1751 1219,2108 784,2108"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="784,1751 785,1780 796,1783 807,1781 808,1787 817,1792 844,1793 856,1797 898,1796 905,1800 948,1797 1008,1797 1029,1800 1045,1797 1050,1792 1049,1764 1042,1760 1015,1760 1012,1752 988,1752 986,1760 967,1758 964,1752"/>
@@ -1354,7 +1369,7 @@ mini profanos illos de rebus inanibus clamores &amp;</Unicode>
         <Coords points="796,1961 785,1962 785,1993 812,1993 813,2003 818,2008 881,2009 890,2006 934,2006 963,2008 971,2012 988,2008 1001,2012 1031,2014 1063,2014 1068,2009 1067,1987 1062,1983 1053,1983 1052,1975 1047,1970 972,1968 962,1971 961,1967 955,1964"/>
         <Baseline points="828,1995 1067,2004"/>
         <Word id="word_1673605869377_2952" custom="readingOrder {index:0;}">
-          <Coords points="794,1974 835,1973 893,1973 893,2005 835,2005 794,1992"/>
+          <Coords points="835,2005 893,2005 893,1973 835,1973 794,1974 794,1992 797,1993 812,1993 812,1997"/>
           <TextEquiv>
             <Unicode>**Ioh.</Unicode>
           </TextEquiv>
@@ -1404,7 +1419,7 @@ mini profanos illos de rebus inanibus clamores &amp;</Unicode>
         <Coords points="976,2051 948,2054 912,2053 905,2061 894,2054 785,2053 784,2086 806,2088 833,2085 840,2089 840,2096 845,2101 922,2105 966,2102 972,2106 982,2106 987,2102 1014,2100 1018,2108 1066,2108 1068,2088 1102,2088 1107,2083 1108,2063 1103,2058 1071,2058 1065,2052 1052,2052 1046,2057 1022,2052"/>
         <Baseline points="853,2089 1038,2091 1068,2097"/>
         <Word id="word_1673605899881_2980" custom="readingOrder {index:0;}">
-          <Coords points="794,2058 866,2057 907,2057 932,2058 931,2104 922,2105 865,2102 843,2099 793,2086"/>
+          <Coords points="866,2057 794,2058 793,2086 797,2087 806,2088 833,2085 840,2089 840,2096 843,2099 865,2102 922,2105 931,2104 932,2058 908,2057 905,2061 898,2057"/>
           <TextEquiv>
             <Unicode>****Col.</Unicode>
           </TextEquiv>
@@ -1432,13 +1447,13 @@ mini profanos illos de rebus inanibus clamores &amp;</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>*Phil. lll, 19.&#13;
-**1 Cor. X, 10.31.&#13;
-***1 Tim. IV, 16.&#13;
-**** Eph. ll, 20.&#13;
-*Pſalm. I, 2.&#13;
-**Ioh. V. 40.&#13;
-***Ioh. I, 16.&#13;
+        <Unicode>*Phil. lll, 19.
+**1 Cor. X, 10.31.
+***1 Tim. IV, 16.
+**** Eph. ll, 20.
+*Pſalm. I, 2.
+**Ioh. V. 40.
+***Ioh. I, 16.
 ****Col. II, 6. 7.</Unicode>
       </TextEquiv>
     </TextRegion>

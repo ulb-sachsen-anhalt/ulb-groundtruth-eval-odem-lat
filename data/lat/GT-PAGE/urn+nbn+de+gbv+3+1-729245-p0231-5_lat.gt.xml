@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-238">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:33Z</Created>
     <LastChange>2024-01-19T13:09:33Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-729245-p0231-5_lat.jpg" imageWidth="1992" imageHeight="2850" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/f22f8f51-5d18-435d-9e6e-2aefa9442a08/00000231.jpg" imageWidth="1992" imageHeight="2850" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="104,270 104,2737 1500,2755 1490,291"/>
     </Border>
@@ -17,10 +32,7 @@
         <RegionRefIndexed index="3" regionRef="region0001"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1673347777651_3378" custom="readingOrder {index:0;}">
-      <Coords points="594,462 879,462 879,505 594,505"/>
-    </GraphicRegion>
-    <TextRegion orientation="0.15178144" type="page-number" readingDirection="left-to-right" id="TextRegion_1673347768739_3372" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1673347768739_3372" custom="readingOrder {index:1;} structure {type:page-number;}" orientation="0.15178144" type="page-number" readingDirection="left-to-right">
       <Coords points="1084,472 1235,472 1235,537 1084,537"/>
       <TextLine id="region0000_line0002" custom="readingOrder {index:0;}">
         <Coords points="1199,472 1193,478 1188,473 1177,473 1169,483 1123,484 1118,489 1118,509 1123,514 1234,516 1234,482 1230,476 1225,472"/>
@@ -39,7 +51,7 @@
         <Unicode>223</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15178144" readingDirection="left-to-right" id="TextRegion_1673347764040_3368" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1673347764040_3368" custom="readingOrder {index:2;}" orientation="0.15178144" readingDirection="left-to-right">
       <Coords points="185,537 1235,537 1235,2378 185,2378"/>
       <TextLine id="region0000_line0003" custom="readingOrder {index:0;}">
         <Coords points="541,543 536,547 534,557 489,556 482,548 458,548 450,556 445,557 371,560 364,552 353,552 346,558 320,559 314,558 308,552 299,552 291,559 257,561 249,560 242,551 185,550 185,600 228,601 242,598 248,601 308,601 574,592 594,594 604,599 644,595 757,594 912,602 966,601 975,606 983,606 989,602 1023,603 1059,612 1073,608 1093,610 1175,603 1234,603 1234,558 1117,556 1057,560 1052,555 1042,555 1035,560 987,565 954,563 950,560 917,563 910,554 901,554 893,562 888,561 886,555 880,551 833,551 821,548 800,550 794,556 785,556 784,549 779,544 734,545 717,552 710,552 704,547 690,546 679,553 648,555 644,548 637,545 624,546 616,554 605,554 603,548 597,544"/>
@@ -204,7 +216,7 @@
         </Word>
         <Word id="region0000_line0005_word0002" custom="readingOrder {index:2;}">
           <Coords points="527,645 401,645 402,684 411,682 436,683 438,684 461,684 463,683 489,678 527,679 528,679"/>
-          <TextEquiv conf="5.7861325E-4">
+          <TextEquiv conf="0.00057861325">
             <Unicode>folgende</Unicode>
           </TextEquiv>
         </Word>
@@ -258,7 +270,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673347951695_3517" custom="readingOrder {index:1;}">
-          <Coords points="475,691 543,686 732,686 732,724 718,729 625,730 602,730 543,726 475,725"/>
+          <Coords points="543,686 475,691 475,725 480,725 481,725 500,725 543,726 547,726 585,727 602,730 625,730 626,730 635,725 652,729 694,724 718,729 730,724 732,724 732,686 696,686 695,687 682,687 681,686 641,686 640,687 608,688 602,686 549,686"/>
           <TextEquiv>
             <Unicode>Erb ⸗ Begraͤbniß</Unicode>
           </TextEquiv>
@@ -356,7 +368,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673348106602_3643" custom="readingOrder {index:3;} unclear {offset:0; length:15;}">
-          <Coords points="547,777 640,773 673,772 777,772 777,815 771,817 674,817 547,810"/>
+          <Coords points="547,777 547,810 571,811 575,811 583,812 606,813 619,812 622,814 637,815 652,815 663,812 672,816 674,817 697,817 701,816 738,813 748,813 760,817 771,817 777,815 777,772 742,772 737,774 734,772 711,772 709,774 681,777 672,772 640,773 625,773 623,775 609,775 607,774"/>
           <TextEquiv>
             <Unicode>Erb ⸗ Begraͤniß</Unicode>
           </TextEquiv>
@@ -502,7 +514,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673348234258_3762" custom="readingOrder {index:6;}">
-          <Coords points="899,864 970,863 971,863 1041,863 1099,867 1099,903 970,903 899,900"/>
+          <Coords points="899,864 899,900 970,903 1013,903 1025,903 1099,903 1099,867 1086,867 1074,871 1052,868 1041,863 996,864 991,863 971,863 960,865 957,863"/>
           <TextEquiv>
             <Unicode>nachtheiliges</Unicode>
           </TextEquiv>
@@ -557,7 +569,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673348272905_3798" custom="readingOrder {index:6;}">
-          <Coords points="814,906 925,903 937,903 1025,904 1077,907 1098,909 1098,946 925,946 814,939"/>
+          <Coords points="814,906 814,939 875,942 879,942 884,943 901,944 903,944 916,944 919,945 925,946 1098,946 1098,909 1077,907 1069,907 1063,913 1053,914 1045,912 1041,906 1029,907 1025,904 1013,904 1005,909 987,911 937,903 897,903"/>
           <TextEquiv>
             <Unicode>Erb ⸗ Begraͤbniß</Unicode>
           </TextEquiv>
@@ -857,7 +869,7 @@
         </Word>
         <Word id="region0000_line0016_word0007" custom="readingOrder {index:7;}">
           <Coords points="1007,1123 999,1127 974,1127 974,1159 1039,1159 1039,1126 1028,1127 1018,1123"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>erſte</Unicode>
           </TextEquiv>
         </Word>
@@ -972,7 +984,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673348650866_4101" custom="readingOrder {index:6;}">
-          <Coords points="945,1212 949,1211 1014,1211 1119,1213 1119,1253 1032,1253 945,1252"/>
+          <Coords points="949,1211 945,1212 945,1252 1032,1253 1119,1253 1119,1213 1087,1215 1072,1212 1062,1211 1049,1215 1019,1213 1014,1211 988,1211 983,1213 973,1211"/>
           <TextEquiv>
             <Unicode>Luft ⸗ Loch</Unicode>
           </TextEquiv>
@@ -1094,7 +1106,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1673348722658_4189" custom="readingOrder {index:6;}">
-          <Coords points="831,1299 975,1299 992,1299 1033,1301 1087,1305 1087,1334 944,1337 831,1337"/>
+          <Coords points="831,1299 831,1337 944,1337 1087,1334 1087,1305 1056,1305 1050,1308 1040,1307 1033,1301 1006,1303 992,1299 975,1299 969,1299 961,1304 937,1299 920,1299 914,1302 870,1300 859,1304 849,1299"/>
           <TextEquiv>
             <Unicode>Schaal ⸗ Steinen</Unicode>
           </TextEquiv>
@@ -1339,7 +1351,7 @@
         </Word>
         <Word id="region0000_line0024_word0006" custom="readingOrder {index:6;}">
           <Coords points="707,1490 764,1489 764,1515 707,1516"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>von</Unicode>
           </TextEquiv>
         </Word>
@@ -1454,7 +1466,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0000_line0026_word0005" custom="readingOrder {index:5;}">
-          <Coords points="821,1572 816,1576 784,1577 766,1575 766,1616 895,1616 895,1576 837,1576 832,1572"/>
+          <Coords points="816,1576 784,1577 766,1575 766,1616 778,1616 878,1616 885,1609 893,1616 895,1616 895,1576 837,1576 832,1572 821,1572"/>
           <TextEquiv>
             <Unicode>werden,</Unicode>
           </TextEquiv>
@@ -2046,7 +2058,7 @@
         </Word>
         <Word id="region0000_line0035_word0008" custom="readingOrder {index:8;}">
           <Coords points="1104,2001 1228,2000 1228,1974 1153,1972 1120,1968 1104,1969"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Gottes⸗</Unicode>
           </TextEquiv>
         </Word>
@@ -2302,7 +2314,7 @@
         <Coords points="619,2178 612,2185 587,2182 575,2186 567,2182 543,2185 460,2182 451,2190 433,2187 428,2183 412,2182 401,2183 391,2190 340,2187 185,2187 186,2232 235,2232 251,2235 323,2235 342,2232 346,2235 371,2238 387,2228 397,2232 408,2228 420,2231 460,2229 472,2235 483,2229 497,2228 589,2229 605,2226 611,2229 632,2230 648,2230 655,2227 677,2230 722,2227 772,2230 784,2234 799,2226 811,2226 819,2234 837,2227 847,2227 855,2232 910,2233 923,2225 931,2234 947,2234 952,2237 972,2235 976,2239 993,2234 1029,2234 1033,2237 1069,2239 1074,2242 1090,2238 1101,2240 1113,2236 1132,2235 1146,2241 1235,2241 1235,2199 1224,2199 1219,2196 1177,2201 1157,2197 1121,2197 1106,2191 1089,2193 1085,2190 1074,2190 1050,2197 999,2195 960,2188 904,2188 897,2184 864,2187 843,2181 816,2182 800,2188 759,2188 742,2185 732,2187 727,2183 709,2186 694,2183 675,2192 665,2187 641,2187 632,2181"/>
         <Baseline points="186,2222 842,2219 1235,2231"/>
         <Word id="word_1673349544495_5029" custom="readingOrder {index:0;}">
-          <Coords points="225,2190 316,2187 395,2186 485,2186 485,2228 479,2231 317,2232 225,2225"/>
+          <Coords points="225,2190 225,2225 317,2232 381,2231 387,2228 395,2231 398,2231 408,2228 420,2231 460,2229 464,2231 479,2231 483,2229 485,2228 485,2186 455,2186 451,2190 433,2187 431,2186 396,2186 391,2190 340,2187 316,2187"/>
           <TextEquiv>
             <Unicode>Erb ⸗ Begraͤbniß</Unicode>
           </TextEquiv>
@@ -2562,7 +2574,7 @@ Daferne aber, ſo Gott in Gnaden abwenden wolle, aus andern
 Urſachen eine Contagion entſtehen ſollte, zu welcher Zeit nicht</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.15178144" type="catch-word" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:3;} structure {type:catch-word;}">
+    <TextRegion id="region0001" custom="readingOrder {index:3;} structure {type:catch-word;}" orientation="0.15178144" type="catch-word" readingDirection="left-to-right">
       <Coords points="1158,2373 1234,2373 1234,2422 1158,2422"/>
       <TextLine id="region0001_line" custom="readingOrder {index:0;}">
         <Coords points="1158,2373 1234,2373 1234,2422 1158,2422"/>
@@ -2580,5 +2592,8 @@ Urſachen eine Contagion entſtehen ſollte, zu welcher Zeit nicht</Unicode>
         <Unicode>bloß</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1673347777651_3378" custom="readingOrder {index:0;}">
+      <Coords points="594,462 879,462 879,505 594,505"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

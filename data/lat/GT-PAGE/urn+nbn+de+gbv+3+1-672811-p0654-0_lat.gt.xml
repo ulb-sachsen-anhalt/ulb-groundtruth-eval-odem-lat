@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-210">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:09Z</Created>
     <LastChange>2024-01-19T13:09:09Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-672811-p0654-0_lat.png" imageWidth="1339" imageHeight="1965" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/43584c96-fc14-4e2b-b652-987a73f9f804/00000654.jpg" imageWidth="1339" imageHeight="1965" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="259,172 290,1830 1274,1797 1264,154"/>
     </Border>
@@ -23,7 +38,7 @@
         <RegionRefIndexed index="8" regionRef="region0011"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="marginalia" id="region_1662386746927_3963" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="region_1662386746927_3963" custom="readingOrder {index:0;} structure {type:marginalia;}" type="marginalia">
       <Coords points="366,900 417,900 417,937 366,937"/>
       <TextLine id="line_1662386751907_3966" custom="readingOrder {index:0;}">
         <Coords points="372,911 372,928 418,928 418,911"/>
@@ -41,7 +56,7 @@
         <Unicode>2</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="heading" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:1;} structure {type:heading;}">
+    <TextRegion id="region0004" custom="readingOrder {index:1;} structure {type:heading;}" orientation="0.7032772" type="heading" readingDirection="left-to-right">
       <Coords points="458,280 1201,280 1201,370 458,370"/>
       <TextLine id="region0004_line0001" custom="readingOrder {index:0;}">
         <Coords points="497,282 458,284 459,334 752,327 955,326 1019,329 1201,325 1200,280"/>
@@ -88,11 +103,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>C. PLINII CAECILII SECVNDI&#13;
+        <Unicode>C. PLINII CAECILII SECVNDI
 CONSVLIS</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="heading" readingDirection="left-to-right" id="region0005" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0005" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.7032772" type="heading" readingDirection="left-to-right">
       <Coords points="440,383 1225,383 1225,476 440,476"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="450,388 440,390 441,472 449,473 814,467 943,470 1110,468 1114,465 1131,464 1175,466 1183,462 1192,462 1193,476 1216,475 1225,467 1224,383 989,383 926,387 872,384 804,388 765,385 718,390 708,386 676,386 659,387 654,390 649,386 619,386 613,391 579,388 574,392 554,393 543,388 531,388 525,392 488,392 477,389"/>
@@ -111,7 +126,7 @@ CONSVLIS</Unicode>
         <Unicode>PANEGYRICVS,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="heading" readingDirection="left-to-right" id="region0006" custom="readingOrder {index:3;} structure {type:heading;}">
+    <TextRegion id="region0006" custom="readingOrder {index:3;} structure {type:heading;}" orientation="0.7032772" type="heading" readingDirection="left-to-right">
       <Coords points="551,494 1109,494 1109,546 551,546"/>
       <TextLine id="region0006_line0001" custom="readingOrder {index:0;}">
         <Coords points="591,495 551,496 551,546 1054,546 1109,542 1108,494"/>
@@ -136,7 +151,7 @@ CONSVLIS</Unicode>
         <Unicode>NERVAE TRAIANO</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="heading" readingDirection="left-to-right" id="region0007" custom="readingOrder {index:4;} structure {type:heading;}">
+    <TextRegion id="region0007" custom="readingOrder {index:4;} structure {type:heading;}" orientation="0.7032772" type="heading" readingDirection="left-to-right">
       <Coords points="619,556 1048,556 1048,640 619,640"/>
       <TextLine id="region0007_line0001" custom="readingOrder {index:0;}">
         <Coords points="631,557 619,559 620,600 963,600 1048,597 1047,556"/>
@@ -177,14 +192,14 @@ CONSVLIS</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>AVGVSTO DICTVS.&#13;
+        <Unicode>AVGVSTO DICTVS.
 CAPVT I.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1662386688563_3946" custom="readingOrder {index:5;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1662386688563_3946" custom="readingOrder {index:5;} structure {type:drop-capital;}" orientation="0.7032772" type="drop-capital" readingDirection="left-to-right">
       <Coords points="439,649 503,649 503,738 439,738"/>
       <TextLine id="line_1662386851723_4002" custom="readingOrder {index:0;}">
-        <Coords points="439,651 503,652 503,701 503,744 440,739 439,710 439,679"/>
+        <Coords points="439,651 439,679 439,710 439,738 503,738 503,701 503,652"/>
         <Baseline points="439,698 478,694 440,730 503,731 439,671 455,672 465,673 487,674 494,688"/>
         <Word id="word_1662386855445_4009" custom="readingOrder {index:0;}">
           <Coords points="446,664 503,662 503,694 501,723 445,724 445,710"/>
@@ -200,7 +215,7 @@ CAPVT I.</Unicode>
         <Unicode>B</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" readingDirection="left-to-right" id="TextRegion_1662386688562_3945" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1662386688562_3945" custom="readingOrder {index:6;}" orientation="0.7032772" readingDirection="left-to-right">
       <Coords points="503,649 1227,649 1227,738 503,738"/>
       <TextLine id="line_1662386688607_3948" custom="readingOrder {index:0;}">
         <Coords points="503,652 546,653 550,656 552,664 627,663 635,654 643,651 657,652 661,663 675,663 682,655 693,655 699,663 816,661 839,660 846,656 866,660 946,659 970,657 975,649 1001,650 1003,657 1012,656 1015,650 1033,650 1036,656 1045,656 1058,649 1078,650 1080,654 1138,653 1141,649 1226,649 1226,689 1183,688 1177,692 1137,694 1122,692 1114,695 1084,696 1079,699 1049,696 1048,699 1039,702 1024,701 1019,695 1000,696 994,693 962,698 829,700 820,707 796,708 773,703 688,701 682,701 681,705 674,708 657,708 651,702 590,704 574,700 563,700 554,705 521,705 514,700 503,700"/>
@@ -245,7 +260,7 @@ CAPVT I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1662386688608_3952" custom="readingOrder {index:1;}">
-        <Coords points="503,701 514,701 522,707 534,709 552,708 559,703 574,701 584,707 638,707 657,709 708,703 739,705 773,704 796,709 820,708 826,705 976,701 981,695 994,694 1002,700 1039,703 1047,700 1103,699 1122,693 1141,697 1172,696 1183,689 1205,689 1214,694 1226,694 1227,729 1178,731 1154,737 1129,735 1096,745 1077,739 974,740 920,748 904,743 856,741 850,744 762,744 716,751 706,747 682,745 534,748 504,746 503,744"/>
+        <Coords points="1226,694 1214,694 1205,689 1183,689 1172,696 1141,697 1122,693 1103,699 1047,700 1039,703 1002,700 994,694 981,695 976,701 826,705 820,708 796,709 773,704 739,705 708,703 657,709 638,707 584,707 574,701 559,703 552,708 534,709 522,707 514,701 503,701 503,738 1119,738 1129,735 1154,737 1178,731 1227,729"/>
         <Baseline points="503,731 704,737 1227,722"/>
         <Word id="region0008_line0003_word0001" custom="readingOrder {index:0;}">
           <Coords points="528,731 726,728 725,704 708,703 657,709 638,707 584,707 574,701 559,703 552,708 534,709 527,707"/>
@@ -288,14 +303,14 @@ CAPVT I.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Ene ac ſapienter, patres conſcripti, maiores&#13;
+        <Unicode>Ene ac ſapienter, patres conſcripti, maiores
 inſtituerunt, vt rerum agendarum, ita di-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" readingDirection="left-to-right" id="TextRegion_1662386685487_3937" custom="readingOrder {index:7;}">
+    <TextRegion id="TextRegion_1662386685487_3937" custom="readingOrder {index:7;}" orientation="0.7032772" readingDirection="left-to-right">
       <Coords points="439,738 1227,738 1227,927 439,927"/>
       <TextLine id="region0008_line0004" custom="readingOrder {index:0;}">
-        <Coords points="1226,730 1178,732 1165,735 1159,740 1144,740 1140,736 1129,736 1122,737 1115,743 1096,746 874,749 869,742 856,742 851,744 849,749 812,748 806,744 796,744 780,748 716,752 612,751 604,746 590,749 571,746 565,751 556,752 549,747 503,747 500,753 439,754 439,793 544,792 558,789 578,791 599,788 605,791 686,790 692,795 705,796 719,789 765,787 773,784 782,784 788,788 873,787 879,784 892,783 897,786 947,785 949,788 962,788 969,792 974,789 976,784 1024,784 1033,780 1049,780 1058,787 1073,788 1081,782 1099,782 1106,778 1123,781 1226,776"/>
+        <Coords points="1159,740 1144,740 1142,738 1120,738 1115,743 1096,746 874,749 869,742 856,742 851,744 849,749 812,748 806,744 796,744 780,748 716,752 612,751 604,746 590,749 571,746 565,751 556,752 549,747 503,747 500,753 439,754 439,793 544,792 558,789 578,791 599,788 605,791 686,790 692,795 705,796 719,789 765,787 773,784 782,784 788,788 873,787 879,784 892,783 897,786 947,785 949,788 962,788 969,792 974,789 976,784 1024,784 1033,780 1049,780 1058,787 1073,788 1081,782 1099,782 1106,778 1123,781 1226,776 1226,738 1161,738"/>
         <Baseline points="439,783 1226,766"/>
         <Word id="region0008_line0004_word0000" custom="readingOrder {index:0;}">
           <Coords points="502,747 500,753 445,753 445,778 530,777 530,747"/>
@@ -479,19 +494,19 @@ inſtituerunt, vt rerum agendarum, ita di-</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>cendi initium a precationibus capere: quod nihil&#13;
-rite, nihilque prouidenter homines ſine deorum&#13;
-immortalium ope, conſilio, honore auſpicaren-&#13;
+        <Unicode>cendi initium a precationibus capere: quod nihil
+rite, nihilque prouidenter homines ſine deorum
+immortalium ope, conſilio, honore auſpicaren-
 tur. Qui mos cui potius quam conſuli? aut</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.7032772" type="footnote" readingDirection="left-to-right" id="region0011" custom="readingOrder {index:8;} structure {type:footnote;}">
+    <TextRegion id="region0011" custom="readingOrder {index:8;} structure {type:footnote;}" orientation="0.7032772" type="footnote" readingDirection="left-to-right">
       <Coords points="441,985 1229,985 1233,1641 444,1651"/>
       <TextLine id="region0011_line0001" custom="readingOrder {index:0;}">
         <Coords points="718,987 713,992 712,1003 694,997 640,998 632,1006 613,1007 609,1000 597,999 590,1007 526,1008 522,1003 512,1000 442,1000 442,1033 449,1033 460,1039 481,1040 487,1044 510,1040 514,1043 540,1043 553,1047 571,1045 578,1041 597,1040 607,1036 616,1036 623,1040 653,1040 728,1033 803,1034 809,1039 820,1040 825,1036 857,1036 864,1032 876,1032 880,1036 903,1038 913,1034 996,1032 1014,1027 1024,1027 1030,1031 1065,1030 1073,1026 1080,1026 1085,1030 1168,1028 1186,1022 1197,1025 1203,1022 1217,1025 1228,1024 1228,992 1220,992 1218,985 1176,986 1174,992 1153,992 1148,985 1133,986 1128,993 1015,996 1007,987 994,987 985,997 966,998 960,989 950,989 942,998 927,998 922,990 910,989 903,999 899,999 892,990 883,991 874,1000 856,1000 850,992 839,992 832,1000 789,1002 784,1002 776,993 768,993 760,1001 748,1002 743,995 736,994 730,987"/>
         <Baseline points="442,1033 1228,1014"/>
         <Word id="word_1662386945919_4040" custom="readingOrder {index:0;}">
-          <Coords points="484,1008 655,1005 655,1035 589,1039 484,1040"/>
+          <Coords points="484,1008 484,1040 589,1039 601,1038 607,1036 616,1036 618,1037 655,1035 655,1005 633,1005 632,1006 613,1007 612,1006 591,1006 590,1007 526,1008 525,1007"/>
           <TextEquiv>
             <Unicode>Panegyricus)</Unicode>
           </TextEquiv>
@@ -540,7 +555,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         <Coords points="1186,1023 1168,1029 1085,1031 1080,1027 1073,1027 1065,1031 1030,1032 1024,1028 1014,1028 996,1033 913,1035 903,1039 880,1037 876,1033 864,1033 857,1037 825,1037 820,1041 809,1040 803,1035 728,1034 659,1041 623,1041 616,1037 607,1037 557,1048 540,1044 514,1044 510,1041 487,1045 481,1041 460,1040 450,1035 442,1035 442,1080 500,1079 506,1074 515,1074 521,1078 569,1078 647,1075 663,1071 676,1071 687,1075 736,1074 748,1073 754,1069 765,1069 769,1073 799,1073 805,1070 819,1071 821,1067 829,1067 836,1071 844,1066 851,1066 857,1070 892,1065 899,1071 952,1069 970,1073 974,1068 1016,1066 1035,1060 1046,1065 1090,1065 1097,1060 1116,1064 1123,1057 1129,1060 1137,1056 1144,1063 1173,1062 1181,1058 1198,1056 1228,1056 1228,1028 1218,1027 1209,1023 1198,1026"/>
         <Baseline points="442,1071 1228,1049"/>
         <Word id="word_1662386985117_4064" custom="readingOrder {index:0;}">
-          <Coords points="448,1039 457,1038 510,1041 540,1044 550,1046 550,1065 448,1067"/>
+          <Coords points="448,1039 448,1067 550,1065 550,1046 540,1044 514,1044 510,1041 487,1045 481,1041 460,1040 456,1038"/>
           <TextEquiv>
             <Unicode>ſtoriam</Unicode>
           </TextEquiv>
@@ -631,7 +646,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0011_line0003_word0005" custom="readingOrder {index:5;}">
-          <Coords points="881,1068 879,1069 879,1095 981,1094 981,1072 952,1070 899,1072 895,1068"/>
+          <Coords points="879,1095 981,1094 981,1072 972,1071 970,1074 952,1070 899,1072 894,1068 884,1068 879,1069"/>
           <TextEquiv conf="0.9090781">
             <Unicode>ſenatu;</Unicode>
           </TextEquiv>
@@ -729,7 +744,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662387052693_4101" custom="readingOrder {index:3;}">
-          <Coords points="725,1141 902,1142 903,1161 835,1169 726,1171"/>
+          <Coords points="726,1171 835,1169 903,1161 902,1142 886,1141 798,1144 725,1141"/>
           <TextEquiv>
             <Unicode>Berneggerus</Unicode>
           </TextEquiv>
@@ -931,7 +946,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         <Coords points="1168,1271 1160,1278 1152,1278 1145,1273 1106,1274 1084,1275 1078,1281 1059,1282 982,1284 978,1279 953,1280 946,1286 939,1286 925,1281 907,1281 875,1283 863,1287 850,1285 845,1290 795,1292 769,1285 763,1292 681,1295 531,1298 524,1292 478,1292 473,1296 445,1299 442,1302 443,1321 445,1324 465,1330 501,1330 539,1327 641,1329 706,1323 711,1324 716,1332 726,1332 736,1323 745,1326 787,1326 792,1323 804,1323 808,1326 849,1324 860,1328 877,1321 890,1324 899,1323 903,1320 1039,1319 1046,1323 1057,1322 1076,1313 1090,1317 1166,1315 1184,1310 1192,1310 1198,1314 1229,1312 1228,1276 1184,1278 1179,1272"/>
         <Baseline points="444,1323 1228,1303"/>
         <Word id="region0011_line0009_word0000" custom="readingOrder {index:0;}">
-          <Coords points="486,1332 507,1332 506,1292 485,1292"/>
+          <Coords points="506,1292 485,1292 485,1330 501,1330 506,1329"/>
           <TextEquiv conf="0.51988333">
             <Unicode>I,</Unicode>
           </TextEquiv>
@@ -1056,7 +1071,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0011" custom="readingOrder {index:10;}">
-        <Coords points="1092,1349 1085,1353 1015,1352 997,1360 983,1359 977,1354 955,1359 945,1354 929,1355 922,1359 869,1360 863,1356 853,1356 847,1360 790,1362 784,1358 770,1358 759,1366 747,1363 662,1365 658,1362 648,1362 641,1369 606,1366 500,1369 494,1365 487,1365 480,1370 441,1370 442,1403 551,1402 573,1397 580,1403 592,1403 597,1400 665,1399 692,1402 734,1396 788,1396 795,1400 804,1400 813,1395 859,1394 865,1390 872,1390 879,1394 898,1393 908,1389 954,1388 1003,1391 1019,1387 1048,1390 1115,1386 1122,1389 1134,1383 1160,1384 1166,1379 1174,1379 1186,1383 1206,1381 1211,1376 1211,1356 1206,1351 1108,1352"/>
+        <Coords points="1085,1353 1015,1352 997,1360 983,1359 977,1354 955,1359 945,1354 929,1355 922,1359 869,1360 863,1356 853,1356 847,1360 790,1362 784,1358 770,1358 759,1366 747,1363 662,1365 658,1362 648,1362 641,1369 606,1366 500,1369 494,1365 487,1365 480,1370 442,1370 442,1402 551,1402 573,1397 580,1403 592,1403 597,1400 665,1399 692,1402 734,1396 788,1396 795,1400 804,1400 813,1395 859,1394 865,1390 872,1390 879,1394 898,1393 908,1389 954,1388 1003,1391 1019,1387 1048,1390 1115,1386 1122,1389 1134,1383 1160,1384 1166,1379 1174,1379 1186,1383 1206,1381 1211,1376 1211,1356 1206,1351 1108,1352 1092,1349"/>
         <Baseline points="442,1393 1211,1372"/>
         <Word id="region0011_line0011_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:5;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="455,1390 525,1389 525,1368 500,1369 494,1365 487,1365 480,1370 455,1370"/>
@@ -1065,7 +1080,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662387442884_4206" custom="readingOrder {index:1;} textStyle {offset:0; length:11;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="539,1368 648,1362 658,1362 677,1364 677,1384 598,1392 540,1393"/>
+          <Coords points="539,1368 540,1393 598,1392 677,1384 677,1364 662,1365 658,1362 648,1362 641,1369 606,1366 542,1367"/>
           <TextEquiv>
             <Unicode>incipiendis</Unicode>
           </TextEquiv>
@@ -1154,7 +1169,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0013" custom="readingOrder {index:12;}">
-        <Coords points="1135,1420 1129,1424 1098,1424 1085,1421 1073,1426 1034,1427 1026,1422 1011,1425 964,1426 957,1429 949,1425 940,1425 935,1429 902,1432 893,1428 808,1432 802,1429 788,1431 781,1428 740,1434 727,1434 722,1430 661,1434 640,1435 636,1432 478,1435 442,1430 441,1472 573,1472 631,1471 637,1467 648,1466 653,1470 670,1471 706,1467 764,1470 773,1466 852,1465 860,1461 872,1461 875,1468 887,1462 894,1464 924,1465 1006,1464 1036,1461 1061,1460 1071,1463 1082,1459 1190,1456 1194,1453 1206,1453 1218,1457 1228,1456 1228,1421 1151,1423 1145,1419"/>
+        <Coords points="1129,1424 1098,1424 1085,1421 1073,1426 1034,1427 1026,1422 1011,1425 964,1426 957,1429 949,1425 940,1425 935,1429 902,1432 893,1428 808,1432 802,1429 788,1431 781,1428 740,1434 727,1434 722,1430 661,1434 640,1435 636,1432 478,1435 443,1430 443,1472 573,1472 631,1471 637,1467 648,1466 653,1470 670,1471 706,1467 764,1470 773,1466 852,1465 860,1461 872,1461 875,1468 887,1462 894,1464 924,1465 1006,1464 1036,1461 1061,1460 1071,1463 1082,1459 1190,1456 1194,1453 1206,1453 1218,1457 1228,1456 1228,1421 1151,1423 1145,1419 1135,1420"/>
         <Baseline points="442,1464 1228,1447"/>
         <Word id="region0011_line0013_word0000" custom="readingOrder {index:0;}">
           <Coords points="454,1438 499,1437 499,1463 454,1464"/>
@@ -1205,7 +1220,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1662387559690_4277" custom="readingOrder {index:8;} textStyle {offset:0; length:12;italic:true; fontSize:0.0; kerning:0;}">
-          <Coords points="1066,1426 1082,1422 1089,1422 1224,1426 1224,1456 1218,1457 1071,1463 1066,1461"/>
+          <Coords points="1089,1422 1083,1422 1073,1426 1066,1426 1066,1461 1071,1463 1082,1459 1190,1456 1194,1453 1206,1453 1218,1457 1224,1456 1224,1426 1130,1423 1129,1424 1098,1424 1089,1422"/>
           <TextEquiv>
             <Unicode>eſcenderunt,</Unicode>
           </TextEquiv>
@@ -1215,7 +1230,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0014" custom="readingOrder {index:13;}">
-        <Coords points="1194,1454 1190,1457 1082,1460 1071,1464 1061,1461 924,1466 894,1465 887,1463 875,1469 872,1462 831,1467 773,1467 764,1471 715,1468 670,1472 653,1471 648,1467 637,1468 631,1472 573,1473 452,1472 441,1473 442,1510 491,1509 503,1508 510,1504 521,1504 526,1507 573,1506 587,1502 602,1502 606,1505 758,1502 763,1505 777,1505 783,1501 821,1499 854,1502 861,1496 880,1500 935,1498 945,1493 961,1493 968,1497 1062,1495 1077,1498 1087,1494 1151,1492 1157,1488 1171,1487 1229,1494 1228,1457 1218,1458 1206,1454"/>
+        <Coords points="1190,1457 1082,1460 1071,1464 1061,1461 924,1466 894,1465 887,1463 875,1469 872,1462 831,1467 773,1467 764,1471 715,1468 670,1472 653,1471 648,1467 637,1468 631,1472 573,1473 452,1472 443,1472 443,1509 491,1509 503,1508 510,1504 521,1504 526,1507 573,1506 587,1502 602,1502 606,1505 758,1502 763,1505 777,1505 783,1501 821,1499 854,1502 861,1496 880,1500 935,1498 945,1493 961,1493 968,1497 1062,1495 1077,1498 1087,1494 1151,1492 1157,1488 1171,1487 1229,1494 1228,1457 1218,1458 1206,1454 1194,1454"/>
         <Baseline points="442,1500 1229,1483"/>
         <Word id="word_1662387582733_4295" custom="readingOrder {index:0;} textStyle {offset:0; length:1;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="454,1472 488,1472 488,1494 455,1495"/>
@@ -1264,7 +1279,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0015" custom="readingOrder {index:14;}">
-        <Coords points="1171,1488 1157,1489 1151,1493 1087,1495 1077,1499 1062,1496 969,1499 961,1494 945,1494 935,1499 917,1500 880,1501 870,1497 861,1497 854,1503 841,1500 783,1502 777,1506 763,1506 758,1503 606,1506 602,1503 587,1503 573,1507 526,1508 521,1505 510,1505 503,1509 491,1510 443,1511 441,1543 464,1547 476,1543 505,1542 518,1539 528,1545 536,1538 540,1538 545,1541 569,1540 575,1543 602,1539 650,1542 668,1538 673,1534 707,1533 714,1534 717,1541 724,1542 736,1536 770,1536 776,1532 831,1535 840,1530 922,1529 969,1532 984,1535 997,1530 1026,1530 1033,1525 1042,1525 1048,1529 1069,1525 1086,1530 1123,1528 1136,1531 1228,1523 1228,1494"/>
+        <Coords points="1157,1489 1151,1493 1087,1495 1077,1499 1062,1496 969,1499 961,1494 945,1494 935,1499 917,1500 880,1501 870,1497 861,1497 854,1503 841,1500 783,1502 777,1506 763,1506 758,1503 606,1506 602,1503 587,1503 573,1507 526,1508 521,1505 510,1505 503,1509 491,1510 443,1510 443,1543 464,1547 476,1543 505,1542 518,1539 528,1545 536,1538 540,1538 545,1541 569,1540 575,1543 602,1539 650,1542 668,1538 673,1534 707,1533 714,1534 717,1541 724,1542 736,1536 770,1536 776,1532 831,1535 840,1530 922,1529 969,1532 984,1535 997,1530 1026,1530 1033,1525 1042,1525 1048,1529 1069,1525 1086,1530 1123,1528 1136,1531 1228,1523 1228,1494 1171,1488"/>
         <Baseline points="442,1535 1228,1514"/>
         <Word id="region0011_line0015_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:4;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="456,1533 513,1532 513,1505 510,1505 503,1509 491,1510 456,1510"/>
@@ -1307,7 +1322,7 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0016" custom="readingOrder {index:15;}">
-        <Coords points="1033,1526 1026,1531 997,1531 984,1536 969,1533 922,1530 840,1531 831,1536 776,1533 770,1537 736,1537 724,1543 717,1542 714,1535 707,1534 673,1535 668,1539 650,1543 610,1540 575,1544 569,1541 545,1542 540,1539 536,1539 528,1546 518,1540 505,1543 476,1544 464,1548 441,1544 442,1579 609,1578 620,1574 645,1574 654,1565 662,1570 664,1576 672,1570 691,1574 695,1570 738,1567 763,1567 771,1571 781,1568 806,1570 815,1565 822,1565 828,1569 835,1566 846,1566 850,1569 924,1568 931,1563 951,1568 1093,1565 1116,1563 1123,1559 1194,1561 1207,1558 1210,1554 1209,1531 1206,1527 1136,1532 1123,1529 1086,1531 1069,1526 1048,1530 1042,1526"/>
+        <Coords points="1026,1531 997,1531 984,1536 969,1533 922,1530 840,1531 831,1536 776,1533 770,1537 736,1537 724,1543 717,1542 714,1535 707,1534 673,1535 668,1539 650,1543 610,1540 575,1544 569,1541 545,1542 540,1539 536,1539 528,1546 518,1540 505,1543 476,1544 464,1548 443,1544 443,1578 609,1578 620,1574 645,1574 654,1565 662,1570 664,1576 672,1570 691,1574 695,1570 738,1567 763,1567 771,1571 781,1568 806,1570 815,1565 822,1565 828,1569 835,1566 846,1566 850,1569 924,1568 931,1563 951,1568 1093,1565 1116,1563 1123,1559 1194,1561 1207,1558 1210,1554 1209,1531 1206,1527 1136,1532 1123,1529 1086,1531 1069,1526 1048,1530 1042,1526 1033,1526"/>
         <Baseline points="442,1568 1210,1552"/>
         <Word id="region0011_line0016_word0000" custom="readingOrder {index:0;} textStyle {offset:0; length:3;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="455,1564 494,1563 493,1545 471,1545 464,1548 454,1546"/>
@@ -1405,11 +1420,11 @@ tur. Qui mos cui potius quam conſuli? aut</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0011_line0018" custom="readingOrder {index:17;}">
-        <Coords points="1171,1593 1160,1597 1097,1601 1013,1602 1008,1599 997,1599 991,1603 983,1603 971,1601 967,1607 943,1607 934,1600 926,1600 909,1607 895,1603 748,1607 744,1604 735,1604 730,1608 719,1610 677,1608 663,1611 655,1608 622,1609 616,1605 590,1605 580,1610 547,1612 532,1616 522,1612 506,1611 441,1614 442,1644 445,1648 453,1650 491,1649 542,1656 570,1655 578,1646 706,1643 759,1643 768,1651 822,1650 831,1642 872,1640 878,1649 917,1648 923,1639 963,1639 969,1649 1002,1648 1006,1645 1008,1637 1013,1637 1019,1646 1053,1647 1065,1645 1072,1638 1129,1638 1148,1632 1228,1630 1228,1595 1186,1596"/>
+        <Coords points="1160,1597 1097,1601 1013,1602 1008,1599 997,1599 991,1603 983,1603 971,1601 967,1607 943,1607 934,1600 926,1600 909,1607 895,1603 748,1607 744,1604 735,1604 730,1608 719,1610 677,1608 663,1611 655,1608 622,1609 616,1605 590,1605 580,1610 547,1612 532,1616 522,1612 506,1611 443,1613 443,1646 445,1648 453,1650 491,1649 500,1650 575,1649 578,1646 706,1643 759,1643 763,1646 826,1646 831,1642 872,1640 875,1645 919,1644 923,1639 963,1639 966,1644 1006,1643 1008,1637 1013,1637 1017,1643 1066,1643 1072,1638 1129,1638 1148,1632 1228,1630 1228,1595 1186,1596 1171,1593"/>
         <Baseline points="441,1637 534,1643 757,1633 804,1640 843,1631 1049,1632 1228,1620"/>
         <Word id="region0011_line0018_word0000" custom="readingOrder {index:0;}">
           <Coords points="457,1616 529,1615 530,1639 458,1640"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>erat;</Unicode>
           </TextEquiv>
         </Word>

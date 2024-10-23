@@ -1,11 +1,27 @@
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-279">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:10:14Z</Created>
     <LastChange>2024-01-19T13:10:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-789704-p0038-8_lat.png" imageWidth="2439" imageHeight="2861" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/5d51f273-d7d2-4cfe-bbba-00f41031e7fc/00000038.jpg" imageWidth="2439" imageHeight="2861" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="346,503 320,2732 2331,2752 2373,498"/>
     </Border>
@@ -20,7 +36,7 @@
         <RegionRefIndexed index="6" regionRef="TextRegion_1657010723057_958"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.007635111" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657010628066_893" custom="readingOrder {index:0;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657010628066_893" custom="readingOrder {index:0;} structure {type:marginalia;}" orientation="0.007635111" type="marginalia" readingDirection="left-to-right">
       <Coords points="555,687 622,687 622,951 555,951"/>
       <TextLine id="line_1657010623276_822" custom="readingOrder {index:0;}">
         <Coords points="562,706 574,707 579,715 622,715 622,758 604,759 589,767 580,767 573,760 555,760 555,721 557,711"/>
@@ -38,7 +54,7 @@
         <Unicode>4 Quæres . Anex parte ſponſi poſſint ſponſalia etiam jurata reſcindi propter</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657010630584_898" custom="readingOrder {index:1;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657010630584_898" custom="readingOrder {index:1;} structure {type:marginalia;}" orientation="0.007635111" type="marginalia" readingDirection="left-to-right">
       <Coords points="555,951 622,951 622,1032 555,1032"/>
       <TextLine id="line_1657010623292_832" custom="readingOrder {index:0;}">
         <Coords points="555,968 576,965 617,967 622,972 622,1018 555,1024"/>
@@ -56,10 +72,10 @@
         <Unicode>5. Quæe 6 An ſtuprum vio lentum, &amp; ſi ſponſa vi oppreſſa ac cognita ſit, ſuffici-</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" type="marginalia" readingDirection="left-to-right" id="TextRegion_1657010634613_910" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1657010634613_910" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="0.007635111" type="marginalia" readingDirection="left-to-right">
       <Coords points="555,2025 622,2025 622,2082 555,2082"/>
       <TextLine id="line_1657010623356_872" custom="readingOrder {index:0;}">
-        <Coords points="559,2022 619,2028 622,2030 622,2077 618,2077 614,2073 606,2072 594,2078 570,2082 559,2082 555,2079 555,2024"/>
+        <Coords points="619,2028 589,2025 555,2025 555,2079 559,2082 570,2082 594,2078 606,2072 614,2073 618,2077 622,2077 622,2030"/>
         <Word id="word_1657010633395_905" custom="readingOrder {index:0;}">
           <Coords points="562,2025 592,2025 613,2027 613,2067 562,2067"/>
           <TextEquiv>
@@ -74,7 +90,7 @@
         <Unicode>36.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" readingDirection="left-to-right" id="TextRegion_1657010683765_926" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1657010683765_926" custom="readingOrder {index:3;}" orientation="0.007635111" readingDirection="left-to-right">
       <Coords points="622,687 2259,687 2259,942 622,959"/>
       <TextLine id="line_1657010623275_821" custom="readingOrder {index:0;}">
         <Coords points="622,715 646,715 652,725 682,725 683,715 688,710 770,708 806,712 873,708 875,696 880,691 945,692 986,706 990,705 991,699 995,696 1009,696 1015,704 1121,705 1143,702 1172,705 1178,696 1185,692 1193,692 1202,694 1208,706 1264,706 1277,695 1293,695 1299,700 1301,708 1334,708 1338,698 1347,695 1407,694 1412,699 1413,710 1450,709 1461,700 1479,700 1486,710 1536,710 1537,700 1542,695 1595,694 1610,697 1616,705 1626,705 1675,702 1681,693 1694,692 1703,703 1767,703 1770,692 1776,687 1793,688 1799,700 1848,698 1863,694 1872,694 1876,697 1950,696 1960,687 1981,687 1985,691 1988,687 2006,687 2012,697 2018,698 2034,697 2040,687 2070,687 2075,697 2172,697 2176,694 2186,694 2190,697 2258,696 2258,743 2168,742 2167,749 2149,752 2142,748 2141,742 2129,741 2094,742 2090,749 2086,750 2072,748 2070,742 2045,739 2009,739 2003,742 1981,740 1899,744 1847,743 1833,746 1795,746 1790,754 1782,756 1765,754 1762,746 1702,746 1654,751 1582,753 1567,750 1548,754 1500,755 1473,764 1461,757 1365,753 1319,753 1317,760 1302,762 1296,758 1295,753 1277,749 1212,751 1210,757 1203,760 1189,759 1185,757 1184,751 1087,752 1086,757 1082,759 1067,761 1058,758 1057,752 986,752 969,749 961,752 890,753 851,749 796,753 789,761 777,764 699,764 691,760 690,751 687,749 657,749 652,757 622,758"/>
@@ -165,7 +181,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1657011031070_1014" custom="readingOrder {index:2;}">
-          <Coords points="1257,753 1261,750 1277,750 1423,756 1423,788 1388,796 1257,796"/>
+          <Coords points="1257,753 1257,796 1388,796 1423,788 1423,756 1419,756 1387,757 1371,761 1365,754 1349,754 1341,762 1302,763 1286,759 1285,754 1277,750 1261,750"/>
           <TextEquiv>
             <Unicode>ſponſæ?</Unicode>
           </TextEquiv>
@@ -281,7 +297,7 @@
         <Coords points="622,869 648,869 649,864 655,861 666,861 672,868 691,867 694,862 709,857 720,857 724,859 725,864 756,864 775,863 784,855 812,853 863,860 871,854 882,854 888,856 890,861 915,861 943,860 947,854 960,853 966,860 991,860 1003,863 1023,858 1080,858 1088,851 1104,850 1112,853 1117,859 1171,859 1177,852 1190,852 1195,855 1196,860 1260,861 1272,865 1309,863 1482,868 1505,866 1508,864 1508,858 1514,854 1583,853 1593,855 1594,861 1597,862 1684,859 1686,853 1694,850 1706,851 1710,858 1730,858 1732,851 1736,849 1752,850 1755,857 1775,856 1777,850 1793,848 1799,855 1859,856 1906,854 1916,845 1933,844 1940,846 1941,853 1944,854 1961,853 1965,846 1972,843 1984,844 1999,853 2006,850 2009,842 2034,842 2038,844 2038,850 2042,851 2043,844 2048,841 2063,842 2067,850 2098,852 2111,843 2121,845 2123,850 2258,850 2258,894 2024,893 2009,896 1867,900 1725,900 1676,903 1671,905 1669,911 1663,913 1646,911 1644,905 1521,910 1515,915 1501,915 1496,910 1439,908 1421,910 1420,916 1413,919 1397,918 1393,910 1362,908 1290,909 1233,903 1094,903 1088,900 1063,903 1020,903 1007,900 998,903 954,901 938,904 757,904 748,908 731,906 721,909 656,912 622,912"/>
         <Baseline points="622,900 1027,892 1530,900 2029,884 2258,884"/>
         <Word id="word_1657011089266_1035" custom="readingOrder {index:0;}">
-          <Coords points="627,869 655,861 709,857 720,857 771,863 771,885 732,887 627,887"/>
+          <Coords points="709,857 694,862 691,867 672,868 666,861 655,861 649,864 648,869 627,869 627,887 732,887 771,885 771,863 756,864 725,864 724,859 720,857"/>
           <TextEquiv>
             <Unicode>nioſum</Unicode>
           </TextEquiv>
@@ -357,7 +373,7 @@
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657010623288_829" custom="readingOrder {index:4;}">
-        <Coords points="622,911 650,911 657,916 668,917 716,916 722,909 748,909 757,905 779,905 785,908 787,913 800,913 849,912 852,906 857,904 871,905 874,912 888,912 914,911 915,906 920,903 933,903 939,910 945,910 954,902 965,902 975,911 982,911 995,910 997,904 1007,901 1019,903 1021,909 1070,909 1078,901 1088,901 1095,904 1099,910 1216,912 1219,906 1233,904 1250,906 1253,914 1264,915 1319,916 1339,914 1346,909 1362,909 1376,915 1413,920 1431,917 1439,909 1454,910 1457,916 1547,917 1569,917 1609,909 1651,914 1717,911 1725,901 1738,902 1742,910 1787,909 1792,902 1808,902 1812,908 1916,907 1922,899 1927,898 1940,899 1944,906 1951,907 1960,899 1971,899 1977,907 2001,906 2012,905 2015,896 2024,894 2032,895 2035,904 2088,904 2119,912 2124,917 2124,937 2114,941 2097,941 2089,945 2027,946 2020,954 2011,956 2003,954 2000,946 1967,947 1961,955 1952,957 1943,955 1940,948 1900,950 1894,955 1883,955 1878,950 1770,947 1651,953 1633,951 1627,958 1618,962 1611,959 1594,961 1577,955 1495,961 1482,958 1456,961 1438,958 1429,961 1393,959 1384,962 1263,962 1242,961 1233,957 1213,959 1180,955 1130,956 1127,962 1113,964 1106,961 1104,956 1094,955 987,952 970,955 701,959 664,964 662,970 655,975 638,975 631,965 622,964"/>
+        <Coords points="2097,941 2114,941 2124,937 2124,917 2119,912 2088,904 2035,904 2032,895 2024,894 2015,896 2012,905 2001,906 1977,907 1971,899 1960,899 1951,907 1944,906 1940,899 1927,898 1922,899 1916,907 1812,908 1808,902 1792,902 1787,909 1742,910 1738,902 1725,901 1717,911 1651,914 1609,909 1569,917 1547,917 1457,916 1454,910 1439,909 1431,917 1413,920 1376,915 1362,909 1346,909 1339,914 1319,916 1264,915 1253,914 1250,906 1233,904 1219,906 1216,912 1099,910 1095,904 1088,901 1078,901 1070,909 1021,909 1019,903 1007,901 997,904 995,910 982,911 975,911 965,902 954,902 945,910 939,910 933,903 920,903 915,906 914,911 888,912 874,912 871,905 857,904 852,906 849,912 800,913 787,913 785,908 779,905 757,905 748,909 722,909 716,916 668,917 657,916 650,911 622,911 622,959 883,956 970,955 987,952 1070,954 1768,947 1770,947 1772,947 2091,943"/>
         <Baseline points="622,952 901,944 1447,950"/>
         <Word id="region0001_line0005_word0000" custom="readingOrder {index:0;}">
           <Coords points="628,953 847,953 847,912 800,913 787,913 785,908 779,905 757,905 748,909 722,909 716,916 668,917 657,916 650,911 628,911"/>
@@ -408,7 +424,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0001_line0005_word0007" custom="readingOrder {index:8;}">
-          <Coords points="1919,903 1916,907 1861,907 1861,944 1912,940 1912,902 1901,913 1904,910"/>
+          <Coords points="1919,903 1916,907 1861,907 1861,944 1912,940"/>
           <TextEquiv conf="0.42940322">
             <Unicode>25.</Unicode>
           </TextEquiv>
@@ -430,17 +446,17 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quæres 5: An'ex parte ſponſi poſſint ſponſalia etiam jurata reſcindi propter&#13;
-ſupervenientem fornicationem ſponſæ? Reſp. affirmat. Tum quia notabilis mutatio&#13;
-intervenit; Tum quia contra regulam deſponſationis venitur; Tum quia ignomi-&#13;
-nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolutionem&#13;
+        <Unicode>Quæres 5: An'ex parte ſponſi poſſint ſponſalia etiam jurata reſcindi propter
+ſupervenientem fornicationem ſponſæ? Reſp. affirmat. Tum quia notabilis mutatio
+intervenit; Tum quia contra regulam deſponſationis venitur; Tum quia ignomi-
+nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolutionem
 ſponſalium invitâ alterâ parte licere ſtatuitur,in c. Quemadmodum 25. de de jurejur. jurejur.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" readingDirection="left-to-right" id="TextRegion_1657010704741_942" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1657010704741_942" custom="readingOrder {index:4;}" orientation="0.007635111" readingDirection="left-to-right">
       <Coords points="622,959 2259,942 2259,2013 622,2036"/>
       <TextLine id="line_1657010623292_831" custom="readingOrder {index:0;}">
-        <Coords points="622,972 623,986 652,986 658,978 673,977 674,968 678,963 724,959 752,960 764,967 775,968 847,966 860,956 905,956 912,959 917,955 927,955 934,961 954,962 975,960 987,953 1002,953 1013,960 1087,961 1122,965 1173,964 1175,958 1191,956 1198,960 1199,965 1214,965 1220,958 1233,958 1239,961 1241,967 1247,968 1363,971 1371,969 1377,963 1393,960 1429,962 1438,959 1463,964 1470,960 1482,959 1494,962 1496,967 1551,968 1562,956 1582,957 1588,964 1607,964 1627,959 1633,952 1649,954 1650,962 1744,959 1761,958 1770,948 1807,948 1811,950 1813,959 1854,956 1952,958 1967,956 1976,947 1987,947 1993,955 2011,957 2031,955 2036,948 2044,945 2059,945 2066,953 2088,955 2089,946 2093,943 2138,937 2189,937 2194,942 2195,953 2201,941 2215,940 2221,946 2222,954 2258,959 2258,993 2228,996 2089,996 2082,999 2042,1000 1960,999 1951,1000 1935,1011 1923,1010 1914,1002 1893,1001 1752,1003 1720,1006 1719,1010 1705,1014 1691,1011 1681,1015 1672,1015 1665,1005 1610,1005 1598,1009 1513,1012 1497,1010 1487,1018 1475,1011 1380,1016 1367,1012 1352,1012 1346,1015 1271,1015 1108,1007 1057,1008 1054,1014 1037,1016 1028,1013 1027,1008 1004,1005 908,1007 844,1004 771,1006 771,1017 760,1021 653,1016 622,1018"/>
+        <Coords points="847,966 775,968 764,967 752,960 724,959 678,963 674,968 673,977 658,978 652,986 623,986 622,972 622,1018 653,1016 760,1021 771,1017 771,1006 844,1004 908,1007 1004,1005 1027,1008 1028,1013 1037,1016 1054,1014 1057,1008 1108,1007 1271,1015 1346,1015 1352,1012 1367,1012 1380,1016 1475,1011 1487,1018 1497,1010 1513,1012 1598,1009 1610,1005 1665,1005 1672,1015 1681,1015 1691,1011 1705,1014 1719,1010 1720,1006 1752,1003 1893,1001 1914,1002 1923,1010 1935,1011 1951,1000 1960,999 2042,1000 2082,999 2089,996 2228,996 2258,993 2258,959 2222,954 2221,946 2217,942 2200,942 2195,953 2194,942 2092,943 2089,946 2088,955 2066,953 2059,945 2044,945 2036,948 2031,955 2011,957 1993,955 1987,947 1976,947 1967,956 1952,958 1854,956 1813,959 1811,950 1807,948 1770,948 1761,958 1744,959 1650,962 1649,954 1633,952 1627,959 1607,964 1588,964 1582,957 1562,956 1551,968 1496,967 1494,962 1482,959 1470,960 1463,964 1438,959 1429,962 1393,960 1377,963 1371,969 1363,971 1247,968 1241,967 1239,961 1233,958 1220,958 1214,965 1199,965 1198,960 1191,956 1175,958 1173,964 1122,965 1087,961 1013,960 1005,955 983,955 975,960 954,962 934,961 927,955 915,955 912,959 905,956 859,956"/>
         <Baseline points="746,1002 884,995 1440,1004 2258,985"/>
         <Word id="region0001_line0006_word0001" custom="readingOrder {index:0;}">
           <Coords points="708,999 835,1001 835,968 775,968 764,967 752,960 724,959 708,960"/>
@@ -491,7 +507,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0006_word0010" custom="readingOrder {index:8;}">
-          <Coords points="1603,1006 1636,1006 1636,956 1626,955 1620,962 1603,966"/>
+          <Coords points="1607,1006 1610,1005 1636,1005 1636,956 1630,955 1627,959 1621,960 1620,962 1603,966 1603,1006"/>
           <TextEquiv conf="0.8923948">
             <Unicode>vi</Unicode>
           </TextEquiv>
@@ -632,7 +648,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
         </Word>
         <Word id="region0001_line0008_word0004" custom="readingOrder {index:4;}">
           <Coords points="1124,1062 1119,1067 1116,1066 1116,1101 1297,1101 1297,1075 1279,1075 1271,1067 1253,1068 1251,1074 1221,1074 1220,1067 1215,1064 1182,1062"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>diſſolutio</Unicode>
           </TextEquiv>
         </Word>
@@ -655,7 +671,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0008_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1921,1061 1899,1061 1857,1062 1857,1113 1872,1116 1878,1108 1920,1103 1921,1102"/>
+          <Coords points="1857,1062 1857,1113 1872,1116 1878,1108 1920,1103 1921,1102 1921,1061 1899,1061 1869,1064 1858,1061"/>
           <TextEquiv conf="0.7610225">
             <Unicode>per</Unicode>
           </TextEquiv>
@@ -722,7 +738,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0009_word0005" custom="readingOrder {index:5;}">
-          <Coords points="1154,1156 1354,1158 1354,1122 1336,1117 1319,1115 1313,1119 1312,1126 1245,1129 1195,1126 1193,1117 1180,1114 1154,1112"/>
+          <Coords points="1354,1158 1354,1122 1349,1120 1349,1127 1338,1127 1336,1117 1319,1115 1313,1119 1312,1126 1245,1129 1195,1126 1193,1117 1180,1114 1154,1114 1154,1156"/>
           <TextEquiv>
             <Unicode>Panormit.</Unicode>
           </TextEquiv>
@@ -776,7 +792,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0009_word0012" custom="readingOrder {index:14;}">
-          <Coords points="2095,1099 2053,1099 2053,1154 2088,1151 2095,1150"/>
+          <Coords points="2053,1154 2088,1151 2095,1150 2095,1099 2068,1099 2055,1100 2053,1101"/>
           <TextEquiv conf="0.8749877">
             <Unicode>D</Unicode>
           </TextEquiv>
@@ -825,7 +841,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="word_1657089217679_459" custom="readingOrder {index:5;}">
-          <Coords points="929,1166 944,1160 978,1155 992,1160 994,1160 994,1214 929,1216"/>
+          <Coords points="944,1160 929,1166 929,1216 944,1215 947,1213 994,1213 994,1160 992,1160 978,1155"/>
           <TextEquiv>
             <Unicode>72.</Unicode>
           </TextEquiv>
@@ -880,7 +896,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
         </Word>
         <Word id="region0001_line0010_word0011" custom="readingOrder {index:14;}">
           <Coords points="1748,1159 1744,1166 1739,1166 1739,1205 1784,1205 1790,1205 1817,1205 1818,1204 1832,1205 1876,1205 1876,1166 1857,1166 1855,1163 1835,1160 1830,1165 1825,1165 1819,1159 1809,1159 1802,1166 1770,1166 1766,1159"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ſponſal.n</Unicode>
           </TextEquiv>
         </Word>
@@ -1122,7 +1138,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0013_word0010" custom="readingOrder {index:8;}">
-          <Coords points="1595,1360 1634,1357 1634,1323 1610,1321 1595,1326"/>
+          <Coords points="1634,1357 1634,1323 1610,1321 1597,1328 1595,1327 1595,1360"/>
           <TextEquiv conf="0.9148393">
             <Unicode>L.</Unicode>
           </TextEquiv>
@@ -1164,7 +1180,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0013_word0016" custom="readingOrder {index:15;}">
-          <Coords points="2142,1308 2113,1301 2105,1301 2103,1304 2103,1353 2142,1353"/>
+          <Coords points="2125,1304 2119,1304 2112,1313 2103,1314 2103,1353 2142,1353 2142,1311 2135,1311 2127,1304"/>
           <TextEquiv conf="0.8912177">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -1359,13 +1375,13 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0016_word0004" custom="readingOrder {index:3;}">
-          <Coords points="850,1515 1107,1515 1109,1486 1104,1485 1070,1485 1064,1477 1048,1477 1044,1486 1028,1486 1003,1484 1002,1477 997,1474 982,1474 977,1483 935,1482 915,1480 913,1475 907,1472 883,1470 852,1470"/>
+          <Coords points="914,1515 914,1514 923,1511 929,1515 1107,1515 1108,1486 1104,1485 1070,1485 1064,1477 1048,1477 1044,1486 1028,1486 1003,1484 1002,1477 997,1474 982,1474 977,1483 935,1482 915,1480 913,1475 907,1472 883,1470 851,1470 850,1515"/>
           <TextEquiv>
             <Unicode>Quemadmodum</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657089806940_708" custom="readingOrder {index:4;}">
-          <Coords points="1120,1487 1174,1486 1174,1529 1120,1529"/>
+          <Coords points="1174,1486 1120,1487 1120,1527 1132,1526 1137,1527 1139,1529 1159,1529 1174,1528"/>
           <TextEquiv conf="0.86046493">
             <Unicode>25.</Unicode>
           </TextEquiv>
@@ -1377,7 +1393,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0016_word0007" custom="readingOrder {index:6;}">
-          <Coords points="1228,1519 1351,1517 1351,1482 1316,1486 1297,1484 1293,1487 1228,1487"/>
+          <Coords points="1351,1517 1351,1483 1316,1486 1297,1484 1293,1487 1228,1487 1228,1519"/>
           <TextEquiv>
             <Unicode>jurejur</Unicode>
           </TextEquiv>
@@ -1517,7 +1533,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0018_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1227,1625 1348,1625 1346,1579 1325,1578 1310,1584 1289,1587 1225,1587"/>
+          <Coords points="1348,1625 1346,1579 1325,1578 1310,1584 1289,1587 1225,1587 1226,1622 1228,1622 1233,1622 1237,1625"/>
           <TextEquiv>
             <Unicode>poteſt</Unicode>
           </TextEquiv>
@@ -1796,7 +1812,7 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
           </TextEquiv>
         </Word>
         <Word id="region0001_line0021_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1977,1716 1976,1722 1931,1722 1931,1766 1949,1766 2007,1765 2015,1762 2036,1765 2073,1764 2075,1766 2088,1766 2093,1764 2094,1766 2094,1722 2089,1716 2088,1718 2030,1721 2024,1721 2022,1716"/>
+          <Coords points="1931,1766 1949,1766 2007,1765 2015,1762 2036,1765 2073,1764 2075,1766 2088,1766 2093,1764 2094,1763 2094,1722 2089,1716 2088,1718 2030,1721 2024,1721 2022,1716 1977,1716 1976,1722 1931,1722"/>
           <TextEquiv conf="0.9162484">
             <Unicode>poſſunt,</Unicode>
           </TextEquiv>
@@ -2207,33 +2223,33 @@ nioſum eſt viro ducere fœminam corruptam; Tum quia in hoc caſu diſſolution
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quæres 6. An ſtuprum violentum, &amp; ſi ſponſa vi oppreſſa ac cognita ſit, ſuffici-&#13;
-entem cauſam præbeat,ut contracta ſponſalia reſcindantur? Reſp. affirmat. &amp; ad in-&#13;
-ſtantiam ſponſi à Judice diſſolutio ſponſalium permittenda eſt, per can. Raptor 33. cau-&#13;
-ſa 27.q.2. idem docet noſt. Panormit. in c. Quemadmodum 25. de jurejur. &amp; noſt. D König&#13;
-ad tt. de ſponſal n. 72. Covarr. 4. decret.3. p.c.5.n.2. Zoës ad tit. de ſponſal.n 41. Ratio eſt: Tum&#13;
-quia notabilis mutatio intervenit, omnibus autem actibus,ac conventionibus hæc&#13;
-tacita ineſt cõditio, rebus ſic ſtantibus,ſeu in eodem ſtatu,quo fuerunt tempore contractùs, ſive ſi rea&#13;
-in eodem ſtatu maneat, quo fuit,cùm ſtipulatio interponeretur. L. Cum quis 38. princ. ff.de ſolut. &amp; liber-&#13;
-tat. Tum quia in magnum ſponſi dedecus redundaret, habere uxorem ab alio,&#13;
-quamvis invita fuerit cognitam &amp; difficile eſt, alienam prolem pro ſua alere. /&#13;
-Dices I. c. Quemadmodum 25. de jurejur dicitur, fornicationem ſponſæ eſſe cauſam&#13;
-ſufficientem diſſolvendi ſponſalia, ſi voluntariè in talem fornicationem conſenſe-&#13;
-rit; quia ſponſa vim paſſa non poteſt dici fidem fregiſſe ſponſo, ac deliquiſſe, cùm&#13;
-vis illata, ut non parit conſenſum, ita crimen ſecum ferre nequit, per c.2.&amp; 4. cauſ.&#13;
-32,q.5 Reſp.in o. Quemadmodum cit. non eſt facta adæquata enumeratio omnium ratio-&#13;
-num, ex quibus ſponſalia ob fornicationem ſubſequentem diſſolvi poſſunt, ſed tan-&#13;
-tùm aliquarum; quibus eſt addenda notabilis mutatio ex parte ſponſæ, quæ ex&#13;
-copula etiam coacta naſcitur, dum ſponſus ſponſam ſine nota infamiæ ducere ne-&#13;
-quit, &amp; periculo exponitur prolem alienam pro ſua alendi. Nec obſtat text.in c.46.&#13;
-cauſ. 27.q.2. hic enim juxta gloſſam ibid. agit de puellis de præſenti deſponſatis. Ita&#13;
+        <Unicode>Quæres 6. An ſtuprum violentum, &amp; ſi ſponſa vi oppreſſa ac cognita ſit, ſuffici-
+entem cauſam præbeat,ut contracta ſponſalia reſcindantur? Reſp. affirmat. &amp; ad in-
+ſtantiam ſponſi à Judice diſſolutio ſponſalium permittenda eſt, per can. Raptor 33. cau-
+ſa 27.q.2. idem docet noſt. Panormit. in c. Quemadmodum 25. de jurejur. &amp; noſt. D König
+ad tt. de ſponſal n. 72. Covarr. 4. decret.3. p.c.5.n.2. Zoës ad tit. de ſponſal.n 41. Ratio eſt: Tum
+quia notabilis mutatio intervenit, omnibus autem actibus,ac conventionibus hæc
+tacita ineſt cõditio, rebus ſic ſtantibus,ſeu in eodem ſtatu,quo fuerunt tempore contractùs, ſive ſi rea
+in eodem ſtatu maneat, quo fuit,cùm ſtipulatio interponeretur. L. Cum quis 38. princ. ff.de ſolut. &amp; liber-
+tat. Tum quia in magnum ſponſi dedecus redundaret, habere uxorem ab alio,
+quamvis invita fuerit cognitam &amp; difficile eſt, alienam prolem pro ſua alere. /
+Dices I. c. Quemadmodum 25. de jurejur dicitur, fornicationem ſponſæ eſſe cauſam
+ſufficientem diſſolvendi ſponſalia, ſi voluntariè in talem fornicationem conſenſe-
+rit; quia ſponſa vim paſſa non poteſt dici fidem fregiſſe ſponſo, ac deliquiſſe, cùm
+vis illata, ut non parit conſenſum, ita crimen ſecum ferre nequit, per c.2.&amp; 4. cauſ.
+32,q.5 Reſp.in o. Quemadmodum cit. non eſt facta adæquata enumeratio omnium ratio-
+num, ex quibus ſponſalia ob fornicationem ſubſequentem diſſolvi poſſunt, ſed tan-
+tùm aliquarum; quibus eſt addenda notabilis mutatio ex parte ſponſæ, quæ ex
+copula etiam coacta naſcitur, dum ſponſus ſponſam ſine nota infamiæ ducere ne-
+quit, &amp; periculo exponitur prolem alienam pro ſua alendi. Nec obſtat text.in c.46.
+cauſ. 27.q.2. hic enim juxta gloſſam ibid. agit de puellis de præſenti deſponſatis. Ita
 noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" readingDirection="left-to-right" id="TextRegion_1657010723058_959" custom="readingOrder {index:5;}">
+    <TextRegion id="TextRegion_1657010723058_959" custom="readingOrder {index:5;}" orientation="0.007635111" readingDirection="left-to-right">
       <Coords points="622,2036 2259,2013 2259,2455 622,2510"/>
       <TextLine id="line_1657010623355_871" custom="readingOrder {index:0;}">
-        <Coords points="622,2030 623,2031 623,2040 628,2042 641,2041 649,2034 660,2032 713,2030 741,2039 879,2025 886,2031 907,2029 919,2033 981,2036 1017,2037 1027,2030 1043,2031 1049,2033 1051,2041 1059,2044 1106,2043 1113,2037 1128,2041 1134,2046 1209,2047 1211,2043 1219,2042 1232,2051 1330,2049 1331,2041 1336,2036 1393,2036 1400,2048 1483,2047 1485,2033 1495,2029 1558,2029 1563,2034 1564,2043 1566,2034 1571,2030 1583,2032 1590,2041 1601,2030 1610,2027 1624,2029 1629,2039 1669,2038 1685,2037 1700,2023 1710,2024 1716,2035 1718,2027 1725,2022 1761,2022 1768,2027 1770,2033 1823,2033 1824,2022 1829,2017 1896,2017 1901,2022 1902,2030 1956,2030 1963,2020 1969,2017 1987,2019 1991,2029 2102,2027 2114,2017 2130,2017 2137,2027 2193,2026 2205,2013 2223,2013 2236,2028 2257,2029 2258,2065 2147,2070 2136,2079 2125,2080 2114,2078 2112,2072 2036,2070 1999,2073 1912,2073 1905,2074 1897,2080 1886,2081 1879,2073 1867,2076 1835,2074 1827,2079 1820,2075 1803,2075 1794,2078 1701,2082 1669,2080 1636,2084 1634,2090 1628,2093 1610,2091 1602,2084 1586,2084 1577,2088 1551,2090 1471,2091 1465,2098 1456,2101 1441,2101 1437,2099 1436,2094 1416,2094 1407,2091 1396,2091 1391,2094 1336,2094 1327,2091 1185,2093 1122,2089 1116,2086 1058,2086 1053,2091 1046,2092 1031,2081 1015,2083 995,2079 932,2079 918,2074 900,2077 872,2076 855,2072 842,2072 832,2082 825,2081 821,2074 750,2075 748,2085 726,2090 670,2089 664,2084 644,2077 622,2077"/>
+        <Coords points="641,2041 628,2042 623,2040 623,2036 622,2036 622,2077 644,2077 664,2084 670,2089 726,2090 748,2085 750,2075 821,2074 825,2081 832,2082 842,2072 855,2072 872,2076 900,2077 918,2074 932,2079 995,2079 1015,2083 1031,2081 1046,2092 1053,2091 1058,2086 1116,2086 1122,2089 1185,2093 1327,2091 1336,2094 1391,2094 1396,2091 1407,2091 1416,2094 1436,2094 1437,2099 1441,2101 1456,2101 1465,2098 1471,2091 1551,2090 1577,2088 1586,2084 1602,2084 1610,2091 1628,2093 1634,2090 1636,2084 1669,2080 1701,2082 1794,2078 1803,2075 1820,2075 1827,2079 1835,2074 1867,2076 1879,2073 1886,2081 1897,2080 1905,2074 1912,2073 1999,2073 2036,2070 2112,2072 2114,2078 2125,2080 2136,2079 2147,2070 2258,2065 2257,2029 2236,2028 2223,2013 2204,2014 2193,2026 2137,2027 2130,2017 2114,2017 2102,2027 1991,2029 1987,2019 1970,2017 1969,2017 1963,2020 1956,2030 1902,2030 1901,2022 1897,2018 1827,2019 1824,2022 1823,2033 1770,2033 1768,2027 1761,2022 1725,2022 1718,2027 1716,2035 1710,2024 1700,2023 1685,2037 1669,2038 1629,2039 1624,2029 1610,2027 1601,2030 1590,2041 1583,2032 1571,2030 1566,2034 1564,2043 1563,2034 1558,2029 1495,2029 1485,2033 1483,2047 1400,2048 1393,2036 1336,2036 1331,2041 1330,2049 1232,2051 1219,2042 1211,2043 1209,2047 1134,2046 1128,2041 1113,2037 1106,2043 1059,2044 1051,2041 1049,2033 1043,2031 1031,2030 1027,2030 1017,2037 981,2036 919,2033 916,2032 794,2034 741,2039 727,2035 647,2036"/>
         <Baseline points="717,2070 850,2062 1204,2083 1437,2084 1778,2067 2258,2056"/>
         <Word id="region0001_line0027_word0001" custom="readingOrder {index:0;}">
           <Coords points="687,2074 807,2074 807,2032 741,2039 713,2030 687,2030"/>
@@ -2448,7 +2464,7 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0029_word0009" custom="readingOrder {index:9;}">
-          <Coords points="1616,2176 1664,2178 1664,2140 1661,2144 1641,2144 1636,2139 1626,2139 1616,2137"/>
+          <Coords points="1664,2178 1664,2140 1661,2144 1641,2144 1636,2139 1626,2139 1617,2144 1616,2144 1616,2176"/>
           <TextEquiv conf="0.83666265">
             <Unicode>62.</Unicode>
           </TextEquiv>
@@ -2466,7 +2482,7 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0029_word0012" custom="readingOrder {index:12;}">
-          <Coords points="2144,2130 2143,2131 2105,2136 2102,2122 2087,2119 2080,2123 2064,2120 2051,2133 2019,2132 2011,2128 1995,2127 1995,2174 2037,2174 2039,2180 2062,2180 2064,2178 2066,2180 2083,2180 2088,2175 2112,2174 2144,2176"/>
+          <Coords points="2105,2136 2102,2122 2087,2119 2080,2123 2064,2120 2051,2133 2019,2132 2011,2128 1995,2130 1995,2174 2037,2174 2039,2180 2062,2180 2064,2178 2066,2180 2083,2180 2088,2175 2112,2174 2144,2176 2144,2131 2143,2131"/>
           <TextEquiv>
             <Unicode>Conſiſtor.</Unicode>
           </TextEquiv>
@@ -2642,13 +2658,13 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0031_word0007" custom="readingOrder {index:7;}">
-          <Coords points="1300,2288 1550,2286 1550,2239 1564,2239 1537,2244 1532,2251 1499,2251 1493,2245 1480,2245 1469,2253 1391,2254 1332,2251 1330,2245 1316,2242 1300,2241"/>
+          <Coords points="1300,2288 1550,2286 1564,2239 1300,2241"/>
           <TextEquiv conf="0.47768462">
             <Unicode>ſupervenire,</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0031_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1555,2290 1586,2292 1586,2241 1555,2237"/>
+          <Coords points="1586,2292 1586,2241 1564,2239 1555,2240 1555,2290"/>
           <TextEquiv conf="0.47768462">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -2782,7 +2798,7 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
         <Coords points="622,2353 682,2353 690,2352 691,2346 695,2343 719,2340 766,2341 772,2348 845,2343 889,2345 891,2338 896,2335 908,2335 912,2344 972,2340 996,2343 1003,2339 1004,2333 1008,2331 1064,2331 1071,2338 1099,2338 1100,2333 1104,2331 1115,2331 1131,2343 1139,2343 1149,2333 1162,2332 1171,2336 1172,2341 1238,2342 1253,2337 1267,2339 1276,2346 1329,2347 1334,2343 1353,2343 1366,2351 1403,2353 1475,2353 1486,2352 1497,2345 1508,2345 1516,2348 1520,2354 1537,2355 1581,2349 1617,2348 1619,2340 1623,2338 1643,2348 1706,2348 1708,2340 1712,2338 1726,2339 1733,2347 1739,2339 1745,2337 1762,2337 1770,2348 1826,2347 1833,2337 1841,2335 1903,2334 1908,2342 1915,2344 1989,2340 1997,2331 2013,2332 2016,2338 2027,2338 2030,2333 2040,2330 2050,2330 2063,2337 2104,2335 2112,2334 2113,2330 2123,2326 2133,2327 2139,2332 2186,2332 2188,2326 2193,2324 2207,2324 2213,2334 2258,2336 2258,2372 2222,2376 2110,2379 2085,2377 2075,2381 1966,2387 1861,2390 1804,2388 1774,2391 1772,2397 1763,2400 1750,2399 1742,2391 1608,2391 1601,2394 1549,2397 1420,2396 1419,2400 1409,2403 1400,2402 1390,2395 1376,2391 1353,2394 1278,2390 1271,2396 1260,2396 1248,2389 1224,2388 1208,2383 1199,2386 1175,2386 1135,2381 1124,2385 1107,2385 1095,2391 1078,2392 1072,2390 1064,2381 1044,2381 1037,2384 984,2382 971,2373 962,2382 815,2385 799,2389 745,2390 737,2392 732,2401 718,2404 683,2404 685,2384 676,2381 663,2389 660,2406 651,2410 639,2410 633,2406 632,2394 636,2387 622,2387"/>
         <Baseline points="622,2378 725,2382 971,2373 972,2373 1011,2372 1507,2387 2258,2363"/>
         <Word id="region0001_line0033_word0000" custom="readingOrder {index:0;}">
-          <Coords points="734,2385 734,2340 719,2340 695,2343 691,2346 690,2352 682,2353 638,2353 638,2401 669,2401 685,2397 685,2384 684,2385"/>
+          <Coords points="734,2385 734,2340 695,2343 691,2346 690,2352 638,2353 638,2401 669,2401 685,2397 685,2384"/>
           <TextEquiv>
             <Unicode>77.ff.</Unicode>
           </TextEquiv>
@@ -2919,7 +2935,7 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1657010623379_889" custom="readingOrder {index:8;}">
-        <Coords points="622,2455 703,2450 716,2450 732,2456 826,2452 830,2444 845,2439 853,2440 859,2453 908,2447 915,2440 929,2440 934,2445 1048,2442 1059,2445 1070,2441 1093,2441 1094,2436 1099,2433 1113,2433 1118,2440 1238,2440 1258,2441 1268,2445 1285,2442 1321,2443 1325,2439 1333,2438 1354,2445 1412,2448 1419,2458 1452,2461 1455,2465 1455,2487 1450,2492 1401,2492 1374,2488 1348,2490 1305,2487 1296,2495 1289,2496 1275,2495 1266,2487 1245,2485 1102,2485 1020,2490 988,2488 961,2492 935,2489 865,2492 860,2495 652,2510 622,2510"/>
+        <Coords points="1455,2465 1452,2461 1419,2458 1412,2448 1354,2445 1333,2438 1325,2439 1321,2443 1285,2442 1268,2445 1258,2441 1238,2440 1118,2440 1113,2433 1099,2433 1094,2436 1093,2441 1070,2441 1059,2445 1048,2442 934,2445 929,2440 915,2440 908,2447 859,2453 853,2440 845,2439 830,2444 826,2452 732,2456 716,2450 703,2450 622,2455 622,2510 678,2508 860,2495 865,2492 935,2489 961,2492 988,2488 1020,2490 1102,2485 1245,2485 1266,2487 1267,2488 1305,2487 1305,2487 1306,2487 1455,2482"/>
         <Baseline points="622,2498 1097,2476 1455,2481"/>
         <Word id="region0001_line0035_word0000" custom="readingOrder {index:0;}">
           <Coords points="641,2487 666,2487 666,2452 641,2454"/>
@@ -2981,22 +2997,22 @@ noſt. D. König ad tit. de ſponſal. n.72.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>B Quæres 7. Utrum ſponſus etiam reſilire poſſit à ſponſalibus, ſi ſponſa ante ſponſa-&#13;
-Iia contracta fuerit fornicata, quæ fornicatio poſtea innoteſcit? Reſp. affirmat. cum&#13;
-Guttierez de matr. c.34.n.2. Pirhing ad tit. de ſponſal.n. 62. Carpzov. Iurispr. Conſiſtor. 2. defi-&#13;
-188.Struv. exerc. 39.lib. 23. tit.I. de ſponſal.n. 14.&amp; noſt. D. Engel ad tit. de ſponſal §.3.n.11, Ratio&#13;
-eſt: Quia in Jure paria ſunt aliquid ſupervenire, &amp; præcedere ignoranter; res ete-&#13;
-nim dicitur fieri, quando primò innoteſcit, arg. c. paſtoralis 4.de Exceptionib. &amp; L. in Lege&#13;
-77.ff. de contrah.empt. Ergò ſicut ſponſus poteſt recedere à ſponſalibus ob fornicatio-&#13;
-nem ſubſequentem ſponſæ, ita poteſt recedere ob fornicationem præcedentem,&#13;
-ſi illa non fuerit antecedenter cognita.&#13;
+        <Unicode>B Quæres 7. Utrum ſponſus etiam reſilire poſſit à ſponſalibus, ſi ſponſa ante ſponſa-
+Iia contracta fuerit fornicata, quæ fornicatio poſtea innoteſcit? Reſp. affirmat. cum
+Guttierez de matr. c.34.n.2. Pirhing ad tit. de ſponſal.n. 62. Carpzov. Iurispr. Conſiſtor. 2. defi-
+188.Struv. exerc. 39.lib. 23. tit.I. de ſponſal.n. 14.&amp; noſt. D. Engel ad tit. de ſponſal §.3.n.11, Ratio
+eſt: Quia in Jure paria ſunt aliquid ſupervenire, &amp; præcedere ignoranter; res ete-
+nim dicitur fieri, quando primò innoteſcit, arg. c. paſtoralis 4.de Exceptionib. &amp; L. in Lege
+77.ff. de contrah.empt. Ergò ſicut ſponſus poteſt recedere à ſponſalibus ob fornicatio-
+nem ſubſequentem ſponſæ, ita poteſt recedere ob fornicationem præcedentem,
+ſi illa non fuerit antecedenter cognita.
 noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.007635111" readingDirection="left-to-right" id="TextRegion_1657010723057_958" custom="readingOrder {index:6;}">
+    <TextRegion id="TextRegion_1657010723057_958" custom="readingOrder {index:6;}" orientation="0.007635111" readingDirection="left-to-right">
       <Coords points="622,2510 2259,2455 2259,2577 2256,2628 636,2689 622,2676"/>
       <TextLine id="region0001_line0036" custom="readingOrder {index:0;}">
-        <Coords points="2170,2476 2164,2481 2162,2488 2156,2489 2150,2489 2144,2479 2131,2479 2124,2489 2103,2490 2094,2490 2092,2483 2084,2479 2054,2480 2050,2483 2048,2491 1978,2490 1972,2489 1964,2481 1942,2481 1931,2488 1925,2482 1913,2482 1907,2486 1905,2493 1873,2494 1866,2486 1853,2486 1846,2494 1838,2495 1830,2486 1820,2486 1813,2493 1805,2486 1797,2486 1784,2491 1777,2500 1624,2504 1618,2498 1606,2498 1596,2507 1556,2506 1549,2496 1541,2496 1533,2504 1526,2504 1519,2494 1503,2495 1497,2500 1394,2497 1374,2489 1365,2491 1363,2496 1346,2496 1319,2495 1316,2490 1305,2488 1296,2496 1289,2497 1243,2496 1205,2490 1123,2495 1120,2489 1114,2486 1102,2486 1096,2495 1004,2497 1001,2491 988,2489 978,2492 976,2498 958,2499 954,2499 944,2490 880,2492 865,2493 860,2496 859,2502 851,2503 776,2505 748,2511 740,2511 734,2505 722,2505 716,2510 636,2511 631,2516 631,2546 640,2559 709,2559 727,2555 784,2551 1070,2540 1197,2542 1215,2548 1221,2547 1224,2536 1231,2534 1329,2533 1403,2535 1418,2538 1432,2536 1444,2541 1462,2541 1468,2546 1476,2546 1485,2540 1495,2540 1524,2544 1525,2550 1531,2554 1539,2554 1551,2545 1589,2546 1596,2554 1616,2546 1641,2545 1708,2547 1711,2554 1721,2556 1735,2554 1738,2547 1766,2544 1956,2536 2034,2536 2038,2539 2050,2538 2055,2543 2065,2543 2073,2535 2088,2533 2093,2539 2104,2541 2118,2530 2153,2530 2157,2537 2166,2538 2181,2529 2218,2527 2227,2524 2258,2524 2258,2489 2188,2488 2183,2477"/>
+        <Coords points="2164,2481 2162,2488 2156,2489 2150,2489 2144,2479 2131,2479 2124,2489 2103,2490 2094,2490 2092,2483 2084,2479 2054,2480 2050,2483 2048,2491 1978,2490 1972,2489 1964,2481 1942,2481 1931,2488 1925,2482 1913,2482 1907,2486 1905,2493 1873,2494 1866,2486 1853,2486 1846,2494 1838,2495 1830,2486 1820,2486 1813,2493 1805,2486 1797,2486 1784,2491 1777,2500 1624,2504 1618,2498 1606,2498 1596,2507 1556,2506 1549,2496 1541,2496 1533,2504 1526,2504 1519,2494 1503,2495 1497,2500 1394,2497 1374,2489 1365,2491 1363,2496 1346,2496 1319,2495 1316,2490 1305,2488 1296,2496 1289,2497 1243,2496 1207,2490 1190,2491 1123,2495 1122,2493 1097,2494 1096,2495 1018,2497 971,2498 958,2499 954,2499 954,2499 859,2502 851,2503 776,2505 748,2511 740,2511 735,2506 720,2507 716,2510 636,2511 631,2516 631,2546 640,2559 709,2559 727,2555 784,2551 1070,2540 1197,2542 1215,2548 1221,2547 1224,2536 1231,2534 1329,2533 1403,2535 1418,2538 1432,2536 1444,2541 1462,2541 1468,2546 1476,2546 1485,2540 1495,2540 1524,2544 1525,2550 1531,2554 1539,2554 1551,2545 1589,2546 1596,2554 1616,2546 1641,2545 1708,2547 1711,2554 1721,2556 1735,2554 1738,2547 1766,2544 1956,2536 2034,2536 2038,2539 2050,2538 2055,2543 2065,2543 2073,2535 2088,2533 2093,2539 2104,2541 2118,2530 2153,2530 2157,2537 2166,2538 2181,2529 2218,2527 2227,2524 2258,2524 2258,2489 2188,2488 2183,2477 2170,2476"/>
         <Baseline points="634,2550 1248,2524 1720,2537 2258,2515"/>
         <Word id="region0001_line0036_word0000" custom="readingOrder {index:0;}">
           <Coords points="692,2543 775,2543 775,2505 748,2511 740,2511 734,2505 722,2505 716,2510 692,2510"/>
@@ -3047,7 +3063,7 @@ noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0001_line0036_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1665,2534 1829,2536 1829,2486 1820,2486 1813,2493 1805,2486 1797,2486 1784,2491 1777,2500 1665,2500"/>
+          <Coords points="1829,2536 1829,2486 1820,2486 1813,2493 1805,2486 1797,2486 1784,2491 1777,2500 1665,2502 1665,2534"/>
           <TextEquiv conf="0.5841088">
             <Unicode>expreſsè</Unicode>
           </TextEquiv>
@@ -3084,7 +3100,7 @@ noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
         <Coords points="2227,2525 2213,2531 2197,2529 2189,2537 2180,2531 2166,2539 2157,2538 2151,2532 2141,2532 2135,2539 2129,2532 2116,2532 2104,2542 2080,2548 1974,2546 1969,2537 1956,2537 1950,2546 1858,2546 1687,2558 1623,2557 1617,2549 1599,2555 1573,2556 1562,2554 1555,2546 1549,2547 1539,2555 1531,2555 1526,2552 1505,2550 1502,2543 1495,2541 1485,2541 1476,2547 1468,2547 1445,2545 1442,2540 1432,2537 1419,2538 1413,2545 1317,2545 1260,2549 1148,2548 1099,2551 1085,2551 1081,2542 1070,2541 1064,2544 1063,2551 1059,2553 997,2556 984,2555 978,2548 956,2548 949,2556 925,2559 842,2557 836,2551 768,2553 720,2557 715,2560 714,2568 708,2563 695,2563 689,2568 651,2568 636,2583 636,2613 659,2611 718,2611 720,2614 739,2614 743,2610 875,2599 971,2597 975,2606 988,2607 995,2602 997,2596 1195,2588 1237,2588 1242,2592 1252,2592 1257,2588 1310,2585 1338,2586 1344,2595 1356,2594 1360,2586 1398,2586 1405,2596 1419,2596 1428,2587 1464,2587 1470,2597 1485,2597 1492,2589 1555,2594 1707,2594 1708,2601 1713,2606 1743,2605 1752,2593 1806,2589 1844,2589 1849,2598 1859,2599 1866,2594 1868,2588 1895,2586 2024,2584 2061,2587 2066,2591 2094,2588 2100,2594 2109,2594 2118,2586 2133,2583 2159,2582 2164,2587 2173,2587 2179,2581 2258,2574 2258,2539 2246,2539 2240,2526"/>
         <Baseline points="646,2601 1182,2578 1734,2585 1954,2575 2098,2577 2258,2566"/>
         <Word id="region0001_line0037_word0000" custom="readingOrder {index:0;}">
-          <Coords points="642,2608 715,2601 716,2559 715,2560 714,2568 708,2563 643,2570"/>
+          <Coords points="715,2601 716,2559 715,2560 714,2568 708,2563 693,2565 689,2568 662,2568 650,2569 643,2576 642,2608"/>
           <TextEquiv>
             <Unicode>verit</Unicode>
           </TextEquiv>
@@ -3096,7 +3112,7 @@ noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1657091014160_1235" custom="readingOrder {index:2;}">
-          <Coords points="768,2553 791,2552 836,2551 922,2558 924,2590 793,2592 769,2596"/>
+          <Coords points="769,2596 793,2592 924,2590 922,2558 842,2557 836,2551 768,2553"/>
           <TextEquiv>
             <Unicode>ducturum</Unicode>
           </TextEquiv>
@@ -3166,7 +3182,7 @@ noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="region0002_line0002" custom="readingOrder {index:2;}">
-        <Coords points="2191,2577 2186,2580 2157,2581 2131,2592 2128,2591 2125,2579 2113,2578 2099,2586 2090,2597 2019,2592 2011,2584 1996,2584 1986,2592 1932,2600 1922,2599 1920,2592 1914,2587 1891,2585 1884,2590 1877,2586 1862,2588 1853,2594 1850,2602 1803,2603 1794,2603 1792,2596 1786,2591 1768,2592 1757,2603 1653,2605 1625,2603 1624,2595 1618,2589 1609,2589 1585,2602 1583,2596 1577,2592 1567,2592 1561,2596 1550,2589 1538,2589 1528,2594 1522,2589 1510,2589 1501,2596 1492,2597 1490,2590 1485,2586 1465,2587 1455,2599 1376,2596 1368,2585 1354,2587 1350,2596 1250,2597 1137,2604 1108,2604 1106,2597 1099,2592 1087,2594 1082,2604 1033,2606 1027,2595 1014,2594 1005,2607 973,2608 947,2608 941,2598 932,2598 923,2608 916,2608 909,2598 897,2597 890,2609 869,2609 839,2601 794,2601 789,2606 789,2620 785,2623 738,2623 734,2620 724,2620 716,2625 636,2631 636,2682 642,2688 653,2688 665,2685 670,2673 704,2674 722,2670 784,2667 826,2667 882,2676 914,2672 923,2662 934,2660 1010,2661 1067,2656 1212,2652 1219,2662 1243,2662 1249,2657 1250,2651 1255,2649 1338,2645 1411,2648 1479,2645 1555,2650 1618,2649 1630,2650 1631,2658 1636,2663 1657,2662 1665,2651 1766,2650 1771,2661 1787,2662 1797,2659 1801,2649 1930,2647 1936,2654 1946,2654 1957,2647 2084,2643 2098,2638 2115,2641 2149,2638 2154,2635 2209,2633 2222,2628 2236,2631 2258,2630 2257,2584 2229,2581 2225,2577"/>
+        <Coords points="2186,2580 2157,2581 2131,2592 2128,2591 2125,2579 2113,2578 2099,2586 2090,2597 2019,2592 2011,2584 1996,2584 1986,2592 1932,2600 1922,2599 1920,2592 1914,2587 1891,2585 1884,2590 1877,2586 1862,2588 1853,2594 1850,2602 1803,2603 1794,2603 1792,2596 1786,2591 1768,2592 1757,2603 1653,2605 1625,2603 1624,2595 1618,2589 1609,2589 1585,2602 1583,2596 1577,2592 1567,2592 1561,2596 1550,2589 1538,2589 1528,2594 1522,2589 1510,2589 1501,2596 1492,2597 1490,2590 1485,2586 1465,2587 1455,2599 1376,2596 1368,2585 1354,2587 1350,2596 1250,2597 1137,2604 1108,2604 1106,2597 1099,2592 1087,2594 1082,2604 1033,2606 1027,2595 1014,2594 1005,2607 973,2608 947,2608 941,2598 932,2598 923,2608 916,2608 909,2598 897,2597 890,2609 869,2609 839,2601 794,2601 789,2606 789,2620 785,2623 738,2623 734,2620 724,2620 716,2625 636,2631 636,2682 642,2688 653,2688 665,2685 670,2673 704,2674 722,2670 784,2667 826,2667 882,2676 914,2672 923,2662 934,2660 1010,2661 1067,2656 1212,2652 1219,2662 1243,2662 1249,2657 1250,2651 1255,2649 1338,2645 1411,2648 1479,2645 1555,2650 1618,2649 1630,2650 1630,2651 2218,2629 2222,2628 2227,2629 2256,2628 2257,2603 2257,2584 2229,2581 2225,2577 2191,2577"/>
         <Word id="region0002_line0002_word0000" custom="readingOrder {index:0;}">
           <Coords points="642,2657 796,2657 796,2601 794,2601 789,2606 789,2620 785,2623 738,2623 734,2620 724,2620 716,2625 642,2630"/>
           <TextEquiv>
@@ -3238,8 +3254,8 @@ noſt. D. Kònig ad it. de ſponſal. n.72.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Dices cum Paludano: in c. Quemadmodum 25.de jurejur. expreſsè deciditur, ſi quis jura-&#13;
-verit ſe ducturum aliquamin uxorem, non poteſt ei fornicationem opponere præcedentem, ſed ſubſe-&#13;
+        <Unicode>Dices cum Paludano: in c. Quemadmodum 25.de jurejur. expreſsè deciditur, ſi quis jura-
+verit ſe ducturum aliquamin uxorem, non poteſt ei fornicationem opponere præcedentem, ſed ſubſe-
 quentem: Ergò fornicatio non præcedens, ſed ſubſequens ſponſalia, eſt cauſa diſſo-</Unicode>
       </TextEquiv>
     </TextRegion>

@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-202">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:09:07Z</Created>
     <LastChange>2024-01-19T13:09:07Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-661743-p0069-5_lat.jpg" imageWidth="2531" imageHeight="2845" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/29286d52-a21a-4fec-87d9-ea644dfda0b0/00000069.jpg" imageWidth="2531" imageHeight="2845" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="100,210 86,2724 2168,2733 2146,159"/>
     </Border>
@@ -19,10 +34,7 @@
         <RegionRefIndexed index="5" regionRef="region_1682589219805_2426"/>
       </OrderedGroup>
     </ReadingOrder>
-    <GraphicRegion id="Graphic_1682589125195_2370" custom="readingOrder {index:0;}">
-      <Coords points="809,384 1134,384 1134,439 809,439"/>
-    </GraphicRegion>
-    <TextRegion type="page-number" id="region_1682589114081_2361" custom="readingOrder {index:1;} structure {type:page-number;}">
+    <TextRegion id="region_1682589114081_2361" custom="readingOrder {index:1;} structure {type:page-number;}" type="page-number">
       <Coords points="1578,397 1578,444 1675,444 1675,397"/>
       <TextLine id="line_1682589114210_2364" custom="readingOrder {index:0;}">
         <Coords points="1578,397 1578,444 1675,444 1675,397"/>
@@ -40,7 +52,7 @@
         <Unicode>XXI</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5839111" type="heading" readingDirection="left-to-right" id="region0001" custom="readingOrder {index:2;} structure {type:heading;}">
+    <TextRegion id="region0001" custom="readingOrder {index:2;} structure {type:heading;}" orientation="0.5839111" type="heading" readingDirection="left-to-right">
       <Coords points="231,464 1681,464 1673,629 223,629"/>
       <TextLine id="region0001_line0003" custom="readingOrder {index:0;}">
         <Coords points="941,472 851,477 849,481 850,521 862,523 868,529 930,531 944,534 1020,533 1025,537 1035,537 1040,533 1088,532 1093,527 1093,520 1102,518 1106,513 1105,476 1100,471"/>
@@ -105,11 +117,11 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>VIl.&#13;
+        <Unicode>VIl.
 Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5839111" type="drop-capital" readingDirection="left-to-right" id="TextRegion_1682589168495_2394" custom="readingOrder {index:3;} structure {type:drop-capital;}">
+    <TextRegion id="TextRegion_1682589168495_2394" custom="readingOrder {index:3;} structure {type:drop-capital;}" orientation="0.5839111" type="drop-capital" readingDirection="left-to-right">
       <Coords points="226,624 353,624 348,725 226,728"/>
       <TextLine id="line_1682589168529_2397" custom="readingOrder {index:0;}">
         <Coords points="226,625 353,624 348,725 275,727 266,727 238,725 232,720 227,650"/>
@@ -128,7 +140,7 @@ Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
         <Unicode>E</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.5839111" readingDirection="left-to-right" id="TextRegion_1682589168495_2393" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1682589168495_2393" custom="readingOrder {index:4;}" orientation="0.5839111" readingDirection="left-to-right">
       <Coords points="353,624 1739,624 1739,2361 226,2361 226,728 348,725"/>
       <TextLine id="line_1682589168529_2396" custom="readingOrder {index:0;}">
         <Coords points="353,624 405,624 1591,665 1681,669 1701,672 1739,687 1739,720 1322,730 984,733 690,731 275,727 348,725"/>
@@ -262,7 +274,7 @@ Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
         <Coords points="604,774 566,776 561,778 559,785 552,786 471,789 466,780 453,779 448,782 446,788 427,788 412,786 408,779 403,778 359,780 350,788 227,788 226,832 310,830 318,835 337,838 340,833 426,829 468,832 472,834 498,831 503,836 513,836 521,829 529,827 614,823 818,825 851,823 893,826 992,823 1015,824 1021,828 1029,825 1319,822 1701,825 1738,824 1739,816 1739,781 1663,780 1658,773 1642,774 1639,781 1610,782 1583,782 1581,775 1572,771 1562,772 1559,781 1541,781 1537,773 1523,773 1517,781 1295,782 1273,781 1269,774 1256,773 1248,781 1074,782 1021,787 956,783 950,776 939,776 933,782 928,782 927,777 922,774 905,775 897,782 866,783 819,783 817,776 810,774 799,775 795,782 770,781 766,775 760,773 741,775 737,782 671,783 664,775"/>
         <Baseline points="227,822 706,813 1739,815"/>
         <Word id="word_1667904014871_3577" custom="readingOrder {index:0;}">
-          <Coords points="232,788 356,782 453,779 466,780 490,788 490,831 460,831 232,830"/>
+          <Coords points="357,782 350,788 232,788 232,830 298,830 310,830 311,830 390,831 426,829 454,831 460,831 490,831 490,788 471,789 466,780 453,779 448,782 446,788 427,788 412,786 409,780"/>
           <TextEquiv>
             <Unicode>tranquillitati,</Unicode>
           </TextEquiv>
@@ -359,7 +371,7 @@ Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1667904080666_3595" custom="readingOrder {index:6;}">
-          <Coords points="1280,832 1308,823 1557,823 1558,868 1458,869 1281,858"/>
+          <Coords points="1281,858 1458,869 1558,868 1557,823 1534,824 1524,826 1519,832 1495,832 1376,832 1372,824 1357,824 1352,833 1343,833 1326,832 1324,825 1308,823 1303,826 1301,832 1280,832"/>
           <TextEquiv>
             <Unicode>admittuntur.</Unicode>
           </TextEquiv>
@@ -2047,7 +2059,7 @@ Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
         </Word>
         <Word id="region0002_line0031_word0008" custom="readingOrder {index:8;}">
           <Coords points="1524,2098 1525,2145 1678,2143 1677,2104 1666,2106 1664,2101 1658,2098 1648,2099 1641,2106 1631,2106 1616,2105 1611,2099 1600,2096 1575,2097 1570,2101 1562,2102 1555,2097"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>Collegia</Unicode>
           </TextEquiv>
         </Word>
@@ -2354,42 +2366,42 @@ Abrogatio Turnorum in Diœceſi Colon. Anno 1606.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>RNESTUS Dei &amp; apoſtolicæ Sedis gratia Archiepiscopus Colonienſis. Pa-&#13;
-ſtoralis vocationis &amp; officii noſtri memores &amp; cupientes Eccleſiarum noſtrarum&#13;
-tranquillitati, paci &amp; honeſtati conſulere, certam rationem eorum habendam&#13;
-exiſtimavimus, qui primum ad eccleſiaſticum ſtatum admittuntur. Cum ad&#13;
-catholicæ doctrinæ conſervationem ac propagationem plurimum interſit, non&#13;
-ſolum quali converſatione vita &amp; moribus &amp; exemplo ſint illi, qui eccleſia-&#13;
-ſtica Beneficia, Dignitates, Functionesque majores &amp; publicas in Ececleſia &amp;&#13;
-Domo Domini jam adminiſtrant, ſed &amp; qualem illi de ſe virtutis, induſtriæ&#13;
-ac bonæ frugis cxſpectationem præbeant, qui jam primum in ſortem &amp; hæ-&#13;
-reditatem Domini cooptantur, in prima ſiquidem beneficiorum eccleſiaſtico-&#13;
-rum nominatione, collatione ac proviſione aditus aperitur &amp; oſtium, per&#13;
-quod via ad majora eccleſiaſtica munia patet, cujus quidem oſtii quando vigi-&#13;
-lantes prudentes &amp; zeloſi cuſtodes adhibentur, tunc florens eccleſiarum ſtatus&#13;
-conſervatur, ac proinde in beneficiorum eccleſiaſticorum nominatione, pro-&#13;
-viſione &amp; inſtitutione pia ac religioſa mente attendendum, non quid caro &amp;&#13;
-ſanguis, quid affinitatis &amp; amicitiæ conſuetudo, quæ juſtum &amp; ſincerum ju-&#13;
-dicium obfuſcare ſolent, ſed quod graviſſima eccleſiaſticæ functionis dignitas&#13;
-&amp; neceſſitas hoc præſertim corrupto ſeculo poſtulat, Equidem florens eccleſia-&#13;
-rum ſtatus minus conſervatur &amp; perit, quando pueri minus quandoque noti&#13;
-ad eccleſiaſticum ſtatum male educati, quos nulla eruditionis aut modeſtiæ&#13;
-argumenta commendant, pro privato unius Turnarii minus diſcreto judicio,&#13;
-nulla doctrinæ, virtutum, ætatis aut meritorum conſideratione habita, ſed&#13;
-ex profano conſanguinitatis, munerum frequenter etiam illicitarum pactio-&#13;
-num reſpectu contra divina &amp; humana jura, tum etiam laudabilem majorum&#13;
-roſtrorum conſuetudinem ad Canonicatus &amp; Præbendas certis menſibus vacan-&#13;
-tes aſſumuntur, cui certe deterrimo vitio prima apoſtolica eccleſia ſancto &amp;&#13;
-religioſo conſilio ſe oppoſuit, quando Diaconorum &amp; Miniſtrorum electionem&#13;
-non uni privatæ perſonæ ſed communitati conceſſit, cujus quidem apoſtolicæ&#13;
-&amp; primævæ Eccleſiæ ſanctis veſtigiis inhærendo, ut impoſterum Collegia &amp;&#13;
-Eccleſiæ ab his &amp; ſimilibus incommodis liberentur, nominationes, collatio-&#13;
-nes &amp; proviſiones Canonicatuum, Præbendarum, Paſtoratuum &amp; Officiorum,&#13;
-ut pure, libere &amp; ſimpliciter absque ulla fraude &amp; dolo &amp; ſine unius impreſ-&#13;
+        <Unicode>RNESTUS Dei &amp; apoſtolicæ Sedis gratia Archiepiscopus Colonienſis. Pa-
+ſtoralis vocationis &amp; officii noſtri memores &amp; cupientes Eccleſiarum noſtrarum
+tranquillitati, paci &amp; honeſtati conſulere, certam rationem eorum habendam
+exiſtimavimus, qui primum ad eccleſiaſticum ſtatum admittuntur. Cum ad
+catholicæ doctrinæ conſervationem ac propagationem plurimum interſit, non
+ſolum quali converſatione vita &amp; moribus &amp; exemplo ſint illi, qui eccleſia-
+ſtica Beneficia, Dignitates, Functionesque majores &amp; publicas in Ececleſia &amp;
+Domo Domini jam adminiſtrant, ſed &amp; qualem illi de ſe virtutis, induſtriæ
+ac bonæ frugis cxſpectationem præbeant, qui jam primum in ſortem &amp; hæ-
+reditatem Domini cooptantur, in prima ſiquidem beneficiorum eccleſiaſtico-
+rum nominatione, collatione ac proviſione aditus aperitur &amp; oſtium, per
+quod via ad majora eccleſiaſtica munia patet, cujus quidem oſtii quando vigi-
+lantes prudentes &amp; zeloſi cuſtodes adhibentur, tunc florens eccleſiarum ſtatus
+conſervatur, ac proinde in beneficiorum eccleſiaſticorum nominatione, pro-
+viſione &amp; inſtitutione pia ac religioſa mente attendendum, non quid caro &amp;
+ſanguis, quid affinitatis &amp; amicitiæ conſuetudo, quæ juſtum &amp; ſincerum ju-
+dicium obfuſcare ſolent, ſed quod graviſſima eccleſiaſticæ functionis dignitas
+&amp; neceſſitas hoc præſertim corrupto ſeculo poſtulat, Equidem florens eccleſia-
+rum ſtatus minus conſervatur &amp; perit, quando pueri minus quandoque noti
+ad eccleſiaſticum ſtatum male educati, quos nulla eruditionis aut modeſtiæ
+argumenta commendant, pro privato unius Turnarii minus diſcreto judicio,
+nulla doctrinæ, virtutum, ætatis aut meritorum conſideratione habita, ſed
+ex profano conſanguinitatis, munerum frequenter etiam illicitarum pactio-
+num reſpectu contra divina &amp; humana jura, tum etiam laudabilem majorum
+roſtrorum conſuetudinem ad Canonicatus &amp; Præbendas certis menſibus vacan-
+tes aſſumuntur, cui certe deterrimo vitio prima apoſtolica eccleſia ſancto &amp;
+religioſo conſilio ſe oppoſuit, quando Diaconorum &amp; Miniſtrorum electionem
+non uni privatæ perſonæ ſed communitati conceſſit, cujus quidem apoſtolicæ
+&amp; primævæ Eccleſiæ ſanctis veſtigiis inhærendo, ut impoſterum Collegia &amp;
+Eccleſiæ ab his &amp; ſimilibus incommodis liberentur, nominationes, collatio-
+nes &amp; proviſiones Canonicatuum, Præbendarum, Paſtoratuum &amp; Officiorum,
+ut pure, libere &amp; ſimpliciter absque ulla fraude &amp; dolo &amp; ſine unius impreſ-
 ſione aut aliquo privato &amp; ſiniſtro ſtudio poſthac ubique fiant &amp; de communi</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion type="catch-word" id="region_1682589219805_2426" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="region_1682589219805_2426" custom="readingOrder {index:5;} structure {type:catch-word;}" type="catch-word">
       <Coords points="1566,2369 1566,2409 1685,2409 1685,2369"/>
       <TextLine id="line_1682589220041_2429" custom="readingOrder {index:0;}">
         <Coords points="1566,2369 1566,2409 1685,2409 1685,2369"/>
@@ -2407,5 +2419,8 @@ ut pure, libere &amp; ſimpliciter absque ulla fraude &amp; dolo &amp; ſine uni
         <Unicode>totius</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1682589125195_2370" custom="readingOrder {index:0;}">
+      <Coords points="809,384 1134,384 1134,439 809,439"/>
+    </GraphicRegion>
   </Page>
 </PcGts>

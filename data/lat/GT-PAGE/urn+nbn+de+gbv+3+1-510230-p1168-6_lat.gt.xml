@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-186">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:48Z</Created>
     <LastChange>2024-01-19T13:08:48Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-510230-p1168-6_lat.png" imageWidth="2450" imageHeight="2903" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/5292a704-9e5a-488d-b056-601dc93d535d/00001168.jpg" imageWidth="2450" imageHeight="2903" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="431,153 435,2789 2347,2746 2337,119"/>
     </Border>
@@ -20,7 +35,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1671710212149_1037"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.0" type="page-number" readingDirection="left-to-right" id="TextRegion_1671710242243_1059" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="TextRegion_1671710242243_1059" custom="readingOrder {index:0;} structure {type:page-number;}" orientation="0." type="page-number" readingDirection="left-to-right">
       <Coords points="898,486 1025,488 1025,554 898,552"/>
       <TextLine id="line_1671710242286_1062" custom="readingOrder {index:0;}">
         <Coords points="898,495 964,494 971,493 977,488 1005,492 1016,489 1016,546 967,546 961,551 949,551 944,546 898,546"/>
@@ -38,10 +53,10 @@
         <Unicode>1148:</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" type="header" readingDirection="left-to-right" id="TextRegion_1671710242242_1058" custom="readingOrder {index:1;} structure {type:header;}">
+    <TextRegion id="TextRegion_1671710242242_1058" custom="readingOrder {index:1;} structure {type:header;}" orientation="0." type="header" readingDirection="left-to-right">
       <Coords points="1098,487 1957,486 1957,552 1098,553"/>
       <TextLine id="line_1671710242286_1061" custom="readingOrder {index:0;}">
-        <Coords points="1109,489 1055,487 1141,486 1822,486 1846,489 1956,490 1956,550 1901,551 1897,545 1877,541 1873,551 1847,551 1842,548 1837,551 1825,551 1816,545 1815,531 1812,532 1814,544 1810,549 1795,551 1787,551 1782,547 1783,531 1776,532 1776,541 1773,545 1763,546 1757,551 1688,551 1678,545 1672,550 1663,550 1657,545 1633,549 1629,546 1372,548 1130,544 1109,546"/>
+        <Coords points="1109,489 1109,546 1130,544 1372,548 1629,546 1633,549 1657,545 1663,550 1672,550 1678,545 1688,551 1757,551 1763,546 1773,545 1776,541 1776,532 1783,531 1782,547 1787,551 1795,551 1810,549 1814,544 1812,532 1815,531 1816,545 1825,551 1837,551 1842,548 1847,551 1873,551 1877,541 1897,545 1901,551 1956,550 1956,490 1846,489 1823,486 1098,487 1098,488"/>
         <Baseline points="1783,533 1812,533 1815,533 1956,532"/>
         <Word id="region0001_line0001_word0001" custom="readingOrder {index:0;}">
           <Coords points="1413,508 1140,508 1140,544 1372,548 1413,547"/>
@@ -81,7 +96,7 @@
         <Unicode>PANDECT. LIB. XXXVIII. TIT II.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" type="marginalia" readingDirection="left-to-right" id="TextRegion_1671710196871_1022" custom="readingOrder {index:2;} structure {type:marginalia;}">
+    <TextRegion id="TextRegion_1671710196871_1022" custom="readingOrder {index:2;} structure {type:marginalia;}" orientation="0." type="marginalia" readingDirection="left-to-right">
       <Coords points="659,1693 905,1693 905,1843 659,1843"/>
       <TextLine id="line_1671710196928_1025" custom="readingOrder {index:0;}">
         <Coords points="659,1696 689,1694 730,1697 736,1693 745,1693 751,1701 765,1702 905,1704 905,1744 811,1746 773,1745 762,1742 754,1746 707,1748 704,1751 689,1751 675,1747 659,1748"/>
@@ -138,12 +153,12 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quibus. com- S. IlI. Competit hoc jus mortuarium dominis, in&#13;
-petut jus mor-&#13;
+        <Unicode>Quibus. com- S. IlI. Competit hoc jus mortuarium dominis, in
+petut jus mor-
 tuarium.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" readingDirection="left-to-right" id="TextRegion_1671710231322_1048" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1671710231322_1048" custom="readingOrder {index:3;}" orientation="0." readingDirection="left-to-right">
       <Coords points="905,580 2194,580 2194,1693 905,1693"/>
       <TextLine id="line_1671710192416_911" custom="readingOrder {index:0;}">
         <Coords points="905,584 1018,584 1097,587 1099,580 1119,580 1122,586 1341,586 1352,585 1355,580 1371,580 1375,587 1386,588 1588,591 1602,591 1606,584 1617,583 1625,591 1690,594 1763,594 1768,582 1779,581 1787,585 1789,594 2102,598 2109,589 2123,588 2140,590 2145,601 2149,589 2160,588 2166,594 2167,603 2193,604 2193,642 2149,646 2066,647 1601,639 1579,640 1578,645 1572,650 1558,651 1553,649 1551,640 1519,636 1496,641 1494,648 1488,651 1472,650 1468,647 1467,641 1443,640 1406,640 1402,648 1392,650 1381,647 1380,641 1375,639 1246,634 1077,636 1065,633 905,636"/>
@@ -259,7 +274,7 @@ tuarium.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671710449341_1145" custom="readingOrder {index:2;}">
-          <Coords points="1321,703 1334,698 1372,697 1390,697 1397,700 1405,706 1405,757 1351,762 1329,764 1321,756"/>
+          <Coords points="1372,697 1363,706 1341,705 1338,699 1334,698 1321,704 1321,756 1321,756 1326,757 1329,764 1351,762 1353,762 1354,757 1405,757 1405,706 1399,706 1397,700 1390,697"/>
           <TextEquiv>
             <Unicode>ipſe</Unicode>
           </TextEquiv>
@@ -437,7 +452,7 @@ tuarium.</Unicode>
         </Word>
         <Word id="region0003_line0006_word0002" custom="readingOrder {index:2;} textStyle {offset:0; length:2;italic:true; fontSize:0.0; kerning:0;}">
           <Coords points="1272,917 1328,917 1328,878 1314,878 1313,882 1304,884 1272,881"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>ad</Unicode>
           </TextEquiv>
         </Word>
@@ -900,7 +915,7 @@ tuarium.</Unicode>
         <Coords points="905,1347 992,1345 1002,1344 1006,1338 1021,1335 1036,1339 1053,1337 1058,1345 1077,1346 1202,1347 1208,1339 1221,1339 1227,1347 1266,1348 1268,1338 1283,1335 1289,1340 1289,1347 1309,1347 1316,1339 1332,1338 1341,1341 1345,1348 1359,1350 1602,1354 1608,1346 1622,1346 1627,1354 1712,1353 1768,1356 1776,1359 1939,1357 1995,1360 2126,1360 2147,1357 2193,1357 2193,1410 2137,1407 2126,1410 2060,1410 2056,1417 2042,1419 2032,1415 2031,1410 1983,1409 1973,1405 1951,1408 1771,1407 1693,1402 1648,1404 1643,1401 1521,1402 1467,1401 1461,1398 1416,1400 1333,1397 1325,1402 1305,1405 1302,1399 1251,1398 1225,1394 1104,1395 999,1392 968,1395 940,1392 934,1398 925,1400 918,1398 914,1391 905,1391"/>
         <Baseline points="905,1382 2193,1399"/>
         <Word id="word_1671712406914_1338" custom="readingOrder {index:0;}">
-          <Coords points="905,1355 1007,1337 1021,1335 1053,1337 1160,1346 1160,1394 1104,1395 934,1398 918,1398 905,1391"/>
+          <Coords points="905,1355 905,1391 914,1391 918,1398 934,1398 940,1392 968,1395 999,1392 1104,1395 1160,1394 1160,1346 1077,1346 1058,1345 1053,1337 1036,1339 1021,1335 1006,1338 1002,1344 992,1345 957,1345"/>
           <TextEquiv>
             <Unicode>quæſtiones</Unicode>
           </TextEquiv>
@@ -1004,7 +1019,7 @@ tuarium.</Unicode>
         </Word>
         <Word id="region0003_line0015_word0010" custom="readingOrder {index:10;}">
           <Coords points="1982,1452 2189,1452 2189,1417 2168,1417 2167,1412 2162,1409 2129,1409 2124,1412 2123,1418 2057,1417 2042,1420 2033,1416 1982,1415"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>concedi-</Unicode>
           </TextEquiv>
         </Word>
@@ -1052,7 +1067,7 @@ tuarium.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1671712473302_1387" custom="readingOrder {index:6;}">
-          <Coords points="1893,1464 1908,1463 1913,1466 1940,1465 1962,1473 1976,1474 2007,1474 2008,1472 2008,1525 1894,1525"/>
+          <Coords points="1908,1463 1893,1464 1893,1523 1989,1523 1996,1525 2008,1525 2008,1472 2007,1474 1976,1474 1962,1473 1940,1465 1913,1466"/>
           <TextEquiv>
             <Unicode>Nam</Unicode>
           </TextEquiv>
@@ -1172,7 +1187,7 @@ tuarium.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1671710192456_979" custom="readingOrder {index:18;}">
-        <Coords points="905,1625 934,1626 955,1635 981,1637 987,1637 989,1631 995,1627 1007,1628 1010,1636 1014,1637 1018,1628 1034,1626 1040,1630 1042,1637 1054,1637 1056,1629 1074,1625 1081,1630 1083,1637 1092,1640 1146,1639 1146,1630 1153,1625 1165,1628 1168,1639 1214,1634 1226,1627 1255,1629 1268,1638 1286,1635 1365,1637 1382,1636 1388,1632 1400,1632 1406,1636 1453,1639 1483,1639 1493,1635 1533,1638 1543,1634 1584,1639 1603,1633 1614,1633 1621,1638 1628,1635 1651,1634 1660,1643 1686,1647 1690,1662 1729,1663 1732,1667 1732,1693 1727,1698 1642,1699 1626,1705 1609,1698 1553,1698 1544,1692 1533,1692 1526,1696 1450,1695 1440,1691 1426,1694 1306,1693 1235,1690 1200,1685 1105,1684 959,1686 955,1696 939,1699 929,1695 927,1686 905,1685"/>
+        <Coords points="1732,1667 1729,1663 1690,1662 1686,1647 1660,1643 1651,1634 1628,1635 1621,1638 1614,1633 1603,1633 1584,1639 1543,1634 1533,1638 1493,1635 1483,1639 1453,1639 1406,1636 1400,1632 1388,1632 1382,1636 1365,1637 1286,1635 1268,1638 1255,1629 1226,1627 1214,1634 1168,1639 1165,1628 1153,1625 1146,1630 1146,1639 1092,1640 1083,1637 1081,1630 1074,1625 1056,1629 1054,1637 1042,1637 1040,1630 1034,1626 1018,1628 1014,1637 1010,1636 1007,1628 995,1627 989,1631 987,1637 981,1637 955,1635 934,1626 905,1625 905,1685 927,1686 928,1693 956,1693 959,1686 1105,1684 1200,1685 1235,1690 1306,1693 1430,1693 1440,1691 1445,1693 1531,1693 1533,1692 1544,1692 1545,1693 1732,1693"/>
         <Baseline points="905,1676 1130,1673 1732,1688"/>
         <Word id="word_1671710231369_1051" custom="readingOrder {index:0;}">
           <Coords points="907,1636 968,1636 981,1637 987,1637 987,1636 1010,1636 1014,1637 1014,1636 1041,1636 1042,1637 1054,1637 1054,1636 1082,1636 1083,1637 1088,1638 1088,1684 959,1686 956,1693 928,1693 927,1686 907,1685"/>
@@ -1209,31 +1224,31 @@ tuarium.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>mortuarium ex antiqua propriorum hominum condi-&#13;
-tione fluat, adeoque ante jus Romanum in Germania&#13;
-obtinuerit, prout ipſe innuit, dum §. l. cit. cap. lIl. ad-&#13;
-ſtruit, jus mortuarium cum ipſa agricolatione natum, &amp;&#13;
-imprimis a Clodovei I. temporibus deducendum eſſe.&#13;
-Inde Brunnem, ad l. 1. ff. h. t. n. 4. ſimile quid tantum hic&#13;
-deprehendi aſſerit, his verbis: Hodie ſimile jus in bonis&#13;
-ruſticorum habent in Germania ſuperiore, quod vocari ſolet&#13;
-Mortuarium, Hauptfall oder Hauptrecht/ quo domino&#13;
-vel optimum caput quadrupedis,vel melior veſtis vel loco co-&#13;
-rum certa pecuniæ ſumma debetur, vel ſi nullum heredem&#13;
-habeat, ab inteſtato ei ſuccedat. Interim. tamen hanc de&#13;
-ſucceſſione libertorum doctrinam ſæpiſſime facere ad&#13;
-quæſtiones circa Jus mortuarium occurrentes, putat&#13;
-Philippi in Uſ. pract. Inſtit. lib. IIl. eclog. 32. quod concedi-&#13;
-poteſt, ſi par ubique ratio deprehenditur. Nam in jure&#13;
-mortuario revera quædam ſucceſſio adeſt, unde etiam&#13;
-vocari quandoque ſolet ein Erbrecht/ eine Erbſchafft.&#13;
+        <Unicode>mortuarium ex antiqua propriorum hominum condi-
+tione fluat, adeoque ante jus Romanum in Germania
+obtinuerit, prout ipſe innuit, dum §. l. cit. cap. lIl. ad-
+ſtruit, jus mortuarium cum ipſa agricolatione natum, &amp;
+imprimis a Clodovei I. temporibus deducendum eſſe.
+Inde Brunnem, ad l. 1. ff. h. t. n. 4. ſimile quid tantum hic
+deprehendi aſſerit, his verbis: Hodie ſimile jus in bonis
+ruſticorum habent in Germania ſuperiore, quod vocari ſolet
+Mortuarium, Hauptfall oder Hauptrecht/ quo domino
+vel optimum caput quadrupedis,vel melior veſtis vel loco co-
+rum certa pecuniæ ſumma debetur, vel ſi nullum heredem
+habeat, ab inteſtato ei ſuccedat. Interim. tamen hanc de
+ſucceſſione libertorum doctrinam ſæpiſſime facere ad
+quæſtiones circa Jus mortuarium occurrentes, putat
+Philippi in Uſ. pract. Inſtit. lib. IIl. eclog. 32. quod concedi-
+poteſt, ſi par ubique ratio deprehenditur. Nam in jure
+mortuario revera quædam ſucceſſio adeſt, unde etiam
+vocari quandoque ſolet ein Erbrecht/ eine Erbſchafft.
 Speidel. voce Gewand und Glaͤß.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" readingDirection="left-to-right" id="TextRegion_1671710231321_1047" custom="readingOrder {index:4;}">
+    <TextRegion id="TextRegion_1671710231321_1047" custom="readingOrder {index:4;}" orientation="0." readingDirection="left-to-right">
       <Coords points="905,1693 2194,1693 2194,2468 905,2468"/>
       <TextLine id="line_1671710192458_981" custom="readingOrder {index:0;}">
-        <Coords points="905,1704 959,1705 963,1700 976,1696 1025,1693 1045,1687 1068,1686 1214,1687 1251,1691 1267,1699 1319,1701 1364,1701 1376,1699 1383,1693 1395,1693 1401,1698 1412,1700 1424,1700 1425,1695 1431,1692 1440,1692 1449,1695 1451,1701 1525,1702 1530,1694 1544,1693 1552,1698 1553,1703 1566,1704 1721,1704 1786,1708 1795,1708 1805,1694 1816,1695 1824,1707 1908,1706 1919,1693 1931,1692 1941,1708 1993,1709 1999,1700 2015,1697 2021,1702 2024,1710 2043,1710 2054,1696 2065,1697 2070,1710 2108,1709 2116,1697 2128,1696 2133,1700 2135,1708 2193,1707 2193,1760 2102,1763 2097,1767 2082,1768 2077,1763 2044,1762 2037,1758 2012,1761 1936,1757 1776,1758 1714,1756 1706,1752 1692,1755 1550,1754 1542,1761 1524,1762 1519,1760 1517,1754 1499,1753 1492,1749 1364,1750 1345,1746 1326,1748 1319,1759 1302,1757 1300,1749 1282,1748 1135,1746 1036,1752 978,1749 965,1743 905,1744"/>
+        <Coords points="976,1696 963,1700 959,1705 905,1704 905,1744 965,1743 978,1749 1036,1752 1135,1746 1282,1748 1300,1749 1302,1757 1319,1759 1326,1748 1345,1746 1364,1750 1492,1749 1499,1753 1517,1754 1519,1760 1524,1762 1542,1761 1550,1754 1692,1755 1706,1752 1714,1756 1776,1758 1936,1757 2012,1761 2037,1758 2044,1762 2077,1763 2082,1768 2097,1767 2102,1763 2193,1760 2193,1707 2135,1708 2133,1700 2128,1696 2116,1697 2108,1709 2070,1710 2065,1697 2054,1696 2043,1710 2024,1710 2021,1702 2015,1697 1999,1700 1993,1709 1941,1708 1931,1693 1919,1693 1908,1706 1824,1707 1816,1695 1805,1694 1795,1708 1786,1708 1721,1704 1566,1704 1553,1703 1552,1698 1544,1693 1530,1694 1525,1702 1451,1701 1449,1695 1443,1693 1429,1693 1425,1695 1424,1700 1412,1700 1401,1698 1395,1693 1383,1693 1376,1699 1364,1701 1319,1701 1267,1699 1255,1693 1025,1693"/>
         <Word id="region0003_line0020_word0002" custom="readingOrder {index:0;}">
           <Coords points="1033,1698 1071,1698 1071,1746 1033,1746"/>
           <TextEquiv>
@@ -1362,7 +1377,7 @@ Speidel. voce Gewand und Glaͤß.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0003_line0022_word0005" custom="readingOrder {index:4;}">
-          <Coords points="1903,1875 2160,1875 2159,1825 2141,1825 2135,1817 2122,1818 2116,1826 2084,1827 2067,1827 2063,1820 2050,1819 2045,1822 2043,1828 2034,1828 2030,1820 2011,1817 1997,1820 1994,1827 1902,1826"/>
+          <Coords points="2031,1875 2037,1872 2047,1872 2050,1875 2160,1875 2159,1825 2141,1825 2135,1817 2122,1818 2116,1826 2084,1827 2067,1827 2063,1820 2050,1819 2045,1822 2043,1828 2034,1828 2030,1820 2011,1817 1997,1820 1994,1827 1902,1826 1902,1874 1904,1874 1908,1875"/>
           <TextEquiv conf="0.8949266">
             <Unicode>conditionis</Unicode>
           </TextEquiv>
@@ -1873,7 +1888,7 @@ Speidel. voce Gewand und Glaͤß.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextLine id="line_1671710192482_1011" custom="readingOrder {index:12;}">
-        <Coords points="905,2397 1131,2400 1209,2406 1237,2404 1248,2393 1258,2394 1264,2403 1366,2403 1377,2401 1381,2395 1391,2392 1399,2393 1403,2403 1414,2404 1477,2400 1527,2402 1537,2393 1546,2393 1561,2397 1570,2405 1589,2405 1596,2393 1607,2392 1614,2398 1616,2406 1733,2407 1736,2398 1743,2396 1755,2402 1762,2400 1769,2408 1790,2409 1877,2408 1883,2399 1887,2398 1900,2400 1903,2407 1912,2400 1925,2399 1933,2407 1946,2408 1961,2407 1968,2400 1980,2398 1996,2400 2001,2408 2046,2408 2053,2401 2076,2399 2081,2401 2084,2408 2093,2406 2098,2400 2112,2400 2117,2406 2193,2415 2193,2454 2064,2460 1925,2462 1915,2467 1896,2466 1891,2462 1713,2461 1620,2456 1590,2457 1589,2465 1584,2470 1562,2471 1556,2465 1555,2457 1508,2455 1435,2455 1433,2464 1425,2469 1408,2467 1404,2455 1125,2454 1118,2464 1101,2464 1093,2453 905,2450"/>
+        <Coords points="1589,2465 1590,2457 1620,2456 1713,2461 1891,2462 1896,2466 1915,2467 1925,2462 2064,2460 2193,2454 2193,2415 2117,2406 2112,2400 2098,2400 2093,2406 2084,2408 2081,2401 2076,2399 2053,2401 2046,2408 2001,2408 1996,2400 1980,2398 1968,2400 1961,2407 1946,2408 1933,2407 1925,2399 1912,2400 1903,2407 1900,2400 1887,2398 1883,2399 1877,2408 1790,2409 1769,2408 1762,2400 1755,2402 1743,2396 1736,2398 1733,2407 1616,2406 1614,2398 1607,2392 1596,2393 1589,2405 1570,2405 1561,2397 1546,2393 1537,2393 1527,2402 1477,2400 1414,2404 1403,2403 1399,2393 1391,2392 1381,2395 1377,2401 1366,2403 1264,2403 1258,2394 1248,2393 1237,2404 1209,2406 1131,2400 905,2397 905,2450 1093,2453 1101,2464 1118,2464 1125,2454 1404,2455 1408,2467 1416,2468 1426,2468 1433,2464 1435,2455 1508,2455 1555,2457 1556,2465 1559,2468 1586,2468"/>
         <Baseline points="905,2440 1884,2453 2193,2445"/>
         <Word id="word_1671710192483_1013" custom="readingOrder {index:0;}">
           <Coords points="905,2411 1219,2411 1219,2454 1125,2454 1121,2459 1097,2459 1093,2453 905,2450"/>
@@ -1916,25 +1931,25 @@ Speidel. voce Gewand und Glaͤß.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>§. IlI. Competit hoc jus mortuarium dominis, dominis, in&#13;
-quorum nexu ruſtici vel proprii homines decedentes&#13;
-peperiuntur intuitu glebæ, cujuscunque conditionis&#13;
-fuerint, nec tantum reſtringendum ad eos, qui juris-&#13;
-dictionem in illo loco exercent, uti optime obſervat Dn.&#13;
-Harprecht. cit. l. c 5. §. 3. Et ſic nonnullis in locis Ec-&#13;
-cleſiæ competit, cujus forſan in nexu ſunt ruſtici: quin&#13;
-&amp; nonnullis in locis generatim olim receptum fuit, ut&#13;
-Parochiani decedentes mortuarii locoparocho præſta-&#13;
-rent optimum animal, in compenſationem jurium&#13;
-parochialium per ignorantiam non ſolutorum, Du&#13;
-Fresne in gloſſar. voc. mortuarium, qualis ratio etiam&#13;
+        <Unicode>§. IlI. Competit hoc jus mortuarium dominis, dominis, in
+quorum nexu ruſtici vel proprii homines decedentes
+peperiuntur intuitu glebæ, cujuscunque conditionis
+fuerint, nec tantum reſtringendum ad eos, qui juris-
+dictionem in illo loco exercent, uti optime obſervat Dn.
+Harprecht. cit. l. c 5. §. 3. Et ſic nonnullis in locis Ec-
+cleſiæ competit, cujus forſan in nexu ſunt ruſtici: quin
+&amp; nonnullis in locis generatim olim receptum fuit, ut
+Parochiani decedentes mortuarii locoparocho præſta-
+rent optimum animal, in compenſationem jurium
+parochialium per ignorantiam non ſolutorum, Du
+Fresne in gloſſar. voc. mortuarium, qualis ratio etiam
 nonnunquam in antiquis diplomatibus adducta: fuit,</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="0.0" type="catch-word" readingDirection="left-to-right" id="TextRegion_1671710212149_1037" custom="readingOrder {index:5;} structure {type:catch-word;}">
+    <TextRegion id="TextRegion_1671710212149_1037" custom="readingOrder {index:5;} structure {type:catch-word;}" orientation="0." type="catch-word" readingDirection="left-to-right">
       <Coords points="1936,2471 2194,2468 2194,2527 1936,2530"/>
       <TextLine id="line_1671710212200_1040" custom="readingOrder {index:0;}">
-        <Coords points="1945,2477 1953,2471 2028,2468 2193,2468 2193,2511 2135,2512 2062,2518 2059,2526 2029,2526 2027,2519 1950,2517 1945,2512"/>
+        <Coords points="1953,2471 1945,2477 1945,2512 1950,2517 2027,2519 2029,2526 2059,2526 2062,2518 2135,2512 2193,2511 2193,2468 1959,2470"/>
         <Baseline points="1945,2509 2193,2501"/>
         <Word id="region0003_line0033_word0000" custom="readingOrder {index:0;}">
           <Coords points="2164,2473 2024,2473 2024,2518 2027,2519 2028,2525 2059,2525 2062,2518 2135,2512 2164,2511"/>

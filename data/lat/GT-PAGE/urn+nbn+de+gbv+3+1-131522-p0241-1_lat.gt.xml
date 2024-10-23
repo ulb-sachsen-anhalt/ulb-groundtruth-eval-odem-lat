@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-14">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:07:12Z</Created>
     <LastChange>2024-01-19T13:07:12Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="MAX/urn+nbn+de+gbv+3+1-131522_urn+nbn+de+gbv+3+1-131522-p0241-1_lat.png" imageWidth="2519" imageHeight="2786" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/8b7f0b1d-80ec-41d0-8bad-8e955b1270b1/00000241.jpg" imageWidth="2519" imageHeight="2786" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="75,240 80,2622 2063,2622 2068,196"/>
     </Border>
@@ -15,8 +30,8 @@
         <RegionRefIndexed index="0" regionRef="TextRegion_1643095767459_726"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion orientation="0.19873483" readingDirection="left-to-right" id="TextRegion_1643095767459_726" custom="readingOrder {index:0;}">
-      <Coords points="270,545 1543,551 1556,991 1574,2238 1587,2229 278,2218"/>
+    <TextRegion id="TextRegion_1643095767459_726" custom="readingOrder {index:0;}" orientation="0.19873483" readingDirection="left-to-right">
+      <Coords points="270,545 1543,551 1587,2229 278,2218"/>
       <TextLine id="region0003_line0001" custom="readingOrder {index:0;}">
         <Coords points="435,547 317,548 312,553 312,582 320,588 321,594 326,598 450,598 525,601 545,598 555,602 578,603 682,601 694,610 744,600 883,600 922,596 1025,594 1030,597 1084,598 1142,596 1190,600 1334,600 1382,605 1426,604 1508,612 1542,612 1542,573 1525,573 1524,564 1519,559 1472,558 1449,554 1413,554 1404,556 1400,563 1382,563 1324,561 1317,557 1308,557 1304,560 1258,559 1232,550 1210,550 1189,557 1154,558 1147,549 1133,549 1125,558 1121,549 1118,549 1080,549 1077,552 1058,554 1033,549 949,549 927,556 835,555 823,558 817,558 809,550 798,550 791,558 786,559 778,550 767,549 757,559 664,562 662,556 651,549 605,549 596,555 586,549 537,548 509,550 499,555 485,548"/>
         <Word id="word_1643095835189_782" custom="readingOrder {index:0;}">
@@ -188,7 +203,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0003_word0006" custom="readingOrder {index:6;}">
-          <Coords points="1344,652 1342,694 1367,694 1369,654 1353,651"/>
+          <Coords points="1342,694 1367,694 1368,655 1353,651 1343,653"/>
           <TextEquiv conf="0.930861">
             <Unicode>&amp;</Unicode>
           </TextEquiv>
@@ -356,7 +371,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0006_word0002" custom="readingOrder {index:2;}">
-          <Coords points="656,847 656,801 641,808 636,808 632,802 624,802 624,848"/>
+          <Coords points="656,801 641,808 636,808 632,802 624,802 624,845 656,844"/>
           <TextEquiv conf="0.7430731">
             <Unicode>in</Unicode>
           </TextEquiv>
@@ -614,13 +629,13 @@
           </TextEquiv>
         </Word>
         <Word id="region0003_line0009_word0004" custom="readingOrder {index:4;}">
-          <Coords points="649,990 649,940 630,940 605,940 605,989 618,991"/>
+          <Coords points="649,940 605,941 605,989 617,990 624,989 635,990 649,990"/>
           <TextEquiv conf="0.83905303">
             <Unicode>V.</Unicode>
           </TextEquiv>
         </Word>
         <Word id="word_1643096027873_841" custom="readingOrder {index:5;}">
-          <Coords points="691,941 807,940 807,982 691,983"/>
+          <Coords points="691,941 691,983 807,982 807,946 779,947 777,940 749,940 749,941 737,941"/>
           <TextEquiv conf="0.8428683">
             <Unicode>Hoſius</Unicode>
           </TextEquiv>
@@ -1400,7 +1415,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0010_word0008" custom="readingOrder {index:8;}">
-          <Coords points="1038,1454 1038,1491 1088,1491 1088,1449 1074,1449 1048,1454"/>
+          <Coords points="1038,1491 1088,1491 1088,1450 1070,1454 1038,1454"/>
           <TextEquiv conf="0.7738704">
             <Unicode>1.</Unicode>
           </TextEquiv>
@@ -1454,7 +1469,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0011_word0004" custom="readingOrder {index:5;}">
-          <Coords points="1029,1543 1085,1539 1085,1499 987,1504 975,1495 961,1496 958,1503 884,1503 844,1500 844,1541 875,1538 904,1543 1015,1540 1020,1543"/>
+          <Coords points="1085,1539 1085,1503 987,1504 975,1495 961,1496 958,1503 884,1503 844,1500 844,1541 844,1541 875,1538 904,1543 1015,1540 1020,1543 1029,1543"/>
           <TextEquiv conf="0.8927144">
             <Unicode>connexionem,</Unicode>
           </TextEquiv>
@@ -1676,7 +1691,7 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643096242550_926" custom="readingOrder {index:4;}">
-          <Coords points="648,1646 733,1630 749,1629 796,1631 848,1636 848,1678 733,1678 648,1669"/>
+          <Coords points="648,1646 648,1669 733,1678 743,1678 831,1677 843,1678 848,1678 848,1636 826,1638 802,1638 796,1631 781,1631 776,1639 768,1639 765,1630 749,1629 729,1631 723,1640 679,1640"/>
           <TextEquiv>
             <Unicode>neceſſarium</Unicode>
           </TextEquiv>
@@ -1910,13 +1925,13 @@
           </TextEquiv>
         </Word>
         <Word id="word_1643096294615_936" custom="readingOrder {index:2;}">
-          <Coords points="484,1787 498,1787 512,1790 529,1786 553,1794 553,1826 484,1824"/>
+          <Coords points="484,1787 484,1824 553,1826 553,1794 539,1789 512,1790 495,1787"/>
           <TextEquiv>
             <Unicode>nec</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0004_line0017_word0002" custom="readingOrder {index:3;}">
-          <Coords points="732,1831 732,1792 671,1793 669,1781 654,1779 649,1781 646,1793 556,1785 556,1828 627,1831 645,1831 649,1835 704,1835 707,1831"/>
+          <Coords points="732,1792 671,1793 669,1781 654,1779 649,1781 646,1793 592,1789 556,1789 556,1828 597,1830 605,1830 605,1830 627,1831 645,1831 649,1835 704,1835 707,1831 732,1831"/>
           <TextEquiv>
             <Unicode>τεϰμήϱια</Unicode>
           </TextEquiv>
@@ -2444,7 +2459,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0004_line0023_word0008" custom="readingOrder {index:8;}">
-          <Coords points="983,2075 956,2075 956,2114 1122,2115 1122,2076 1126,2074 1111,2085 1094,2084 1089,2077 1073,2077 1068,2083 1022,2083 1014,2075 1002,2075 996,2082 988,2082 984,2080 984,2075"/>
+          <Coords points="983,2075 956,2075 956,2114 1122,2115 1126,2074 1111,2085 1094,2084 1089,2077 1073,2077 1068,2083 1022,2083 1014,2075 988,2082"/>
           <TextEquiv>
             <Unicode>facinoris.</Unicode>
           </TextEquiv>
@@ -2628,39 +2643,39 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>De Notis Eccleſiæ gravis inter nos &amp; Pontificios eſt controverſia. Nos&#13;
-notas Eccleſiæ duas conſtituimus, puram verbi prædicationem &amp; legitimam&#13;
-Sacramentorum adminiſtrationem. Pontificii verò has negant &amp; alias ſub-&#13;
-ſtituunt, quamvis in numero non conveniant. Thomas Bzovius centum,&#13;
-notas aſſignat, Stanislaus Socolovius in libro de Notis Eccleſiæ recenſet XX.&#13;
-Jacobus Rayhingius in Muris civitatis Sanctæ XII. totidem Piſtorius, quam-&#13;
-vis alias à prioribus, Michaël de Medina lib. II. de recta fide X. lib. VII. ad-&#13;
-dit XImam. Sanderus lib. VIII. de viſib Monarch. c. 50. VI. Salmeron.&#13;
-Tom. VI. Tract, 23. V. Hoſius in Explic. Symbol. &amp; Coſterus in Enchirid.&#13;
-c.2. IV. in Symbolo expreſſas. Stapletonus, Joh. Driedo, Sixtus Senenſis,&#13;
-Balthaſ. Hagerus III. Catecheſis Tridentina II. (1.) Catholicæ (2.) Apoſto-&#13;
-licæ Eccleſiæ nomen. Lindanus lib: 4. Panopliæ c. 83. Caniſius in Cate-&#13;
-cheſi unam, R. Pontificem &amp; Cathedram R. Quem ſuorum diſſenſum ag-&#13;
-noſcit Bellarm. lib. 4. de Eccleſ. c. 3. Ipſe verò XV ponit notas, agnoſcit,&#13;
-tamen has notas poſſe ad 4. in Symbolo expreſſas revocari. Ut ſtatum Con-&#13;
-troverſiæ legitime ponamus, ſciendum eſt, qua &amp; qualis ſit nota, de qua,&#13;
-hîc quæritur. Nota eſt ſignum, ex quo res ſingulares à ſenſibus paulò re-&#13;
-motiores inveſtigantur. Notæ autem tales non ſunt unius generis, ſicut&#13;
-docet Ariſtot. II. Prior. 27. &amp; I. Rhet. 1. Quædam neceſſariam-&#13;
-cum rebus, quas ſignant, habent connexionem, ita, ut præſente ſignô eti-&#13;
-am res vel adſit, vel adfuerit, vel adfutura ſit, qualis nota ignis eſt fumus.&#13;
-Et talia ſigna Philoſopho vocantur τεϰμήϱια. His opponuntur ſigna, quæ&#13;
-ſicuti cum ſuis ſignatis neceſſarium &amp; infallibilem nexum non habent, ita,&#13;
-&amp; dubiam pariunt notitiam, qualis nota eſt pallor, ex quo colligi poteſt di-&#13;
-ligentia in ſtudiis, aſt non neceſſariò. Hic quæritur non de his, ſed de illis&#13;
-notis. Aſt nec τεϰμήϱια ſunt ejusdem cenſus. Quædam enim ex illis ta-&#13;
-lia ſunt, ut affirmative ex illis liceat colligere, negative non item, ut ex lacte&#13;
-partus colligitur, ſed ex defectu lactis non infertur defectus partus. Ab a-&#13;
-liis negative quidem licet progredi ad rem, ſed non affirmativè. E. G. re-&#13;
-ctè colligo, hic, cum facinus hoc patraretur hôc in locô, non fuit præſens&#13;
-in illo loco, Ergò non eſt autor ſceleris Malè autem colligerem: Hic tum&#13;
-temporis fuit in illo loco, Ergo reus eſt facinoris. Deniq; à quibusdam,&#13;
-ſignis &amp; affirmativè &amp; negative concluditur, ab iis ſcil. quorum termini ſunt&#13;
+        <Unicode>De Notis Eccleſiæ gravis inter nos &amp; Pontificios eſt controverſia. Nos
+notas Eccleſiæ duas conſtituimus, puram verbi prædicationem &amp; legitimam
+Sacramentorum adminiſtrationem. Pontificii verò has negant &amp; alias ſub-
+ſtituunt, quamvis in numero non conveniant. Thomas Bzovius centum,
+notas aſſignat, Stanislaus Socolovius in libro de Notis Eccleſiæ recenſet XX.
+Jacobus Rayhingius in Muris civitatis Sanctæ XII. totidem Piſtorius, quam-
+vis alias à prioribus, Michaël de Medina lib. II. de recta fide X. lib. VII. ad-
+dit XImam. Sanderus lib. VIII. de viſib Monarch. c. 50. VI. Salmeron.
+Tom. VI. Tract, 23. V. Hoſius in Explic. Symbol. &amp; Coſterus in Enchirid.
+c.2. IV. in Symbolo expreſſas. Stapletonus, Joh. Driedo, Sixtus Senenſis,
+Balthaſ. Hagerus III. Catecheſis Tridentina II. (1.) Catholicæ (2.) Apoſto-
+licæ Eccleſiæ nomen. Lindanus lib: 4. Panopliæ c. 83. Caniſius in Cate-
+cheſi unam, R. Pontificem &amp; Cathedram R. Quem ſuorum diſſenſum ag-
+noſcit Bellarm. lib. 4. de Eccleſ. c. 3. Ipſe verò XV ponit notas, agnoſcit,
+tamen has notas poſſe ad 4. in Symbolo expreſſas revocari. Ut ſtatum Con-
+troverſiæ legitime ponamus, ſciendum eſt, qua &amp; qualis ſit nota, de qua,
+hîc quæritur. Nota eſt ſignum, ex quo res ſingulares à ſenſibus paulò re-
+motiores inveſtigantur. Notæ autem tales non ſunt unius generis, ſicut
+docet Ariſtot. II. Prior. 27. &amp; I. Rhet. 1. Quædam neceſſariam-
+cum rebus, quas ſignant, habent connexionem, ita, ut præſente ſignô eti-
+am res vel adſit, vel adfuerit, vel adfutura ſit, qualis nota ignis eſt fumus.
+Et talia ſigna Philoſopho vocantur τεϰμήϱια. His opponuntur ſigna, quæ
+ſicuti cum ſuis ſignatis neceſſarium &amp; infallibilem nexum non habent, ita,
+&amp; dubiam pariunt notitiam, qualis nota eſt pallor, ex quo colligi poteſt di-
+ligentia in ſtudiis, aſt non neceſſariò. Hic quæritur non de his, ſed de illis
+notis. Aſt nec τεϰμήϱια ſunt ejusdem cenſus. Quædam enim ex illis ta-
+lia ſunt, ut affirmative ex illis liceat colligere, negative non item, ut ex lacte
+partus colligitur, ſed ex defectu lactis non infertur defectus partus. Ab a-
+liis negative quidem licet progredi ad rem, ſed non affirmativè. E. G. re-
+ctè colligo, hic, cum facinus hoc patraretur hôc in locô, non fuit præſens
+in illo loco, Ergò non eſt autor ſceleris Malè autem colligerem: Hic tum
+temporis fuit in illo loco, Ergo reus eſt facinoris. Deniq; à quibusdam,
+ſignis &amp; affirmativè &amp; negative concluditur, ab iis ſcil. quorum termini ſunt
 convertibiles. E. G. rectè colligo. Dies eſt. Ergo ſol eſt ſupra hori-</Unicode>
       </TextEquiv>
     </TextRegion>

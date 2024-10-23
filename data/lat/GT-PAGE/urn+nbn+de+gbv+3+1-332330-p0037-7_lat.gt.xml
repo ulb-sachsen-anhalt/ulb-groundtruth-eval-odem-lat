@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pcGtsId="PAGE_01" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-GT-FULLTEXT-141">
   <Metadata>
     <Creator>OCR-D DFG Phase III</Creator>
     <Created>2024-01-19T13:08:14Z</Created>
     <LastChange>2024-01-19T13:08:14Z</LastChange>
     <Comments>ODEM: OCR-D extension for mass digitization (2021-2024)</Comments>
+    <MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-segment-repair">
+      <Labels externalModel="ocrd-tool" externalId="parameters">
+        <Label value="False" type="sanitize"/>
+        <Label value="5" type="sanitize_padding"/>
+        <Label value="0" type="simplify"/>
+        <Label value="False" type="plausibilize"/>
+        <Label value="0.9" type="plausibilize_merge_min_overlap"/>
+        <Label value="0" type="spread"/>
+        <Label value="region" type="spread_level"/>
+      </Labels>
+      <Labels externalModel="ocrd-tool" externalId="version">
+        <Label value="0.1.24" type="ocrd-segment-repair"/>
+        <Label value="2.65.0" type="ocrd/core"/>
+      </Labels>
+    </MetadataItem>
   </Metadata>
-  <Page imageFilename="urn+nbn+de+gbv+3+1-332330-p0037-7_lat.jpg" imageWidth="2334" imageHeight="2742" type="content" primaryLanguage="Latin">
+  <Page imageFilename="https://opendata.uni-halle.de/retrieve/10fa9029-8375-4985-a7f6-f369596eb344/00000037.jpg" imageWidth="2334" imageHeight="2742" type="content" primaryLanguage="Latin">
     <Border>
       <Coords points="337,546 1699,546 1699,2601 337,2601"/>
     </Border>
@@ -19,7 +34,7 @@
         <RegionRefIndexed index="5" regionRef="TextRegion_1663923304886_3788"/>
       </OrderedGroup>
     </ReadingOrder>
-    <TextRegion type="page-number" id="region_1683535640499_824" custom="readingOrder {index:0;} structure {type:page-number;}">
+    <TextRegion id="region_1683535640499_824" custom="readingOrder {index:0;} structure {type:page-number;}" type="page-number">
       <Coords points="1632,566 1632,614 1693,614 1693,566"/>
       <TextLine id="line_1683535640597_827" custom="readingOrder {index:0;}">
         <Coords points="1632,566 1632,614 1693,614 1693,566"/>
@@ -37,10 +52,7 @@
         <Unicode>35</Unicode>
       </TextEquiv>
     </TextRegion>
-    <GraphicRegion id="Graphic_1683535635676_821" custom="readingOrder {index:1;}">
-      <Coords points="903,548 1149,548 1149,598 903,598"/>
-    </GraphicRegion>
-    <TextRegion orientation="-0.6966992" readingDirection="left-to-right" id="TextRegion_1663923328006_3799" custom="readingOrder {index:2;}">
+    <TextRegion id="TextRegion_1663923328006_3799" custom="readingOrder {index:2;}" orientation="-0.6966992" readingDirection="left-to-right">
       <Coords points="355,634 1687,634 1687,902 1686,982 342,982 342,919"/>
       <TextLine id="region0002_line0001" custom="readingOrder {index:0;}">
         <Coords points="1366,634 1361,638 1301,637 1278,643 1269,643 1264,635 1247,635 1242,643 1213,642 1208,634 1190,634 1186,639 1184,635 1165,635 1159,641 1142,640 1138,634 1105,634 1060,634 1057,641 973,642 880,640 875,634 860,634 851,643 841,645 770,644 759,638 748,638 737,647 655,652 597,649 508,650 499,641 489,640 480,652 431,654 423,645 402,644 391,654 384,654 379,649 371,649 366,654 356,654 355,696 444,696 451,703 467,703 475,694 486,693 510,694 516,701 534,701 540,693 547,692 704,693 742,691 786,693 853,684 882,684 888,692 901,692 909,690 912,684 917,682 1170,683 1214,685 1221,686 1227,691 1245,692 1254,687 1266,686 1297,691 1329,689 1334,673 1359,675 1359,690 1364,695 1411,691 1430,693 1436,699 1450,699 1456,694 1484,695 1529,701 1639,707 1646,716 1664,716 1671,706 1686,705 1687,668 1658,666 1649,656 1634,657 1630,665 1559,661 1543,651 1530,652 1525,657 1462,653 1459,646 1448,639 1379,638 1374,634"/>
@@ -173,7 +185,7 @@
           </TextEquiv>
         </Word>
         <Word id="region0002_line0002_word0010" custom="readingOrder {index:10;}">
-          <Coords points="1457,704 1525,710 1525,755 1457,749"/>
+          <Coords points="1525,755 1525,710 1523,709 1457,709 1457,749 1469,750 1482,746 1485,747 1484,751"/>
           <TextEquiv>
             <Unicode>⁶⁵)</Unicode>
           </TextEquiv>
@@ -259,13 +271,13 @@
         <Coords points="1406,828 1394,838 1386,839 1351,837 1344,833 1335,833 1330,837 1272,841 1266,840 1260,833 1249,833 1240,840 1171,843 1031,843 1026,842 1020,834 1007,834 1001,840 995,834 983,833 970,835 964,841 941,843 897,842 890,835 878,835 870,843 817,842 810,835 790,835 776,845 759,844 752,838 692,839 685,841 680,849 674,851 523,858 519,858 513,850 501,850 493,859 415,857 411,850 402,846 355,845 355,898 525,900 783,885 1303,880 1520,890 1536,895 1541,901 1563,902 1567,897 1686,900 1686,859 1636,857 1620,848 1610,848 1602,856 1597,856 1485,844 1432,843 1427,831"/>
         <Baseline points="355,888 510,890 758,876 1203,870 1417,874 1686,890"/>
         <Word id="region0002_line0004_word0000" custom="readingOrder {index:0;}">
-          <Coords points="360,855 414,855 456,856 447,890 360,883"/>
+          <Coords points="360,855 360,883 447,890 455,858 415,857 413,855"/>
           <TextEquiv conf="0.867656">
             <Unicode>Hanc</Unicode>
           </TextEquiv>
         </Word>
         <Word id="region0002_line0004_word0001" custom="readingOrder {index:1;}">
-          <Coords points="519,887 519,865 516,865 510,857 490,857 483,886"/>
+          <Coords points="519,865 516,865 510,857 494,857 493,859 489,858 483,886 519,887"/>
           <TextEquiv conf="0.89741606">
             <Unicode>ob</Unicode>
           </TextEquiv>
@@ -342,14 +354,14 @@
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>relinqui posse asseruit; sed praeeunte Schultingio, ⁶⁴) Cajum ita scrip-&#13;
-sisse vix opinamur, imo potius, ceu quoque sentit a Costa ⁶⁵) Aniano,&#13;
-qui passim mentem et verba Caji pervertit, mendum hocce tribuimus.&#13;
-Hanc ob causam Oiselius in editione sua verba et alienam penitus&#13;
+        <Unicode>relinqui posse asseruit; sed praeeunte Schultingio, ⁶⁴) Cajum ita scrip-
+sisse vix opinamur, imo potius, ceu quoque sentit a Costa ⁶⁵) Aniano,
+qui passim mentem et verba Caji pervertit, mendum hocce tribuimus.
+Hanc ob causam Oiselius in editione sua verba et alienam penitus
 delevit.</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6966992" readingDirection="left-to-right" id="TextRegion_1663923328006_3798" custom="readingOrder {index:3;}">
+    <TextRegion id="TextRegion_1663923328006_3798" custom="readingOrder {index:3;}" orientation="-0.6966992" readingDirection="left-to-right">
       <Coords points="342,982 1686,982 1680,2206 342,2206"/>
       <TextLine id="region0003_line0002" custom="readingOrder {index:0;}">
         <Coords points="1314,993 1306,1002 1255,1002 1239,993 1229,993 1219,1002 1205,1003 1161,1003 1156,994 1145,993 1136,998 1134,1004 991,1005 986,996 974,994 967,998 965,1004 905,1005 881,1003 877,1000 855,1003 849,995 837,994 828,1004 801,1004 794,995 782,995 773,1005 758,1005 753,997 740,996 734,1001 730,997 717,997 710,1005 532,1015 488,1009 353,1006 348,1011 348,1031 353,1036 413,1039 413,1054 416,1058 440,1062 506,1063 533,1056 693,1047 916,1045 1092,1047 1282,1043 1316,1045 1322,1053 1338,1053 1347,1044 1414,1043 1502,1046 1508,1048 1507,1056 1512,1061 1557,1061 1564,1053 1679,1063 1680,1022 1630,1018 1621,1009 1582,1013 1472,1005 1463,995 1449,995 1442,1004 1383,1002 1374,993 1362,994 1355,1003 1332,1003 1327,994"/>
@@ -1582,27 +1594,27 @@ delevit.</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>Quum vero subinde ista verborum solemnitas ipsis adeo pruden-&#13;
-tibus displicere coepisset, sub Nerone SCto, cujus memoriam nobis con-&#13;
-servavit Ulpianus ⁶⁶) id, ut quod minus pactis h. e. minus accurate&#13;
-compositis verbis legatum est, perinde sit, ac si optimo jure legatum&#13;
-esset, cautum esse novimus. Constitutum itaque fuit SCto Neroniano,&#13;
-ut quae neglecta verborum, quam juris civilis rigor olim fortiter tuitus&#13;
-fuerat, solennitate aut aliis formulis, quam quae cuivis legatorum generi&#13;
-convenirent, relicta essent, perinde haberentur, ac si optimo jure le-&#13;
-gata essent: optimum autem jus, addit Ulpianus, legati per damna-&#13;
-tionem est: unde Neronem de legato quoque rei alienae, quod vel vindi-&#13;
-candi vel sinendi modo relictum ante eum irritum fuerat, cogitasse inter-&#13;
-pretes colligunt. Optimi autem juris adpellationem propterea adhibuisse&#13;
-videtur Ulpianus, quo magis jus laxius et expeditius ⁶⁷) a Nerone con-&#13;
-stitutum significaret. Etenim damnationis legatum, quo omnes omnino&#13;
-commercio non exemtas legare licuit, majori prae ceteris legatorum res&#13;
-generibus in jure favore usum fuisse, quis est qui nesciat? Noli vero&#13;
-putare per hoc SCtum omne, quod varias legandi formulas intercessit,&#13;
+        <Unicode>Quum vero subinde ista verborum solemnitas ipsis adeo pruden-
+tibus displicere coepisset, sub Nerone SCto, cujus memoriam nobis con-
+servavit Ulpianus ⁶⁶) id, ut quod minus pactis h. e. minus accurate
+compositis verbis legatum est, perinde sit, ac si optimo jure legatum
+esset, cautum esse novimus. Constitutum itaque fuit SCto Neroniano,
+ut quae neglecta verborum, quam juris civilis rigor olim fortiter tuitus
+fuerat, solennitate aut aliis formulis, quam quae cuivis legatorum generi
+convenirent, relicta essent, perinde haberentur, ac si optimo jure le-
+gata essent: optimum autem jus, addit Ulpianus, legati per damna-
+tionem est: unde Neronem de legato quoque rei alienae, quod vel vindi-
+candi vel sinendi modo relictum ante eum irritum fuerat, cogitasse inter-
+pretes colligunt. Optimi autem juris adpellationem propterea adhibuisse
+videtur Ulpianus, quo magis jus laxius et expeditius ⁶⁷) a Nerone con-
+stitutum significaret. Etenim damnationis legatum, quo omnes omnino
+commercio non exemtas legare licuit, majori prae ceteris legatorum res
+generibus in jure favore usum fuisse, quis est qui nesciat? Noli vero
+putare per hoc SCtum omne, quod varias legandi formulas intercessit,
 discrimen penitus sublatum aut unum iis singulis jus accommodatum</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6966992" type="catch-word" readingDirection="left-to-right" id="region0004" custom="readingOrder {index:4;} structure {type:catch-word;}">
+    <TextRegion id="region0004" custom="readingOrder {index:4;} structure {type:catch-word;}" orientation="-0.6966992" type="catch-word" readingDirection="left-to-right">
       <Coords points="1564,2236 1668,2236 1668,2278 1564,2278"/>
       <TextLine id="region0004_line" custom="readingOrder {index:0;}">
         <Coords points="1564,2236 1668,2236 1668,2278 1564,2278"/>
@@ -1620,7 +1632,7 @@ discrimen penitus sublatum aut unum iis singulis jus accommodatum</Unicode>
         <Unicode>esse;</Unicode>
       </TextEquiv>
     </TextRegion>
-    <TextRegion orientation="-0.6966992" type="footnote" readingDirection="left-to-right" id="TextRegion_1663923304886_3788" custom="readingOrder {index:5;} structure {type:footnote;}">
+    <TextRegion id="TextRegion_1663923304886_3788" custom="readingOrder {index:5;} structure {type:footnote;}" orientation="-0.6966992" type="footnote" readingDirection="left-to-right">
       <Coords points="385,2320 1267,2320 1483,2470 1483,2596 384,2596 384,2470"/>
       <TextLine id="region0005_line0001" custom="readingOrder {index:0;}">
         <Coords points="1027,2320 1016,2321 1013,2324 1007,2321 917,2321 906,2326 898,2326 895,2320 876,2320 872,2325 863,2325 860,2321 842,2321 837,2328 788,2325 761,2329 757,2328 755,2321 738,2321 734,2330 724,2325 714,2325 709,2329 660,2329 654,2321 642,2320 630,2330 571,2332 565,2325 554,2325 548,2331 526,2332 521,2325 510,2324 502,2333 497,2334 479,2331 474,2327 414,2329 398,2331 386,2337 385,2378 434,2386 462,2384 472,2374 501,2375 507,2379 517,2379 526,2374 569,2371 573,2371 579,2377 591,2378 598,2376 602,2371 632,2369 732,2369 738,2374 750,2374 757,2369 771,2368 946,2365 972,2365 978,2371 988,2372 1000,2365 1048,2363 1066,2365 1076,2372 1120,2372 1127,2362 1172,2368 1222,2362 1267,2363 1267,2324 1046,2325 1038,2324 1035,2320"/>
@@ -1809,7 +1821,7 @@ discrimen penitus sublatum aut unum iis singulis jus accommodatum</Unicode>
         </Word>
         <Word id="region0006_line0001_word0007" custom="readingOrder {index:7;}">
           <Coords points="949,2478 976,2478 975,2516 948,2516"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>§.</Unicode>
           </TextEquiv>
         </Word>
@@ -1852,7 +1864,7 @@ discrimen penitus sublatum aut unum iis singulis jus accommodatum</Unicode>
         </Word>
         <Word id="region0006_line0002_word0004" custom="readingOrder {index:4;}">
           <Coords points="847,2577 934,2578 934,2549 931,2549 926,2541 914,2539 909,2543 907,2550 864,2550 847,2550"/>
-          <TextEquiv conf="0.0">
+          <TextEquiv conf="0.">
             <Unicode>antej.</Unicode>
           </TextEquiv>
         </Word>
@@ -1903,11 +1915,14 @@ discrimen penitus sublatum aut unum iis singulis jus accommodatum</Unicode>
         </TextEquiv>
       </TextLine>
       <TextEquiv>
-        <Unicode>64) in jurisprud. antejust. ad dat Caji loc. p. m, 120.&#13;
-65) in Commentar. ad Instit. ex edit. noviss. p. 297.&#13;
-66) in fragment. tit. 24. de legat §. II.&#13;
+        <Unicode>64) in jurisprud. antejust. ad dat Caji loc. p. m, 120.
+65) in Commentar. ad Instit. ex edit. noviss. p. 297.
+66) in fragment. tit. 24. de legat §. II.
 67) Schulting in jurisprud. antej. ad dat. Ulpiani locum p. m. 652.</Unicode>
       </TextEquiv>
     </TextRegion>
+    <GraphicRegion id="Graphic_1683535635676_821" custom="readingOrder {index:1;}">
+      <Coords points="903,548 1149,548 1149,598 903,598"/>
+    </GraphicRegion>
   </Page>
 </PcGts>
