@@ -1,6 +1,6 @@
 <div>
    <h1 id="title">ulb-groundtruth-eval-odem-lat</h1>
-   <p id="paragraph">OCR-D Phase III - OCR Groundtruth ULB VD18 Latein Antiqua</p>
+   <p id="paragraph">OCR-D Phase III - OCR Groundtruth ULB VD18 Latin Antiqua</p>
    <h2>Metadata</h2>
    <dl class="grid">
       <dt id="Language">Language:</dt>
